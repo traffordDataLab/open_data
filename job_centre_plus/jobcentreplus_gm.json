@@ -1,0 +1,194 @@
+﻿[
+ {
+   "name": "Alexandra Park JCP",
+   "address": "91 Moss Lane East, Moss Side, Manchester, M15 5JB",
+   "lon": -2.2519663,
+   "lat": 53.4604097
+ },
+ {
+   "name": "Altrincham JCP",
+   "address": "Robert House, 80 Manchester Road, Altrincham, WA14 4PU",
+   "lon": -2.3520253,
+   "lat": 53.3960363
+ },
+ {
+   "name": "Ashton Under Lyne JCP",
+   "address": "101 Old Street, Ashton-under-Lyne, OL6 6BJ",
+   "lon": -2.0950357,
+   "lat": 53.4877854
+ },
+ {
+   "name": "Ashton-in-Makerfield JCP",
+   "address": "17-19 Gerard Street, Ashton-in-Makerfield, Wigan, WN4 9AB",
+   "lon": -2.636758,
+   "lat": 53.4871831
+ },
+ {
+   "name": "Atherton JCP",
+   "address": "129 Market Street, Atherton, M46 0DF",
+   "lon": -2.4963319,
+   "lat": 53.5236636
+ },
+ {
+   "name": "Bolton JCP",
+   "address": "52 Blackhorse Street, Bolton, BL1 1SX",
+   "lon": -2.432266,
+   "lat": 53.577386
+ },
+ {
+   "name": "Bury JCP",
+   "address": "Silver Street, Bury, BL9 0DP",
+   "lon": -2.2995534,
+   "lat": 53.5916059
+ },
+ {
+   "name": "Cheetham Hill JCP",
+   "address": "36 Crescent Road, Cheetham Hill, Manchester, M8 9DQ",
+   "lon": -2.2429123,
+   "lat": 53.5121615
+ },
+ {
+   "name": "Chorlton JCP",
+   "address": "Graeme House, Wilbraham Road, Chorlton-cum-Hardy, Manchester, M21 9BU",
+   "lon": -2.2788098,
+   "lat": 53.443165
+ },
+ {
+   "name": "Didsbury JCP",
+   "address": "Danesmore Road 95-97, Palatine Road, West Didsbury, Manchester, M20 3JQ",
+   "lon": -2.2354529,
+   "lat": 53.4259596
+ },
+ {
+   "name": "Eccles JCP",
+   "address": "Peel House, Monton Road, Eccles, M30 0NA",
+   "lon": -2.3391012,
+   "lat": 53.48437449999999
+ },
+ {
+   "name": "Farnworth JCP",
+   "address": "99 King Street, Farnworth, Bolton, BL4 7AX",
+   "lon": -2.3991424,
+   "lat": 53.54782489999999
+ },
+ {
+   "name": "Heywood JCP",
+   "address": "Taylor Street, Heywood, OL10 1ED",
+   "lon": -2.2208558,
+   "lat": 53.5922715
+ },
+ {
+   "name": "Hyde JCP",
+   "address": "Beech House, New Beech Street, Hyde, SK14 2LS",
+   "lon": -2.0789352,
+   "lat": 53.45250490000001
+ },
+ {
+   "name": "Irlam JCP",
+   "address": "71-73 Liverpool Road, Cadishead, Irlam, M44 5BG",
+   "lon": -2.3391012,
+   "lat": 53.48437449999999
+ },
+ {
+   "name": "Leigh JCP",
+   "address": "Roydale House, 2-10 Windermere Road, Leigh, WN7 1UT",
+   "lon": -2.519841,
+   "lat": 53.499701
+ },
+ {
+   "name": "Longsight JCP",
+   "address": "123 Clarence Road, Longsight, M13 0ZL",
+   "lon": -2.2065433,
+   "lat": 53.4553612
+ },
+ {
+   "name": "Manchester Airport JCP",
+   "address": "Commonwealth House, Chicago Avenue, M90 3JB",
+   "lon": -2.2741436,
+   "lat": 53.3661519
+ },
+ {
+   "name": "Middleton JCP",
+   "address": "Othen House, 7 Oldham Road, Manchester, M24 1BX",
+   "lon": -2.1966895,
+   "lat": 53.5482054
+ },
+ {
+   "name": "Newton Heath JCP",
+   "address": "1009 Oldham Road, Newton Heath, M40 2EP",
+   "lon": -2.1869268,
+   "lat": 53.5023792
+ },
+ {
+   "name": "Oldham JCP",
+   "address": "Tweedale House, 75 Union Street, Oldham, OL1 1LH",
+   "lon": -2.1133446,
+   "lat": 53.5403106
+ },
+ {
+   "name": "Openshaw JCP",
+   "address": "Cornwall Street, Openshhaw, M11 2WR",
+   "lon": -2.173748,
+   "lat": 53.4722984
+ },
+ {
+   "name": "Prestwich JCP",
+   "address": "1 Rectory Lane, Prestwich, M25 1BP",
+   "lon": -2.2429123,
+   "lat": 53.5121615
+ },
+ {
+   "name": "Rochdale JCP",
+   "address": "2 Fleece Street, Rochdale, OL16 1LT",
+   "lon": -2.1568065,
+   "lat": 53.6163708
+ },
+ {
+   "name": "Rusholme JCP",
+   "address": "96 Wilmslow Road, Rusholme, M14 5BJ",
+   "lon": -2.2245273,
+   "lat": 53.4539393
+ },
+ {
+   "name": "Salford JCP",
+   "address": "Baskerville House, New Bailey Street, Salford, M60 9HP",
+   "lon": -2.2536162,
+   "lat": 53.482715
+ },
+ {
+   "name": "Stalybridge JCP",
+   "address": "15 Waterloo Road, Stalybridge, SK15 2AX",
+   "lon": -2.0596578,
+   "lat": 53.4844802
+ },
+ {
+   "name": "Stockport JCP",
+   "address": "Heron House, Wellington Street, Stockport, SK1 3BE",
+   "lon": -2.159193,
+   "lat": 53.4082933
+ },
+ {
+   "name": "Stretford JCP",
+   "address": "Arndale House, Chester Road, Stretford, Manchester, M32 9ED",
+   "lon": -2.3088952,
+   "lat": 53.44481
+ },
+ {
+   "name": "Wigan JCP",
+   "address": "Brocol House, 71 King Street, Wigan, WN1 1EA",
+   "lon": -2.6297798,
+   "lat": 53.5434497
+ },
+ {
+   "name": "Worsley JCP",
+   "address": "5 Worsley Court, High Street, Walkden, Worsley, Manchester, M28 6AD",
+   "lon": -2.4003034,
+   "lat": 53.52420499999999
+ },
+ {
+   "name": "Wythenshawe JCP",
+   "address": "Simon House, Wavell Road, Wythenshawe, Manchester, M22 5RA",
+   "lon": -2.2584307,
+   "lat": 53.3785687
+ }
+]
