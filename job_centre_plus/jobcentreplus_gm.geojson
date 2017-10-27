@@ -24,7 +24,7 @@
 		{ "type": "Feature", "id": 20, "properties": { "name": "Newton Heath JCP", "address": "1009 Oldham Road, Newton Heath, M40 2EP" }, "geometry": { "type": "Point", "coordinates": [ -2.1869268, 53.5023792 ] } },
 		{ "type": "Feature", "id": 21, "properties": { "name": "Oldham JCP", "address": "Tweedale House, 75 Union Street, Oldham, OL1 1LH" }, "geometry": { "type": "Point", "coordinates": [ -2.1133446, 53.5403106 ] } },
 		{ "type": "Feature", "id": 22, "properties": { "name": "Openshaw JCP", "address": "Cornwall Street, Openshhaw, M11 2WR" }, "geometry": { "type": "Point", "coordinates": [ -2.173748, 53.4722984 ] } },
-		{ "type": "Feature", "id": 23, "properties": { "name": "Prestwich JCP", "address": "1 Rectory Lane, Prestwich, M25 1BP" }, "geometry": { "type": "Point", "coordinates": [ -2.2429123, 53.5121615 ] } },
+		{ "type": "Feature", "id": 23, "properties": { "name": "Prestwich JCP", "address": "1 Rectory Lane, Prestwich, M25 1BP" }, "geometry": { "type": "Point", "coordinates": [ -2.281793, 53.53163 ] } },
 		{ "type": "Feature", "id": 24, "properties": { "name": "Rochdale JCP", "address": "2 Fleece Street, Rochdale, OL16 1LT" }, "geometry": { "type": "Point", "coordinates": [ -2.1568065, 53.6163708 ] } },
 		{ "type": "Feature", "id": 25, "properties": { "name": "Rusholme JCP", "address": "96 Wilmslow Road, Rusholme, M14 5BJ" }, "geometry": { "type": "Point", "coordinates": [ -2.2245273, 53.4539393 ] } },
 		{ "type": "Feature", "id": 26, "properties": { "name": "Salford JCP", "address": "Baskerville House, New Bailey Street, Salford, M60 9HP" }, "geometry": { "type": "Point", "coordinates": [ -2.2536162, 53.482715 ] } },
