@@ -62,14 +62,14 @@
  {
    "name": "Eccles JCP",
    "address": "Peel House, Monton Road, Eccles, M30 0NA",
-   "lon": -2.3391012,
-   "lat": 53.48437449999999
+   "lon": -2.339101,
+   "lat": 53.48437
  },
  {
    "name": "Farnworth JCP",
    "address": "99 King Street, Farnworth, Bolton, BL4 7AX",
-   "lon": -2.3991424,
-   "lat": 53.54782489999999
+   "lon": -2.398983,
+   "lat": 53.54781
  },
  {
    "name": "Heywood JCP",
@@ -80,14 +80,14 @@
  {
    "name": "Hyde JCP",
    "address": "Beech House, New Beech Street, Hyde, SK14 2LS",
-   "lon": -2.0789352,
-   "lat": 53.45250490000001
+   "lon": -2.078741,
+   "lat": 53.45232
  },
  {
    "name": "Irlam JCP",
    "address": "71-73 Liverpool Road, Cadishead, Irlam, M44 5BG",
-   "lon": -2.3391012,
-   "lat": 53.48437449999999
+   "lon": -2.433227,
+   "lat": 53.43146
  },
  {
    "name": "Leigh JCP",
@@ -182,8 +182,8 @@
  {
    "name": "Worsley JCP",
    "address": "5 Worsley Court, High Street, Walkden, Worsley, Manchester, M28 6AD",
-   "lon": -2.4003034,
-   "lat": 53.52420499999999
+   "lon": -2.40019,
+   "lat": 53.52418
  },
  {
    "name": "Wythenshawe JCP",
