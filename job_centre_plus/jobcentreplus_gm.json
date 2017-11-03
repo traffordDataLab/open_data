@@ -24,13 +24,13 @@
    "lat": 53.4871831
  },
  {
-   "name": "Atherton JCP",
-   "address": "129 Market Street, Atherton, M46 0DF",
-   "lon": -2.4963319,
-   "lat": 53.5236636
+   "name": "Bolton (Great Moor St.) JCP",
+   "address": "Great Moor Street, Bolton, BL3 6DT",
+   "lon": -2.431129,
+   "lat": 53.57565
  },
  {
-   "name": "Bolton JCP",
+   "name": "Bolton (Blackhorse St.) JCP",
    "address": "52 Blackhorse Street, Bolton, BL1 1SX",
    "lon": -2.432266,
    "lat": 53.577386
@@ -48,12 +48,6 @@
    "lat": 53.5121615
  },
  {
-   "name": "Chorlton JCP",
-   "address": "Graeme House, Wilbraham Road, Chorlton-cum-Hardy, Manchester, M21 9BU",
-   "lon": -2.2788098,
-   "lat": 53.443165
- },
- {
    "name": "Didsbury JCP",
    "address": "Danesmore Road 95-97, Palatine Road, West Didsbury, Manchester, M20 3JQ",
    "lon": -2.2354529,
@@ -64,12 +58,6 @@
    "address": "Peel House, Monton Road, Eccles, M30 0NA",
    "lon": -2.339101,
    "lat": 53.48437
- },
- {
-   "name": "Farnworth JCP",
-   "address": "99 King Street, Farnworth, Bolton, BL4 7AX",
-   "lon": -2.398983,
-   "lat": 53.54781
  },
  {
    "name": "Heywood JCP",
@@ -85,9 +73,9 @@
  },
  {
    "name": "Irlam JCP",
-   "address": "71-73 Liverpool Road, Cadishead, Irlam, M44 5BG",
-   "lon": -2.433227,
-   "lat": 53.43146
+   "address": "Irlam Library, Hurst Fold, Liverpool Road, Irlam, M44 6FD",
+   "lon": -2.41241,
+   "lat": 53.45227
  },
  {
    "name": "Leigh JCP",
@@ -100,12 +88,6 @@
    "address": "123 Clarence Road, Longsight, M13 0ZL",
    "lon": -2.2065433,
    "lat": 53.4553612
- },
- {
-   "name": "Manchester Airport JCP",
-   "address": "Commonwealth House, Chicago Avenue, M90 3JB",
-   "lon": -2.2741436,
-   "lat": 53.3661519
  },
  {
    "name": "Middleton JCP",
@@ -127,7 +109,7 @@
  },
  {
    "name": "Openshaw JCP",
-   "address": "Cornwall Street, Openshhaw, M11 2WR",
+   "address": "Cornwall Street, Openshaw, M11 2WR",
    "lon": -2.173748,
    "lat": 53.4722984
  },
@@ -151,15 +133,9 @@
  },
  {
    "name": "Salford JCP",
-   "address": "Baskerville House, New Bailey Street, Salford, M60 9HP",
-   "lon": -2.2536162,
-   "lat": 53.482715
- },
- {
-   "name": "Stalybridge JCP",
-   "address": "15 Waterloo Road, Stalybridge, SK15 2AX",
-   "lon": -2.0596578,
-   "lat": 53.4844802
+   "address": "2 Paddington Close, Salford, M6 5PL",
+   "lon": -2.284072,
+   "lat": 53.48669
  },
  {
    "name": "Stockport JCP",
@@ -181,9 +157,9 @@
  },
  {
    "name": "Worsley JCP",
-   "address": "5 Worsley Court, High Street, Walkden, Worsley, Manchester, M28 6AD",
-   "lon": -2.40019,
-   "lat": 53.52418
+   "address": "5 Worsley Court, High Street, Walkden, Worsley, Manchester, M28 3AD",
+   "lon": -2.400303,
+   "lat": 53.524205
  },
  {
    "name": "Wythenshawe JCP",
