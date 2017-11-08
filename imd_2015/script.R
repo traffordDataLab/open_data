@@ -17,10 +17,21 @@ lsoa_codes <- st_read("https://opendata.arcgis.com/datasets/da831f80764346889837
 # ------- filter IMD 2015 data by GM LSOAs
 df <- filter(imd, lsoa11cd %in% lsoa_codes)
 
+# ------- recode domains
+df <- mutate(df, index_domain = fct_recode(index_domain, 
+                                           "Index of Multiple Deprivation" = "Index of Multiple Deprivation (IMD)",
+                                           "Income" = "Income Deprivation Domain",
+                                           "Employment" = "Employment Deprivation Domain",
+                                           "Education, Skills and Training" = "Education, Skills and Training Domain",
+                                           "Health Deprivation and Disability" = "Health Deprivation and Disability Domain",
+                                           "Crime" = "Crime Domain",
+                                           "Barriers to Housing and Services" = "Barriers to Housing and Services Domain",
+                                           "Living Environment" = "Living Environment Deprivation Domain"))
+
 # ------- write results (long format)
-write_csv(df, "data/IMD_2015_long.csv")
+write_csv(df, "IMD_2015_long.csv")
 
 # ------- write results (wide format)
 df %>% spread(measure, value) %>% 
   rename(score = Score, rank = Rank, decile = Decile) %>% 
-  write_csv("data/IMD_2015_wide.csv")
+  write_csv("IMD_2015_wide.csv")
