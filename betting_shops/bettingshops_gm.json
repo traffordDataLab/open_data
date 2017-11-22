@@ -1,0 +1,3594 @@
+﻿[
+ {
+   "name": "Coral Racing Ltd",
+   "address": "7 Smithy Green, Ince WN2 2AT",
+   "ward": "Ince",
+   "localAuthority": "Wigan",
+   "lon": -2.6059099,
+   "lat": 53.5433288
+ },
+ {
+   "name": "Totesport",
+   "address": "115-117 Scholes Precinct WN1 3SD",
+   "ward": "Ince",
+   "localAuthority": "Wigan",
+   "lon": -2.6226455,
+   "lat": 53.5461666
+ },
+ {
+   "name": "Totesport",
+   "address": "162-164 Manchester Road, Ince WN2 2EA",
+   "ward": "Ince",
+   "localAuthority": "Wigan",
+   "lon": -2.6036955,
+   "lat": 53.5429369
+ },
+ {
+   "name": "Betfred",
+   "address": "51 Chapel Street WN7 2PB",
+   "ward": "Leigh East",
+   "localAuthority": "Wigan",
+   "lon": -2.5094387,
+   "lat": 53.4954154
+ },
+ {
+   "name": "Betfred",
+   "address": "6/8 King Street WN7 4LR",
+   "ward": "Leigh East",
+   "localAuthority": "Wigan",
+   "lon": -2.5197159,
+   "lat": 53.4944563
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "Unit 23b, Spinning Gate WN7 4PG",
+   "ward": "Leigh East",
+   "localAuthority": "Wigan",
+   "lon": -2.5161095,
+   "lat": 53.4955014
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "Unit 3-4, Market Arcade, 38A Leigh Road WN7 1QR",
+   "ward": "Leigh East",
+   "localAuthority": "Wigan",
+   "lon": -2.518471,
+   "lat": 53.5011587
+ },
+ {
+   "name": "Coral",
+   "address": "34 Bradshawgate WN7 4LA",
+   "ward": "Leigh East",
+   "localAuthority": "Wigan",
+   "lon": -2.5175704,
+   "lat": 53.496236
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "23 Market Street WN7 1DR",
+   "ward": "Leigh East",
+   "localAuthority": "Wigan",
+   "lon": -2.5187068,
+   "lat": 53.4970582
+ },
+ {
+   "name": "William Hill",
+   "address": "2-8 Bradshawgate WN7 4LX",
+   "ward": "Leigh East",
+   "localAuthority": "Wigan",
+   "lon": -2.5189116,
+   "lat": 53.4963679
+ },
+ {
+   "name": "Totesport",
+   "address": "92 Bradshawgate WN7 4NP",
+   "ward": "Leigh East",
+   "localAuthority": "Wigan",
+   "lon": -2.5149088,
+   "lat": 53.4959763
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "221 Chapel Street WN7 2AP",
+   "ward": "Leigh South",
+   "localAuthority": "Wigan",
+   "lon": -2.4997693,
+   "lat": 53.4924835
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "44-46 Firs Lane WN7 4SB",
+   "ward": "Leigh West",
+   "localAuthority": "Wigan",
+   "lon": -2.5342827,
+   "lat": 53.4981699
+ },
+ {
+   "name": "Ashcrofts Bookmakers",
+   "address": "230A City Road WN5 0BG",
+   "ward": "Pemberton",
+   "localAuthority": "Wigan",
+   "lon": -2.6825073,
+   "lat": 53.5440411
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "646-648 Ormskirk Road WN5 8BE",
+   "ward": "Pemberton",
+   "localAuthority": "Wigan",
+   "lon": -2.6770093,
+   "lat": 53.5352856
+ },
+ {
+   "name": "William Hill",
+   "address": "761-763 Ormskirk Road WN5 8AT",
+   "ward": "Pemberton",
+   "localAuthority": "Wigan",
+   "lon": -2.6838221,
+   "lat": 53.5364761
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "3 Pole Street, Standish WN6 0HP",
+   "ward": "Standish with Langtree",
+   "localAuthority": "Wigan",
+   "lon": -2.6637228,
+   "lat": 53.5869874
+ },
+ {
+   "name": "Totesport",
+   "address": "9 Preston Road, Standish WN6 0HR",
+   "ward": "Standish with Langtree",
+   "localAuthority": "Wigan",
+   "lon": -2.6640961,
+   "lat": 53.5867583
+ },
+ {
+   "name": "Betfred",
+   "address": "215A-217 Elliott Street, Tyldesley M29 8DG",
+   "ward": "Tyldesley",
+   "localAuthority": "Wigan",
+   "lon": -2.464773,
+   "lat": 53.5141215
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "159-161 Elliott Street, Tyldesley M29 8FL",
+   "ward": "Tyldesley",
+   "localAuthority": "Wigan",
+   "lon": -2.4683137,
+   "lat": 53.5141257
+ },
+ {
+   "name": "William Hill",
+   "address": "189/191 Elliot Street M29 8DR",
+   "ward": "Tyldesley",
+   "localAuthority": "Wigan",
+   "lon": -2.466244,
+   "lat": 53.5140862
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 41/42, The Galleries, Mesnes Street WN1 1PX",
+   "ward": "Wigan Central",
+   "localAuthority": "Wigan",
+   "lon": -2.631536,
+   "lat": 53.548649
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "13-15 Market Place WN1 1PE",
+   "ward": "Wigan Central",
+   "localAuthority": "Wigan",
+   "lon": -2.6314157,
+   "lat": 53.546261
+ },
+ {
+   "name": "Coral",
+   "address": "44 Wallgate WN1 1LD",
+   "ward": "Wigan Central",
+   "localAuthority": "Wigan",
+   "lon": -2.6335878,
+   "lat": 53.5440308
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "9 Market Place WN1 1PE",
+   "ward": "Wigan Central",
+   "localAuthority": "Wigan",
+   "lon": -2.6315568,
+   "lat": 53.5460952
+ },
+ {
+   "name": "William Hill",
+   "address": "7-9 Mesnes Street WN1 1QP",
+   "ward": "Wigan Central",
+   "localAuthority": "Wigan",
+   "lon": -2.6311697,
+   "lat": 53.5478242
+ },
+ {
+   "name": "Totesport",
+   "address": "236 Scholes WN1 3NH",
+   "ward": "Wigan Central",
+   "localAuthority": "Wigan",
+   "lon": -2.6191998,
+   "lat": 53.5498811
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "57B Park Road WN6 7AE",
+   "ward": "Wigan West",
+   "localAuthority": "Wigan",
+   "lon": -2.6433226,
+   "lat": 53.5522548
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "Unit 4, 8 Woodhouse Drive WN6 7NT",
+   "ward": "Wigan West",
+   "localAuthority": "Wigan",
+   "lon": -2.6589484,
+   "lat": 53.5562185
+ },
+ {
+   "name": "Corbett Bookmakers",
+   "address": "445 Gidlow Lane WN6 7PN",
+   "ward": "Wigan West",
+   "localAuthority": "Wigan",
+   "lon": -2.6455327,
+   "lat": 53.5602723
+ },
+ {
+   "name": "Coral Betting Shop",
+   "address": "Winstanley District Centre, Holmes House Avenue WN3 6JA",
+   "ward": "Winstanley",
+   "localAuthority": "Wigan",
+   "lon": -2.6689261,
+   "lat": 53.5214026
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "44 Carr Lane WN3 5ND",
+   "ward": "Worsley Mesnes",
+   "localAuthority": "Wigan",
+   "lon": -2.6421922,
+   "lat": 53.5238811
+ },
+ {
+   "name": "William Hill",
+   "address": "165 Poolstock Lane WN3 5HW",
+   "ward": "Worsley Mesnes",
+   "localAuthority": "Wigan",
+   "lon": -2.6452915,
+   "lat": 53.5282077
+ },
+ {
+   "name": "William Hill",
+   "address": "432 Warrington Road WN3 6QF",
+   "ward": "Worsley Mesnes",
+   "localAuthority": "Wigan",
+   "lon": -2.654795,
+   "lat": 53.5272337
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "13 Belmont Road BL1 7AF",
+   "ward": "Astley Bridge",
+   "localAuthority": "Bolton",
+   "lon": -2.4332348,
+   "lat": 53.6015298
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "290-292 Bury Road BL2 6AY",
+   "ward": "Breightmet",
+   "localAuthority": "Bolton",
+   "lon": -2.3856641,
+   "lat": 53.5806664
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "806 Bury Road BL2 6PA",
+   "ward": "Breightmet",
+   "localAuthority": "Bolton",
+   "lon": -2.3857351,
+   "lat": 53.5808262
+ },
+ {
+   "name": "Betfred",
+   "address": "472-476 Halliwell Road BL1 8AN",
+   "ward": "Crompton",
+   "localAuthority": "Bolton",
+   "lon": -2.4451777,
+   "lat": 53.5946616
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "521 Tonge Moor Road BL2 3BG",
+   "ward": "Crompton",
+   "localAuthority": "Bolton",
+   "lon": -2.4114028,
+   "lat": 53.5968408
+ },
+ {
+   "name": "William Hill",
+   "address": "227/229 Halliwell Road BL1 3NT",
+   "ward": "Crompton",
+   "localAuthority": "Bolton",
+   "lon": -2.436639,
+   "lat": 53.5919165
+ },
+ {
+   "name": "Totesport",
+   "address": "150 Blackburn Road BL1 8DR",
+   "ward": "Crompton",
+   "localAuthority": "Bolton",
+   "lon": -2.4308157,
+   "lat": 53.5910599
+ },
+ {
+   "name": "Stan James",
+   "address": "2 Slater Street BL4 9DP",
+   "ward": "Farnworth",
+   "localAuthority": "Bolton",
+   "lon": -2.3945241,
+   "lat": 53.5476539
+ },
+ {
+   "name": "Betfred",
+   "address": "124 Market Street, Farnworth BL4 9AE",
+   "ward": "Farnworth",
+   "localAuthority": "Bolton",
+   "lon": -2.3936906,
+   "lat": 53.5483602
+ },
+ {
+   "name": "William Hill",
+   "address": "10 Brackley Street BL4 9DR",
+   "ward": "Farnworth",
+   "localAuthority": "Bolton",
+   "lon": -2.3936155,
+   "lat": 53.5480335
+ },
+ {
+   "name": "William Hill",
+   "address": "22 Glynne Street, Farnworth BL4 7DY",
+   "ward": "Farnworth",
+   "localAuthority": "Bolton",
+   "lon": -2.404358,
+   "lat": 53.550285
+ },
+ {
+   "name": "William Hill",
+   "address": "87 Glynne Street, Farnworth BL4 7DH",
+   "ward": "Farnworth",
+   "localAuthority": "Bolton",
+   "lon": -2.4066762,
+   "lat": 53.5495862
+ },
+ {
+   "name": "Betfred",
+   "address": "12 Deansgate BL1 1BR",
+   "ward": "Great Lever",
+   "localAuthority": "Bolton",
+   "lon": -2.4273776,
+   "lat": 53.5796699
+ },
+ {
+   "name": "Betfred",
+   "address": "33-35 Newport Street BL1 1NE",
+   "ward": "Great Lever",
+   "localAuthority": "Bolton",
+   "lon": -2.4289304,
+   "lat": 53.5763533
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 3,16-22 Oxford Street BL1 1RF",
+   "ward": "Great Lever",
+   "localAuthority": "Bolton",
+   "lon": -2.4299617,
+   "lat": 53.579275
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "21- 25 Great Moor Street BL1 1NZ",
+   "ward": "Great Lever",
+   "localAuthority": "Bolton",
+   "lon": -2.428369,
+   "lat": 53.5764204
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "223 Rishton Lane BL3 2BN",
+   "ward": "Great Lever",
+   "localAuthority": "Bolton",
+   "lon": -2.4281837,
+   "lat": 53.5626805
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "26 Market Street BL1 1BU",
+   "ward": "Great Lever",
+   "localAuthority": "Bolton",
+   "lon": -2.4291982,
+   "lat": 53.5791988
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "45-47 Deansgate BL1 1HQ",
+   "ward": "Great Lever",
+   "localAuthority": "Bolton",
+   "lon": -2.4289242,
+   "lat": 53.5795238
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "1 Newport Street BL1 1NE",
+   "ward": "Great Lever",
+   "localAuthority": "Bolton",
+   "lon": -2.4288905,
+   "lat": 53.5771508
+ },
+ {
+   "name": "William Hill",
+   "address": "22 Newport Street BL1 1NB",
+   "ward": "Great Lever",
+   "localAuthority": "Bolton",
+   "lon": -2.4288428,
+   "lat": 53.5763537
+ },
+ {
+   "name": "William Hill",
+   "address": "279 Rishton Lane BL3 2EH",
+   "ward": "Great Lever",
+   "localAuthority": "Bolton",
+   "lon": -2.428439,
+   "lat": 53.560576
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "224-226 Chorley Old Road BL1 3BW",
+   "ward": "Halliwell",
+   "localAuthority": "Bolton",
+   "lon": -2.4495308,
+   "lat": 53.5857903
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "34 Newport Street BL1 1NB",
+   "ward": "Halliwell",
+   "localAuthority": "Bolton",
+   "lon": -2.4297651,
+   "lat": 53.5770218
+ },
+ {
+   "name": "William Hill",
+   "address": "256-258 Chorley Old Road BL1 4JE",
+   "ward": "Halliwell",
+   "localAuthority": "Bolton",
+   "lon": -2.4512216,
+   "lat": 53.5865334
+ },
+ {
+   "name": "Betfred",
+   "address": "1 Derwent Road, Farnworth BL4 0QE",
+   "ward": "Harper Green",
+   "localAuthority": "Bolton",
+   "lon": -2.428964,
+   "lat": 53.5466068
+ },
+ {
+   "name": "Betfred",
+   "address": "20 Blackhorse Street, Blackrod BL6 5EW",
+   "ward": "Horwich and Blackrod",
+   "localAuthority": "Bolton",
+   "lon": -2.5875988,
+   "lat": 53.5940149
+ },
+ {
+   "name": "Betfred",
+   "address": "29-31 Winter Hey Lane, Horwich BL6 7AD",
+   "ward": "Horwich and Blackrod",
+   "localAuthority": "Bolton",
+   "lon": -2.5472019,
+   "lat": 53.5993121
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "222 Chorley New Road, Horwich BL6 5NP",
+   "ward": "Horwich and Blackrod",
+   "localAuthority": "Bolton",
+   "lon": -2.5457292,
+   "lat": 53.5945135
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "36 Lee Lane, Horwich BL6 7AE",
+   "ward": "Horwich and Blackrod",
+   "localAuthority": "Bolton",
+   "lon": -2.5459673,
+   "lat": 53.5997634
+ },
+ {
+   "name": "Bolton Wanderers Development Association (Chorley) Limited",
+   "address": "Bolton Wanderers Football Club, Macron Staduim, Burnden Way,Lostock BL6 6JW",
+   "ward": "Horwich and Blackrod",
+   "localAuthority": "Bolton",
+   "lon": -2.5369749,
+   "lat": 53.5813723
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "33 Lee Lane, Horwich BL6 7AX",
+   "ward": "Horwich North East",
+   "localAuthority": "Bolton",
+   "lon": -2.5458792,
+   "lat": 53.5997822
+ },
+ {
+   "name": "Betfred",
+   "address": "425-427 Wigan Road BL3 4QJ",
+   "ward": "Hulton",
+   "localAuthority": "Bolton",
+   "lon": -2.4665726,
+   "lat": 53.566617
+ },
+ {
+   "name": "Betfred",
+   "address": "26 Manchester Road BL4 8NZ",
+   "ward": "Kearsley",
+   "localAuthority": "Bolton",
+   "lon": -2.3748398,
+   "lat": 53.5392862
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 1, 192 Manchester Road, Kearsley BL4 8QR",
+   "ward": "Kearsley",
+   "localAuthority": "Bolton",
+   "lon": -2.3690051,
+   "lat": 53.5374759
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "2 -4 Norris Street, Farnworth BL4 9HG",
+   "ward": "Kearsley",
+   "localAuthority": "Bolton",
+   "lon": -2.3985779,
+   "lat": 53.5448886
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "36-38 Higher Market Street, Farnworth BL4 9AJ",
+   "ward": "Kearsley",
+   "localAuthority": "Bolton",
+   "lon": -2.3918902,
+   "lat": 53.5462679
+ },
+ {
+   "name": "Betfred",
+   "address": "61 Market St, Little Lever BL3 1HH",
+   "ward": "Little Lever and Darcy Lever",
+   "localAuthority": "Bolton",
+   "lon": -2.371583,
+   "lat": 53.562262
+ },
+ {
+   "name": "William Hill",
+   "address": "5 Market Street, Little Lever BL3 1HH",
+   "ward": "Little Lever and Darcy Lever",
+   "localAuthority": "Bolton",
+   "lon": -2.3698579,
+   "lat": 53.5614549
+ },
+ {
+   "name": "Betfred",
+   "address": "86 St. Helens Road BL3 3NP",
+   "ward": "Rumworth",
+   "localAuthority": "Bolton",
+   "lon": -2.4485386,
+   "lat": 53.5646814
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "171-173 St. Helens Road BL3 3PS",
+   "ward": "Rumworth",
+   "localAuthority": "Bolton",
+   "lon": -2.4510908,
+   "lat": 53.5631867
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "196 Deane Road BL3 5DP",
+   "ward": "Rumworth",
+   "localAuthority": "Bolton",
+   "lon": -2.4436182,
+   "lat": 53.5730606
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "3-4 Derby Shopping Centre, Cannon Street BL3 5BP",
+   "ward": "Rumworth",
+   "localAuthority": "Bolton",
+   "lon": -2.4427942,
+   "lat": 53.5710679
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "147-151 Tonge Moor Road BL2 2HR",
+   "ward": "Tonge with the Haulgh",
+   "localAuthority": "Bolton",
+   "lon": -2.4127437,
+   "lat": 53.5893419
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "322 Crompton Way BL2 2NE",
+   "ward": "Tonge with the Haulgh",
+   "localAuthority": "Bolton",
+   "lon": -2.4069976,
+   "lat": 53.5919143
+ },
+ {
+   "name": "William Hill",
+   "address": "32 Market Street, Westhoughton BL5 3AN",
+   "ward": "Westhoughton North and Chew Moor",
+   "localAuthority": "Bolton",
+   "lon": -2.5212728,
+   "lat": 53.548935
+ },
+ {
+   "name": "Betfred",
+   "address": "57 Market Street BL5 3AG",
+   "ward": "Westhoughton South",
+   "localAuthority": "Bolton",
+   "lon": -2.5241818,
+   "lat": 53.548974
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "7 Albert Place, Whitefield M45 8NE",
+   "ward": "Besses",
+   "localAuthority": "Bury",
+   "lon": -2.2770009,
+   "lat": 53.5513982
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "Unit 4, Ribble Drive, Whitefield M45 8NA",
+   "ward": "Besses",
+   "localAuthority": "Bury",
+   "lon": -2.2852831,
+   "lat": 53.5508786
+ },
+ {
+   "name": "Betfred",
+   "address": "30 Haymarket Street BL9 0AY",
+   "ward": "East",
+   "localAuthority": "Bury",
+   "lon": -2.2984214,
+   "lat": 53.5915236
+ },
+ {
+   "name": "Betfred",
+   "address": "35 Market Street BL9 0BL",
+   "ward": "East",
+   "localAuthority": "Bury",
+   "lon": -2.2961236,
+   "lat": 53.5920545
+ },
+ {
+   "name": "Betfred",
+   "address": "7 Silver Street BL9 0EU",
+   "ward": "East",
+   "localAuthority": "Bury",
+   "lon": -2.298309,
+   "lat": 53.5931428
+ },
+ {
+   "name": "Betfred",
+   "address": "88 Rochdale Road BL9 7AY",
+   "ward": "East",
+   "localAuthority": "Bury",
+   "lon": -2.2868226,
+   "lat": 53.5930371
+ },
+ {
+   "name": "Coral",
+   "address": "Unit 3 Princess Parade BL9 0QL",
+   "ward": "East",
+   "localAuthority": "Bury",
+   "lon": -2.2952592,
+   "lat": 53.5916488
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "105 The Rock BL9 0NB",
+   "ward": "East",
+   "localAuthority": "Bury",
+   "lon": -2.2930754,
+   "lat": 53.5950339
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "2 The Rock BL9 0NT",
+   "ward": "East",
+   "localAuthority": "Bury",
+   "lon": -2.2972745,
+   "lat": 53.593604
+ },
+ {
+   "name": "William Hill",
+   "address": "1/3 Market Place BL9 0LD",
+   "ward": "East",
+   "localAuthority": "Bury",
+   "lon": -2.2973615,
+   "lat": 53.5934489
+ },
+ {
+   "name": "William Hill",
+   "address": "4 Princess Parade BL9 0QL",
+   "ward": "East",
+   "localAuthority": "Bury",
+   "lon": -2.2952592,
+   "lat": 53.5916488
+ },
+ {
+   "name": "Totesport",
+   "address": "58 Moorgate BL9 7AF",
+   "ward": "East",
+   "localAuthority": "Bury",
+   "lon": -2.2881885,
+   "lat": 53.5970225
+ },
+ {
+   "name": "Betfred",
+   "address": "322 Tottington Road BL8 1TA",
+   "ward": "Elton",
+   "localAuthority": "Bury",
+   "lon": -2.3216896,
+   "lat": 53.6029921
+ },
+ {
+   "name": "Betfred",
+   "address": "417 Bury Old Road, Prestwich M25 1PS",
+   "ward": "Holyrood",
+   "localAuthority": "Bury",
+   "lon": -2.271555,
+   "lat": 53.536413
+ },
+ {
+   "name": "Betfred",
+   "address": "168 Walmersley Road BL9 6LL",
+   "ward": "Moorside",
+   "localAuthority": "Bury",
+   "lon": -2.2902285,
+   "lat": 53.6019364
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "4 Ribble Drive BL9 6RT",
+   "ward": "North Manor",
+   "localAuthority": "Bury",
+   "lon": -2.292471,
+   "lat": 53.62208
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "36 Stand Lane, Radcliffe M26 1LJ",
+   "ward": "Radcliffe East",
+   "localAuthority": "Bury",
+   "lon": -2.3232795,
+   "lat": 53.5578245
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "37-39 Cross Lane, Radcliffe M26 2QZ",
+   "ward": "Radcliffe East",
+   "localAuthority": "Bury",
+   "lon": -2.3168309,
+   "lat": 53.5640623
+ },
+ {
+   "name": "William Hill",
+   "address": "159 Ainsworth Road, Radcliffe M26 4FD",
+   "ward": "Radcliffe North",
+   "localAuthority": "Bury",
+   "lon": -2.3357511,
+   "lat": 53.5674536
+ },
+ {
+   "name": "Betfred",
+   "address": "130 Water Street, Radcliffe M26 4BE",
+   "ward": "Radcliffe West",
+   "localAuthority": "Bury",
+   "lon": -2.3348088,
+   "lat": 53.5630626
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 3 Apex Centre, Water Street, Radcliffe M26 4DF",
+   "ward": "Radcliffe West",
+   "localAuthority": "Bury",
+   "lon": -2.3341533,
+   "lat": 53.563032
+ },
+ {
+   "name": "Betfred",
+   "address": "11 Bridge Street, Ramsbottom BL0 9AB",
+   "ward": "Ramsbottom",
+   "localAuthority": "Bury",
+   "lon": -2.3150007,
+   "lat": 53.6480721
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "35 Bolton Street, Ramsbottom BL0 9HU",
+   "ward": "Ramsbottom",
+   "localAuthority": "Bury",
+   "lon": -2.3188884,
+   "lat": 53.6479909
+ },
+ {
+   "name": "Betfred",
+   "address": "203 Manchester Road BL9 9HL",
+   "ward": "Redvales",
+   "localAuthority": "Bury",
+   "lon": -2.2986306,
+   "lat": 53.5831521
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "119-121 Radcliffe Road BL9 9LD",
+   "ward": "Redvales",
+   "localAuthority": "Bury",
+   "lon": -2.3030952,
+   "lat": 53.5806189
+ },
+ {
+   "name": "Betfred",
+   "address": "135 Bury New Road, Prestwich M25 9NX",
+   "ward": "St Mary's",
+   "localAuthority": "Bury",
+   "lon": -2.2767947,
+   "lat": 53.5236876
+ },
+ {
+   "name": "Betfred",
+   "address": "22 Longfield Centre, Prestwich M25 1AY",
+   "ward": "St Mary's",
+   "localAuthority": "Bury",
+   "lon": -2.2840896,
+   "lat": 53.5337397
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 5 Radius Devt Longfield Centre, Prestwich M25 1AY",
+   "ward": "St Mary's",
+   "localAuthority": "Bury",
+   "lon": -2.2838344,
+   "lat": 53.5329359
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "462 Bury New Road, Prestwich M25 1AX",
+   "ward": "St Mary's",
+   "localAuthority": "Bury",
+   "lon": -2.2850476,
+   "lat": 53.5329567
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "48 Bury New Road, Prestwich M25 0JU",
+   "ward": "Sedgley",
+   "localAuthority": "Bury",
+   "lon": -2.2717099,
+   "lat": 53.5191012
+ },
+ {
+   "name": "William Hill",
+   "address": "287 Middleton Road M8 4LY",
+   "ward": "Sedgley",
+   "localAuthority": "Bury",
+   "lon": -2.247248,
+   "lat": 53.5282801
+ },
+ {
+   "name": "Betfred",
+   "address": "7 Elms Square, Whitefield M45 7TA",
+   "ward": "Unsworth",
+   "localAuthority": "Bury",
+   "lon": -2.2947085,
+   "lat": 53.5530318
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "384 Parr Lane BL9 8LU",
+   "ward": "Unsworth",
+   "localAuthority": "Bury",
+   "lon": -2.2808472,
+   "lat": 53.5564254
+ },
+ {
+   "name": "Betfred",
+   "address": "586a and 586f Ashton New Road M11 4SG",
+   "ward": "Ancoats and Clayton",
+   "localAuthority": "Manchester",
+   "lon": -2.1867786,
+   "lat": 53.4833027
+ },
+ {
+   "name": "William Hill",
+   "address": "593-595 Ashton New Road M11 4EA",
+   "ward": "Ancoats and Clayton",
+   "localAuthority": "Manchester",
+   "lon": -2.1875134,
+   "lat": 53.4834761
+ },
+ {
+   "name": "William Hill",
+   "address": "1068 Ashton New Road M11 4PE",
+   "ward": "Ancoats and Clayton",
+   "localAuthority": "Manchester",
+   "lon": -2.1678531,
+   "lat": 53.4809437
+ },
+ {
+   "name": "Betfred",
+   "address": "62 Hathersage Road M13 0FE",
+   "ward": "Ardwick",
+   "localAuthority": "Manchester",
+   "lon": -2.2183465,
+   "lat": 53.4598078
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 1 Grove Village Parade, Stockport Road M13 0SH",
+   "ward": "Ardwick",
+   "localAuthority": "Manchester",
+   "lon": -2.2156513,
+   "lat": 53.4656168
+ },
+ {
+   "name": "William Hill",
+   "address": "58 Stockport Road M12 6AL",
+   "ward": "Ardwick",
+   "localAuthority": "Manchester",
+   "lon": -2.2219928,
+   "lat": 53.4685489
+ },
+ {
+   "name": "William Hill",
+   "address": "62/64 Stockport Road M12 6AL",
+   "ward": "Ardwick",
+   "localAuthority": "Manchester",
+   "lon": -2.2217653,
+   "lat": 53.4684327
+ },
+ {
+   "name": "Lewis Bookmaker",
+   "address": "Hall Lane M23 1AQ",
+   "ward": "Baguley",
+   "localAuthority": "Manchester",
+   "lon": -2.2783048,
+   "lat": 53.3966677
+ },
+ {
+   "name": "Betfred",
+   "address": "83 Beswick Street M4 7HR",
+   "ward": "Bradford",
+   "localAuthority": "Manchester",
+   "lon": -2.2136682,
+   "lat": 53.4832036
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 9, Lime Square, Ashton Old Road M11 1DA",
+   "ward": "Bradford",
+   "localAuthority": "Manchester",
+   "lon": -2.1828822,
+   "lat": 53.4735267
+ },
+ {
+   "name": "William Hill",
+   "address": "1294 Ashton Old Road M11 1JG",
+   "ward": "Bradford",
+   "localAuthority": "Manchester",
+   "lon": -2.1632778,
+   "lat": 53.4727517
+ },
+ {
+   "name": "William Hill",
+   "address": "Unit 3, Westlake Retail Park, Ashton Old Road M11 2SL",
+   "ward": "Bradford",
+   "localAuthority": "Manchester",
+   "lon": -2.1773182,
+   "lat": 53.4734748
+ },
+ {
+   "name": "Totesport",
+   "address": "1299- 1303 Ashton Old Road M11 1JS",
+   "ward": "Bradford",
+   "localAuthority": "Manchester",
+   "lon": -2.163085,
+   "lat": 53.472939
+ },
+ {
+   "name": "Betfred",
+   "address": "153 Moorcroft Road M23 0AE",
+   "ward": "Brooklands",
+   "localAuthority": "Manchester",
+   "lon": -2.2929741,
+   "lat": 53.4087442
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "193 Fog Lane M20 6FJ",
+   "ward": "Burnage",
+   "localAuthority": "Manchester",
+   "lon": -2.2161657,
+   "lat": 53.4212624
+ },
+ {
+   "name": "William Hill",
+   "address": "285-287 Mauldeth Road M19 1HL",
+   "ward": "Burnage",
+   "localAuthority": "Manchester",
+   "lon": -2.2009648,
+   "lat": 53.432695
+ },
+ {
+   "name": "William Hill",
+   "address": "471 Kingsway M19 1NR",
+   "ward": "Burnage",
+   "localAuthority": "Manchester",
+   "lon": -2.2126776,
+   "lat": 53.4214447
+ },
+ {
+   "name": "William Hill",
+   "address": "478 Burnage Lane M19 1LH",
+   "ward": "Burnage",
+   "localAuthority": "Manchester",
+   "lon": -2.2033594,
+   "lat": 53.4253576
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "401 Hollinwood Avenue M40 0JQ",
+   "ward": "Charlestown",
+   "localAuthority": "Manchester",
+   "lon": -2.1742148,
+   "lat": 53.5246965
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "71 Cheetham Hill Road M4 4ES",
+   "ward": "Cheetham",
+   "localAuthority": "Manchester",
+   "lon": -2.2407393,
+   "lat": 53.4922556
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "Unit 32 Manchester Fort Shopping Park, Cheetham Hill Road M8 8EP",
+   "ward": "Cheetham",
+   "localAuthority": "Manchester",
+   "lon": -2.2355575,
+   "lat": 53.4980882
+ },
+ {
+   "name": "David Pluck Bookmakers",
+   "address": "481 Cheetham Hill Road M8 9LR",
+   "ward": "Cheetham",
+   "localAuthority": "Manchester",
+   "lon": -2.2418476,
+   "lat": 53.5081464
+ },
+ {
+   "name": "William Hill",
+   "address": "283 Cheetham Hill Road M8 0SN",
+   "ward": "Cheetham",
+   "localAuthority": "Manchester",
+   "lon": -2.2360752,
+   "lat": 53.5010005
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "442 Barlow Moor Road M21 0BQ",
+   "ward": "Chorlton",
+   "localAuthority": "Manchester",
+   "lon": -2.2773621,
+   "lat": 53.4430023
+ },
+ {
+   "name": "William Hill",
+   "address": "168 Manchester Road M16 0DZ",
+   "ward": "Chorlton",
+   "localAuthority": "Manchester",
+   "lon": -2.2734504,
+   "lat": 53.4498818
+ },
+ {
+   "name": "William Hill",
+   "address": "482 Wilbraham Road M21 9AS",
+   "ward": "Chorlton",
+   "localAuthority": "Manchester",
+   "lon": -2.2788294,
+   "lat": 53.4427387
+ },
+ {
+   "name": "William Hill",
+   "address": "355 Barlow Moor Road M21 7FZ",
+   "ward": "Chorlton Park",
+   "localAuthority": "Manchester",
+   "lon": -2.2707994,
+   "lat": 53.4326754
+ },
+ {
+   "name": "William Hill",
+   "address": "368 Barlow Moor Road M21 8AZ",
+   "ward": "Chorlton Park",
+   "localAuthority": "Manchester",
+   "lon": -2.2742865,
+   "lat": 53.438252
+ },
+ {
+   "name": "Paddy Power",
+   "address": "Unit F2, 44 City Tower,Piccadilly Plaza M1 4AJ",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.237315,
+   "lat": 53.479833
+ },
+ {
+   "name": "Betfred",
+   "address": "De Quincy House, 86 Cross Street M2 4LA",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.24526,
+   "lat": 53.4803825
+ },
+ {
+   "name": "Betfred",
+   "address": "10 Mosley Street M2 3AQ",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2390918,
+   "lat": 53.4809011
+ },
+ {
+   "name": "Betfred",
+   "address": "133 Deansgate M3 3WR",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2482598,
+   "lat": 53.4801951
+ },
+ {
+   "name": "Betfred",
+   "address": "14 Nicholas Street M1 4EJ",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2405634,
+   "lat": 53.4784923
+ },
+ {
+   "name": "Betfred",
+   "address": "18 Fountain Street M2 2AA",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.240681,
+   "lat": 53.4816005
+ },
+ {
+   "name": "Betfred",
+   "address": "7-9 Oldham Street M1 1LG",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2368633,
+   "lat": 53.4815558
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 3/5, 38 King Street West M3 2WZ",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2496,
+   "lat": 53.481446
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "15 Cross Street M2 1WE",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2439315,
+   "lat": 53.4820714
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "43 Deangate M3 2AY",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2466721,
+   "lat": 53.4828571
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "66-68 Bridge Street M3 2RJ",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2487802,
+   "lat": 53.480865
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "182C Arndale Centre, Market Street M4 2HU",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2402583,
+   "lat": 53.4843169
+ },
+ {
+   "name": "William Hill",
+   "address": "18/20 Mosley Street M2 3AG",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2395265,
+   "lat": 53.4807484
+ },
+ {
+   "name": "William Hill",
+   "address": "30 High Street M4 1QB",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.23899,
+   "lat": 53.482845
+ },
+ {
+   "name": "William Hill",
+   "address": "40-42 Oxford Street M1 5EJ",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2426317,
+   "lat": 53.4759219
+ },
+ {
+   "name": "William Hill",
+   "address": "47 Deansgate M3 2AY",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2462888,
+   "lat": 53.4830007
+ },
+ {
+   "name": "William Hill",
+   "address": "85 Piccadilly M1 2DA",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2336989,
+   "lat": 53.4803386
+ },
+ {
+   "name": "Raykin Limited",
+   "address": "41 Faulkner Street M1 4EE",
+   "ward": "City Centre",
+   "localAuthority": "Manchester",
+   "lon": -2.2392002,
+   "lat": 53.4786725
+ },
+ {
+   "name": "Betfred",
+   "address": "78 Bury Old Road M8 5BW",
+   "ward": "Crumpsall",
+   "localAuthority": "Manchester",
+   "lon": -2.2466258,
+   "lat": 53.514086
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "44 Bury Old Road M8 5BN",
+   "ward": "Crumpsall",
+   "localAuthority": "Manchester",
+   "lon": -2.2460154,
+   "lat": 53.5133029
+ },
+ {
+   "name": "David Pluck Bookmakers",
+   "address": "11 -13 Lansdowne Road M8 5SF",
+   "ward": "Crumpsall",
+   "localAuthority": "Manchester",
+   "lon": -2.2367788,
+   "lat": 53.5155567
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "24-26 Lansdowne Road M8 5SH",
+   "ward": "Crumpsall",
+   "localAuthority": "Manchester",
+   "lon": -2.2369646,
+   "lat": 53.5159344
+ },
+ {
+   "name": "David Pluck Racing",
+   "address": "Unit 2, 683-693 Wilmslow Road M20 6RE",
+   "ward": "Didsbury East",
+   "localAuthority": "Manchester",
+   "lon": -2.2309073,
+   "lat": 53.4169938
+ },
+ {
+   "name": "Betfred",
+   "address": "487 Wilmslow Road M20 4AN",
+   "ward": "Didsbury West",
+   "localAuthority": "Manchester",
+   "lon": -2.2320489,
+   "lat": 53.4145768
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "11-13 Barlow Moor Road M20 6TN",
+   "ward": "Didsbury West",
+   "localAuthority": "Manchester",
+   "lon": -2.2323179,
+   "lat": 53.4176792
+ },
+ {
+   "name": "Betfred",
+   "address": "334 Platt Lane M14 7DA",
+   "ward": "Fallowfield",
+   "localAuthority": "Manchester",
+   "lon": -2.238676,
+   "lat": 53.4467479
+ },
+ {
+   "name": "William Hill",
+   "address": "315 Wilmslow Road M14 6NW",
+   "ward": "Fallowfield",
+   "localAuthority": "Manchester",
+   "lon": -2.2183943,
+   "lat": 53.4418409
+ },
+ {
+   "name": "Betfred",
+   "address": "135-137 Chapman Street M18 8LY",
+   "ward": "Gorton North",
+   "localAuthority": "Manchester",
+   "lon": -2.1694129,
+   "lat": 53.464013
+ },
+ {
+   "name": "Betfred",
+   "address": "582a Hyde Road M18 7EE",
+   "ward": "Gorton North",
+   "localAuthority": "Manchester",
+   "lon": -2.1753511,
+   "lat": 53.4612583
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "Unit 5, Gorton Retail Market, Garratt Way M18 8LD",
+   "ward": "Gorton North",
+   "localAuthority": "Manchester",
+   "lon": -2.1754002,
+   "lat": 53.462521
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "155 Mount Road M18 7QT",
+   "ward": "Gorton South",
+   "localAuthority": "Manchester",
+   "lon": -2.1809275,
+   "lat": 53.4573069
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 15, North City Shoppping Centre, Lee Road M9 4DH",
+   "ward": "Harpurhey",
+   "localAuthority": "Manchester",
+   "lon": -2.2125722,
+   "lat": 53.5124516
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "21, North City Shopping Centre, 22 Lee Rd, Manchester M9 4DH",
+   "ward": "Harpurhey",
+   "localAuthority": "Manchester",
+   "lon": -2.211689,
+   "lat": 53.512951
+ },
+ {
+   "name": "William Hill",
+   "address": "1 Harpurhey District Centre M9 5PR",
+   "ward": "Harpurhey",
+   "localAuthority": "Manchester",
+   "lon": -2.2114901,
+   "lat": 53.5123087
+ },
+ {
+   "name": "William Hill",
+   "address": "317-319 Moston Lane M40 9NL",
+   "ward": "Harpurhey",
+   "localAuthority": "Manchester",
+   "lon": -2.1994185,
+   "lat": 53.5139929
+ },
+ {
+   "name": "Paddy Power",
+   "address": "30 Hulme High Street M15 5JS",
+   "ward": "Hulme",
+   "localAuthority": "Manchester",
+   "lon": -2.2482322,
+   "lat": 53.4618715
+ },
+ {
+   "name": "Betfred",
+   "address": "79 Erskine Street M15 4BS",
+   "ward": "Hulme",
+   "localAuthority": "Manchester",
+   "lon": -2.2596076,
+   "lat": 53.4651912
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "304-306 Oxford Road M13 9NS",
+   "ward": "Hulme",
+   "localAuthority": "Manchester",
+   "lon": -2.2303476,
+   "lat": 53.4627834
+ },
+ {
+   "name": "Paddy Power",
+   "address": "958-960 Stockport Road M19 3NN",
+   "ward": "Levenshulme",
+   "localAuthority": "Manchester",
+   "lon": -2.1917816,
+   "lat": 53.4435667
+ },
+ {
+   "name": "Betfred",
+   "address": "835-837 Stockport Road M19 3PW",
+   "ward": "Levenshulme",
+   "localAuthority": "Manchester",
+   "lon": -2.191148,
+   "lat": 53.4439301
+ },
+ {
+   "name": "William Hill",
+   "address": "988-990 Stockport Road M19 3WN",
+   "ward": "Levenshulme",
+   "localAuthority": "Manchester",
+   "lon": -2.1907723,
+   "lat": 53.4424867
+ },
+ {
+   "name": "Paddy Power",
+   "address": "551-553 Stockport Road M12 4JH",
+   "ward": "Longsight",
+   "localAuthority": "Manchester",
+   "lon": -2.2003337,
+   "lat": 53.4571371
+ },
+ {
+   "name": "Betfred",
+   "address": "177 Dickenson Road M13 0YN",
+   "ward": "Longsight",
+   "localAuthority": "Manchester",
+   "lon": -2.2107902,
+   "lat": 53.4541749
+ },
+ {
+   "name": "William Hill",
+   "address": "101 Beresford Road M13 0TA",
+   "ward": "Longsight",
+   "localAuthority": "Manchester",
+   "lon": -2.2020764,
+   "lat": 53.4510901
+ },
+ {
+   "name": "William Hill",
+   "address": "108 Northmoor Road M12 5RS",
+   "ward": "Longsight",
+   "localAuthority": "Manchester",
+   "lon": -2.1931437,
+   "lat": 53.4558639
+ },
+ {
+   "name": "William Hill",
+   "address": "562-564 Stockport Road M12 4JJ",
+   "ward": "Longsight",
+   "localAuthority": "Manchester",
+   "lon": -2.2007993,
+   "lat": 53.4568666
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "20,22 Queens Walk, Droylsden M43 7AR",
+   "ward": "Longsight",
+   "localAuthority": "Manchester",
+   "lon": -2.1947889,
+   "lat": 53.4572719
+ },
+ {
+   "name": "Paddy Power",
+   "address": "49 Old Church Street M40 2JN",
+   "ward": "Miles Platting and Newton Heath",
+   "localAuthority": "Manchester",
+   "lon": -2.1803931,
+   "lat": 53.5010487
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "88-90 Old Church Street M40 2JF",
+   "ward": "Miles Platting and Newton Heath",
+   "localAuthority": "Manchester",
+   "lon": -2.1809527,
+   "lat": 53.5009545
+ },
+ {
+   "name": "William Hill",
+   "address": "109 Culcheth Lane M40 1LY",
+   "ward": "Miles Platting and Newton Heath",
+   "localAuthority": "Manchester",
+   "lon": -2.175179,
+   "lat": 53.496556
+ },
+ {
+   "name": "William Hill",
+   "address": "59/61 Old Church Street M40 2JN",
+   "ward": "Miles Platting and Newton Heath",
+   "localAuthority": "Manchester",
+   "lon": -2.1800527,
+   "lat": 53.5009008
+ },
+ {
+   "name": "Stan James",
+   "address": "353 Claremont Road M14 7NB",
+   "ward": "Moss Side",
+   "localAuthority": "Manchester",
+   "lon": -2.2319278,
+   "lat": 53.4527992
+ },
+ {
+   "name": "Betfred",
+   "address": "292-294 Claremont Road M14 4EP",
+   "ward": "Moss Side",
+   "localAuthority": "Manchester",
+   "lon": -2.2365725,
+   "lat": 53.4531833
+ },
+ {
+   "name": "William Hill",
+   "address": "Unit 5, 10A Wilmslow Road M14 5TP",
+   "ward": "Moss Side",
+   "localAuthority": "Manchester",
+   "lon": -2.2262629,
+   "lat": 53.45679
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "14 Broadway M40 3LN",
+   "ward": "Moston",
+   "localAuthority": "Manchester",
+   "lon": -2.1672404,
+   "lat": 53.5205026
+ },
+ {
+   "name": "Betfred",
+   "address": "344 Palatine Road M22 4HE",
+   "ward": "Northenden",
+   "localAuthority": "Manchester",
+   "lon": -2.2573234,
+   "lat": 53.4086812
+ },
+ {
+   "name": "William Hill",
+   "address": "369-371 Palatine Road M22 4FY",
+   "ward": "Northenden",
+   "localAuthority": "Manchester",
+   "lon": -2.2572793,
+   "lat": 53.4079865
+ },
+ {
+   "name": "William Hill",
+   "address": "74 Mauldeth Road West, Withington M20 3FQ",
+   "ward": "Old Moat",
+   "localAuthority": "Manchester",
+   "lon": -2.231217,
+   "lat": 53.4383028
+ },
+ {
+   "name": "William Hill",
+   "address": "Unit 1, 21 Copson Street M20 3HE",
+   "ward": "Old Moat",
+   "localAuthority": "Manchester",
+   "lon": -2.2298209,
+   "lat": 53.4338126
+ },
+ {
+   "name": "William Hill",
+   "address": "160 Hollyhedge Road M22 9UE",
+   "ward": "Sharston",
+   "localAuthority": "Manchester",
+   "lon": -2.2585751,
+   "lat": 53.3883868
+ },
+ {
+   "name": "William Hill",
+   "address": "110-112 Withington Road M16 8FA",
+   "ward": "Whalley Range",
+   "localAuthority": "Manchester",
+   "lon": -2.2576175,
+   "lat": 53.4530459
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "533 Wilmslow Road M20 4BA",
+   "ward": "Withington",
+   "localAuthority": "Manchester",
+   "lon": -2.2283961,
+   "lat": 53.4307635
+ },
+ {
+   "name": "William Hill",
+   "address": "102 Mauldeth Road M14 6SQ",
+   "ward": "Withington",
+   "localAuthority": "Manchester",
+   "lon": -2.2139996,
+   "lat": 53.4351772
+ },
+ {
+   "name": "Stan James",
+   "address": "Unit C, Hale Top, Civic Centre, Wythenshawe M22 5RN",
+   "ward": "Woodhouse Park",
+   "localAuthority": "Manchester",
+   "lon": -2.2626544,
+   "lat": 53.3797771
+ },
+ {
+   "name": "Coral Racing",
+   "address": "Unit 24, Wythenshawe Shopping Centre, Wythenshawe M22 5RN",
+   "ward": "Woodhouse Park",
+   "localAuthority": "Manchester",
+   "lon": -2.2622497,
+   "lat": 53.378839
+ },
+ {
+   "name": "Totesport",
+   "address": "15  Hale Top, Civic Centre, Wythenshawe M22 5RP",
+   "ward": "Woodhouse Park",
+   "localAuthority": "Manchester",
+   "lon": -2.2618554,
+   "lat": 53.3792058
+ },
+ {
+   "name": "Totesport",
+   "address": "5-6 Eldon Precinct OL8 1JP",
+   "ward": "Alexandra",
+   "localAuthority": "Oldham",
+   "lon": -2.1147149,
+   "lat": 53.5359698
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "Unit 27, Chadderton PresinctChadderton OL9 0LQ",
+   "ward": "Chadderton North",
+   "localAuthority": "Oldham",
+   "lon": -2.140977,
+   "lat": 53.5452471
+ },
+ {
+   "name": "Ladbrokes Ltd",
+   "address": "Unit 10 Chadderton Shopping Precinct, Middleton Road, Chadderton OL9 0LQ",
+   "ward": "Chadderton North",
+   "localAuthority": "Oldham",
+   "lon": -2.1410034,
+   "lat": 53.5455849
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "Unit 26 Chadderton Precinct, Middleton Road, Chadderton OL9 0LJ",
+   "ward": "Chadderton North",
+   "localAuthority": "Oldham",
+   "lon": -2.140977,
+   "lat": 53.5452471
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "Top Flat, 347 Moston Lane M40 9NB",
+   "ward": "Chadderton South",
+   "localAuthority": "Oldham",
+   "lon": -2.1657509,
+   "lat": 53.521148
+ },
+ {
+   "name": "Betfred",
+   "address": "1/3 Coalshaw Green Road, Chadderton OL9 8JW",
+   "ward": "Chadderton South",
+   "localAuthority": "Oldham",
+   "lon": -2.1452813,
+   "lat": 53.5295556
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 36B, Spindles Shopping Centre OL1 1HE",
+   "ward": "Coldhurst",
+   "localAuthority": "Oldham",
+   "lon": -2.1147393,
+   "lat": 53.5411888
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "23A-25 Market Place OL1 3AB",
+   "ward": "Coldhurst",
+   "localAuthority": "Oldham",
+   "lon": -2.1149374,
+   "lat": 53.5421839
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "265 Featherstall Road North OL1 2NJ",
+   "ward": "Coldhurst",
+   "localAuthority": "Oldham",
+   "lon": -2.1248566,
+   "lat": 53.5488313
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "283 Featherstall Road North OL1 2NH",
+   "ward": "Coldhurst",
+   "localAuthority": "Oldham",
+   "lon": -2.1240736,
+   "lat": 53.5491428
+ },
+ {
+   "name": "Ladbrooks",
+   "address": "35 Albion Street OL1 3BQ",
+   "ward": "Coldhurst",
+   "localAuthority": "Oldham",
+   "lon": -2.1197667,
+   "lat": 53.5494509
+ },
+ {
+   "name": "Paddy Power",
+   "address": "13-15 Henshaw Street OL1 1NH",
+   "ward": "Coldhurst",
+   "localAuthority": "Oldham",
+   "lon": -2.115376,
+   "lat": 53.543534
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "20-24 Henshaw Street OL1 3AA",
+   "ward": "Coldhurst",
+   "localAuthority": "Oldham",
+   "lon": -2.1149954,
+   "lat": 53.5442035
+ },
+ {
+   "name": "William Hill",
+   "address": "18 High Street OL1 1JA",
+   "ward": "Coldhurst",
+   "localAuthority": "Oldham",
+   "lon": -2.1128119,
+   "lat": 53.5419228
+ },
+ {
+   "name": "Coral",
+   "address": "6 Partington Street, Failsworth M35 9RD",
+   "ward": "Failsworth East",
+   "localAuthority": "Oldham",
+   "lon": -2.1539996,
+   "lat": 53.5084669
+ },
+ {
+   "name": "William Hill",
+   "address": "2-4 Ashton Road East, Failsworth M35 9PT",
+   "ward": "Failsworth East",
+   "localAuthority": "Oldham",
+   "lon": -2.1534429,
+   "lat": 53.5101361
+ },
+ {
+   "name": "William Hill",
+   "address": "723A Oldham Road, Failsworth M35 9AU",
+   "ward": "Failsworth East",
+   "localAuthority": "Oldham",
+   "lon": -2.1465842,
+   "lat": 53.5180759
+ },
+ {
+   "name": "William Hill",
+   "address": "760/762 Oldham Road, Failsworth M35 9FE",
+   "ward": "Failsworth East",
+   "localAuthority": "Oldham",
+   "lon": -2.1472608,
+   "lat": 53.5170305
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "Unit 10, Failsworth Precinct, Failsworth M35 0EJ",
+   "ward": "Failsworth West",
+   "localAuthority": "Oldham",
+   "lon": -2.1587193,
+   "lat": 53.5097572
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "Unit 2 Failsworth Precinct M35 0FF",
+   "ward": "Failsworth West",
+   "localAuthority": "Oldham",
+   "lon": -2.1587193,
+   "lat": 53.5097572
+ },
+ {
+   "name": "Whitehouse Bookmakers",
+   "address": "692 Hollins Road OL8 4JZ",
+   "ward": "Hollinwood",
+   "localAuthority": "Oldham",
+   "lon": -2.1331788,
+   "lat": 53.5213191
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "2 Hollins Road OL8 3EA",
+   "ward": "Medlock Vale",
+   "localAuthority": "Oldham",
+   "lon": -2.1115575,
+   "lat": 53.5267141
+ },
+ {
+   "name": "Ladbrokes Ltd",
+   "address": "312-318 Ashton Road OL8 3ED",
+   "ward": "Medlock Vale",
+   "localAuthority": "Oldham",
+   "lon": -2.1117499,
+   "lat": 53.5271718
+ },
+ {
+   "name": "Ladbrokes Ltd",
+   "address": "5-7 Market Square, Royton OL2 5QD",
+   "ward": "Royton North",
+   "localAuthority": "Oldham",
+   "lon": -2.1234234,
+   "lat": 53.5661897
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "Unit 2 Market Square OL2 5QD",
+   "ward": "Royton North",
+   "localAuthority": "Oldham",
+   "lon": -2.1227419,
+   "lat": 53.5662577
+ },
+ {
+   "name": "William Hill",
+   "address": "11-13 Market Street, Royton OL2 5QA",
+   "ward": "Royton North",
+   "localAuthority": "Oldham",
+   "lon": -2.123694,
+   "lat": 53.565785
+ },
+ {
+   "name": "William Hill",
+   "address": "101 High Street, Lees OL4 4LY",
+   "ward": "Saddleworth West and Lees",
+   "localAuthority": "Oldham",
+   "lon": -2.0710219,
+   "lat": 53.5377683
+ },
+ {
+   "name": "William Hill",
+   "address": "175 Huddersfield Road OL1 3PA",
+   "ward": "St James'",
+   "localAuthority": "Oldham",
+   "lon": -2.0904054,
+   "lat": 53.5469885
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "13A Yorkshire Street OL1 3RZ",
+   "ward": "St Mary's",
+   "localAuthority": "Oldham",
+   "lon": -2.1109332,
+   "lat": 53.5422259
+ },
+ {
+   "name": "Whitehouse Bookmakers",
+   "address": "300 Lees Road OL4 1NZ",
+   "ward": "St Mary's",
+   "localAuthority": "Oldham",
+   "lon": -2.0890317,
+   "lat": 53.5400443
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "11 Beal Lane, Shaw OL2 8UY",
+   "ward": "Shaw",
+   "localAuthority": "Oldham",
+   "lon": -2.0915982,
+   "lat": 53.5772956
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "86/88 Market Street, Shaw OL2 8NP",
+   "ward": "Shaw",
+   "localAuthority": "Oldham",
+   "lon": -2.0944144,
+   "lat": 53.5755343
+ },
+ {
+   "name": "William Hill",
+   "address": "12 Market Street OL2 8NH",
+   "ward": "Shaw",
+   "localAuthority": "Oldham",
+   "lon": -2.0936391,
+   "lat": 53.5775045
+ },
+ {
+   "name": "Lewis Bookmakers",
+   "address": "148 Huddersfield Road OL4 2RD",
+   "ward": "Waterhead",
+   "localAuthority": "Oldham",
+   "lon": -2.0889508,
+   "lat": 53.5473009
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "461 Huddersfield Road OL4 2HT",
+   "ward": "Waterhead",
+   "localAuthority": "Oldham",
+   "lon": -2.0769436,
+   "lat": 53.549572
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "2 The Strand, Kirkholt OL11 2JG",
+   "ward": "Balderstone and Kirkholt",
+   "localAuthority": "Rochdale",
+   "lon": -2.156443,
+   "lat": 53.5940025
+ },
+ {
+   "name": "Betfred",
+   "address": "820-822 Manchester Road OL11 3AW",
+   "ward": "Castleton",
+   "localAuthority": "Rochdale",
+   "lon": -2.179992,
+   "lat": 53.5924025
+ },
+ {
+   "name": "Betfred",
+   "address": "61-63 Halifax Road OL12 9BA",
+   "ward": "Central Rochdale",
+   "localAuthority": "Rochdale",
+   "lon": -2.1430536,
+   "lat": 53.6254758
+ },
+ {
+   "name": "William Hill",
+   "address": "162 Whitworth Road OL12 0JG",
+   "ward": "Central Rochdale",
+   "localAuthority": "Rochdale",
+   "lon": -2.155972,
+   "lat": 53.6258458
+ },
+ {
+   "name": "William Hill",
+   "address": "83 Whitworth Road OL12 0RD",
+   "ward": "Central Rochdale",
+   "localAuthority": "Rochdale",
+   "lon": -2.1560661,
+   "lat": 53.6247841
+ },
+ {
+   "name": "William Hill",
+   "address": "446/448 Oldham Road, Middleton M24 2FA",
+   "ward": "East Middleton",
+   "localAuthority": "Rochdale",
+   "lon": -2.1771672,
+   "lat": 53.5510239
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "Unit 4, Amenity Building, Birch Motorway Service Station, Eastbound M62 OL10 2QH",
+   "ward": "Hopwood Hall",
+   "localAuthority": "Rochdale",
+   "lon": -2.2329082,
+   "lat": 53.5684756
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 2 Mayfiled Public House, Albert Royds Street OL16 2UE",
+   "ward": "Kingsway",
+   "localAuthority": "Rochdale",
+   "lon": -2.134339,
+   "lat": 53.623562
+ },
+ {
+   "name": "William Hill",
+   "address": "409-411 Oldham Road OL16 4SZ",
+   "ward": "Kingsway",
+   "localAuthority": "Rochdale",
+   "lon": -2.1460765,
+   "lat": 53.6034493
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "29 Church Street OL15 8DA",
+   "ward": "Littleborough Lakeside",
+   "localAuthority": "Rochdale",
+   "lon": -2.094704,
+   "lat": 53.643767
+ },
+ {
+   "name": "William Hill",
+   "address": "50 Church Street OL15 8AU",
+   "ward": "Littleborough Lakeside",
+   "localAuthority": "Rochdale",
+   "lon": -2.0966078,
+   "lat": 53.6440035
+ },
+ {
+   "name": "Paddy Power",
+   "address": "15 Yorkshire Street OL16 1BH",
+   "ward": "Milkstone and Deeplish",
+   "localAuthority": "Rochdale",
+   "lon": -2.158605,
+   "lat": 53.617293
+ },
+ {
+   "name": "Betfred",
+   "address": "7 Yorkshire Street OL16 1BH",
+   "ward": "Milkstone and Deeplish",
+   "localAuthority": "Rochdale",
+   "lon": -2.1584418,
+   "lat": 53.6170715
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "13 The Butts OL16 1ES",
+   "ward": "Milkstone and Deeplish",
+   "localAuthority": "Rochdale",
+   "lon": -2.1576655,
+   "lat": 53.6173396
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "29 Tweedale Street OL11 1HH",
+   "ward": "Milkstone and Deeplish",
+   "localAuthority": "Rochdale",
+   "lon": -2.1584145,
+   "lat": 53.6097455
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "25 Drake Street OL16 1RX",
+   "ward": "Milkstone and Deeplish",
+   "localAuthority": "Rochdale",
+   "lon": -2.1556135,
+   "lat": 53.616332
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "85 Milkstone Road OL11 1NT",
+   "ward": "Milkstone and Deeplish",
+   "localAuthority": "Rochdale",
+   "lon": -2.1548616,
+   "lat": 53.608394
+ },
+ {
+   "name": "William Hill",
+   "address": "108 Yorkshire Street OL16 1JY",
+   "ward": "Milkstone and Deeplish",
+   "localAuthority": "Rochdale",
+   "lon": -2.1553632,
+   "lat": 53.619147
+ },
+ {
+   "name": "William Hill",
+   "address": "4/6 Baillie Street OL16 1JG",
+   "ward": "Milkstone and Deeplish",
+   "localAuthority": "Rochdale",
+   "lon": -2.1576795,
+   "lat": 53.6175434
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "Unit7, Stone Street Precint, Newhey Road, Milnrow OL16 4JD",
+   "ward": "Milnrow and Newhey",
+   "localAuthority": "Rochdale",
+   "lon": -2.107777,
+   "lat": 53.607687
+ },
+ {
+   "name": "Betfred",
+   "address": "106 Manchester Street OL10 1DW",
+   "ward": "North Heywood",
+   "localAuthority": "Rochdale",
+   "lon": -2.211661,
+   "lat": 53.589735
+ },
+ {
+   "name": "David Pluck Racing",
+   "address": "14-16 Market Street OL10 4LY",
+   "ward": "North Heywood",
+   "localAuthority": "Rochdale",
+   "lon": -2.2215648,
+   "lat": 53.5937895
+ },
+ {
+   "name": "William Hill",
+   "address": "47/49 Market Place OL10 4NL",
+   "ward": "North Heywood",
+   "localAuthority": "Rochdale",
+   "lon": -2.2226335,
+   "lat": 53.5935785
+ },
+ {
+   "name": "William Hill",
+   "address": "83 York Street OL10 4NR",
+   "ward": "North Heywood",
+   "localAuthority": "Rochdale",
+   "lon": -2.215976,
+   "lat": 53.5935989
+ },
+ {
+   "name": "Betfred",
+   "address": "23 Long Street, Middleton M24 6UQ",
+   "ward": "North Middleton",
+   "localAuthority": "Rochdale",
+   "lon": -2.1978975,
+   "lat": 53.5501083
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "14A-16 Wood Street, Middleton M24 5TF",
+   "ward": "North Middleton",
+   "localAuthority": "Rochdale",
+   "lon": -2.1994788,
+   "lat": 53.5502662
+ },
+ {
+   "name": "William Hill",
+   "address": "223 Boarshaw Road, Middleton M24 2WQ",
+   "ward": "North Middleton",
+   "localAuthority": "Rochdale",
+   "lon": -2.187107,
+   "lat": 53.556725
+ },
+ {
+   "name": "William Hill",
+   "address": "8A & 8B Wood Street, Middleton M24 5TF",
+   "ward": "North Middleton",
+   "localAuthority": "Rochdale",
+   "lon": -2.198885,
+   "lat": 53.549954
+ },
+ {
+   "name": "Bob Holmes Bookmaker",
+   "address": "6 Chapel Walks, Middleton M24 4QB",
+   "ward": "South Middleton",
+   "localAuthority": "Rochdale",
+   "lon": -2.224595,
+   "lat": 53.544149
+ },
+ {
+   "name": "Betfred",
+   "address": "183 Kirkway, Middleton M24 1LW",
+   "ward": "South Middleton",
+   "localAuthority": "Rochdale",
+   "lon": -2.1933288,
+   "lat": 53.5380082
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "Unit 47/48, Middleton Shopping Centre, Middleton M24 4EL",
+   "ward": "South Middleton",
+   "localAuthority": "Rochdale",
+   "lon": -2.2007711,
+   "lat": 53.5483865
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "378 Lower Falinge, Rochdale OL12 6BR",
+   "ward": "Spotland and Falinge",
+   "localAuthority": "Rochdale",
+   "lon": -2.1670249,
+   "lat": 53.6235569
+ },
+ {
+   "name": "Betfred",
+   "address": "80 Bury Street OL10 4QT",
+   "ward": "West Heywood",
+   "localAuthority": "Rochdale",
+   "lon": -2.2340543,
+   "lat": 53.5932385
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "20 Argyle Parade OL10 3RY",
+   "ward": "West Heywood",
+   "localAuthority": "Rochdale",
+   "lon": -2.241075,
+   "lat": 53.5878878
+ },
+ {
+   "name": "William Hill",
+   "address": "1A Lakeland Court, Middleton M24 5QJ",
+   "ward": "West Middleton",
+   "localAuthority": "Rochdale",
+   "lon": -2.2152981,
+   "lat": 53.5571431
+ },
+ {
+   "name": "Betfred",
+   "address": "276-278 Liverpool Road, Eccles M30 0RZ",
+   "ward": "Barton",
+   "localAuthority": "Salford",
+   "lon": -2.3565624,
+   "lat": 53.4820862
+ },
+ {
+   "name": "William Hill",
+   "address": "Unit C, 311 Liverpool Road, Eccles M30 0QN",
+   "ward": "Barton",
+   "localAuthority": "Salford",
+   "lon": -2.3577387,
+   "lat": 53.4812114
+ },
+ {
+   "name": "Betfred",
+   "address": "5 Standfield Centre M28 1FB",
+   "ward": "Boothstown and Ellenbrook",
+   "localAuthority": "Salford",
+   "lon": -2.4160893,
+   "lat": 53.502771
+ },
+ {
+   "name": "Betfred",
+   "address": "15 Mocha Parade M7 1QE",
+   "ward": "Broughton",
+   "localAuthority": "Salford",
+   "lon": -2.2606719,
+   "lat": 53.4917119
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "267 Great Cheetham Street East M7 4UF",
+   "ward": "Broughton",
+   "localAuthority": "Salford",
+   "lon": -2.2550428,
+   "lat": 53.503066
+ },
+ {
+   "name": "Betfred",
+   "address": "192A-192B Liverpool Road, Cadishead M44 5DB",
+   "ward": "Cadishead",
+   "localAuthority": "Salford",
+   "lon": -2.4389097,
+   "lat": 53.4242571
+ },
+ {
+   "name": "William Hill",
+   "address": "547 Liverpool Road, Irlam M44 6ZT",
+   "ward": "Cadishead",
+   "localAuthority": "Salford",
+   "lon": -2.4273551,
+   "lat": 53.4386415
+ },
+ {
+   "name": "William Hill",
+   "address": "375 Bolton Road M6 7NJ",
+   "ward": "Claremont",
+   "localAuthority": "Salford",
+   "lon": -2.308753,
+   "lat": 53.5007597
+ },
+ {
+   "name": "Betfred",
+   "address": "110 Monton Road, Eccles M30 9PY",
+   "ward": "Eccles",
+   "localAuthority": "Salford",
+   "lon": -2.3481685,
+   "lat": 53.4895408
+ },
+ {
+   "name": "Betfred",
+   "address": "64 Church Street, Eccles M30 0DA",
+   "ward": "Eccles",
+   "localAuthority": "Salford",
+   "lon": -2.3358081,
+   "lat": 53.4830797
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "35-37 Church Street, Eccles M30 0BJ",
+   "ward": "Eccles",
+   "localAuthority": "Salford",
+   "lon": -2.335384,
+   "lat": 53.4837032
+ },
+ {
+   "name": "William Hill",
+   "address": "56 Church Street, Eccles M30 0DF",
+   "ward": "Eccles",
+   "localAuthority": "Salford",
+   "lon": -2.3370403,
+   "lat": 53.4838089
+ },
+ {
+   "name": "Betfred",
+   "address": "92-94 Liverpool Road, Irlam M44 6FN",
+   "ward": "Irlam",
+   "localAuthority": "Salford",
+   "lon": -2.4097773,
+   "lat": 53.4528806
+ },
+ {
+   "name": "Betfred",
+   "address": "220 Chapel Street M3 5LE",
+   "ward": "Irwell Riverside",
+   "localAuthority": "Salford",
+   "lon": -2.2594837,
+   "lat": 53.4835372
+ },
+ {
+   "name": "Betfred",
+   "address": "333-335 Bolton Road M6 7GU",
+   "ward": "Irwell Riverside",
+   "localAuthority": "Salford",
+   "lon": -2.3070465,
+   "lat": 53.499916
+ },
+ {
+   "name": "Betfred",
+   "address": "Broughton Road M6 6LS",
+   "ward": "Irwell Riverside",
+   "localAuthority": "Salford",
+   "lon": -2.2839306,
+   "lat": 53.4930652
+ },
+ {
+   "name": "Betfred",
+   "address": "307-309 Littleton Road M7 3TA",
+   "ward": "Kersal",
+   "localAuthority": "Salford",
+   "lon": -2.2799816,
+   "lat": 53.5040366
+ },
+ {
+   "name": "Betfred",
+   "address": "6 Union Terrace M7 4ZH",
+   "ward": "Kersal",
+   "localAuthority": "Salford",
+   "lon": -2.2458434,
+   "lat": 53.5125891
+ },
+ {
+   "name": "William Hill",
+   "address": "12 Union Terrace, Bury Old Road M7 4ZH",
+   "ward": "Kersal",
+   "localAuthority": "Salford",
+   "lon": -2.2458434,
+   "lat": 53.5125891
+ },
+ {
+   "name": "Betfred",
+   "address": "177-179 Langworthy Road M6 5PW",
+   "ward": "Langworthy",
+   "localAuthority": "Salford",
+   "lon": -2.2950678,
+   "lat": 53.485955
+ },
+ {
+   "name": "Betfred",
+   "address": "43-44 Hankinson Way M6 5JA",
+   "ward": "Langworthy",
+   "localAuthority": "Salford",
+   "lon": -2.286436,
+   "lat": 53.4888132
+ },
+ {
+   "name": "Betfred",
+   "address": "80 Pendleton Way M6 5FW",
+   "ward": "Langworthy",
+   "localAuthority": "Salford",
+   "lon": -2.2877905,
+   "lat": 53.4903935
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "114 Sutton Way, Salford Shopping City M6 5HS",
+   "ward": "Langworthy",
+   "localAuthority": "Salford",
+   "lon": -2.2874613,
+   "lat": 53.4896761
+ },
+ {
+   "name": "William Hill",
+   "address": "161 Langworthy Road M6 5PW",
+   "ward": "Langworthy",
+   "localAuthority": "Salford",
+   "lon": -2.2947677,
+   "lat": 53.4856548
+ },
+ {
+   "name": "William Hill",
+   "address": "47-48 Market Way M6 5HG",
+   "ward": "Langworthy",
+   "localAuthority": "Salford",
+   "lon": -2.288072,
+   "lat": 53.4880936
+ },
+ {
+   "name": "William Hill",
+   "address": "505-507 Liverpool Street M6 5QQ",
+   "ward": "Langworthy",
+   "localAuthority": "Salford",
+   "lon": -2.2978408,
+   "lat": 53.4838744
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "38 Hulton District Centre, Worsley M28 0AU",
+   "ward": "Little Hulton",
+   "localAuthority": "Salford",
+   "lon": -2.4231123,
+   "lat": 53.5296967
+ },
+ {
+   "name": "William Hill",
+   "address": "Unit 9, Hulton District Centre, Worsley M28 0BA",
+   "ward": "Little Hulton",
+   "localAuthority": "Salford",
+   "lon": -2.4221821,
+   "lat": 53.5298867
+ },
+ {
+   "name": "Betfred",
+   "address": "582-584 Bolton Road, Pendlebury, Swinton M27 4ET",
+   "ward": "Pendlebury",
+   "localAuthority": "Salford",
+   "lon": -2.3296756,
+   "lat": 53.51706
+ },
+ {
+   "name": "Stan James",
+   "address": "696-698 Bolton Road, Pendlebury, Swinton M27 6EL",
+   "ward": "Swinton North",
+   "localAuthority": "Salford",
+   "lon": -2.3334748,
+   "lat": 53.5191396
+ },
+ {
+   "name": "William Hill",
+   "address": "465 Chorley Road M27 9RH",
+   "ward": "Swinton North",
+   "localAuthority": "Salford",
+   "lon": -2.3511738,
+   "lat": 53.5168766
+ },
+ {
+   "name": "Betfred",
+   "address": "21 The Parade, Swinton M27 4BH",
+   "ward": "Swinton South",
+   "localAuthority": "Salford",
+   "lon": -2.3378012,
+   "lat": 53.5132947
+ },
+ {
+   "name": "Done Bookmakers",
+   "address": "Unit 21-23  The Parade, Swinton M27 4BH",
+   "ward": "Swinton South",
+   "localAuthority": "Salford",
+   "lon": -2.3378012,
+   "lat": 53.5132947
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "5 The Parade, Swinton M27 4BH",
+   "ward": "Swinton South",
+   "localAuthority": "Salford",
+   "lon": -2.3383925,
+   "lat": 53.5125091
+ },
+ {
+   "name": "William Hill",
+   "address": "243 Manchester Road, Swinton M27 4TT",
+   "ward": "Swinton South",
+   "localAuthority": "Salford",
+   "lon": -2.3319595,
+   "lat": 53.5078961
+ },
+ {
+   "name": "Betfred",
+   "address": "500 Manchester Road East, Little Hulton M38 9NS",
+   "ward": "Walkden North",
+   "localAuthority": "Salford",
+   "lon": -2.4234771,
+   "lat": 53.531182
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 150/151  Ellesmere Shopping Centre, Bolton Road, Worsley M28 3ZH",
+   "ward": "Walkden North",
+   "localAuthority": "Salford",
+   "lon": -2.400132,
+   "lat": 53.524892
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 4 Radclyffe Park, Trafford Road M5 3PH",
+   "ward": "Walkden North",
+   "localAuthority": "Salford",
+   "lon": -2.411549,
+   "lat": 53.5332496
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "Unit 40, Ellesmere Shopping Centre, Bolton Road, Worsley M28 3ZD",
+   "ward": "Walkden North",
+   "localAuthority": "Salford",
+   "lon": -2.400132,
+   "lat": 53.524892
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "Unit 61, Ellesmere Shopping Centre, Bolton Road, Worsley M28 3ZD",
+   "ward": "Walkden North",
+   "localAuthority": "Salford",
+   "lon": -2.400132,
+   "lat": 53.524892
+ },
+ {
+   "name": "William Hill",
+   "address": "132 Walkden Road M28 7DP",
+   "ward": "Walkden South",
+   "localAuthority": "Salford",
+   "lon": -2.3964039,
+   "lat": 53.5189642
+ },
+ {
+   "name": "Betfred",
+   "address": "67 Tootal Road M5 5EG",
+   "ward": "Weaste and Seedley",
+   "localAuthority": "Salford",
+   "lon": -2.3116747,
+   "lat": 53.4845251
+ },
+ {
+   "name": "Betfred",
+   "address": "392 Worsley Road, Eccles M30 8HQ",
+   "ward": "Winton",
+   "localAuthority": "Salford",
+   "lon": -2.3719439,
+   "lat": 53.491028
+ },
+ {
+   "name": "Betfred",
+   "address": "498-502 Liverpool Road M30 7HZ",
+   "ward": "Winton",
+   "localAuthority": "Salford",
+   "lon": -2.3655111,
+   "lat": 53.4786183
+ },
+ {
+   "name": "William Hill",
+   "address": "226 Moss Lane, Bramhall SK7 1BD",
+   "ward": "Bramhall South and Woodford",
+   "localAuthority": "Stockport",
+   "lon": -2.1667599,
+   "lat": 53.3571963
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "Unit 1, Woodley Precinct, Woodley SK6 1RJ",
+   "ward": "Bredbury and Woodley",
+   "localAuthority": "Stockport",
+   "lon": -2.1011286,
+   "lat": 53.4262177
+ },
+ {
+   "name": "William Hill",
+   "address": "41 Woodley Precinct, Woodley SK6 1RJ",
+   "ward": "Bredbury and Woodley",
+   "localAuthority": "Stockport",
+   "lon": -2.1011286,
+   "lat": 53.4262177
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "21 The Precinct, Romiley SK6 4EA",
+   "ward": "Bredbury Green and Romiley",
+   "localAuthority": "Stockport",
+   "lon": -2.0860311,
+   "lat": 53.4137609
+ },
+ {
+   "name": "Corals",
+   "address": "162 Higher Bents Lane, Bredbury SK6 2LU",
+   "ward": "Bredbury Green and Romiley",
+   "localAuthority": "Stockport",
+   "lon": -2.1059243,
+   "lat": 53.4161497
+ },
+ {
+   "name": "Betfred",
+   "address": "111 Princes Street SK1 1RW",
+   "ward": "Brinnington and Central",
+   "localAuthority": "Stockport",
+   "lon": -2.1625766,
+   "lat": 53.4107461
+ },
+ {
+   "name": "Betfred",
+   "address": "19 Warren Street SK1 1UD",
+   "ward": "Brinnington and Central",
+   "localAuthority": "Stockport",
+   "lon": -2.1575623,
+   "lat": 53.4126116
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "16-18 Great Underbank SK1 1LW",
+   "ward": "Brinnington and Central",
+   "localAuthority": "Stockport",
+   "lon": -2.1583368,
+   "lat": 53.4114999
+ },
+ {
+   "name": "William Hill",
+   "address": "18 Princes Street SK1 1SE",
+   "ward": "Brinnington and Central",
+   "localAuthority": "Stockport",
+   "lon": -2.1592113,
+   "lat": 53.4124966
+ },
+ {
+   "name": "William Hill",
+   "address": "8 Little Underbank SK1 1JT",
+   "ward": "Brinnington and Central",
+   "localAuthority": "Stockport",
+   "lon": -2.1577816,
+   "lat": 53.4110183
+ },
+ {
+   "name": "William Hill",
+   "address": "7/8, Brinnington Village Centre, SK5 8BA",
+   "ward": "Brinnington and Central",
+   "localAuthority": "Stockport",
+   "lon": -2.133997,
+   "lat": 53.427092
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "1 Church Road, Gatley SK8 4NG",
+   "ward": "Cheadle and Gatley",
+   "localAuthority": "Stockport",
+   "lon": -2.2360248,
+   "lat": 53.3918853
+ },
+ {
+   "name": "David Pluck Bookmakers",
+   "address": "42 High Street SK8 1AE",
+   "ward": "Cheadle and Gatley",
+   "localAuthority": "Stockport",
+   "lon": -2.2161905,
+   "lat": 53.3946481
+ },
+ {
+   "name": "William Hill",
+   "address": "19 High Street SK8 1AX",
+   "ward": "Cheadle and Gatley",
+   "localAuthority": "Stockport",
+   "lon": -2.2143368,
+   "lat": 53.3948272
+ },
+ {
+   "name": "William Hill",
+   "address": "153 Councillor Lane SK8 2JE",
+   "ward": "Cheadle Hulme North",
+   "localAuthority": "Stockport",
+   "lon": -2.194189,
+   "lat": 53.3910669
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 30B, Cheadle Hulme Shopping Precinc SK8 5AF",
+   "ward": "Cheadle Hulme South",
+   "localAuthority": "Stockport",
+   "lon": -2.1898165,
+   "lat": 53.3776839
+ },
+ {
+   "name": "William Hill",
+   "address": "15 Station Road, Cheadle Hulme SK8 5AF",
+   "ward": "Cheadle Hulme South",
+   "localAuthority": "Stockport",
+   "lon": -2.1895295,
+   "lat": 53.3774803
+ },
+ {
+   "name": "William Hill",
+   "address": "276 Adswood Road SK3 8PN",
+   "ward": "Davenport and Cale Green",
+   "localAuthority": "Stockport",
+   "lon": -2.1698678,
+   "lat": 53.3893928
+ },
+ {
+   "name": "Lewis Bookmakers",
+   "address": "100-102 Castle Street SK3 9AL",
+   "ward": "Edgeley and Cheadle Heath",
+   "localAuthority": "Stockport",
+   "lon": -2.1683642,
+   "lat": 53.4016229
+ },
+ {
+   "name": "William Hill",
+   "address": "154-156 Grenville Street SK3 9EU",
+   "ward": "Edgeley and Cheadle Heath",
+   "localAuthority": "Stockport",
+   "lon": -2.1700689,
+   "lat": 53.4017606
+ },
+ {
+   "name": "William Hill",
+   "address": "17 Castle Street SK3 9AT",
+   "ward": "Edgeley and Cheadle Heath",
+   "localAuthority": "Stockport",
+   "lon": -2.1641242,
+   "lat": 53.4023034
+ },
+ {
+   "name": "Betfred",
+   "address": "101 London Road, Hazel Grove SK7 4AX",
+   "ward": "Hazel Grove",
+   "localAuthority": "Stockport",
+   "lon": -2.1240753,
+   "lat": 53.3818893
+ },
+ {
+   "name": "Betfred",
+   "address": "3 Fiveways Parade, Hazel Grove SK7 6DG",
+   "ward": "Hazel Grove",
+   "localAuthority": "Stockport",
+   "lon": -2.114207,
+   "lat": 53.3679225
+ },
+ {
+   "name": "William Hill",
+   "address": "186-188 London Road, Hazel Grove SK7 4DQ",
+   "ward": "Hazel Grove",
+   "localAuthority": "Stockport",
+   "lon": -2.1222071,
+   "lat": 53.3799317
+ },
+ {
+   "name": "Betfred",
+   "address": "236 Finney Lane, Heald Green SK8 3QA",
+   "ward": "Heald Green",
+   "localAuthority": "Stockport",
+   "lon": -2.2332893,
+   "lat": 53.3702288
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "258 Finney Lane, Heald Green SK8 3QD",
+   "ward": "Heald Green",
+   "localAuthority": "Stockport",
+   "lon": -2.2347932,
+   "lat": 53.3703657
+ },
+ {
+   "name": "Coral Bookmakers",
+   "address": "108 Heaton Moor Road SK4 4NZ",
+   "ward": "Heatons North",
+   "localAuthority": "Stockport",
+   "lon": -2.1840961,
+   "lat": 53.4229556
+ },
+ {
+   "name": "Coral Bookmakers Paul Dean Bookmakers",
+   "address": "478 Didsbury Road SK4 3BS",
+   "ward": "Heatons South",
+   "localAuthority": "Stockport",
+   "lon": -2.2061224,
+   "lat": 53.4121254
+ },
+ {
+   "name": "William Hill",
+   "address": "64-66 Buxton Road SK2 6NB",
+   "ward": "Manor",
+   "localAuthority": "Stockport",
+   "lon": -2.1503013,
+   "lat": 53.396601
+ },
+ {
+   "name": "Coral",
+   "address": "95 Church Lane, Marple SK6 7AW",
+   "ward": "Marple South",
+   "localAuthority": "Stockport",
+   "lon": -2.0647342,
+   "lat": 53.3931931
+ },
+ {
+   "name": "William Hill",
+   "address": "140 Lisburne Lane SK2 5RH",
+   "ward": "Offerton",
+   "localAuthority": "Stockport",
+   "lon": -2.1237151,
+   "lat": 53.3972697
+ },
+ {
+   "name": "Lewis Bookmakers",
+   "address": "6-8 Broadstone Road SK5 7AE",
+   "ward": "Reddish North",
+   "localAuthority": "Stockport",
+   "lon": -2.1605275,
+   "lat": 53.4372844
+ },
+ {
+   "name": "William Hill",
+   "address": "5-9 Leamington Road SK5 6BD",
+   "ward": "Reddish North",
+   "localAuthority": "Stockport",
+   "lon": -2.161314,
+   "lat": 53.4374575
+ },
+ {
+   "name": "William Hill",
+   "address": "604-608 Gorton Road SK5 6RE",
+   "ward": "Reddish North",
+   "localAuthority": "Stockport",
+   "lon": -2.1575196,
+   "lat": 53.4534441
+ },
+ {
+   "name": "Totesport",
+   "address": "32 Gorton Road SK5 6AE",
+   "ward": "Reddish North",
+   "localAuthority": "Stockport",
+   "lon": -2.1595393,
+   "lat": 53.4380341
+ },
+ {
+   "name": "David Pluck Racing",
+   "address": "105-107 Reddish Lane, Denton M34 2NF",
+   "ward": "Reddish North",
+   "localAuthority": "Stockport",
+   "lon": -2.1583238,
+   "lat": 53.4545271
+ },
+ {
+   "name": "William Hill",
+   "address": "418-420 Manchester Road SK4 5BY",
+   "ward": "Reddish South",
+   "localAuthority": "Stockport",
+   "lon": -2.1745675,
+   "lat": 53.4281447
+ },
+ {
+   "name": "David Pluck Racing",
+   "address": "349 Buxton Road SK2 7NL",
+   "ward": "Stepping Hill",
+   "localAuthority": "Stockport",
+   "lon": -2.1361228,
+   "lat": 53.388716
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "240 Kings Road OL6 8HD",
+   "ward": "Ashton St Michael's",
+   "localAuthority": "Tameside",
+   "lon": -2.0790095,
+   "lat": 53.500338
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "252-254 Whiteacre Road OL6 9QB",
+   "ward": "Ashton St Michael's",
+   "localAuthority": "Tameside",
+   "lon": -2.0795192,
+   "lat": 53.4957192
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "48 Stamford Square OL6 6QW",
+   "ward": "Ashton St Michael's",
+   "localAuthority": "Tameside",
+   "lon": -2.0782193,
+   "lat": 53.4869047
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "336 Oldham Road OL7 9AU",
+   "ward": "Ashton Waterloo",
+   "localAuthority": "Tameside",
+   "lon": -2.1031389,
+   "lat": 53.4984631
+ },
+ {
+   "name": "Lewis Bookmakers",
+   "address": "2-2A Stockport Road, Denton M34 6DA",
+   "ward": "Denton North East",
+   "localAuthority": "Tameside",
+   "lon": -2.1138713,
+   "lat": 53.4559296
+ },
+ {
+   "name": "Betfred",
+   "address": "177-179 Stockport Road, Denton M34 1AQ",
+   "ward": "Denton North East",
+   "localAuthority": "Tameside",
+   "lon": -2.1114988,
+   "lat": 53.4519216
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "32 Ashton Road, Denton M34 3EX",
+   "ward": "Denton North East",
+   "localAuthority": "Tameside",
+   "lon": -2.1140355,
+   "lat": 53.4570258
+ },
+ {
+   "name": "William Hill",
+   "address": "3-5 Manchester Road, Denton M34 3JU",
+   "ward": "Denton North East",
+   "localAuthority": "Tameside",
+   "lon": -2.1153057,
+   "lat": 53.4559853
+ },
+ {
+   "name": "Betfred",
+   "address": "101 Haughton Green Road, Denton M34 1GR",
+   "ward": "Denton South",
+   "localAuthority": "Tameside",
+   "lon": -2.0979813,
+   "lat": 53.4410783
+ },
+ {
+   "name": "David Pluck Racing",
+   "address": "130-132 Market Street, Droylsden M43 7AA",
+   "ward": "Droylsden East",
+   "localAuthority": "Tameside",
+   "lon": -2.1450515,
+   "lat": 53.480086
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "Unit L, Droylsden Shopping Centre M43 6DE",
+   "ward": "Droylsden East",
+   "localAuthority": "Tameside",
+   "lon": -2.1459747,
+   "lat": 53.4803082
+ },
+ {
+   "name": "William Hill",
+   "address": "135-137 Market Street, Droylsden M43 7AR",
+   "ward": "Droylsden East",
+   "localAuthority": "Tameside",
+   "lon": -2.1458199,
+   "lat": 53.4800289
+ },
+ {
+   "name": "William Hill",
+   "address": "Fiveways, 164A Greenside Lane, Droylsden M43 7UR",
+   "ward": "Droylsden West",
+   "localAuthority": "Tameside",
+   "lon": -2.151003,
+   "lat": 53.484872
+ },
+ {
+   "name": "William Hill",
+   "address": "113-117 King Street SK16 4NQ",
+   "ward": "Dukinfield",
+   "localAuthority": "Tameside",
+   "lon": -2.0939855,
+   "lat": 53.4798473
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "34, 36 & 38 Grosvenor Street SK15 2JN",
+   "ward": "Dukinfield Stalybridge",
+   "localAuthority": "Tameside",
+   "lon": -2.057121,
+   "lat": 53.481412
+ },
+ {
+   "name": "David Pluck Racing",
+   "address": "Unit 1 28-36 Melbourne Street SK15 2JJ",
+   "ward": "Dukinfield Stalybridge",
+   "localAuthority": "Tameside",
+   "lon": -2.0571777,
+   "lat": 53.4825356
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "45 Grosvenor Street SK15 2JN",
+   "ward": "Dukinfield Stalybridge",
+   "localAuthority": "Tameside",
+   "lon": -2.0577729,
+   "lat": 53.4813477
+ },
+ {
+   "name": "William Hill",
+   "address": "10 Melbourne Street SK15 2JE",
+   "ward": "Dukinfield Stalybridge",
+   "localAuthority": "Tameside",
+   "lon": -2.0577216,
+   "lat": 53.4833309
+ },
+ {
+   "name": "William Hill",
+   "address": "142 Cheetham Hill Road SK16 5JJ",
+   "ward": "Dukinfield Stalybridge",
+   "localAuthority": "Tameside",
+   "lon": -2.0701103,
+   "lat": 53.4753515
+ },
+ {
+   "name": "Betfred",
+   "address": "16A Market Place SK14 2QU",
+   "ward": "Hyde Godley",
+   "localAuthority": "Tameside",
+   "lon": -2.0813138,
+   "lat": 53.4522986
+ },
+ {
+   "name": "William Hill",
+   "address": "9 Market Place SK14 2LX",
+   "ward": "Hyde Godley",
+   "localAuthority": "Tameside",
+   "lon": -2.0787685,
+   "lat": 53.4516542
+ },
+ {
+   "name": "Betfred",
+   "address": "2 Bennett Street SK14 4TQ",
+   "ward": "Hyde Newton",
+   "localAuthority": "Tameside",
+   "lon": -2.0766869,
+   "lat": 53.4629254
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "92 Market Street SK14 1ES",
+   "ward": "Hyde Werneth",
+   "localAuthority": "Tameside",
+   "lon": -2.0785222,
+   "lat": 53.4501017
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 16A, Katherine Street, Arcades Shopping Centre OL6 7JE",
+   "ward": "St Peter's",
+   "localAuthority": "Tameside",
+   "lon": -2.0951653,
+   "lat": 53.4896372
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 16C, Katherine Street, Arcades Shopping Centre OL6 7JE",
+   "ward": "St Peter's",
+   "localAuthority": "Tameside",
+   "lon": -2.0951653,
+   "lat": 53.4896372
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 40, The Arcades, Warrington Street OL6 7JD",
+   "ward": "St Peter's",
+   "localAuthority": "Tameside",
+   "lon": -2.0951653,
+   "lat": 53.4896372
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "36-38 Staveleigh Mall, Ladysmith Centre OL6 7JJ",
+   "ward": "St Peter's",
+   "localAuthority": "Tameside",
+   "lon": -2.0958891,
+   "lat": 53.4887623
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "85 Old Street OL6 7RS",
+   "ward": "St Peter's",
+   "localAuthority": "Tameside",
+   "lon": -2.0939693,
+   "lat": 53.4879818
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "26 Warrington Street, OL6 6AS",
+   "ward": "St Peter's",
+   "localAuthority": "Tameside",
+   "lon": -2.093245,
+   "lat": 53.488037
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "7 Chapel Street, Audenshaw M34 5DE",
+   "ward": "St Peter's",
+   "localAuthority": "Tameside",
+   "lon": -2.1122083,
+   "lat": 53.46875
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "86 Stockport Road OL7 0LH",
+   "ward": "St Peter's",
+   "localAuthority": "Tameside",
+   "lon": -2.107333,
+   "lat": 53.4807001
+ },
+ {
+   "name": "William Hill",
+   "address": "37 Old Street OL6 6BB",
+   "ward": "St Peter's",
+   "localAuthority": "Tameside",
+   "lon": -2.0918037,
+   "lat": 53.4885064
+ },
+ {
+   "name": "Betfred",
+   "address": "100 George Street WA14 1RF",
+   "ward": "Altrincham",
+   "localAuthority": "Trafford",
+   "lon": -2.3513727,
+   "lat": 53.3863497
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "2A-4 Regent Road WA14 1RE",
+   "ward": "Altrincham",
+   "localAuthority": "Trafford",
+   "lon": -2.3489495,
+   "lat": 53.3876928
+ },
+ {
+   "name": "William Hill",
+   "address": "85 Manchester Road WA14 4RJ",
+   "ward": "Altrincham",
+   "localAuthority": "Trafford",
+   "lon": -2.3523246,
+   "lat": 53.396798
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "8/10 Green Lane M33 5PH",
+   "ward": "Ashton upon Mersey",
+   "localAuthority": "Trafford",
+   "lon": -2.341546,
+   "lat": 53.42921
+ },
+ {
+   "name": "Betfred",
+   "address": "8 Brooklands Road M33 3SQ",
+   "ward": "Brooklands",
+   "localAuthority": "Trafford",
+   "lon": -2.3252343,
+   "lat": 53.4168361
+ },
+ {
+   "name": "William Hill",
+   "address": "5 Partington Shopping Centre M31 4EL",
+   "ward": "Bucklow-St Martins",
+   "localAuthority": "Trafford",
+   "lon": -2.4255998,
+   "lat": 53.4188142
+ },
+ {
+   "name": "Betfred",
+   "address": "107 Ayres Road M16 7GS",
+   "ward": "Clifford",
+   "localAuthority": "Trafford",
+   "lon": -2.2681968,
+   "lat": 53.458376
+ },
+ {
+   "name": "Betfred",
+   "address": "175 Chorlton Road M16 7WS",
+   "ward": "Clifford",
+   "localAuthority": "Trafford",
+   "lon": -2.2580326,
+   "lat": 53.4590315
+ },
+ {
+   "name": "William Hill",
+   "address": "27 Chorlton Street M16 9HN",
+   "ward": "Clifford",
+   "localAuthority": "Trafford",
+   "lon": -2.2687535,
+   "lat": 53.4637423
+ },
+ {
+   "name": "Betfred",
+   "address": "9/9A Lostock Road, Urmston M41 0SU",
+   "ward": "Davyhulme East",
+   "localAuthority": "Trafford",
+   "lon": -2.355999,
+   "lat": 53.458276
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "9b Lostock Road, Urmston M41 0SU",
+   "ward": "Davyhulme East",
+   "localAuthority": "Trafford",
+   "lon": -2.3561603,
+   "lat": 53.4583072
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "6 Davyhulme Circle, Urmston M41 0SS",
+   "ward": "Davyhulme East",
+   "localAuthority": "Trafford",
+   "lon": -2.3566101,
+   "lat": 53.457229
+ },
+ {
+   "name": "William Hill",
+   "address": "13 Woodsend Circle, Urmston M41 8GY",
+   "ward": "Davyhulme West",
+   "localAuthority": "Trafford",
+   "lon": -2.3942203,
+   "lat": 53.4527173
+ },
+ {
+   "name": "William Hill",
+   "address": "Unit 4  Woodsend Circle, Flixton M41 8GY",
+   "ward": "Davyhulme West",
+   "localAuthority": "Trafford",
+   "lon": -2.393459,
+   "lat": 53.452523
+ },
+ {
+   "name": "Betfred",
+   "address": "890 Chester Road, Stretford M32 0PA",
+   "ward": "Gorse Hill",
+   "localAuthority": "Trafford",
+   "lon": -2.2989021,
+   "lat": 53.4543995
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "676 Chester Road, Stretford M32 0SF",
+   "ward": "Gorse Hill",
+   "localAuthority": "Trafford",
+   "lon": -2.2881284,
+   "lat": 53.4612387
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "408 Barton Road, Stretford M32 9RW",
+   "ward": "Gorse Hill",
+   "localAuthority": "Trafford",
+   "lon": -2.3252604,
+   "lat": 53.4543387
+ },
+ {
+   "name": "Betfred",
+   "address": "34 Hale Road WA14 2EX",
+   "ward": "Hale Central",
+   "localAuthority": "Trafford",
+   "lon": -2.3485797,
+   "lat": 53.3815943
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "87 Great Stone Road, Stretford M32 8GR",
+   "ward": "Longford",
+   "localAuthority": "Trafford",
+   "lon": -2.2861085,
+   "lat": 53.4528601
+ },
+ {
+   "name": "William Hill",
+   "address": "5 Talbot Road, Old Trafford M16 0QT",
+   "ward": "Longford",
+   "localAuthority": "Trafford",
+   "lon": -2.2758461,
+   "lat": 53.462047
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "41 School Road M33 7YE",
+   "ward": "Priory",
+   "localAuthority": "Trafford",
+   "lon": -2.3228165,
+   "lat": 53.4249794
+ },
+ {
+   "name": "David Pluck Racing",
+   "address": "12 Northenden Road M33 3BR",
+   "ward": "Priory",
+   "localAuthority": "Trafford",
+   "lon": -2.3169509,
+   "lat": 53.4238156
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "19A School Road M33 7XX",
+   "ward": "Priory",
+   "localAuthority": "Trafford",
+   "lon": -2.3211566,
+   "lat": 53.4247841
+ },
+ {
+   "name": "William Hill",
+   "address": "19C School Road M33 7XX",
+   "ward": "Priory",
+   "localAuthority": "Trafford",
+   "lon": -2.321041,
+   "lat": 53.424744
+ },
+ {
+   "name": "Betfred",
+   "address": "58 Coppice Avenue M33 4WB",
+   "ward": "St Mary's",
+   "localAuthority": "Trafford",
+   "lon": -2.3512242,
+   "lat": 53.4145674
+ },
+ {
+   "name": "David Pluck Racing",
+   "address": "141 Northenden Road M33 3HF",
+   "ward": "Sale Moor",
+   "localAuthority": "Trafford",
+   "lon": -2.3038403,
+   "lat": 53.4198924
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "384 Northenden Road M33 2PT",
+   "ward": "Sale Moor",
+   "localAuthority": "Trafford",
+   "lon": -2.2912701,
+   "lat": 53.418803
+ },
+ {
+   "name": "William Hill",
+   "address": "147-151 Northenden Road M33 2HS",
+   "ward": "Sale Moor",
+   "localAuthority": "Trafford",
+   "lon": -2.3032207,
+   "lat": 53.4199374
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "Unit 123, Arndale Centre, Stretford M32 9BH",
+   "ward": "Stretford",
+   "localAuthority": "Trafford",
+   "lon": -2.3099387,
+   "lat": 53.4451707
+ },
+ {
+   "name": "William Hill",
+   "address": "28 Moss Road, Stretford M32 0AH",
+   "ward": "Stretford",
+   "localAuthority": "Trafford",
+   "lon": -2.318375,
+   "lat": 53.4480874
+ },
+ {
+   "name": "Betfred",
+   "address": "349 Stockport Road, Timperley WA15 7UG",
+   "ward": "Timperley",
+   "localAuthority": "Trafford",
+   "lon": -2.3192321,
+   "lat": 53.3974458
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "5A-7  Flixton Road M41 5AW",
+   "ward": "Urmston",
+   "localAuthority": "Trafford",
+   "lon": -2.3554583,
+   "lat": 53.4483297
+ },
+ {
+   "name": "William Hill",
+   "address": "Plot 3, Unit 18, Golden Way, M41 0NA",
+   "ward": "Urmston",
+   "localAuthority": "Trafford",
+   "lon": -2.354178,
+   "lat": 53.449325
+ },
+ {
+   "name": "William Hill",
+   "address": "256 Stockport Road, Timperley WA15 7UT",
+   "ward": "Village",
+   "localAuthority": "Trafford",
+   "lon": -2.3179081,
+   "lat": 53.3974584
+ },
+ {
+   "name": "Betfred",
+   "address": "Unit 4 Walthew Parade, Walthew Lane WN2 5AL",
+   "ward": "Abram",
+   "localAuthority": "Wigan",
+   "lon": -2.598375,
+   "lat": 53.519929
+ },
+ {
+   "name": "Totesport",
+   "address": "48-50 Warrington Road, Platt Bridge WN2 5JA",
+   "ward": "Abram",
+   "localAuthority": "Wigan",
+   "lon": -2.5977454,
+   "lat": 53.5175714
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "3 The Gerard Centre, Gerard Street, Ashton-In-Makerfield WN4 9AN",
+   "ward": "Ashton",
+   "localAuthority": "Wigan",
+   "lon": -2.6367043,
+   "lat": 53.4867736
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "12-14 Gerard Street, Ashton-In-Makerfield WN4 9AA",
+   "ward": "Ashton",
+   "localAuthority": "Wigan",
+   "lon": -2.6371055,
+   "lat": 53.487257
+ },
+ {
+   "name": "William Hill",
+   "address": "25A The Gerard Centre, Gerard Street, Ashton-In-Makerfield WN4 9AN",
+   "ward": "Ashton",
+   "localAuthority": "Wigan",
+   "lon": -2.6367043,
+   "lat": 53.4867736
+ },
+ {
+   "name": "Betfred",
+   "address": "73 Westleigh Lane WN7 5JE",
+   "ward": "Atherleigh",
+   "localAuthority": "Wigan",
+   "lon": -2.5267231,
+   "lat": 53.5116063
+ },
+ {
+   "name": "Ladbrokes",
+   "address": "44 Market Street, Atherton M46 0DG",
+   "ward": "Atherleigh",
+   "localAuthority": "Wigan",
+   "lon": -2.4924417,
+   "lat": 53.5236198
+ },
+ {
+   "name": "William Hill",
+   "address": "46 Market Street, Atherton M46 0DG",
+   "ward": "Atherleigh",
+   "localAuthority": "Wigan",
+   "lon": -2.4925376,
+   "lat": 53.5236268
+ },
+ {
+   "name": "Betfred",
+   "address": "100 Bolton Road, Atherton M46 9JY",
+   "ward": "Atherton",
+   "localAuthority": "Wigan",
+   "lon": -2.4834346,
+   "lat": 53.5276163
+ },
+ {
+   "name": "William Hill",
+   "address": "1 Brierfield Avenue M46 0HA",
+   "ward": "Atherton",
+   "localAuthority": "Wigan",
+   "lon": -2.4948484,
+   "lat": 53.5290702
+ },
+ {
+   "name": "Bet Fred",
+   "address": "Unit5/6 Bryn Road, Ashton-in-Makerfield WN4 0AA",
+   "ward": "Bryn",
+   "localAuthority": "Wigan",
+   "lon": -2.646485,
+   "lat": 53.5016186
+ },
+ {
+   "name": "Betfred",
+   "address": "399-401 Ormskirk Road WN5 9DH",
+   "ward": "Douglas",
+   "localAuthority": "Wigan",
+   "lon": -2.6670732,
+   "lat": 53.535668
+ },
+ {
+   "name": "Betfred",
+   "address": "6-10 Wallgate WN1 1JU",
+   "ward": "Douglas",
+   "localAuthority": "Wigan",
+   "lon": -2.6341682,
+   "lat": 53.5436026
+ },
+ {
+   "name": "William Hill",
+   "address": "137 Ormskirk Road WN5 8AQ",
+   "ward": "Douglas",
+   "localAuthority": "Wigan",
+   "lon": -2.6552988,
+   "lat": 53.538514
+ },
+ {
+   "name": "Totesport",
+   "address": "22 Wallgate WN1 1JU",
+   "ward": "Douglas",
+   "localAuthority": "Wigan",
+   "lon": -2.6339351,
+   "lat": 53.5437395
+ },
+ {
+   "name": "Totesport",
+   "address": "397 Ormskirk Road WN5 9DH",
+   "ward": "Douglas",
+   "localAuthority": "Wigan",
+   "lon": -2.667068,
+   "lat": 53.5356597
+ },
+ {
+   "name": "Harold Smith Bookmakers",
+   "address": "3 , Stone Cross Lane North, Lowton WA3 2SA",
+   "ward": "Golborne and Lowton West",
+   "localAuthority": "Wigan",
+   "lon": -2.581768,
+   "lat": 53.4745776
+ },
+ {
+   "name": "Betfred",
+   "address": "26 Heath Street, Golborne WA3 3AD",
+   "ward": "Golborne and Lowton West",
+   "localAuthority": "Wigan",
+   "lon": -2.598562,
+   "lat": 53.476439
+ },
+ {
+   "name": "William Hill",
+   "address": "1-3 Heath Street, Golborne WA3 3BN",
+   "ward": "Golborne and Lowton West",
+   "localAuthority": "Wigan",
+   "lon": -2.5982398,
+   "lat": 53.4767409
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "23 Borsdane Avenue Hindley WN2 3QN",
+   "ward": "Hindley",
+   "localAuthority": "Wigan",
+   "lon": -2.5643286,
+   "lat": 53.5339282
+ },
+ {
+   "name": "Coral Racing Ltd",
+   "address": "64 Market Street, Hindley WN2 3AN",
+   "ward": "Hindley",
+   "localAuthority": "Wigan",
+   "lon": -2.577498,
+   "lat": 53.5361501
+ },
+ {
+   "name": "Totesport",
+   "address": "83 Market Street, Hindley WN2 3AE",
+   "ward": "Hindley",
+   "localAuthority": "Wigan",
+   "lon": -2.5772811,
+   "lat": 53.5361095
+ },
+ {
+   "name": "William Hill",
+   "address": "548 Atherton Road, Hindley Green WN2 4SJ",
+   "ward": "Hindley Green",
+   "localAuthority": "Wigan",
+   "lon": -2.5575323,
+   "lat": 53.5265022
+ }
+]
