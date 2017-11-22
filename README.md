@@ -1,6 +1,7 @@
 # open_data
 Open data provided in various formats. Meta data for each dataset will be available on [DataGM](https://www.datagm.org.uk).
 
+* **[Mid-year population estimates](mid-year_pop_estimates_2016)** - Population estimates for GM wards [Updated 2017-11-22]
 * **[Betting Shops](betting_shops)** - Betting Shop locations within Greater Manchester [Updated 2017-11-14]
 * **[Grants](grants)** - Voluntary Sector Grants allocated by Trafford Council [Updated 2017-10-25]
 * **[IMD 2015](imd_2015)** - English Indices of Deprivation 2015 for Greater Manchester [Updated 2017-11-08]
