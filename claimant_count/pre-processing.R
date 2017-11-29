@@ -10,12 +10,11 @@ results <- read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_162_1.data.csv
 df <- results %>% 
   filter(grepl('Bolton|Bury|Manchester|Oldham|Rochdale|Salford|Stockport|Tameside|Trafford|Wigan', GEOGRAPHY_NAME) &
            MEASURE_NAME == "Claimant count") %>% 
-  mutate(date = as.Date(paste('01', DATE_NAME), format = '%d %B %Y'),
-         measure = "Residents claiming JSA or Universal Credit") %>% 
+  mutate(date = as.Date(paste('01', DATE_NAME), format = '%d %B %Y')) %>% 
   select(date,
          lsoa11cd = GEOGRAPHY_CODE, 
          lsoa11nm = GEOGRAPHY_NAME, 
-         measure, 
+         measure = MEASURE_NAME, 
          value = OBS_VALUE)
 
 # Write data ---------------------------
