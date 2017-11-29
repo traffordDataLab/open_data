@@ -43,7 +43,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>License</strong></td>
-	<td style="text-align:left;"><a href="*http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a></td>
+	<td style="text-align:left;"><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a></td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Format</strong></td>
