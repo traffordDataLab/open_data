@@ -1,4 +1,4 @@
-### Example metadata
+
 
 <table>
 <colgroup>
