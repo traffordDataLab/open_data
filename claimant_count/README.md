@@ -11,7 +11,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Dataset description</strong></td>
-	<td style="text-align:left;">The Claimant Count measures the number of people claiming unemployment related benefits. From April 2015 the count includes all Universal Credit claimants who are required to seek work as well as all JSA claimants.</td>
+	<td style="text-align:left;">The Claimant count measures the number of people claiming unemployment related benefits. From April 2015 the count includes all Universal Credit claimants who are required to seek work as well as all JSA claimants.</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Source</strong></td>
@@ -27,7 +27,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geography</strong></td>
-	<td style="text-align:left;">Local Authority; Ward</td>
+	<td style="text-align:left;">Lower-layer Super Output Area (LSOA)</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geographic coverage</strong></td>
@@ -35,7 +35,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Temporal coverage</strong></td>
-	<td style="text-align:left;">January 2014 - October 2017</td>
+	<td style="text-align:left;">September 2017</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Update frequency</strong></td>
