@@ -1,4 +1,230 @@
 date,area_code,area_name,measure,value
+2014-01-01,E47000001,Greater Manchester,Claimant count,67035
+2014-01-01,E08000001,Bolton,Claimant count,7470
+2014-01-01,E08000002,Bury,Claimant count,3880
+2014-01-01,E08000003,Manchester,Claimant count,16125
+2014-01-01,E08000004,Oldham,Claimant count,5925
+2014-01-01,E08000005,Rochdale,Claimant count,5420
+2014-01-01,E08000006,Salford,Claimant count,6400
+2014-01-01,E08000007,Stockport,Claimant count,5105
+2014-01-01,E08000008,Tameside,Claimant count,5540
+2014-01-01,E08000009,Trafford,Claimant count,3530
+2014-01-01,E08000010,Wigan,Claimant count,7635
+2014-01-01,E05000650,Astley Bridge (Bolton),Claimant count,200
+2014-01-01,E05000651,Bradshaw (Bolton),Claimant count,195
+2014-01-01,E05000652,Breightmet (Bolton),Claimant count,430
+2014-01-01,E05000653,Bromley Cross (Bolton),Claimant count,110
+2014-01-01,E05000654,Crompton (Bolton),Claimant count,640
+2014-01-01,E05000655,Farnworth (Bolton),Claimant count,645
+2014-01-01,E05000656,Great Lever (Bolton),Claimant count,640
+2014-01-01,E05000657,Halliwell (Bolton),Claimant count,815
+2014-01-01,E05000658,Harper Green (Bolton),Claimant count,425
+2014-01-01,E05000659,Heaton and Lostock (Bolton),Claimant count,110
+2014-01-01,E05000661,Horwich North East (Bolton),Claimant count,220
+2014-01-01,E05000660,Horwich and Blackrod (Bolton),Claimant count,170
+2014-01-01,E05000662,Hulton (Bolton),Claimant count,330
+2014-01-01,E05000663,Kearsley (Bolton),Claimant count,310
+2014-01-01,E05000664,Little Lever and Darcy Lever (Bolton),Claimant count,210
+2014-01-01,E05000665,Rumworth (Bolton),Claimant count,790
+2014-01-01,E05000666,Smithills (Bolton),Claimant count,360
+2014-01-01,E05000667,Tonge with the Haulgh (Bolton),Claimant count,515
+2014-01-01,E05000668,Westhoughton North and Chew Moor (Bolton),Claimant count,140
+2014-01-01,E05000669,Westhoughton South (Bolton),Claimant count,220
+2014-01-01,E05000670,Besses (Bury),Claimant count,305
+2014-01-01,E05000671,Church (Bury),Claimant count,150
+2014-01-01,E05000672,East (Bury),Claimant count,440
+2014-01-01,E05000673,Elton (Bury),Claimant count,200
+2014-01-01,E05000674,Holyrood (Bury),Claimant count,215
+2014-01-01,E05000675,Moorside (Bury),Claimant count,460
+2014-01-01,E05000676,North Manor (Bury),Claimant count,50
+2014-01-01,E05000677,Pilkington Park (Bury),Claimant count,110
+2014-01-01,E05000678,Radcliffe East (Bury),Claimant count,315
+2014-01-01,E05000679,Radcliffe North (Bury),Claimant count,185
+2014-01-01,E05000680,Radcliffe West (Bury),Claimant count,310
+2014-01-01,E05000681,Ramsbottom (Bury),Claimant count,150
+2014-01-01,E05000682,Redvales (Bury),Claimant count,300
+2014-01-01,E05000684,Sedgley (Bury),Claimant count,205
+2014-01-01,E05000683,St Mary's (Bury),Claimant count,225
+2014-01-01,E05000685,Tottington (Bury),Claimant count,105
+2014-01-01,E05000686,Unsworth (Bury),Claimant count,150
+2014-01-01,E05000687,Ancoats and Clayton (Manchester),Claimant count,495
+2014-01-01,E05000688,Ardwick (Manchester),Claimant count,690
+2014-01-01,E05000689,Baguley (Manchester),Claimant count,565
+2014-01-01,E05000690,Bradford (Manchester),Claimant count,670
+2014-01-01,E05000691,Brooklands (Manchester),Claimant count,430
+2014-01-01,E05000692,Burnage (Manchester),Claimant count,375
+2014-01-01,E05000693,Charlestown (Manchester),Claimant count,470
+2014-01-01,E05000694,Cheetham (Manchester),Claimant count,690
+2014-01-01,E05000695,Chorlton (Manchester),Claimant count,185
+2014-01-01,E05000696,Chorlton Park (Manchester),Claimant count,325
+2014-01-01,E05000697,City Centre (Manchester),Claimant count,115
+2014-01-01,E05000698,Crumpsall (Manchester),Claimant count,630
+2014-01-01,E05000699,Didsbury East (Manchester),Claimant count,180
+2014-01-01,E05000700,Didsbury West (Manchester),Claimant count,190
+2014-01-01,E05000701,Fallowfield (Manchester),Claimant count,385
+2014-01-01,E05000702,Gorton North (Manchester),Claimant count,670
+2014-01-01,E05000703,Gorton South (Manchester),Claimant count,685
+2014-01-01,E05000704,Harpurhey (Manchester),Claimant count,1040
+2014-01-01,E05000705,Higher Blackley (Manchester),Claimant count,445
+2014-01-01,E05000706,Hulme (Manchester),Claimant count,545
+2014-01-01,E05000707,Levenshulme (Manchester),Claimant count,360
+2014-01-01,E05000708,Longsight (Manchester),Claimant count,555
+2014-01-01,E05000709,Miles Platting and Newton Heath (Manchester),Claimant count,780
+2014-01-01,E05000710,Moss Side (Manchester),Claimant count,845
+2014-01-01,E05000711,Moston (Manchester),Claimant count,450
+2014-01-01,E05000712,Northenden (Manchester),Claimant count,485
+2014-01-01,E05000713,Old Moat (Manchester),Claimant count,405
+2014-01-01,E05000714,Rusholme (Manchester),Claimant count,450
+2014-01-01,E05000715,Sharston (Manchester),Claimant count,675
+2014-01-01,E05000716,Whalley Range (Manchester),Claimant count,495
+2014-01-01,E05000717,Withington (Manchester),Claimant count,250
+2014-01-01,E05000718,Woodhouse Park (Manchester),Claimant count,600
+2014-01-01,E05000719,Alexandra (Oldham),Claimant count,635
+2014-01-01,E05000720,Chadderton Central (Oldham),Claimant count,180
+2014-01-01,E05000721,Chadderton North (Oldham),Claimant count,220
+2014-01-01,E05000722,Chadderton South (Oldham),Claimant count,260
+2014-01-01,E05000723,Coldhurst (Oldham),Claimant count,690
+2014-01-01,E05000724,Crompton (Oldham),Claimant count,110
+2014-01-01,E05000725,Failsworth East (Oldham),Claimant count,185
+2014-01-01,E05000726,Failsworth West (Oldham),Claimant count,245
+2014-01-01,E05000727,Hollinwood (Oldham),Claimant count,435
+2014-01-01,E05000728,Medlock Vale (Oldham),Claimant count,440
+2014-01-01,E05000729,Royton North (Oldham),Claimant count,130
+2014-01-01,E05000730,Royton South (Oldham),Claimant count,175
+2014-01-01,E05000731,Saddleworth North (Oldham),Claimant count,80
+2014-01-01,E05000732,Saddleworth South (Oldham),Claimant count,85
+2014-01-01,E05000733,Saddleworth West and Lees (Oldham),Claimant count,135
+2014-01-01,E05000736,Shaw (Oldham),Claimant count,180
+2014-01-01,E05000734,St James' (Oldham),Claimant count,335
+2014-01-01,E05000735,St Mary's (Oldham),Claimant count,560
+2014-01-01,E05000737,Waterhead (Oldham),Claimant count,390
+2014-01-01,E05000738,Werneth (Oldham),Claimant count,455
+2014-01-01,E05000739,Balderstone and Kirkholt (Rochdale),Claimant count,350
+2014-01-01,E05000740,Bamford (Rochdale),Claimant count,135
+2014-01-01,E05000741,Castleton (Rochdale),Claimant count,215
+2014-01-01,E05000742,Central Rochdale (Rochdale),Claimant count,580
+2014-01-01,E05000743,East Middleton (Rochdale),Claimant count,220
+2014-01-01,E05000744,Healey (Rochdale),Claimant count,150
+2014-01-01,E05000745,Hopwood Hall (Rochdale),Claimant count,340
+2014-01-01,E05000746,Kingsway (Rochdale),Claimant count,415
+2014-01-01,E05000747,Littleborough Lakeside (Rochdale),Claimant count,135
+2014-01-01,E05000748,Milkstone and Deeplish (Rochdale),Claimant count,470
+2014-01-01,E05000749,Milnrow and Newhey (Rochdale),Claimant count,130
+2014-01-01,E05000750,Norden (Rochdale),Claimant count,55
+2014-01-01,E05000751,North Heywood (Rochdale),Claimant count,315
+2014-01-01,E05000752,North Middleton (Rochdale),Claimant count,220
+2014-01-01,E05000753,Smallbridge and Firgrove (Rochdale),Claimant count,395
+2014-01-01,E05000754,South Middleton (Rochdale),Claimant count,170
+2014-01-01,E05000755,Spotland and Falinge (Rochdale),Claimant count,275
+2014-01-01,E05000756,Wardle and West Littleborough (Rochdale),Claimant count,110
+2014-01-01,E05000757,West Heywood (Rochdale),Claimant count,340
+2014-01-01,E05000758,West Middleton (Rochdale),Claimant count,400
+2014-01-01,E05000759,Barton (Salford),Claimant count,410
+2014-01-01,E05000760,Boothstown and Ellenbrook (Salford),Claimant count,95
+2014-01-01,E05000761,Broughton (Salford),Claimant count,655
+2014-01-01,E05000762,Cadishead (Salford),Claimant count,205
+2014-01-01,E05000763,Claremont (Salford),Claimant count,110
+2014-01-01,E05000764,Eccles (Salford),Claimant count,245
+2014-01-01,E05000765,Irlam (Salford),Claimant count,180
+2014-01-01,E05000766,Irwell Riverside (Salford),Claimant count,440
+2014-01-01,E05000767,Kersal (Salford),Claimant count,270
+2014-01-01,E05000768,Langworthy (Salford),Claimant count,525
+2014-01-01,E05000769,Little Hulton (Salford),Claimant count,640
+2014-01-01,E05000770,Ordsall (Salford),Claimant count,400
+2014-01-01,E05000771,Pendlebury (Salford),Claimant count,285
+2014-01-01,E05000772,Swinton North (Salford),Claimant count,300
+2014-01-01,E05000773,Swinton South (Salford),Claimant count,245
+2014-01-01,E05000774,Walkden North (Salford),Claimant count,430
+2014-01-01,E05000775,Walkden South (Salford),Claimant count,160
+2014-01-01,E05000776,Weaste and Seedley (Salford),Claimant count,350
+2014-01-01,E05000777,Winton (Salford),Claimant count,405
+2014-01-01,E05000778,Worsley (Salford),Claimant count,55
+2014-01-01,E05000779,Bramhall North (Stockport),Claimant count,115
+2014-01-01,E05000780,Bramhall South and Woodford (Stockport),Claimant count,50
+2014-01-01,E05000782,Bredbury Green and Romiley (Stockport),Claimant count,250
+2014-01-01,E05000781,Bredbury and Woodley (Stockport),Claimant count,200
+2014-01-01,E05000783,Brinnington and Central (Stockport),Claimant count,900
+2014-01-01,E05000785,Cheadle Hulme North (Stockport),Claimant count,195
+2014-01-01,E05000786,Cheadle Hulme South (Stockport),Claimant count,110
+2014-01-01,E05000784,Cheadle and Gatley (Stockport),Claimant count,160
+2014-01-01,E05000787,Davenport and Cale Green (Stockport),Claimant count,420
+2014-01-01,E05000788,Edgeley and Cheadle Heath (Stockport),Claimant count,380
+2014-01-01,E05000789,Hazel Grove (Stockport),Claimant count,200
+2014-01-01,E05000790,Heald Green (Stockport),Claimant count,150
+2014-01-01,E05000791,Heatons North (Stockport),Claimant count,215
+2014-01-01,E05000792,Heatons South (Stockport),Claimant count,200
+2014-01-01,E05000793,Manor (Stockport),Claimant count,280
+2014-01-01,E05000794,Marple North (Stockport),Claimant count,105
+2014-01-01,E05000795,Marple South (Stockport),Claimant count,140
+2014-01-01,E05000796,Offerton (Stockport),Claimant count,265
+2014-01-01,E05000797,Reddish North (Stockport),Claimant count,340
+2014-01-01,E05000798,Reddish South (Stockport),Claimant count,305
+2014-01-01,E05000799,Stepping Hill (Stockport),Claimant count,130
+2014-01-01,E05000800,Ashton Hurst (Tameside),Claimant count,310
+2014-01-01,E05000801,Ashton St Michael's (Tameside),Claimant count,320
+2014-01-01,E05000802,Ashton Waterloo (Tameside),Claimant count,255
+2014-01-01,E05000803,Audenshaw (Tameside),Claimant count,210
+2014-01-01,E05000804,Denton North East (Tameside),Claimant count,265
+2014-01-01,E05000805,Denton South (Tameside),Claimant count,330
+2014-01-01,E05000806,Denton West (Tameside),Claimant count,180
+2014-01-01,E05000807,Droylsden East (Tameside),Claimant count,235
+2014-01-01,E05000808,Droylsden West (Tameside),Claimant count,220
+2014-01-01,E05000809,Dukinfield (Tameside),Claimant count,345
+2014-01-01,E05000810,Dukinfield Stalybridge (Tameside),Claimant count,230
+2014-01-01,E05000811,Hyde Godley (Tameside),Claimant count,335
+2014-01-01,E05000812,Hyde Newton (Tameside),Claimant count,400
+2014-01-01,E05000813,Hyde Werneth (Tameside),Claimant count,215
+2014-01-01,E05000814,Longdendale (Tameside),Claimant count,270
+2014-01-01,E05000815,Mossley (Tameside),Claimant count,260
+2014-01-01,E05000816,St Peter's (Tameside),Claimant count,530
+2014-01-01,E05000817,Stalybridge North (Tameside),Claimant count,385
+2014-01-01,E05000818,Stalybridge South (Tameside),Claimant count,250
+2014-01-01,E05000819,Altrincham (Trafford),Claimant count,140
+2014-01-01,E05000820,Ashton upon Mersey (Trafford),Claimant count,105
+2014-01-01,E05000821,Bowdon (Trafford),Claimant count,65
+2014-01-01,E05000822,Broadheath (Trafford),Claimant count,140
+2014-01-01,E05000823,Brooklands (Trafford),Claimant count,95
+2014-01-01,E05000824,Bucklow-St Martins (Trafford),Claimant count,335
+2014-01-01,E05000825,Clifford (Trafford),Claimant count,435
+2014-01-01,E05000826,Davyhulme East (Trafford),Claimant count,105
+2014-01-01,E05000827,Davyhulme West (Trafford),Claimant count,115
+2014-01-01,E05000828,Flixton (Trafford),Claimant count,95
+2014-01-01,E05000829,Gorse Hill (Trafford),Claimant count,310
+2014-01-01,E05000830,Hale Barns (Trafford),Claimant count,85
+2014-01-01,E05000831,Hale Central (Trafford),Claimant count,60
+2014-01-01,E05000832,Longford (Trafford),Claimant count,265
+2014-01-01,E05000833,Priory (Trafford),Claimant count,120
+2014-01-01,E05000835,Sale Moor (Trafford),Claimant count,180
+2014-01-01,E05000834,St Mary's (Trafford),Claimant count,265
+2014-01-01,E05000836,Stretford (Trafford),Claimant count,250
+2014-01-01,E05000837,Timperley (Trafford),Claimant count,55
+2014-01-01,E05000838,Urmston (Trafford),Claimant count,125
+2014-01-01,E05000839,Village (Trafford),Claimant count,190
+2014-01-01,E05000840,Abram (Wigan),Claimant count,420
+2014-01-01,E05000841,Ashton (Wigan),Claimant count,230
+2014-01-01,E05000842,Aspull New Springs Whelley (Wigan),Claimant count,215
+2014-01-01,E05000843,Astley Mosley Common (Wigan),Claimant count,120
+2014-01-01,E05000844,Atherleigh (Wigan),Claimant count,300
+2014-01-01,E05000845,Atherton (Wigan),Claimant count,515
+2014-01-01,E05000846,Bryn (Wigan),Claimant count,225
+2014-01-01,E05000847,Douglas (Wigan),Claimant count,465
+2014-01-01,E05000848,Golborne and Lowton West (Wigan),Claimant count,275
+2014-01-01,E05000849,Hindley (Wigan),Claimant count,340
+2014-01-01,E05000850,Hindley Green (Wigan),Claimant count,170
+2014-01-01,E05000851,Ince (Wigan),Claimant count,570
+2014-01-01,E05000852,Leigh East (Wigan),Claimant count,395
+2014-01-01,E05000853,Leigh South (Wigan),Claimant count,330
+2014-01-01,E05000854,Leigh West (Wigan),Claimant count,630
+2014-01-01,E05000855,Lowton East (Wigan),Claimant count,100
+2014-01-01,E05000856,Orrell (Wigan),Claimant count,125
+2014-01-01,E05000857,Pemberton (Wigan),Claimant count,530
+2014-01-01,E05000858,Shevington with Lower Ground (Wigan),Claimant count,130
+2014-01-01,E05000859,Standish with Langtree (Wigan),Claimant count,155
+2014-01-01,E05000860,Tyldesley (Wigan),Claimant count,300
+2014-01-01,E05000861,Wigan Central (Wigan),Claimant count,340
+2014-01-01,E05000862,Wigan West (Wigan),Claimant count,330
+2014-01-01,E05000863,Winstanley (Wigan),Claimant count,105
+2014-01-01,E05000864,Worsley Mesnes (Wigan),Claimant count,315
 2014-02-01,E47000001,Greater Manchester,Claimant count,66815
 2014-02-01,E08000001,Bolton,Claimant count,7420
 2014-02-01,E08000002,Bury,Claimant count,3785
