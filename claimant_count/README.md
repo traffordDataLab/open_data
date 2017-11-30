@@ -7,11 +7,11 @@
 <tbody>
 <tr>
 	<td style="text-align:left;"><strong>Dataset name</strong></td>
-	<td style="text-align:left;">Claimant count</td>
+	<td style="text-align:left;">Claimant count and rates</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Dataset description</strong></td>
-	<td style="text-align:left;">The Claimant count measures the number of people claiming unemployment related benefits. From April 2015 the count includes all Universal Credit claimants who are required to seek work as well as all JSA claimants.</td>
+	<td style="text-align:left;">The claimant count measures the number of people claiming unemployment related benefits. The claimant rate measures the proportion of residents aged 16-64 who are claimants. From April 2015 the count includes all Universal Credit claimants who are required to seek work as well as all JSA claimants.</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Source</strong></td>
@@ -27,7 +27,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geography</strong></td>
-	<td style="text-align:left;">Lower-layer Super Output Area (LSOA)</td>
+	<td style="text-align:left;">Ward, Local Authority District and Greater Manchester Combined Authority</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geographic coverage</strong></td>
@@ -48,6 +48,10 @@
 <tr>
 	<td style="text-align:left;"><strong>Format</strong></td>
 	<td style="text-align:left;">CSV</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Openness rating</strong></td>
+	<td style="text-align:left;">&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
 </tr>
 </tbody>
 </table>
