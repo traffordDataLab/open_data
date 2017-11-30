@@ -27,7 +27,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geography</strong></td>
-	<td style="text-align:left;">Ward, Local Authority District and Greater Manchester Combined Authority</td>
+	<td style="text-align:left;">Ward, Local Authority District and Combined Authority</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geographic coverage</strong></td>
