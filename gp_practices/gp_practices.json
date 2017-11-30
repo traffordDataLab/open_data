@@ -1,0 +1,3730 @@
+﻿[
+ {
+   "name": "HIGHER INCE SURGERY",
+   "address": "INCE COMMUNITY CLINIC MANCHESTER ROAD, INCE WIGAN  WN2 2DJ",
+   "wd16nm": "Ince",
+   "lad16nm": "Wigan",
+   "lon": -2.604085,
+   "lat": 53.5433989
+ },
+ {
+   "name": "LOWER INCE SURGERY",
+   "address": "CLAIRE HOUSE LOWER INCE HEALTH CTR PHOENIX WAY, LOWER INCE WIGAN, LANCASHIRE WN3 4NW",
+   "wd16nm": "Ince",
+   "lad16nm": "Wigan",
+   "lon": -2.6145577,
+   "lat": 53.534918
+ },
+ {
+   "name": "BROOKMILL MEDICAL CENTRE",
+   "address": "BROOKMILL MEDICAL CENTRE COLLEGE STREET LEIGH LANCASHIRE WN7 2RB",
+   "wd16nm": "Leigh East",
+   "lad16nm": "Wigan",
+   "lon": -2.5089583,
+   "lat": 53.4960963
+ },
+ {
+   "name": "LILFORD PARK SURGERY",
+   "address": "LEIGH HEALTH CENTRE THE AVENUE LEIGH  WN7 1HR",
+   "wd16nm": "Leigh East",
+   "lad16nm": "Wigan",
+   "lon": -2.5107756,
+   "lat": 53.5042315
+ },
+ {
+   "name": "GRASMERE SURGERY",
+   "address": "LEIGH HEALTH CENTRE THE AVENUE LEIGH  WN7 1HR",
+   "wd16nm": "Leigh East",
+   "lad16nm": "Wigan",
+   "lon": -2.5107756,
+   "lat": 53.5042315
+ },
+ {
+   "name": "ESA SURGERY LTD",
+   "address": "LEIGH HEALTH CENTRE THE AVENUE LEIGH  WN7 1HR",
+   "wd16nm": "Leigh East",
+   "lad16nm": "Wigan",
+   "lon": -2.5107756,
+   "lat": 53.5042315
+ },
+ {
+   "name": "DR MAUNG & PARTNERS",
+   "address": "LEIGH HEALTH CENTRE THE AVENUE LEIGH  WN7 1HR",
+   "wd16nm": "Leigh East",
+   "lad16nm": "Wigan",
+   "lon": -2.5107756,
+   "lat": 53.5042315
+ },
+ {
+   "name": "DR SPIELMANN & PARTNERS",
+   "address": "OLD HENRY STREET MED CTR HENRY STREET, LEIGH WIGAN  WN7 2PG",
+   "wd16nm": "Leigh South",
+   "lad16nm": "Wigan",
+   "lon": -2.511487,
+   "lat": 53.4949548
+ },
+ {
+   "name": "FOXLEIGH FAMILY SURGERY",
+   "address": "THE BRIDGEWATER MED CTR HENRY STREET LEIGH GREATER MANCHESTER WN7 2PE",
+   "wd16nm": "Leigh South",
+   "lad16nm": "Wigan",
+   "lon": -2.5116521,
+   "lat": 53.4939596
+ },
+ {
+   "name": "PREMIER HEALTH TEAM",
+   "address": "THE BRIDGEWATER MED CTR HENRY STREET LEIGH  WN7 2PE",
+   "wd16nm": "Leigh South",
+   "lad16nm": "Wigan",
+   "lon": -2.5116521,
+   "lat": 53.4939596
+ },
+ {
+   "name": "GUPTA K",
+   "address": "THE BRIDGEWATER MED CTR HENRY STREET LEIGH GREATER MANCHESTER WN7 2PE",
+   "wd16nm": "Leigh South",
+   "lad16nm": "Wigan",
+   "lon": -2.5116521,
+   "lat": 53.4939596
+ },
+ {
+   "name": "LEIGH FAMILY PRACTICE",
+   "address": "BRIDGEWATER MC HENRY STREET LEIGH LANCASHIRE WN7 2PE",
+   "wd16nm": "Leigh South",
+   "lad16nm": "Wigan",
+   "lon": -2.5116521,
+   "lat": 53.4939596
+ },
+ {
+   "name": "INTRAHEALTH FAMILY PRACT",
+   "address": "LEIGH SPORTS VILLAGE LEIGH STADIUM,SALE WAY LEIGH  WN7 4JY",
+   "wd16nm": "Leigh South",
+   "lad16nm": "Wigan",
+   "lon": -2.530235,
+   "lat": 53.488719
+ },
+ {
+   "name": "INTRAHEALTH LSV",
+   "address": "LEIGH SPORTS VILLAGE LEIGH STADIUM,SALE WAY LEIGH  WN7 4JY",
+   "wd16nm": "Leigh South",
+   "lad16nm": "Wigan",
+   "lon": -2.530235,
+   "lat": 53.488719
+ },
+ {
+   "name": "BRAITHWAITE RD SURGERY",
+   "address": "36 BRAITHWAITE ROAD LOWTON NR.WARRINGTON  WA3 2HY",
+   "wd16nm": "Lowton East",
+   "lad16nm": "Wigan",
+   "lon": -2.5748466,
+   "lat": 53.4765692
+ },
+ {
+   "name": "XAVIER CA",
+   "address": "208C NEWTON ROAD LOWTON WARRINGTON  WA3 2AQ",
+   "wd16nm": "Lowton East",
+   "lad16nm": "Wigan",
+   "lon": -2.5615908,
+   "lat": 53.4716444
+ },
+ {
+   "name": "BRADSHAW MEDICAL CENTRE",
+   "address": "BRADSHAW MEDICAL CENTRE BRADSHAW STREET,ORRELL WIGAN GREATER MANCHESTER WN5 0AB",
+   "wd16nm": "Pemberton",
+   "lad16nm": "Wigan",
+   "lon": -2.6884705,
+   "lat": 53.5383566
+ },
+ {
+   "name": "INTRAHEALTH MARSH GREEN",
+   "address": "HARROW ROAD MARSH GREEN WIGAN  WN5 0QL",
+   "wd16nm": "Pemberton",
+   "lad16nm": "Wigan",
+   "lon": -2.6674165,
+   "lat": 53.5491411
+ },
+ {
+   "name": "DR HADJIDEMETRIOU & PARTNERS",
+   "address": "SHEVINGTON SURGERY HOUGHTON LANE, SHEVINGTON WIGAN LANCASHIRE WN6 8ET",
+   "wd16nm": "Shevington with Lower Ground",
+   "lad16nm": "Wigan",
+   "lon": -2.699147,
+   "lat": 53.5719565
+ },
+ {
+   "name": "PMCF PRIMARY CARE EXTENDED ACCESS",
+   "address": "HOUGHTON LANE SHEVINGTON WIGAN LANCASHIRE WN6 8ET",
+   "wd16nm": "Shevington with Lower Ground",
+   "lad16nm": "Wigan",
+   "lon": -2.6997929,
+   "lat": 53.5739698
+ },
+ {
+   "name": "STANDISH MEDICAL PRACTICE",
+   "address": "STANDISH MEDICAL PRACTICE 49 HIGH STREET, STANDISH WIGAN LANCASHIRE WN6 0HD",
+   "wd16nm": "Standish with Langtree",
+   "lad16nm": "Wigan",
+   "lon": -2.6621736,
+   "lat": 53.5851833
+ },
+ {
+   "name": "ELLIOTT STREET SURGERY",
+   "address": "145 ELLIOTT STREET TYLDESLEY MANCHESTER  M29 8FL",
+   "wd16nm": "Tyldesley",
+   "lad16nm": "Wigan",
+   "lon": -2.4691512,
+   "lat": 53.5142246
+ },
+ {
+   "name": "DR KHATRI CP",
+   "address": "THE SURGERY HIGH STREET, TYLDESLEY NR. MANCHESTER  M29 8AL",
+   "wd16nm": "Tyldesley",
+   "lad16nm": "Wigan",
+   "lon": -2.4696975,
+   "lat": 53.514654
+ },
+ {
+   "name": "INTRAHEALTH TYLDESLEY",
+   "address": "TYLDESLEY HEALTH CENTRE POPLAR STREET TYLDESLEY  M29 8AX",
+   "wd16nm": "Tyldesley",
+   "lad16nm": "Wigan",
+   "lon": -2.4683109,
+   "lat": 53.5167418
+ },
+ {
+   "name": "SULLIVAN WAY SURGERY",
+   "address": "SULLIVAN WAY SURGERY SULLIVAN WAY,SCHOLES WIGAN GREATER MANCHESTER WN1 3TB",
+   "wd16nm": "Wigan Central",
+   "lad16nm": "Wigan",
+   "lon": -2.6230177,
+   "lat": 53.5497983
+ },
+ {
+   "name": "DR PATEL, KAMATH & PARTNERS",
+   "address": "LONGSHOOT HEALTH CENTRE SCHOLES WIGAN  WN1 3NH",
+   "wd16nm": "Wigan Central",
+   "lad16nm": "Wigan",
+   "lon": -2.6201127,
+   "lat": 53.549602
+ },
+ {
+   "name": "DR SEABROOK",
+   "address": "THE SURGERY 1 WRIGHTINGTON STREET WIGAN  WN1 2AZ",
+   "wd16nm": "Wigan Central",
+   "lad16nm": "Wigan",
+   "lon": -2.6329302,
+   "lat": 53.5511281
+ },
+ {
+   "name": "DR ELLIS & KREPPEL",
+   "address": "MESNES VIEW SURGERY MESNES STREET WIGAN  WN1 1ST",
+   "wd16nm": "Wigan Central",
+   "lad16nm": "Wigan",
+   "lon": -2.6329286,
+   "lat": 53.550741
+ },
+ {
+   "name": "THE DICCONSON GROUP PRACTICE",
+   "address": "BOSTON HOUSE WIGAN HEALTH CENTRE FROG LANE WIGAN WN6 7LB",
+   "wd16nm": "Wigan West",
+   "lad16nm": "Wigan",
+   "lon": -2.6450477,
+   "lat": 53.5494268
+ },
+ {
+   "name": "BEECH HILL MEDICAL PRACTICE",
+   "address": "BEECH HILL MEDICAL PRACT. 278 GIDLOW LN, BEECH HILL WIGAN  WN6 7PD",
+   "wd16nm": "Wigan West",
+   "lad16nm": "Wigan",
+   "lon": -2.644081,
+   "lat": 53.5556176
+ },
+ {
+   "name": "SAXENA L",
+   "address": "WINSTANLEY MEDICAL CENTRE HOLMES HOUSE AVENUE WINSTANLEY WIGAN WN3 6JN",
+   "wd16nm": "Winstanley",
+   "lad16nm": "Wigan",
+   "lon": -2.6689261,
+   "lat": 53.5214026
+ },
+ {
+   "name": "ZAMAN",
+   "address": "CHANDLER HOUSE WORSLEY MESNES HEALTH CTR POOLSTOCK LANE WIGAN, LANCASHIRE WN3 5HL",
+   "wd16nm": "Worsley Mesnes",
+   "lad16nm": "Wigan",
+   "lon": -2.6429946,
+   "lat": 53.5290505
+ },
+ {
+   "name": "THE CHANDLER SURGERY",
+   "address": "CHANDLER HOUSE WORSLEY MESNES HEALTH CTR POOLSTOCK LANE WIGAN, LANCASHIRE WN3 5HL",
+   "wd16nm": "Worsley Mesnes",
+   "lad16nm": "Wigan",
+   "lon": -2.6429946,
+   "lat": 53.5290505
+ },
+ {
+   "name": "MARUS BRIDGE PRACTICE",
+   "address": "CHANDLER HOUSE WORSLEY MESNES HEALTH CTR POOLSTOCK LANE WIGAN, LANCASHIRE WN3 5HL",
+   "wd16nm": "Worsley Mesnes",
+   "lad16nm": "Wigan",
+   "lon": -2.6429946,
+   "lat": 53.5290505
+ },
+ {
+   "name": "HAWKLEY BROOK MED PRAC",
+   "address": "CHANDLER HOUSE WORSLEY MESNES HEALTH CTR POOLSTOCK LANE WIGAN, LANCASHIRE WN3 5HL",
+   "wd16nm": "Worsley Mesnes",
+   "lad16nm": "Wigan",
+   "lon": -2.6429946,
+   "lat": 53.5290505
+ },
+ {
+   "name": "DALTON TM",
+   "address": "CHANDLER HOUSE WORSLEY MESNES HEALTH CTR POOLSTOCK LANE WIGAN, LANCASHIRE WN3 5HL",
+   "wd16nm": "Worsley Mesnes",
+   "lad16nm": "Wigan",
+   "lon": -2.6429946,
+   "lat": 53.5290505
+ },
+ {
+   "name": "MANDALAY MEDICAL CENTRE",
+   "address": "MANDALAY MEDICAL CENTRE 933 BLACKBURN RD,SHARPLES BOLTON  BL1 7LR",
+   "wd16nm": "Astley Bridge",
+   "lad16nm": "Bolton",
+   "lon": -2.4324471,
+   "lat": 53.611448
+ },
+ {
+   "name": "HARWOOD MEDICAL CENTRE",
+   "address": "HARWOOD MEDICAL CENTRE HOUGH FOLD WAY, HARWOOD BOLTON LANCASHIRE BL2 3HQ",
+   "wd16nm": "Bradshaw",
+   "lad16nm": "Bolton",
+   "lon": -2.3981967,
+   "lat": 53.6040497
+ },
+ {
+   "name": "THE DUNSTAN PARTNERSHIP",
+   "address": "BREIGHTMET HEALTH CENTRE BREIGHTMET FOLD LANE BRIGHTMET, BOLTON LANCASHIRE BL2 6NT",
+   "wd16nm": "Breightmet",
+   "lad16nm": "Bolton",
+   "lon": -2.384258,
+   "lat": 53.5825131
+ },
+ {
+   "name": "THE ALASTAIR ROSS MEDICAL PRACTICE",
+   "address": "BREIGHTMET HEALTH CENTRE BREIGHTMET FOLD LANE BREIGHTMET, BOLTON LANCASHIRE BL2 6NT",
+   "wd16nm": "Breightmet",
+   "lad16nm": "Bolton",
+   "lon": -2.384258,
+   "lat": 53.5825131
+ },
+ {
+   "name": "EDGWORTH MEDICAL CENTRE",
+   "address": "EGERTON/DUNSCAR HLTH CTRE DARWEN ROAD BROMLEY CROSS BOLTON BL7 9RG",
+   "wd16nm": "Bromley Cross",
+   "lad16nm": "Bolton",
+   "lon": -2.4261378,
+   "lat": 53.6175731
+ },
+ {
+   "name": "EGERTON/DUNSCAR HEALTH CENTRE",
+   "address": "EGERTON/DUNSCAR HLTH CTRE DARWEN ROAD BROMLEY CROSS BOLTON BL7 9RG",
+   "wd16nm": "Bromley Cross",
+   "lad16nm": "Bolton",
+   "lon": -2.4261378,
+   "lat": 53.6175731
+ },
+ {
+   "name": "KIRBY-CROMPTON HEALTH CENTRE",
+   "address": "CROMPTON HEALTH CENTRE 501 CROMPTON WAY BOLTON  BL1 8UP",
+   "wd16nm": "Crompton",
+   "lad16nm": "Bolton",
+   "lon": -2.415112,
+   "lat": 53.5975264
+ },
+ {
+   "name": "BURNSIDE SURGERY",
+   "address": "BURNSIDE SURGERY WATERS MEETING HC NAVIGATION PARK WATERS MEETING RD, BOLTON BL1 8TU",
+   "wd16nm": "Crompton",
+   "lad16nm": "Bolton",
+   "lon": -2.4292628,
+   "lat": 53.595998
+ },
+ {
+   "name": "CROMPTON HEALTH CENTRE",
+   "address": "CROMPTON HEALTH CENTRE 501 CROMPTON WAY BOLTON  BL1 8UP",
+   "wd16nm": "Crompton",
+   "lad16nm": "Bolton",
+   "lon": -2.415112,
+   "lat": 53.5975264
+ },
+ {
+   "name": "CHARLOTTE STREET SURGERY",
+   "address": "WATERS MEETING HC NAVIGATION PARK WATERS MEETING ROAD BOLTON BL1 8TU",
+   "wd16nm": "Crompton",
+   "lad16nm": "Bolton",
+   "lon": -2.4296319,
+   "lat": 53.5960558
+ },
+ {
+   "name": "BOLTON COMMUNITY PRACTICE",
+   "address": "BOLTON COMMUNITY PRACTICE WATERS MEETING HC BOLTON LANCASHIRE BL1 8TU",
+   "wd16nm": "Crompton",
+   "lad16nm": "Bolton",
+   "lon": -2.429467,
+   "lat": 53.5959168
+ },
+ {
+   "name": "STONEHILL MEDICAL CENTRE",
+   "address": "STONEHILL MEDICAL CENTRE PIGGOTT ST,FARNWORTH BOLTON LANCASHIRE BL4 9QZ",
+   "wd16nm": "Farnworth",
+   "lad16nm": "Bolton",
+   "lon": -2.4024424,
+   "lat": 53.5436511
+ },
+ {
+   "name": "LEVER CHAMBERS 2",
+   "address": "GREAT LEVER HEALTH CENTRE RUPERT STREET,GREAT LEVER BOLTON LANCASHIRE BL3 6RN",
+   "wd16nm": "Great Lever",
+   "lad16nm": "Bolton",
+   "lon": -2.4321485,
+   "lat": 53.565589
+ },
+ {
+   "name": "BEEHIVE SURGERY",
+   "address": "108 CRESCENT ROAD GREAT LEVER BOLTON  BL3 2JR",
+   "wd16nm": "Great Lever",
+   "lad16nm": "Bolton",
+   "lon": -2.4185634,
+   "lat": 53.5641437
+ },
+ {
+   "name": "GREAT LEVER HEALTH CENTRE 1",
+   "address": "GREAT LEVER HEALTH CENTRE RUPERT STREET,GREAT LEVER BOLTON LANCASHIRE BL3 6RN",
+   "wd16nm": "Great Lever",
+   "lad16nm": "Bolton",
+   "lon": -2.4321485,
+   "lat": 53.565589
+ },
+ {
+   "name": "BOLTON MEDICAL CENTRE",
+   "address": "21 RUPERT STREET GREAT LEVER BOLTON LANCASHIRE BL3 6PY",
+   "wd16nm": "Great Lever",
+   "lad16nm": "Bolton",
+   "lon": -2.4315737,
+   "lat": 53.56593
+ },
+ {
+   "name": "DALEFIELD SURGERY",
+   "address": "AVONDALE HEALTH CENTRE AVONDALE STREET BOLTON LANCASHIRE BL1 4JP",
+   "wd16nm": "Halliwell",
+   "lad16nm": "Bolton",
+   "lon": -2.4517648,
+   "lat": 53.588095
+ },
+ {
+   "name": "LEVER CHAMBERS 1",
+   "address": "LEVER CHAMBERS ASHBURNER STREET BOLTON  BL1 1SQ",
+   "wd16nm": "Halliwell",
+   "lad16nm": "Bolton",
+   "lon": -2.4310251,
+   "lat": 53.5769426
+ },
+ {
+   "name": "HALLIWELL SURGERY 1",
+   "address": "THE HALLIWELL SURGERY LINDFIELD DRIVE HALLIWELL BOLTON BL1 3RG",
+   "wd16nm": "Halliwell",
+   "lad16nm": "Bolton",
+   "lon": -2.4317088,
+   "lat": 53.5883622
+ },
+ {
+   "name": "HALLIWELL SURGERY 2",
+   "address": "THE HALLIWELL SURGERY LINDFIELD DRIVE,HALLIWELL BOLTON LANCASHIRE BL1 3RG",
+   "wd16nm": "Halliwell",
+   "lad16nm": "Bolton",
+   "lon": -2.4317088,
+   "lat": 53.5883622
+ },
+ {
+   "name": "HALLIWELL SURGERY 3",
+   "address": "THE HALLIWELL SURGERY LINDFIELD DRIVE,HALLIWELL BOLTON LANCASHIRE BL1 3RG",
+   "wd16nm": "Halliwell",
+   "lad16nm": "Bolton",
+   "lon": -2.4317088,
+   "lat": 53.5883622
+ },
+ {
+   "name": "WYRESDALE ROAD SURGERY",
+   "address": "46 WYRESDALE ROAD  BOLTON  BL1 4DN",
+   "wd16nm": "Halliwell",
+   "lad16nm": "Bolton",
+   "lon": -2.4517861,
+   "lat": 53.5821329
+ },
+ {
+   "name": "BOLTON GENERAL PRACTICE",
+   "address": "MARSDEN HOUSE MARSDEN ROAD BOLTON  BL1 2AY",
+   "wd16nm": "Halliwell",
+   "lad16nm": "Bolton",
+   "lon": -2.4343763,
+   "lat": 53.57897
+ },
+ {
+   "name": "SPRING HOUSE SURGERY",
+   "address": "555 CHORLEY OLD ROAD BOLTON GREATER MANCHESTER  BL1 6AF",
+   "wd16nm": "Heaton and Lostock",
+   "lad16nm": "Bolton",
+   "lon": -2.4635603,
+   "lat": 53.5884336
+ },
+ {
+   "name": "DEANE CLINIC 1",
+   "address": "DEANE CLINIC HORSEFIELD STREET,DEANE BOLTON LANCASHIRE BL3 4LU",
+   "wd16nm": "Heaton and Lostock",
+   "lad16nm": "Bolton",
+   "lon": -2.4648549,
+   "lat": 53.5674818
+ },
+ {
+   "name": "KILDONAN HOUSE",
+   "address": "KILDONAN HOUSE RAMSBOTTOM ROAD HORWICH BOLTON BL6 5NW",
+   "wd16nm": "Horwich and Blackrod",
+   "lad16nm": "Bolton",
+   "lon": -2.5454246,
+   "lat": 53.5947209
+ },
+ {
+   "name": "DR MALHOTRA & PARTNERS",
+   "address": "PIKE VIEW MEDICAL CENTRE ALBERT STREET, HORWICH BOLTON  BL6 7AS",
+   "wd16nm": "Horwich North East",
+   "lad16nm": "Bolton",
+   "lon": -2.5477847,
+   "lat": 53.601421
+ },
+ {
+   "name": "ST HELENS ROAD PRACTICE",
+   "address": "GARNET FOLD PRACTICE 374-376 ST HELENS ROAD BOLTON LANCASHIRE BL3 3RR",
+   "wd16nm": "Hulton",
+   "lad16nm": "Bolton",
+   "lon": -2.4576704,
+   "lat": 53.55957
+ },
+ {
+   "name": "DEANE MEDICAL CENTRE",
+   "address": "279/283 ST.HELENS ROAD  BOLTON  BL3 3QB",
+   "wd16nm": "Hulton",
+   "lad16nm": "Bolton",
+   "lon": -2.4550403,
+   "lat": 53.5608477
+ },
+ {
+   "name": "KEARSLEY MEDICAL CENTRE",
+   "address": "KEARSLEY MEDICAL CENTRE JACKSON ST, KEARSLEY BOLTON LANCASHIRE BL4 8EP",
+   "wd16nm": "Kearsley",
+   "lad16nm": "Bolton",
+   "lon": -2.3826933,
+   "lat": 53.5431639
+ },
+ {
+   "name": "FARNWORTH HEALTH CENTRE 1",
+   "address": "FARNWORTH HEALTH CENTRE FREDERICK STREET FARNWORTH BOLTON BL4 9AL",
+   "wd16nm": "Kearsley",
+   "lad16nm": "Bolton",
+   "lon": -2.3978766,
+   "lat": 53.5462542
+ },
+ {
+   "name": "FARNWORTH HEALTH CENTRE 2",
+   "address": "FARNWORTH HEALTH CENTRE FREDERICK STREET FARNWORTH BOLTON BL4 9AH",
+   "wd16nm": "Kearsley",
+   "lad16nm": "Bolton",
+   "lon": -2.3978766,
+   "lat": 53.5462542
+ },
+ {
+   "name": "LITTLE LEVER HEALTH CENTRE 1",
+   "address": "LITTLE LEVER HEALTH CTR MYTHAM RD,LITTLE LEVER BOLTON LANCASHIRE BL3 1JF",
+   "wd16nm": "Little Lever and Darcy Lever",
+   "lad16nm": "Bolton",
+   "lon": -2.3702489,
+   "lat": 53.5595767
+ },
+ {
+   "name": "LITTLE LEVER HEALTH CENTRE 2",
+   "address": "LITTLE LEVER HEALTH CTR MYTHAM RD,LITTLE LEVER BOLTON LANCASHIRE BL3 1JF",
+   "wd16nm": "Little Lever and Darcy Lever",
+   "lad16nm": "Bolton",
+   "lon": -2.3702489,
+   "lat": 53.5595767
+ },
+ {
+   "name": "SPRING VIEW MEDICAL CENTRE",
+   "address": "SPRING VIEW MEDICAL CTR. MYTHAM ROAD LITTLE LEVER BOLTON BL3 1HQ",
+   "wd16nm": "Little Lever and Darcy Lever",
+   "lad16nm": "Bolton",
+   "lon": -2.3693616,
+   "lat": 53.5610166
+ },
+ {
+   "name": "THE PIKES LANE CENTRE",
+   "address": "THE PIKES LANE CENTRE DEANE ROAD BOLTON LANCASHIRE BL3 5HP",
+   "wd16nm": "Rumworth",
+   "lad16nm": "Bolton",
+   "lon": -2.4451051,
+   "lat": 53.57292
+ },
+ {
+   "name": "SWAN LANE MEDICAL CENTRE",
+   "address": "SWAN LANE MEDICAL CENTRE SWAN LANE BOLTON LANCASHIRE BL3 6TL",
+   "wd16nm": "Rumworth",
+   "lad16nm": "Bolton",
+   "lon": -2.44249,
+   "lat": 53.5669653
+ },
+ {
+   "name": "SHANTI MEDICAL CENTRE",
+   "address": "SHANTI MEDICAL CENTRE 160 ST.HELENS ROAD BOLTON LANCASHIRE BL3 3PH",
+   "wd16nm": "Rumworth",
+   "lad16nm": "Bolton",
+   "lon": -2.4514542,
+   "lat": 53.5633472
+ },
+ {
+   "name": "ORIENT HOUSE MEDICAL CENTRE",
+   "address": "216 WIGAN ROAD BOLTON   BL3 5QE",
+   "wd16nm": "Rumworth",
+   "lad16nm": "Bolton",
+   "lon": -2.4606762,
+   "lat": 53.5689649
+ },
+ {
+   "name": "PIKES LANE 2",
+   "address": "THE PIKES LANE CENTRE DEANE ROAD BOLTON LANCASHIRE BL3 5HP",
+   "wd16nm": "Rumworth",
+   "lad16nm": "Bolton",
+   "lon": -2.4451051,
+   "lat": 53.57292
+ },
+ {
+   "name": "AL FAL MEDICAL GROUP",
+   "address": "THE PIKES LANE CENTRE DEANE ROAD BOLTON LANCASHIRE BL3 5HP",
+   "wd16nm": "Rumworth",
+   "lad16nm": "Bolton",
+   "lon": -2.4451051,
+   "lat": 53.57292
+ },
+ {
+   "name": "3D MEDICAL CENTRE",
+   "address": "200 DEANE ROAD BOLTON LANCASHIRE  BL3 5DP",
+   "wd16nm": "Rumworth",
+   "lad16nm": "Bolton",
+   "lon": -2.4437724,
+   "lat": 53.5729651
+ },
+ {
+   "name": "OLIVE FAMILY PRACTICE",
+   "address": "THE PIKES LANE CENTRE DEANE ROAD BOLTON  BL3 5HP",
+   "wd16nm": "Rumworth",
+   "lad16nm": "Bolton",
+   "lon": -2.4451051,
+   "lat": 53.57292
+ },
+ {
+   "name": "HEATON MEDICAL CENTRE",
+   "address": "HEATON MEDICAL CENTRE 2 LUCY STREET HEATON, BOLTON  BL1 5PU",
+   "wd16nm": "Smithills",
+   "lad16nm": "Bolton",
+   "lon": -2.4686286,
+   "lat": 53.5879907
+ },
+ {
+   "name": "CORNERSTONE SURGERY",
+   "address": "CORNERSTONE SURGERY 469 CHORLEY OLD ROAD BOLTON LANCASHIRE BL1 6AH",
+   "wd16nm": "Smithills",
+   "lad16nm": "Bolton",
+   "lon": -2.4592235,
+   "lat": 53.5887317
+ },
+ {
+   "name": "TONGE FOLD HEALTH CENTRE",
+   "address": "TONGE FOLD HEALTH CENTRE HILTON ST, TONGE FOLD BOLTON LANCASHIRE BL2 6DY",
+   "wd16nm": "Tonge with the Haulgh",
+   "lad16nm": "Bolton",
+   "lon": -2.4054648,
+   "lat": 53.5791434
+ },
+ {
+   "name": "BRADFORD STREET SURGERY",
+   "address": "65 BRADFORD STREET HAULGH BOLTON  BL2 1HT",
+   "wd16nm": "Tonge with the Haulgh",
+   "lad16nm": "Bolton",
+   "lon": -2.416838,
+   "lat": 53.5775803
+ },
+ {
+   "name": "UNSWORTH GROUP PRACTICE",
+   "address": "UNSWORTH GROUP PRACTICE PETER HOUSE SURGERY CAPTAIN LEES ROAD WESTHOUGHTON,BOLTON BL5 3UB",
+   "wd16nm": "Westhoughton North and Chew Moor",
+   "lad16nm": "Bolton",
+   "lon": -2.5086754,
+   "lat": 53.5479224
+ },
+ {
+   "name": "STABLE FOLD SURGERY",
+   "address": "STABLE FOLD SURGERY 119 CHURCH STREET WESTHOUGHTON BOLTON BL5 3SF",
+   "wd16nm": "Westhoughton South",
+   "lad16nm": "Bolton",
+   "lon": -2.5237503,
+   "lat": 53.5524045
+ },
+ {
+   "name": "MILE LANE HEALTH CENTRE",
+   "address": "MILE LANE HEALTH CENTRE MILE LANE BURY  BL8 2JR",
+   "wd16nm": "Church",
+   "lad16nm": "Bury",
+   "lon": -2.3362256,
+   "lat": 53.5877451
+ },
+ {
+   "name": "TOWNSIDE SURGERY",
+   "address": "TOWNSIDE PCC-KNOWSLEY PL KNOWSLEY STREET BURY GREATER MANCHESTER BL9 0SN",
+   "wd16nm": "East",
+   "lad16nm": "Bury",
+   "lon": -2.2989899,
+   "lat": 53.5902211
+ },
+ {
+   "name": "DR S DE VIAL & PARTNERS",
+   "address": "MINDEN FAMILY PRACTICES MOORGATE PRIMARY CARE CTR 22 DERBY WAY, BURY  BL9 0NJ",
+   "wd16nm": "East",
+   "lad16nm": "Bury",
+   "lon": -2.2886213,
+   "lat": 53.5955214
+ },
+ {
+   "name": "RIBBLESDALE MEDICAL PRACTICE",
+   "address": "TOWNSIDE PCC-KNOWSLEY PL KNOWSLEY STREET BURY GREATER MANCHESTER BL9 0SN",
+   "wd16nm": "East",
+   "lad16nm": "Bury",
+   "lon": -2.2989899,
+   "lat": 53.5902211
+ },
+ {
+   "name": "MINDEN FAMILY PRACTICES - DR NORMAN",
+   "address": "MINDEN FAMILY PRACTICES MOORGATE PRIMARY CARE CTR 22 DERBY WAY, BURY  BL9 0NJ",
+   "wd16nm": "East",
+   "lad16nm": "Bury",
+   "lon": -2.2886213,
+   "lat": 53.5955214
+ },
+ {
+   "name": "MINDEN FAMILY PRACTICES - DR SAXENA",
+   "address": "MINDEN FAMILY PRACTICES MOORGATE PRIMARY CARE CTR 22 DERBY WAY, BURY  BL9 0NJ",
+   "wd16nm": "East",
+   "lad16nm": "Bury",
+   "lon": -2.2886213,
+   "lat": 53.5955214
+ },
+ {
+   "name": "PEEL GPS",
+   "address": "TOWNSIDE PCC-KNOWSLEY PL KNOWSLEY STREET BURY GREATER MANCHESTER BL9 0SN",
+   "wd16nm": "East",
+   "lad16nm": "Bury",
+   "lon": -2.2989899,
+   "lat": 53.5902211
+ },
+ {
+   "name": "KNOWSLEY MEDICAL CENTRE",
+   "address": "KNOWSLEY MEDICAL CENTRE 9/11 KNOWSLEY STREET BURY  BL9 0ST",
+   "wd16nm": "East",
+   "lad16nm": "Bury",
+   "lon": -2.300127,
+   "lat": 53.5890492
+ },
+ {
+   "name": "ROCK HEALTHCARE LIMITED",
+   "address": "MOORGATE PRIMARY CARE CTR 22 DERBY WAY BURY  BL9 0NJ",
+   "wd16nm": "East",
+   "lad16nm": "Bury",
+   "lon": -2.2885823,
+   "lat": 53.5956043
+ },
+ {
+   "name": "WOODBANK SURGERY",
+   "address": "WOODBANK SURGERY 2 HUNSTANTON DRIVE BRANDLESHOLME BURY BL8 1EG",
+   "wd16nm": "Elton",
+   "lad16nm": "Bury",
+   "lon": -2.3110872,
+   "lat": 53.6048668
+ },
+ {
+   "name": "GREYLAND MEDICAL CENTRE",
+   "address": "GREYLAND MEDICAL CENTRE 468 BURY OLD ROAD PRESTWICH MANCHESTER M25 1NL",
+   "wd16nm": "Holyrood",
+   "lad16nm": "Bury",
+   "lon": -2.2754618,
+   "lat": 53.5374102
+ },
+ {
+   "name": "THE BIRCHES MEDICAL CENTRE",
+   "address": "THE BIRCHES MEDICAL CTR. POLEFIELD ROAD PRESTWICH MANCHESTER M25 2GN",
+   "wd16nm": "Holyrood",
+   "lad16nm": "Bury",
+   "lon": -2.2708229,
+   "lat": 53.5388364
+ },
+ {
+   "name": "WALMERSLEY ROAD MEDICAL PRACTICE",
+   "address": "110 WALMERSLEY ROAD  BURY  BL9 6DX",
+   "wd16nm": "Moorside",
+   "lad16nm": "Bury",
+   "lon": -2.2895016,
+   "lat": 53.5998995
+ },
+ {
+   "name": "HUNTLEY MOUNT MEDICAL CENTRE",
+   "address": "HUNTLEY MOUNT MEDICAL CTR HUNTLEY MOUNT ROAD BURY LANCASHIRE BL9 6JA",
+   "wd16nm": "Moorside",
+   "lad16nm": "Bury",
+   "lon": -2.2785764,
+   "lat": 53.601169
+ },
+ {
+   "name": "GREENMOUNT MEDICAL CENTRE",
+   "address": "GREENMOUNT MEDICAL CTR. 9 BRANDLESHOLME ROAD GREENMOUNT BURY BL8 4DR",
+   "wd16nm": "North Manor",
+   "lad16nm": "Bury",
+   "lon": -2.3367923,
+   "lat": 53.6247222
+ },
+ {
+   "name": "GARDEN CITY MEDICAL CENTRE",
+   "address": "GARDEN CITY MEDICAL CTR. 1A GARDEN CITY HOLCOMBE BROOK BURY, LANCASHIRE BL0 9TN",
+   "wd16nm": "North Manor",
+   "lad16nm": "Bury",
+   "lon": -2.3303769,
+   "lat": 53.6295238
+ },
+ {
+   "name": "THE UPLANDS MEDICAL PRACTICE",
+   "address": "WHITEFIELD HEALTH CENTRE BURY NEW ROAD WHITEFIELD MANCHESTER M45 8GH",
+   "wd16nm": "Pilkington Park",
+   "lad16nm": "Bury",
+   "lon": -2.2956165,
+   "lat": 53.5487747
+ },
+ {
+   "name": "RADCLIFFE MEDICAL PRACTICE",
+   "address": "RADCLIFFE PRIMARY CARE CT 69 CHURCH STREET WEST RADCLIFFE  M26 2SP",
+   "wd16nm": "Radcliffe East",
+   "lad16nm": "Bury",
+   "lon": -2.3231334,
+   "lat": 53.5607669
+ },
+ {
+   "name": "MONARCH MEDICAL CENTRE",
+   "address": "MONARCH MEDICAL CENTRE 65 CROSS LANE RADCLIFFE  M26 2QZ",
+   "wd16nm": "Radcliffe East",
+   "lad16nm": "Bury",
+   "lon": -2.3158357,
+   "lat": 53.5647543
+ },
+ {
+   "name": "SPRING LANE SURGERY",
+   "address": "SPRING LANE SURGERY 15-17 SPRING LN,RADCLIFFE MANCHESTER  M26 2TQ",
+   "wd16nm": "Radcliffe East",
+   "lad16nm": "Bury",
+   "lon": -2.327234,
+   "lat": 53.562944
+ },
+ {
+   "name": "RED BANK GROUP PRACTICE",
+   "address": "RADCLIFFE PRIMARY CARE CT 69 CHURCH STREET WEST RADCLIFFE  M26 2SP",
+   "wd16nm": "Radcliffe East",
+   "lad16nm": "Bury",
+   "lon": -2.3231334,
+   "lat": 53.5607669
+ },
+ {
+   "name": "RAMSBOTTOM MEDICAL PRACTICE",
+   "address": "CARR STREET RAMSBOTTOM BURY  BL0 9DD",
+   "wd16nm": "Ramsbottom",
+   "lad16nm": "Bury",
+   "lon": -2.3206074,
+   "lat": 53.6493343
+ },
+ {
+   "name": "FAIRFAX GROUP PRACTICE",
+   "address": "PRESTWICH HEALTH CENTRE FAIRFAX ROAD PRESTWICH MANCHESTER M25 1BT",
+   "wd16nm": "St Mary's",
+   "lad16nm": "Bury",
+   "lon": -2.2841049,
+   "lat": 53.5337774
+ },
+ {
+   "name": "LONGFIELD MEDICAL PRACTICE",
+   "address": "LONGFIELD MEDICAL PRAC PRESTWICH HC,FAIRFAX ROAD PRESTWICH  M25 1BT",
+   "wd16nm": "St Mary's",
+   "lad16nm": "Bury",
+   "lon": -2.2840818,
+   "lat": 53.533693
+ },
+ {
+   "name": "ST GABRIEL'S MEDICAL CENTRE",
+   "address": "ST.GABRIELS MEDICAL CTR. 4 BISHOPS ROAD, PRESTWICH MANCHESTER  M25 0HT",
+   "wd16nm": "Sedgley",
+   "lad16nm": "Bury",
+   "lon": -2.2651676,
+   "lat": 53.5203028
+ },
+ {
+   "name": "WHITTAKER LANE MED CENTRE",
+   "address": "WHITTAKER LANE MED CENTRE DAISY BANK WHITTAKER LANE,PRESTWICH MANCHESTER M25 1EX",
+   "wd16nm": "Sedgley",
+   "lad16nm": "Bury",
+   "lon": -2.2690744,
+   "lat": 53.5291387
+ },
+ {
+   "name": "TOTTINGTON MEDICAL PRACTICE",
+   "address": "TOTTINGTON MEDICAL PRACT. 16 MARKET ST, TOTTINGTON BURY  BL8 4AD",
+   "wd16nm": "Tottington",
+   "lad16nm": "Bury",
+   "lon": -2.3417636,
+   "lat": 53.6144868
+ },
+ {
+   "name": "BLACKFORD HOUSE MEDICAL CENTRE",
+   "address": "BLACKFORD HOUSE MED CTRE 137 CROFT LANE HOLLINS BURY BL9 8QA",
+   "wd16nm": "Unsworth",
+   "lad16nm": "Bury",
+   "lon": -2.2833849,
+   "lat": 53.5742296
+ },
+ {
+   "name": "UNSWORTH MEDICAL CENTRE",
+   "address": "UNSWORTH MEDICAL CENTRE PARR LANE,UNSWORTH BURY  BL9 8JR",
+   "wd16nm": "Unsworth",
+   "lad16nm": "Bury",
+   "lon": -2.2731428,
+   "lat": 53.560479
+ },
+ {
+   "name": "THE ELMS MEDICAL CENTRE",
+   "address": "THE ELMS MEDICAL CENTRE GREEN LANE, WHITEFIELD MANCHESTER  M45 7FD",
+   "wd16nm": "Unsworth",
+   "lad16nm": "Bury",
+   "lon": -2.2947423,
+   "lat": 53.5533575
+ },
+ {
+   "name": "DR MOKASHI",
+   "address": "CLAYTON HEALTH CENTRE 89 NORTH ROAD, CLAYTON MANCHESTER LANCASHIRE M11 4EJ",
+   "wd16nm": "Ancoats and Clayton",
+   "lad16nm": "Manchester",
+   "lon": -2.1841968,
+   "lat": 53.4843638
+ },
+ {
+   "name": "EASTLANDS MEDICAL CENTRE",
+   "address": "CLAYTON HEALTH CENTRE 89 NORTH ROAD, CLAYTON MANCHESTER LANCASHIRE M11 4EJ",
+   "wd16nm": "Ancoats and Clayton",
+   "lad16nm": "Manchester",
+   "lon": -2.1841968,
+   "lat": 53.4843638
+ },
+ {
+   "name": "NEW ISLINGTON MEDICAL CENTRE",
+   "address": "ANCOATS PRIMARY CARE CTRE OLD MILL STREET,ANCOATS MANCHESTER  M4 6EE",
+   "wd16nm": "Ancoats and Clayton",
+   "lad16nm": "Manchester",
+   "lon": -2.2226447,
+   "lat": 53.4819967
+ },
+ {
+   "name": "THE MAZHARI & KHAN PRACTICE",
+   "address": "CLAYTON HEALTH CENTRE 89 NORTH ROAD, CLAYTON MANCHESTER LANCASHIRE M11 4EJ",
+   "wd16nm": "Ancoats and Clayton",
+   "lad16nm": "Manchester",
+   "lon": -2.1841968,
+   "lat": 53.4843638
+ },
+ {
+   "name": "ANCOATS URBAN VILLAGE MEDICAL PRACTICE",
+   "address": "ANCOATS PRIMARY CARE CTRE OLD MILL STREET,ANCOATS MANCHESTER  M4 6EE",
+   "wd16nm": "Ancoats and Clayton",
+   "lad16nm": "Manchester",
+   "lon": -2.2226447,
+   "lat": 53.4819967
+ },
+ {
+   "name": "THE VALLANCE CENTRE",
+   "address": "THE VALLANCE CENTRE BRUNSWICK STREET MANCHESTER  M13 9UJ",
+   "wd16nm": "Ardwick",
+   "lad16nm": "Manchester",
+   "lon": -2.2241594,
+   "lat": 53.4698559
+ },
+ {
+   "name": "DR CUNNINGHAM & PARTNERS",
+   "address": "THE VALLANCE CENTRE BRUNSWICK STREET MANCHESTER  M13 9UJ",
+   "wd16nm": "Ardwick",
+   "lad16nm": "Manchester",
+   "lon": -2.2241594,
+   "lat": 53.4698559
+ },
+ {
+   "name": "WEST GORTON MEDICAL PRACTICE",
+   "address": "WEST GORTON MEDICAL CTR. 6A WENLOCK WAY WEST GORTON MANCHESTER M12 5LH",
+   "wd16nm": "Ardwick",
+   "lad16nm": "Manchester",
+   "lon": -2.2037882,
+   "lat": 53.466968
+ },
+ {
+   "name": "DR CHIU, KOH AND GAN",
+   "address": "THE VALLANCE CENTRE BRUNSWICK STREET MANCHESTER  M13 9UJ",
+   "wd16nm": "Ardwick",
+   "lad16nm": "Manchester",
+   "lon": -2.2241594,
+   "lat": 53.4698559
+ },
+ {
+   "name": "NEW BANK HEALTH",
+   "address": "339 STOCKPORT ROAD LONGSIGHT MANCHESTER  M12 4JE",
+   "wd16nm": "Ardwick",
+   "lad16nm": "Manchester",
+   "lon": -2.20808,
+   "lat": 53.46189
+ },
+ {
+   "name": "THE MAPLES MEDICAL CENTRE",
+   "address": "THE MAPLES MEDICAL CENTRE 2 SCOUT DR, NEWALL GREEN MANCHESTER  M23 2SY",
+   "wd16nm": "Baguley",
+   "lad16nm": "Manchester",
+   "lon": -2.2867588,
+   "lat": 53.3848682
+ },
+ {
+   "name": "BOWLAND MEDICAL PRACTICE",
+   "address": "52 BOWLAND ROAD BAGULEY MANCHESTER  M23 1JX",
+   "wd16nm": "Baguley",
+   "lad16nm": "Manchester",
+   "lon": -2.2871986,
+   "lat": 53.3934471
+ },
+ {
+   "name": "THE PARK MEDICAL CENTRE",
+   "address": "PARK MEDICAL CENTRE 434 ALTRINCHAM ROAD BAGULEY WYTHENSHAW, MANCHESTER M23 9AB",
+   "wd16nm": "Baguley",
+   "lad16nm": "Manchester",
+   "lon": -2.2881371,
+   "lat": 53.4010221
+ },
+ {
+   "name": "FIVE OAKS FAMILIY PRACTICE",
+   "address": "FIVE OAKS FAMILY PRACTICE 47 GRAHAM STREET, BESWICK MANCHESTER  M11 3BB",
+   "wd16nm": "Bradford",
+   "lad16nm": "Manchester",
+   "lon": -2.1946367,
+   "lat": 53.4754256
+ },
+ {
+   "name": "CORNERSTONE FAMILY PRACTICE",
+   "address": "CORNERSTONE CENTRE GRAHAM STREET, BESWICK MANCHESTER  M11 3AA",
+   "wd16nm": "Bradford",
+   "lad16nm": "Manchester",
+   "lon": -2.1953081,
+   "lat": 53.4744102
+ },
+ {
+   "name": "FLORENCE HOUSE MEDICAL PRACTICE",
+   "address": "HGR OPENSHAW PCC 1344 ASHTON OLD ROAD MANCHESTER  M11 1JG",
+   "wd16nm": "Bradford",
+   "lad16nm": "Manchester",
+   "lon": -2.161075,
+   "lat": 53.47258
+ },
+ {
+   "name": "LIME SQUARE MEDICAL CENTRE",
+   "address": "LIME SQUARE ASHTON OLD ROAD, OPENSHAW MANCHESTER  M11 1DA",
+   "wd16nm": "Bradford",
+   "lad16nm": "Manchester",
+   "lon": -2.1656109,
+   "lat": 53.4739987
+ },
+ {
+   "name": "BROOKLANDS MEDICAL PRACTICE",
+   "address": "BROOKLANDS MEDICAL CENTRE 594 ALTRINCHAM ROAD WYTHENSHAWE MANCHESTER M23 9JH",
+   "wd16nm": "Brooklands",
+   "lad16nm": "Manchester",
+   "lon": -2.3042562,
+   "lat": 53.4008788
+ },
+ {
+   "name": "NORTHERN MOOR MEDICAL PRACTICE",
+   "address": "NORTHERN MOOR MED PRACT 216 WYTHENSHAWE ROAD NORTHERN MOOR MANCHESTER M23 0PH",
+   "wd16nm": "Brooklands",
+   "lad16nm": "Manchester",
+   "lon": -2.2853933,
+   "lat": 53.4079293
+ },
+ {
+   "name": "WOODLANDS MEDICAL PRACTICE",
+   "address": "WOODLANDS MED PRACTICE 9 MAPLE RD, BROOKLANDS MANCHESTER  M23 9RL",
+   "wd16nm": "Brooklands",
+   "lad16nm": "Manchester",
+   "lon": -2.3113936,
+   "lat": 53.4067746
+ },
+ {
+   "name": "KINGSWAY MEDICAL PRACTICE",
+   "address": "720 BURNAGE LANE BURNAGE MANCHESTER LANCASHIRE M19 1UG",
+   "wd16nm": "Burnage",
+   "lad16nm": "Manchester",
+   "lon": -2.212689,
+   "lat": 53.4201676
+ },
+ {
+   "name": "BURNAGE HEALTHCARE PRACTICE",
+   "address": "THE SURGERY PRIMARY CARE RESOURCE CTR BURNAGE LANE MANCHESTER M19 1EW",
+   "wd16nm": "Burnage",
+   "lad16nm": "Manchester",
+   "lon": -2.2005812,
+   "lat": 53.4306117
+ },
+ {
+   "name": "DAM HEAD MEDICAL CENTRE",
+   "address": "DAM HEAD MEDICAL CENTRE 1020 ROCHDALE RD,BLACKLEY MANCHESTER  M9 7HD",
+   "wd16nm": "Charlestown",
+   "lad16nm": "Manchester",
+   "lon": -2.2125997,
+   "lat": 53.526244
+ },
+ {
+   "name": "CHARLESTOWN MD",
+   "address": "CHARLESTOWN MD CHARLESTOWN RD, BLACKLEY MANCHESTER  M9 7ED",
+   "wd16nm": "Charlestown",
+   "lad16nm": "Manchester",
+   "lon": -2.1911228,
+   "lat": 53.5228594
+ },
+ {
+   "name": "NEW COLLEGIATE MEDICAL CENTRE",
+   "address": "NEW COLLEGIATE MED.CENTRE 407 CHEETHAM HILL ROAD CHEETHAM MANCHESTER M8 0DA",
+   "wd16nm": "Cheetham",
+   "lad16nm": "Manchester",
+   "lon": -2.2359413,
+   "lat": 53.5043771
+ },
+ {
+   "name": "CHEETHAM HILL PRIMARY CARE CENTRE",
+   "address": "CHEETHAM HILL PCC 244 CHEETHAM HILL RD MANCHESTER  M8 8UP",
+   "wd16nm": "Cheetham",
+   "lad16nm": "Manchester",
+   "lon": -2.2358027,
+   "lat": 53.5007864
+ },
+ {
+   "name": "QUEENS MEDICAL CENTRE",
+   "address": "CHEETHAM HILL PCC 244 CHEETHAM HILL ROAD CHEETHAM HILL MANCHESTER M8 8AU",
+   "wd16nm": "Cheetham",
+   "lad16nm": "Manchester",
+   "lon": -2.2358027,
+   "lat": 53.5007864
+ },
+ {
+   "name": "JOLLY MEDICAL CENTRE",
+   "address": "THE JOLLY MEDICAL CENTRE 72 CRESCENT RD, CRUMPSALL MANCHESTER  M8 9NT",
+   "wd16nm": "Cheetham",
+   "lad16nm": "Manchester",
+   "lon": -2.2401051,
+   "lat": 53.5121917
+ },
+ {
+   "name": "CHORLTON FAMILY PRACTICE",
+   "address": "CHORLTON HEALTH CENTRE 1 NICOLAS ROAD CHORLTON-CUM-HARDY MANCHESTER M21 9NJ",
+   "wd16nm": "Chorlton",
+   "lad16nm": "Manchester",
+   "lon": -2.2794601,
+   "lat": 53.4437276
+ },
+ {
+   "name": "MERSEYBANK SURGERY",
+   "address": "36 MERSEYBANK AVENUE CHORLTON MANCHESTER  M21 7NN",
+   "wd16nm": "Chorlton Park",
+   "lad16nm": "Manchester",
+   "lon": -2.2631328,
+   "lat": 53.4229158
+ },
+ {
+   "name": "DAVID MEDICAL CENTRE",
+   "address": "DAVID MEDICAL CENTRE 274 BARLOW MOOR ROAD CHORLTON-CUM-HARDY MANCHESTER M21 8HA",
+   "wd16nm": "Chorlton Park",
+   "lad16nm": "Manchester",
+   "lon": -2.2687146,
+   "lat": 53.4319609
+ },
+ {
+   "name": "CORKLAND ROAD MEDICAL PRACTICE",
+   "address": "7-9 CORKLAND ROAD CHORLTON-CUM-HARDY MANCHESTER LANCASHIRE M21 8UP",
+   "wd16nm": "Chorlton Park",
+   "lad16nm": "Manchester",
+   "lon": -2.2739456,
+   "lat": 53.4418689
+ },
+ {
+   "name": "THE DOC'S SURGERY",
+   "address": "THE DOC'S SURGERY 55-59 BLOOM STREET MANCHESTER  M1 3LY",
+   "wd16nm": "City Centre",
+   "lad16nm": "Manchester",
+   "lon": -2.2380366,
+   "lat": 53.4769373
+ },
+ {
+   "name": "CITY HEALTH CENTRE",
+   "address": "CITY HEALTH CENTRE 2ND FL, 32 MARKET ST MANCHESTER LANCASHIRE M1 1PL",
+   "wd16nm": "City Centre",
+   "lad16nm": "Manchester",
+   "lon": -2.2437202,
+   "lat": 53.4823472
+ },
+ {
+   "name": "WELLFIELD MEDICAL CENTRE",
+   "address": "WELLFIELD MEDICAL CENTRE 53 CRESCENT RD, CRUMPSALL MANCHESTER LANCASHIRE M8 9JT",
+   "wd16nm": "Crumpsall",
+   "lad16nm": "Manchester",
+   "lon": -2.2426021,
+   "lat": 53.5128051
+ },
+ {
+   "name": "ARTANE MEDICAL CENTRE",
+   "address": "ARTANE MEDICAL CENTRE 1 MIDDLETON ROAD HIGHER CRUMPSALL MANCHESTER M8 5DT",
+   "wd16nm": "Crumpsall",
+   "lad16nm": "Manchester",
+   "lon": -2.2493028,
+   "lat": 53.5165349
+ },
+ {
+   "name": "PARK VIEW MEDICAL CENTRE",
+   "address": "PARK VIEW MEDICAL CENTRE 66 DELAUNAYS ROAD CRUMPSALL MANCHESTER M8 4RF",
+   "wd16nm": "Crumpsall",
+   "lad16nm": "Manchester",
+   "lon": -2.2323822,
+   "lat": 53.51872
+ },
+ {
+   "name": "THE NEVILLE FAMILY CENTRE",
+   "address": "THE NEVILLE FAMILY CENTRE 25 OLD MARKET ST,BLACKLEY MANCHESTER  M9 8DX",
+   "wd16nm": "Crumpsall",
+   "lad16nm": "Manchester",
+   "lon": -2.217374,
+   "lat": 53.522664
+ },
+ {
+   "name": "DIDSBURY MEDICAL CENTRE - DR WHITAKER",
+   "address": "DIDSBURY MEDICAL CENTRE 645 WILMSLOW RD, DIDSBURY MANCHESTER  M20 6BA",
+   "wd16nm": "Didsbury East",
+   "lad16nm": "Manchester",
+   "lon": -2.2319214,
+   "lat": 53.4201991
+ },
+ {
+   "name": "BARLOW MEDICAL CENTRE",
+   "address": "BARLOW MEDICAL CENTRE 828 WILMSLOW RD, DIDSBURY MANCHESTER LANCASHIRE M20 2RN",
+   "wd16nm": "Didsbury West",
+   "lad16nm": "Manchester",
+   "lon": -2.231592,
+   "lat": 53.412675
+ },
+ {
+   "name": "THE ALEXANDRA PRACTICE",
+   "address": "365 WILBRAHAM ROAD WHALLEY RANGE MANCHESTER LANCASHIRE M16 8NG",
+   "wd16nm": "Fallowfield",
+   "lad16nm": "Manchester",
+   "lon": -2.2546187,
+   "lat": 53.4433106
+ },
+ {
+   "name": "GORTON MEDICAL CENTRE",
+   "address": "GORTON MEDICAL CENTRE 46 WELLINGTON ST, GORTON MANCHESTER  M18 8LJ",
+   "wd16nm": "Gorton North",
+   "lad16nm": "Manchester",
+   "lon": -2.1718529,
+   "lat": 53.4628904
+ },
+ {
+   "name": "MOUNT ROAD SURGERY",
+   "address": "MOUNT ROAD SURGERY 110 MOUNT ROAD, GORTON MANCHESTER LANCASHIRE M18 7BQ",
+   "wd16nm": "Gorton North",
+   "lad16nm": "Manchester",
+   "lon": -2.1811192,
+   "lat": 53.4590292
+ },
+ {
+   "name": "LEVENSHULME MEDICAL PRACTICE",
+   "address": "LEVENSHULME HEALTH CENTRE DUNSTABLE ST, LEVENSHULME MANCHESTER LANCASHIRE M19 3BX",
+   "wd16nm": "Gorton South",
+   "lad16nm": "Manchester",
+   "lon": -2.1889867,
+   "lat": 53.446284
+ },
+ {
+   "name": "ASHCROFT SURGERY",
+   "address": "ASHCROFT SURGERY 803 STOCKPORT ROAD LEVENSHULME MANCHESTER M19 3BS",
+   "wd16nm": "Gorton South",
+   "lad16nm": "Manchester",
+   "lon": -2.1911273,
+   "lat": 53.4456939
+ },
+ {
+   "name": "VALENTINE MEDICAL CENTRE",
+   "address": "VALENTINE MEDICAL CENTRE 2 SMETHURST ST, BLACKLEY MANCHESTER GREATER MANCHESTER M9 8PP",
+   "wd16nm": "Harpurhey",
+   "lad16nm": "Manchester",
+   "lon": -2.2130666,
+   "lat": 53.5156567
+ },
+ {
+   "name": "CONRAN MEDICAL CENTRE",
+   "address": "CONRAN MEDICAL CENTRE 77 CHURCH LANE, HARPURHEY MANCHESTER  M9 5BH",
+   "wd16nm": "Harpurhey",
+   "lad16nm": "Manchester",
+   "lon": -2.2108375,
+   "lat": 53.5105465
+ },
+ {
+   "name": "THE SINGH MEDICAL PRACTICE",
+   "address": "THE SINGH MEDICAL PRACT 1 CHURCH LANE,HARPURHEY MANCHESTER LANCASHIRE M9 4BE",
+   "wd16nm": "Harpurhey",
+   "lad16nm": "Manchester",
+   "lon": -2.2139073,
+   "lat": 53.5120233
+ },
+ {
+   "name": "FERNCLOUGH SURGERY",
+   "address": "UNIT 1, TAVISTOCK SQUARE HARPURHEY MANCHESTER LANCASHIRE M9 5RD",
+   "wd16nm": "Harpurhey",
+   "lad16nm": "Manchester",
+   "lon": -2.2163045,
+   "lat": 53.5059075
+ },
+ {
+   "name": "WILLOWBANK SURGERY",
+   "address": "1 WILLOWBANK CHURCH LANE MANCHESTER  M9 4WH",
+   "wd16nm": "Harpurhey",
+   "lad16nm": "Manchester",
+   "lon": -2.2082743,
+   "lat": 53.5099422
+ },
+ {
+   "name": "SIMPSON MEDICAL PRACTICE",
+   "address": "SIMPSON MEDICAL PRACTICE 361 MOSTON LANE, MOSTON MANCHESTER  M40 9NB",
+   "wd16nm": "Harpurhey",
+   "lad16nm": "Manchester",
+   "lon": -2.1973957,
+   "lat": 53.5140486
+ },
+ {
+   "name": "BEACON MEDICAL CENTRE",
+   "address": "BEACON MEDICAL CENTRE 156 VICTORIA AVE,BLACKLEY MANCHESTER  M9 0FN",
+   "wd16nm": "Higher Blackley",
+   "lad16nm": "Manchester",
+   "lon": -2.21912,
+   "lat": 53.5343326
+ },
+ {
+   "name": "THE AVENUE MEDICAL CENTRE",
+   "address": "THE AVENUE MEDICAL CENTRE 51-53 VICTORIA AVENUE BLACKLEY MANCHESTER M9 6BA",
+   "wd16nm": "Higher Blackley",
+   "lad16nm": "Manchester",
+   "lon": -2.2116624,
+   "lat": 53.5331831
+ },
+ {
+   "name": "MANCHESTER MEDICAL",
+   "address": "MOSS SIDE HEALTH CENTRE MONTON STREET, MOSS SIDE MANCHESTER  M14 4GP",
+   "wd16nm": "Hulme",
+   "lad16nm": "Manchester",
+   "lon": -2.2374652,
+   "lat": 53.458626
+ },
+ {
+   "name": "THE ARCH MEDICAL PRACTICE",
+   "address": "HULME MEDICAL CENTRE 175 ROYCE ROAD HULME, MANCHESTER  M15 5TJ",
+   "wd16nm": "Hulme",
+   "lad16nm": "Manchester",
+   "lon": -2.2496736,
+   "lat": 53.4677673
+ },
+ {
+   "name": "CORNBROOK MEDICAL PRACTICE",
+   "address": "CITY ROAD SURGERY 204 CITY ROAD, HULME MANCHESTER  M15 4EA",
+   "wd16nm": "Hulme",
+   "lad16nm": "Manchester",
+   "lon": -2.2588182,
+   "lat": 53.4685114
+ },
+ {
+   "name": "WEST POINT MEDICAL CENTRE",
+   "address": "WEST POINT MEDICAL CENTRE 167-169 SLADE LANE LEVENSHULME MANCHESTER M19 2AF",
+   "wd16nm": "Levenshulme",
+   "lad16nm": "Manchester",
+   "lon": -2.1978718,
+   "lat": 53.4453053
+ },
+ {
+   "name": "HAWTHORN MC",
+   "address": "UNIT K FALLOWFIELD R PK BIRCHFIELDS ROAD MANCHESTER LANCASHIRE M14 6FS",
+   "wd16nm": "Levenshulme",
+   "lad16nm": "Manchester",
+   "lon": -2.2047489,
+   "lat": 53.4423092
+ },
+ {
+   "name": "SURREY LODGE PRACTICE",
+   "address": "SURREY LODGE GROUP PRACT 11 ANSON ROAD VICTORIA PARK MANCHESTER M14 5BY",
+   "wd16nm": "Longsight",
+   "lad16nm": "Manchester",
+   "lon": -2.2170387,
+   "lat": 53.4571603
+ },
+ {
+   "name": "DICKENSON ROAD MEDICAL CENTRE",
+   "address": "357-359 DICKENSON ROAD LONGSIGHT MANCHESTER  M13 0WQ",
+   "wd16nm": "Longsight",
+   "lad16nm": "Manchester",
+   "lon": -2.2012345,
+   "lat": 53.4561173
+ },
+ {
+   "name": "PARKSIDE SURGERY",
+   "address": "PARKSIDE SURGERY 187 NORTHMOOR ROAD LONGSIGHT MANCHESTER M12 5RU",
+   "wd16nm": "Longsight",
+   "lad16nm": "Manchester",
+   "lon": -2.1909212,
+   "lat": 53.4532042
+ },
+ {
+   "name": "LONGSIGHT MEDICAL PRACTICE",
+   "address": "LONGSIGHT HEALTH CENTRE 526-528 STOCKPORT ROAD LONGSIGHT MANCHESTER M13 0RR",
+   "wd16nm": "Longsight",
+   "lad16nm": "Manchester",
+   "lon": -2.2018719,
+   "lat": 53.457584
+ },
+ {
+   "name": "DROYLSDEN RD FAMILY PRACTICE",
+   "address": "125 DROYLSDEN ROAD NEWTON HEATH MANCHESTER  M40 1NT",
+   "wd16nm": "Miles Platting and Newton Heath",
+   "lad16nm": "Manchester",
+   "lon": -2.1761154,
+   "lat": 53.4999853
+ },
+ {
+   "name": "WHITLEY ROAD MEDICAL CENTRE",
+   "address": "WHITLEY ROAD MEDICAL CTR 1 WHITLEY ROAD COLLYHURST MANCHESTER M40 7QH",
+   "wd16nm": "Miles Platting and Newton Heath",
+   "lad16nm": "Manchester",
+   "lon": -2.2227785,
+   "lat": 53.4949229
+ },
+ {
+   "name": "BROOKDALE SURGERY",
+   "address": "BROOKDALE SURGERY 202 DROYLSDEN ROAD NEWTON HEATH,MANCHESTER  M40 1NZ",
+   "wd16nm": "Miles Platting and Newton Heath",
+   "lad16nm": "Manchester",
+   "lon": -2.1737558,
+   "lat": 53.4992234
+ },
+ {
+   "name": "NEWTON HEATH MEDICAL CENTRE",
+   "address": "NEWTON HEATH HEALTH CTRE 2 OLD CHURCH STREET NEWTON HEATH MANCHESTER M40 2JF",
+   "wd16nm": "Miles Platting and Newton Heath",
+   "lad16nm": "Manchester",
+   "lon": -2.184031,
+   "lat": 53.5023457
+ },
+ {
+   "name": "MP VICTORIA MILL",
+   "address": "VICTORIA MILL HEALTH CTR 10 LOWER VICKERS STREET MANCHESTER LANCASHIRE M40 7LH",
+   "wd16nm": "Miles Platting and Newton Heath",
+   "lad16nm": "Manchester",
+   "lon": -2.2134725,
+   "lat": 53.4901048
+ },
+ {
+   "name": "THE WHITSWOOD PRACTICE",
+   "address": "THE WHITSWOOD PRACTICE 2 WHITSWOOD CLOSE MANCHESTER LANCASHIRE M16 7AP",
+   "wd16nm": "Moss Side",
+   "lad16nm": "Manchester",
+   "lon": -2.253481,
+   "lat": 53.455628
+ },
+ {
+   "name": "ST GEORGE'S MEDICAL CENTRE",
+   "address": "ST.GEORGES DRIVE MED CTR ST.GEORGES DRIVE, MOSTON MANCHESTER  M40 5HP",
+   "wd16nm": "Moston",
+   "lad16nm": "Manchester",
+   "lon": -2.1901177,
+   "lat": 53.509569
+ },
+ {
+   "name": "HAZELDENE MEDICAL CENTRE",
+   "address": "HAZELDENE MEDICAL CENTRE 97 MOSTON LANE EAST NEW MOSTON, MANCHESTER  M40 3HD",
+   "wd16nm": "Moston",
+   "lad16nm": "Manchester",
+   "lon": -2.161307,
+   "lat": 53.516281
+ },
+ {
+   "name": "NORTHENDEN GROUP PRACTICE",
+   "address": "THE NORTHENDEN GROUP PRAC 489 PALATINE ROAD NORTHENDEN MANCHESTER M22 4DH",
+   "wd16nm": "Northenden",
+   "lad16nm": "Manchester",
+   "lon": -2.2647741,
+   "lat": 53.4064883
+ },
+ {
+   "name": "THE BORCHARDT MEDICAL CENTRE",
+   "address": "THE BORCHARDT MEDICAL CTR 62 WHITCHURCH ROAD WITHINGTON MANCHESTER M20 1EB",
+   "wd16nm": "Old Moat",
+   "lad16nm": "Manchester",
+   "lon": -2.2377739,
+   "lat": 53.4343173
+ },
+ {
+   "name": "PRINCESS ROAD SURGERY",
+   "address": "PRINCESS ROAD SURGERY 471-475 PRINCESS ROAD WITHINGTON MANCHESTER M20 1BH",
+   "wd16nm": "Old Moat",
+   "lad16nm": "Manchester",
+   "lon": -2.2437143,
+   "lat": 53.4401966
+ },
+ {
+   "name": "AL-SHIFA MEDICAL CENTRE",
+   "address": "4-6 COPSON STREET WITHINGTON MANCHESTER LANCASHIRE M20 3HE",
+   "wd16nm": "Old Moat",
+   "lad16nm": "Manchester",
+   "lon": -2.2292925,
+   "lat": 53.4338575
+ },
+ {
+   "name": "AILSA CRAIG MEDICAL CENTRE",
+   "address": "AILSA CRAIG MEDICAL GROUP 270 DICKENSON ROAD LONGSIGHT MANCHESTER M13 0YL",
+   "wd16nm": "Rusholme",
+   "lad16nm": "Manchester",
+   "lon": -2.2086903,
+   "lat": 53.4543633
+ },
+ {
+   "name": "THE ROBERT DARBISHIRE PRACTICE",
+   "address": "ROBERT DARBISHIRE PRACT. RUSHOLME HEALTH CENTRE WALMER STREET,RUSHOLME MANCHESTER M14 5NP",
+   "wd16nm": "Rusholme",
+   "lad16nm": "Manchester",
+   "lon": -2.226324,
+   "lat": 53.454965
+ },
+ {
+   "name": "WILMSLOW ROAD SURGERY",
+   "address": "WILMSLOW ROAD MEDICAL CTR 156 WILMSLOW RD, RUSHOLME MANCHESTER  M14 5LQ",
+   "wd16nm": "Rusholme",
+   "lad16nm": "Manchester",
+   "lon": -2.2227994,
+   "lat": 53.4521715
+ },
+ {
+   "name": "RK MEDICAL PRACTICE",
+   "address": "BROWNLEY GREEN HEALTH CTR 171 BROWNLEY ROAD WYTHENSHAWE  M22 9UH",
+   "wd16nm": "Sharston",
+   "lad16nm": "Manchester",
+   "lon": -2.2558301,
+   "lat": 53.3874944
+ },
+ {
+   "name": "BENCHILL MEDICAL PRACTICE",
+   "address": "BROWNLEY GREEN HEALTH CTR 171 BROWNLEY ROAD MANCHESTER  M22 9UH",
+   "wd16nm": "Sharston",
+   "lad16nm": "Manchester",
+   "lon": -2.2558301,
+   "lat": 53.3874944
+ },
+ {
+   "name": "ASHVILLE SURGERY",
+   "address": "ASHVILLE SURGERY 171 UPPER CHORLTON RD WHALLEY RANGE, MANCHESTER LANCASHIRE M16 9RT",
+   "wd16nm": "Whalley Range",
+   "lad16nm": "Manchester",
+   "lon": -2.2676924,
+   "lat": 53.4527274
+ },
+ {
+   "name": "THE RANGE MEDICAL CENTRE",
+   "address": "THE RANGE MEDICAL CENTRE 121 WITHINGTON ROAD WHALLEY RANGE MANCHESTER M16 8EE",
+   "wd16nm": "Whalley Range",
+   "lad16nm": "Manchester",
+   "lon": -2.25711,
+   "lat": 53.4530327
+ },
+ {
+   "name": "WILBRAHAM SURGERY",
+   "address": "515 WILBRAHAM ROAD CHORLTON-CUM-HARDY MANCHESTER  M21 0UF",
+   "wd16nm": "Whalley Range",
+   "lad16nm": "Manchester",
+   "lon": -2.2705463,
+   "lat": 53.4423135
+ },
+ {
+   "name": "LADYBARN GROUP PRACTICE",
+   "address": "LADYBARN GROUP PRACTICE 54 BRIARFIELD ROAD WITHINGTON MANCHESTER M20 4SS",
+   "wd16nm": "Withington",
+   "lad16nm": "Manchester",
+   "lon": -2.2141401,
+   "lat": 53.4303701
+ },
+ {
+   "name": "MAULDETH MEDICAL CENTRE",
+   "address": "MAULDETH MEDICAL CENTRE 112 MAULDETH ROAD FALLOWFIELD MANCHESTER M14 6SQ",
+   "wd16nm": "Withington",
+   "lad16nm": "Manchester",
+   "lon": -2.2136878,
+   "lat": 53.4350226
+ },
+ {
+   "name": "BODEY MEDICAL CENTRE",
+   "address": "BODEY MEDICAL CENTRE 28 LADYBARN LANE FALLOWFIELD MANCHESTER M14 6WP",
+   "wd16nm": "Withington",
+   "lad16nm": "Manchester",
+   "lon": -2.2154466,
+   "lat": 53.4407108
+ },
+ {
+   "name": "FALLOWFIELD MEDICAL CENTRE",
+   "address": "FALLOWFIELD MEDICAL CTR 75 LADYBARN LANE FALLOWFIELD MANCHESTER M14 6YL",
+   "wd16nm": "Withington",
+   "lad16nm": "Manchester",
+   "lon": -2.2135646,
+   "lat": 53.4384071
+ },
+ {
+   "name": "PEEL HALL MEDICAL CENTRE",
+   "address": "PEEL HALL MEDICAL PRAC FORUM HEALTH SIMONSWAY MANCHESTER  M22 5RX",
+   "wd16nm": "Woodhouse Park",
+   "lad16nm": "Manchester",
+   "lon": -2.2649753,
+   "lat": 53.3800466
+ },
+ {
+   "name": "CORNISHWAY GROUP PRACTICE",
+   "address": "FORUM HEALTH, SIMONSWAY WYTHENSHAWE MANCHESTER  M22 5RX",
+   "wd16nm": "Woodhouse Park",
+   "lad16nm": "Manchester",
+   "lon": -2.264514,
+   "lat": 53.3793478
+ },
+ {
+   "name": "TREGENNA GROUP PRACTICE",
+   "address": "TREGENNA PORTWAY, WOODHOUSE PARK WYTHENSHAWE MANCHESTER M22 0EP",
+   "wd16nm": "Woodhouse Park",
+   "lad16nm": "Manchester",
+   "lon": -2.2564378,
+   "lat": 53.3707759
+ },
+ {
+   "name": "JARVIS MEDICAL PRACTICE",
+   "address": "JARVIS MED PRAC-GPCC 137 GLODWICK ROAD OLDHAM  OL4 1YN",
+   "wd16nm": "Alexandra",
+   "lad16nm": "Oldham",
+   "lon": -2.0965743,
+   "lat": 53.53505
+ },
+ {
+   "name": "CHADDERTON SOUTH HEALTH CENTRE",
+   "address": "CHADDERTON SOUTH HTH.CTR. EAVES LANE CHADDERTON OLDHAM OL9 8RG",
+   "wd16nm": "Chadderton Central",
+   "lad16nm": "Oldham",
+   "lon": -2.1515403,
+   "lat": 53.533777
+ },
+ {
+   "name": "CHADDERTON MEDICAL PRACTICE",
+   "address": "CHADDERTON TOWN HTH.CTR. MIDDLETON ROAD CHADDERTON OLDHAM OL9 0LH",
+   "wd16nm": "Chadderton North",
+   "lad16nm": "Oldham",
+   "lon": -2.1423874,
+   "lat": 53.5455073
+ },
+ {
+   "name": "WOODLANDS MEDICAL PRACTICE",
+   "address": "CHADDERTON TOWN HLTH.CTR MIDDLETON ROAD,CHADDERTON OLDHAM  OL9 0LH",
+   "wd16nm": "Chadderton North",
+   "lad16nm": "Oldham",
+   "lon": -2.1423874,
+   "lat": 53.5455073
+ },
+ {
+   "name": "CH MEDICAL PRACTICE",
+   "address": "FIELDS NEW RD P-CARE CTR FIELDS NEW RD,CHADDERTON OLDHAM  OL9 8NH",
+   "wd16nm": "Chadderton South",
+   "lad16nm": "Oldham",
+   "lon": -2.1470986,
+   "lat": 53.5318135
+ },
+ {
+   "name": "DONALD WILDE MEDICAL CENTRE",
+   "address": "DONALD WILDE MEDICAL CTR 283 ROCHDALE ROAD OLDHAM  OL1 2HG",
+   "wd16nm": "Coldhurst",
+   "lad16nm": "Oldham",
+   "lon": -2.1204352,
+   "lat": 53.5494708
+ },
+ {
+   "name": "THE CHOWDHURY PRACTICE",
+   "address": "INTEGRATED CARE CENTRE NEW RADCLIFFE STREET OLDHAM  OL1 1NL",
+   "wd16nm": "Coldhurst",
+   "lad16nm": "Oldham",
+   "lon": -2.1171487,
+   "lat": 53.54381
+ },
+ {
+   "name": "OLDHAM FAMILY PRACTICE",
+   "address": "1ST FLOOR INTEGRATED C C NEW RADCLIFFE STREET OLDHAM LANCASHIRE OL1 1NL",
+   "wd16nm": "Coldhurst",
+   "lad16nm": "Oldham",
+   "lon": -2.1171487,
+   "lat": 53.54381
+ },
+ {
+   "name": "JALAL PRACTICE",
+   "address": "INTEGRATED CARE CENTRE NEW RADCLIFFE STREET OLDHAM LANCASHIRE OL1 1NL",
+   "wd16nm": "Coldhurst",
+   "lad16nm": "Oldham",
+   "lon": -2.1171487,
+   "lat": 53.54381
+ },
+ {
+   "name": "PERKINS PRACTICE",
+   "address": "INTEGRATED CARE CENTRE NEW RADCLIFFE STREET OLDHAM  OL1 1NL",
+   "wd16nm": "Coldhurst",
+   "lad16nm": "Oldham",
+   "lon": -2.1171487,
+   "lat": 53.54381
+ },
+ {
+   "name": "THE DURU PRACTICE",
+   "address": "INTEGRATED CARE CENTRE NEW RADCLIFFE STREET OLDHAM LANCASHIRE OL1 1NL",
+   "wd16nm": "Coldhurst",
+   "lad16nm": "Oldham",
+   "lon": -2.1171487,
+   "lat": 53.54381
+ },
+ {
+   "name": "JOHN STREET MEDICAL PRACTICE",
+   "address": "1 JOHN STREET OLDHAM   OL8 1DF",
+   "wd16nm": "Coldhurst",
+   "lad16nm": "Oldham",
+   "lon": -2.119272,
+   "lat": 53.5404127
+ },
+ {
+   "name": "LINDLEY HOUSE HEALTH CENTRE",
+   "address": "INTEGRATED CARE CENTRE NEW RADCLIFFE STREET OLDHAM GREATER MANCHESTER OL1 1NL",
+   "wd16nm": "Coldhurst",
+   "lad16nm": "Oldham",
+   "lon": -2.1171487,
+   "lat": 53.54381
+ },
+ {
+   "name": "FAILSWORTH GROUP PRACTICE",
+   "address": "THE FAILSWORTH GROUP PRAC FAILSWORTH DISTRICT CTR ASHTON RD WEST,FAILSWORTH MANCHESTER M35 0AD",
+   "wd16nm": "Failsworth West",
+   "lad16nm": "Oldham",
+   "lon": -2.1567473,
+   "lat": 53.5098547
+ },
+ {
+   "name": "QUAYSIDE MEDICAL PRACTICE",
+   "address": "ASHTON ROAD WEST FAILSWORTH MANCHESTER  M35 0AD",
+   "wd16nm": "Failsworth West",
+   "lad16nm": "Oldham",
+   "lon": -2.1578612,
+   "lat": 53.5081285
+ },
+ {
+   "name": "HOSSAIN PRACTICE",
+   "address": "FAILSWORTH DISTRICT CTR ASHTON RD WEST FAILSWORTH MANCHESTER M35 0AD",
+   "wd16nm": "Failsworth West",
+   "lad16nm": "Oldham",
+   "lon": -2.1565266,
+   "lat": 53.5099235
+ },
+ {
+   "name": "ST CHADS MEDICAL PRACTICE",
+   "address": "ST CHADS MEDICAL PRACTICE ST CHADS CENTRE LIME GREEN PARADE OLDHAM OL8 3HH",
+   "wd16nm": "Hollinwood",
+   "lad16nm": "Oldham",
+   "lon": -2.1266403,
+   "lat": 53.5152377
+ },
+ {
+   "name": "HOLLINWOOD MEDICAL PRACTICE",
+   "address": "HOLLINWOOD MED. PRACTICE 1 CLIVE STREET OLDHAM  OL8 3TR",
+   "wd16nm": "Hollinwood",
+   "lad16nm": "Oldham",
+   "lon": -2.1276782,
+   "lat": 53.5222048
+ },
+ {
+   "name": "OLDHAM MEDICAL SERVICES",
+   "address": "LANGHAM HOUSE 368 ASHTON ROAD OLDHAM LANCASHIRE OL8 3HF",
+   "wd16nm": "Medlock Vale",
+   "lad16nm": "Oldham",
+   "lon": -2.1112207,
+   "lat": 53.5253445
+ },
+ {
+   "name": "HILL TOP SURGERY",
+   "address": "FITTON HILL N C FIRCROFT RD, FITTON HILL OLDHAM  OL8 2QD",
+   "wd16nm": "Medlock Vale",
+   "lad16nm": "Oldham",
+   "lon": -2.1014484,
+   "lat": 53.5215238
+ },
+ {
+   "name": "ROYTON MEDICAL CENTRE",
+   "address": "ROYTON MEDICAL CENTRE MARKET STREET ROYTON OLDHAM OL2 5QA",
+   "wd16nm": "Royton North",
+   "lad16nm": "Oldham",
+   "lon": -2.1236931,
+   "lat": 53.5657842
+ },
+ {
+   "name": "THE PARKS MEDICAL PRACTICE",
+   "address": "ROYTON HLTH WELLBEING CTR PARK STREET, ROYTON OLDHAM  OL2 6QW",
+   "wd16nm": "Royton South",
+   "lad16nm": "Oldham",
+   "lon": -2.1215157,
+   "lat": 53.5663899
+ },
+ {
+   "name": "THE ROYTON & CROMPTON FAMILY PRACTICE",
+   "address": "ROYTON HLTH WELLBEING CTR PARK STREET, ROYTON OLDHAM  OL2 6QW",
+   "wd16nm": "Royton South",
+   "lad16nm": "Oldham",
+   "lon": -2.1215157,
+   "lat": 53.5663899
+ },
+ {
+   "name": "SADDLEWORTH MEDICAL PRACTICE",
+   "address": "SADDLEWORTH MED PRACTICE SMITHY LANE, UPPERMILL OLDHAM  OL3 6AH",
+   "wd16nm": "Saddleworth South",
+   "lad16nm": "Oldham",
+   "lon": -2.0045908,
+   "lat": 53.5481667
+ },
+ {
+   "name": "LEESBROOK SURGERY",
+   "address": "LEESBROOK SURGERY MELLOR STREET LEES, OLDHAM  OL4 3DG",
+   "wd16nm": "Saddleworth West and Lees",
+   "lad16nm": "Oldham",
+   "lon": -2.0726121,
+   "lat": 53.5386205
+ },
+ {
+   "name": "LEES MEDICAL PRACTICE",
+   "address": "ATHENS WAY LEES OLDHAM  OL4 3BP",
+   "wd16nm": "Saddleworth West and Lees",
+   "lad16nm": "Oldham",
+   "lon": -2.0751148,
+   "lat": 53.5387912
+ },
+ {
+   "name": "SARAF MEDICAL PRACTICE",
+   "address": "MOORSIDE MEDICAL CENTRE 681 RIPPONDEN RD,MOORSIDE OLDHAM LANCASHIRE OL1 4JU",
+   "wd16nm": "St James'",
+   "lad16nm": "Oldham",
+   "lon": -2.0750856,
+   "lat": 53.562935
+ },
+ {
+   "name": "MOORSIDE MEDICAL PRACTICE",
+   "address": "MOORSIDE MEDICAL CENTRE 681 RIPPONDEN ROAD MOORSIDE OLDHAM OL1 4JU",
+   "wd16nm": "St James'",
+   "lad16nm": "Oldham",
+   "lon": -2.0750856,
+   "lat": 53.562935
+ },
+ {
+   "name": "ST MARY'S MEDICAL CENTRE",
+   "address": "ST.MARY'S MEDICAL CENTRE ROCK STREET OLDHAM LANCASHIRE OL1 3UL",
+   "wd16nm": "St Mary's",
+   "lad16nm": "Oldham",
+   "lon": -2.1090237,
+   "lat": 53.5434425
+ },
+ {
+   "name": "HOPWOOD HOUSE MEDICAL PRACTICE",
+   "address": "HOPWOOD HOUSE THE VINEYARD, LEES ROAD OLDHAM  OL4 1JN",
+   "wd16nm": "St Mary's",
+   "lad16nm": "Oldham",
+   "lon": -2.096432,
+   "lat": 53.5424547
+ },
+ {
+   "name": "ALEXANDRA GROUP MED PRACT",
+   "address": "GLODWICK PRIMARY CARE CTR 137 GLODWICK ROAD OLDHAM  OL4 1YN",
+   "wd16nm": "St Mary's",
+   "lad16nm": "Oldham",
+   "lon": -2.095081,
+   "lat": 53.537729
+ },
+ {
+   "name": "GREENBANK MEDICAL PRACTICE",
+   "address": "BARLEY CLOUGH MEDICAL CTR NUGGET STREET OLDHAM  OL4 1BN",
+   "wd16nm": "St Mary's",
+   "lad16nm": "Oldham",
+   "lon": -2.0962092,
+   "lat": 53.5379497
+ },
+ {
+   "name": "MACH HEALTHCARE LIMITED",
+   "address": "SUN VALLEY MEDICAL PRACT 137 GLODWICK ROAD OLDHAM  OL4 1YN",
+   "wd16nm": "St Mary's",
+   "lad16nm": "Oldham",
+   "lon": -2.0959899,
+   "lat": 53.5390409
+ },
+ {
+   "name": "OAK GABLES MEDICAL PRACTICE",
+   "address": "OAK GABLES,CROMPTON H/CTR HIGH STREET, SHAW OLDHAM  OL2 8ST",
+   "wd16nm": "Shaw",
+   "lad16nm": "Oldham",
+   "lon": -2.0958625,
+   "lat": 53.5749781
+ },
+ {
+   "name": "VILLAGE MEDICAL PRACTICE",
+   "address": "VILLAGE MEDICAL PRACTICE CROMPTON HEALTH CENTRE HIGH STREET SHAW, OLDHAM OL2 8ST",
+   "wd16nm": "Shaw",
+   "lad16nm": "Oldham",
+   "lon": -2.0960572,
+   "lat": 53.5748294
+ },
+ {
+   "name": "SPRINGFIELD HOUSE",
+   "address": "SPRINGFIELD HOUSE 275 HUDDERSFIELD ROAD OLDHAM LANCASHIRE OL4 2RJ",
+   "wd16nm": "Waterhead",
+   "lad16nm": "Oldham",
+   "lon": -2.0858497,
+   "lat": 53.5483268
+ },
+ {
+   "name": "DANSON FAMILY PRACTICE P85018",
+   "address": "WERNETH PRIMARY CARE CTR FEATHERSTALL ROAD SOUTH OLDHAM GREATER MANCHESTER OL9 7AY",
+   "wd16nm": "Werneth",
+   "lad16nm": "Oldham",
+   "lon": -2.1305902,
+   "lat": 53.5371431
+ },
+ {
+   "name": "THE SURGERY",
+   "address": "WERNETH PRIMARY CARE CTR FEATHERSTALL ROAD SOUTH OLDHAM GREATER MANCHESTER OL9 7AY",
+   "wd16nm": "Werneth",
+   "lad16nm": "Oldham",
+   "lon": -2.1305902,
+   "lat": 53.5371431
+ },
+ {
+   "name": "BLOCK LANE SURGERY",
+   "address": "THE SURGERY 158 BLOCK LANE,CHADDERTON OLDHAM LANCASHIRE OL9 7SG",
+   "wd16nm": "Werneth",
+   "lad16nm": "Oldham",
+   "lon": -2.1388114,
+   "lat": 53.5349916
+ },
+ {
+   "name": "LITTLETOWN FAMILY MED PRACT",
+   "address": "LITTLETOWN FAM MED PRAC 53 MANCHESTER ROAD OLDHAM LANCASHIRE OL8 4LR",
+   "wd16nm": "Werneth",
+   "lad16nm": "Oldham",
+   "lon": -2.1344463,
+   "lat": 53.5291751
+ },
+ {
+   "name": "WERNETH MEDICAL PRACTICE",
+   "address": "AL-KOWSAR SURGERY 76A WINDSOR ROAD COPPICE, OLDHAM  OL8 4AL",
+   "wd16nm": "Werneth",
+   "lad16nm": "Oldham",
+   "lon": -2.1267454,
+   "lat": 53.5343306
+ },
+ {
+   "name": "MOHANTY PRACTICE",
+   "address": "WERNETH PRIMARY CARE CTR FEATHERSTALL ROAD SOUTH OLDHAM GREATER MANCHESTER OL9 7AY",
+   "wd16nm": "Werneth",
+   "lad16nm": "Oldham",
+   "lon": -2.1305902,
+   "lat": 53.5371431
+ },
+ {
+   "name": "KAPUR FAMILY CARE",
+   "address": "WERNETH PRIMARY CARE CTR FEATHERSTALL ROAD SOUTH OLDHAM GREATER MANCHESTER OL9 7AY",
+   "wd16nm": "Werneth",
+   "lad16nm": "Oldham",
+   "lon": -2.1305902,
+   "lat": 53.5371431
+ },
+ {
+   "name": "WELLFIELD HEALTH CENTRE",
+   "address": "WELLFIELD HEALTH CENTRE 116 OLDHAM ROAD ROCHDALE LANCASHIRE OL11 1AD",
+   "wd16nm": "Balderstone and Kirkholt",
+   "lad16nm": "Rochdale",
+   "lon": -2.147526,
+   "lat": 53.606926
+ },
+ {
+   "name": "KIRKHOLT MEDICAL PRACTICE",
+   "address": "QUEENS DRIVE KIRKHOLT ROCHDALE LANCASHIRE OL11 2NP",
+   "wd16nm": "Balderstone and Kirkholt",
+   "lad16nm": "Rochdale",
+   "lon": -2.163521,
+   "lat": 53.598177
+ },
+ {
+   "name": "CASTLETON HEALTH CENTRE",
+   "address": "CASTLETON HEALTH CENTRE 2 ELIZABETH ST,CASTLETON ROCHDALE LANCASHIRE OL11 3HY",
+   "wd16nm": "Castleton",
+   "lad16nm": "Rochdale",
+   "lon": -2.1831142,
+   "lat": 53.5970211
+ },
+ {
+   "name": "YORKSHIRE ST SURGERY",
+   "address": "YORKSHIRE STREET SURGERY 188-190 YORKSHIRE STREET ROCHDALE LANCASHIRE OL16 2DN",
+   "wd16nm": "Central Rochdale",
+   "lad16nm": "Rochdale",
+   "lon": -2.1524154,
+   "lat": 53.6204798
+ },
+ {
+   "name": "MARK STREET SURGERY",
+   "address": "MARK STREET SURGERY 2 MARK STREET ROCHDALE LANCASHIRE OL12 9BE",
+   "wd16nm": "Central Rochdale",
+   "lad16nm": "Rochdale",
+   "lon": -2.1441313,
+   "lat": 53.6241733
+ },
+ {
+   "name": "CROFT SHIFA HEALTH CENTRE",
+   "address": "FLR2 THE CROFT SHIFA HC BELFIELD ROAD ROCHDALE LANCASHIRE OL16 2UP",
+   "wd16nm": "Central Rochdale",
+   "lad16nm": "Rochdale",
+   "lon": -2.141365,
+   "lat": 53.6222746
+ },
+ {
+   "name": "INSPIRE MEDICAL CENTRE",
+   "address": "2ND FLR CROFT SHIFA HC BELFIELD ROAD ROCHDALE LANCASHIRE OL16 2UY",
+   "wd16nm": "Central Rochdale",
+   "lad16nm": "Rochdale",
+   "lon": -2.141365,
+   "lat": 53.6222746
+ },
+ {
+   "name": "7 DAY ACCESS ROCHDALE INFIRMARY HUB",
+   "address": "ROCHDALE INFIRMARY WHITEHALL ST ROCHDALE LANCASHIRE OL12 0NB",
+   "wd16nm": "Central Rochdale",
+   "lad16nm": "Rochdale",
+   "lon": -2.1600947,
+   "lat": 53.6231081
+ },
+ {
+   "name": "THE JUNCTION SURGERY",
+   "address": "THE JUNCTION SURGERY 346 GRIMSHAW LANE MIDDLETON JUNCTION MIDDLETON, MANCHESTER M24 2AU",
+   "wd16nm": "East Middleton",
+   "lad16nm": "Rochdale",
+   "lon": -2.1742585,
+   "lat": 53.5416485
+ },
+ {
+   "name": "HEALEY SURGERY",
+   "address": "HEALEY SURGERY WHITWORTH ROAD ROCHDALE LANCASHIRE OL12 6EY",
+   "wd16nm": "Healey",
+   "lad16nm": "Rochdale",
+   "lon": -2.1636721,
+   "lat": 53.6335194
+ },
+ {
+   "name": "HOPWOOD MEDICAL CENTRE",
+   "address": "HOPWOOD MEDICAL CENTRE 1-3 WALTON STREET,HOPWOOD HEYWOOD LANCASHIRE OL10 2BS",
+   "wd16nm": "Hopwood Hall",
+   "lad16nm": "Rochdale",
+   "lon": -2.2108279,
+   "lat": 53.5872684
+ },
+ {
+   "name": "THE KINGSWAY PRACTICE",
+   "address": "THE KINGSWAY PRACTICE 285A KINGSWAY ROCHDALE LANCASHIRE OL16 4AT",
+   "wd16nm": "Kingsway",
+   "lad16nm": "Rochdale",
+   "lon": -2.1359879,
+   "lat": 53.6132461
+ },
+ {
+   "name": "WINTER PRESSURES",
+   "address": "THE KINGSWAY PRACTICE 285A KINGSWAY ROCHDALE LANCASHIRE OL16 4AT",
+   "wd16nm": "Kingsway",
+   "lad16nm": "Rochdale",
+   "lon": -2.1359879,
+   "lat": 53.6132461
+ },
+ {
+   "name": "THE VILLAGE MEDICAL CTR.",
+   "address": "THE VILLAGE MEDICAL CTR. PEEL STREET LITTLEBOROUGH LANCASHIRE OL15 8AQ",
+   "wd16nm": "Littleborough Lakeside",
+   "lad16nm": "Rochdale",
+   "lon": -2.0975348,
+   "lat": 53.6427101
+ },
+ {
+   "name": "TRINITY MEDICAL CENTRE",
+   "address": "TRINITY MEDICAL CENTRE 22 WINTON STREET LITTLEBOROUGH LANCASHIRE OL15 8AR",
+   "wd16nm": "Littleborough Lakeside",
+   "lad16nm": "Rochdale",
+   "lon": -2.0992603,
+   "lat": 53.642062
+ },
+ {
+   "name": "DR GWD BHIMA",
+   "address": "1ST FLOOR NYE BEVAN HOUSE MACLURE ROAD ROCHDALE LANCASHIRE OL11 1DN",
+   "wd16nm": "Milkstone and Deeplish",
+   "lad16nm": "Rochdale",
+   "lon": -2.1547191,
+   "lat": 53.6108396
+ },
+ {
+   "name": "THE DALE MEDICAL PRACTICE",
+   "address": "2ND FLOOR NYE BEVAN HOUSE MACLURE ROAD ROCHDALE LANCASHIRE OL11 1DN",
+   "wd16nm": "Milkstone and Deeplish",
+   "lad16nm": "Rochdale",
+   "lon": -2.1547794,
+   "lat": 53.6108211
+ },
+ {
+   "name": "DR A HAMID",
+   "address": "2ND FLOOR NYE BEVAN HOUSE MACLURE ROAD ROCHDALE LANCASHIRE OL11 1DN",
+   "wd16nm": "Milkstone and Deeplish",
+   "lad16nm": "Rochdale",
+   "lon": -2.1547794,
+   "lat": 53.6108211
+ },
+ {
+   "name": "DR MB GHAFOOR & PARTNERS",
+   "address": "1ST FLOOR, NYE BEVAN HSE MACLURE ROAD ROCHDALE LANCASHIRE OL11 1DN",
+   "wd16nm": "Milkstone and Deeplish",
+   "lad16nm": "Rochdale",
+   "lon": -2.1547191,
+   "lat": 53.6108396
+ },
+ {
+   "name": "MILNROW VILLAGE PRACTICE",
+   "address": "MILNROW VILLAGE PRACTICE 44-48 NEWHEY ROAD MILNROW ROCHDALE OL16 4EG",
+   "wd16nm": "Milnrow and Newhey",
+   "lad16nm": "Rochdale",
+   "lon": -2.105663,
+   "lat": 53.6063403
+ },
+ {
+   "name": "STONEFIELD STREET SURGERY",
+   "address": "STONEFIELD STREET SURGERY STONEFIELD STREET,MILNROW ROCHDALE LANCASHIRE OL16 4JQ",
+   "wd16nm": "Milnrow and Newhey",
+   "lad16nm": "Rochdale",
+   "lon": -2.1089068,
+   "lat": 53.6077764
+ },
+ {
+   "name": "LONGFORD STREET MEDICAL CENTRE",
+   "address": "LONGFORD STREET MED CTR LONGFORD STREET HEYWOOD LANCASHIRE OL10 4NH",
+   "wd16nm": "North Heywood",
+   "lad16nm": "Rochdale",
+   "lon": -2.2205536,
+   "lat": 53.5944419
+ },
+ {
+   "name": "BIRTLE VIEW MEDICAL PRACTICE",
+   "address": "BIRTLE VIEW MED PRACTICE GEORGE STREET HEYWOOD LANCASHIRE OL10 4PW",
+   "wd16nm": "North Heywood",
+   "lad16nm": "Rochdale",
+   "lon": -2.2279089,
+   "lat": 53.5944436
+ },
+ {
+   "name": "7 DAY ACCESS PHOENIX HUB",
+   "address": "PHOENIX CENTRE CHURCH ST HEYWOOD LANCASHIRE OL10 1LR",
+   "wd16nm": "North Heywood",
+   "lad16nm": "Rochdale",
+   "lon": -2.218391,
+   "lat": 53.5923786
+ },
+ {
+   "name": "ROCHDALE ROAD MEDICAL CENTRE",
+   "address": "ROCHDALE ROAD MEDICAL CTR 48A ROCHDALE ROAD MIDDLETON GREATER MANCHESTER M24 2PU",
+   "wd16nm": "North Middleton",
+   "lad16nm": "Rochdale",
+   "lon": -2.1959022,
+   "lat": 53.5563726
+ },
+ {
+   "name": "DOCTORS' SURGERY",
+   "address": "DOCTORS' SURGERY CLOUGH ST, MIDDLETON MANCHESTER GREATER MANCHESTER M24 2YJ",
+   "wd16nm": "North Middleton",
+   "lad16nm": "Rochdale",
+   "lon": -2.187663,
+   "lat": 53.556791
+ },
+ {
+   "name": "PETERLOO MEDICAL CENTRE",
+   "address": "PETERLOO MEDICAL CENTRE 133-135 MANCHESTER OLD RD MIDDLETON MANCHESTER M24 4DZ",
+   "wd16nm": "South Middleton",
+   "lad16nm": "Rochdale",
+   "lon": -2.2051664,
+   "lat": 53.5471746
+ },
+ {
+   "name": "MIDDLETON HEALTH CENTRE",
+   "address": "THE HEALTH CENTRE UNIT F1 MIDDLETON SHOPPING CENTRE MIDDLETON GREATER MANCHESTER M24 4EL",
+   "wd16nm": "South Middleton",
+   "lad16nm": "Rochdale",
+   "lon": -2.201049,
+   "lat": 53.5482585
+ },
+ {
+   "name": "7 DAY ACCESS MIDDLETON HC",
+   "address": "MIDDLETON HC,UNIT 1 MIDDLETON SHOPPING CENTRE MIDDLETON MANCHESTER M24 2EL",
+   "wd16nm": "South Middleton",
+   "lad16nm": "Rochdale",
+   "lon": -2.2007711,
+   "lat": 53.5483865
+ },
+ {
+   "name": "EDENFIELD ROAD SURGERY",
+   "address": "EDENFIELD ROAD SURGERY CUTGATE SHOPP PRECINCT ROCHDALE LANCASHIRE OL11 5AQ",
+   "wd16nm": "Spotland and Falinge",
+   "lad16nm": "Rochdale",
+   "lon": -2.1886379,
+   "lat": 53.6223124
+ },
+ {
+   "name": "ASHWORTH STREET SURGERY",
+   "address": "ASHWORTH STREET SURGERY 85 SPOTLAND ROAD ROCHDALE LANCASHIRE OL12 6RT",
+   "wd16nm": "Spotland and Falinge",
+   "lad16nm": "Rochdale",
+   "lon": -2.1656219,
+   "lat": 53.6196425
+ },
+ {
+   "name": "THE DAWES FAMILY PRACTICE",
+   "address": "THE DAWES FAMILY PRACTICE 83 SPOTLAND ROAD ROCHDALE LANCASHIRE OL12 6RX",
+   "wd16nm": "Spotland and Falinge",
+   "lad16nm": "Rochdale",
+   "lon": -2.1656519,
+   "lat": 53.619565
+ },
+ {
+   "name": "LITTLEBOROUGH GROUP PRACTICE",
+   "address": "LITTLEBOROUGH HEALTH CTR. FEATHERSTALL ROAD LITTLEBOROUGH LANCASHIRE OL15 8HF",
+   "wd16nm": "Wardle and West Littleborough",
+   "lad16nm": "Rochdale",
+   "lon": -2.1034201,
+   "lat": 53.6430558
+ },
+ {
+   "name": "PENNINE SURGERY",
+   "address": "PENNINE SURGERY L'BORO HC FEATHERSTALL RD LITTLEBOROUGH LANCASHIRE OL15 8HF",
+   "wd16nm": "Wardle and West Littleborough",
+   "lad16nm": "Rochdale",
+   "lon": -2.1033479,
+   "lat": 53.6430113
+ },
+ {
+   "name": "7 DAY ACCESS LITTLEBOROUGH HUB",
+   "address": "LITTLEBOROUGH HC FEATHERSTALL RD ROCHDALE LANCASHIRE OL15 8HF",
+   "wd16nm": "Wardle and West Littleborough",
+   "lad16nm": "Rochdale",
+   "lon": -2.1034201,
+   "lat": 53.6430558
+ },
+ {
+   "name": "HEYWOOD HEALTH",
+   "address": "ARGYLE STREET MEDICAL CTR 141 ARGYLE STREET HEYWOOD LANCASHIRE OL10 3SD",
+   "wd16nm": "West Heywood",
+   "lad16nm": "Rochdale",
+   "lon": -2.2391031,
+   "lat": 53.5873173
+ },
+ {
+   "name": "HEADY HILL SURGERY",
+   "address": "HEADY HILL SURGERY 114 BURY NEW ROAD HEYWOOD LANCASHIRE OL10 4RG",
+   "wd16nm": "West Heywood",
+   "lad16nm": "Rochdale",
+   "lon": -2.2415686,
+   "lat": 53.5936259
+ },
+ {
+   "name": "WOODSIDE MEDICAL CENTRE",
+   "address": "WOODSIDE MEDICAL CENTRE 247J WOOD STREET LANGLEY ESTATE, MIDDLETON MANCHESTER M24 5QL",
+   "wd16nm": "West Middleton",
+   "lad16nm": "Rochdale",
+   "lon": -2.2135411,
+   "lat": 53.5567314
+ },
+ {
+   "name": "DURNFORD MEDICAL CENTRE",
+   "address": "DURNFORD MEDICAL CENTRE 113 LONG STREET MIDDLETON MANCHESTER M24 6DL",
+   "wd16nm": "West Middleton",
+   "lad16nm": "Rochdale",
+   "lon": -2.1978879,
+   "lat": 53.5530983
+ },
+ {
+   "name": "FAMILY PRACTICE",
+   "address": "133 BOWNESS ROAD LANGLEY MIDDLETON MANCHESTER M24 4EN",
+   "wd16nm": "West Middleton",
+   "lad16nm": "Rochdale",
+   "lon": -2.217471,
+   "lat": 53.5544881
+ },
+ {
+   "name": "WINDERMERE SURGERY",
+   "address": "109-111 WINDERMERE ROAD LANGLEY MIDDLETON MANCHESTER M24 5WF",
+   "wd16nm": "West Middleton",
+   "lad16nm": "Rochdale",
+   "lon": -2.2060576,
+   "lat": 53.5598289
+ },
+ {
+   "name": "ECCLES GATEWAY MEDICAL CENTRE",
+   "address": "ECCLES GATEWAY MED CTR 28 BARTON LANE ECCLES MANCHESTER M30 0TU",
+   "wd16nm": "Barton",
+   "lad16nm": "Salford",
+   "lon": -2.3389759,
+   "lat": 53.4826386
+ },
+ {
+   "name": "ELLENBROOK MEDICAL CENTRE",
+   "address": "ELLENBROOK MEDICAL CENTRE ELLENBROOK VILLAGE CENTRE 14 MORSTON CLOSE WORSLEY M28 1PB",
+   "wd16nm": "Boothstown and Ellenbrook",
+   "lad16nm": "Salford",
+   "lon": -2.4145689,
+   "lat": 53.5112343
+ },
+ {
+   "name": "ORCHARD MEDICAL PRACTICE",
+   "address": "10 LEIGH ROAD BOOTHSTOWN, WORSLEY MANCHESTER  M28 1LZ",
+   "wd16nm": "Boothstown and Ellenbrook",
+   "lad16nm": "Salford",
+   "lon": -2.4213045,
+   "lat": 53.5030269
+ },
+ {
+   "name": "DR ANDERSON & DR AHMED",
+   "address": "THE SURGERY 239 MOSLEY COMMON ROAD BOOTHSTOWN, WORSLEY  M28 1BZ",
+   "wd16nm": "Boothstown and Ellenbrook",
+   "lad16nm": "Salford",
+   "lon": -2.4233399,
+   "lat": 53.5057285
+ },
+ {
+   "name": "MOCHA PARADE MEDICAL PRACTICE",
+   "address": "THE SURGERY 4-5 MOCHA PARADE SALFORD  M7 1QE",
+   "wd16nm": "Broughton",
+   "lad16nm": "Salford",
+   "lon": -2.2606651,
+   "lat": 53.4917071
+ },
+ {
+   "name": "NEWBURY GREEN MEDICAL PRACTICE",
+   "address": "NEWBURY PLACE HEALTH CTR 55 RIGBY STREET SALFORD  M7 4NX",
+   "wd16nm": "Broughton",
+   "lad16nm": "Salford",
+   "lon": -2.2607203,
+   "lat": 53.5073847
+ },
+ {
+   "name": "4/LOWER BROUGHTON MEDICAL PRACTICE",
+   "address": "LOWER BROUGHTON HTH.CTR. GREAT CLOWES STREET SALFORD MANCHESTER M7 1RD",
+   "wd16nm": "Broughton",
+   "lad16nm": "Salford",
+   "lon": -2.2590091,
+   "lat": 53.4935635
+ },
+ {
+   "name": "DR DAVIS'S MEDICAL PRACTICE",
+   "address": "NEWBURY PLACE HEALTH CTR 55 RIGBY STREET SALFORD  M7 4NX",
+   "wd16nm": "Broughton",
+   "lad16nm": "Salford",
+   "lon": -2.2607203,
+   "lat": 53.5073847
+ },
+ {
+   "name": "LIMEFIELD ROAD MEDICAL PRACTICE",
+   "address": "NEWBURY PLACE HEALTH CTR 55 RIGBY STREET SALFORD  M7 4NX",
+   "wd16nm": "Broughton",
+   "lad16nm": "Salford",
+   "lon": -2.2607203,
+   "lat": 53.5073847
+ },
+ {
+   "name": "1/LOWER BROUGHTON MEDICAL PRACTICE",
+   "address": "LOWER BROUGHTON HTH.CTR. GREAT CLOWES STREET SALFORD  M7 1RD",
+   "wd16nm": "Broughton",
+   "lad16nm": "Salford",
+   "lon": -2.2590091,
+   "lat": 53.4935635
+ },
+ {
+   "name": "3/LOWER BROUGHTON MEDICAL PRACTICE",
+   "address": "LOWER BROUGHTON HTH.CTR. GREAT CLOWES STREET SALFORD  M7 1RD",
+   "wd16nm": "Broughton",
+   "lad16nm": "Salford",
+   "lon": -2.2590091,
+   "lat": 53.4935635
+ },
+ {
+   "name": "IRLAM GROUP PRACTICE",
+   "address": "IRLAM GROUP PRACTICE 523 LIVERPOOL RD, IRLAM MANCHESTER  M44 6ZS",
+   "wd16nm": "Cadishead",
+   "lad16nm": "Salford",
+   "lon": -2.4257847,
+   "lat": 53.4396241
+ },
+ {
+   "name": "2/IRLAM MEDICAL PRACTICE",
+   "address": "IRLAM MEDICAL CENTRE MACDONALD ROAD IRLAM MANCHESTER M44 5LH",
+   "wd16nm": "Cadishead",
+   "lad16nm": "Salford",
+   "lon": -2.4317541,
+   "lat": 53.4383654
+ },
+ {
+   "name": "THE MOSSLANDS MEDICAL PRACTICE",
+   "address": "THE MOSSLANDS MED PRAC IRLAM MEDICAL CENTRE MACDONALD ROAD, IRLAM MANCHESTER M44 5LH",
+   "wd16nm": "Cadishead",
+   "lad16nm": "Salford",
+   "lon": -2.4317541,
+   "lat": 53.4383654
+ },
+ {
+   "name": "THE HEIGHT GENERAL PRACTICE",
+   "address": "THE SURGERY,355 BOLTON RD SALFORD MANCHESTER  M6 7NJ",
+   "wd16nm": "Claremont",
+   "lad16nm": "Salford",
+   "lon": -2.3079341,
+   "lat": 53.5002321
+ },
+ {
+   "name": "4/ST ANDREWS MEDICAL PRACTICE",
+   "address": "ST.ANDREWS MEDICAL CENTRE 30 RUSSELL STREET, ECCLES MANCHESTER  M30 0NU",
+   "wd16nm": "Eccles",
+   "lad16nm": "Salford",
+   "lon": -2.341073,
+   "lat": 53.4851811
+ },
+ {
+   "name": "2/ST ANDREWS MEDICAL PRACTICE",
+   "address": "ST.ANDREWS MEDICAL CENTRE 30 RUSSELL STREET, ECCLES MANCHESTER  M30 0NU",
+   "wd16nm": "Eccles",
+   "lad16nm": "Salford",
+   "lon": -2.341073,
+   "lat": 53.4851811
+ },
+ {
+   "name": "1/MONTON MEDICAL PRACTICE",
+   "address": "MONTON MED CTR,CANAL SIDE MONTON GREEN, ECCLES MANCHESTER  M30 8AR",
+   "wd16nm": "Eccles",
+   "lad16nm": "Salford",
+   "lon": -2.3569981,
+   "lat": 53.4918197
+ },
+ {
+   "name": "3/ST ANDREWS MEDICAL CENTRE",
+   "address": "ST.ANDREWS MEDICAL CENTRE 30 RUSSELL STREET, ECCLES MANCHESTER  M30 0NU",
+   "wd16nm": "Eccles",
+   "lad16nm": "Salford",
+   "lon": -2.341073,
+   "lat": 53.4851811
+ },
+ {
+   "name": "CHAPEL MEDICAL CENTRE",
+   "address": "CHAPEL MEDICAL CENTRE 220 LIVERPOOL ROAD HIGHER IRLAM MANCHESTER M44 6FE",
+   "wd16nm": "Irlam",
+   "lad16nm": "Salford",
+   "lon": -2.4182532,
+   "lat": 53.449078
+ },
+ {
+   "name": "(IRLAM) SALFORD CARE CTRS MEDICAL PRACTI",
+   "address": "SALFORD CARE CTR(IRLAM) 125 LIVERPOOL ROAD IRLAM MANCHESTER M44 6DP",
+   "wd16nm": "Irlam",
+   "lad16nm": "Salford",
+   "lon": -2.4174542,
+   "lat": 53.4489365
+ },
+ {
+   "name": "SALFORD HEALTH MATTERS",
+   "address": "SALFORD HEALTH MATTERS WILLOW TREE H L C 94 LITTLETON ROAD,SALFORD MANCHESTER M7 3SE",
+   "wd16nm": "Kersal",
+   "lad16nm": "Salford",
+   "lon": -2.2779068,
+   "lat": 53.5026878
+ },
+ {
+   "name": "1/SALFORD MEDICAL PRACTICE",
+   "address": "SALFORD MEDICAL CENTRE 194-198 LANGWORTHY ROAD SALFORD  M6 5PP",
+   "wd16nm": "Langworthy",
+   "lad16nm": "Salford",
+   "lon": -2.2945617,
+   "lat": 53.4872367
+ },
+ {
+   "name": "PENDLETON MEDICAL CENTRE",
+   "address": "PENDLETON GATEWAY 1 THE BROADWALK SALFORD MANCHESTER M6 5FX",
+   "wd16nm": "Langworthy",
+   "lad16nm": "Salford",
+   "lon": -2.2846008,
+   "lat": 53.4880381
+ },
+ {
+   "name": "LANGWORTHY MEDICAL PRACTICE",
+   "address": "LANGWORTHY MEDICAL CENTRE 250 LANGWORTHY ROAD SALFORD MANCHESTER M6 5WW",
+   "wd16nm": "Langworthy",
+   "lad16nm": "Salford",
+   "lon": -2.294791,
+   "lat": 53.4897653
+ },
+ {
+   "name": "SORREL BANK MEDICAL PRACTICE",
+   "address": "SORREL GROUP PRACTICE 23 BOLTON ROAD, SALFORD MANCHESTER  M6 7HL",
+   "wd16nm": "Langworthy",
+   "lad16nm": "Salford",
+   "lon": -2.2942657,
+   "lat": 53.4928603
+ },
+ {
+   "name": "CLARENDON MEDICAL PRACTICE",
+   "address": "CLARENDON SURGERY PENDLETON GATEWAY 1 THE BROADWALK, SALFORD MANCHESTER M6 5FX",
+   "wd16nm": "Langworthy",
+   "lad16nm": "Salford",
+   "lon": -2.2847772,
+   "lat": 53.4884445
+ },
+ {
+   "name": "CORNERSTONE MEDICAL PRACTICE",
+   "address": "CORNERSTONE MEDICAL PRACT 451 LIVERPOOL ST, SALFORD MANCHESTER  M6 5QQ",
+   "wd16nm": "Langworthy",
+   "lad16nm": "Salford",
+   "lon": -2.29434,
+   "lat": 53.483692
+ },
+ {
+   "name": "CLEGGS LANE MEDICAL PRACTICE/129",
+   "address": "THE SURGERY 129-131 CLEGGS LANE LITTLE HULTON, WORSLEY MANCHESTER M38 9RS",
+   "wd16nm": "Little Hulton",
+   "lad16nm": "Salford",
+   "lon": -2.4187651,
+   "lat": 53.53518
+ },
+ {
+   "name": "CHERRY MEDICAL PRACTICE",
+   "address": "LITTLE HULTON CENTRE HAYSBROOK AVENUE MANCHESTER  M28 0AY",
+   "wd16nm": "Little Hulton",
+   "lad16nm": "Salford",
+   "lon": -2.4222892,
+   "lat": 53.5293087
+ },
+ {
+   "name": "ORDSALL HEALTH SURGERY",
+   "address": "ORDSALL HEALTH 118 PHOEBE ST, SALFORD MANCHESTER  M5 3PH",
+   "wd16nm": "Ordsall",
+   "lad16nm": "Salford",
+   "lon": -2.2819667,
+   "lat": 53.4741845
+ },
+ {
+   "name": "BLACKFRIARS",
+   "address": "FRESH TOWERS 138 CHAPEL ST,SALFORD MANCHESTER  M3 6AF",
+   "wd16nm": "Ordsall",
+   "lad16nm": "Salford",
+   "lon": -2.253884,
+   "lat": 53.4838731
+ },
+ {
+   "name": "CARE HOMES MEDICAL PRACTICE",
+   "address": "GRD FLR SANDRINGHAM HSE WINDSOR STREET SALFORD  M5 4DG",
+   "wd16nm": "Ordsall",
+   "lad16nm": "Salford",
+   "lon": -2.2791368,
+   "lat": 53.4793579
+ },
+ {
+   "name": "SILVERDALE MEDICAL PRACTICE",
+   "address": "SILVERDALE MED PRACTICE PENDLEBURY HEALTH CENTRE 659 BOLTON RD,PENDLEBURY MANCHESTER M27 8HP",
+   "wd16nm": "Pendlebury",
+   "lad16nm": "Salford",
+   "lon": -2.3315061,
+   "lat": 53.5186918
+ },
+ {
+   "name": "THE POPLARS MEDICAL PRACTICE",
+   "address": "THE POPLARS MEDICAL CTR. 202 PARTINGTON LN,SWINTON MANCHESTER  M27 0NA",
+   "wd16nm": "Swinton North",
+   "lad16nm": "Salford",
+   "lon": -2.3416328,
+   "lat": 53.5106118
+ },
+ {
+   "name": "THE LAKES MEDICAL PRACTICE",
+   "address": "THE LAKES MEDICAL PRACT THE LAKES MEDICAL CTR 21 CHORLEY ROAD SWINTON MANCHESTER M27 4AF",
+   "wd16nm": "Swinton South",
+   "lad16nm": "Salford",
+   "lon": -2.3327178,
+   "lat": 53.5082495
+ },
+ {
+   "name": "THE GILL MEDICAL PRACTICE",
+   "address": "THE GILL MEDICAL CENTRE 5 HARRIET STREET WALKDEN, WORSLEY MANCHESTER M28 3DR",
+   "wd16nm": "Walkden North",
+   "lad16nm": "Salford",
+   "lon": -2.3984479,
+   "lat": 53.5243031
+ },
+ {
+   "name": "DR LOOMBA AND PARTNERS",
+   "address": "1ST FL WALKDEN GATEWAY 2 SMITH STREET WALKDEN MANCHESTER M28 3EZ",
+   "wd16nm": "Walkden North",
+   "lad16nm": "Salford",
+   "lon": -2.3984519,
+   "lat": 53.5249372
+ },
+ {
+   "name": "DEARDEN AVENUE MEDICAL PRACTICE",
+   "address": "THE SURGERY 1A DEARDON AVENUE LITTLE HULTON MANCHESTER M38 9GH",
+   "wd16nm": "Walkden North",
+   "lad16nm": "Salford",
+   "lon": -2.4186399,
+   "lat": 53.5338433
+ },
+ {
+   "name": "MANCHESTER ROAD EAST MEDICAL PRACTICE",
+   "address": "152A MANCHESTER ROAD EAST LITTLE HULTON MANCHESTER  M38 9LQ",
+   "wd16nm": "Walkden North",
+   "lad16nm": "Salford",
+   "lon": -2.410134,
+   "lat": 53.5267611
+ },
+ {
+   "name": "WALKDEN MEDICAL PRACTICE",
+   "address": "THE WALKDEN MEDICAL CTR 2 HODGE ROAD, WALKDEN WORSLEY MANCHESTER M28 3AT",
+   "wd16nm": "Walkden South",
+   "lad16nm": "Salford",
+   "lon": -2.3976471,
+   "lat": 53.5233365
+ },
+ {
+   "name": "THE LIMES MEDICAL PRACTICE",
+   "address": "THE LIMES MEDICAL CENTRE 8-12 HODGE ROAD, WALKDEN WORSLEY MANCHESTER M28 3AT",
+   "wd16nm": "Walkden South",
+   "lad16nm": "Salford",
+   "lon": -2.3975484,
+   "lat": 53.5231311
+ },
+ {
+   "name": "ORIENT ROAD MEDICAL PRACTICE",
+   "address": "37 ORIENT ROAD  SALFORD  M6 8LE",
+   "wd16nm": "Weaste and Seedley",
+   "lad16nm": "Salford",
+   "lon": -2.3248199,
+   "lat": 53.494213
+ },
+ {
+   "name": "THE WILLOWS MEDICAL PRACTICE",
+   "address": "THE WILLOWS LORDS AVENUE SALFORD MANCHESTER M5 5JR",
+   "wd16nm": "Weaste and Seedley",
+   "lad16nm": "Salford",
+   "lon": -2.3089456,
+   "lat": 53.4849844
+ },
+ {
+   "name": "3/SPRINGFIELD HOUSE MEDICAL PRACTICE",
+   "address": "SPRINGFIELD MEDICAL CTR 384 LIVERPOOL RD, ECCLES MANCHESTER  M30 8QD",
+   "wd16nm": "Winton",
+   "lad16nm": "Salford",
+   "lon": -2.3616508,
+   "lat": 53.4805712
+ },
+ {
+   "name": "THE SIDES MEDICAL PRACTICE",
+   "address": "THE SIDES MEDICAL CENTRE MOORSIDE ROAD SWINTON MANCHESTER M27 0EW",
+   "wd16nm": "Worsley",
+   "lad16nm": "Salford",
+   "lon": -2.3544094,
+   "lat": 53.5048025
+ },
+ {
+   "name": "BRAMHALL PARK MEDICAL CTR",
+   "address": "BRAMHALL PARK MEDICAL CTR 235 BRAMHALL LANE SOUTH BRAMHALL STOCKPORT SK7 3EP",
+   "wd16nm": "Bramhall North",
+   "lad16nm": "Stockport",
+   "lon": -2.1617658,
+   "lat": 53.3769259
+ },
+ {
+   "name": "BRAMHALL HEALTH CENTRE",
+   "address": "BRAMHALL HEALTH CENTRE 66 BRAMHALL LANE SOUTH BRAMHALL, STOCKPORT CHESHIRE SK7 2DY",
+   "wd16nm": "Bramhall South and Woodford",
+   "lad16nm": "Stockport",
+   "lon": -2.1632462,
+   "lat": 53.3601215
+ },
+ {
+   "name": "THE VILLAGE SURGERY",
+   "address": "THE VILLAGE SURGERY 31 BRAMHALL LANE SOUTH BRAMHALL STOCKPORT,CHESHIRE SK7 2DN",
+   "wd16nm": "Bramhall South and Woodford",
+   "lad16nm": "Stockport",
+   "lon": -2.1650996,
+   "lat": 53.3591825
+ },
+ {
+   "name": "WOODLEY VILLAGE SURGERY",
+   "address": "WOODLEY HEALTH CENTRE HYDE ROAD, WOODLEY STOCKPORT CHESHIRE SK6 1ND",
+   "wd16nm": "Bredbury and Woodley",
+   "lad16nm": "Stockport",
+   "lon": -2.0996575,
+   "lat": 53.4261879
+ },
+ {
+   "name": "ALVANLEY FAMILY PRACTICE",
+   "address": "WOODLEY HEALTH CENTRE HYDE ROAD, WOODLEY STOCKPORT CHESHIRE SK6 1ND",
+   "wd16nm": "Bredbury and Woodley",
+   "lad16nm": "Stockport",
+   "lon": -2.0996575,
+   "lat": 53.4261879
+ },
+ {
+   "name": "BREDBURY MEDICAL CENTRE",
+   "address": "BREDBURY MEDICAL CENTRE 1 AUBURN AVENUE BREDBURY STOCKPORT,CHESHIRE SK6 2AH",
+   "wd16nm": "Bredbury and Woodley",
+   "lad16nm": "Stockport",
+   "lon": -2.114039,
+   "lat": 53.422924
+ },
+ {
+   "name": "BL MEDICAL PRACTICE",
+   "address": "WOODLEY HEALTH CENTRE HYDE ROAD, WOODLEY STOCKPORT CHESHIRE SK6 1ND",
+   "wd16nm": "Bredbury and Woodley",
+   "lad16nm": "Stockport",
+   "lon": -2.0996575,
+   "lat": 53.4261879
+ },
+ {
+   "name": "ARCHWOOD MEDICAL PRACTICE",
+   "address": "WOODLEY HEALTH CENTRE HYDE ROAD STOCKPORT CHESHIRE SK6 1ND",
+   "wd16nm": "Bredbury and Woodley",
+   "lad16nm": "Stockport",
+   "lon": -2.0996575,
+   "lat": 53.4261879
+ },
+ {
+   "name": "CHADSFIELD MEDICAL PRACTICE",
+   "address": "THE ROMILEY HEALTH CENTRE CHICHESTER ROAD ROMILEY,STOCKPORT CHESHIRE SK6 4QR",
+   "wd16nm": "Bredbury Green and Romiley",
+   "lad16nm": "Stockport",
+   "lon": -2.089954,
+   "lat": 53.415016
+ },
+ {
+   "name": "THE GUYWOOD PRACTICE",
+   "address": "THE GUYWOOD PRACTICE ROMILEY HEALTH CENTRE CHICHESTER ROAD ROMILEY,STOCKPORT SK6 4QR",
+   "wd16nm": "Bredbury Green and Romiley",
+   "lad16nm": "Stockport",
+   "lon": -2.089497,
+   "lat": 53.415153
+ },
+ {
+   "name": "BRINNINGTON SURGERY",
+   "address": "BRINNINGTON HEALTH CENTRE BRINNINGTON ROAD BRINNINGTON,STOCKPORT CHESHIRE SK5 8BS",
+   "wd16nm": "Brinnington and Central",
+   "lad16nm": "Stockport",
+   "lon": -2.1316086,
+   "lat": 53.4280507
+ },
+ {
+   "name": "THE SURGERY 1",
+   "address": "30 BRINNINGTON ROAD BRINNINGTON STOCKPORT CHESHIRE SK1 2EX",
+   "wd16nm": "Brinnington and Central",
+   "lad16nm": "Stockport",
+   "lon": -2.1435561,
+   "lat": 53.4180422
+ },
+ {
+   "name": "VERNON PARK SURGERY",
+   "address": "VERNON PARK SURGERY 32 BRINNINGTON ROAD STOCKPORT CHESHIRE SK1 2EX",
+   "wd16nm": "Brinnington and Central",
+   "lad16nm": "Stockport",
+   "lon": -2.1434924,
+   "lat": 53.4180936
+ },
+ {
+   "name": "CHEADLE MEDICAL PRACTICE",
+   "address": "CHEADLE MEDICAL PRACTICE 1-5 ASHFIELD CRESCENT CHEADLE CHESHIRE SK8 1BH",
+   "wd16nm": "Cheadle and Gatley",
+   "lad16nm": "Stockport",
+   "lon": -2.2135047,
+   "lat": 53.3938205
+ },
+ {
+   "name": "GATLEY MEDICAL CENTRE",
+   "address": "GATLEY MEDICAL CENTRE OLD HALL ROAD, GATLEY CHEADLE CHESHIRE SK8 4DG",
+   "wd16nm": "Cheadle and Gatley",
+   "lad16nm": "Stockport",
+   "lon": -2.235377,
+   "lat": 53.3937821
+ },
+ {
+   "name": "ADSHALL ROAD MEDICAL PRAC",
+   "address": "ADSHALL ROAD MEDICAL PRAC 97 ADSHALL ROAD CHEADLE CHESHIRE SK8 2JN",
+   "wd16nm": "Cheadle Hulme North",
+   "lad16nm": "Stockport",
+   "lon": -2.1929817,
+   "lat": 53.3901924
+ },
+ {
+   "name": "CHEADLE HULME HEALTH CTR 2",
+   "address": "CHEADLE HULME HEALTH CTR SMITHY GREEN HULME HALL ROAD CHEADLE HULME,CHESHIRE SK8 6LU",
+   "wd16nm": "Cheadle Hulme South",
+   "lad16nm": "Stockport",
+   "lon": -2.1913677,
+   "lat": 53.3665109
+ },
+ {
+   "name": "HULME HALL MEDICAL GROUP",
+   "address": "CHEADLE HULME HEALTH CTR SMITHY GREEN CHEADLE HULME CHESHIRE SK8 6LU",
+   "wd16nm": "Cheadle Hulme South",
+   "lad16nm": "Stockport",
+   "lon": -2.1913677,
+   "lat": 53.3665109
+ },
+ {
+   "name": "CALE GREEN SURGERY",
+   "address": "CALE GREEN SURGERY 20 MEYER ST, CALE GREEN STOCKPORT CHESHIRE SK3 8JE",
+   "wd16nm": "Davenport and Cale Green",
+   "lad16nm": "Stockport",
+   "lon": -2.1583208,
+   "lat": 53.3971525
+ },
+ {
+   "name": "ADSWOOD ROAD SURGERY",
+   "address": "ADSWOOD ROAD SURGERY 270 ADSWOOD ROAD, ADSWOOD STOCKPORT CHESHIRE SK3 8PN",
+   "wd16nm": "Davenport and Cale Green",
+   "lad16nm": "Stockport",
+   "lon": -2.1695996,
+   "lat": 53.3888162
+ },
+ {
+   "name": "DR H LLOYD'S PRACTICE",
+   "address": "CEDAR HOUSE 82 BRAMHALL LANE DAVENPORT STOCKPORT SK2 6JG",
+   "wd16nm": "Davenport and Cale Green",
+   "lad16nm": "Stockport",
+   "lon": -2.1531611,
+   "lat": 53.3939971
+ },
+ {
+   "name": "STOCKPORT MEDICAL GROUP",
+   "address": "STOCKPORT MEDICAL GROUP 1-3 AVONDALE RD, EDGELEY STOCKPORT CHESHIRE SK3 9NX",
+   "wd16nm": "Edgeley and Cheadle Heath",
+   "lad16nm": "Stockport",
+   "lon": -2.1767768,
+   "lat": 53.4031113
+ },
+ {
+   "name": "BEECH HOUSE MEDICAL PRACT",
+   "address": "BEECH HOUSE MEDICAL PRACT BEECH AVENUE HAZEL GROVE STOCKPORT,CHESHIRE SK7 4QR",
+   "wd16nm": "Hazel Grove",
+   "lad16nm": "Stockport",
+   "lon": -2.118202,
+   "lat": 53.379469
+ },
+ {
+   "name": "SPRINGFIELD SURGERY",
+   "address": "SPRINGFIELD SURGERY 24-28 COMMERCIAL ROAD HAZEL GROVE STOCKPORT,CHESHIRE SK7 4AA",
+   "wd16nm": "Hazel Grove",
+   "lad16nm": "Stockport",
+   "lon": -2.1221791,
+   "lat": 53.3824164
+ },
+ {
+   "name": "HEALD GREEN HEALTH CENTRE 2",
+   "address": "HEALD GREEN HEALTH CENTRE FINNEY LANE,HEALD GREEN CHEADLE CHESHIRE SK8 3JD",
+   "wd16nm": "Heald Green",
+   "lad16nm": "Stockport",
+   "lon": -2.2291448,
+   "lat": 53.3698837
+ },
+ {
+   "name": "HEALD GREEN HEALTH CENTRE 1",
+   "address": "HEALD GREEN HEALTH CENTRE FINNEY LANE, HEALD GREEN CHEADLE CHESHIRE SK8 3JD",
+   "wd16nm": "Heald Green",
+   "lad16nm": "Stockport",
+   "lon": -2.2291448,
+   "lat": 53.3698837
+ },
+ {
+   "name": "HEATON MOOR MEDICAL GROUP",
+   "address": "HEATON MOOR MEDICAL GROUP 32 HEATON MOOR ROAD STOCKPORT CHESHIRE SK4 4NX",
+   "wd16nm": "Heatons North",
+   "lad16nm": "Stockport",
+   "lon": -2.1800467,
+   "lat": 53.4249318
+ },
+ {
+   "name": "EASTHOLME SURGERY",
+   "address": "32 HEATON MOOR ROAD HEATON MOOR STOCKPORT  SK4 4NX",
+   "wd16nm": "Heatons North",
+   "lad16nm": "Stockport",
+   "lon": -2.1800467,
+   "lat": 53.4249318
+ },
+ {
+   "name": "HEATON MERSEY MED.PRACT.",
+   "address": "HEATON MERSEY MED.PRACT. 460 DIDSBURY ROAD HEATON MERSEY STOCKPORT,CHESHIRE SK4 3BT",
+   "wd16nm": "Heatons South",
+   "lad16nm": "Stockport",
+   "lon": -2.2022448,
+   "lat": 53.4129177
+ },
+ {
+   "name": "MANOR MEDICAL PRACTICE",
+   "address": "OFFERTON HEALTH CENTRE 10 OFFERTON LANE OFFERTON STOCKPORT,CHESHIRE SK2 5AR",
+   "wd16nm": "Manor",
+   "lad16nm": "Stockport",
+   "lon": -2.1367886,
+   "lat": 53.4036052
+ },
+ {
+   "name": "CARITAS GENERAL PRACTICE PARTNERSHIP",
+   "address": "131 MILE END LANE MILE END STOCKPORT CHESHIRE SK2 6BZ",
+   "wd16nm": "Manor",
+   "lad16nm": "Stockport",
+   "lon": -2.1344544,
+   "lat": 53.3958773
+ },
+ {
+   "name": "BRACONDALE MEDICAL CENTRE",
+   "address": "BRACONDALE MEDICAL CENTRE 141 BUXTON ROAD, HEAVILEY STOCKPORT CHESHIRE SK2 6EQ",
+   "wd16nm": "Manor",
+   "lad16nm": "Stockport",
+   "lon": -2.1470983,
+   "lat": 53.394287
+ },
+ {
+   "name": "MARPLE BRIDGE SURGERY",
+   "address": "MARPLE BRIDGE SURGERY TOWN ST, MARPLE BRIDGE STOCKPORT CHESHIRE SK6 5AA",
+   "wd16nm": "Marple North",
+   "lad16nm": "Stockport",
+   "lon": -2.0532911,
+   "lat": 53.4002249
+ },
+ {
+   "name": "MARPLE MEDICAL PRACTICE",
+   "address": "MARPLE MEDICAL PRACTICE 50 STOCKPORT RD, MARPLE STOCKPORT CHESHIRE SK6 6AB",
+   "wd16nm": "Marple North",
+   "lad16nm": "Stockport",
+   "lon": -2.0656476,
+   "lat": 53.3950644
+ },
+ {
+   "name": "MARPLE COTTAGE SURGERY",
+   "address": "MARPLE COTTAGE SURGERY 50 CHURCH ST, MARPLE STOCKPORT CHESHIRE SK6 6BW",
+   "wd16nm": "Marple South",
+   "lad16nm": "Stockport",
+   "lon": -2.0612257,
+   "lat": 53.3923659
+ },
+ {
+   "name": "HIGH LANE MEDICAL CENTRE",
+   "address": "HIGH LANE MEDICAL CENTRE THE VILLAGE GREEN HIGH LANE,STOCKPORT CHESHIRE SK6 8DR",
+   "wd16nm": "Marple South",
+   "lad16nm": "Stockport",
+   "lon": -2.0753383,
+   "lat": 53.3649962
+ },
+ {
+   "name": "FAMILY SURGERY",
+   "address": "THE FAMILY SURGERY 306 GORTON RD,REDDISH STOCKPORT CHESHIRE SK5 6RN",
+   "wd16nm": "Reddish North",
+   "lad16nm": "Stockport",
+   "lon": -2.1571234,
+   "lat": 53.4461535
+ },
+ {
+   "name": "PARK VIEW GROUP PRACTICE",
+   "address": "PARK VIEW GROUP PRACTICE 2 LONGFORD RD WST,REDDISH STOCKPORT CHESHIRE SK5 6ET",
+   "wd16nm": "Reddish North",
+   "lad16nm": "Stockport",
+   "lon": -2.1583867,
+   "lat": 53.4457456
+ },
+ {
+   "name": "HEATON NORRIS HEALTH CTR. 1",
+   "address": "HEATON NORRIS HEALTH CTR. CHEVIOT CL, HEATON NORRIS STOCKPORT CHESHIRE SK4 1JX",
+   "wd16nm": "Reddish South",
+   "lad16nm": "Stockport",
+   "lon": -2.1674296,
+   "lat": 53.4165836
+ },
+ {
+   "name": "SOUTH REDDISH MEDICAL CTR 2",
+   "address": "SOUTH REDDISH MEDICAL CTR REDDISH ROAD SOUTH REDDISH STOCKPORT,CHESHIRE SK5 7QU",
+   "wd16nm": "Reddish South",
+   "lad16nm": "Stockport",
+   "lon": -2.1570016,
+   "lat": 53.4223836
+ },
+ {
+   "name": "GORDON STREET MEDICAL CENTRE",
+   "address": "GORDON STREET MED.CTR. 171 MOSSLEY ROAD ASHTON-UNDER-LYNE LANCASHIRE OL6 6NE",
+   "wd16nm": "Ashton St Michael's",
+   "lad16nm": "Tameside",
+   "lon": -2.0784198,
+   "lat": 53.4928013
+ },
+ {
+   "name": "STAMFORD HOUSE",
+   "address": "STAMFORD HOUSE 2 PRINCESS STREET ASHTON-UNDER-LYNE LANCASHIRE OL6 9QH",
+   "wd16nm": "Ashton St Michael's",
+   "lad16nm": "Tameside",
+   "lon": -2.0781872,
+   "lat": 53.4931914
+ },
+ {
+   "name": "WATERLOO MEDICAL CENTRE",
+   "address": "WATERLOO MEDICAL CENTRE 1 DUNKERLEY STREET ASHTON-UNDER-LYNE LANCASHIRE OL7 9EJ",
+   "wd16nm": "Ashton Waterloo",
+   "lad16nm": "Tameside",
+   "lon": -2.1038781,
+   "lat": 53.4987918
+ },
+ {
+   "name": "DENTON MEDICAL PRACTICE",
+   "address": "DENTON MEDICAL PRACTICE 100 ASHTON RD, DENTON MANCHESTER LANCASHIRE M34 3JE",
+   "wd16nm": "Denton North East",
+   "lad16nm": "Tameside",
+   "lon": -2.1154455,
+   "lat": 53.459607
+ },
+ {
+   "name": "MILLGATE HEALTHCARE PARTNERSHIP",
+   "address": "ANN STREET DENTON MANCHESTER  M34 2AJ",
+   "wd16nm": "Denton West",
+   "lad16nm": "Tameside",
+   "lon": -2.1180565,
+   "lat": 53.455563
+ },
+ {
+   "name": "MEDLOCK VALE MEDICAL PRACTICE",
+   "address": "MEDLOCK VALE MED. PRACT. 58 ASHTON RD, DROYLSDEN MANCHESTER LANCASHIRE M43 7BW",
+   "wd16nm": "Droylsden East",
+   "lad16nm": "Tameside",
+   "lon": -2.1424296,
+   "lat": 53.4791954
+ },
+ {
+   "name": "MARKET STREET MEDICAL PRACTICE",
+   "address": "76 MARKET STREET DROYLSDEN MANCHESTER  M43 6DE",
+   "wd16nm": "Droylsden East",
+   "lad16nm": "Tameside",
+   "lon": -2.145759,
+   "lat": 53.4786879
+ },
+ {
+   "name": "DROYLSDEN MEDICAL PRACTICE",
+   "address": "1-3 ALBION DRIVE DROYLSDEN MANCHESTER LANCASHIRE M43 7NP",
+   "wd16nm": "Droylsden West",
+   "lad16nm": "Tameside",
+   "lon": -2.1465144,
+   "lat": 53.4871947
+ },
+ {
+   "name": "DAVAAR MEDICAL CENTRE",
+   "address": "DAVAAR MEDICAL CENTRE 20-22 CONCORD WAY DUKINFIELD CHESHIRE SK16 4DB",
+   "wd16nm": "Dukinfield",
+   "lad16nm": "Tameside",
+   "lon": -2.0833106,
+   "lat": 53.4765843
+ },
+ {
+   "name": "KING STREET MEDICAL CENTRE",
+   "address": "KING STREET MEDICAL CTR. 96-98 KING STREET DUKINFIELD CHESHIRE SK16 4JZ",
+   "wd16nm": "Dukinfield",
+   "lad16nm": "Tameside",
+   "lon": -2.0932559,
+   "lat": 53.4790577
+ },
+ {
+   "name": "TOWN HALL SURGERY",
+   "address": "TOWN HALL SURGERY 112 KING STREET DUKINFIELD CHESHIRE SK16 4LD",
+   "wd16nm": "Dukinfield",
+   "lad16nm": "Tameside",
+   "lon": -2.0929495,
+   "lat": 53.4782971
+ },
+ {
+   "name": "GROSVENOR MEDICAL CENTRE",
+   "address": "GROSVENOR MEDICAL CENTRE 62 GROSVENOR STREET STALYBRIDGE CHESHIRE SK15 1RZ",
+   "wd16nm": "Dukinfield Stalybridge",
+   "lad16nm": "Tameside",
+   "lon": -2.0591626,
+   "lat": 53.4813602
+ },
+ {
+   "name": "THE BROOKE SURGERY",
+   "address": "THE BROOKE SURGERY 20 MARKET STREET HYDE CHESHIRE SK14 1AT",
+   "wd16nm": "Hyde Godley",
+   "lad16nm": "Tameside",
+   "lon": -2.0812358,
+   "lat": 53.4521035
+ },
+ {
+   "name": "CLARENDON MEDICAL CENTRE",
+   "address": "CLARENDON MEDICAL CENTRE CLARENDON STREET HYDE CHESHIRE SK14 2AQ",
+   "wd16nm": "Hyde Godley",
+   "lad16nm": "Tameside",
+   "lon": -2.0797375,
+   "lat": 53.4526288
+ },
+ {
+   "name": "DONNEYBROOK MEDICAL CENTRE",
+   "address": "DONNEYBROOK MEDICAL CTR DONNEYBROOK HOUSE CLARENDON STREET HYDE, CHESHIRE SK14 2AH",
+   "wd16nm": "Hyde Godley",
+   "lad16nm": "Tameside",
+   "lon": -2.0796289,
+   "lat": 53.4526295
+ },
+ {
+   "name": "HAUGHTON/THORNLEY MEDICAL CENTRES",
+   "address": "THORNLEY HOUSE MED/CTR THORNLEY STREET HYDE CHESHIRE SK14 1JY",
+   "wd16nm": "Hyde Werneth",
+   "lad16nm": "Tameside",
+   "lon": -2.075947,
+   "lat": 53.446906
+ },
+ {
+   "name": "AWBURN HOUSE MEDICAL PRACTICE",
+   "address": "MOTTRAM MOOR MOTTRAM IN LONGDENDALE HYDE CHESHIRE SK14 6LA",
+   "wd16nm": "Longdendale",
+   "lad16nm": "Tameside",
+   "lon": -2.0107484,
+   "lat": 53.4583191
+ },
+ {
+   "name": "HATTERSLEY GROUP PRACTICE",
+   "address": "HATTERSLEY HEALTH CENTRE HATTERSLEY ROAD EAST HATTERSLEY,HYDE CHESHIRE SK14 3EH",
+   "wd16nm": "Longdendale",
+   "lad16nm": "Tameside",
+   "lon": -2.0274576,
+   "lat": 53.4501534
+ },
+ {
+   "name": "THE SMITHY SURGERY",
+   "address": "THE SMITHY SURGERY 4 MARKET STREET HOLLINGWORTH,VIA HYDE CHESHIRE SK14 8LN",
+   "wd16nm": "Longdendale",
+   "lad16nm": "Tameside",
+   "lon": -1.9958375,
+   "lat": 53.4611026
+ },
+ {
+   "name": "PENNINE MEDICAL CENTRE",
+   "address": "PENNINE MEDICAL CENTRE 193 MANCHESTER RD,MOSSLEY ASHTON-UNDER-LYNE LANCASHIRE OL5 9AJ",
+   "wd16nm": "Mossley",
+   "lad16nm": "Tameside",
+   "lon": -2.0407885,
+   "lat": 53.5147864
+ },
+ {
+   "name": "MOSSLEY MEDICAL PRACTICE",
+   "address": "MOSSLEY MEDICAL PRACTICE 187 MANCHESTER RD,MOSSLEY ASHTON-UNDER-LYNE LANCASHIRE OL5 9AB",
+   "wd16nm": "Mossley",
+   "lad16nm": "Tameside",
+   "lon": -2.0408384,
+   "lat": 53.5144566
+ },
+ {
+   "name": "PIKE MEDICAL PRACTICE",
+   "address": "THE PIKE MED CTR MARKET PLACE, MOSSLEY ASHTON-UNDER-LYNE LANCASHIRE OL5 0HE",
+   "wd16nm": "Mossley",
+   "lad16nm": "Tameside",
+   "lon": -2.0457559,
+   "lat": 53.5178069
+ },
+ {
+   "name": "ALBION MEDICAL PRACTICE",
+   "address": "ALBION MEDICAL PRACTICE 1 ALBION STREET ASHTON-UNDER-LYNE LANCASHIRE OL6 6HF",
+   "wd16nm": "St Peter's",
+   "lad16nm": "Tameside",
+   "lon": -2.0885016,
+   "lat": 53.4895002
+ },
+ {
+   "name": "BEDFORD HOUSE MEDICAL CENTRE",
+   "address": "BEDFORD HOUSE MEDICAL CTR GLEBE STREET ASHTON-UNDER-LYNE LANCASHIRE OL6 6HD",
+   "wd16nm": "St Peter's",
+   "lad16nm": "Tameside",
+   "lon": -2.0889636,
+   "lat": 53.4892617
+ },
+ {
+   "name": "CHAPEL STREET MEDICAL CENTRE",
+   "address": "CHAPEL STREET MEDICAL CTR CHAPEL STREET ASHTON-UNDER-LYNE LANCASHIRE OL6 6EW",
+   "wd16nm": "St Peter's",
+   "lad16nm": "Tameside",
+   "lon": -2.088859,
+   "lat": 53.4896221
+ },
+ {
+   "name": "HT PRACTICE",
+   "address": "HT PRACTICE, ASHTON PCC 193 OLD STREET ASHTON-UNDER-LYNE LANCASHIRE OL6 7SR",
+   "wd16nm": "St Peter's",
+   "lad16nm": "Tameside",
+   "lon": -2.0991665,
+   "lat": 53.4861854
+ },
+ {
+   "name": "WEST END MEDICAL CENTRE",
+   "address": "WEST END MEDICAL CENTRE 98-102 STOCKPORT ROAD ASHTON-UNDER-LYNE LANCASHIRE OL7 0LH",
+   "wd16nm": "St Peter's",
+   "lad16nm": "Tameside",
+   "lon": -2.1076738,
+   "lat": 53.4808354
+ },
+ {
+   "name": "TAME VALLEY MEDICAL CENTRE",
+   "address": "TAME VALLEY MEDICAL CTR. GLEBE STREET ASHTON-UNDER-LYNE LANCASHIRE OL6 6HD",
+   "wd16nm": "St Peter's",
+   "lad16nm": "Tameside",
+   "lon": -2.0892634,
+   "lat": 53.4893776
+ },
+ {
+   "name": "ASHTON GP SERVICE",
+   "address": "ASHTON PRIMARY CARE CTR. OLD STREET,ST PETERSFIELD ASHTON UNDER LYNE LANCASHIRE OL6 7SR",
+   "wd16nm": "St Peter's",
+   "lad16nm": "Tameside",
+   "lon": -2.0991665,
+   "lat": 53.4861854
+ },
+ {
+   "name": "GUIDE BRIDGE MEDICAL PRACTICE",
+   "address": "GUIDE LANE AUDENSHAW MANCHESTER LANCASHIRE M34 5HY",
+   "wd16nm": "St Peter's",
+   "lad16nm": "Tameside",
+   "lon": -2.1131811,
+   "lat": 53.471556
+ },
+ {
+   "name": "STAVELEIGH MEDICAL CENTRE",
+   "address": "STAVELEIGH MEDICAL CENTRE KING STREET STALYBRIDGE CHESHIRE SK15 2AE",
+   "wd16nm": "Stalybridge North",
+   "lad16nm": "Tameside",
+   "lon": -2.0581754,
+   "lat": 53.4845711
+ },
+ {
+   "name": "ST.ANDREW'S HOUSE SURGERY",
+   "address": "STALYBRIDGE RESOURCE CTR THE OLD SCH,2 WATERLOO RD STALYBRIDGE  SK15 2AU",
+   "wd16nm": "Stalybridge North",
+   "lad16nm": "Tameside",
+   "lon": -2.0571336,
+   "lat": 53.4842244
+ },
+ {
+   "name": "LOCKSIDE MEDICAL CENTRE",
+   "address": "LOCKSIDE MEDICAL CENTRE 85 HUDDERSFIELD ROAD STALYBRIDGE CHESHIRE SK15 2PT",
+   "wd16nm": "Stalybridge South",
+   "lad16nm": "Tameside",
+   "lon": -2.0468258,
+   "lat": 53.4851639
+ },
+ {
+   "name": "MILLBROOK MEDICAL PRACTICE",
+   "address": "HOLLYBANK OFF GROVE ROAD STALYBRIDGE CHESHIRE SK15 3BJ",
+   "wd16nm": "Stalybridge South",
+   "lad16nm": "Tameside",
+   "lon": -2.0345889,
+   "lat": 53.4925549
+ },
+ {
+   "name": "ALTRINCHAM MEDICAL PRACTICE",
+   "address": "ALTRINCHAM MEDICAL PRACT LLOYD HOUSE, 7 LLOYD ST. ALTRINCHAM CHESHIRE WA14 2DD",
+   "wd16nm": "Altrincham",
+   "lad16nm": "Trafford",
+   "lon": -2.3501575,
+   "lat": 53.3844463
+ },
+ {
+   "name": "BARRINGTON MEDICAL CENTRE",
+   "address": "BARRINGTON MEDICAL CENTRE 68 BARRINGTON ROAD ALTRINCHAM CHESHIRE WA14 1JB",
+   "wd16nm": "Altrincham",
+   "lad16nm": "Trafford",
+   "lon": -2.3501568,
+   "lat": 53.3951415
+ },
+ {
+   "name": "FAMILY SURGERY",
+   "address": "THE SURGERY 94 NAVIGATION ROAD ALTRINCHAN CHESHIRE WA14 1LL",
+   "wd16nm": "Altrincham",
+   "lad16nm": "Trafford",
+   "lon": -2.3459453,
+   "lat": 53.3963506
+ },
+ {
+   "name": "ST. JOHNS MEDICAL CENTRE",
+   "address": "ST.JOHNS MEDICAL CENTRE ST.JOHNS ROAD ALTRINCHAM CHESHIRE WA14 2NW",
+   "wd16nm": "Bowdon",
+   "lad16nm": "Trafford",
+   "lon": -2.3538081,
+   "lat": 53.3827763
+ },
+ {
+   "name": "WEST TIMPERLEY MEDICAL CENTRE",
+   "address": "WEST TIMPERLEY MED. CTR. 21 DAWSON ROAD WEST TIMPERLEY ALTRINCHAM, CHESHIRE WA14 5PF",
+   "wd16nm": "Broadheath",
+   "lad16nm": "Trafford",
+   "lon": -2.352858,
+   "lat": 53.402609
+ },
+ {
+   "name": "DERBYSHIRE ROAD SOUTH SURGERY",
+   "address": "THE SURGERY 12 DERBYSHIRE ROAD SOUTH SALE CHESHIRE M33 3JP",
+   "wd16nm": "Brooklands",
+   "lad16nm": "Trafford",
+   "lon": -2.3101234,
+   "lat": 53.4169638
+ },
+ {
+   "name": "CONWAY ROAD MEDICAL PRACTICE",
+   "address": "CONWAY ROAD MED PRACTICE 80A CONWAY ROAD SALE CHESHIRE M33 2TB",
+   "wd16nm": "Brooklands",
+   "lad16nm": "Trafford",
+   "lon": -2.3040497,
+   "lat": 53.4166254
+ },
+ {
+   "name": "BODMIN ROAD HEALTH CENTRE",
+   "address": "BODMIN ROAD HEALTH CENTRE BODMIN ROAD SALE CHESHIRE M33 5JH",
+   "wd16nm": "Bucklow-St Martins",
+   "lad16nm": "Trafford",
+   "lon": -2.352111,
+   "lat": 53.427414
+ },
+ {
+   "name": "PARTINGTON CENTRAL SURGERY",
+   "address": "PARTINGTON CENTRAL SURG PARTINGTON HEALTH CENTRE CENTRAL ROAD, PARTINGTON MANCHESTER M31 4FY",
+   "wd16nm": "Bucklow-St Martins",
+   "lad16nm": "Trafford",
+   "lon": -2.4250542,
+   "lat": 53.4175711
+ },
+ {
+   "name": "PARTINGTON FAMILY PRACTICE",
+   "address": "PARTINGTON HEALTH CENTRE CENTRAL ROAD PARTINGTON MANCHESTER M31 4FL",
+   "wd16nm": "Bucklow-St Martins",
+   "lad16nm": "Trafford",
+   "lon": -2.4257095,
+   "lat": 53.4172106
+ },
+ {
+   "name": "BROOKS BAR MEDICAL CENTRE",
+   "address": "THE BROOKS BAR MED.CTR. 162-164 CHORLTON ROAD OLD TRAFFORD MANCHESTER M16 7WW",
+   "wd16nm": "Clifford",
+   "lad16nm": "Trafford",
+   "lon": -2.2585182,
+   "lat": 53.4594313
+ },
+ {
+   "name": "PRIMROSE SURGERY",
+   "address": "59 OLD CROFTS BANK ROAD URMSTON MANCHESTER  M41 7AB",
+   "wd16nm": "Davyhulme East",
+   "lad16nm": "Trafford",
+   "lon": -2.3579427,
+   "lat": 53.4562384
+ },
+ {
+   "name": "URMSTON GROUP PRACTICE",
+   "address": "6 WOODSEND CRESCENT ROAD URMSTON MANCHESTER  M41 8AA",
+   "wd16nm": "Davyhulme West",
+   "lad16nm": "Trafford",
+   "lon": -2.3957316,
+   "lat": 53.4511084
+ },
+ {
+   "name": "DAVYHULME MEDICAL CENTRE",
+   "address": "130 BROADWAY DAVYHULME,URMSTON MANCHESTER  M41 7WJ",
+   "wd16nm": "Davyhulme West",
+   "lad16nm": "Trafford",
+   "lon": -2.3677736,
+   "lat": 53.4593293
+ },
+ {
+   "name": "TRAFFORD HEALTH CENTRE",
+   "address": "TRAFFORD HEALTH CENTRE TRAFFORD GH,MOORSIDE ROAD DAVYHULME MANCHESTER M41 5SL",
+   "wd16nm": "Davyhulme West",
+   "lad16nm": "Trafford",
+   "lon": -2.369109,
+   "lat": 53.452812
+ },
+ {
+   "name": "GORSE HILL MEDICAL CENTRE",
+   "address": "GORSE HILL MEDICAL CTR 879 CHESTER ROAD STRETFORD MANCHESTER M32 0RN",
+   "wd16nm": "Gorse Hill",
+   "lad16nm": "Trafford",
+   "lon": -2.2972877,
+   "lat": 53.4553463
+ },
+ {
+   "name": "LOSTOCK MEDICAL CENTRE",
+   "address": "431 BARTON ROAD STRETFORD MANCHESTER  M32 9PA",
+   "wd16nm": "Gorse Hill",
+   "lad16nm": "Trafford",
+   "lon": -2.3297082,
+   "lat": 53.4550907
+ },
+ {
+   "name": "NORTH TRAFFORD GROUP PRACTICE",
+   "address": "NORTH TRAFFORD GROUP PRAC 864/866 CHESTER ROAD STRETFORD MANCHESTER M32 0PA",
+   "wd16nm": "Gorse Hill",
+   "lad16nm": "Trafford",
+   "lon": -2.2984647,
+   "lat": 53.4547328
+ },
+ {
+   "name": "SHAY LANE MEDICAL CENTRE (KELMAN)",
+   "address": "SHAY LANE MEDICAL CENTRE SHAY LANE, HALE BARNS ALTRINCHAM CHESHIRE WA15 8NZ",
+   "wd16nm": "Hale Barns",
+   "lad16nm": "Trafford",
+   "lon": -2.3158543,
+   "lat": 53.3718857
+ },
+ {
+   "name": "SHAY LANE MEDICAL CENTRE (PATEL)",
+   "address": "SHAY LANE MEDICAL CENTRE SHAY LANE, HALE BARNS ALTRINCHAM CHESHIRE WA15 8NZ",
+   "wd16nm": "Hale Barns",
+   "lad16nm": "Trafford",
+   "lon": -2.3158543,
+   "lat": 53.3718857
+ },
+ {
+   "name": "OLD TRAFFORD MEDICAL PRACTICE",
+   "address": "SEYMOUR GROVE HEALTH CTR. 70 SEYMOUR GROVE OLD TRAFFORD MANCHESTER M16 0LW",
+   "wd16nm": "Longford",
+   "lad16nm": "Trafford",
+   "lon": -2.2754843,
+   "lat": 53.4580146
+ },
+ {
+   "name": "WASHWAY ROAD MEDICAL CENTRE",
+   "address": "WASHWAY ROAD MEDICAL CTR. 67 WASHWAY ROAD SALE CHESHIRE M33 7SS",
+   "wd16nm": "Priory",
+   "lad16nm": "Trafford",
+   "lon": -2.3282678,
+   "lat": 53.4225609
+ },
+ {
+   "name": "FIRSWAY HEALTH CENTRE",
+   "address": "121 FIRSWAY SALE CHESHIRE  M33 4BR",
+   "wd16nm": "St Mary's",
+   "lad16nm": "Trafford",
+   "lon": -2.3552839,
+   "lat": 53.4214185
+ },
+ {
+   "name": "BOUNDARY HOUSE MEDICAL CENTRE",
+   "address": "BOUNDARY HOUSE 462 NORTHENDEN ROAD SALE CHESHIRE M33 2RH",
+   "wd16nm": "Sale Moor",
+   "lad16nm": "Trafford",
+   "lon": -2.2886659,
+   "lat": 53.4157093
+ },
+ {
+   "name": "DELAMERE MEDICAL PRACTICE",
+   "address": "THE DELAMERE MED PRACT DELAMERE AVENUE STRETFORD MANCHESTER M32 0DF",
+   "wd16nm": "Stretford",
+   "lad16nm": "Trafford",
+   "lon": -2.307131,
+   "lat": 53.450096
+ },
+ {
+   "name": "PARK MEDICAL PRACTICE",
+   "address": "PARK MEDICAL PRACTICE 119 PARK ROAD TIMPERLEY, ALTRINCHAM CHESHIRE WA15 6QQ",
+   "wd16nm": "Timperley",
+   "lad16nm": "Trafford",
+   "lon": -2.3290979,
+   "lat": 53.4017983
+ },
+ {
+   "name": "TIMPERLEY HEALTH CENTRE (WESTWOOD)",
+   "address": "TIMPERLEY HEALTH CENTRE 169 GROVE LANE TIMPERLEY, ALTRINCHAM CHESHIRE WA15 6PH",
+   "wd16nm": "Timperley",
+   "lad16nm": "Trafford",
+   "lon": -2.3244035,
+   "lat": 53.3971213
+ },
+ {
+   "name": "VILLAGE SURGERY",
+   "address": "THE VILLAGE SURGERY TIMPERLEY HEALTH CENTRE 169 GROVE LANE,TIMPERLEY CHESHIRE WA15 6PH",
+   "wd16nm": "Timperley",
+   "lad16nm": "Trafford",
+   "lon": -2.325267,
+   "lat": 53.397016
+ },
+ {
+   "name": "RIDDINGS FAMILY HEALTH CENTRE",
+   "address": "RIDDINGS FAMILY HLTH CTR 34 RIDDINGS ROAD TIMPERLEY, ALTRINCHAM CHESHIRE WA15 6BP",
+   "wd16nm": "Timperley",
+   "lad16nm": "Trafford",
+   "lon": -2.331227,
+   "lat": 53.404491
+ },
+ {
+   "name": "GROVE MEDICAL PRACTICE",
+   "address": "GROVE MEDICAL PRACTICE 169 GROVE LANE,TIMPERLEY ALTRINCHAM CHESHIRE WA15 6PH",
+   "wd16nm": "Timperley",
+   "lad16nm": "Trafford",
+   "lon": -2.324286,
+   "lat": 53.397279
+ },
+ {
+   "name": "FLIXTON ROAD MEDICAL CENTRE",
+   "address": "FLIXTON ROAD MEDICAL CTR 132 FLIXTON ROAD URMSTON MANCHESTER M41 5BG",
+   "wd16nm": "Urmston",
+   "lad16nm": "Trafford",
+   "lon": -2.3624752,
+   "lat": 53.4482625
+ },
+ {
+   "name": "GLOUCESTER HOUSE MEDICAL CENTRE",
+   "address": "GLOUCESTER HOUSE MED.CTR. 17 STATION ROAD, URMSTON MANCHESTER  M41 9JS",
+   "wd16nm": "Urmston",
+   "lad16nm": "Trafford",
+   "lon": -2.352632,
+   "lat": 53.4473161
+ },
+ {
+   "name": "DR AHMAD & PTNRS",
+   "address": "PLATT BRIDGE HEALTH CTR RIVINGTON AVENUE PLATT BRIDGE, WIGAN  WN2 5NG",
+   "wd16nm": "Abram",
+   "lad16nm": "Wigan",
+   "lon": -2.5942218,
+   "lat": 53.5225729
+ },
+ {
+   "name": "DR TRIVEDI",
+   "address": "429 WARRINGTON ROAD ABRAM WIGAN  WN2 5XB",
+   "wd16nm": "Abram",
+   "lad16nm": "Wigan",
+   "lon": -2.5923428,
+   "lat": 53.5067534
+ },
+ {
+   "name": "ULLAH M",
+   "address": "PLATT BRIDGE HC RIVINGTON AVENUE PLATT BRIDGE WIGAN WN2 5NG",
+   "wd16nm": "Abram",
+   "lad16nm": "Wigan",
+   "lon": -2.595925,
+   "lat": 53.52228
+ },
+ {
+   "name": "INTRAHEALTH PLATT BRIDGE",
+   "address": "PLATT BRIDGE HEALTH CTR RIVINGTON AVENUE PLATT BRIDGE WIGAN WN2 5NG",
+   "wd16nm": "Abram",
+   "lad16nm": "Wigan",
+   "lon": -2.5942218,
+   "lat": 53.5225729
+ },
+ {
+   "name": "DR ALISTAIR & PARTNERS",
+   "address": "ASHTON CLINIC,QUEENS RD ASHTON-IN-MAKERFIELD WIGAN  WN4 8LB",
+   "wd16nm": "Ashton",
+   "lad16nm": "Wigan",
+   "lon": -2.6390515,
+   "lat": 53.4906026
+ },
+ {
+   "name": "ASPULL SURGERY",
+   "address": "ASPULL SURGERY HAIGH ROAD, ASPULL WIGAN  WN2 1XH",
+   "wd16nm": "Aspull New Springs Whelley",
+   "lad16nm": "Wigan",
+   "lon": -2.5903031,
+   "lat": 53.5731847
+ },
+ {
+   "name": "SIVAKUMAR & PARTNER",
+   "address": "THE SURGERY 1 COLDALHURST LANE,ASTLEY TYLDESLEY MANCHESTER M29 7BS",
+   "wd16nm": "Astley Mosley Common",
+   "lad16nm": "Wigan",
+   "lon": -2.4560784,
+   "lat": 53.5010122
+ },
+ {
+   "name": "ASTLEY GENERAL PRACTICE",
+   "address": "ASTLEY GENERAL PRACTICE 391A MANCHESTER RD,ASTLEY MANCHESTER  M29 7BY",
+   "wd16nm": "Astley Mosley Common",
+   "lad16nm": "Wigan",
+   "lon": -2.4583457,
+   "lat": 53.5004543
+ },
+ {
+   "name": "KHATRI K",
+   "address": "THE SURGERY 10 HIGHER GREEN LANE ASTLEY, TYLDESLEY NR.MANCHESTER M29 7HG",
+   "wd16nm": "Astley Mosley Common",
+   "lad16nm": "Wigan",
+   "lon": -2.4478686,
+   "lat": 53.5012495
+ },
+ {
+   "name": "HATIKAKOTY N",
+   "address": "BEE FOLD MEDICAL CENTRE BEE FOLD LANE ATHERTON MANCHESTER M46 0BD",
+   "wd16nm": "Atherleigh",
+   "lad16nm": "Wigan",
+   "lon": -2.49884,
+   "lat": 53.5171522
+ },
+ {
+   "name": "DR CHAN",
+   "address": "SEVEN BROOKS MEDICAL CTR. 21 CHURCH ST, ATHERTON MANCHESTER  M46 9DE",
+   "wd16nm": "Atherton",
+   "lad16nm": "Wigan",
+   "lon": -2.4889742,
+   "lat": 53.5241523
+ },
+ {
+   "name": "DR S N SHARMA AND PARTNER",
+   "address": "ATHERTON HEALTH CENTRE NELSON STREET, ATHERTON MANCHESTER  M46 0LE",
+   "wd16nm": "Atherton",
+   "lad16nm": "Wigan",
+   "lon": -2.50081,
+   "lat": 53.5275747
+ },
+ {
+   "name": "MEADOWVIEW SURGERY",
+   "address": "ORMEROD HOUSE ATHERTON HEALTH CENTRE NELSON STREET ATHERTON, MANCHESTER M46 0LE",
+   "wd16nm": "Atherton",
+   "lad16nm": "Wigan",
+   "lon": -2.50081,
+   "lat": 53.5275747
+ },
+ {
+   "name": "DR VASANTH",
+   "address": "ATHERTON HEALTH CENTRE NELSON STREET, ATHERTON MANCHESTER  M46 0LE",
+   "wd16nm": "Atherton",
+   "lad16nm": "Wigan",
+   "lon": -2.50081,
+   "lat": 53.5275747
+ },
+ {
+   "name": "SEVEN BROOKS PRACTICE",
+   "address": "7 BROOKS MEDICAL CENTRE 21 CHURCH ST, ATHERTON MANCHESTER  M46 9DE",
+   "wd16nm": "Atherton",
+   "lad16nm": "Wigan",
+   "lon": -2.4889742,
+   "lat": 53.5241523
+ },
+ {
+   "name": "MEDICENTRE",
+   "address": "MEDICENTRE,185 WIGAN ROAD ASHTON-IN-MAKERFIELD NR. WIGAN  WN4 9SL",
+   "wd16nm": "Bryn",
+   "lad16nm": "Wigan",
+   "lon": -2.6427004,
+   "lat": 53.4936823
+ },
+ {
+   "name": "BRYN CROSS SURGERY",
+   "address": "246 WIGAN ROAD BRYN,ASHTON-IN-MAKERFIELD WIGAN GREATER MANCHESTER WN4 0AR",
+   "wd16nm": "Bryn",
+   "lad16nm": "Wigan",
+   "lon": -2.6381918,
+   "lat": 53.4987304
+ },
+ {
+   "name": "PITALIA S",
+   "address": "ASHTON MEDICAL CENTRE 120 WIGAN ROAD ASHTON-IN-MAKERFIELD NR.WIGAN WN4 9SU",
+   "wd16nm": "Bryn",
+   "lad16nm": "Wigan",
+   "lon": -2.6438833,
+   "lat": 53.4959698
+ },
+ {
+   "name": "PEMBERTON SURGERY",
+   "address": "PEMBERTON PCRC SHERWOOD DRIVE, PEMBERTON WIGAN  WN5 9QX",
+   "wd16nm": "Douglas",
+   "lad16nm": "Wigan",
+   "lon": -2.669591,
+   "lat": 53.5396874
+ },
+ {
+   "name": "DR D'ARIFAT & PTNRS",
+   "address": "NEWTOWN MEDICAL PRACTICE PEMBERTON PC RESOURCE CTR SHERWOOD DRIVE PEMBERTON WN5 9QX",
+   "wd16nm": "Douglas",
+   "lad16nm": "Wigan",
+   "lon": -2.6707962,
+   "lat": 53.5381639
+ },
+ {
+   "name": "DR ANIS & ANIS",
+   "address": "GOLBORNE HEALTH CENTRE KIDGLOVE ROAD GOLBORNE, WARRINGTON  WA3 3GS",
+   "wd16nm": "Golborne and Lowton West",
+   "lad16nm": "Wigan",
+   "lon": -2.5954815,
+   "lat": 53.4798917
+ },
+ {
+   "name": "DR PAL",
+   "address": "GOLBORNE HEALTH CENTRE KIDGLOVE ROAD GOLBORNE, WARRINGTON  WA3 3GS",
+   "wd16nm": "Golborne and Lowton West",
+   "lad16nm": "Wigan",
+   "lon": -2.5954815,
+   "lat": 53.4798917
+ },
+ {
+   "name": "SHAHBAZI SS",
+   "address": "GOLBORNE HEALTH CENTRE KIDGLOVE ROAD GOLBORNE  WA3 3GS",
+   "wd16nm": "Golborne and Lowton West",
+   "lad16nm": "Wigan",
+   "lon": -2.5954815,
+   "lat": 53.4798917
+ },
+ {
+   "name": "SLAG LANE MC",
+   "address": "SLAG LANE MEDICAL CENTRE 216 SLAG LANE, LOWTON NR.WARRINGTON CHESHIRE WA3 2EZ",
+   "wd16nm": "Golborne and Lowton West",
+   "lad16nm": "Wigan",
+   "lon": -2.5762714,
+   "lat": 53.4781354
+ },
+ {
+   "name": "DR TUN & PARTNERS",
+   "address": "HINDLEY HEALTH CENTRE 17 LIVERPOOL ROAD HINDLEY NR. WIGAN WN2 3HQ",
+   "wd16nm": "Hindley",
+   "lad16nm": "Wigan",
+   "lon": -2.5821961,
+   "lat": 53.5327615
+ },
+ {
+   "name": "PENNYGATE MEDICAL CENTRE",
+   "address": "PENNYGATE MEDICAL CENTRE 109 LADIES LANE, HINDLEY WIGAN LANCASHIRE WN2 2QG",
+   "wd16nm": "Hindley",
+   "lad16nm": "Wigan",
+   "lon": -2.5766785,
+   "lat": 53.541141
+ }
+]
