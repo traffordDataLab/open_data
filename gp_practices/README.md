@@ -51,9 +51,9 @@
 </tr>
 </tbody>
 </table>
------
+
+
 "Copyright © 2016, Re-used with the permission of NHS Digital. All rights reserved."
 
 "Contains National Statistics data © Crown copyright and database right [2017]" and "Contains Ordnance Survey data © Crown copyright and database right [2017]"
 
------
