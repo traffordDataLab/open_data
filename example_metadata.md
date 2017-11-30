@@ -51,7 +51,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Openness rating</strong></td>
-	<td style="text-align:left;">&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
+	<td style="text-align:left;"><img src="http://lab.linkeddata.deri.ie/2010/lod-badges/img/data-badge-3.png" alt="three star open Web data" /></td>
 </tr>
 </tbody>
 </table>
