@@ -49,5 +49,9 @@
 	<td style="text-align:left;"><strong>Format</strong></td>
 	<td style="text-align:left;">CSV</td>
 </tr>
+<tr>
+	<td style="text-align:left;"><strong>Openness rating</strong></td>
+	<td style="text-align:left;">*** (Structured data in open format e.g. CSV)</td>
+</tr>
 </tbody>
 </table>
