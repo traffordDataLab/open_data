@@ -15,19 +15,19 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Source</strong></td>
-	<td style="text-align:left;">NHS Prescription Services</td>
+	<td style="text-align:left;">Care Quality Commission</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Publisher</strong></td>
-	<td style="text-align:left;">NHS Digital</td>
+	<td style="text-align:left;">Care Quality Commission</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Publisher URL</strong></td>
-	<td style="text-align:left;"><a href="https://digital.nhs.uk/organisation-data-service/data-downloads/gp-data">https://digital.nhs.uk/organisation-data-service/data-downloads/gp-data</a></td>
+	<td style="text-align:left;"><a href="http://www.cqc.org.uk/about-us/transparency/using-cqc-data">http://www.cqc.org.uk/about-us/transparency/using-cqc-data</a></td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geography</strong></td>
-	<td style="text-align:left;">Ward; Local Authority</td>
+	<td style="text-align:left;">Local Authority</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geographic coverage</strong></td>
@@ -35,11 +35,11 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Temporal coverage</strong></td>
-	<td style="text-align:left;">24 Nov 2017</td>
+	<td style="text-align:left;">6 Dec 2017</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Update frequency</strong></td>
-	<td style="text-align:left;">Quarterly</td>
+	<td style="text-align:left;">Weekly</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>License</strong></td>
@@ -58,5 +58,5 @@
 
 <br>
 
-Copyright © 2016, Re-used with the permission of NHS Digital. All rights reserved. Contains National Statistics data © Crown copyright and database right [2017]. Contains Ordnance Survey data © Crown copyright and database right [2017].
+Copyright © 2016, Re-used with the permission of the Care Quality Commission. All rights reserved. Contains National Statistics data © Crown copyright and database right [2017]. Contains Ordnance Survey data © Crown copyright and database right [2017].
 

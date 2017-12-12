@@ -47,7 +47,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Format</strong></td>
-	<td style="text-align:left;">CSV</td>
+	<td style="text-align:left;">CSV, GeoJSON, JSON</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Notes</strong></td>
