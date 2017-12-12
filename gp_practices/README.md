@@ -42,7 +42,7 @@
 	<td style="text-align:left;">Weekly</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>License</strong></td>
+	<td style="text-align:left;"><strong>Licence</strong></td>
 	<td style="text-align:left;"><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a></td>
 </tr>
 <tr>
