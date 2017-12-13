@@ -1677,7 +1677,7 @@ E01004935,Health Deprivation and Disability,5,13636,0.17
 E01004935,Income Deprivation Affecting Children Index (IDACI),7,22382,0.091
 E01004935,Income Deprivation Affecting Older People Index (IDAOPI),6,17863,0.136
 E01004935,Income,7,22123,0.077
-E01004935,Index of Multiple Deprivation,8,23e3,11.007
+E01004935,Index of Multiple Deprivation,8,NA,11.007
 E01004935,Living Environment,4,12073,23.886
 E01004936,Barriers to Housing and Services,10,29816,8.91
 E01004936,Crime,7,21664,-0.341
@@ -4604,7 +4604,7 @@ E01005242,Crime,2,5085,0.816
 E01005242,"Education, Skills and Training",3,7528,32.891
 E01005242,Employment,2,4275,0.213
 E01005242,Health Deprivation and Disability,1,627,1.881
-E01005242,Income Deprivation Affecting Children Index (IDACI),1,1e3,0.485
+E01005242,Income Deprivation Affecting Children Index (IDACI),1,NA,0.485
 E01005242,Income Deprivation Affecting Older People Index (IDAOPI),1,325,0.578
 E01005242,Income,1,957,0.389
 E01005242,Index of Multiple Deprivation,1,1754,52.827
@@ -7113,7 +7113,7 @@ E01005504,Barriers to Housing and Services,7,21409,16.298
 E01005504,Crime,1,779,1.486
 E01005504,"Education, Skills and Training",3,6991,34.568
 E01005504,Employment,3,6866,0.174
-E01005504,Health Deprivation and Disability,2,5e3,0.925
+E01005504,Health Deprivation and Disability,2,NA,0.925
 E01005504,Income Deprivation Affecting Children Index (IDACI),3,7342,0.286
 E01005504,Income Deprivation Affecting Older People Index (IDAOPI),5,14204,0.173
 E01005504,Income,3,7772,0.209
@@ -8711,7 +8711,7 @@ E01005671,Index of Multiple Deprivation,2,5702,36.185
 E01005671,Living Environment,4,10955,25.749
 E01005672,Barriers to Housing and Services,10,29725,9.005
 E01005672,Crime,4,12110,0.287
-E01005672,"Education, Skills and Training",4,13e3,21.124
+E01005672,"Education, Skills and Training",4,NA,21.124
 E01005672,Employment,5,14321,0.109
 E01005672,Health Deprivation and Disability,1,2606,1.284
 E01005672,Income Deprivation Affecting Children Index (IDACI),4,11600,0.212
@@ -12096,7 +12096,7 @@ E01006012,Employment,4,12543,0.12
 E01006012,Health Deprivation and Disability,2,5267,0.892
 E01006012,Income Deprivation Affecting Children Index (IDACI),4,11364,0.215
 E01006012,Income Deprivation Affecting Older People Index (IDAOPI),5,13610,0.179
-E01006012,Income,4,12e3,0.155
+E01006012,Income,4,NA,0.155
 E01006012,Index of Multiple Deprivation,4,11564,23.77
 E01006012,Living Environment,3,8541,30.269
 E01006013,Barriers to Housing and Services,10,29862,8.843
@@ -12749,7 +12749,7 @@ E01006077,Income Deprivation Affecting Older People Index (IDAOPI),5,15581,0.158
 E01006077,Income,6,18625,0.098
 E01006077,Index of Multiple Deprivation,7,21664,12.113
 E01006077,Living Environment,5,14236,20.585
-E01006078,Barriers to Housing and Services,10,31e3,7.209
+E01006078,Barriers to Housing and Services,10,NA,7.209
 E01006078,Crime,9,28245,-0.874
 E01006078,"Education, Skills and Training",8,24686,7.34
 E01006078,Employment,8,24636,0.062
@@ -15711,7 +15711,7 @@ E01006373,Index of Multiple Deprivation,9,29510,5.706
 E01006373,Living Environment,6,17286,16.466
 E01006374,Barriers to Housing and Services,10,31368,6.574
 E01006374,Crime,6,19587,-0.199
-E01006374,"Education, Skills and Training",10,3e4,2.828
+E01006374,"Education, Skills and Training",10,NA,2.828
 E01006374,Employment,8,23168,0.067
 E01006374,Health Deprivation and Disability,7,20369,-0.285
 E01006374,Income Deprivation Affecting Children Index (IDACI),9,29361,0.044
@@ -15953,7 +15953,7 @@ E01006398,Barriers to Housing and Services,6,19230,18.077
 E01006398,Crime,5,15976,0.036
 E01006398,"Education, Skills and Training",3,6734,35.396
 E01006398,Employment,1,3267,0.232
-E01006398,Health Deprivation and Disability,1,3e3,1.212
+E01006398,Health Deprivation and Disability,1,NA,1.212
 E01006398,Income Deprivation Affecting Children Index (IDACI),4,12891,0.192
 E01006398,Income Deprivation Affecting Older People Index (IDAOPI),4,10537,0.217
 E01006398,Income,4,9999,0.177
@@ -16360,7 +16360,7 @@ E01033651,Income,9,27939,0.05
 E01033651,Index of Multiple Deprivation,4,11504,23.887
 E01033651,Living Environment,1,64,76.778
 E01033652,Barriers to Housing and Services,2,3343,36.504
-E01033652,Crime,9,29e3,-0.958
+E01033652,Crime,9,NA,-0.958
 E01033652,"Education, Skills and Training",3,9198,28.487
 E01033652,Employment,5,15021,0.104
 E01033652,Health Deprivation and Disability,1,224,2.212
@@ -16557,7 +16557,7 @@ E01033671,Health Deprivation and Disability,2,6288,0.781
 E01033671,Income Deprivation Affecting Children Index (IDACI),8,23645,0.082
 E01033671,Income Deprivation Affecting Older People Index (IDAOPI),3,9538,0.232
 E01033671,Income,9,29463,0.043
-E01033671,Index of Multiple Deprivation,6,18e3,15.628
+E01033671,Index of Multiple Deprivation,6,NA,15.628
 E01033671,Living Environment,2,6248,35.738
 E01033672,Barriers to Housing and Services,3,7508,29.042
 E01033672,Crime,1,1259,1.349
