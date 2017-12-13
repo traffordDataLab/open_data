@@ -1,6 +1,6 @@
 ##  Processing IMD 2015 data ##
 
-library(tidyverse) ; library(sf) ; library(stringi)
+library(tidyverse) ; library(sf) ; library(stringi) ; library(forcats)
 
 # ------- load IMD 2015 data
 # source: http://opendatacommunities.org/data/societal-wellbeing/imd/indices
