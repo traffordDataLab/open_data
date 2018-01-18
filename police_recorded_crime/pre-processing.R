@@ -62,6 +62,6 @@ for(la_search in la){
     filter(area_code %in% codes)
   
   la_name <- paste0(la_search, ".csv")
-  write_csv(la_crimes, la_name)
+  write_csv(la_crimes, tolower(la_name))
   
 }
