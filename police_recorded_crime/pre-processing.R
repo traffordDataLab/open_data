@@ -49,7 +49,7 @@ crimes_df <- crimes_sf %>%
   select(month, category, location, area_code, area_name, long, lat)
 
 # write GM crime data using *.gz compression
-write.csv(crimes_df, gzfile("crime_data/gm.csv.gz"), row.names = FALSE)
+write_csv(crimes_df, gzfile("crime_data/gm.csv.gz"))
 
 # filter data by local authority and write
 lookup <- read_csv("https://opendata.arcgis.com/datasets/046394602a6b415e9fe4039083ef300e_0.csv")
