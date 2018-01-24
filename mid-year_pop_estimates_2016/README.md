@@ -27,7 +27,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geography</strong></td>
-	<td style="text-align:left;">Ward</td>
+	<td style="text-align:left;">Ward, Local Authority, Combined Authority</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geographic coverage</strong></td>
