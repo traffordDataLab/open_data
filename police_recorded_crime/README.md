@@ -35,7 +35,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Temporal coverage</strong></td>
-	<td style="text-align:left;">December 2014 - November 2017</td>
+	<td style="text-align:left;">January 2015 - December 2017</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Update frequency</strong></td>
