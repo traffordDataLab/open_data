@@ -7,39 +7,39 @@
 <tbody>
 <tr>
 	<td style="text-align:left;"><strong>Dataset name</strong></td>
-	<td style="text-align:left;">Claimant count</td>
+	<td style="text-align:left;">Defibrillators</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Dataset description</strong></td>
-	<td style="text-align:left;">The Claimant Count measures the number of people claiming unemployment related benefits. From April 2015 the count includes all Universal Credit claimants who are required to seek work as well as all JSA claimants.</td>
+	<td style="text-align:left;">Defibrillator locations within Trafford</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Source</strong></td>
-	<td style="text-align:left;">Department for Work and Pensions</td>
+	<td style="text-align:left;">Councillor Butt's Mayoral Charity, <a href="http://www.handonheart.org/">Hand on Heart</a> and crowd sourcing</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Publisher</strong></td>
-	<td style="text-align:left;">nomis</td>
+	<td style="text-align:left;">Trafford Council</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Publisher URL</strong></td>
-	<td style="text-align:left;"><a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&amp;version=0&amp;dataset=162">https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&amp;version=0&amp;dataset=162</a></td>
+	<td style="text-align:left;"><a href="https://github.com/traffordDataLab/open_data/tree/master/defibrillators">https://github.com/traffordDataLab/open_data/tree/master/defibrillators</a></td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geography</strong></td>
-	<td style="text-align:left;">Lower-layer Super Output Area (LSOA)</td>
+	<td style="text-align:left;">Point data</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geographic coverage</strong></td>
-	<td style="text-align:left;">Greater Manchester</td>
+	<td style="text-align:left;">Trafford</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Temporal coverage</strong></td>
-	<td style="text-align:left;">January 2014 - October 2017</td>
+	<td style="text-align:left;">Correct as of 24 January 2017</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Update frequency</strong></td>
-	<td style="text-align:left;">Monthly</td>
+	<td style="text-align:left;">Not known</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Licence</strong></td>
@@ -47,11 +47,19 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Format</strong></td>
-	<td style="text-align:left;">CSV</td>
+	<td style="text-align:left;">CSV, GeoJSON, JSON</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Openness rating</strong></td>
 	<td style="text-align:left;">&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Last updated</strong></td>
+	<td style="text-align:left;">24 January 2017</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Notes</strong></td>
+	<td style="text-align:left;">Please note that these defibrillators may have restrictions on public availability and may not be available 24/7. The locations may not be exact as they are derived from postcodes.</td>
 </tr>
 </tbody>
 </table>
