@@ -35,7 +35,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Temporal coverage</strong></td>
-	<td style="text-align:left;">Correct as of 24 January 2017</td>
+	<td style="text-align:left;">Correct as of January 2017</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Update frequency</strong></td>
@@ -55,7 +55,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Last updated</strong></td>
-	<td style="text-align:left;">24 January 2017</td>
+	<td style="text-align:left;">January 2017</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Notes</strong></td>
