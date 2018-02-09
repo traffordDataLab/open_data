@@ -27,7 +27,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geography</strong></td>
-	<td style="text-align:left;">Lower-layer Super Output Area (LSOA)</td>
+	<td style="text-align:left;">Point data</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geographic coverage</strong></td>
@@ -39,7 +39,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Update frequency</strong></td>
-	<td style="text-align:left;">NA</td>
+	<td style="text-align:left;">Not known</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Licence</strong></td>
@@ -50,13 +50,16 @@
 	<td style="text-align:left;">CSV, GeoJSON, JSON</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Notes</strong></td>
-	<td style="text-align:left;">The addresses were batch geocoded using Google Maps with the [ggmap](https://cran.r-project.org/web/packages/ggmap/index.html) R package.</td>
-</tr>
-
-<tr>
 	<td style="text-align:left;"><strong>Openness rating</strong></td>
 	<td style="text-align:left;">&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Last updated</strong></td>
+	<td style="text-align:left;">November 2017</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Notes</strong></td>
+	<td style="text-align:left;">The addresses were batch geocoded using Google Maps with the [ggmap](https://cran.r-project.org/web/packages/ggmap/index.html) R package.</td>
 </tr>
 </tbody>
 </table>

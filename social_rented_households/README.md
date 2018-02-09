@@ -27,7 +27,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geography</strong></td>
-	<td style="text-align:left;">Lower-layer Super Output Area (LSOA)</td>
+	<td style="text-align:left;">Lower-layer Super Output Area</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geographic coverage</strong></td>
@@ -43,7 +43,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Licence</strong></td>
-	<td style="text-align:left;"><a href="*http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a></td>
+	<td style="text-align:left;"><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a></td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Format</strong></td>
@@ -52,6 +52,10 @@
 <tr>
 	<td style="text-align:left;"><strong>Openness rating</strong></td>
 	<td style="text-align:left;">&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
+</tr>
+<tr>
+	<td style="text-align:left;"><strong>Last updated</strong></td>
+	<td style="text-align:left;">December 2017</td>
 </tr>
 </tbody>
 </table>

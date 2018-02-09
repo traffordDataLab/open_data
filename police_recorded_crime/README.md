@@ -53,5 +53,9 @@
 	<td style="text-align:left;"><strong>Openness rating</strong></td>
 	<td style="text-align:left;">&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
 </tr>
+<tr>
+	<td style="text-align:left;"><strong>Last updated</strong></td>
+	<td style="text-align:left;">February 2018</td>
+</tr>
 </tbody>
 </table>

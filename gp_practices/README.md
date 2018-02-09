@@ -7,27 +7,27 @@
 <tbody>
 <tr>
 	<td style="text-align:left;"><strong>Dataset name</strong></td>
-	<td style="text-align:left;">Benefit claimants - employment and support allowance</td>
+	<td style="text-align:left;">General practice</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Dataset description</strong></td>
-	<td style="text-align:left;">Employment and Support Allowance (ESA) replaced Incapacity Benefit and Income Support paid on the grounds of incapacity for new claims from 27th October 2008.</td>
+	<td style="text-align:left;">General practice locations in Greater Manchester</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Source</strong></td>
-	<td style="text-align:left;">Office for National Statistics</td>
+	<td style="text-align:left;">Care Quality Commission</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Publisher</strong></td>
-	<td style="text-align:left;">nomis</td>
+	<td style="text-align:left;">Care Quality Commission</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Publisher URL</strong></td>
-	<td style="text-align:left;"><a href="https://www.nomisweb.co.uk/datasets/besasa">https://www.nomisweb.co.uk/datasets/besasa</a></td>
+	<td style="text-align:left;"><a href="http://www.cqc.org.uk/about-us/transparency/using-cqc-data">http://www.cqc.org.uk/about-us/transparency/using-cqc-data</a></td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geography</strong></td>
-	<td style="text-align:left;">Lower-layer Super Output Area (LSOA)</td>
+	<td style="text-align:left;">Point data</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Geographic coverage</strong></td>
@@ -35,11 +35,11 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Temporal coverage</strong></td>
-	<td style="text-align:left;">May 2017</td>
+	<td style="text-align:left;">Correct as of December 2017</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Update frequency</strong></td>
-	<td style="text-align:left;">Quarterly</td>
+	<td style="text-align:left;">Not known</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Licence</strong></td>
@@ -47,7 +47,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Format</strong></td>
-	<td style="text-align:left;">CSV</td>
+	<td style="text-align:left;">CSV, GeoJSON, JSON</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Openness rating</strong></td>
@@ -55,7 +55,7 @@
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Last updated</strong></td>
-	<td style="text-align:left;">November 2017</td>
+	<td style="text-align:left;">24 January 2017</td>
 </tr>
 </tbody>
 </table>
