@@ -18,7 +18,7 @@ trafford <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/
 # intersect data ---------------------------
 trafford_plaques <- st_intersection(plaques, trafford)
 
-# intersect data ---------------------------
+# tidy data ---------------------------
 trafford_plaques <- trafford_plaques %>% 
   select(id, title, inscription, erected, number_of_subjects,
          lead_subject_name, lead_subject_born_in, lead_subject_died_in, lead_subject_type,
