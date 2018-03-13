@@ -1,4 +1,4 @@
-## Blue plaques ##
+## Open plaques ##
 
 # Source: Open Plaques
 # Publisher URL: http://openplaques.org/
@@ -35,14 +35,14 @@ leaflet(data = trafford_plaques) %>%
   addProviderTiles(providers$CartoDB.Positron) %>% 
   addPolygons(data = trafford, fillColor = "#757575", weight = 1.5, dashArray = "3", color = "#212121", fillOpacity = 0.3) %>%
   addMarkers(label = ~as.character(title), popup = popup, options = markerOptions(riseOnHover = TRUE, opacity = 0.75)) %>% 
-  addControl("<strong>Blue Plaques in Trafford</strong><br /><em>Source: Open Plaques</em>",
+  addControl("<strong>Open Plaques in Trafford</strong><br /><em>Source: Open Plaques</em>",
              position = 'topright')
 
 # write data ---------------------------
-st_write(trafford_plaques, "blue_plaques_trafford.geojson", driver = "GeoJSON")
+st_write(trafford_plaques, "open_plaques_trafford.geojson", driver = "GeoJSON")
 trafford_plaques %>%
   cbind(., st_coordinates(.)) %>%
   rename(long = X, lat = Y) %>% 
   st_set_geometry(NULL) %>%
-  write_csv("blue_plaques_trafford.csv")
+  write_csv("open_plaques_trafford.csv")
 

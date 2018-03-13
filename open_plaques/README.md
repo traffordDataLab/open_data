@@ -7,11 +7,11 @@
 <tbody>
 <tr>
 	<td style="text-align:left;"><strong>Dataset name</strong></td>
-	<td style="text-align:left;">Blue plaques</td>
+	<td style="text-align:left;">Open plaques</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Dataset description</strong></td>
-	<td style="text-align:left;">Inscriptions on and locations of blue plaques in Trafford</td>
+	<td style="text-align:left;">Inscriptions on and locations of Open plaques in Trafford</td>
 </tr>
 <tr>
 	<td style="text-align:left;"><strong>Source</strong></td>
