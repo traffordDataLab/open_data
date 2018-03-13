@@ -13,7 +13,8 @@ sites <- st_read("ListedBuildings_09March2018.shp") %>%
   st_transform(4326)
 
 trafford <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/local_authority/2016/trafford_local_authority_full_resolution.geojson") %>% 
-  st_set_crs(4326)
+  st_set_crs(4326) %>% 
+  select(-lat, -lon)
 
 # intersect data ---------------------------
 trafford_sites <- st_intersection(sites, trafford)
