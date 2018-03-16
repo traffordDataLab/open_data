@@ -1,3 +1,7 @@
+[<img src="thumbnail.png">](trafford_terrain_lines_styled.geojson)
+</br>
+
+
 <table>
 <tr>
 	<td>Dataset name</td>
