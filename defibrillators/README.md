@@ -1,14 +1,12 @@
-[<img src="thumbnail.png">](trafford_defibrillators_styled.json)
-
-
-</br>
-
 <style>
 table td:nth-child(1)
 {
 	font-weight: bold;
 }
 </style>
+
+[<img src="thumbnail.png">](trafford_defibrillators_styled.json)
+</br>
 
 <table>
 <tr>
