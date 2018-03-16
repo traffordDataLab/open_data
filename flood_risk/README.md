@@ -1,3 +1,6 @@
+[<img src="thumbnail.png">](trafford_flood_risk_styled.geojson)
+</br>
+
 <table>
 <tr>
 	<td>Dataset name</td>
