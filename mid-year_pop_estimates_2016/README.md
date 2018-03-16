@@ -1,61 +1,66 @@
 <table>
-<colgroup>
-<col style="text-align:left;"/>
-<col style="text-align:left;"/>
-</colgroup>
-
-<tbody>
 <tr>
-	<td style="text-align:left;"><strong>Dataset name</strong></td>
-	<td style="text-align:left;">Ward Level Mid-Year Population Estimates</td>
+	<td>Dataset name</td>
+	<td>Ward Level Mid-Year Population Estimates</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Dataset description</strong></td>
-	<td style="text-align:left;">Estimates of the usual resident population for 2016 electoral wards in England and Wales.</td>
+	<td>Dataset description</td>
+	<td>Estimates of the usual resident population for 2016 electoral wards in England and Wales.</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Source</strong></td>
-	<td style="text-align:left;">Office for National Statistics</td>
+	<td>Source</td>
+	<td>Office for National Statistics</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Publisher</strong></td>
-	<td style="text-align:left;">Office for National Statistics</td>
+	<td>Publisher</td>
+	<td>Office for National Statistics</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Publisher URL</strong></td>
-	<td style="text-align:left;"><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental">https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental</a></td>
+	<td>Publisher URL</td>
+	<td><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental"></a>https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/wardlevelmidyearpopulationestimatesexperimental</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Geography</strong></td>
-	<td style="text-align:left;">Ward, Local Authority, Combined Authority</td>
+	<td>Geography</td>
+	<td>Ward</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Geographic coverage</strong></td>
-	<td style="text-align:left;">Greater Manchester</td>
+	<td>Geographic coverage</td>
+	<td>Greater Manchester</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Temporal coverage</strong></td>
-	<td style="text-align:left;">Mid-2016</td>
+	<td>Temporal coverage</td>
+	<td>Mid-2016</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Update frequency</strong></td>
-	<td style="text-align:left;">Annual</td>
+	<td>Update frequency</td>
+	<td>Annual</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>License</strong></td>
-	<td style="text-align:left;"><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a></td>
+	<td>Licence</td>
+	<td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a></td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Format</strong></td>
-	<td style="text-align:left;">CSV, JSON</td>
+	<td>Attribution</td>
+	<td></td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Openness rating</strong></td>
-	<td style="text-align:left;">&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
+	<td>Format</td>
+	<td>CSV, JSON</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Last updated</strong></td>
-	<td style="text-align:left;">January 2018</td>
+	<td>Openness rating</td>
+	<td>&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
 </tr>
-</tbody>
+<tr>
+	<td>Last updated</td>
+	<td>January 2018</td>
+</tr>
+<tr>
+	<td>Notes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>Lab visualisation</td>
+	<td><a href=""></a></td>
+</tr>
 </table>

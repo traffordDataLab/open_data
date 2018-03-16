@@ -1,62 +1,66 @@
 <table>
-<colgroup>
-<col style="text-align:left;"/>
-<col style="text-align:left;"/>
-</colgroup>
-
-<tbody>
 <tr>
-	<td style="text-align:left;"><strong>Dataset name</strong></td>
-	<td style="text-align:left;">Open plaques</td>
+	<td>Dataset name</td>
+	<td>Open plaques</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Dataset description</strong></td>
-	<td style="text-align:left;">Inscriptions on and locations of Open plaques in Trafford</td>
+	<td>Dataset description</td>
+	<td>Inscriptions on and locations of Open plaques in Trafford</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Source</strong></td>
-	<td style="text-align:left;">Various</td>
+	<td>Source</td>
+	<td>Various</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Publisher</strong></td>
-	<td style="text-align:left;">Open Plaques</td>
+	<td>Publisher</td>
+	<td>Open Plaques</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Publisher URL</strong></td>
-	<td style="text-align:left;"><a href="http://openplaques.org/">http://openplaques.org/</a></td>
+	<td>Publisher URL</td>
+	<td><a href="http://openplaques.org/"></a>http://openplaques.org/</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Geography</strong></td>
-	<td style="text-align:left;">Local authority</td>
+	<td>Geography</td>
+	<td>Point data</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Geographic coverage</strong></td>
-	<td style="text-align:left;">Trafford</td>
+	<td>Geographic coverage</td>
+	<td>Trafford</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Temporal coverage</strong></td>
-	<td style="text-align:left;">8 November 2017</td>
+	<td>Temporal coverage</td>
+	<td>8 November 2017</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Update frequency</strong></td>
-	<td style="text-align:left;">Ongoing</td>
+	<td>Update frequency</td>
+	<td>Regularly</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Licence</strong></td>
-	<td style="text-align:left;"><a href="https://opendatacommons.org/licenses/pddl/summary/">
-Public Domain Dedication and License 1.0</a></td>
+	<td>Licence</td>
+	<td><a href="http://www.opendatacommons.org/licenses/pddl/summary/">Public Domain Dedication and License 1.0</a></td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Format</strong></td>
-	<td style="text-align:left;">CSV; GeoJSON</td>
+	<td>Attribution</td>
+	<td>Data gathered by Open Plaques</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Openness rating</strong></td>
-	<td style="text-align:left;">&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
+	<td>Format</td>
+	<td>CSV, GeoJSON</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Last updated</strong></td>
-	<td style="text-align:left;">March 2018</td>
+	<td>Openness rating</td>
+	<td>&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
 </tr>
-</tbody>
+<tr>
+	<td>Last updated</td>
+	<td>March 2018</td>
+</tr>
+<tr>
+	<td>Notes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>Lab visualisation</td>
+	<td><a href=""></a></td>
+</tr>
 </table>

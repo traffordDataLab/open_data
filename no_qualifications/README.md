@@ -1,61 +1,66 @@
 <table>
-<colgroup>
-<col style="text-align:left;"/>
-<col style="text-align:left;"/>
-</colgroup>
-
-<tbody>
 <tr>
-	<td style="text-align:left;"><strong>Dataset name</strong></td>
-	<td style="text-align:left;">LC5601EW - Highest level of qualification by economic activity</td>
+	<td>Dataset name</td>
+	<td>LC5601EW - Highest level of qualification by economic activity</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Dataset description</strong></td>
-	<td style="text-align:left;">Count of working-age adults with no qualifications</td>
+	<td>Dataset description</td>
+	<td>Count of working-age adults with no qualifications</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Source</strong></td>
-	<td style="text-align:left;">Census 2011</td>
+	<td>Source</td>
+	<td>Census 2011</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Publisher</strong></td>
-	<td style="text-align:left;">nomis</td>
+	<td>Publisher</td>
+	<td>nomis</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Publisher URL</strong></td>
-	<td style="text-align:left;"><a href="https://www.nomisweb.co.uk/census/2011/lc5601ew">https://www.nomisweb.co.uk/census/2011/lc5601ew</a></td>
+	<td>Publisher URL</td>
+	<td><a href="https://www.nomisweb.co.uk/census/2011/lc5601ew"></a>https://www.nomisweb.co.uk/census/2011/lc5601ew</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Geography</strong></td>
-	<td style="text-align:left;">Lower-layer Super Output Area (LSOA)</td>
+	<td>Geography</td>
+	<td>Lower-layer Super Output Area</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Geographic coverage</strong></td>
-	<td style="text-align:left;">Greater Manchester</td>
+	<td>Geographic coverage</td>
+	<td>Greater Manchester</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Temporal coverage</strong></td>
-	<td style="text-align:left;">27 March 2011</td>
+	<td>Temporal coverage</td>
+	<td>27 March 2011</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Update frequency</strong></td>
-	<td style="text-align:left;">10 years</td>
+	<td>Update frequency</td>
+	<td>10 years</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Licence</strong></td>
-	<td style="text-align:left;"><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a></td>
+	<td>Licence</td>
+	<td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a></td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Format</strong></td>
-	<td style="text-align:left;">CSV</td>
+	<td>Attribution</td>
+	<td></td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Openness rating</strong></td>
-	<td style="text-align:left;">&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
+	<td>Format</td>
+	<td>CSV</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><strong>Last updated</strong></td>
-	<td style="text-align:left;">December 2017</td>
+	<td>Openness rating</td>
+	<td>&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
 </tr>
-</tbody>
+<tr>
+	<td>Last updated</td>
+	<td>December 2017</td>
+</tr>
+<tr>
+	<td>Notes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>Lab visualisation</td>
+	<td><a href=""></a></td>
+</tr>
 </table>
