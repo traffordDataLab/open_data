@@ -65,6 +65,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td><a href=""></a></td>
+	<td><a href="https://www.trafforddatalab.io/maps/greenspace/"></a>www.trafforddatalab.io/maps/greenspace/</td>
 </tr>
 </table>
