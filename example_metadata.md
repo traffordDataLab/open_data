@@ -1,46 +1,39 @@
-<style>
-table td:nth-child(1)
-{
-	font-weight: bold;
-}
-</style>
-
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Defibrillators</td>
+	<td></td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Defibrillator locations within Trafford</td>
+	<td></td>
 </tr>
 <tr>
 	<td>Source</td>
-	<td>Councillor Butt's Mayoral Charity, <a href="http://www.handonheart.org/">Hand on Heart</a> and crowd sourcing</td>
+	<td></td>
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td>Trafford Council</td>
+	<td></td>
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://www.traffordDataLab.io/open_data/defibrillators">https://www.traffordDataLab.io/open_data/defibrillators</a></td>
+	<td><a href=""></a></td>
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>Local authority</td>
+	<td></td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Trafford</td>
+	<td></td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>Correct as of January 2017</td>
+	<td></td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Not known</td>
+	<td></td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -52,7 +45,7 @@ table td:nth-child(1)
 </tr>
 <tr>
 	<td>Format</td>
-	<td>CSV, GeoJSON, JSON</td>
+	<td>CSV, GeoJSON</td>
 </tr>
 <tr>
 	<td>Openness rating</td>
@@ -60,10 +53,14 @@ table td:nth-child(1)
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>January 2017</td>
+	<td></td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td>Please note that these defibrillators may have restrictions on public availability and may not be available 24/7. The locations may not be exact as they are derived from postcodes.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>Lab visualisation</td>
+	<td><a href=""></a></td>
 </tr>
 </table>
