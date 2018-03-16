@@ -1,3 +1,6 @@
+[<img src="thumbnail.png">](jobcentreplus_gm.styled.geojson)
+</br>
+
 <table>
 <tr>
 	<td>Dataset name</td>
