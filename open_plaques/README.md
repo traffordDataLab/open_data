@@ -1,3 +1,6 @@
+[<img src="thumbnail.png">](trafford_open_plaques_styled.geojson)
+</br>
+
 <table>
 <tr>
 	<td>Dataset name</td>
