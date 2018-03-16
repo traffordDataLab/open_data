@@ -4,7 +4,7 @@
 library(tidyverse); library(sf) ; library(geojsonio) ; library(RColorBrewer) ; library(leaflet)
 
 # read data ---------------------------
-geojson <- st_read("http://trafforddatalab.io/spatial_data/AQMA/trafford_aqma.geojson")
+geojson <- st_read("http://trafforddatalab.io/open_data/AQMA/trafford_aqma.geojson")
 
 # apply styles ---------------------------
 geojson_styles <- geojson_style(geojson, var = 'AQMA_Ref',
