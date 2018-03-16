@@ -1,3 +1,6 @@
+[<img src="thumbnail.png">](gp_practices_styled.geojson)
+</br>
+
 <table>
 <tr>
 	<td>Dataset name</td>
