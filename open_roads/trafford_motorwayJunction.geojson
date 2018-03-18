@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "identifier": "299478A8-FF0A-4E63-8D9D-CC6F739F8886", "number": "M60 J10", "area_code": "E08000009", "area_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.356772433124118, 53.464362790041399 ] } },
+{ "type": "Feature", "properties": { "identifier": "14784836-8DA9-4704-A405-8A7A835E5F35", "number": "M60 J9", "area_code": "E08000009", "area_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.339628950588865, 53.458552184346892 ] } },
+{ "type": "Feature", "properties": { "identifier": "2B4838C6-659E-4522-927D-FBD34C09E3A0", "number": "M60 J8", "area_code": "E08000009", "area_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.335081253365018, 53.441515688375809 ] } },
+{ "type": "Feature", "properties": { "identifier": "A0C6B3FD-8068-4A9D-B8CA-BAFD1270DAE0", "number": "M60 J7", "area_code": "E08000009", "area_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.316233020826299, 53.437440381699012 ] } },
+{ "type": "Feature", "properties": { "identifier": "EF04D5CF-9365-491F-8F05-42C15DC68DDB", "number": "M60 J6", "area_code": "E08000009", "area_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.294316306464569, 53.427150893949438 ] } }
+]
+}
