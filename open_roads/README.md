@@ -1,4 +1,4 @@
-[<img src="thumbnail.png">](trafford_watercourses_styled.geojson)
+[<img src="thumbnail.png">](trafford_roadLink_styled.geojson)
 </br>
 
 <table>
@@ -8,7 +8,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Rivers and other waterways constrained by the boundaries of Trafford borough and the Greater Manchester Combined Authority.</td>
+	<td>Road links, nodes and motorway junctions in Trafford.</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -20,7 +20,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-rivers.html"></a>https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-rivers.html</td>
+	<td><a href="https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-roads.html"></a>https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-roads.html</td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -32,11 +32,11 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>December 2017</td>
+	<td>November 2017</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Unknown</td>
+	<td>Twice yearly</td>
 </tr>
 <tr>
 	<td>Licence</td>
