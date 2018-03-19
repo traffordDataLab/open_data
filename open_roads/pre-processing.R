@@ -5,7 +5,7 @@
 # Licence: Open Government Licence 3.0
 
 # load necessary packages ---------------------------
-library(sf) ; library(tidyverse)
+library(sf) ; library(tidyverse) ; library(rmapshaper)
 
 # load geospatial data ---------------------------
 
@@ -42,3 +42,7 @@ plot(st_geometry(trafford_motorwayJunction))
 st_write(trafford_roadLink, "trafford_roadLink.geojson", driver = "GeoJSON")
 st_write(trafford_roadNode, "trafford_roadNode.geojson", driver = "GeoJSON")
 st_write(trafford_motorwayJunction, "trafford_motorwayJunction.geojson", driver = "GeoJSON")
+
+# simplify data  ---------------------------
+trafford_roadLink_simplified <- ms_simplify(trafford_roadLink, keep = 0.01, keep_shapes = T) # keep 1% of the points
+st_write(trafford_roadLink_simplified, "trafford_roadLink_simplified.geojson")
