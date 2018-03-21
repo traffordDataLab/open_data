@@ -1,5 +1,5 @@
 
-[<img src="thumbnail.png">](trafford_greenspace_sites_styled.geojson)
+[<img src="thumbnail.png">](STATS19_casualty_data_2016_styled.geojson)
 </br>
 
 <table>
