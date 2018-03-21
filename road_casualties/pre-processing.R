@@ -1,4 +1,4 @@
-## STATS19 casualty data recorded by Greater Manchester Police - 2016 ##
+## STATS19 road casualty data recorded by Greater Manchester Police - 2016 ##
 
 # Source: Department for Transport
 # Publisher URL: https://data.gov.uk/dataset/road-accidents-safety-data
