@@ -98,4 +98,4 @@ casualties <- select(casualties, AREFNO = `Accident_Index`, date, month, day, ho
 write_csv(casualties, "STATS19_casualty_data_2016.csv")
 casualties %>% 
   st_as_sf(crs = 4326, coords = c("long", "lat")) %>% 
-  st_write("STATS19_casualty_data.geojson", driver = "GeoJSON")
+  st_write("STATS19_casualty_data_2016.geojson", driver = "GeoJSON")
