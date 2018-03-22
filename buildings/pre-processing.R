@@ -10,6 +10,7 @@ library(tidyverse) ; library(sf)
 # load data ---------------------------
 bldgs <- st_read("SJ_Building.shp") %>% st_transform(27700)
 trafford <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/local_authority/2016/trafford_local_authority_full_resolution.geojson") %>% 
+  select(-lon, -lat) %>% 
   st_set_crs(4326) %>% 
   st_transform(27700)
 
