@@ -1,5 +1,5 @@
 
-[<img src="thumbnail.png">](STATS19_casualty_data_2016_styled.geojson)
+[<img src="thumbnail.png">](2016/STATS19_casualty_data_2016_styled.geojson)
 </br>
 
 <table>
