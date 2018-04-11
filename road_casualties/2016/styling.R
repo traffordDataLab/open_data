@@ -4,7 +4,7 @@
 library(tidyverse); library(sf) ; library(geojsonio)
 
 # read data ---------------------------
-geojson <- st_read("http://trafforddatalab.io/open_data/road_casualties/STATS19_casualty_data_2016.geojson")
+geojson <- st_read("http://trafforddatalab.io/open_data/road_casualties/2016/STATS19_casualty_data_2016.geojson")
 
 # apply styles ---------------------------
 geojson_styles <- geojson_style(geojson,

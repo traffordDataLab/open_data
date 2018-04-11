@@ -41,10 +41,9 @@ casualties <- mutate(casualties, mode =
                          Casualty_Type == 8 ~ "Taxi",
                          Casualty_Type == 9 ~ "Car",
                          Casualty_Type == 11 ~ "Bus or Coach",
-                         Casualty_Type == 18 ~ "Tram",
                          Casualty_Type %in% c(19,20,21,98) ~ "Goods Vehicle",
-                         Casualty_Type %in% c(10,16,17,90) ~ "Other Vehicle"
-                         ))
+                         Casualty_Type %in% c(10,16,17,18,90) ~ "Other Vehicle"
+                       ))
 
 # casualty severity
 casualties <- mutate(casualties, severity = 
@@ -79,16 +78,16 @@ casualties <- mutate(casualties, light =
 casualties <- mutate(casualties, 
                      area_name = factor(Local_Authority_.District.),
                      area_name = fct_recode(area_name, 
-                                          "Bolton" = "100",
-                                          "Bury" = "101",
-                                          "Manchester" = "102",
-                                          "Oldham" = "104",
-                                          "Rochdale" = "106",
-                                          "Salford" = "107",
-                                          "Stockport" = "109",
-                                          "Tameside" = "110",
-                                          "Trafford" = "112",
-                                          "Wigan" = "114"))
+                                            "Bolton" = "100",
+                                            "Bury" = "101",
+                                            "Manchester" = "102",
+                                            "Oldham" = "104",
+                                            "Rochdale" = "106",
+                                            "Salford" = "107",
+                                            "Stockport" = "109",
+                                            "Tameside" = "110",
+                                            "Trafford" = "112",
+                                            "Wigan" = "114"))
 
 ## rename variables  ---------------------------
 casualties <- select(casualties, AREFNO = `Accident_Index`, date, month, day, hour, mode, 

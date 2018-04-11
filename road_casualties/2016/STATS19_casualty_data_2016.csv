@@ -575,7 +575,7 @@ AREFNO,date,month,day,hour,mode,severity,light,sex,ageband,area_name,long,lat
 201606E014193,2016-04-05,Apr,Tue,16,Powered 2 Wheeler,Serious,Daylight,Male,20-24,Manchester,-2.223564,53.41644
 201606E014223,2016-04-01,Apr,Fri,22,Car,Slight,Dark,Male,25-29,Manchester,-2.276133,53.390721
 201606E014223,2016-04-01,Apr,Fri,22,Car,Serious,Dark,Female,5-9,Manchester,-2.276133,53.390721
-201606E014223,2016-04-01,Apr,Fri,22,Tram,Slight,Dark,Male,15-19,Manchester,-2.276133,53.390721
+201606E014223,2016-04-01,Apr,Fri,22,Other Vehicle,Slight,Dark,Male,15-19,Manchester,-2.276133,53.390721
 201606E014223,2016-04-01,Apr,Fri,22,Car,Slight,Dark,Male,5-9,Manchester,-2.276133,53.390721
 201606E014331,2016-03-18,Mar,Fri,8,Pedal Cycle,Slight,Daylight,Female,25-29,Manchester,-2.262227,53.449881
 201606E014411,2016-03-11,Mar,Fri,19,Pedestrian,Slight,Dark,Male,15-19,Manchester,-2.245995,53.457843

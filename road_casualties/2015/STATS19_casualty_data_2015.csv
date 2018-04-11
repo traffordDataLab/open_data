@@ -1332,7 +1332,7 @@ AREFNO,date,month,day,hour,mode,severity,light,sex,ageband,area_name,long,lat
 201506G003097,2015-07-04,Jul,Sat,9,Taxi,Slight,Daylight,Male,50-54,Tameside,-2.110261,53.480651
 201506G003097,2015-07-04,Jul,Sat,9,Taxi,Slight,Daylight,Male,20-24,Tameside,-2.110261,53.480651
 201506G003097,2015-07-04,Jul,Sat,9,Taxi,Slight,Daylight,Male,20-24,Tameside,-2.110261,53.480651
-201506G003108,2015-07-05,Jul,Sun,16,Tram,Slight,Daylight,Female,35-39,Tameside,-2.126681,53.479107
+201506G003108,2015-07-05,Jul,Sun,16,Other Vehicle,Slight,Daylight,Female,35-39,Tameside,-2.126681,53.479107
 201506G003116,2015-07-03,Jul,Fri,10,Goods Vehicle,Slight,Daylight,Male,60-64,Tameside,-2.092484,53.482194
 201506G003125,2015-07-04,Jul,Sat,18,Powered 2 Wheeler,Slight,Daylight,Male,20-24,Tameside,-2.147842,53.454814
 201506G003215,2015-07-03,Jul,Fri,15,Car,Slight,Daylight,Female,25-29,Tameside,-2.100607,53.476255
