@@ -1,0 +1,99 @@
+featureNum,featureAlias,cameraId,cameraLocation,latitude,longitude
+1,Cam 1 - Trafford Wharf Road,1,Trafford Wharf Road (Trafford Park),53.464515,-2.284777
+2,Cam 3 - Wharfside Way/John Gilbert Way,3,Wharfside Way/John Gilbert Way (Trafford Park),53.466056,-2.296845
+3,Cam 5 - Chester Rd White City),5,Chester Rd White City (Old Trafford),53.462683,-2.284086
+4,Cam 6 - Chester Rd/Sir Matt Busby Way,6,Chester Rd/Sir Matt Busby Way (Old Trafford),53.461151,-2.288022
+5,Cam 7 - Seymour Grove/Kings Rd,7,Seymour Grove/Kings Rd (Old Trafford),53.454314,-2.273636
+6,Cam 9 - The Quadrant,9,The Quadrant (Old Trafford),53.452648,-2.286269
+7,Cam 10 - Warwick Road/Talbot Road,10,Warwick Road/Talbot Road (Old Trafford),53.458356,-2.286228
+8,Cam 11 - Talbot Road,11,Talbot Road (Gorse Hill),53.455013,-2.294119
+9,Cam 13 - Norris Road,13,Norris Road (Sale Moor),53.414913,-2.298845
+10,Cam 15 - Brooklands Metro Station,15,Brooklands Metro Station (Sale),53.417326,-2.325582
+11,Cam 16 - Goose Green,16,Goose Green (Altrincham),53.385287,-2.350552
+12,Cam 24 - Edge Lane,24,Edge Lane (Stretford),53.445577,-2.304892
+13,Cam 25 - Subway 1 Chester Rd,25,Subway 1 Chester Rd (Stretford),53.446325,-2.307037
+14,Cam 26 - Subway 2 Chester Rd,26,Subway 2 Chester Rd (Stretford),53.446066,-2.306366
+15,Cam 30 - Seymour Grove,30,Seymour Grove (Old Trafford),53.461582,-2.276369
+16,Cam 31 - Northumberland Rd,31,Northumberland Rd (Old Trafford),53.462879,-2.268775
+17,Cam 32 - Henrietta Street,32,Henrietta Street (Old Trafford),53.463376,-2.266267
+18,Cam 33 - Cornbrook Street,33,Cornbrook Street (Old Trafford),53.464121,-2.262538
+19,Cam 35 - Clifton Street,35,Clifton Street (Old Trafford),53.462363,-2.262504
+20,Cam 36 - Shrewsbury Street,36,Shrewsbury Street (Old Trafford),53.459859,-2.260186
+21,Cam 37 - Albion St/Prestege St,37,Albion St/Prestege St (Old Trafford),53.459408,-2.26277
+22,Cam 38 - Powell Street,38,Powell Street (Old Trafford),53.458895,-2.265667
+23,Cam 39 - St Johns Road,39,St Johns Road (Old Trafford),53.458392,-2.268526
+24,Cam 40 - Ayres Rd,40,Ayres Rd (Old Trafford),53.457764,-2.272214
+25,Cam 60 - Bodmin Road Health Centre,60,Bodmin Road Health Centre (Sale West),53.427291,-2.352147
+26,Cam 61 - Magnolia Court - North,61,Magnolia Court (Sale West),53.428986,-2.356303
+27,Cam 62 - Magnolia Court - South,62,Magnolia Court (Sale West),53.428826,-2.355984
+28,Cam 63 - Epping Drive,63,Epping Drive (Sale West),53.426419,-2.357242
+29,Cam 64 - Firsway/Goodwood Ave,64,Firsway/Goodwood Ave (Sale West),53.421475,-2.355949
+30,Cam 65 - Newbury Ave,65,Newbury Ave (Sale West),53.418649,-2.356537
+31,Cam 66 - Thirsk Ave,66,Thirsk Ave (Sale West),53.418574,-2.358473
+32,Cam 68 - Chepstow Ave,68,Chepstow Ave (Sale West),53.417099,-2.358317
+33,Cam 69 - Chepstow/Epsom Ave,69,Chepstow/Epsom Ave (Sale West),53.415842,-2.358595
+34,Cam 70 - Hurst Ave,70,Hurst Ave (Sale West),53.414996,-2.356562
+35,Cam 71 - Ascot Ave,71,Ascot Ave (Sale West),53.417121,-2.354571
+36,Cam 72 - Manor Ave,72,Manor Ave (Sale West),53.414247,-2.352037
+37,Cam 73 - Lingfield Ave,73,Lingfield Ave (Sale West),53.412257,-2.362707
+38,Cam 79 - Briarfield Rd,79,Briarfield Rd (Altrincham),53.392836,-2.31191
+39,Cam 80 - George Street,80,George Street (Altrincham),53.387686,-2.349734
+40,Cam 81 - Regent/George St,81,Regent/George St (Altrincham),53.38566,-2.35191
+41,Cam 84 - Regend Rd/Stamford New Rd,84,Regend Rd/Stamford New Rd (Altrincham),53.385521,-2.351305
+42,Cam 87 - Green Lane,87,Green Lane (Ashton upon Mersey),53.429465,-2.341979
+43,Cam 89 - Northenden Road,89,Northenden Road (Sale Moor),53.419821,-2.303596
+44,Cam 90 - Manchester Road,90,Manchester Road (Broadheath),53.397246,-2.352036
+45,Cam 91 - Sale Station/Taxi Rank,91,Sale Station/Taxi Rank (Sale),53.424316,-2.318057
+46,Cam 92 - Sale Town Hall,92,Sale Town Hall (Sale),53.424828,-2.320279
+47,Cam 93 - School Rd/Claremont Rd,93,School Rd/Claremont Rd (Sale),53.424992,-2.321467
+48,Cam 94 - School Rd/Hereford St,94,School Rd/Hereford St (Sale),53.425237,-2.322866
+49,Cam 95 - School Rd/Hayfield St,95,School Rd/Hayfield St (Sale),53.425492,-2.324203
+50,Cam 151 - Moorside Car Park,151,Moorside Car Park (Urmston),53.450961,-2.356897
+51,Cam 152 - Croftsbank Road,152,Croftsbank Road (Urmston),53.449237,-2.353107
+52,Cam 153 - Flixton Rd/Roseneath Rd,153,Flixton Rd/Roseneath Rd (Urmston),53.448352,-2.357465
+53,Cam 154 - Flixton Rd (Railway Station),154,Flixton Rd - Railway Station (Urmston),53.448477,-2.353634
+54,Cam 161 - Station Rd/Higher Rd,161,Station Rd/Higher Rd (Urmston),53.448046,-2.352996
+55,Cam 165 - Woodsend Circle,165,Woodsend Circle (Flixton),53.452665,-2.392811
+56,Cam 170 - Bucklow Ave,170,Bucklow Ave (Partington),53.420234,-2.420971
+57,Cam 171 - Moss Lane,171,Moss Lane (Partington),53.414908,-2.420165
+58,Cam 173 - Manchester Rd/Redbrook Rd,173,Manchester Rd/Redbrook Rd (Partington),53.414459,-2.430853
+59,Cam 175 - Tulip Road,175,Tulip Road (Partington),53.412226,-2.433712
+60,Cam 176 - Laurel Walk,176,Laurel Walk (Partington),53.412934,-2.435616
+61,Cam 177 - Oak Road-Bus Stop,177,Oak Road - Bus Stop (Partington),53.41147,-2.437791
+62,Cam 178 - Oak Road-Park,178,Oak Road - Park (Partington),53.414088,-2.439616
+63,Cam 179 - Wood Lane/Myrtle Rd,179,Wood Lane/Myrtle Rd (Partington),53.415398,-2.440728
+64,Cam 180 - Lock Lane/Birch Rd,180,Lock Lane/Birch Rd (Partington),53.418434,-2.439043
+65,Cam 181 - Millbank House,181,Millbank House (Partington),53.4165,-2.436823
+66,Cam 182 - Wood Lane Shops,182,Wood Lane Shops (Partington),53.416547,-2.434972
+67,Cam 184 - Lock Lane/Conniston),184,Lock Lane/Conniston (Partington),53.419452,-2.431558
+68,Cam 185 - Millenium Clock,185,Millenium Clock - Manchester Road/Moss Lane (Partington),53.419938,-2.425567
+69,Cam 186 - Central Road Shops,186,Central Road Shops (Partington),53.418467,-2.426262
+70,Cam 187 - Oak Road Shops,187,Oak Road Shops (Partington),53.411727,-2.435432
+71,Cam 188 - Car Park Rear of Co-op,188,Car Park Rear of Co-op - Central Road Service Road (Partington),53.418235,-2.425075
+72,Cam 201 - Sale Water Park PTZ 1,201,Sale Water Park (Sale),53.431668,-2.300683
+73,Cam 202 - Sale Water Park PTZ 2,202,Sale Water Park (Sale),53.43147,-2.299811
+74,Cam 203 - Sale Water Park PTZ 3,203,Sale Water Park (Sale),53.431016,-2.299181
+75,Cam 204 - Sale Water Park PTZ 4,204,Sale Water Park (Sale),53.431313,-2.29997
+76,Cam 205 - Sale Water Park Fixed 5 Internal,205,Sale Water Park (Sale),53.431425,-2.3
+77,Cam 206 - Sale Water Park Fixed 6,206,Sale Water Park (Sale),53.431336,-2.300072
+78,Cam 207 - Sale Water Park Fixed 7,207,Sale Water Park (Sale),53.431355,-2.300123
+79,Cam 208 - Sale Water Park Fixed 8,208,Sale Water Park (Sale),53.431402,-2.300268
+80,Cam 275 - Kings Rd/Edge Lane,275,Kings Rd/Edge Lane (Stretford),53.445465,-2.302341
+81,Cam 276 - Sale Magistrates,276,Sale Magistrates - School Road/Cross Street (Sale),53.425703,-2.325966
+82,Cam 277 - Kings Ransom Sale,277,Kings Ransom - Northenden Road (Sale),53.42467,-2.318901
+83,Cam 278 - Upper Chorlton Rd),278,Upper Chorlton Rd (Old Trafford),53.457036,-2.261344
+84,Cam 279 - Grove Lane,279,"Grove Lane, Hale (Altrincham)",53.380931,-2.32808
+85,Cam 280 - Norton Street,280,Norton Street (Old Trafford),53.457699,-2.262833
+86,"Cam 281 - Chester Rd, Gorse Hill",281,"Chester Rd, Gorse Hill (Gorse Hill)",53.454109,-2.298618
+87,Cam 283 - Milton Road/Talbot Road,283,Milton Road/Talbot Road (Gorse Hill),53.453648,-2.296942
+88,"Cam 284 - Moss Lane, Altrincham",284,Moss Lane (Altrincham),53.386442,-2.347952
+89,Cam 286 - Stamford Street,286,Stamford Street (Old Trafford),53.459203,-2.260948
+90,Cam 288 - The Downs,288,The Downs (Altrincham),53.384678,-2.352185
+91,Cam 289 - Lostock Subway - Circle Court,289,Lostock Subway - Circle Court (Lostock),53.456447,-2.337634
+92,Cam 292 - Rippon Road,292,Rippon Road (Lostock),53.453209,-2.333404
+93,"Cam 293 - Shaws Road, Altrincham Market",293,"Shaws Road, Altrincham Market (Altrincham)",53.387323,-2.350947
+94,Cam 294 - Stamford Park,294,Stamford Park (Altrincham),53.383295,-2.343039
+95,Cam 295 - Mainswood Road,295,Mainswood Road (Timperley),53.392165,-2.311396
+96,Cam 296 - Goose Green/Cinema,296,Goose Green/Cinema (Altrincham),53.385035,-2.349398
+97,Cam 297 - Altrincham Taxi Rank,297,Altrincham Taxi Rank (Altrincham),53.387282,-2.348568
+98,Cam 299 - Craven Road,299,Craven Road (Broadheath),53.401198,-2.359343
