@@ -51,12 +51,23 @@ df_geocoded <- rbind(df1, df2, df3, df_ungeocoded)
 filter(df_geocoded, precision != "Manually geocoded") %>% 
   summarise(hit_rate = round(nrow(.) / nrow(df) * 100, 1))
 
-# write data  ---------------------------
-write_csv(df_geocoded, "GM_food_banks.csv")
+# manual geocoding ---------------------------
 
-# write geospatial data  ---------------------------
-df_geocoded %>%  
+# write geospatial data ---------------------------
+sf_geocoded <- df_geocoded %>%  
   filter(!is.na(lon)) %>%
   st_as_sf(coords = c("lon", "lat")) %>% 
-  st_set_crs(4326) %>% 
-  st_write("GM_food_banks.geojson")
+  st_set_crs(4326)
+
+wards <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/lookups/administrative_lookup.geojson") %>% 
+  st_transform(crs = 4326) %>% 
+  select(wd17cd, wd17nm, lad17cd, lad17nm)
+
+sf_geocoded <- st_join(sf_geocoded, wards, join = st_within, left = FALSE)
+
+st_write(sf_geocoded, "GM_food_banks.geojson")
+
+# write data  ---------------------------
+sf_geocoded %>%
+  st_set_geometry(value = NULL) %>% 
+  write_csv("GM_food_banks.csv")
