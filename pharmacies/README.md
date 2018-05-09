@@ -1,4 +1,4 @@
-[<img src="thumbnail.png">](GM_food_banks_styled.geojson)
+[<img src="thumbnail.png">](trafford_pharmacies_styled.geojson)
 </br>
 
 <table>
