@@ -60,6 +60,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td><a href=""></a></td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?title=Food%20banks&about=Location%20of%20food%20banks%2c%20pantries%20and%20food%20clubs%20across%20Trafford.%3cbr%20%2f%3e%3cbr%20%2f%3eDownload%3a%20%3ca%20href%3d%22https%3a%2f%2fwww.trafforddatalab.io%2fopen_data%2ffood_banks%2ftrafford_food_banks.csv%22%20target%3d%22_blank%22%3eCSV%3c%2fa%3e%20%7c%20%3ca%20href%3d%22https%3a%2f%2fwww.trafforddatalab.io%2fopen_data%2ffood_banks%2ftrafford_food_banks.geojson%22%20target%3d%22_blank%22%3eGeoJSON%3c%2fa%3e.%3cbr%20%2f%3eFurther%20resources%20available%20%3ca%20href%3d%22https%3a%2f%2fgithub.com%2ftraffordDataLab%2fopen_data%2ftree%2fmaster%2ffood_banks%22%20target%3d%22_blank%22%3eon%20GitHub%3c%2fa%3e.&attr=GM%20Poverty%20Action&data=https://www.trafforddatalab.io/open_data/food_banks/trafford_food_banks.geojson">Explore application</a>.</td>
 </tr>
 </table>
