@@ -11,7 +11,8 @@ raw <- read_csv("http://www.cqc.org.uk/sites/default/files/14_May_2018_CQC_direc
 
 # load area lookup ---------------------------
 area_lookup <- read_csv("https://www.traffordDataLab.io/spatial_data/lookups/administrative_lookup.csv") %>% 
-  select(area_code = lad17cd, area_name = lad17nm)
+  select(area_code = lad17cd, area_name = lad17nm) %>% 
+  unique()
 
 # tidy data ---------------------------
 df <- raw %>% 
