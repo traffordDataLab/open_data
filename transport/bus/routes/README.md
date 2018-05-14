@@ -1,3 +1,6 @@
+[<img src="thumbnail.png">](trafford_bus_routes_styled.geojson)
+</br>
+
 <table>
 <tr>
 	<td>Dataset name</td>
