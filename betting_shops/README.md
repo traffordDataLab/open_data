@@ -48,7 +48,7 @@
 </tr>
 <tr>
 	<td>Format</td>
-	<td>CSV, GeoJSON, JSON</td>
+	<td>CSV, GeoJSON</td>
 </tr>
 <tr>
 	<td>Openness rating</td>
@@ -60,7 +60,7 @@
 </tr>
 <tr>
 	<td>Notes</td>
-	<td></td>
+	<td>The postcodes for each location are linked to coordinates from the ONS' Postcode Directory which contains British National Grid coordinates for address-weighted unit postcode centroids.</td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>
