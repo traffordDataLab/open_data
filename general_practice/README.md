@@ -1,5 +1,4 @@
 [<img src="thumbnail.png">](GM_general_practices_styled.geojson)
-</br>
 
 <table>
 <tr>
