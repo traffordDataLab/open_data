@@ -56,7 +56,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>November 2017</td>
+	<td>May 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>
