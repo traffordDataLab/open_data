@@ -44,7 +44,7 @@ Ince Surgery,NA,1-2243873064,1942483150,"Ince Community Centre, Manchester Road,
 Braithwaite Road Surgery,NA,1-2243873064,1942718221,"36 Braithwaite Road, Lowton, Warrington",WA3 2HY,Wigan,E08000010,53.477412,-2.574985
 Astley General Practice,NA,1-2243873064,1942876339,"391A Manchester Road, Astley, Tyldesley, Manchester",M29 7BY,Wigan,E08000010,53.500415,-2.458266
 3D Medical Centre,NA,1-2243873064,1204463246,"200-202 Deane Road, Bolton",BL3 5DP,Bolton,E08000001,53.573058,-2.443963
-Bolton General Practice,NA,1-2244021771,1204521e3,"Marsden House, Marsden Road, Bolton",BL1 2AY,Bolton,E08000001,53.578947,-2.43424
+Bolton General Practice,NA,1-2244021771,1.204521E+09,"Marsden House, Marsden Road, Bolton",BL1 2AY,Bolton,E08000001,53.578947,-2.43424
 The Heights General Practice,NA,1-2244021771,1617365282,"355 Bolton Road, Salford",M6 7NJ,Salford,E08000006,53.500671,-2.308735
 Bolton Medical Centre,NA,1-2244021771,1204463900,"21 Rupert Street, Bolton",BL3 6PY,Bolton,E08000001,53.56543,-2.431399
 Nuffield Health Manchester Diagnostic Suite,NA,1-102643516,7557296378,"City Labs, Nelson Street, Manchester",M13 9NQ,Manchester,E08000003,53.462228,-2.228478
@@ -58,7 +58,7 @@ Primrose Surgery,NA,1-199787456,1617472424,"59 Old Crofts Bank, Urmston, Manches
 Cheetham Hill Medical Centre,NA,1-2418354863,7951725356,"244 Cheetham Hill Road, Manchester",M8 8AU,Manchester,E08000003,53.500819,-2.235847
 The Neville Family Medical Centre,NA,1-2428350755,1617214865,"25 Old Market Street, Blackley, Manchester",M9 8DX,Manchester,E08000003,53.522771,-2.220629
 Direct Medicare UK Limited,NA,1-2464425273,16119624625,"Bodmin Road Health Centre, Bodmin Road, Sale",M33 5JH,Trafford,E08000009,53.428123,-2.351718
-Ashton 7 Day Access Hub,NA,1-2460997239,1613427e3,"Ashton Primary Care Centre, 193 Old Street, Ashton-Under-Lyne",OL6 7SR,Tameside,E08000008,53.486097,-2.099213
+Ashton 7 Day Access Hub,NA,1-2460997239,1.613427E+09,"Ashton Primary Care Centre, 193 Old Street, Ashton-Under-Lyne",OL6 7SR,Tameside,E08000008,53.486097,-2.099213
 Hyde 7 Day Access Hub,NA,1-2460997239,7533992822,"Haughton Thornley Medical Centre, Thornley House, Thornley Street, Hyde",SK14 1JY,Tameside,E08000008,53.446746,-2.076116
 Cheetham Hill Medical Centre,NA,1-2162142726,NA,"244 Cheetham Hill Road, Cheetham Hill, Manchester",M8 8UP,Manchester,E08000003,53.501162,-2.23526
 Conran Medical Centre,NA,1-2162142726,NA,"77 Church Lane, Harpurhey, Manchester",M9 1BA,Manchester,E08000003,53.515913,-2.210459
@@ -99,7 +99,6 @@ Spamedica Limited,NA,1-101727990,1618300870,"SpaMedica House, 43 Churchgate, Bol
 Swinton Gateway,NA,1-2103767480,1612124231,"Swinton Gateway, 100 Chorley Road, Swinton, Manchester",M27 6BP,Salford,E08000006,53.512236,-2.342204
 Diet UK Bolton,NA,1-2695476603,1204493975,"Newlands Centre, 315 Chorley New Road, Bolton",BL1 5BP,Bolton,E08000001,53.579477,-2.46548
 Newbury Green Medical Practice,NA,1-199786139,1612125050,"Newbury Place Health Centre, 55 Rigby Street, Salford",M7 4NX,Salford,E08000006,53.507103,-2.260516
-Brooks Bar Medical Centre,NA,1-3769470093,1612267777,"162-164 Chorlton Road, Manchester",M16 7WW,Trafford,E08000009,53.459478,-2.258524
 The Birches Medical Centre,NA,1-3754445443,1617733037,"Polefield Road, Prestwich, Manchester",M25 2GN,Bury,E08000002,53.538361,-2.271091
 Manchester,NA,1-2819608943,1618322134,"66-68 Bridge Street, Manchester",M3 2RJ,Manchester,E08000003,53.480785,-2.248589
 Slag Lane Medical Centre,NA,1-3886586691,1942715200,"216 Slag Lane, Lowton, Warrington",WA3 2EZ,Wigan,E08000010,53.478569,-2.575634
@@ -120,7 +119,7 @@ New Bank Health Centre,NA,1-199784783,1612775600,"339 Stockport Road, Manchester
 Victoria Mill Medical Practice,NA,1-2162142726,1612654407,"Victoria Mill, 10 Lower Vickers Street, Manchester",M40 7LH,Manchester,E08000003,53.489633,-2.214292
 Charlestown Medical Practice,NA,1-2162142726,NA,"Charlestown Road, Manchester",M9 7ED,Manchester,E08000003,53.52264,-2.186902
 Manchester Institute of Health & Performance,NA,1-2418354863,7951725356,"299 Alan Turing Way, Manchester",M11 3BS,Manchester,E08000003,53.477301,-2.191764
-Limelight Health and Well-being Hub,NA,1-3769470093,1612267777,"Limelight, 1-3 St Brides Way, Manchester",M16 9NW,Trafford,E08000009,53.461412,-2.261969
+Limelight Health and Well-being Hub,Brooks Bar Medical Centre,1-3769470093,1612267777,"Limelight, 1-3 St Brides Way, Manchester",M16 9NW,Trafford,E08000009,53.461412,-2.261969
 Manchester Private Hospital,NA,1-3705113743,1618277868,"New Court, Regents Place, 2 Windsor Street, Salford",M5 4HB,Salford,E08000006,53.479002,-2.278563
 West Gorton Medical Centre,NA,1-1555716224,161223522,"2 Clowes Street, Manchester",M12 5JE,Manchester,E08000003,53.467205,-2.203859
 Pemberton Surgery,Pemberton Hub,1-4381552157,1942367199,"Sherwood Drive, Wigan",WN5 9QX,Wigan,E08000010,53.538311,-2.669739
@@ -129,7 +128,7 @@ Shevington Surgery,Shevington Hub,1-4381552157,1942483777,"1 Houghton Lane, Shev
 Pennygate Medical Practice,Pennygate Hub,1-4381552157,1942807500,"109 Ladies Lane, Hindley, Wigan",WN2 2QG,Wigan,E08000010,53.540002,-2.576271
 Intrahealth Tyldesley,Tyldesley Hub,1-4381552157,1942481680,"Tyldesley Health Centre, Poplar Street, Tyldesley, Manchester",M29 8AX,Wigan,E08000010,53.516715,-2.468999
 Bridgewater Medical Centre,Bridgewater Hub,1-4381552157,1942481851,"Bridgewater Medical Centre, Henry Street, Leigh",WN7 2PE,Wigan,E08000010,53.493519,-2.511927
-Christopher Home,NA,1-4381552157,1942244e3,"Wigan Lane, Wigan",WN1 2NN,Wigan,E08000010,53.55774,-2.629091
+Christopher Home,NA,1-4381552157,1.942244E+09,"Wigan Lane, Wigan",WN1 2NN,Wigan,E08000010,53.55774,-2.629091
 MYA Clinics Limited (Manchester),NA,1-4338676007,1612144790,"262 Deansgate, Manchester",M3 4BG,Manchester,E08000003,53.477735,-2.250062
 The Bodyline Clinic Limited Stockport,NA,1-4472783281,8454918750,"Heaton House, Heaton Lane, Stockport",SK4 1AQ,Stockport,E08000007,53.40983,-2.164728
 The Bodyline Clinic Limited Openshaw,NA,1-4472783281,8454918750,"Unit 1, 1119 Ashton Old Road, Manchester",M11 1AA,Manchester,E08000003,53.473765,-2.172284
@@ -146,7 +145,7 @@ Pendleton Gateway,NA,1-2103767480,NA,"1 Broad Walk, Pendleton, Salford",M6 5FX,S
 Academy of Health and Diet,NA,1-4327011632,7889509511,"8 Market Street, Leigh",WN7 1DS,Wigan,E08000010,53.497135,-2.519114
 Winstanley Medical Centre,NA,1-2383802146,NA,"Holmes House Avenue, Wigan",WN3 6JN,Wigan,E08000010,53.521291,-2.668958
 Elmfield Surgery,NA,1-1455850967,1942481080,"Omerod House, Ahterton Health Centre, Nelson Street, Atherton, Manchester",M46 0LE,Wigan,E08000010,53.527489,-2.500811
-Irlam Clinic,NA,1-4742752580,161775e4,"125 Liverpool Road, Irlam, Manchester",M44 6DP,Salford,E08000006,53.449107,-2.417074
+Irlam Clinic,NA,1-4742752580,1.61775E+09,"125 Liverpool Road, Irlam, Manchester",M44 6DP,Salford,E08000006,53.449107,-2.417074
 The Robert Darbishire Practice,NA,1-1555716224,161225669,"Rusholme Health Centre, Walmer Street, Rusholme, Manchester",M14 5NP,Manchester,E08000003,53.454626,-2.226177
 Cornerstone Medical Practice,NA,1-4742752580,1612124445,"Langworthy Centre, 451 Liverpool Street, Salford",M6 5QQ,Salford,E08000006,53.483785,-2.296843
 RK Medical Practice,NA,1-4826318120,1614939493,"Brownley Green Health Centre, 171 Brownley Road, Manchester",M22 9UH,Manchester,E08000003,53.386597,-2.255632
@@ -209,7 +208,7 @@ Dr Mahadeva Selvarajan,Deane Clinic One Stop Health Centre,1-199783898,120464089
 Orchard Medical Centre,NA,1-199786287,1617028579,"10 Leigh Road, Boothstown, Manchester",M28 1LZ,Salford,E08000006,53.502881,-2.420888
 Dr Samir Naseef,Orient House Medical Centre,1-199783772,1204462198,"216 Wigan Road, Deane, Bolton",BL3 5QE,Bolton,E08000001,53.568942,-2.460819
 Dr Hany Azmy,The Surgery - Dr Hany Azmy,1-199786863,1614804164,"The Surgery, 30 Brinnington Road, Brinnington, Stockport",SK1 2EX,Stockport,E08000007,53.418398,-2.142795
-Peel Hall Medical Practice,NA,1-199784327,1613751e3,"Forum Health, Simonsway, Wythenshawe, Manchester",M22 5RX,Manchester,E08000003,53.379925,-2.265017
+Peel Hall Medical Practice,NA,1-199784327,1.613751E+09,"Forum Health, Simonsway, Wythenshawe, Manchester",M22 5RX,Manchester,E08000003,53.379925,-2.265017
 Dr Brian Perkins,Dr Perkins' Practice,1-199785548,1616213888,"Integrated Care Centre, New Radcliffe Street, Oldham",OL1 1NL,Oldham,E08000004,53.543824,-2.116945
 Dr Syed Shahbazi,Family Medical Practice,1-199788236,1942481638,"Kidglove House, Kidglove Road, Golborne",WA3 3GS,Wigan,E08000010,53.479089,-2.596088
 Dr Geeta Gupta,NA,1-199786922,1614269191,"South Reddish Medical Centre, Reddish Road, South Reddish, Stockport",SK5 7QU,Stockport,E08000007,53.422309,-2.156517
@@ -282,7 +281,7 @@ Valentine Medical Centre,NA,1-199784317,1612415480,"2 Smethurst Street, Blackley
 Mount Road Surgery,NA,1-199784596,1612314997,"110 Mount Road, Gorton, Manchester",M18 7BQ,Manchester,E08000003,53.45981,-2.1814
 Longfield Medical Practice,NA,1-199784218,1617730494,"Prestwich Health Centre, Fairfax Road, Prestwich, Manchester",M25 1BT,Bury,E08000002,53.533828,-2.28357
 Dr Alistair Partnership,NA,1-199788303,1942483250,"7 Brooks Medical Centre, 21 Church Street, Atherton, Manchester",M46 9DE,Wigan,E08000010,53.524185,-2.489022
-Irlam Group Practice,NA,1-199786050,1617761e3,"523 Liverpool Road, Irlam, Manchester",M44 6ZS,Salford,E08000006,53.439142,-2.426415
+Irlam Group Practice,NA,1-199786050,1.617761E+09,"523 Liverpool Road, Irlam, Manchester",M44 6ZS,Salford,E08000006,53.439142,-2.426415
 Bramhall Park Medical Centre,Dr Devine & Partners,1-199786685,1612044221,"235 Bramhall Lane South, Bramhall, Stockport",SK7 3EP,Stockport,E08000007,53.376037,-2.162344
 The Gill Medical Centre,NA,1-199786158,1617903033,"5 Harriet Street, Worsley, Manchester",M28 3DR,Salford,E08000006,53.524288,-2.398384
 Ashworth Street Surgery,NA,1-199785715,1706346767,"85 Spotland Road, Rochdale",OL12 6RT,Rochdale,E08000005,53.619565,-2.165652
@@ -341,7 +340,7 @@ Heaton Mersey Medical Practice,NA,1-199786606,1614269400,"460 Didsbury Road, Hea
 Partington Family Practice,NA,1-199787555,1617757033,"Partington Health Centre, Central Road, Partington, Manchester",M31 4FY,Trafford,E08000009,53.417204,-2.425413
 The Dawes Family Practice,NA,1-199785883,1706644040,"83 Spotland Road, Rochdale",OL12 6RX,Rochdale,E08000005,53.619565,-2.165652
 Shanti Medical Centre,NA,1-199783742,1204665354,"160 St Helens Road, Bolton",BL3 3PH,Bolton,E08000001,53.563369,-2.451458
-Barlow Medical Centre,NA,1-199784456,1614459e3,"828 Wilmslow Road, Didsbury, Manchester",M20 2RN,Manchester,E08000003,53.413163,-2.231434
+Barlow Medical Centre,NA,1-199784456,1.614459E+09,"828 Wilmslow Road, Didsbury, Manchester",M20 2RN,Manchester,E08000003,53.413163,-2.231434
 Dr Ngan and Partners,NA,1-199784237,1612741500,"The Vallance Centre, Brunswick Street, Manchester",M13 9UJ,Manchester,E08000003,53.469786,-2.224542
 Adswood Road Surgery,NA,1-199786942,1614269770,"270 Adswood Road, Adswood, Stockport",SK3 8PN,Stockport,E08000007,53.389393,-2.169883
 Gorton Medical Centre,NA,1-199784407,1612231113,"46 Wellington Street, Gorton, Manchester",M18 8LJ,Manchester,E08000003,53.463168,-2.171985
@@ -352,7 +351,7 @@ Bradshaw Medical Partnership,NA,1-199787837,1942483900,"Bradshaw Medical Centre,
 Shevington Surgery,NA,1-199787907,1942483777,"The Surgery, Houghton Lane, Shevington, Wigan",WN6 8ET,Wigan,E08000010,53.574041,-2.69942
 Dr Stockton & Dr Thompson,Dr Stockton & Thompson,1-199793926,1616544103,"Clough Street,, Middleton,, Manchester",M24 2YJ,Rochdale,E08000005,53.55683,-2.187672
 Langworthy Medical Practice,NA,1-199786148,1617379244,"250 Langworthy Road, Salford",M6 5WW,Salford,E08000006,53.489371,-2.294771
-Heald Green Health Centre 1,Dr Dean & Partners,1-199786835,1614269e3,"Finney Lane, Heald Green, Cheadle",SK8 3JD,Stockport,E08000007,53.369878,-2.229276
+Heald Green Health Centre 1,Dr Dean & Partners,1-199786835,1.614269E+09,"Finney Lane, Heald Green, Cheadle",SK8 3JD,Stockport,E08000007,53.369878,-2.229276
 The Chandler Surgery,Dr Kumar's Surgery,1-199787957,1942481440,"Chandler House, Worsley Mesnes Health Centre, Poolstock Lane, Wigan",WN3 5HL,Wigan,E08000010,53.529393,-2.643772
 CH Medical,NA,1-199785325,161785924,"Fields New Road Primary Care Centre, Chadderton, Oldham",OL9 8NH,Oldham,E08000004,53.533205,-2.145068
 St Chads Medical Practice,NA,1-199785325,161620161,"St Chads Centre, Lime Green Parade, Lime Green, Oldham",OL8 3HH,Oldham,E08000004,53.515222,-2.126789
@@ -431,7 +430,7 @@ Cheadle Medical Practice,NA,1-199786725,1614269090,"1-5 Ashfield Crescent, Chead
 Alexandra Group Medical Practice,NA,1-199785363,1616229210,"Glodwick Primary Care Centre, 137 Glodwick Road, Oldham",OL4 1YN,Oldham,E08000004,53.537786,-2.095095
 Bramhall Health Centre,NA,1-199786675,1614265850,"66 Bramhall Lane South, Bramhall, Stockport",SK7 2DY,Stockport,E08000007,53.36001,-2.162929
 Dr Tun & Partners,NA,1-199787797,1942482505,"The Health Centre, 17 Liverpool Road, Hindley, Wigan",WN2 3HQ,Wigan,E08000010,53.532102,-2.583571
-Littleborough Group Practice,NA,1-199785835,1706393e3,"Littleborough Health Centre, Featherstall Road, Littleborough",OL15 8HF,Rochdale,E08000005,53.642995,-2.103349
+Littleborough Group Practice,NA,1-199785835,1.706393E+09,"Littleborough Health Centre, Featherstall Road, Littleborough",OL15 8HF,Rochdale,E08000005,53.642995,-2.103349
 Spring House Surgery,NA,1-199783578,1204848411,"555 Chorley Old Road, Bolton",BL1 6AF,Bolton,E08000001,53.588374,-2.463553
 The Mosslands Medical Practice,NA,1-199786218,1617760737,"Irlam Medical Centre, Macdonald Road, Irlam, Manchester",M44 5LH,Salford,E08000006,53.437925,-2.432258
 Halliwell Surgery 3,"Dr Hunt, James & Uddin",1-199783792,1204523716,"The Halliwell Surgery, Lindfield Drive, Halliwell, Bolton",BL1 3RG,Bolton,E08000001,53.588322,-2.431738
@@ -459,7 +458,7 @@ Manchester Medical,NA,1-199784832,1612267615,"Moss Side Health Centre, Monton St
 Harwood Medical Centre,Dr Lancashire & Partners,1-199783598,1204300033,"Harwood Medical Centre, Hough Fold Way, Harwood, Bolton",BL2 3HQ,Bolton,E08000001,53.604069,-2.398153
 Mauldeth Medical Centre,NA,1-199784307,1614346678,"112 Mauldeth Road, Fallowfield, Manchester",M14 6SQ,Manchester,E08000003,53.434823,-2.213429
 Dr BN Macdonald & Partners,Barrington Medical Centre,1-199787623,1619289621,"68 Barrington Road, Altrincham",WA14 1JB,Trafford,E08000009,53.395191,-2.35098
-The Dicconson Group Practice,NA,1-199787788,1942482e3,"Boston House,, Frog Lane,, Wigan",WN6 7LB,Wigan,E08000010,53.549467,-2.644891
+The Dicconson Group Practice,NA,1-199787788,1.942482E+09,"Boston House,, Frog Lane,, Wigan",WN6 7LB,Wigan,E08000010,53.549467,-2.644891
 Dr Hampson & Partners,Greenmount Medical Centre,1-199784071,1204885111,"9 Brandlesholme Road, Greenmount, Bury",BL8 4DR,Bury,E08000002,53.623999,-2.335913
 Stable Fold Surgery,NA,1-199783489,1942813678,"119 Church Street, Westhoughton, Bolton",BL5 3SF,Bolton,E08000001,53.552405,-2.52343
 Oldham Family Practice,NA,1-199785286,1616213456,"Integrated Care Centre, New Radcliffe Street, Oldham",OL1 1NL,Oldham,E08000004,53.543824,-2.116945
