@@ -1,5 +1,4 @@
 [<img src="thumbnail.png">](bettingshops_gm_styled.geojson)
-</br>
 
 <table>
 <tr>
