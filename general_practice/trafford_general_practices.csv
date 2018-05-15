@@ -2,8 +2,7 @@ name,alias,cqc_id,tel,address,postcode,area_name,area_code,lat,long
 Urmston Group Practice,NA,1-199787408,1617559870,"6 Woodsend Crescent Road, Urmston, Manchester",M41 8AA,Trafford,E08000009,53.452491,-2.394066
 Primrose Surgery,NA,1-199787456,1617472424,"59 Old Crofts Bank, Urmston, Manchester",M41 7AB,Trafford,E08000009,53.456159,-2.357311
 Direct Medicare UK Limited,NA,1-2464425273,16119624625,"Bodmin Road Health Centre, Bodmin Road, Sale",M33 5JH,Trafford,E08000009,53.428123,-2.351718
-Brooks Bar Medical Centre,NA,1-3769470093,1612267777,"162-164 Chorlton Road, Manchester",M16 7WW,Trafford,E08000009,53.459478,-2.258524
-Limelight Health and Well-being Hub,NA,1-3769470093,1612267777,"Limelight, 1-3 St Brides Way, Manchester",M16 9NW,Trafford,E08000009,53.461412,-2.261969
+Limelight Health and Well-being Hub,Brooks Bar Medical Centre,1-3769470093,1612267777,"Limelight, 1-3 St Brides Way, Manchester",M16 9NW,Trafford,E08000009,53.461412,-2.261969
 Dr Richard Clare,Dr Richard George Clare,1-199787594,1619733499,"The Surgery, 12 Derbyshire Road South, Sale",M33 3JP,Trafford,E08000009,53.416957,-2.310144
 Dr Sally Johnston,NA,1-199787730,1619629662,"34 Riddings Road, Timperley, Altrincham",WA15 6BP,Trafford,E08000009,53.404424,-2.331291
 Dr Salam J Farhan,Partington Central Surgery,1-199787515,1617757032,"Partington Health Centre, Central Road, Partington, Manchester",M31 4FY,Trafford,E08000009,53.417204,-2.425413
