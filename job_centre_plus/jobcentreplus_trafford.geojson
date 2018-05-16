@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "name": "Altrincham JCP", "address": "Robert House, 80 Manchester Road, Altrincham, WA14 4PU" }, "geometry": { "type": "Point", "coordinates": [ -2.3520253, 53.3960363 ] } },
-{ "type": "Feature", "properties": { "name": "Stretford JCP", "address": "Arndale House, Chester Road, Stretford, Manchester, M32 9ED" }, "geometry": { "type": "Point", "coordinates": [ -2.3088952, 53.44481 ] } }
+{ "type": "Feature", "properties": { "name": "Altrincham", "address": "Robert House, 80 Manchester Road, Altrincham", "postcode": "WA14 4PU", "area_code": "E08000009", "area_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.351888, 53.395925 ] } },
+{ "type": "Feature", "properties": { "name": "Stretford", "address": "Arndale House, Chester Road, Stretford, Manchester", "postcode": "M32 9ED", "area_code": "E08000009", "area_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.309007, 53.444834 ] } }
 ]
 }

@@ -4,7 +4,7 @@
 library(tidyverse); library(sf) ; library(geojsonio)
 
 # read data ---------------------------
-geojson <- st_read("http://trafforddatalab.io/open_data/job_centre_plus/jobcentreplus_gm.geojson")
+geojson <- st_read("http://trafforddatalab.io/open_data/job_centre_plus/jobcentreplus_trafford.geojson")
 
 # apply styles ---------------------------
 geojson_styles <- geojson_style(geojson,
@@ -14,4 +14,4 @@ geojson_styles <- geojson_style(geojson,
          `marker-size` = marker.size)
 
 # write data ---------------------------
-st_write(geojson_styles, "jobcentreplus_gm.styled.geojson")
+st_write(geojson_styles, "jobcentreplus_trafford.styled.geojson")

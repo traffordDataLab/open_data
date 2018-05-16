@@ -1,29 +1,29 @@
-name,address,lon,lat
-Alexandra Park JCP,"91 Moss Lane East, Moss Side, Manchester, M15 5JB",-2.2519663,53.4604097
-Altrincham JCP,"Robert House, 80 Manchester Road, Altrincham, WA14 4PU",-2.3520253,53.3960363
-Ashton Under Lyne JCP,"101 Old Street, Ashton-under-Lyne, OL6 6BJ",-2.0950357,53.4877854
-Ashton-in-Makerfield JCP,"17-19 Gerard Street, Ashton-in-Makerfield, Wigan, WN4 9AB",-2.636758,53.4871831
-Bolton (Great Moor St.) JCP,"Great Moor Street, Bolton, BL3 6DT",-2.431129,53.57565
-Bolton (Blackhorse St.) JCP,"52 Blackhorse Street, Bolton, BL1 1SX",-2.432266,53.577386
-Bury JCP,"Silver Street, Bury, BL9 0DP",-2.2995534,53.5916059
-Cheetham Hill JCP,"36 Crescent Road, Cheetham Hill, Manchester, M8 9DQ",-2.2429123,53.5121615
-Didsbury JCP,"Danesmore Road 95-97, Palatine Road, West Didsbury, Manchester, M20 3JQ",-2.2354529,53.4259596
-Eccles JCP,"Peel House, Monton Road, Eccles, M30 0NA",-2.339101,53.48437
-Heywood JCP,"Taylor Street, Heywood, OL10 1ED",-2.2208558,53.5922715
-Hyde JCP,"Beech House, New Beech Street, Hyde, SK14 2LS",-2.078741,53.45232
-Irlam JCP,"Irlam Library, Hurst Fold, Liverpool Road, Irlam, M44 6FD",-2.41241,53.45227
-Leigh JCP,"Roydale House, 2-10 Windermere Road, Leigh, WN7 1UT",-2.519841,53.499701
-Longsight JCP,"123 Clarence Road, Longsight, M13 0ZL",-2.2065433,53.4553612
-Middleton JCP,"Othen House, 7 Oldham Road, Manchester, M24 1BX",-2.1966895,53.5482054
-Newton Heath JCP,"1009 Oldham Road, Newton Heath, M40 2EP",-2.1869268,53.5023792
-Oldham JCP,"Tweedale House, 75 Union Street, Oldham, OL1 1LH",-2.1133446,53.5403106
-Openshaw JCP,"Cornwall Street, Openshaw, M11 2WR",-2.173748,53.4722984
-Prestwich JCP,"1 Rectory Lane, Prestwich, M25 1BP",-2.281793,53.53163
-Rochdale JCP,"2 Fleece Street, Rochdale, OL16 1LT",-2.1568065,53.6163708
-Rusholme JCP,"96 Wilmslow Road, Rusholme, M14 5BJ",-2.2245273,53.4539393
-Salford JCP,"2 Paddington Close, Salford, M6 5PL",-2.284072,53.48669
-Stockport JCP,"Heron House, Wellington Street, Stockport, SK1 3BE",-2.159193,53.4082933
-Stretford JCP,"Arndale House, Chester Road, Stretford, Manchester, M32 9ED",-2.3088952,53.44481
-Wigan JCP,"Brocol House, 71 King Street, Wigan, WN1 1EA",-2.6297798,53.5434497
-Worsley JCP,"5 Worsley Court, High Street, Walkden, Worsley, Manchester, M28 3AD",-2.400303,53.524205
-Wythenshawe JCP,"Simon House, Wavell Road, Wythenshawe, Manchester, M22 5RA",-2.2584307,53.3785687
+name,address,postcode,area_code,area_name
+Alexandra Park,"91 Moss Lane East, Moss Side, Manchester",M15 5JB,E08000003,Manchester
+Altrincham,"Robert House, 80 Manchester Road, Altrincham",WA14 4PU,E08000009,Trafford
+Ashton Under Lyne,"101 Old Street, Ashton-under-Lyne",OL6 6BJ,E08000008,Tameside
+Ashton-in-Makerfield,"17-19 Gerard Street, Ashton-in-Makerfield, Wigan",WN4 9AB,E08000010,Wigan
+Bolton (Great Moor St.),"Great Moor Street, Bolton",BL3 6DT,E08000001,Bolton
+Bolton (Blackhorse St.),"52 Blackhorse Street, Bolton",BL1 1SX,E08000001,Bolton
+Bury,"Silver Street, Bury",BL9 0DP,E08000002,Bury
+Cheetham Hill,"36 Crescent Road, Cheetham Hill, Manchester",M8 9DQ,E08000003,Manchester
+Didsbury,"Danesmore Road 95-97, Palatine Road, West Didsbury, Manchester",M20 3JQ,E08000003,Manchester
+Eccles,"Peel House, Monton Road, Eccles",M30 0NA,E08000006,Salford
+Heywood,"Taylor Street, Heywood",OL10 1ED,E08000005,Rochdale
+Hyde,"Beech House, New Beech Street, Hyde",SK14 2LS,E08000008,Tameside
+Irlam,"Irlam Library, Hurst Fold, Liverpool Road, Irlam",M44 6FD,E08000006,Salford
+Leigh,"Roydale House, 2-10 Windermere Road, Leigh",WN7 1UT,E08000010,Wigan
+Longsight,"123 Clarence Road, Longsight",M13 0ZL,E08000003,Manchester
+Middleton,"Othen House, 7 Oldham Road, Manchester",M24 1BX,E08000005,Rochdale
+Newton Heath,"1009 Oldham Road, Newton Heath",M40 2EP,E08000003,Manchester
+Oldham,"Tweedale House, 75 Union Street, Oldham",OL1 1LH,E08000004,Oldham
+Openshaw,"Cornwall Street, Openshaw",M11 2WR,E08000003,Manchester
+Prestwich,"1 Rectory Lane, Prestwich",M25 1BP,E08000002,Bury
+Rochdale,"2 Fleece Street, Rochdale",OL16 1LT,E08000005,Rochdale
+Rusholme,"96 Wilmslow Road, Rusholme",M14 5BJ,E08000003,Manchester
+Salford,"2 Paddington Close, Salford",M6 5PL,E08000006,Salford
+Stockport,"Heron House, Wellington Street, Stockport",SK1 3BE,E08000007,Stockport
+Stretford,"Arndale House, Chester Road, Stretford, Manchester",M32 9ED,E08000009,Trafford
+Wigan,"Brocol House, 71 King Street, Wigan",WN1 1EA,E08000010,Wigan
+Worsley,"5 Worsley Court, High Street, Walkden, Worsley, Manchester",M28 3AD,E08000006,Salford
+Wythenshawe,"Simon House, Wavell Road, Wythenshawe, Manchester",M22 5RA,E08000003,Manchester

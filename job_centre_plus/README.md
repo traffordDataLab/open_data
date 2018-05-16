@@ -1,5 +1,4 @@
 [<img src="thumbnail.png">](jobcentreplus_gm.styled.geojson)
-</br>
 
 <table>
 <tr>
@@ -48,7 +47,7 @@
 </tr>
 <tr>
 	<td>Format</td>
-	<td>CSV, GeoJSON, JSON</td>
+	<td>CSV, GeoJSON</td>
 </tr>
 <tr>
 	<td>Openness rating</td>
@@ -56,11 +55,11 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>November 2017</td>
+	<td>May 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td>The addresses were batch geocoded using Google Maps with the [ggmap](https://cran.r-project.org/web/packages/ggmap/index.html) R package.</td>
+	<td>The postcodes for each location are linked to coordinates from the ONS' Postcode Directory which contains British National Grid coordinates for address-weighted unit postcode centroids.</td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>
