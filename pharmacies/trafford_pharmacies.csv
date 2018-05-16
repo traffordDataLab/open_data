@@ -1,65 +1,64 @@
-provider,address,postcode,telephone,lon,lat,precision
-Boots Uk Ltd (Altrincham),"Unit 8B Altrincham Retail Park, George Richards Way, Altrincham",WA14 5GR,0161 928 5024,-2.3571949,53.4002847,Address and postcode
-Boots Uk Ltd (Canterbury),"179 Canterbury Road, Urmston",M41 0SE,0161 748 3016,-2.3447696,53.4550798,Address and postcode
-Boots Uk Ltd (Eden Sq),"Eden Square, Golden Way, Urmston",M41 0NA,0161 748 2317,-2.3547181,53.4492662,Address and postcode
-Boots Uk Ltd (Stretford),"69 -72 The Mall, Stretford",M32 9BD,0161 865 7062,-2.3108169,53.445206399999996,Address and postcode
-Broadheath Pharmacy (Loggerheads Pharmacy Ltd),"70 Manchester Road, Altrincham",WA14 4PJ,0161 929 7144,-2.3520287,53.395436,Address and postcode
-Limelight Pharmacy (Prev. Brooks Bar Pharmacy),"162 - 164 Chorlton Road, Old Trafford",M16 7WW,0161 226 4005,-2.2622713,53.4610273,Address and postcode
-Pathvalley Ltd TA Cohens Chemist (Hale),"177 Ashley Road, Hale, Altrincham",WA15 9SD,0161 928 1662,-2.3460907,53.3774131,Address and postcode
-Empire,"122 Seymour Grove, Old Trafford, Manchester",M16 0FF,0161 258 6149,-2.2745777,53.4563712,Address and postcode
-Gorgemead TA Cohens (Bowdon Pharmacy),"6 Vale View, Vicarage Lane, Bowden",WA14 3BD,0161 929 9005,-2.3609196,53.3721154,Address and postcode
-GP Roberts Chemist Ltd,"137 Ayres Road, Old Trafford, Manchester",M16 9WR,0161 872 1121,-2.2713664,53.4578287,Address and postcode
-Harrys' Pharmacy,"92 Mitford Street, Stretford",M32 8AQ,0161 865 6331,-2.312323,53.4463283,Address and postcode
-Hugall J Ltd (Alphega),"143 Northenden Road, Sale",M33 3HF,0161 973 1056,-2.3037138,53.41996870000001,Address and postcode
-Lloyds Pharmacy (Broadway),"130 Broadway, Davyhulme, Manchester",M41 7WJ,0161 748 2199,-2.3677805,53.4591632,Address and postcode
-Lloyds Pharmacy (Crofts Band Road)  CLOSED,"3 Crofts Bank Road, Urmston",M41 0TZ,0161 748 2966,-2.3532361,53.4486731,Address and postcode
-"Lloyds Pharmacy (Grove Lane, Hale)","186-188 Grove Lane, Hale, Altrincham",WA15 8PU,0161 980 2424,-2.313985,53.3808894,Address and postcode
-Malcolm's Pharmacy,"28 Flixton Road, Urmston, Manchester",M41 5AA,0161 747 2277,-2.3548352,53.448519,Address and postcode
-Oldfield Pharmacy,"128 Seamons Road, Old field Brow, Altrincham",WA14 4LJ,0161 942 9701,-2.3711258,53.3930652,Address and postcode
-Peak Pharmacy (PCT Healthcare),"431 Barton Road, Stretford, Manchester",M32 9PA,0161 865 1603,-2.3290565,53.4547338,Address and postcode
-Pelican Pharmacy,"344 Manchester Road, West Timperley, Altrincham",WA14 5NH,0161 962 4255,-2.3464263,53.40686520000001,Address and postcode
-Reeds Pharmacy (Clearcourts/Pharmacy Care Plus),"182 Church Road, Urmston,",M41 9FD,0161 748 2438,-2.3641927,53.444762,Address and postcode
-Rowlands Pharmacy (Altrincham),"Lloyd House, 7 Lloyd Street, Altrincham",WA14 2DD,0161 928 2114,-2.350219,53.3845059,Address and postcode
-Rowlands Pharmacy (Coppice Ave),"54 Coppice Ave, Sale",M33 4WB,0161 973 3552,-2.351086,53.4146083,Address and postcode
-Sainsburys Supermarket Ltd  Sale (Lloyds),"Curzon Road, Sale",M33 7SA,0161 973 1075,-2.3233387,53.4261574,Address and postcode
-Sainsburys Supermarket Ltd Alt (Lloyds),"Lloyd Street, Altrincham",WA14 2SU,0161 941 3185,-2.3503718,53.3839483,Address and postcode
-Sainsburys Supermarket Ltd Urm (Lloyds),"Unit 24, Eden Square Shopping Ctr, Urmston",M41 0NA,0161 911 5405,-2.3541132,53.4496464,Address and postcode
-Station Pharmacy (Vittoria Healthcare Ltd),"102 Park Road, Timperley, Altrincham",WA15 6TE,0161 973 1238,-2.3367324,53.40336809999999,Address and postcode
-Terry's Chemist (Walkabout Ltd),"28 Sinderland Road, Altrincham",WA14 5ET,0161 928 1275,-2.3537633,53.401342,Address and postcode
-Tesco Stores Ltd  (Altrincham),"Manor Road, Altrincham",WA15 9QT,0161 956 9547,-2.3473302,53.3854762,Address and postcode
-Tesco Stores Ltd  (Stretford),"Chester Road, Stretford",M32 0QW,0161 956 8247,-2.2905937,53.4590781,Address and postcode
-Tesco Stores Ltd (Sale),"Hereford Street, Sale",M33 7XN,0161 951 6447,-2.3248952,53.424516,Address and postcode
-Urmston Pharmacy,"287B Stretford Road, Urmston,",M41 9NV,0161 864 3733,-2.3305341,53.4458823,Address and postcode
-Village Pharmacy (Hollowood Chemist),"23 Green Lane, Ashton on Mersey, Sale",M33 5PN,0161 973 6024,-2.3422911,53.42945659999999,Address and postcode
-Well Pharmacy (Ayres Road),"65 Ayres Road, Old Trafford",M16 9NH,0161 226 2163,-2.2647851,53.45900049999999,Address and postcode
-Well Pharmacy (Station Bridge),"2 Station Bridge, Station Road, Urmston",M41 9SB,0161 748 2090,-2.3532935,53.4479586,Address and postcode
-Well Pharmacy (Whalley Range),"201 Upper Chorlton Road, Whalley Range",M16 0BH,0161 881 1850,-2.2696191,53.4515087,Address and postcode
-Well Pharmacy (Woodsend Circle),"10 Woodsend Circle, Flixton, Manchester",M41 8GY,0161 748 1926,-2.3937575,53.45244020000001,Address and postcode
-Boots Uk Ltd (Trafford Retail),"Trafford Retail park, Neary Way, Manchester",M41 7FN,0161 748 7836,-2.3602918,53.4629086,Address and postcode
-Broomwood Pharmacy Ltd,"63 Briarfield Road, Timperley, Altrincham",WA15 7DD,0161 980 0869,-2.3117878,53.3923733,Address and postcode
-Cohen's Chemist (Assura),"Firsway Health Centre, 121 Firsway, Sale",M33 4BR,0161 962 2871,-2.3552839,53.42141849999999,Address and postcode
-Elliots Pharmacy,"60 Seymour Grove, Old Trafford, Manchester",M16 0LN,0161 877 3000,-2.275731,53.459616,Address and postcode
-Hollowood chemist (Washway),"69 Washway Road, Sale",M33 7SS,0161 962 8228,-2.3284292,53.4224034,Address and postcode
-Lloyds Pharmacy (Delamere),"The Delamere Centre, Delamere Ave, Stretford",M32 0DF,0161 865 2334,-2.3073348,53.4509007,Address and postcode
-Lloyds Pharmacy (Hale),"321 Hale Road, Hale barns,",WA15 8SS,0161 980 5247,-2.3137132,53.3695172,Address and postcode
-Mai's Pharmacy,"10 North Road, Derbyshire Road South, Sale",M33 3JS,0161 973 2288,-2.3122489,53.42187819999999,Address and postcode
-MRS Healthcare (Hale Barns Pharmacy),"Shay Lane Medical Centre, Shay Lane, Hale Barns",WA15 8NZ,0161 904 0865,-2.3154064,53.3716552,Address and postcode
-Riddings Pharmacy,"38 Riddings Road, Timperley, Altrincham",WA15 6BP,0161 973 2951,-2.3312121,53.4045927,Address and postcode
-Rowlands Pharmacy (Norris Road),"331 Norris Road, Sale",M33 2UP,0161 973 4850,-2.298632500000001,53.4149302,Address and postcode
-Rowlands Pharmacy (Old Trafford),"6 Lime Grove,  Old Trafford, Manchester",M16 0WL,0161 872 6719,-2.276292,53.4591735,Address and postcode
-Timperley Pharmacy,"250 Stockport road, Timperley",WA15 7UN,0161 948 5066,-2.3183272,53.39730609999999,Address and postcode
-Well Pharmacy (Moorside Road),"475 Moorside Road, Flixton",M41 8TW,0161 748 5472,-2.3917531,53.4524681,Address and postcode
-Well Pharmacy (Sale),"2 Eastway, Sale, Cheshire",M33 4DX,0161 973 1750,-2.3403257,53.4110752,Address and postcode
-Well Pharmacy (Stockport Road),"238 Stockport Road, Timperley",WA15 7UN,0161 980 4269,-2.3191049,53.3970129,Address and postcode
-Boots Uk Ltd (Sale),"2 The Mall, Sale",M33 7XZ,0161 973 3267,-2.3221,53.424796,Manually geocoded
-Well Pharmacy (Partington),"Partington Health Centre,Central Road, Partington",M31 4FL,0161 775 3455,-2.424915,53.417528,Manually geocoded
-Asda Stores Ltd,"Traders Avenue, Barton Dock Road, Trafford Park, Manchester",M41 7ZA,0161 629 2311 or 0161 748 5841,-2.344799,53.468112,Manually geocoded
-Bladon B Ltd,"219 Ashley Road, Hale,",WA15 9SZ,0161 928 1233,-2.343986,53.376175,Manually geocoded
-Boots Uk Ltd (Stamford),"1 Stamford Quarter, George Street, Altrincham",WA14 1RJ,0161 928 4471,-2.349906,53.387983,Manually geocoded
-Boots Uk Ltd (Trafford Centre),"Trafford Centre, 10 Peel Ave, Manchester",M17 8BD,0161 746 7984,-2.345902,53.464556,Manually geocoded
-C and T Associates,"77 Greatstone Road, Stretford",M32 8GR,0161 881 4777,-2.286501,53.453051,Manually geocoded
-Conran Late night pharmacy (Cohens),"175 Moorside Road, Urmston, Manchester",M41 5SJ,0161 755 0839,-2.369755,53.452124,Manually geocoded
-Gorgemead TA Cohens (Gorse Hill Pharmacy),"874 Chester Road, Gorse Hill, Stretford",M32 0PA,0161 865 9125,-2.298662,53.45456,Manually geocoded
-High Speed Pharmacy,"Caidan House Business Centre, Canal Road, Timperley, Altrincham",WA14 1TD,0161 302 7637,-2.341913,53.401544,Manually geocoded
-Mary Davey Chemist,"14a Warburton Lane, Partington",M31 4WJ,0161 777 8537,-2.429715,53.418176,Manually geocoded
-Rowlands Pharmacy (Plymouth Road),"16 Plymouth Road, Ashton-on-Mersey, Sale",M33 5JD,0161 973 2843,-2.351743,53.427057,Manually geocoded
+provider,telephone,address,postcode,area_code,area_name
+Boots Uk Ltd (Altrincham),0161 928 5024,"Unit 8B Altrincham Retail Park, George Richards Way, Altrincham",WA14 5GR,E08000009,Trafford
+Boots Uk Ltd (Canterbury),0161 748 3016,"179 Canterbury Road, Urmston",M41 0SE,E08000009,Trafford
+Boots Uk Ltd (Eden Sq),0161 748 2317,"Eden Square, Golden Way, Urmston",M41 0NA,E08000009,Trafford
+Boots Uk Ltd (Stretford),0161 865 7062,"69 -72 The Mall, Stretford",M32 9BD,E08000009,Trafford
+Broadheath Pharmacy (Loggerheads Pharmacy Ltd),0161 929 7144,"70 Manchester Road, Altrincham",WA14 4PJ,E08000009,Trafford
+Limelight Pharmacy (Prev. Brooks Bar Pharmacy),0161 226 4005,"162 - 164 Chorlton Road, Old Trafford",M16 7WW,E08000009,Trafford
+Pathvalley Ltd TA Cohens Chemist (Hale),0161 928 1662,"177 Ashley Road, Hale, Altrincham",WA15 9SD,E08000009,Trafford
+Empire,0161 258 6149,"122 Seymour Grove, Old Trafford, Manchester",M16 0FF,E08000009,Trafford
+Gorgemead TA Cohens (Bowdon Pharmacy),0161 929 9005,"6 Vale View, Vicarage Lane, Bowden",WA14 3BD,E08000009,Trafford
+GP Roberts Chemist Ltd,0161 872 1121,"137 Ayres Road, Old Trafford, Manchester",M16 9WR,E08000009,Trafford
+Harrys' Pharmacy,0161 865 6331,"92 Mitford Street, Stretford",M32 8AQ,E08000009,Trafford
+Hugall J Ltd (Alphega),0161 973 1056,"143 Northenden Road, Sale",M33 3HF,E08000009,Trafford
+Lloyds Pharmacy (Broadway),0161 748 2199,"130 Broadway, Davyhulme, Manchester",M41 7WJ,E08000009,Trafford
+Lloyds Pharmacy (Crofts Band Road)  CLOSED,0161 748 2966,"3 Crofts Bank Road, Urmston",M41 0TZ,E08000009,Trafford
+"Lloyds Pharmacy (Grove Lane, Hale)",0161 980 2424,"186-188 Grove Lane, Hale, Altrincham",WA15 8PU,E08000009,Trafford
+Malcolm's Pharmacy,0161 747 2277,"28 Flixton Road, Urmston, Manchester",M41 5AA,E08000009,Trafford
+Oldfield Pharmacy,0161 942 9701,"128 Seamons Road, Old field Brow, Altrincham",WA14 4LJ,E08000009,Trafford
+Peak Pharmacy (PCT Healthcare),0161 865 1603,"431 Barton Road, Stretford, Manchester",M32 9PA,E08000009,Trafford
+Pelican Pharmacy,0161 962 4255,"344 Manchester Road, West Timperley, Altrincham",WA14 5NH,E08000009,Trafford
+Reeds Pharmacy (Clearcourts/Pharmacy Care Plus),0161 748 2438,"182 Church Road, Urmston,",M41 9FD,E08000009,Trafford
+Rowlands Pharmacy (Altrincham),0161 928 2114,"Lloyd House, 7 Lloyd Street, Altrincham",WA14 2DD,E08000009,Trafford
+Rowlands Pharmacy (Coppice Ave),0161 973 3552,"54 Coppice Ave, Sale",M33 4WB,E08000009,Trafford
+Sainsburys Supermarket Ltd  Sale (Lloyds),0161 973 1075,"Curzon Road, Sale",M33 7SA,E08000009,Trafford
+Sainsburys Supermarket Ltd Alt (Lloyds),0161 941 3185,"Lloyd Street, Altrincham",WA14 2SU,E08000009,Trafford
+Sainsburys Supermarket Ltd Urm (Lloyds),0161 911 5405,"Unit 24, Eden Square Shopping Ctr, Urmston",M41 0NA,E08000009,Trafford
+Station Pharmacy (Vittoria Healthcare Ltd),0161 973 1238,"102 Park Road, Timperley, Altrincham",WA15 6TE,E08000009,Trafford
+Terry's Chemist (Walkabout Ltd),0161 928 1275,"28 Sinderland Road, Altrincham",WA14 5ET,E08000009,Trafford
+Tesco Stores Ltd  (Altrincham),0161 956 9547,"Manor Road, Altrincham",WA15 9QT,E08000009,Trafford
+Tesco Stores Ltd  (Stretford),0161 956 8247,"Chester Road, Stretford",M32 0QW,E08000009,Trafford
+Tesco Stores Ltd (Sale),0161 951 6447,"Hereford Street, Sale",M33 7XN,E08000009,Trafford
+Village Pharmacy (Hollowood Chemist),0161 973 6024,"23 Green Lane, Ashton on Mersey, Sale",M33 5PN,E08000009,Trafford
+Well Pharmacy (Ayres Road),0161 226 2163,"65 Ayres Road, Old Trafford",M16 9NH,E08000009,Trafford
+Well Pharmacy (Station Bridge),0161 748 2090,"2 Station Bridge, Station Road, Urmston",M41 9SB,E08000009,Trafford
+Well Pharmacy (Whalley Range),0161 881 1850,"201 Upper Chorlton Road, Whalley Range",M16 0BH,E08000003,Manchester
+Well Pharmacy (Woodsend Circle),0161 748 1926,"10 Woodsend Circle, Flixton, Manchester",M41 8GY,E08000009,Trafford
+Boots Uk Ltd (Trafford Retail),0161 748 7836,"Trafford Retail park, Neary Way, Manchester",M41 7FN,E08000009,Trafford
+Broomwood Pharmacy Ltd,0161 980 0869,"63 Briarfield Road, Timperley, Altrincham",WA15 7DD,E08000009,Trafford
+Cohen's Chemist (Assura),0161 962 2871,"Firsway Health Centre, 121 Firsway, Sale",M33 4BR,E08000009,Trafford
+Elliots Pharmacy,0161 877 3000,"60 Seymour Grove, Old Trafford, Manchester",M16 0LN,E08000009,Trafford
+Hollowood chemist (Washway),0161 962 8228,"69 Washway Road, Sale",M33 7SS,E08000009,Trafford
+Lloyds Pharmacy (Delamere),0161 865 2334,"The Delamere Centre, Delamere Ave, Stretford",M32 0DF,E08000009,Trafford
+Lloyds Pharmacy (Hale),0161 980 5247,"321 Hale Road, Hale barns,",WA15 8SS,E08000009,Trafford
+Mai's Pharmacy,0161 973 2288,"10 North Road, Derbyshire Road South, Sale",M33 3JS,E08000009,Trafford
+MRS Healthcare (Hale Barns Pharmacy),0161 904 0865,"Shay Lane Medical Centre, Shay Lane, Hale Barns",WA15 8NZ,E08000009,Trafford
+Riddings Pharmacy,0161 973 2951,"38 Riddings Road, Timperley, Altrincham",WA15 6BP,E08000009,Trafford
+Rowlands Pharmacy (Norris Road),0161 973 4850,"331 Norris Road, Sale",M33 2UP,E08000009,Trafford
+Rowlands Pharmacy (Old Trafford),0161 872 6719,"6 Lime Grove,  Old Trafford, Manchester",M16 0WL,E08000009,Trafford
+Timperley Pharmacy,0161 948 5066,"250 Stockport road, Timperley",WA15 7UN,E08000009,Trafford
+Well Pharmacy (Moorside Road),0161 748 5472,"475 Moorside Road, Flixton",M41 8TW,E08000009,Trafford
+Well Pharmacy (Sale),0161 973 1750,"2 Eastway, Sale, Cheshire",M33 4DX,E08000009,Trafford
+Well Pharmacy (Stockport Road),0161 980 4269,"238 Stockport Road, Timperley",WA15 7UN,E08000009,Trafford
+Boots Uk Ltd (Sale),0161 973 3267,"2 The Mall, Sale",M33 7XZ,E08000009,Trafford
+Well Pharmacy (Partington),0161 775 3455,"Partington Health Centre,Central Road, Partington",M31 4FL,E08000009,Trafford
+Asda Stores Ltd,0161 629 2311 or 0161 748 5841,"Traders Avenue, Barton Dock Road, Trafford Park, Manchester",M41 7ZA,E08000009,Trafford
+Bladon B Ltd,0161 928 1233,"219 Ashley Road, Hale,",WA15 9SZ,E08000009,Trafford
+Boots Uk Ltd (Stamford),0161 928 4471,"1 Stamford Quarter, George Street, Altrincham",WA14 1RJ,E08000009,Trafford
+Boots Uk Ltd (Trafford Centre),0161 746 7984,"Trafford Centre, 10 Peel Ave, Manchester",M17 8BD,E08000009,Trafford
+C and T Associates,0161 881 4777,"77 Greatstone Road, Stretford",M32 8GR,E08000009,Trafford
+Conran Late night pharmacy (Cohens),0161 755 0839,"175 Moorside Road, Urmston, Manchester",M41 5SJ,E08000009,Trafford
+Gorgemead TA Cohens (Gorse Hill Pharmacy),0161 865 9125,"874 Chester Road, Gorse Hill, Stretford",M32 0PA,E08000009,Trafford
+High Speed Pharmacy,0161 302 7637,"Caidan House Business Centre, Canal Road, Timperley, Altrincham",WA14 1TD,E08000009,Trafford
+Mary Davey Chemist,0161 777 8537,"14a Warburton Lane, Partington",M31 4WJ,E08000009,Trafford
+Rowlands Pharmacy (Plymouth Road),0161 973 2843,"16 Plymouth Road, Ashton-on-Mersey, Sale",M33 5JD,E08000009,Trafford
