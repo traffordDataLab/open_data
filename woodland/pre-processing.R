@@ -8,19 +8,35 @@
 library(tidyverse) ; library(sf)
 
 # load data ---------------------------
-woodland <- st_read("SJ_Woodland.shp") %>% 
+sd <- st_read("OS OpenMap Local (ESRI Shape File) SD/data/SD_Woodland.shp") %>% 
+  st_as_sf(crs = 27700, coords = c("Easting", "Northing")) %>% 
   st_transform(4326)
+se <- st_read("OS OpenMap Local (ESRI Shape File) SE/data/SE_Woodland.shp") %>% 
+  st_as_sf(crs = 27700, coords = c("Easting", "Northing")) %>% 
+  st_transform(4326)
+sj <- st_read("OS OpenMap Local (ESRI Shape File) SJ/data/SJ_Woodland.shp") %>% 
+  st_as_sf(crs = 27700, coords = c("Easting", "Northing")) %>% 
+  st_transform(4326)
+sk <- st_read("OS OpenMap Local (ESRI Shape File) SK/data/SK_Woodland.shp") %>% 
+  st_as_sf(crs = 27700, coords = c("Easting", "Northing")) %>% 
+  st_transform(4326)
+polygons <- rbind(sd, se, sj, sk)
 
+gm <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/local_authority/2016/gm_local_authority_full_resolution.geojson") %>% 
+  st_set_crs(4326) %>% 
+  select(-lat, -lon)
 trafford <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/local_authority/2016/trafford_local_authority_full_resolution.geojson") %>% 
   st_set_crs(4326) %>% 
   select(-lat, -lon)
 
 # intersect data ---------------------------
-trafford_woodland <- st_intersection(woodland, trafford)
+sf_gm <- st_intersection(polygons, gm)
+sf_trafford <- st_intersection(polygons, trafford)
 
-# check results ---------------------------
-plot(st_geometry(trafford))
-plot(st_geometry(trafford_woodland), col = "#659D32", add = T)
+# check results  ---------------------------
+plot(st_geometry(gm))
+plot(st_geometry(sf_gm), add = T)
 
-# write data  ---------------------------
-st_write(trafford_woodland, "trafford_woodland.geojson", driver = "GeoJSON")
+# write geospatial data ---------------------------
+st_write(sf_gm, "gm_woodland.geojson", driver = "GeoJSON")
+st_write(sf_trafford, "trafford_woodland.geojson", driver = "GeoJSON")
