@@ -9,10 +9,13 @@ geojson <- st_read("http://trafforddatalab.io/open_data/fire_stations/trafford_f
 # apply styles ---------------------------
 geojson_styles <- geojson_style(geojson, var = 'ID',
                                 stroke = "#fc6721",
-                                stroke_width = 0.3,
-                                stroke_opacity = 1) %>% 
+                                stroke_width = 3,
+                                stroke_opacity = 1,
+                                fill = "#fc6721",
+                                fill_opacity = 0.8) %>% 
   rename(`stroke-width` = stroke.width,
-         `stroke-opacity` = stroke.opacity)
+         `stroke-opacity` = stroke.opacity,
+         `fill-opacity` = fill.opacity)
 
 # check results ---------------------------
 leaflet() %>% 
@@ -22,6 +25,8 @@ leaflet() %>%
               color = ~stroke, 
               weight = ~`stroke-width`, 
               opacity = ~`stroke-opacity`,
+              fillColor = ~fill,
+              fillOpacity = ~`fill-opacity`,
               label = ~DISTNAME)
 
 # write data ---------------------------
