@@ -28,4 +28,4 @@ leaflet() %>%
               label = ~DISTNAME)
 
 # write data ---------------------------
-st_write(geojson_styles, "gm_further_education_styled.geojson")
+st_write(geojson_styles, "gm_higher_education_styled.geojson")
