@@ -11,7 +11,8 @@ library(tidyverse) ; library(sf)
 raw <- read_csv("http://odata.tfgm.com/opendata/downloads/TfGMMetroRailStops.csv")
 
 # manipulate data ---------------------------
-df <- raw %>% 
+df <- raw %>%
+  filter(NETTYP == "M") %>%
   select(name = RSTNAM, easting = GMGRFE, northing = GMGRFN) %>% 
   mutate(name = gsub("(?<=\\b)([a-z])", "\\U\\1", tolower(name), perl=TRUE))
 
