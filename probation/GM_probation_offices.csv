@@ -1,0 +1,13 @@
+name,address,postcode,telephone,type,area_name,area_code,lat,long
+Atherton Probation Office,"81 Gloucester Street, Atherton",M46 0JS,01442 296008,CRC,Wigan,E08000010,53.525751,-2.499328
+Bolton Probation Office,"Ground Floor, Nautica House, Waters’ Meeting Road, Bolton",BL1 8SW,01442 296009,CRC,Bolton,E08000001,53.596469,-2.42821
+City Centre (Intensive Community Order Office),"52 Oldham Street, Manchester",M4 1LE,0161 2287654,CRC,Manchester,E08000003,53.483394,-2.234017
+Manchester Probation Office,"12 Minshull Street, Manchester",M1 3FR,01442 296011,CRC,Manchester,E08000003,53.478268,-2.235269
+Oldham Probation Office,"Unit 1, Cromwell Court, Brunswick Street",OL1 1ET,01442 296017,CRC,Oldham,E08000004,53.539223,-2.114666
+Rochdale Probation Office,"20 Chichester Business Park, Chichester Street, Rochdale",OL16 2AU,01442 296019,CRC,Rochdale,E08000005,53.615367,-2.144078
+Salford Probation Office,"2 Redwood Street, Pendleton, Salford",M6 6PF,01442 296015,CRC,Salford,E08000006,53.493443,-2.286946
+Stockport Probation Office,"Cirtek House, Unit 2b, Higher Hillgate, Stockport",SK1 3QD,01442 296018,CRC,Stockport,E08000007,53.402222,-2.154788
+Trafford Probation Office,"Newton Street, Stretford, Trafford",M32 8LG,01442 296013,CRC,Trafford,E08000009,53.444397,-2.307093
+Tameside Probation Office,"Ashton Office, Birchcroft, Crowthorne Road, Ashton-under-lyne",OL7 0DH,01613 594229,CRC,Tameside,E08000008,53.481394,-2.113894
+Wigan Spotlight,"Coops Business Centre, 11 Dorning Street, Wigan",WN1 1HR,01942 828021,CRC,Wigan,E08000010,53.545994,-2.635587
+North West Divisional Office,"5th floor, Oakland House, Talbot Road, Manchester",M16 0PQ,0300 0479000,NPS,Manchester,E08000003,53.460186,-2.283606
