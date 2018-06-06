@@ -1,0 +1,771 @@
+{
+    "type": "FeatureCollection",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+    "features": [
+        {
+			"type": "Feature",
+			"properties": {
+				"Name": "Old Trafford Library at Limelight",
+				"Address": "Shrewsbury Street, Old Trafford",
+				"Postcode": "M16 9AX",
+				"Telephone": "0161 912 3189",
+				"Email": "<a href='mailto:oldtrafford.library@trafford.gov.uk'>oldtrafford.library@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/old-trafford.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/old-trafford.aspx</a>",
+				"Notes": "",
+                "Longitude": "-2.261906",
+                "Latitude": "53.461415"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.261899,
+							53.461494
+						],
+						[
+							-2.262025,
+							53.461419
+						],
+						[
+							-2.261923,
+							53.461357
+						],
+						[
+							-2.261794,
+							53.461432
+						],
+						[
+							-2.261899,
+							53.461494
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "Timperley Library (temporary location)",
+				"Address": "Riddings Community Centre, 121 Park Road, Timperley",
+				"Postcode": "WA15 6QQ",
+				"Telephone": "0161 912 3189",
+				"Email": "<a href='mailto:timperley.library@trafford.gov.uk'>timperley.library@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/timperley-library.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/timperley-library.aspx</a>",
+				"Notes": "The Timperley Library site (Park Road/Baker Street) will be redeveloped to facilitate a GP surgery, a new smaller library and some residential accommodation.",
+                "Longitude": "-2.328579",
+                "Latitude": "53.402114"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.328705,
+							53.402092
+						],
+						[
+							-2.328646,
+							53.402189
+						],
+						[
+							-2.328455,
+							53.402149
+						],
+						[
+							-2.32852,
+							53.40205
+						],
+						[
+							-2.328705,
+							53.402092
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "Lostock Library",
+				"Address": "Selby Road, Stretford",
+				"Postcode": "M32 9PL",
+				"Telephone": "0161 912 3189",
+				"Email": "<a href='mailto:libraries@trafford.gov.uk'>libraries@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/lostock-library.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/lostock-library.aspx</a>",
+				"Notes": "Lostock Library is no longer part of Trafford's Statutory Library service and is now run by Lostock College.",
+                "Longitude": "-2.330413",
+                "Latitude": "53.454859"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.330588,
+							53.454808
+						],
+						[
+							-2.330671,
+							53.454897
+						],
+						[
+							-2.330335,
+							53.455003
+						],
+						[
+							-2.330252,
+							53.454912
+						],
+						[
+							-2.330303,
+							53.454891
+						],
+						[
+							-2.330233,
+							53.454805
+						],
+						[
+							-2.330456,
+							53.454744
+						],
+						[
+							-2.330526,
+							53.454824
+						],
+						[
+							-2.330588,
+							53.454808
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "Sale Library",
+				"Address": "Sale Waterside, Sale",
+				"Postcode": "M33 7ZF",
+				"Telephone": "0161 912 3189",
+				"Email": "<a href='mailto:sale.library@trafford.gov.uk'>sale.library@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/sale-library.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/sale-library.aspx</a>",
+				"Notes": "Sale Library also contains the Trafford Local Studies Centre.",
+                "Longitude": "-2.31987",
+                "Latitude": "53.42533"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.320071,
+							53.425166
+						],
+						[
+							-2.31997,
+							53.425484
+						],
+						[
+							-2.3197,
+							53.425473
+						],
+						[
+							-2.319781,
+							53.425201
+						],
+						[
+							-2.320071,
+							53.425166
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "Trafford Local Studies Centre",
+				"Address": "Sale Waterside, Sale",
+				"Postcode": "M33 7ZF",
+				"Telephone": "0161 912 3013",
+				"Email": "<a href='mailto:trafflocals@trafford.gov.uk'>trafflocals@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/archives-and-local-history.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/archives-and-local-history.aspx</a>",
+				"Notes": "Trafford Local Studies is located within Sale Library at Sale Waterside.",
+                "Longitude": "-2.319808",
+                "Latitude": "53.425528"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.319966,
+							53.425489
+						],
+						[
+							-2.319924,
+							53.425613
+						],
+						[
+							-2.319678,
+							53.425591
+						],
+						[
+							-2.319696,
+							53.42547
+						],
+						[
+							-2.319966,
+							53.425489
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "Stretford Library",
+				"Address": "Kingsway, Stretford",
+				"Postcode": "M32 8AP",
+				"Telephone": "0161 912 3189",
+				"Email": "<a href='mailto:stretford.library@trafford.gov.uk'>stretford.library@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/stretford-library.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/stretford-library.aspx</a>",
+				"Notes": "",
+                "Longitude": "-2.312512",
+                "Latitude": "53.44607"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.312727,
+							53.445943
+						],
+						[
+							-2.312721,
+							53.446211
+						],
+						[
+							-2.312316,
+							53.446209
+						],
+						[
+							-2.312319,
+							53.445989
+						],
+						[
+							-2.312362,
+							53.445957
+						],
+						[
+							-2.312426,
+							53.445957
+						],
+						[
+							-2.312432,
+							53.445943
+						],
+						[
+							-2.312727,
+							53.445943
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "Urmston Library",
+				"Address": "Unit 3, Golden Way, Urmston",
+				"Postcode": "M41 0NA",
+				"Telephone": "0161 912 3189",
+				"Email": "<a href='mailto:urmston.library@trafford.gov.uk'>urmston.library@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/urmston-library.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/urmston-library.aspx</a>",
+				"Notes": "",
+                "Longitude": "-2.35352",
+                "Latitude": "53.449577"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.353578,
+							53.449517
+						],
+						[
+							-2.353627,
+							53.449624
+						],
+						[
+							-2.353467,
+							53.449646
+						],
+						[
+							-2.353448,
+							53.449602
+						],
+						[
+							-2.353469,
+							53.449598
+						],
+						[
+							-2.353445,
+							53.449538
+						],
+						[
+							-2.353578,
+							53.449517
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "Coppice Library",
+				"Address": "Coppice Avenue, Sale",
+				"Postcode": "M33 4ND",
+				"Telephone": "0161 912 3560",
+				"Email": "<a href='mailto:coppice.library@trafford.gov.uk'>coppice.library@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/coppice-library.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/coppice-library.aspx.</a>",
+				"Notes": "Coppice Library and Wellbeing Centre is managed in partnership with blueSCI.",
+                "Longitude": "-2.351126",
+                "Latitude": "53.414091"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.351179,
+							53.414279
+						],
+						[
+							-2.351098,
+							53.414283
+						],
+						[
+							-2.351093,
+							53.414253
+						],
+						[
+							-2.351007,
+							53.414258
+						],
+						[
+							-2.350991,
+							53.414157
+						],
+						[
+							-2.351061,
+							53.414155
+						],
+						[
+							-2.351058,
+							53.414115
+						],
+						[
+							-2.350972,
+							53.414119
+						],
+						[
+							-2.350935,
+							53.413924
+						],
+						[
+							-2.351015,
+							53.41392
+						],
+						[
+							-2.351023,
+							53.413972
+						],
+						[
+							-2.351342,
+							53.413959
+						],
+						[
+							-2.351367,
+							53.414087
+						],
+						[
+							-2.351149,
+							53.414101
+						],
+						[
+							-2.351155,
+							53.414135
+						],
+						[
+							-2.351321,
+							53.414128
+						],
+						[
+							-2.351337,
+							53.414224
+						],
+						[
+							-2.351179,
+							53.41424
+						],
+						[
+							-2.351179,
+							53.414279
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "Woodsend Library",
+				"Address": "Woodsend Road, Flixton",
+				"Postcode": "M41 8GN",
+				"Telephone": "0161 912 3189",
+				"Email": "<a href='mailto:urmston.library@trafford.gov.uk'>urmston.library@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/woodsend-library.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/woodsend-library.aspx</a>",
+				"Notes": "",
+                "Longitude": "-2.393166",
+                "Latitude": "53.453354"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.393389,
+							53.453332
+						],
+						[
+							-2.39323,
+							53.453439
+						],
+						[
+							-2.393214,
+							53.453433
+						],
+						[
+							-2.393147,
+							53.453477
+						],
+						[
+							-2.39297,
+							53.453391
+						],
+						[
+							-2.39304,
+							53.453346
+						],
+						[
+							-2.393024,
+							53.453337
+						],
+						[
+							-2.39319,
+							53.453231
+						],
+						[
+							-2.393389,
+							53.453332
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "Altrincham Library",
+				"Address": "20 Stamford New Road, Altrincham",
+				"Postcode": "WA14 1EJ",
+				"Telephone": "0161 912 3189",
+				"Email": "<a href='mailto:altrincham.library@trafford.gov.uk'>altrincham.library@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/altrincham-library.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/altrincham-library.aspx</a>",
+				"Notes": "Altrincham Library will be moving to the new Health and Wellbeing Centre on Market Street towards the end of 2018.",
+                "Longitude": "-2.348369",
+                "Latitude": "53.387758"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.348177,
+							53.387792
+						],
+						[
+							-2.348279,
+							53.387696
+						],
+						[
+							-2.348279,
+							53.387664
+						],
+						[
+							-2.348333,
+							53.387651
+						],
+						[
+							-2.348574,
+							53.387757
+						],
+						[
+							-2.348446,
+							53.387878
+						],
+						[
+							-2.348177,
+							53.387792
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "Hale Library",
+				"Address": "Leigh Road, Hale",
+				"Postcode": "WA15 9BG",
+				"Telephone": "0161 912 3189",
+				"Email": "<a href='mailto:hale.library@trafford.gov.uk'>hale.library@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/hale-library.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/hale-library.aspx</a>",
+				"Notes": "",
+                "Longitude": "-2.344329",
+                "Latitude": "53.376717"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.344677,
+							53.376773
+						],
+						[
+							-2.344404,
+							53.376621
+						],
+						[
+							-2.344345,
+							53.37666
+						],
+						[
+							-2.3442,
+							53.376581
+						],
+						[
+							-2.344159,
+							53.376604
+						],
+						[
+							-2.3441,
+							53.376573
+						],
+						[
+							-2.344058,
+							53.376597
+						],
+						[
+							-2.344119,
+							53.376633
+						],
+						[
+							-2.344036,
+							53.376687
+						],
+						[
+							-2.344446,
+							53.376914
+						],
+						[
+							-2.344677,
+							53.376773
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "Trafford Town Hall Library",
+				"Address": "Ground Floor, Trafford Town Hall, Talbot Road, Stretford",
+				"Postcode": "M32 0TH",
+				"Telephone": "0161 912 3189",
+				"Email": "<a href='mailto:libraries@trafford.gov.uk'>libraries@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/town-hall-library.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/town-hall-library.aspx</a>",
+				"Notes": "",
+                "Longitude": "-2.287278",
+                "Latitude": "53.45874"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.287297,
+							53.458824
+						],
+						[
+							-2.287283,
+							53.458804
+						],
+						[
+							-2.28724,
+							53.458812
+						],
+						[
+							-2.287179,
+							53.458711
+						],
+						[
+							-2.287219,
+							53.458705
+						],
+						[
+							-2.287208,
+							53.458682
+						],
+						[
+							-2.287235,
+							53.458677
+						],
+						[
+							-2.287262,
+							53.458677
+						],
+						[
+							-2.287297,
+							53.458679
+						],
+						[
+							-2.287318,
+							53.458689
+						],
+						[
+							-2.28734,
+							53.458698
+						],
+						[
+							-2.287358,
+							53.458714
+						],
+						[
+							-2.287372,
+							53.458733
+						],
+						[
+							-2.287377,
+							53.458751
+						],
+						[
+							-2.287377,
+							53.45877
+						],
+						[
+							-2.287364,
+							53.458791
+						],
+						[
+							-2.28734,
+							53.458808
+						],
+						[
+							-2.287297,
+							53.458824
+						]
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "Partington Library and Wellbeing Centre",
+				"Address": "Central Road, Partington",
+				"Postcode": "M31 4FY",
+				"Telephone": "0161 912 3189",
+				"Email": "<a href='mailto:partington.library@trafford.gov.uk'>partington.library@trafford.gov.uk</a>",
+				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/partington-library.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/partington-library.aspx</a>",
+				"Notes": "",
+                "Longitude": "-2.425432",
+                "Latitude": "53.417677"
+			},
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[
+							-2.425645,
+							53.417554
+						],
+						[
+							-2.425718,
+							53.417639
+						],
+						[
+							-2.425493,
+							53.41771
+						],
+						[
+							-2.425602,
+							53.417722
+						],
+						[
+							-2.425586,
+							53.417755
+						],
+						[
+							-2.425554,
+							53.417786
+						],
+						[
+							-2.425495,
+							53.417762
+						],
+						[
+							-2.425449,
+							53.417779
+						],
+						[
+							-2.42546,
+							53.417821
+						],
+						[
+							-2.425396,
+							53.417826
+						],
+						[
+							-2.425334,
+							53.417811
+						],
+						[
+							-2.425205,
+							53.417664
+						],
+						[
+							-2.425436,
+							53.417589
+						],
+						[
+							-2.425455,
+							53.41761
+						],
+						[
+							-2.425645,
+							53.417554
+						]
+					]
+				]
+			}
+		}
+    ]
+}

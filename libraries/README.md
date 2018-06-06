@@ -1,5 +1,5 @@
 
-[<img src="thumbnail.png">](trafford_libraries_styled.geojson)
+[<img src="thumbnail.png">](trafford_libraries_polygons_styled.geojson)
 </br>
 
 <table>
@@ -9,19 +9,19 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Libraries in Greater Manchester</td>
+	<td>Libraries in Trafford</td>
 </tr>
 <tr>
 	<td>Source</td>
-	<td>Ordnance Survey (OS OpenMap – Local)</td>
+	<td>Trafford Council</td>
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td>Ordnance Survey</td>
+	<td>Trafford Council</td>
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-map-local.html"></a>https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-map-local.html</td>
+	<td><a href="https://www.trafforddatalab.io/open_data/libraries"></a>https://www.trafforddatalab.io/open_data/libraries</td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Greater Manchester</td>
+	<td>Trafford</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
@@ -37,7 +37,7 @@
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>6 months</td>
+	<td>As required</td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -45,11 +45,11 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains OS data © Crown copyright and database right 2018</td>
+	<td></td>
 </tr>
 <tr>
 	<td>Format</td>
-	<td>GeoJSON</td>
+	<td>CSV, GeoJSON</td>
 </tr>
 <tr>
 	<td>Openness rating</td>
@@ -57,7 +57,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>April 2018</td>
+	<td>June 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -65,6 +65,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td><a href=""></a></td>
+	<td><a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=libraries_polygons"></a></td>
 </tr>
 </table>
