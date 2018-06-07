@@ -61,6 +61,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td><a href=""></a></td>
+	<td><a href="https://trafforddatalab.shinyapps.io/IMD_2015/">https://trafforddatalab.shinyapps.io/IMD_2015/</a></td>
 </tr>
 </table>

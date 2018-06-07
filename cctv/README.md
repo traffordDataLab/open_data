@@ -64,6 +64,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?title=CCTV&about=Locations%20of%20Local%20Authority%20controlled%20CCTV%20cameras%20in%20Trafford.&attr=Trafford%20Council&data=https://www.trafforddatalab.io/open_data/cctv/CCTV_cameras_trafford.geojson">Explore application</a>.</td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=cctv">Explore application</a>.</td>
 </tr>
 </table>

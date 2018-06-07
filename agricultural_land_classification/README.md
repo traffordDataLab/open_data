@@ -64,6 +64,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td><a href=""></a></td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=agricultural_land">Explore application</a>.</td>
 </tr>
 </table>

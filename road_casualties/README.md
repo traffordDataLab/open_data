@@ -65,6 +65,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td><a href=""></a></td>
+	<td><a href="https://trafforddatalab.shinyapps.io/road_casualty_map/">https://trafforddatalab.shinyapps.io/road_casualty_map/</a></td>
 </tr>
 </table>

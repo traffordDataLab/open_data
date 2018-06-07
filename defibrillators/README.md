@@ -62,4 +62,8 @@
 	<td>Notes</td>
 	<td>Please note that these defibrillators may have restrictions on public availability and may not be available 24/7. The locations may not be exact as they are derived from postcodes.</td>
 </tr>
+<tr>
+	<td>Lab visualisation</td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=defibrillators">Explore application</a>.</td>
+</tr>
 </table>
