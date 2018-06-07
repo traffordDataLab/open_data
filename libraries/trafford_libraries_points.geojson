@@ -26,13 +26,13 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"Name": "Timperley Library (temporary location)",
+				"Name": "Timperley Library",
 				"Address": "Riddings Community Centre, 121 Park Road, Timperley",
 				"Postcode": "WA15 6QQ",
 				"Telephone": "0161 912 3189",
 				"Email": "<a href='mailto:timperley.library@trafford.gov.uk'>timperley.library@trafford.gov.uk</a>",
 				"Website": "<a href='http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/timperley-library.aspx' target='_blank'>http://www.trafford.gov.uk/residents/leisure-and-lifestyle/libraries/libraries-in-trafford/timperley-library.aspx</a>",
-				"Notes": "The Timperley Library site (Park Road/Baker Street) will be redeveloped to facilitate a GP surgery, a new smaller library and some residential accommodation.",
+				"Notes": " Temporary location. The main Timperley Library site (Park Road/Baker Street) will be redeveloped to facilitate a GP surgery, a new smaller library and some residential accommodation.",
                 "Longitude": "-2.328579",
                 "Latitude": "53.402114"
 			},
