@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Altrincham Interchange", "area_code": "E05000819", "area_name": "Altrincham" }, "geometry": { "type": "Point", "coordinates": [ -2.347158856240235, 53.387651253781314 ] } },
+{ "type": "Feature", "properties": { "name": "Chassen Road", "area_code": "E05000838", "area_name": "Urmston" }, "geometry": { "type": "Point", "coordinates": [ -2.368172753839174, 53.446175855326388 ] } },
+{ "type": "Feature", "properties": { "name": "Flixton", "area_code": "E05000828", "area_name": "Flixton" }, "geometry": { "type": "Point", "coordinates": [ -2.383508366742162, 53.443772578726694 ] } },
+{ "type": "Feature", "properties": { "name": "Hale", "area_code": "E05000831", "area_name": "Hale Central" }, "geometry": { "type": "Point", "coordinates": [ -2.347490240675866, 53.378499863566454 ] } },
+{ "type": "Feature", "properties": { "name": "Humphrey Park", "area_code": "E05000836", "area_name": "Stretford" }, "geometry": { "type": "Point", "coordinates": [ -2.327718559466691, 53.452253153278647 ] } },
+{ "type": "Feature", "properties": { "name": "Manchester United Football Ground", "area_code": "E05000829", "area_name": "Gorse Hill" }, "geometry": { "type": "Point", "coordinates": [ -2.290728034092572, 53.462182391734707 ] } },
+{ "type": "Feature", "properties": { "name": "Navigation Road", "area_code": "E05000819", "area_name": "Altrincham" }, "geometry": { "type": "Point", "coordinates": [ -2.343329535875281, 53.39570714621604 ] } },
+{ "type": "Feature", "properties": { "name": "Trafford Park", "area_code": "E05000829", "area_name": "Gorse Hill" }, "geometry": { "type": "Point", "coordinates": [ -2.311699926924355, 53.454767893165162 ] } },
+{ "type": "Feature", "properties": { "name": "Urmston", "area_code": "E05000838", "area_name": "Urmston" }, "geometry": { "type": "Point", "coordinates": [ -2.353796483949151, 53.44826871078196 ] } }
+]
+}
