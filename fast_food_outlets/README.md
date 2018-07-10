@@ -7,7 +7,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>The location of fast food outlets in Trafford</td>
+	<td>The location of fast food outlets in Greater Manchester</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -27,7 +27,7 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Trafford</td>
+	<td>Greater Manchester</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
@@ -63,6 +63,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href=""></a>.</td>
+	<td></td>
 </tr>
 </table>
