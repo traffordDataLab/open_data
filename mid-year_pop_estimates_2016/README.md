@@ -1,11 +1,11 @@
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Ward Level Mid-Year Population Estimates</td>
+	<td>Mid-Year Population Estimates</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Estimates of the usual resident population for 2016 electoral wards in England and Wales.</td>
+	<td>Estimates of the usual resident population for 2016 in electoral wards and Lower-layer Super Output Areas in England and Wales.</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -21,7 +21,7 @@
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>Ward</td>
+	<td>Ward, Lower-layer Super Output Area</td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
