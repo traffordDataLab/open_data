@@ -1,4 +1,4 @@
-[<img src="thumbnail.png">](jobcentreplus_gm.styled.geojson)
+[<img src="thumbnail.png">](jobcentreplus_trafford.styled.geojson)
 
 <table>
 <tr>
