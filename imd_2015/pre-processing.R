@@ -53,7 +53,7 @@ sf %>%
              decile == "7" ~ "#AAD1DE",
              decile == "8" ~ "#75A8C8",
              decile == "9" ~ "#4D77AE",
-             decile == "10" ~ "#ffffff"),
+             decile == "10" ~ "#353B91"),
          `fill-opacity` = "0.4",
          stroke = "#757575",
          `stroke-width` = "0.7",

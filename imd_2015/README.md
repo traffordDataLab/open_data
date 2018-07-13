@@ -1,4 +1,4 @@
-[<img src="thumbnail.png">](IMD_2015.geojson)
+[<img src="thumbnail.png">](IMD_2015_gm.geojson)
 </br>
 
 <table>
