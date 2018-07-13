@@ -4,7 +4,8 @@
 library(tidyverse) ; library(sf) ; library(geojsonio)
 
 # read data ---------------------------
-geojson <- st_read("sports_clubs.geojson")
+geojson <- st_read("sports_clubs.geojson") %>% 
+  rename(Club = club, Category = category, Address = address, Postcode = postcode)
 
 # apply styles ---------------------------
 geojson_styles <- geojson_style(geojson,

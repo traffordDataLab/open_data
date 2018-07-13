@@ -1,6 +1,5 @@
 [<img src="thumbnail.png">](sports_clubs_styled.geojson)
-</br>
-
+<br />
 <table>
 <tr>
 	<td>Dataset name</td>
