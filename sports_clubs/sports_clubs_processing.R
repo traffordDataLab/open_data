@@ -12,7 +12,8 @@ sf_geojson_source <- st_read("sports_clubs_RAW.geojson")
 # clean CSV data ---------------------------
 df_csv_source <- mutate(df_csv_source, address = paste0(street, ', ', town),
                         address = str_replace_all(address, 'NA, ', '')) %>%
-  select(1:3, 7, 6)
+  select(1:3, 7, 6) %>%
+  rename(name = club)
 
 # create the output CSV file
 df_csv_output <- select(df_csv_source, -featureNum)
