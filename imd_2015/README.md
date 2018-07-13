@@ -1,3 +1,6 @@
+[<img src="thumbnail.png">](IMD_2015.geojson)
+</br>
+
 <table>
 <tr>
 	<td>Dataset name</td>
