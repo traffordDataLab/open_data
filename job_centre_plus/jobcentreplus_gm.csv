@@ -1,29 +1,28 @@
 name,address,postcode,area_code,area_name
-Alexandra Park,"91 Moss Lane East, Moss Side, Manchester",M15 5JB,E08000003,Manchester
-Altrincham,"Robert House, 80 Manchester Road, Altrincham",WA14 4PU,E08000009,Trafford
-Ashton Under Lyne,"101 Old Street, Ashton-under-Lyne",OL6 6BJ,E08000008,Tameside
-Ashton-in-Makerfield,"17-19 Gerard Street, Ashton-in-Makerfield, Wigan",WN4 9AB,E08000010,Wigan
-Bolton (Great Moor St.),"Great Moor Street, Bolton",BL3 6DT,E08000001,Bolton
-Bolton (Blackhorse St.),"52 Blackhorse Street, Bolton",BL1 1SX,E08000001,Bolton
+"Alexandra Park, Manchester","91 Moss Lane East, Moss Side, Manchester",M15 5JB,E08000003,Manchester
+Altrincham,"Roberts House, 80 Manchester Road, Altrincham",WA14 4PU,E08000009,Trafford
+Ashton-in-Makerfield,"17-19 Gerard Street, Ashton-in-Makerfield",WN4 9AB,E08000010,Wigan
+Ashton-Under-Lyne,"101 Old Street, Ashton-U-Lyne, Lancs",OL6 6BJ,E08000008,Tameside
+"Bolton, Blackhorse Street","52 Blackhorse Street, Bolton",BL1 1SX,E08000001,Bolton
 Bury,"Silver Street, Bury",BL9 0DP,E08000002,Bury
-Cheetham Hill,"36 Crescent Road, Cheetham Hill, Manchester",M8 9DQ,E08000003,Manchester
-Didsbury,"Danesmore Road 95-97, Palatine Road, West Didsbury, Manchester",M20 3JQ,E08000003,Manchester
-Eccles,"Peel House, Monton Road, Eccles",M30 0NA,E08000006,Salford
-Heywood,"Taylor Street, Heywood",OL10 1ED,E08000005,Rochdale
-Hyde,"Beech House, New Beech Street, Hyde",SK14 2LS,E08000008,Tameside
+Cheetham Hill,"36 Crescent Road, Manchester, Manchester",M8 9DQ,E08000003,Manchester
+Didsbury,"Danesmoor Court, 95-97 Palatine Road, West Didsbury",M20 3JQ,E08000003,Manchester
+Eccles,"Sentinel House, Monton Road, Eccles, Manchester",M30 0NA,E08000006,Salford
+Heywood,"Taylor Street, Heywood, Lancs",OL10 1ED,E08000005,Rochdale
+Hyde,"New Beech Street, Hyde, Cheshire",SK14 2LS,E08000008,Tameside
 Irlam,"Irlam Library, Hurst Fold, Liverpool Road, Irlam",M44 6FD,E08000006,Salford
-Leigh,"Roydale House, 2-10 Windermere Road, Leigh",WN7 1UT,E08000010,Wigan
-Longsight,"123 Clarence Road, Longsight",M13 0ZL,E08000003,Manchester
-Middleton,"Othen House, 7 Oldham Road, Manchester",M24 1BX,E08000005,Rochdale
-Newton Heath,"1009 Oldham Road, Newton Heath",M40 2EP,E08000003,Manchester
-Oldham,"Tweedale House, 75 Union Street, Oldham",OL1 1LH,E08000004,Oldham
-Openshaw,"Cornwall Street, Openshaw",M11 2WR,E08000003,Manchester
-Prestwich,"1 Rectory Lane, Prestwich",M25 1BP,E08000002,Bury
+Leigh,"2 - 10 Windermere Road, Leigh, Lancashire",WN7 1UT,E08000010,Wigan
+Longsight,"123 Clarence Rd, Longsight, Manchester",M13 0ZL,E08000003,Manchester
+Middleton,"7 Oldham Road, Middleton, Lancashire",M24 1BX,E08000005,Rochdale
+Newton Heath,"1009 Oldham Road, Manchester",M40 2EP,E08000003,Manchester
+Oldham,"Tweedale House, 75 Union Street, Oldham, Manchester",OL1 1LH,E08000004,Oldham
+Openshaw,"Cornwall Street, Openshaw, Manchester",M11 2WR,E08000003,Manchester
+Prestwich,"1 Rectory Lane, Prestwich, Manchester",M25 1BP,E08000002,Bury
 Rochdale,"2 Fleece Street, Rochdale",OL16 1LT,E08000005,Rochdale
-Rusholme,"96 Wilmslow Road, Rusholme",M14 5BJ,E08000003,Manchester
-Salford,"2 Paddington Close, Salford",M6 5PL,E08000006,Salford
-Stockport,"Heron House, Wellington Street, Stockport",SK1 3BE,E08000007,Stockport
-Stretford,"Arndale House, Chester Road, Stretford, Manchester",M32 9ED,E08000009,Trafford
-Wigan,"Brocol House, 71 King Street, Wigan",WN1 1EA,E08000010,Wigan
-Worsley,"5 Worsley Court, High Street, Walkden, Worsley, Manchester",M28 3AD,E08000006,Salford
-Wythenshawe,"Simon House, Wavell Road, Wythenshawe, Manchester",M22 5RA,E08000003,Manchester
+Rusholme,"96 Wilmslow Road, Rusholme, Manchester",M14 5BJ,E08000003,Manchester
+Salford,"2 Paddington Close, , Salford, Lancashire",M6 5PL,E08000006,Salford
+Stockport,"Wellington Street, Stockport, Cheshire",SK1 3BE,E08000007,Stockport
+Stretford,"Stretford Mall, Chester Road, Stretford, Manchester",M32 9ED,E08000009,Trafford
+Wigan,"Brocol House, 71-73 King Street, Wigan",WN1 1EA,E08000010,Wigan
+Worsley,"5 Worsley Court, High Street, Walkden, Manchester",M28 3AD,E08000006,Salford
+Wythenshawe,"Forum Trust Complex, Forum Square, Wythenshawe",M22 5RX,E08000003,Manchester

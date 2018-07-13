@@ -3,11 +3,11 @@
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Jobcentre Plus offices</td>
+	<td>jobcentres</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>The address and coordinates of all Jobcentre Plus offices in Greater Manchester</td>
+	<td>The addresses of all jobcentres in Greater Manchester</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -15,11 +15,11 @@
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td>WhatDoTheyKnow</td>
+	<td>Department for Work and Pensions</td>
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://www.whatdotheyknow.com/request/jobcentre_plus_district"></a>https://www.whatdotheyknow.com/request/jobcentre_plus_district</td>
+	<td><a href="https://www.gov.uk/government/publications/dwp-jobcentre-register"></a>https://www.gov.uk/government/publications/dwp-jobcentre-register</td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -31,7 +31,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>November 2017</td>
+	<td>May 2018</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
