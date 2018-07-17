@@ -41,5 +41,7 @@ plot(st_geometry(gm))
 plot(st_geometry(sf_gm), add = T)
 
 # write geospatial data ---------------------------
-st_write(sf_gm, "gm_places_of_worship.geojson", driver = "GeoJSON")
-st_write(sf_trafford, "trafford_places_of_worship.geojson", driver = "GeoJSON")
+# NOTE: files are named as '_RAW' as inaccuracies have been found in the data, e.g. buildings that are no longer in use as religious buildings or have no names
+#       the files without the '_RAW' designation have been manually cleaned 
+st_write(sf_gm, "gm_places_of_worship_RAW.geojson", driver = "GeoJSON")
+st_write(sf_trafford, "trafford_places_of_worship_RAW.geojson", driver = "GeoJSON")
