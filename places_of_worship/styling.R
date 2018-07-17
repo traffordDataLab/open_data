@@ -8,8 +8,8 @@ library(tidyverse) ; library(sf)
 sf_geojson_source <- st_read("trafford_places_of_worship.geojson")
   
 # select only the variables we are interested in and rename them ---------------------------
-sf_geojson <- select(sf_geojson_source, DISTNAME, area_code, area_name) %>%
-  rename(Name = DISTNAME, `Area Code` = area_code, `Area Name` = area_name)
+sf_geojson <- select(sf_geojson_source, DISTNAME) %>%
+  rename(Name = DISTNAME)
 
 # add styling properties ---------------------------
 sf_geojson_styles <- sf_geojson %>% 
