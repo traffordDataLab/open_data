@@ -26,7 +26,7 @@ sf_styled_geojson <- geojson_style(sf_geojson_clean,
                                    size = "medium") %>%   
   rename(`marker-color` = marker.color,
          `marker-size` = marker.size,
-         `Camera ID` = camera_id,
+         Camera = camera_id,
          Location = location)
 
 # save the styled version of the geojson
