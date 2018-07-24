@@ -1,14 +1,18 @@
 ## Fast food outlets ##
-# Source: Food Standards Agency
+# Source: Food Standards Agency (FSA) Food Hygiene Rating Scheme (FHRS)
 # Publisher URL: http://ratings.food.gov.uk/open-data/en-GB
 # Licence: Open Government Licence
+
+# The inclusion and exclusion criteria for matching are derived from the Public Health England's density of fast food outlets map (2018)
+# https://www.gov.uk/government/publications/fast-food-outlets-density-by-local-authority-in-england
+# Note that the '8 major chains' were not stated in the PHE methodology.
 
 # load the necessary R packages -------------------------------------------
 library(tidyverse) ; library(httr) ; library(jsonlite) ; library(sf)
 
 # request a list of local authorities -------------------------------------------
 la <- GET(url = "http://api.ratings.food.gov.uk/Authorities/basic", 
-                   add_headers("x-api-version" = "2")) %>% 
+          add_headers("x-api-version" = "2")) %>% 
   content(as = "text", encoding = "UTF-8") %>% 
   fromJSON(flatten = TRUE) %>% 
   pluck("authorities") %>% 
@@ -25,11 +29,11 @@ response <- map_df(gm$LocalAuthorityId, ~{
   progress$tick()$print()
   
   fetch <- GET(url = "http://api.ratings.food.gov.uk/Establishments", 
-                  query = list(
-                    localAuthorityId = .x,
-                    pageNumber = 1,
-                    pageSize = 5000),
-                  add_headers("x-api-version" = "2"))
+               query = list(
+                 localAuthorityId = .x,
+                 pageNumber = 1,
+                 pageSize = 5000),
+               add_headers("x-api-version" = "2"))
   
   content(fetch, as = "text", encoding = "UTF-8") %>% 
     fromJSON(flatten = TRUE) %>% 
@@ -58,8 +62,27 @@ df <- response %>%
          lat = as.numeric(lat))
 
 # subset fast food outlets -------------------------------------------
-sub_df <- filter(df, type ==  "Takeaway/sandwich shop") %>% 
-  select(-type)
+
+# 1: filter by type
+takeaway <- filter(df, type ==  "Takeaway/sandwich shop")    
+
+# 2: filter by search terms
+keywords <- c("burger", "chicken", "chip", "fish bar", "pizza", "kebab", "india", "china", "chinese")
+terms <- filter(df, type %in% c("Mobile caterer", 
+                                 "Other catering premises",
+                                 "Restaurant/Cafe/Canteen"),
+                 str_detect(name, regex(paste(keywords, collapse = ".|"), ignore_case = T)))
+
+# 3: filter by fast food chains
+keywords <- c("McDonald", "KFC", "Subway", "Burger King", "Domino", "Pret a Manger", "Wimpy", "Chicken Cottage")
+chains <- filter(df, type %in% c("Other catering premises", 
+                               "Restaurant/Cafe/Canteen",
+                               "Retailers - other",
+                               "Retailers - supermarkets/hypermarkets",
+                               "School/college/university"),
+                 str_detect(name, regex(paste(keywords, collapse = ".|"), ignore_case = T)))            
+
+sub_df <- bind_rows(takeaway, terms, chains)     
 
 # convert to a spatial object ---------------------------
 sf <- sub_df %>% 
@@ -91,3 +114,7 @@ filter(sf, area_name == "Trafford") %>%
   mutate(`marker-color` = "#fc6721",
          `marker-size` = "medium") %>% 
   st_write("trafford_fast_food_outlets_styled.geojson")
+            
+            
+            
+            
