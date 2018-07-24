@@ -1,32 +1,23 @@
-## Styling features ##
+## Post processing script to transform and style the Ordnance Survey data into a more presentable format
+## This file uses the manually cleaned versions of the files created using the pre-processing script
 
-# load packages ---------------------------
-library(tidyverse); library(sf) ; library(geojsonio) ; library(leaflet)
+# load libraries ---------------------------
+library(tidyverse) ; library(sf)
 
-# read data ---------------------------
-geojson <- st_read("http://trafforddatalab.io/open_data/places_of_worship/trafford_places_of_worship.geojson")
+# load data and select ---------------------------
+sf_geojson_source <- st_read("trafford_places_of_worship.geojson")
+  
+# select only the variables we are interested in and rename them ---------------------------
+sf_geojson <- select(sf_geojson_source, DISTNAME) %>%
+  rename(Name = DISTNAME)
 
-geojson_styles <- geojson_style(geojson, var = 'ID',
-                                stroke = "#fc6721",
-                                stroke_width = 3,
-                                stroke_opacity = 1,
-                                fill = "#fc6721",
-                                fill_opacity = 0.8) %>% 
-  rename(`stroke-width` = stroke.width,
-         `stroke-opacity` = stroke.opacity,
-         `fill-opacity` = fill.opacity)
-
-# check results ---------------------------
-leaflet() %>% 
-  addProviderTiles(providers$CartoDB.Positron) %>% 
-  setView(-2.35533522781156, 53.419025498197, zoom = 12) %>% 
-  addPolygons(data = geojson_styles, 
-              color = ~stroke, 
-              weight = ~`stroke-width`, 
-              opacity = ~`stroke-opacity`,
-              fillColor = ~fill,
-              fillOpacity = ~`fill-opacity`,
-              label = ~DISTNAME)
+# add styling properties ---------------------------
+sf_geojson_styles <- sf_geojson %>% 
+  mutate(stroke = "#fc6721",
+         `stroke-width` = 3,
+         `stroke-opacity` = 1,
+         fill = stroke,
+         `fill-opacity` = 0.8)
 
 # write data ---------------------------
-st_write(geojson_styles, "trafford_places_of_worship_styled.geojson")
+st_write(sf_geojson_styles, "trafford_places_of_worship_styled.geojson")

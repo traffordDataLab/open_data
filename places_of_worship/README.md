@@ -1,15 +1,13 @@
-
 [<img src="thumbnail.png">](trafford_places_of_worship_styled.geojson)
-</br>
-
+<br />
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Places of worship</td>
+	<td>Religious buildings/places of worship</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Places of worship in Greater Manchester</td>
+	<td>Religious buildings/places of worship in Greater Manchester.</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -57,14 +55,14 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>April 2018</td>
+	<td>July 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td></td>
+	<td>This dataset has been manually amended and a specialised version for Trafford created with updated information. The RAW files are those created directly from Ordnance Survey (OS OpenMap – Local).</td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td><a href=""></a></td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=religious_buildings">Explore application</a>.</td>
 </tr>
 </table>
