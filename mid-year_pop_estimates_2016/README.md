@@ -5,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Estimates of the usual resident population for 2016 in electoral wards and Lower-layer Super Output Areas in England and Wales.</td>
+	<td>Estimates of the usual resident population for 2016.</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -21,7 +21,7 @@
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>Local authority, electoral ward, MSOAs, LSOAs and Was in TraffordArea</td>
+	<td>Local authority, electoral wards, MSOAs, LSOAs and OAs</td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
