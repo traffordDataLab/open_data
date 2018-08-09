@@ -21,11 +21,11 @@
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>Ward, Lower-layer Super Output Area</td>
+	<td>Local authority, electoral ward, MSOAs, LSOAs and Was in TraffordArea</td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Greater Manchester</td>
+	<td>Trafford</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
@@ -45,7 +45,7 @@
 </tr>
 <tr>
 	<td>Format</td>
-	<td>CSV, JSON</td>
+	<td>CSV</td>
 </tr>
 <tr>
 	<td>Openness rating</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>January 2018</td>
+	<td>August 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>
