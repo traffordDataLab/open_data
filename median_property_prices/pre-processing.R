@@ -78,19 +78,18 @@ lsoa_sf <- st_join(sf, lsoa, join = st_within, left = FALSE)
 wards_df <- wards_sf %>% 
   st_set_geometry(value = NULL) %>% 
   group_by(area_code, area_name) %>% 
-  summarise(median_price = median(amount),
-            min_price = min(amount),
-            max_price = max(amount),
+  summarise(median_price = as.integer(median(amount)),
+            min_price = as.integer(min(amount)),
+            max_price = as.integer(max(amount)),
             transactions = n()) %>%
-  mutate(median_price = as.integer(median_price)) %>% 
   arrange(median_price)
 
 lsoa_df <- lsoa_sf %>% 
   st_set_geometry(value = NULL) %>% 
   group_by(area_code, area_name) %>% 
-  summarise(median_price = median(amount),
-            min_price = min(amount),
-            max_price = max(amount),
+  summarise(median_price = as.integer(median(amount)),
+            min_price = as.integer(min(amount)),
+            max_price = as.integer(max(amount)),
             transactions = n()) %>%
   mutate(median_price = as.integer(median_price)) %>% 
   arrange(median_price)
@@ -105,5 +104,5 @@ lsoa_df %>%
 filter(wards_df, area_code %in% c(paste0("E0", 5000819:5000839))) %>%
   write_csv("trafford_ward_median_property_prices.csv")            
 
-filter(lsoa_df, area_code %in% c(paste0("E0", 1006074:1006211))) %>% View()
+filter(lsoa_df, area_code %in% c(paste0("E0", 1006074:1006211))) %>% 
   write_csv("trafford_lsoa_median_property_prices.csv") 
