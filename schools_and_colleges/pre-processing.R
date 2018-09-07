@@ -1,4 +1,5 @@
 ## Schools and colleges ##
+
 # Source: Department for Education
 # Publisher URL: https://get-information-schools.service.gov.uk/
 # Licence: Open Government Licence
