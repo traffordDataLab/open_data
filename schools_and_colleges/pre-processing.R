@@ -36,6 +36,7 @@ df %>%
 sf <- df %>% 
   st_as_sf(crs = 27700, coords = c("Easting", "Northing")) %>% 
   st_transform(4326) %>% 
+  # extract coordinates
   mutate(lng = map_dbl(geometry, ~st_coordinates(.x)[[1]]),
          lat = map_dbl(geometry, ~st_coordinates(.x)[[2]]))
 
@@ -44,6 +45,7 @@ write_csv(sf %>% st_set_geometry(value = NULL), "trafford_schools_and_colleges.c
 
 # style geospatial data ---------------------------
 sf_styled_geojson <- sf %>% 
+  # make variable names human readable
   select(Name = name,
          Type = type,
          Gender = gender,
@@ -56,6 +58,7 @@ sf_styled_geojson <- sf %>%
          `Sponsoring Trust` = sponsoring_trust,
          Website = website,
          Postcode = postcode) %>% 
+  # add styling for rendering in GitHub
   mutate(`marker-color` = "#fc6721",
          `marker-size` = "medium")
 
