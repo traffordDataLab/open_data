@@ -1,6 +1,6 @@
 ## Schools and colleges ##
 # Source: Department for Education
-# Publisher URL: http://www.education.gov.uk/edubase
+# Publisher URL: https://get-information-schools.service.gov.uk/
 # Licence: Open Government Licence
 
 # load libraries ---------------------------
