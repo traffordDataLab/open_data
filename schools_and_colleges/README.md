@@ -17,7 +17,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="http://www.education.gov.uk/edubase">http://www.education.gov.uk/edubase</a></td>
+	<td><a href="https://get-information-schools.service.gov.uk/">https://get-information-schools.service.gov.uk/</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
