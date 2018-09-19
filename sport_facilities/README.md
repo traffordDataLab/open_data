@@ -5,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Sport facilities by site in Trafford.</td>
+	<td>Sport facilities by site in Trafford</td>
 </tr>
 <tr>
 	<td>Source</td>
