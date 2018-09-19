@@ -4,9 +4,9 @@ Pitches,Floodlit,SiteID,SiteName,ThoroughfareName,PostTown,PostCode,Latitude,Lon
 1,0,1008949,Altrincham College,Green Lane,Altrincham,WA15 8QW,53.384028,-2.324076,0161 980 7173,headteacher@mail.altrinchamcollege.com,http://www.altrinchamcollege.com,Yes,100,Yes,No,Yes,Yes,Gym Upstairs.,22-09-2017
 11,0,1011521,Crossford Bridge,Danefield Road,Sale,M33 7BG,53.432934,-2.315258,0161 973 5559,NA,http://saleharriersmanchester.com/pages/1102/coaching/crossford-bridge,Yes,125,Yes,No,Yes,Yes,NA,16-11-2017
 1,1,1036698,Sale Fc Rugby Club,Heywood Road,Sale,M33 3WB,53.41653,-2.322238,0161 610 0400,info@salefc.com,http://www.salefc.com,Yes,60,No,No,Yes,Yes,NA,20-08-2018
-6,0,1040630,Barton Clough Playing Fields,Barton Road,Manchester,M32 9TR,0,0,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,40,Yes,No,No,Yes,NA,22-08-2018
-1,0,1040635,Seymour Park,Northumberland Road,Manchester,M16 9QE,0,0,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,22-08-2018
-1,0,1040636,Nansen Park,Nansen Close,Manchester,M32 0PX,0,0,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
+6,0,1040630,Barton Clough Playing Fields,Barton Road,Manchester,M32 9TR,53.456552,-2.336501,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,40,Yes,No,No,Yes,NA,22-08-2018
+1,0,1040635,Seymour Park,Northumberland Road,Manchester,M16 9QE,53.458999,-2.272167,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,22-08-2018
+1,0,1040636,Nansen Park,Nansen Close,Manchester,M32 0PX,53.45831,-2.300807,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
 3,0,1040637,Highfield Park,Highfield Close,Manchester,M32 8NE,53.439914,-2.311033,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
 2,0,1040638,St Brides Park,Cornbrook Street,Manchester,M16 7PR,53.463381,-2.262383,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Don't know,0,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
 1,0,1040932,Flixton Cricket And Sports Club,Lawrence Road,Manchester,M41 8UU,53.4521,-2.387694,0161 748 2546,info@flixtoncricketandsportsclub.com,http://flixtoncricketandsportsclub.com/,Yes,74,Yes,No,Yes,Yes,NA,23-11-2017
@@ -15,10 +15,10 @@ Pitches,Floodlit,SiteID,SiteName,ThoroughfareName,PostTown,PostCode,Latitude,Lon
 1,0,1041705,Carrington Rufc,Manchester Road,Manchester,M31 4WY,53.431377,-2.394625,07918 121971,monty.pig@me.com,http://www.pitchero.com,Yes,80,No,No,No,Yes,NA,10-08-2018
 6,0,1042335,North Cestrian Grammar School Playing Fields,Dunham Road,Altrincham,WA14 4AJ,53.393161,-2.362437,0161 928 1856,office@ncgs.co.uk,http://www.ncgs.co.uk,Yes,50,Yes,No,Yes,Yes,NA,17-09-2018
 2,0,1042406,Bowdon Cricket Hockey & Squash Club,South Downs Road,Altrincham,WA14 3DT,53.371199,-2.354239,0161 928 1358,admin@bowdonclub.com,http://www.bowdonclub.com/http://www.bowdonclub.com/,Yes,60,Yes,No,No,Yes,NA,10-08-2018
-3,0,1043161,Longford Park,Edge Lane,Manchester,M21 9JY,0,0,079122 80894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,22-08-2018
+3,0,1043161,Longford Park,Edge Lane,Manchester,M21 9JY,53.446901,-2.292593,079122 80894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,22-08-2018
 1,0,1043164,Pickering Lodge,Moss Lane,Altrincham,WA15 6LE,53.398205,-2.334236,07912 280894,andy.hilton@traffordleisure.co.uk,http://trafford.gov.uk/residents/leisure-and-lifestyle/parks-and-open-spaces/parks-in-trafford/pickering-lodge.aspx,Yes,10,No,No,No,Yes,NA,22-08-2018
 1,0,1103377,Altrincham Grammar School For Girls (Devisdale Stp),Cavendish Road,Altrincham,WA14 2NL,53.381212,-2.360471,0161 912 5912,admin@aggs.trafford.sch.uk,http://www.aggs.trafford.sch.uk,Yes,15,Yes,No,No,Yes,NA,28-03-2018
-4,0,1103381,Bowdon Cricket - Hockey & Squash Club,South Downs Road,Altrincham,WA14 3DT,0,0,0161 928 1358,info@bowdonclub.com,http://www.bowdonclub.com,Yes,90,No,No,No,Yes,NA,10-09-2018
+4,0,1103381,Bowdon Cricket - Hockey & Squash Club,South Downs Road,Altrincham,WA14 3DT,53.37363,-2.355808,0161 928 1358,info@bowdonclub.com,http://www.bowdonclub.com,Yes,90,No,No,No,Yes,NA,10-09-2018
 6,0,1103422,Timperley Cricket Hockey And Lacrosse,Stockport Road,Altrincham,WA15 7LU,53.390753,-2.331215,0161 980 4397,info@timperley-sports.com,http://www.timperley-sports.com,Yes,100,Yes,No,Yes,Yes,NA,18-09-2018
 8,0,1103425,Urmston Grammar Academy,Newton Road,Manchester,M41 5UG,53.450548,-2.361043,0161 748 2875,office@urmstongrammar.org.uk,http://www.urmstongrammar.org.uk,Yes,100,Yes,No,Yes,Yes,NA,09-11-2017
 4,0,1200491,Blessed Thomas Holford Catholic College,Urban Road,Altrincham,WA15 8HT,53.387282,-2.341277,0161 911 8090,blessedthomas.admin@trafford.gov.uk,http://www.bthcc.org.uk,Yes,50,Yes,No,No,Yes,NA,23-06-2017
@@ -32,7 +32,7 @@ Pitches,Floodlit,SiteID,SiteName,ThoroughfareName,PostTown,PostCode,Latitude,Lon
 2,0,1203067,Stretford Grammar School,Granby Road,Manchester,M32 8JB,53.443692,-2.298265,0161 865 2293,admin@stretfordgrammar.com,http://www.stretfordgrammar.com,Yes,40,Yes,No,No,Yes,NA,13-06-2018
 9,0,1203069,Sale High School,Norris Road,Sale,M33 3JR,53.414194,-2.304738,0161 973 2713,info@salehighschool.org.uk,http://www.salehighschool.co.uk,Yes,100,Yes,No,Yes,Yes,NA,18-07-2018
 2,0,1203088,Egerton High School,Kingsway Park,Manchester,M41 7FZ,53.459634,-2.343424,0161 749 7094,egerton.admin@trafford.gov.uk,http://www.egertonhighschool.co.uk/,Yes,30,No,No,No,Yes,NA,12-06-2018
-9,0,1203095,St Ambrose College,Hale Road,Altrincham,WA15 0HE,0,0,0161 980 2711,office@st-ambrosecollege.org.uk,http://www.st-ambrosecollege.org.uk,Yes,50,Yes,No,Yes,Yes,NA,03-09-2018
+9,0,1203095,St Ambrose College,Hale Road,Altrincham,WA15 0HE,53.371448,-2.320334,0161 980 2711,office@st-ambrosecollege.org.uk,http://www.st-ambrosecollege.org.uk,Yes,50,Yes,No,Yes,Yes,NA,03-09-2018
 4,0,1203099,Lostock College,Selby Road,Manchester,M32 9PL,53.454763,-2.330358,0161 864 5700,school@lostock.trafford.sch.uk,http://www.lostock.trafford.sch.uk,Yes,120,Don't know,Don't know,Don't know,Yes,NA,26-04-2012
 2,0,1203691,Stretford Sports Village (Talbot Centre),Great Stone Road,Manchester,M32 0XA,53.457204,-2.293706,0161 826 1001,receptiontalbot@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,50,Yes,No,No,Yes,NA,31-08-2018
 7,1,1208702,Sale Sports Club,Clarendon Crescent,Sale,M33 2DE,53.427957,-2.30443,07908  403360,information@salesportsclub.com,http://www.salesportsclub.com,Yes,50,Yes,No,No,Yes,NA,03-10-2017
@@ -44,31 +44,31 @@ Pitches,Floodlit,SiteID,SiteName,ThoroughfareName,PostTown,PostCode,Latitude,Lon
 5,0,1208750,Urmston Sports Club,Moorside Road,Manchester,M41 5UU,53.451195,-2.361094,0161 748 4660,admin@urmstonsportsclub.co.uk,http://www.urmstonchbts.org.uk,Yes,30,Yes,No,No,Yes,NA,11-09-2018
 1,1,1208755,Old Trafford Cricket Ground,Brian Statham Way,Manchester,M16 0PX,53.456354,-2.28684,0161 282 4020,enquiries@lccc.co.uk,http://www.lccc.co.uk,Yes,200,Yes,No,Yes,Yes,NA,10-10-2017
 24,0,6005130,Turn Moss,Edge Lane,Manchester,M21 9JN,53.441678,-2.292962,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,31,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
-1,1,6005160,Moss Lane,Moss Lane,Altrincham,WA15 8AP,0,0,0161 928 1045,office@altrinchamfootballclub.com,http://www.altrinchamfc.com,Yes,50,No,No,Yes,Yes,NA,04-09-2018
+1,1,6005160,Moss Lane,Moss Lane,Altrincham,WA15 8AP,53.382975,-2.335214,0161 928 1045,office@altrinchamfootballclub.com,http://www.altrinchamfc.com,Yes,50,No,No,Yes,Yes,NA,04-09-2018
 1,1,6005418,Valley Road,Valley Road,Manchester,M41 8RQ,53.454482,-2.398321,NA,fflltd@yahoo.com,http://www.flixtonfootballclub.co.uk,Yes,40,No,No,No,Yes,NA,16-10-2017
-7,0,6005721,Flixton Park,Flixton Road,Manchester,M41 5DR,0,0,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,11,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
-4,0,6005781,Woodsend Park,Woodsend Road,Manchester,M41 8GN,0,0,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,11,No,No,No,Yes,NA,22-08-2018
+7,0,6005721,Flixton Park,Flixton Road,Manchester,M41 5DR,53.449681,-2.371094,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,11,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
+4,0,6005781,Woodsend Park,Woodsend Road,Manchester,M41 8GN,53.455039,-2.393504,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,11,No,No,No,Yes,NA,22-08-2018
 2,0,6006142,Ashton Park,Glebelands Road,Sale,M33 5QU,53.43094,-2.334523,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
-6,0,6006151,Smith Fields,Sylvan Avenue,Altrincham,WA15 6AD,0,0,07912280894,darrenjstorey@gmail.com,http://www.traffordleisure.co.uk,Yes,20,Don't know,No,Yes,Yes,NA,10-10-2017
-1,0,6006152,Stamford Park,Stamford Park Road,Altrincham,WA15 9EN,0,0,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,22-08-2018
+6,0,6006151,Smith Fields,Sylvan Avenue,Altrincham,WA15 6AD,53.406012,-2.335801,07912280894,darrenjstorey@gmail.com,http://www.traffordleisure.co.uk,Yes,20,Don't know,No,Yes,Yes,NA,10-10-2017
+1,0,6006152,Stamford Park,Stamford Park Road,Altrincham,WA15 9EN,53.383645,-2.345592,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,22-08-2018
 3,0,6006153,Broadway,Laburnum Road,Manchester,M41 7WN,53.458324,-2.36674,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
-3,0,6006154,Selsey Avenue Playing Fields,Cecil Avenue,Sale,M33 5BW,0,0,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
+3,0,6006154,Selsey Avenue Playing Fields,Cecil Avenue,Sale,M33 5BW,53.418973,-2.335693,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
 4,0,6006155,Grove Park,Long Hey,Altrincham,WA15 8JJ,53.381728,-2.32616,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,5,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
-3,0,6006160,Moor Nook,Moor Nook,Sale,M33 3UN,0,0,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,11,No,No,No,Yes,NA,22-08-2018
+3,0,6006160,Moor Nook,Moor Nook,Sale,M33 3UN,53.416405,-2.30826,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,11,No,No,No,Yes,NA,22-08-2018
 6,0,6006179,Beech Avenue Recreation Ground,Beech Avenue,Altrincham,WA15 6EG,53.403829,-2.319849,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,11,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
 9,0,6006180,Salisbury Road,Salisbury Road,Altrincham,WA14 5LE,53.400625,-2.348486,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,13-10-2017
-1,0,6006183,Walton Park,Walton Road,Sale,M33 4AT,0,0,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,22-08-2018
+1,0,6006183,Walton Park,Walton Road,Sale,M33 4AT,53.41438,-2.332633,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,22-08-2018
 2,0,6006191,Weathercock Farm,Manor Avenue,Sale,M33 4NP,53.422129,-2.353645,0161 912 3104,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,11,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
-1,0,6006192,Chassen Road,Chassen Road,Manchester,M41 5DH,0,0,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,22-08-2018
-2,0,6006194,Timperley Recreation Ground,Park Road,Altrincham,WA15 6TE,0,0,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,30,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
-1,0,6006195,Navigation Road Recreation Ground,Navigation Road,Altrincham,WA14 1LL,0,0,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,30,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
+1,0,6006192,Chassen Road,Chassen Road,Manchester,M41 5DH,53.447392,-2.370141,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,22-08-2018
+2,0,6006194,Timperley Recreation Ground,Park Road,Altrincham,WA15 6TE,53.403338,-2.336653,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,30,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
+1,0,6006195,Navigation Road Recreation Ground,Navigation Road,Altrincham,WA14 1LL,53.396194,-2.346055,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,30,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
 2,0,6006196,Manor Avenue,Goodwood Avenue,Sale,M33 4QN,53.420993,-2.354105,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,11,Don't know,Don't know,Don't know,Yes,NA,22-08-2018
 1,0,6006197,Hale Croft,Hale Road,Altrincham,WA15 8SN,53.372542,-2.318431,0161 912 2000,NA,http://www.traffordleisure.co.uk,Yes,14,No,No,No,Yes,NA,21-08-2018
 8,0,6006198,Cross Lane,Cross Lane East,Manchester,M31 4ER,53.414336,-2.423732,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,11,No,No,No,Yes,NA,22-08-2018
 2,0,6010598,Heyes Lane Junior School,Crofton Avenue,Altrincham,WA15 6BZ,53.406305,-2.324014,0161 973 9850,office@hayeslane.co.uk,http://www.heyeslanejuniorschool.co.uk,Yes,40,Yes,Yes,Yes,Yes,NA,20-06-2017
 1,0,6010660,Lime Tree Primary Academy,Budworth Road,Sale,M33 2RP,53.417048,-2.299131,0161 905 0790,office@limetree.trafford.sch.uk,http://www.limetree.trafford.sch.uk,Yes,24,Yes,Yes,No,Yes,NA,27-06-2018
 1,0,6010749,All Saints Catholic Primary School,Cedar Road,Sale,M33 5NW,53.430649,-2.351588,0161 962 1288,allsaints.admin@trafford.gov.uk,http://www.allsaints.trafford.sch.uk,Yes,15,No,Yes,No,Yes,NA,18-07-2018
-3,0,6010762,Moorlands Junior School,Temple Road,Sale,M33 2LP,0,0,0161 962 5452,moorlands.admin@trafford.gov.uk,http://www.moorlandsjuniorschool.com,Yes,8,Yes,No,No,Yes,NA,11-06-2018
+3,0,6010762,Moorlands Junior School,Temple Road,Sale,M33 2LP,53.425247,-2.302078,0161 962 5452,moorlands.admin@trafford.gov.uk,http://www.moorlandsjuniorschool.com,Yes,8,Yes,No,No,Yes,NA,11-06-2018
 1,0,6010772,Woodheys Primary School,Meadway,Sale,M33 4PG,53.413647,-2.345557,0161 973 4478,admin@woodheysprimaryschool.co.uk,http://www.woodheysprimaryschool.co.uk,Yes,20,Yes,Yes,No,Yes,no parking,10-10-2017
 2,0,6010797,Oldfield Brow Primary School,Taylor Road,Altrincham,WA14 4LE,53.39193,-2.376892,0161 926 8646,oldfieldbrowps@yahoo.co.uk,http://www.oldfield-brow.com,No,0,Yes,No,Yes,Yes,NA,23-04-2018
 2,0,6010812,St Michaels Primary School,The Grove,Manchester,M41 6JB,53.443317,-2.381455,0161 748 3669,stmichaels.admin@trafford.gov.uk,http://www.st-michaels.trafford.sch.uk,Yes,10,Yes,Yes,Yes,Yes,NA,29-06-2017

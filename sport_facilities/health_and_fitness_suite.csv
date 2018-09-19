@@ -31,7 +31,7 @@ Stations,SiteID,SiteName,ThoroughfareName,PostTown,PostCode,Latitude,Longitude,T
 30,1201469,Trafford College (Altrincham),Manchester Road,Altrincham,WA14 5PQ,53.405198,-2.350024,0161 952 4711,damian.harris@trafford.ac.uk,http://www.trafford.ac.uk,Yes,100,Yes,No,Yes,Yes,Lift,07-02-2018
 14,1201493,Wellington School,Wellington Road,Altrincham,WA15 7RH,53.394068,-2.335016,0161 928 4157,admin@wellington.trafford.sch.uk,http://www.wellington.trafford.sch.uk,Yes,80,Yes,No,Yes,Yes,Ramps.,14-11-2017
 9,1201500,North Cestrian School,Dunham Road,Altrincham,WA14 4AJ,53.388228,-2.355929,0161 928 1856,office@northcestrian.co.uk,http://www.ncgs.co.uk,Yes,30,Yes,No,Yes,Yes,NA,14-09-2018
-30,1203095,St Ambrose College,Hale Road,Altrincham,WA15 0HE,0,0,0161 980 2711,office@st-ambrosecollege.org.uk,http://www.st-ambrosecollege.org.uk,Yes,50,Yes,No,Yes,Yes,NA,03-09-2018
+30,1203095,St Ambrose College,Hale Road,Altrincham,WA15 0HE,53.371448,-2.320334,0161 980 2711,office@st-ambrosecollege.org.uk,http://www.st-ambrosecollege.org.uk,Yes,50,Yes,No,Yes,Yes,NA,03-09-2018
 16,1203099,Lostock College,Selby Road,Manchester,M32 9PL,53.454763,-2.330358,0161 864 5700,school@lostock.trafford.sch.uk,http://www.lostock.trafford.sch.uk,Yes,120,Don't know,Don't know,Don't know,Yes,NA,26-04-2012
 40,1203691,Stretford Sports Village (Talbot Centre),Great Stone Road,Manchester,M32 0XA,53.457204,-2.293706,0161 826 1001,receptiontalbot@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,50,Yes,No,No,Yes,NA,31-08-2018
 39,30003837,Trafford College,Talbot Road,Manchester,M32 0XH,53.4575,-2.290515,0161 886 7070,info@trafford.ac.uk,http://www.trafford.ac.uk/,Yes,130,Yes,No,No,Yes,NA,30-06-2017

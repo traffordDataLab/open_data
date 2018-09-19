@@ -55,6 +55,22 @@ sites <- left_join(sites, geographic, by = "SiteID")
 sites <- filter(sites, `Local Authority Name` == "Trafford") %>% 
   select(-`Local Authority Name`)
 
+# identify sites with missing coordinates
+sites_na <- filter(sites, Longitude == 0) %>% 
+  select(-Latitude, -Longitude)
+
+# geocode using ONS Postcode Directory
+postcodes <- read_csv("https://www.traffordDataLab.io/spatial_data/postcodes/trafford_postcodes_2018-05.csv") %>%
+  select(PostCode = postcode, Latitude = lat, Longitude = long)
+sites_na <- left_join(sites_na, postcodes, by = "PostCode") %>% 
+  # add non-matching coordinates for Longford Park (SiteID: 1043161)
+  mutate(Latitude = case_when(SiteID == 1043161 ~ 53.446901, TRUE ~ .$Latitude),
+         Longitude = case_when(SiteID == 1043161 ~ -2.292593, TRUE ~ .$Longitude))
+
+# drop then merge geocoded sites     
+sites <- filter(sites, Longitude != 0) %>% 
+  bind_rows(sites_na)
+
 # extract 'Contacts' dataframe ---------------------------
 contacts <- list_df[["Contacts"]] %>%
   select(SiteID,
@@ -88,9 +104,9 @@ list_facilities <- lapply(list_facilities, left_join, geographic, by = "Facility
 list_facilities <- lapply(list_facilities, function(x) filter(x, `Local Authority Name` == "Trafford"))
 
 # check for Site duplicates for each Facility Type before proceeding !! ---------------------------
-list_facilities[["TennisCourts"]] %>% 
-  filter(SiteID %in% unique(.[["SiteID"]][duplicated(.[["SiteID"]])])) %>% 
-  View()
+# list_facilities[["TennisCourts"]] %>% 
+#   filter(SiteID %in% unique(.[["SiteID"]][duplicated(.[["SiteID"]])])) %>% 
+#   View()
 
 # ArtificialGrassPitch ---------------------------
 artificial_grass_pitch <- list_facilities[["ArtificialGrassPitch"]] %>% 
@@ -222,7 +238,7 @@ tennis_courts <- list_facilities[["TennisCourts"]] %>%
   select(Courts, Floodlit, everything()) 
 write_csv(tennis_courts, "data/tennis_courts.csv")
 
-# style and export aqs GeoJSON ---------------------------
+# style and export as GeoJSON ---------------------------
 tennis_courts %>% 
   rename(`Site ID` = SiteID, `Site name` = SiteName, Street = ThoroughfareName, Town = PostTown,
          Postcode = PostCode, `Telephone number` = TelNumber, `Car park` = CarParkExist,
