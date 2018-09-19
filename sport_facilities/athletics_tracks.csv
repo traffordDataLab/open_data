@@ -1,0 +1,4 @@
+Lanes,Floodlit,SiteID,SiteName,ThoroughfareName,PostTown,PostCode,Latitude,Longitude,TelNumber,Email,Website,CarParkExist,NumCarPark,CyclePark,NurseryFlag,FirstAid,DisabilityExist,DisabilityNotes,RecLastChkdDate
+6,1,1011329,Longford Park Stadium,Ryebank Road,Manchester,M21 9TA,53.446293,-2.289656,0161 860 0956,admin@traffordac.co.uk,http://www.traffordac.co.uk,Yes,300,Yes,No,No,Yes,"Parking: Designated bays, Finding/Reaching Entrance: Ramps, Reception Area: Lift",05-04-2018
+7,1,1011332,Timperley Recreation Ground,Grove Lane,Altrincham,WA15 7UF,53.398479,-2.321361,07977 047182,altrinchamac@fsnet.co.uk,http://www.altrincham-athletics.co.uk,Yes,40,No,No,No,Yes,Track Not Suitable for Wheelchair Users,21-05-2018
+7,1,1011521,Crossford Bridge,Danefield Road,Sale,M33 7BG,53.432934,-2.315258,0161 973 5559,NA,http://saleharriersmanchester.com/pages/1102/coaching/crossford-bridge,Yes,125,Yes,No,Yes,Yes,NA,16-11-2017

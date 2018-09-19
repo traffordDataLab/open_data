@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Courts": 8, "Site ID": 1001039, "Site name": "David Lloyd Club (Manchester)", "Street": "Barton Embankment", "Town": "Manchester", "Postcode": "M17 8RH", "Telephone number": "0161 749 2000", "Email": "mship.manchester@davidlloyd.co.uk", "Website": "http:\/\/www.davidlloyd.co.uk", "Car park": "Yes", "Car park capacity": 359, "Cycle park": "Yes", "Nursery": "Yes", "First aid room": "No", "Disabled access": "Yes", "Disability notes": null, "Last updated": "30-05-2018", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.35997, 53.469923 ] } }
+]
+}

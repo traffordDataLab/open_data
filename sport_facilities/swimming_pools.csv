@@ -1,0 +1,15 @@
+Pools,SiteID,SiteName,ThoroughfareName,PostTown,PostCode,Latitude,Longitude,TelNumber,Email,Website,CarParkExist,NumCarPark,CyclePark,NurseryFlag,FirstAid,DisabilityExist,DisabilityNotes,RecLastChkdDate
+1,1000345,Dw Fitness (Brooklands),Whitehall Road,Sale,M33 3NL,53.414627,-2.31774,0161 972 8999,bucklandshcmgr@dwsports.com,http://www.dwfitness.com,Yes,180,Yes,No,No,Yes,NA,20-02-2018
+4,1001039,David Lloyd Club (Manchester),Barton Embankment,Manchester,M17 8RH,53.469923,-2.35997,0161 749 2000,mship.manchester@davidlloyd.co.uk,http://www.davidlloyd.co.uk,Yes,359,Yes,Yes,No,Yes,NA,30-05-2018
+2,1002524,Stretford Sports Village (Chester Centre),Great Stone Road,Manchester,M32 0ZS,53.458337,-2.292846,0161 875 1414,info@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,120,Yes,No,Yes,Yes,NA,18-09-2018
+2,1002635,Altrincham Leisure Centre,Oakfield Road,Altrincham,WA15 8EW,53.388213,-2.34572,0161 926 3255,info@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,5,Yes,No,Yes,Yes,Pool Hoist,10-09-2018
+1,1002639,Partington Sports Village,Chapel Lane,Manchester,M31 4ES,53.413337,-2.428383,0161 777 4222,kelly.cooke@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,25,No,No,Yes,Yes,Hoist,30-01-2018
+3,1002641,Sale Leisure Centre,Broad Road,Sale,M33 2AL,53.424654,-2.315949,0161 905 5588,info@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,120,Yes,No,Yes,Yes,"DDA Compliant, lift, pool hoist",01-02-2018
+2,1002642,Urmston Leisure Centre,Bowfell Road,Manchester,M41 5RR,53.45041,-2.37092,0161 749 2570,info@traffordleisure.co.uk,http://www.traffordleisure.co.uk/centres/urmston/,Yes,200,Yes,No,Yes,Yes,Parking: 4 Bays,26-03-2018
+1,1002890,Marriott Leisure Club (Manchester Airport),Hale Road,Altrincham,WA15 8XW,53.364216,-2.297829,0161 904 5050,mhrs.manap.leisure@marriotthotels.com,http://www.marriottleisure.co.uk,Yes,100,Yes,No,No,Yes,NA,14-02-2018
+1,1003272,Dw Sports Fitness (Trafford),Trafford Way,Manchester,M17 8DD,53.468519,-2.365048,0161 772 7413,info@dwfitnessclubs.com,http://www.dwfitnessclubs.com,Yes,200,Yes,No,No,Yes,NA,02-02-2018
+2,1007859,Total Fitness (Altrincham),Lloyd Street,Altrincham,WA14 2SU,53.383761,-2.350748,0161 925 4500,NA,http://www.totalfitness.co.uk,Yes,500,No,No,No,Yes,NA,08-08-2018
+1,1008718,Sports Direct Fitness (Sale),Washway Road,Sale,M33 7QY,53.425319,-2.326127,0843 777 1133,manager.salefit@sportsdirectfitness.com,http://www.sportsdirectfitness.com,Yes,65,Yes,No,Yes,Yes,NA,13-10-2017
+1,1009265,Mercure Altrincham Bowdon Hotel,Langham Road,Altrincham,WA14 2HT,53.377588,-2.352023,0161 928 7121,qlaltrincham@gmail.com,http://www.hotels-altrincham.com,Yes,200,Yes,No,No,Yes,NA,16-02-2018
+2,1037888,Hale Country Club And Spa,Clay Lane,Altrincham,WA15 7AF,53.387685,-2.312006,0161 904 5939,NA,http://www.halecountryclub.co.uk,Yes,200,Yes,Yes,Yes,Yes,NA,01-03-2018
+2,1203095,St Ambrose College,Hale Road,Altrincham,WA15 0HE,0,0,0161 980 2711,office@st-ambrosecollege.org.uk,http://www.st-ambrosecollege.org.uk,Yes,50,Yes,No,Yes,Yes,NA,03-09-2018
