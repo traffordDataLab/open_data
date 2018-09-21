@@ -1,7 +1,3 @@
-
-[<img src="thumbnail.png">](2016/STATS19_casualty_data_2016_styled.geojson)
-</br>
-
 <table>
 <tr>
 	<td>Dataset name</td>
@@ -9,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Road accidents involving personal injury recorded by Greater Manchester Police during 2016.</td>
+	<td>Road accidents involving personal injury recorded by Greater Manchester Police</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -17,7 +13,7 @@
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td>Department for Transport</td>
+	<td>TfGM and Department for Transport</td>
 </tr>
 <tr>
 	<td>Publisher URL</td>
@@ -33,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>1 year</td>
+	<td>2015-2018</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -57,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>March 2018</td>
+	<td>September 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>
