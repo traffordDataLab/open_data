@@ -35,8 +35,7 @@ sf <- sf %>%
              GMALLevel == 6 ~ "#FF8001",
              GMALLevel == 7 ~ "#D63027",
              GMALLevel == 8 ~ "#500001"),
-         `stroke-width` = 3,
-         `stroke-opacity` = 1,
+         `stroke-width` = 0,
          fill = stroke,
          `fill-opacity` = 0.8)
 
