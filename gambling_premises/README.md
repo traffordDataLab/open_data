@@ -1,4 +1,4 @@
-<a href="trafford_gambling_premises.geojson"><img src="thumbnail.png" alt="Gambling premises" width="400"/></a>
+<a href="trafford_gambling_premises.geojson"><img src="thumbnail.png" alt="Gambling premises" width="600"/></a>
 <table>
 <tr>
 	<td>Dataset name</td>
