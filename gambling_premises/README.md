@@ -1,3 +1,4 @@
+[<img src="thumbnail.png">](trafford_gambling_premises.geojson)
 <table>
 <tr>
 	<td>Dataset name</td>
