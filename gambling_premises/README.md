@@ -5,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Gambling premises in Trafford and Greater Manchester.</td>
+	<td>Gambling premises in Trafford and Greater Manchester</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -61,6 +61,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=gambling_premises">Explore application</a>.</td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=gambling_premises">Explore application</a></td>
 </tr>
 </table>
