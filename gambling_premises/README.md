@@ -1,4 +1,4 @@
-[<img src="thumbnail.png">](trafford_gambling_premises.geojson)
+<a href="trafford_gambling_premises.png"><img src="thumbnail.png" alt="Gambling premises" width="400"/>
 <table>
 <tr>
 	<td>Dataset name</td>
