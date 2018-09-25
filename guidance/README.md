@@ -30,7 +30,7 @@ Each CSV or GeoJSON file must supply the `area_name` and `area_code` for each ob
 Where available, the coordinates of a location or event need to be provided using the WGS84 Geographic Coordinate System (i.e. Longitude, Latitude). The coordinates need to be consistently labelled as `lon` and `lat` in that order.
 
 #### Styling
-Data made available in tabular CSV format must using [snake case](https://en.wikipedia.org/wiki/Snake_case) to name variables and be structured in [long format](http://r4ds.had.co.nz/images/tidy-9.png).
+Data made available in tabular CSV format must use [snake case](https://en.wikipedia.org/wiki/Snake_case) to name variables and be structured in [long format](http://r4ds.had.co.nz/images/tidy-9.png).
 
 Geospatial data must be styled for use in GitHub and on the Lab's [Explore](https://www.trafforddatalab.io/maps/explore/) mapping application. Full variable names should be used and [features styled](https://help.github.com/articles/mapping-geojson-files-on-github/), e.g. marker colour and stroke width.
 
