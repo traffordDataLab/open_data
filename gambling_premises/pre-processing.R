@@ -5,7 +5,7 @@
 # Licence: Open Government Licence
 
 # load libraries ---------------------------
-library(tidyverse); library(sf)
+library(tidyverse) ; library(sf)
 
 # load data ---------------------------
 raw <- read_csv("Premises-licence-database-extract.csv")
@@ -38,7 +38,9 @@ sf <- df %>%
          Address = address,
          Postcode = postcode,
          `Area name` = area_name,
-         `Area code` = area_code)
+         `Area code` = area_code) %>% 
+  mutate(`marker-color` = "#fc6721",
+         `marker-size` = "medium")
 
 # write data ---------------------------
 write_csv(df, "gm_gambling_premises.csv")
@@ -46,5 +48,4 @@ write_csv(filter(df, area_name == "Trafford"), "trafford_gambling_premises.csv")
 
 st_write(sf, "gm_gambling_premises.geojson")
 st_write(filter(sf, `Area name` == "Trafford"), "trafford_gambling_premises.geojson")
-
 
