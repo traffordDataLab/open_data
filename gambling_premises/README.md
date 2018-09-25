@@ -33,7 +33,7 @@
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Not known</td>
+	<td>Monthly</td>
 </tr>
 <tr>
 	<td>Licence</td>
