@@ -24,8 +24,8 @@ trafford_sf <- st_intersection(gm_sf, bdy)
 
 # style GeoJSON ---------------------------
 gm_sf <- gm_sf %>% 
-  mutate(area_code = "E47000001") %>% 
-  select(area_code, area_name = LOCAL_AUTH, description = DESCRIPTIO) %>% 
+  mutate(`Area code` = "E47000001") %>% 
+  select(`Area code`, `Area name` = LOCAL_AUTH, Description = DESCRIPTIO) %>% 
   mutate(stroke = "#727C81",
          `stroke-width` = 3,
          `stroke-opacity` = 1,
@@ -33,7 +33,7 @@ gm_sf <- gm_sf %>%
          `fill-opacity` = 0.8)
 
 trafford_sf <- trafford_sf %>% 
-  select(area_code, area_name, description = DESCRIPTIO) %>% 
+  select(`Area code` = area_code, `Area name` = area_name, description = DESCRIPTIO) %>% 
   mutate(stroke = "#727C81",
          `stroke-width` = 3,
          `stroke-opacity` = 1,
