@@ -1,6 +1,4 @@
-[<img src="thumbnail.png">](trafford_care_homes_styled.geojson)
-</br>
-
+<a href="trafford_care_homes.geojson"><img src="thumbnail.png" alt="Care homes" width="600"/></a>
 <table>
 <tr>
 	<td>Dataset name</td>
@@ -8,7 +6,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Nursing and residential care homes in Trafford</td>
+	<td>Nursing and residential care homes in Trafford and Greater Manchester</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -28,15 +26,15 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Trafford</td>
+	<td>Trafford, Greater Manchester</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>March 2018</td>
+	<td>Correct as of September 2018</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Not known</td>
+	<td>Weekly</td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -56,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>March 2018</td>
+	<td>September 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>
