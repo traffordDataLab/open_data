@@ -1,6 +1,4 @@
-[<img src="thumbnail.png">](trafford_agricultural_land_classification_styled.geojson)
-</br>
-
+<a href="trafford_agricultural_land_classification.geojson"><img src="thumbnail.png" alt="Agricultural land classification" width="600"/></a>
 <table>
 <tr>
 	<td>Dataset name</td>
@@ -24,11 +22,11 @@
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>Local authority</td>
+	<td>Local authority, Combined Authority</td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Trafford</td>
+	<td>Trafford, Greater Manchester</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
@@ -56,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>March 2018</td>
+	<td>September 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>
