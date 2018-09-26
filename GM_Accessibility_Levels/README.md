@@ -1,3 +1,4 @@
+<a href="trafford_gmal.geojson"><img src="thumbnail.png" alt="GMAL" width="600"/></a>
 <table>
 <tr>
 	<td>Dataset name</td>
