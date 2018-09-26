@@ -22,11 +22,11 @@
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>Local Authority</td>
+	<td>Local Authority, Combined Authority</td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Trafford</td>
+	<td>Trafford, Greater Manchester</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
@@ -46,7 +46,7 @@
 </tr>
 <tr>
 	<td>Format</td>
-	<td>CSV; GeoJSON</td>
+	<td>GeoJSON</td>
 </tr>
 <tr>
 	<td>Openness rating</td>
@@ -62,6 +62,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td></td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=public_transport_accessibility">Explore application</a>.</td>
 </tr>
 </table>
