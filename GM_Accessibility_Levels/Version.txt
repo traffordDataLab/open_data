@@ -1,0 +1,6 @@
+The data fields were calculated using public transport timetables from these dates:
+ Bus		   May-2018
+ Metrolink	   May-2018
+ Rail		   Mar-2016 (TBC)
+ Local Link	12-Oct-2017
+ Journey Times	06-Oct-2011 (TBC)
