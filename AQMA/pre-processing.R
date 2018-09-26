@@ -33,7 +33,7 @@ gm_sf <- gm_sf %>%
          `fill-opacity` = 0.8)
 
 trafford_sf <- trafford_sf %>% 
-  select(`Area code` = area_code, `Area name` = area_name, description = DESCRIPTIO) %>% 
+  select(`Area code` = area_code, `Area name` = area_name, Description = DESCRIPTIO) %>% 
   mutate(stroke = "#727C81",
          `stroke-width` = 3,
          `stroke-opacity` = 1,
