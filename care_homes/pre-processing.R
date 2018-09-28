@@ -36,7 +36,7 @@ sf <- df %>%
          `Service type` = type, 
          Address = address,
          Postcode = postcode,
-         `Telephone number` = telephone,
+         `Telephone` = telephone,
          Website = website,
          `Area name` = area_name,
          `Area code` = area_code) %>%
