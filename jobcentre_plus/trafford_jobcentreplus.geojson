@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "Name": "Altrincham", "Address": "Roberts House, 80 Manchester Road, Altrincham", "Postcode": "WA14 4PU", "Area name": "Trafford", "Area code": "E08000009", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.36572003, 53.4167099 ] } },
-{ "type": "Feature", "properties": { "Name": "Stretford", "Address": "Stretford Mall, Chester Road, Stretford, Manchester", "Postcode": "M32 9ED", "Area name": "Trafford", "Area code": "E08000009", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.36572003, 53.4167099 ] } }
+{ "type": "Feature", "properties": { "Name": "Altrincham", "Address": "Roberts House, 80 Manchester Road, Altrincham", "Postcode": "WA14 4PU", "Area code": "E08000009", "Area name": "Trafford", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.351888, 53.395925 ] } },
+{ "type": "Feature", "properties": { "Name": "Stretford", "Address": "Stretford Mall, Chester Road, Stretford, Manchester", "Postcode": "M32 9ED", "Area code": "E08000009", "Area name": "Trafford", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.309007, 53.444834 ] } }
 ]
 }
