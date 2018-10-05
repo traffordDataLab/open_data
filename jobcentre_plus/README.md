@@ -3,11 +3,11 @@
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>jobcentres</td>
+	<td>Jobcentre Plus</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>The addresses of all jobcentres in Greater Manchester</td>
+	<td>The addresses of all jobcentres in Trafford and Greater Manchester</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -27,7 +27,7 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Greater Manchester</td>
+	<td>Trafford, Greater Manchester</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>

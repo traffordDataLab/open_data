@@ -1,5 +1,4 @@
-[<img src="thumbnail.png">](GM_general_practices_styled.geojson)
-
+<a href="trafford_general_practices.geojson"><img src="thumbnail.png" alt="GPs" width="600"/></a>
 <table>
 <tr>
 	<td>Dataset name</td>
@@ -7,7 +6,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>The location of general practices in Greater Manchester</td>
+	<td>The location of general practices in Trafford and Greater Manchester</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -27,7 +26,7 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Greater Manchester</td>
+	<td>Trafford, Greater Manchester</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
@@ -55,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>14 May 2018</td>
+	<td>3 October 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>

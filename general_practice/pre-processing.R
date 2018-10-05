@@ -1,40 +1,52 @@
 ## GP Practices ##
+
 # Source: Care Quality Commission
 # Publisher URL: http://www.cqc.org.uk/about-us/transparency/using-cqc-data
 # Licence: Open Government Licence
 
-# load libraries
-library(tidyverse) ; library(sf)
+# load libraries ---------------------------
+library(tidyverse) ;  library(sf)
 
 # load data ---------------------------
-raw <- read_csv("http://www.cqc.org.uk/sites/default/files/14_May_2018_CQC_directory.csv", skip = 4, col_names = TRUE)
+raw <- read_csv("https://www.cqc.org.uk/sites/default/files/03_October_2018_CQC_directory.csv", 
+                skip = 4, col_names = TRUE) %>% setNames(tolower(names(.)))
 
-# load area lookup ---------------------------
-area_lookup <- read_csv("https://www.traffordDataLab.io/spatial_data/lookups/administrative_lookup.csv") %>% 
-  select(area_code = lad17cd, area_name = lad17nm) %>% 
-  unique()
+area_lookup <- data_frame(
+  area_code = paste0("E080000" , seq(1:10)),
+  area_name = c("Bolton", "Bury", "Manchester", "Oldham", "Rochdale",
+                "Salford", "Stockport", "Tameside", "Trafford", "Wigan")
+)
+
+postcodes <- read_csv("https://www.traffordDataLab.io/spatial_data/postcodes/GM_postcodes_2018-08.csv")
 
 # tidy data ---------------------------
 df <- raw %>% 
-  setNames(tolower(names(.))) %>% 
-  filter(`service types` == "Doctors/GPs" | `service types` == "Doctors/GPs|Doctors/GPs") %>% 
-  select(name, alias = `also known as`, cqc_id = `cqc provider id (for office use only)`, tel = `phone number`,
-         address, postcode, area_name = `local authority`) %>% 
-  filter(area_name %in% c("Bolton","Bury","Manchester","Oldham","Rochdale","Salford","Stockport","Tameside","Trafford","Wigan")) %>% 
-  left_join(., area_lookup, by = "area_name")
+  filter(str_detect(`service types`, "GPs") & 
+           `local authority` %in% area_lookup$area_name) %>%
+  select(name, type = `service types`, address, postcode, telephone = `phone number`, 
+         website = `service's website (if available)`, area_name = `local authority`) %>% 
+  left_join(., area_lookup, by = "area_name") %>% 
+  left_join(., postcodes, by = "postcode")
 
-# match with ONS postcodes ---------------------------
-postcodes <- read_csv("https://www.traffordDataLab.io/spatial_data/postcodes/GM_postcodes_2018-02.csv")
-df_postcodes <- left_join(df, postcodes, by = "postcode")
+# style GeoJSON  ---------------------------
+sf <- df %>% 
+  st_as_sf(coords = c("lon", "lat")) %>%
+  st_set_crs(4326) %>%
+  select(Name = name,
+         `Service type` = type, 
+         Address = address,
+         Postcode = postcode,
+         Telephone = telephone,
+         Website = website,
+         `Area name` = area_name,
+         `Area code` = area_code) %>%
+  mutate(`marker-color` = "#fc6721",
+         `marker-size` = "medium")
 
-# convert to spatial object ---------------------------
-sf <- df_postcodes %>%  
-  st_as_sf(coords = c("long", "lat")) %>% 
-  st_set_crs(4326)
+# write data  ---------------------------
+write_csv(df, "gm_general_practices.csv")
+write_csv(filter(df, area_name == "Trafford"), "trafford_general_practices.csv")
+st_write(sf, "gm_general_practices.geojson")
+st_write(filter(sf, `Area name` == "Trafford"), "trafford_general_practices.geojson")
 
-# write data   ---------------------------
-write_csv(df_postcodes, "GM_general_practices.csv")
-st_write(sf, "GM_general_practices.geojson")
 
-write_csv(filter(df_postcodes, area_name == "Trafford"), "trafford_general_practices.csv")
-st_write(filter(sf, area_name == "Trafford"), "trafford_general_practices.geojson")

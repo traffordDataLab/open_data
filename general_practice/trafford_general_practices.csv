@@ -1,33 +1,36 @@
-name,alias,cqc_id,tel,address,postcode,area_name,area_code,lat,long
-Urmston Group Practice,NA,1-199787408,1617559870,"6 Woodsend Crescent Road, Urmston, Manchester",M41 8AA,Trafford,E08000009,53.452491,-2.394066
-Primrose Surgery,NA,1-199787456,1617472424,"59 Old Crofts Bank, Urmston, Manchester",M41 7AB,Trafford,E08000009,53.456159,-2.357311
-Direct Medicare UK Limited,NA,1-2464425273,16119624625,"Bodmin Road Health Centre, Bodmin Road, Sale",M33 5JH,Trafford,E08000009,53.428123,-2.351718
-Limelight Health and Well-being Hub,Brooks Bar Medical Centre,1-3769470093,1612267777,"Limelight, 1-3 St Brides Way, Manchester",M16 9NW,Trafford,E08000009,53.461412,-2.261969
-Dr Richard Clare,Dr Richard George Clare,1-199787594,1619733499,"The Surgery, 12 Derbyshire Road South, Sale",M33 3JP,Trafford,E08000009,53.416957,-2.310144
-Dr Sally Johnston,NA,1-199787730,1619629662,"34 Riddings Road, Timperley, Altrincham",WA15 6BP,Trafford,E08000009,53.404424,-2.331291
-Dr Salam J Farhan,Partington Central Surgery,1-199787515,1617757032,"Partington Health Centre, Central Road, Partington, Manchester",M31 4FY,Trafford,E08000009,53.417204,-2.425413
-Gloucester House Medical Centre,NA,1-199787691,1617487115,"17 Station Road, Urmston, Manchester",M41 9JS,Trafford,E08000009,53.447337,-2.352599
-Dr Anoop Sahal,The Family surgery,1-199787662,1619299300,"94 Navigation Road, Altrincham",WA14 1LL,Trafford,E08000009,53.396194,-2.346055
-Dr Masud Prodhan,Old Trafford Medical Practice,1-199787672,1618487563,"Seymour Grove Health Centre, Manchester",M16 0LW,Trafford,E08000009,53.458074,-2.275745
-Dr Mahendra Patel,NA,1-199787447,1619802656,"Shay Lane, Hale Barns, Altrincham",WA15 8NZ,Trafford,E08000009,53.372189,-2.31556
-Dr Devang Shah,Grove Medical Practice,1-199787750,1619039302,"169 Grove Lane, Timperley, Altrincham",WA15 6PH,Trafford,E08000009,53.397228,-2.323566
-Timperley Health Centre - Westwood,NA,1-199787418,1619803751,"169 Grove Lane, Timperley, Altrincham",WA15 6PH,Trafford,E08000009,53.397228,-2.323566
-The Village Surgery,NA,1-199787681,1619039010,"169 Grove Lane, Timperley, Altrincham",WA15 6PH,Trafford,E08000009,53.397228,-2.323566
-Shay Lane Medical Centre - Kelman,"Drs Kelman,Cranston&Naylor",1-199787428,1619803835,"Shay Lane, Hale Barns, Altrincham",WA15 8NZ,Trafford,E08000009,53.372189,-2.31556
-Park Medical Practice,NA,1-199787388,1619733485,"119 Park Road, Timperley, Altrincham",WA15 6QQ,Trafford,E08000009,53.401899,-2.327843
-Delamere Medical Practice,NA,1-199787505,1618640200,"Delamere Avenue, Stretford, Manchester",M32 0DF,Trafford,E08000009,53.450887,-2.307365
-Conway Road Medical Practice,NA,1-199787604,1619731151,"Conway Road Health Centre, 80a Conway Road, Sale",M33 2TB,Trafford,E08000009,53.417873,-2.303561
-Partington Family Practice,NA,1-199787555,1617757033,"Partington Health Centre, Central Road, Partington, Manchester",M31 4FY,Trafford,E08000009,53.417204,-2.425413
-Firsway Health Centre,NA,1-199787535,1619050310,"121 Firsway, Sale",M33 4BR,Trafford,E08000009,53.421289,-2.355468
-Boundary House Medical Centre,NA,1-199787466,1619729999,"Boundary House,, 462, Northenden Road,, Sale",M33 2RH,Trafford,E08000009,53.415635,-2.288936
-Bodmin Road Health Centre,Dr PMA Simpson and Partners,1-199787495,1619624625,"Bodmin Road,, Sale",M33 5JH,Trafford,E08000009,53.428123,-2.351718
-Altrincham Medical Practice,NA,1-199787398,1619282424,"Lloyd House, 7 Lloyd Street, Altrincham",WA14 2DD,Trafford,E08000009,53.38451,-2.351614
-Washway Road Medical Centre,NA,1-199787475,1619624354,"67 Washway Road, Sale",M33 7SS,Trafford,E08000009,53.4224,-2.328392
-St Johns Medical Centre,NA,1-199787633,1619285522,"St Johns Road, Altrincham",WA14 2NW,Trafford,E08000009,53.38276,-2.353809
-Davyhulme Medical Centre,NA,1-199787437,1617485559,"130 Broadway, Davyhulme, Urmston, Manchester",M41 7WJ,Trafford,E08000009,53.459483,-2.366782
-Dr BN Macdonald & Partners,Barrington Medical Centre,1-199787623,1619289621,"68 Barrington Road, Altrincham",WA14 1JB,Trafford,E08000009,53.395191,-2.35098
-Flixton Road Medical Centre,NA,1-199787574,1617482021,"132 Flixton Road, Urmston, Manchester",M41 5BG,Trafford,E08000009,53.448267,-2.362664
-West Timperley Medical Centre,NA,1-199787485,1619291515,"21 Dawson Road, West Timperley, Altrincham",WA14 5PF,Trafford,E08000009,53.402699,-2.353117
-Gorse Hill Medical Centre,NA,1-199787652,1618642496,"879 Chester Road, Stretford, Manchester",M32 0RN,Trafford,E08000009,53.455651,-2.296647
-Lostock Medical Centre,NA,1-199787701,1618651100,"431 Barton Road, Stretford, Manchester",M32 9PA,Trafford,E08000009,53.45458,-2.328128
-North Trafford Group Practice,NA,1-199787711,1618655556,"864 866 Chester Road, Stretford, Manchester",M32 0PA,Trafford,E08000009,53.453882,-2.299481
+name,type,address,postcode,telephone,website,area_name,area_code,lon,lat
+Urmston Group Practice,Doctors/GPs|Doctors/GPs,"6 Woodsend Crescent Road, Urmston, Manchester",M41 8AA,1617559870,http://www.urmstongrouppractice.co.uk,Trafford,E0800009,-2.394066,53.452491
+Diagnostic Healthcare Limited,Doctors/GPs|Diagnosis/screening|Diagnosis/screening|Doctors/GPs,"Mansion House, 3 Bridgewater Embankment, Altrincham",WA14 4RW,NA,NA,Trafford,E0800009,-2.353017,53.397872
+Primrose Surgery,Doctors/GPs|Doctors/GPs,"59 Old Crofts Bank, Urmston, Manchester",M41 7AB,1617472424,http://www.primroseavenue.co.uk,Trafford,E0800009,-2.357311,53.456159
+Direct Medicare UK Limited,Doctors/GPs|Doctors/GPs,"Bodmin Road Health Centre, Bodmin Road, Sale",M33 5JH,16119624625,NA,Trafford,E0800009,-2.351718,53.428123
+Trafford Health Centre,Doctors/GPs|Doctors/GPs|Mobile doctors|Phone/online advice|Urgent care centres,"Moorside Road, Davyhulme, Manchester",M41 5SL,1617474978,http://www.mastercall.org.uk,Trafford,E0800009,-2.370681,53.45406
+Limelight Health and Well-being Hub,Doctors/GPs|Doctors/GPs,"Limelight, 1-3 St Brides Way, Manchester",M16 9NW,1612267777,NA,Trafford,E0800009,-2.261969,53.461412
+Skinny Revolution Ltd,Doctors/GPs|Doctors/GPs,"307 Hale Road, Hale Barns, Altrincham",WA15 8SS,1619804237,http://www.skinnyrevolution.co.uk,Trafford,E0800009,-2.313707,53.369479
+Dr Richard Clare,Doctors/GPs|Doctors/GPs,"The Surgery, 12 Derbyshire Road South, Sale",M33 3JP,1619733499,http://www.drclaresurgery.co.uk,Trafford,E0800009,-2.310144,53.416957
+Dr Sally Johnston,Doctors/GPs|Doctors/GPs,"34 Riddings Road, Timperley, Altrincham",WA15 6BP,1619629662,NA,Trafford,E0800009,-2.331291,53.404424
+Dr Salam J Farhan,Doctors/GPs|Doctors/GPs,"Partington Health Centre, Central Road, Partington, Manchester",M31 4FY,1617757032,NA,Trafford,E0800009,-2.425413,53.417204
+Gloucester House Medical Centre,Doctors/GPs|Doctors/GPs,"17 Station Road, Urmston, Manchester",M41 9JS,1617487115,http://www.ghmc.co.uk,Trafford,E0800009,-2.352599,53.447337
+Dr Anoop Sahal,Doctors/GPs|Doctors/GPs,"94 Navigation Road, Altrincham",WA14 1LL,1619299300,NA,Trafford,E0800009,-2.346055,53.396194
+Dr Masud Prodhan,Doctors/GPs|Doctors/GPs,"Seymour Grove Health Centre, Manchester",M16 0LW,1618487563,http://www.oldtraffordsurgery.co.uk,Trafford,E0800009,-2.275745,53.458074
+Dr Mahendra Patel,Doctors/GPs|Doctors/GPs,"Shay Lane, Hale Barns, Altrincham",WA15 8NZ,1619802656,http://www.shaylanemedical.com,Trafford,E0800009,-2.31556,53.372189
+Dr Devang Shah,Doctors/GPs|Doctors/GPs,"169 Grove Lane, Timperley, Altrincham",WA15 6PH,1619039302,http://www.grovemed.co.uk,Trafford,E0800009,-2.323566,53.397228
+Timperley Health Centre - Westwood,Doctors/GPs|Doctors/GPs,"169 Grove Lane, Timperley, Altrincham",WA15 6PH,1619803751,NA,Trafford,E0800009,-2.323566,53.397228
+The Village Surgery,Doctors/GPs|Doctors/GPs,"169 Grove Lane, Timperley, Altrincham",WA15 6PH,1619039010,NA,Trafford,E0800009,-2.323566,53.397228
+Shay Lane Medical Centre - Kelman,Doctors/GPs|Doctors/GPs,"Shay Lane, Hale Barns, Altrincham",WA15 8NZ,1619803835,http://www.shaylane.org,Trafford,E0800009,-2.31556,53.372189
+Park Medical Practice,Doctors/GPs|Doctors/GPs,"119 Park Road, Timperley, Altrincham",WA15 6QQ,1619733485,NA,Trafford,E0800009,-2.327843,53.401899
+Delamere Medical Practice,Doctors/GPs|Doctors/GPs,"Delamere Avenue, Stretford, Manchester",M32 0DF,1618640200,http://www.delameremedicalcentre.co.uk,Trafford,E0800009,-2.307365,53.450887
+Conway Road Medical Practice,Doctors/GPs|Doctors/GPs,"Conway Road Health Centre, 80a Conway Road, Sale",M33 2TB,1619731151,http://www.conwayroadsurgery.co.uk,Trafford,E0800009,-2.303561,53.417873
+Partington Family Practice,Doctors/GPs|Doctors/GPs,"Partington Health Centre, Central Road, Partington, Manchester",M31 4FY,1617757033,http://www.drdeweeverandpartners.co.uk,Trafford,E0800009,-2.425413,53.417204
+Firsway Health Centre,Doctors/GPs|Doctors/GPs,"121 Firsway, Sale",M33 4BR,1619050310,http://www.firswayhealthcentre.co.uk,Trafford,E0800009,-2.355468,53.421289
+Boundary House Medical Centre,Doctors/GPs|Doctors/GPs,"Boundary House,, 462, Northenden Road,, Sale",M33 2RH,1619729999,NA,Trafford,E0800009,-2.288936,53.415635
+Bodmin Road Health Centre,Doctors/GPs|Doctors/GPs,"Bodmin Road,, Sale",M33 5JH,1619624625,http://www.bodminroadhealthcentre.co.uk,Trafford,E0800009,-2.351718,53.428123
+Altrincham Medical Practice,Doctors/GPs|Doctors/GPs,"Lloyd House, 7 Lloyd Street, Altrincham",WA14 2DD,1619282424,http://www.altrinchammedicalpractice.co.uk,Trafford,E0800009,-2.351614,53.38451
+Washway Road Medical Centre,Doctors/GPs|Doctors/GPs,"67 Washway Road, Sale",M33 7SS,1619624354,http://www.wrmc.org.uk,Trafford,E0800009,-2.328392,53.4224
+St Johns Medical Centre,Doctors/GPs|Doctors/GPs,"St Johns Road, Altrincham",WA14 2NW,1619285522,http://www.stjohnsmedicalcentre.co.uk,Trafford,E0800009,-2.353809,53.38276
+Davyhulme Medical Centre,Doctors/GPs|Doctors/GPs,"130 Broadway, Davyhulme, Urmston, Manchester",M41 7WJ,1617485559,http://www.davyhulmemedicalcentre.co.uk,Trafford,E0800009,-2.366782,53.459483
+Dr BN Macdonald & Partners,Doctors/GPs|Doctors/GPs,"68 Barrington Road, Altrincham",WA14 1JB,1619289621,NA,Trafford,E0800009,-2.35098,53.395191
+Flixton Road Medical Centre,Doctors/GPs|Doctors/GPs,"132 Flixton Road, Urmston, Manchester",M41 5BG,1617482021,NA,Trafford,E0800009,-2.362664,53.448267
+West Timperley Medical Centre,Doctors/GPs|Doctors/GPs,"21 Dawson Road, West Timperley, Altrincham",WA14 5PF,1619291515,http://www.westtimperleymedicalcentre.co.uk,Trafford,E0800009,-2.353117,53.402699
+Gorse Hill Medical Centre,Doctors/GPs|Doctors/GPs,"879 Chester Road, Stretford, Manchester",M32 0RN,1618642496,http://www.ghmcars.co.uk,Trafford,E0800009,-2.296647,53.455651
+Lostock Medical Centre,Doctors/GPs|Doctors/GPs,"431 Barton Road, Stretford, Manchester",M32 9PA,1618651100,NA,Trafford,E0800009,-2.328128,53.45458
+North Trafford Group Practice,Doctors/GPs|Doctors/GPs,"864 866 Chester Road, Stretford, Manchester",M32 0PA,1618655556,http://www.chesterroadsurgery.co.uk,Trafford,E0800009,-2.299481,53.453882

@@ -1,4 +1,4 @@
-[<img src="thumbnail.png">](GM_probation_offices_styled.geojson)
+<a href="gm_probation.geojson"><img src="thumbnail.png" alt="Probation offices" width="600"/></a>
 </br>
 
 <table>

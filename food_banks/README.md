@@ -1,14 +1,14 @@
-[<img src="thumbnail.png">](GM_food_banks_styled.geojson)
+<a href="trafford_food_banks.geojson"><img src="thumbnail.png" alt="Food banks" width="600"/></a>
 </br>
 
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>GM Food Banks</td>
+	<td>Food Banks</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Dataset containing the location of food banks, pantries and food clubs across Greater Manchester.</td>
+	<td>Dataset containing the location of food banks, pantries and food clubs in Trafford and across Greater Manchester.</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -28,7 +28,7 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Greater Manchester</td>
+	<td>Trafford, Greater Manchester</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
