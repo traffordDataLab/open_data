@@ -1,5 +1,5 @@
 
-[<img src="thumbnail.png">](trafford_libraries_polygons_styled.geojson)
+[<img src="thumbnail.png">](trafford_libraries.geojson)
 </br>
 
 <table>
@@ -9,11 +9,11 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Libraries in Trafford</td>
+	<td>Locations of Local Authority and community/independently run libraries in Trafford and Greater Manchester.</td>
 </tr>
 <tr>
 	<td>Source</td>
-	<td>Trafford Council</td>
+	<td>[Original dataset](https://www.gov.uk/government/publications/public-libraries-in-england-basic-dataset) provided by the Department for Digital, Culture, Media & Sport then reviewed and amended by each of the Local Authorities in Greater Manchester.</td>
 </tr>
 <tr>
 	<td>Publisher</td>
@@ -29,11 +29,11 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Trafford</td>
+	<td>Trafford, Greater Manchester</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>NA</td>
+	<td>Correct as of 19th October 2018</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -45,7 +45,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td></td>
+	<td>Trafford Council</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -57,7 +57,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>June 2018</td>
+	<td>October 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>
