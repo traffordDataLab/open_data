@@ -12,7 +12,8 @@ raw <- read_ods("dwp-jcp-office-address-register.ods", skip = 1) %>%
   select(name = `Jobcentre Office`, address = `Office Address`, postcode = Postcode)
 
 postcodes <- read_csv("https://www.traffordDataLab.io/spatial_data/postcodes/GM_postcodes_2018-08.csv")
-bdy <- st_read("https://www.traffordDataLab.io/spatial_data/local_authority/2016/gm_local_authority_full_resolution.geojson")
+bdy <- st_read("https://www.traffordDataLab.io/spatial_data/local_authority/2016/gm_local_authority_full_resolution.geojson") %>% 
+  select(-lon, -lat)
 
 # tidy data ---------------------------
 df <- raw %>% 
@@ -21,6 +22,8 @@ df <- raw %>%
   st_as_sf(coords = c("lon", "lat")) %>% 
   st_set_crs(4326) %>% 
   st_intersection(., bdy) %>% 
+  mutate(lon = map_dbl(geometry, ~st_coordinates(.x)[[1]]),
+         lat = map_dbl(geometry, ~st_coordinates(.x)[[2]])) %>% 
   st_set_geometry(value = NULL)
 
 # style GeoJSON  ---------------------------

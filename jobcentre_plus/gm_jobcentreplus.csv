@@ -1,28 +1,28 @@
-Name,Address,Postcode,Area code,Area name,lat,lon
-"Bolton, Blackhorse Street","52 Blackhorse Street, Bolton",BL1 1SX,E08000001,Bolton,53.58449173,-2.47952008
-Bury,"Silver Street, Bury",BL9 0DP,E08000002,Bury,53.5931015,-2.30879998
-Prestwich,"1 Rectory Lane, Prestwich, Manchester",M25 1BP,E08000002,Bury,53.5931015,-2.30879998
-"Alexandra Park, Manchester","91 Moss Lane East, Moss Side, Manchester",M15 5JB,E08000003,Manchester,53.47008896,-2.23358989
-Cheetham Hill,"36 Crescent Road, Manchester, Manchester",M8 9DQ,E08000003,Manchester,53.47008896,-2.23358989
-Didsbury,"Danesmoor Court, 95-97 Palatine Road, West Didsbury",M20 3JQ,E08000003,Manchester,53.47008896,-2.23358989
-Longsight,"123 Clarence Rd, Longsight, Manchester",M13 0ZL,E08000003,Manchester,53.47008896,-2.23358989
-Newton Heath,"1009 Oldham Road, Manchester",M40 2EP,E08000003,Manchester,53.47008896,-2.23358989
-Openshaw,"Cornwall Street, Openshaw, Manchester",M11 2WR,E08000003,Manchester,53.47008896,-2.23358989
-Rusholme,"96 Wilmslow Road, Rusholme, Manchester",M14 5BJ,E08000003,Manchester,53.47008896,-2.23358989
-Wythenshawe,"Forum Trust Complex, Forum Square, Wythenshawe",M22 5RX,E08000003,Manchester,53.47008896,-2.23358989
-Oldham,"Tweedale House, 75 Union Street, Oldham, Manchester",OL1 1LH,E08000004,Oldham,53.55767822,-2.0527401
-Heywood,"Taylor Street, Heywood, Lancs",OL10 1ED,E08000005,Rochdale,53.60741043,-2.14784002
-Middleton,"7 Oldham Road, Middleton, Lancashire",M24 1BX,E08000005,Rochdale,53.60741043,-2.14784002
-Rochdale,"2 Fleece Street, Rochdale",OL16 1LT,E08000005,Rochdale,53.60741043,-2.14784002
-Eccles,"Sentinel House, Monton Road, Eccles, Manchester",M30 0NA,E08000006,Salford,53.47927094,-2.38485003
-Irlam,"Irlam Library, Hurst Fold, Liverpool Road, Irlam",M44 6FD,E08000006,Salford,53.47927094,-2.38485003
-Salford,"2 Paddington Close, , Salford, Lancashire",M6 5PL,E08000006,Salford,53.47927094,-2.38485003
-Worsley,"5 Worsley Court, High Street, Walkden, Manchester",M28 3AD,E08000006,Salford,53.47927094,-2.38485003
-Stockport,"Wellington Street, Stockport, Cheshire",SK1 3BE,E08000007,Stockport,53.39115906,-2.12467003
-Ashton-Under-Lyne,"101 Old Street, Ashton-U-Lyne, Lancs",OL6 6BJ,E08000008,Tameside,53.47866821,-2.0769999
-Hyde,"New Beech Street, Hyde, Cheshire",SK14 2LS,E08000008,Tameside,53.47866821,-2.0769999
-Altrincham,"Roberts House, 80 Manchester Road, Altrincham",WA14 4PU,E08000009,Trafford,53.4167099,-2.36572003
-Stretford,"Stretford Mall, Chester Road, Stretford, Manchester",M32 9ED,E08000009,Trafford,53.4167099,-2.36572003
-Ashton-in-Makerfield,"17-19 Gerard Street, Ashton-in-Makerfield",WN4 9AB,E08000010,Wigan,53.51445007,-2.57246995
-Leigh,"2 - 10 Windermere Road, Leigh, Lancashire",WN7 1UT,E08000010,Wigan,53.51445007,-2.57246995
-Wigan,"Brocol House, 71-73 King Street, Wigan",WN1 1EA,E08000010,Wigan,53.51445007,-2.57246995
+name,address,postcode,area_code,area_name,lon,lat
+"Bolton, Blackhorse Street","52 Blackhorse Street, Bolton",BL1 1SX,E08000001,Bolton,-2.432291,53.577345
+Bury,"Silver Street, Bury",BL9 0DP,E08000002,Bury,-2.299564,53.591773
+Prestwich,"1 Rectory Lane, Prestwich, Manchester",M25 1BP,E08000002,Bury,-2.282267,53.5333
+"Alexandra Park, Manchester","91 Moss Lane East, Moss Side, Manchester",M15 5JB,E08000003,Manchester,-2.251979,53.460392
+Cheetham Hill,"36 Crescent Road, Manchester, Manchester",M8 9DQ,E08000003,Manchester,-2.242981,53.512058
+Didsbury,"Danesmoor Court, 95-97 Palatine Road, West Didsbury",M20 3JQ,E08000003,Manchester,-2.234982,53.426387
+Longsight,"123 Clarence Rd, Longsight, Manchester",M13 0ZL,E08000003,Manchester,-2.206588,53.455336
+Newton Heath,"1009 Oldham Road, Manchester",M40 2EP,E08000003,Manchester,-2.187326,53.502469
+Openshaw,"Cornwall Street, Openshaw, Manchester",M11 2WR,E08000003,Manchester,-2.173483,53.472217
+Rusholme,"96 Wilmslow Road, Rusholme, Manchester",M14 5BJ,E08000003,Manchester,-2.224669,53.454011
+Wythenshawe,"Forum Trust Complex, Forum Square, Wythenshawe",M22 5RX,E08000003,Manchester,-2.265017,53.379925
+Oldham,"Tweedale House, 75 Union Street, Oldham, Manchester",OL1 1LH,E08000004,Oldham,-2.113193,53.540313
+Heywood,"Taylor Street, Heywood, Lancs",OL10 1ED,E08000005,Rochdale,-2.220901,53.592268
+Middleton,"7 Oldham Road, Middleton, Lancashire",M24 1BX,E08000005,Rochdale,-2.196266,53.548089
+Rochdale,"2 Fleece Street, Rochdale",OL16 1LT,E08000005,Rochdale,-2.156826,53.616359
+Eccles,"Sentinel House, Monton Road, Eccles, Manchester",M30 0NA,E08000006,Salford,-2.339161,53.484246
+Irlam,"Irlam Library, Hurst Fold, Liverpool Road, Irlam",M44 6FD,E08000006,Salford,-2.412496,53.452339
+Salford,"2 Paddington Close, , Salford, Lancashire",M6 5PL,E08000006,Salford,-2.283511,53.486585
+Worsley,"5 Worsley Court, High Street, Walkden, Manchester",M28 3AD,E08000006,Salford,-2.400163,53.524192
+Stockport,"Wellington Street, Stockport, Cheshire",SK1 3BE,E08000007,Stockport,-2.159204,53.408526
+Ashton-Under-Lyne,"101 Old Street, Ashton-U-Lyne, Lancs",OL6 6BJ,E08000008,Tameside,-2.095028,53.48781
+Hyde,"New Beech Street, Hyde, Cheshire",SK14 2LS,E08000008,Tameside,-2.078791,53.452443
+Altrincham,"Roberts House, 80 Manchester Road, Altrincham",WA14 4PU,E08000009,Trafford,-2.351888,53.395925
+Stretford,"Stretford Mall, Chester Road, Stretford, Manchester",M32 9ED,E08000009,Trafford,-2.309007,53.444834
+Ashton-in-Makerfield,"17-19 Gerard Street, Ashton-in-Makerfield",WN4 9AB,E08000010,Wigan,-2.636605,53.487113
+Leigh,"2 - 10 Windermere Road, Leigh, Lancashire",WN7 1UT,E08000010,Wigan,-2.519573,53.500003
+Wigan,"Brocol House, 71-73 King Street, Wigan",WN1 1EA,E08000010,Wigan,-2.629646,53.543292

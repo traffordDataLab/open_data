@@ -1,3 +1,3 @@
-Name,Address,Postcode,Area code,Area name,lat,lon
-Altrincham,"Roberts House, 80 Manchester Road, Altrincham",WA14 4PU,E08000009,Trafford,53.4167099,-2.36572003
-Stretford,"Stretford Mall, Chester Road, Stretford, Manchester",M32 9ED,E08000009,Trafford,53.4167099,-2.36572003
+name,address,postcode,area_code,area_name,lon,lat
+Altrincham,"Roberts House, 80 Manchester Road, Altrincham",WA14 4PU,E08000009,Trafford,-2.351888,53.395925
+Stretford,"Stretford Mall, Chester Road, Stretford, Manchester",M32 9ED,E08000009,Trafford,-2.309007,53.444834
