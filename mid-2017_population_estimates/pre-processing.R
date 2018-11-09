@@ -209,7 +209,7 @@ oa_persons <- read_excel("data/SAPE20DT10b-mid-2017-coa-unformatted-syoa-estimat
          `90` = `90+`) %>% 
   select(-LSOA11CD) %>% 
   mutate(date = as.Date("2017-06-30", format = '%Y-%m-%d'),
-         area_name = paste0("Trafford - ", area_code), 
+         area_name = NA, 
          geography = "OA",
          gender = "Persons",
          aged_0_to_15 = rowSums(select(., `0`:`15`)),
@@ -224,7 +224,7 @@ oa_males <- read_excel("data/SAPE20DT10b-mid-2017-coa-unformatted-syoa-estimates
          `90` = `90+`) %>% 
   select(-LSOA11CD) %>% 
   mutate(date = as.Date("2017-06-30", format = '%Y-%m-%d'),
-         area_name = paste0("Trafford - ", area_code), 
+         area_name = NA, 
          geography = "OA",
          gender = "Males",
          aged_0_to_15 = rowSums(select(., `0`:`15`)),
@@ -239,7 +239,7 @@ oa_females <- read_excel("data/SAPE20DT10b-mid-2017-coa-unformatted-syoa-estimat
          `90` = `90+`) %>% 
   select(-LSOA11CD) %>% 
   mutate(date = as.Date("2017-06-30", format = '%Y-%m-%d'),
-         area_name = paste0("Trafford - ", area_code), 
+         area_name = NA, 
          geography = "OA",
          gender = "Females",
          aged_0_to_15 = rowSums(select(., `0`:`15`)),
