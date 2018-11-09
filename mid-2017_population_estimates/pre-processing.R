@@ -10,8 +10,7 @@ library(tidyverse) ; library(readxl)
 
 # 1. Local Authority district: 2017
 la_pop <- read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_2002_1.data.csv?geography=1946157089&date=latest&gender=0...2&c_age=200,101...191&measures=20100&select=date_name,geography_name,geography_code,gender_name,c_age_name,obs_value") %>% 
-  select(year = DATE_NAME,
-         area_code = GEOGRAPHY_CODE,
+  select(area_code = GEOGRAPHY_CODE,
          area_name = GEOGRAPHY_NAME,
          gender = GENDER_NAME,
          age = C_AGE_NAME,
