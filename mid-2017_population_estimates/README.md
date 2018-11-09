@@ -1,11 +1,11 @@
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Mid-Year Population Estimates</td>
+	<td>Mid-2017 population estimates</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Estimates of the usual resident population for 2016.</td>
+	<td>Estimates of the usual resident population for 2017.</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>Mid-2016</td>
+	<td>Mid-2017</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>August 2018</td>
+	<td>November 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>
