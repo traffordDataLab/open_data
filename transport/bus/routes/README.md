@@ -1,4 +1,4 @@
-[<img src="thumbnail.png">](trafford_bus_routes_styled.geojson)
+[<img src="thumbnail.png">](trafford_bus_routes.geojson)
 </br>
 
 <table>
@@ -56,11 +56,11 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>03 May 2018</td>
+	<td>14 August 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td>The geospatial data was pre-processed using QGIS.</td>
+	<td></td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>
