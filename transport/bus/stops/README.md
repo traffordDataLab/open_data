@@ -1,6 +1,4 @@
-[<img src="thumbnail.png">](trafford_bus_stops_styled.geojson)
-</br>
-
+<a href="trafford_bus_stops.geojson"><img src="thumbnail.png" alt="Trafford bus stops" width="600"/></a>
 <table>
 <tr>
 	<td>Dataset name</td>
@@ -12,15 +10,15 @@
 </tr>
 <tr>
 	<td>Source</td>
-	<td>Transport for Greater Manchester</td>
+	<td>NaPTAN, Department of Transport</td>
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td>Transport for Greater Manchester</td>
+	<td>NaPTAN, Department of Transport</td>
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td>https://data.gov.uk/dataset/05252e3a-acdf-428b-9314-80ac7b17ab76/gm-bus-stopping-points<a href=""></a></td>
+	<td>http://naptan.app.dft.gov.uk/datarequest/help<a href=""></a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -44,11 +42,11 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains Transport for Greater Manchester data. Contains OS data © Crown copyright and database right 2018.</td>
+	<td></td>
 </tr>
 <tr>
 	<td>Format</td>
-	<td>CSV, GeoJSON</td>
+	<td>GeoJSON</td>
 </tr>
 <tr>
 	<td>Openness rating</td>
@@ -56,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>03 January 2018</td>
+	<td>03 November 2019</td>
 </tr>
 <tr>
 	<td>Notes</td>
