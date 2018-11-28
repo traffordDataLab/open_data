@@ -1,0 +1,845 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 1,
+				"featureAlias": "Organisation: Mood Swings Network Address: 36 New Mount Street, Manchester M4 4DE Details: Charity providing intense support to people with mood disorders and their friends and families Contact Number: 0161 832 3736 Website: www.moodswings.org.uk"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.235277,
+					53.487919
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 3,
+				"featureAlias": "Organisation: 42nd Street Address: The Space, 87-91 Great Ancoats Street, Manchester M4 5AG Details: Counselling, therapy and one-to one support for young people aged 13 to 25 years Contact Number: 0161 228 7321 Website: www.42ndstreet.org.uk"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.229492,
+					53.483368
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 4,
+				"featureAlias": "Organisation: LGBT Foundation Address: 5 Richmond Street, Manchester M1 3HF Details: Provides a wide range of support services to lesbian, gay, bisexual and trans people Contact Number: 03453303030 Website: www.lgbt.foundation "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.235649,
+					53.477732
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 5,
+				"featureAlias": "Organisation: The Proud Trust Address: 49 - 51 Sidney Street, Manchester M1 7HB Details: Helps young people empower themselves to make a positive change for themselves and their communities; youth groups and peer support Contact Number: 0161 660 3347 Website: www.theproudtrust.org"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.237142,
+					53.470846
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 6,
+				"featureAlias": "Organisation: African Caribbean Care Group Address: Claremont Resource Centre, Rolls Crescent, Hulme M15 5FS Details: Community Engagement Workers visit older adults, who may be vulnerable due to a long-term health condition, disability or isolation Contact Number: 0161 226 6334 Website: www.accg.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.250157,
+					53.465265
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 7,
+				"featureAlias": "Organisation: LMCP Care Link Address: 95A Princess Road, Manchester M14 4TH Details: The organisation works with South Asian women with mental health needs Contact Number: 0161 226 4632 Website: www.lmcpcarelink.co.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.244547,
+					53.45652
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 8,
+				"featureAlias": "Organisation: Manchester Refugee Support Network Address: 129 Princess Road, Manchester M14 4RB Details: Contact Number: 0161 868 0777 Website: www.mrsn.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.244723,
+					53.455408
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 9,
+				"featureAlias": "Organisation: African and Caribbean Mental Health Services Address: Windrush Millennium Centre, Alexandra Road, Manchester M16 7WD Details: Drop in sessions also run throughout the week: Art Group on Tuesdays 10am-12pm, Women's Group on Tuesdays 1-3pm, Men's Group on Thursdays 11.30am-1pm, Life Skills on Thursdays 1.30-5pm and music workshops throughout the week Contact Number: 0161 226 9562 Website: https://www.manchestercommunitycentral.org/news/african-and-caribbean-mental-health-services    "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.253404,
+					53.456426
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 10,
+				"featureAlias": "Organisation: Relate Greater Manchester South Address: 346 Chester Road, Manchester M16 9EZ Details: One to one counselling and relationship service Contact Number: 0300 003 2331 Website: www.relate.org.uk    "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.266819,
+					53.46762
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 11,
+				"featureAlias": "Organisation: Talk Listen Change (TLC) Address: 346 Chester Road, Manchester M16 9EZ Details: Counselling and support services for families, individuals and young people Contact Number: 0161 872 1100 Website: www.talklistenchange.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.266906,
+					53.467359
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 12,
+				"featureAlias": "Organisation: Black Health Agency Address: 609 Stretford Road, Old Trafford M16 0QA Details: Offers a range of services for people suffering from health inequalities including mental health Contact Number: 0845 450 4247 Website: www.thebha.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.274413,
+					53.462183
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 13,
+				"featureAlias": "Organisation: Old Trafford Wellbeing Centre Address: 54-56 Seymour Grove, Old Trafford M16 0LN Details: blueSCI offer sessions from Wellbeing Practitioners and offer activities such as arts, crafts and music open to everyone in the community Contact Number: 0161 912 4828 Website: www.oldtraffordwellbeing.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.276217,
+					53.45937
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 14,
+				"featureAlias": "Organisation: TDAS (Trafford Domestic Abuse Service) Address: 60 Talbot Road, Manchester M16 0PN Details: Organisation offering support to both male and female victims of domestic abuse and their families Contact Number: 0161 872 7368 Website: www.tdas.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.282318,
+					53.460874
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 15,
+				"featureAlias": "Organisation: Alchemy Arts Address: Oakland House, Talbot Road, Stretford M16 0PQ Details: Offers a range of activities including music sessions, mindfullness courses and confidence courses Contact Number: 0161 232 1617 Website: www.alchemyarts.co.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.283477,
+					53.460599
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 16,
+				"featureAlias": "Organisation: Voice of BME Trafford Address: Oakland House, Talbot Road, Old Trafford M16 0PQ Details: Offers advice and signposting to the BME community Contact Number: 0161 848 7018 Website: www.voicebmet.co.uk"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.283593,
+					53.460438
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 17,
+				"featureAlias": "Organisation: Trafford Centre for Independent Living Address: Oakland House, 76 Talbot Road, Old Trafford M16 0PQ Details: Provides services to residents in Trafford who have physical, sensory, learning or mental health impairments Contact Number: 0161 850 0645 Website: www.traffordcil.co.uk  "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.283774,
+					53.460292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 18,
+				"featureAlias": "Organisation: Trafford Mental Health Advocacy Service Address: Oakland House, Talbot Road, Stretford M16 0PQ Details: Provides Independent Advocates for qualifiying patients detained under the Mental Health Act Contact Number: 0161 877 4330 "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.284032,
+					53.4603
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 19,
+				"featureAlias": "Organisation: CDI Community Counselling Service Address: Oakland House, Talbot Road, Stretford M16 0PQ Details: Qualified counsellors can see people via referral from services or self referral; bilingual counselling for BME groups can be offered Contact Number: 0161 881 0007 Website: www.cdimanchester.org.uk/counselling.html "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.284135,
+					53.460138
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 20,
+				"featureAlias": "Organisation: South Asian Disability Support Network Address: Oakland House, Talbot Road, Stretford M32 09Q Details: Network for South Asian families who are affected by disabilities Website: www.trafforddirectory.co.uk/kb5/trafford/fsd/service.page?id=Ld2fXVy0ZjM&localofferchannel=2_5 "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.284418,
+					53.4602
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 21,
+				"featureAlias": "Pakistani Resource Centre (Trafford South Asian Mental Health Service) Address: Broome House, 54-56 Seymour Grove, Old Trafford M16 0LN Contact Number: 0161 434 7800 Website: www.pakistani-resource.org.uk/mental_health_service.html    "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.27608,
+					53.45954
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 22,
+				"featureAlias": "Organisation: Trafford eTherapy Service Details: Online therapy courses delivered by Trafford Self Help Services Contact Number: 0161 226 3871 Website: www.selfhelpservices.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.276160,
+					53.459692
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 23,
+				"featureAlias": "Organisation: Zion Centre (Peer Support) Address: 339 Stretford Road, Hulme M15 4ZY Details: Peer support available Monday to Friday Contact Number 0161 226 3871 Website: https://www.selfhelpservices.org.uk/service/peer-support/   "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.252901,
+					53.466414
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 24,
+				"featureAlias": "Organisation: Chorlton Anxiety Group Address: Chorlton Methodist Church, Manchester Road, Chorlton M21 9JG Details: This drop-in group offers a sympathetic and non-judgmental space where you can meet others who also struggle with anxiety; meets on Tuesdays 7-9pm and there is no need to book Contact Number: 0161 226 3871 Website: https://www.selfhelpservices.org.uk/service/chorlton-anxiety-group/        "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.282079,
+					53.441785
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 25,
+				"featureAlias": "Organisation: Zion Anxiety Group Address: 339 Stretford Road, Hulme M15 4ZY Details: Drop-in group offering a sympathetic and non-judgmental space where you can meet others who also struggle with anxiety; meets on Wednesdays 1-3pm and there is no need to book Contact Number: 0161 226 3871 Website: https://www.selfhelpservices.org.uk/service/zion-anxiety-group/      "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.25238,
+					53.466491
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 26,
+				"featureAlias": "Organisation: Stretford Hearing Voices Group Address: St Francis Church, Edge Lane, Stretford M32 8HT Details: Support network for people who hear voices; meets on Thursdays at 2pm Contact Number: 0790 460 1257 Website: www.hearing-voices.org/grous/stretford-manchester/ "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.303315,
+					53.445169
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 27,
+				"featureAlias": "Organisation: Autistic Society for the Greater Manchester Area (ASGMA) Address: 1114 Chester Road, Stretford M32 0HL Details: Offers one to one support and a range of leisure activities for people with autism Contact Number: 0161 866 8483 Website: www.asgma.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.30622,
+					53.447165
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 28,
+				"featureAlias": "Organisation: Collaborative Women UK Address: Stretford Library, Kingsway, Stretford M32 8AP Details: The organisation leads marginalised women along a safe pathway from crisis to independent living; drop in on Wednesday afternoons Contact Number: 07932 415635 Website: www.collaborativewomen.co.uk The "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.312517,
+					53.446077
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 29,
+				"featureAlias": "Organisation: Homestart Address: Stretford Children's Centre & Early Help Hub, 9 Poplar Road, Stretford, Manchester, M32 9AN Details: The organisation supports families with specific needs with children aged birth to 18 years. Homestart's Baby Bond Project (0-2 years) supports parents who may be suffering from mental illness or need support during the two years postnatal Contact Number: 0161 865 4222 Website: www.home-start.org.uk/home-start-trafford-salford"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.313776,
+					53.441382
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 30,
+				"featureAlias": "Organisation: Age UK Trafford (Dementia Service) Address: 1-3 Church Road, Urmston M41 9EH Details: The dementia advice and support service has two dementia advisers to support people with dementia and their family carers Contact Number: 0161 746 3944 Website: www.ageuk.org.uk/trafford/our-services/dementia-services/ Offers holistic support and advice for older people with an emphasis on dementia"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.353239,
+					53.445965
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 31,
+				"featureAlias": "Organisation: Urmston Depression Group (Trafford Self Help Services) Address: Urmston Library, Golden Way, Urmston M41 0NA Details: Drop in group for people suffering from depression; meets on Tuesdays 1.30-3.30pm Contact Number: 0161 226 3871 Website: https://www.selfhelpservices.org.uk/service/urmston-depression-group/ "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.353897,
+					53.449552
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 32,
+				"featureAlias": "Organisation: Leonard Cheshire Disability Address: 5 Golden Way, Urmston M41 0NA Details: Organisation supporting disabled people to live, learn and work as independently as they choose Contact Number: 0161 747 3512 Website: www.leonardcheshire.org "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.354541,
+					53.449443
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 33,
+				"featureAlias": "Organisation: The Toy House Address: 91 Irlam Road, Flixton M41 6AP Details: Play environment where parents and carers can accompany children; also offers a supportive listening ear to parents and carers; meets Tuesdays, Wednesdays and Fridays, 9.30-11.30am and 12.30-2.30pm Contact Number: 0161 746 8185 Email: email@toylibrary.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.395263,
+					53.447662
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 34,
+				"featureAlias": "Organisation: MacMillan Wellbeing Centre Address: Trafford General Hospital, Moorside Road, Urmston M41 5SL Details: Support centre for people with a cancer diagnosis and their family members or carers who require support; monthly drop-in sessions take place on the third Wednesday of each month Contact Number: 0161 746 2080 "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.371226,
+					53.452643
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 35,
+				"featureAlias": "Organisation: Being There Address: The Macmillan Care Centre, Trafford General Hospital, Moorside Road, Urmston M41 5SN Details: Small charity providing emotional support and home-based practical help to people with cancer and other life-limiting illnesses Contact Number: 0845 123 23 29 Website: www.beingthere.org.uk"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.371917,
+					53.452557
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 36,
+				"featureAlias": "Organisation: Alzheimers Society Trafford Address: Dunham House, Cross Street, Sale M33 7HH Details: Support servicefor people affected by dementia (carers and people living with a diagnosis) Contact Number: 0161 962 4769 Website: www.alzheimers.org.uk   "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.322126,
+					53.42897
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 37,
+				"featureAlias": "Organisation: Salvation Army Address: 27 Ashton Lane, Sale M33 6NP Contact Number: 0161 976 4380 Website: www.salvationarmy.org.uk"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.329711,
+					53.42623
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 38,
+				"featureAlias": "Organisation: Trafford Psychological Therapies Address: 1-3 Ashton Lane, Sale M33 6WT Details: Talking therapies for people aged 16 and over who are registered with a GP in Trafford and are currently suffering from anxiety and depression-related problems Contact Number: 0161 357 1350 Website: www.gmmh.nhs.uk/tpt"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.330324,
+					53.426219
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 39,
+				"featureAlias": "Organisation: Victim Support & Witness Service Trafford Address: Sale Town Hall, Sale Waterside, Sale M33 7ZF Details: An independent national charity which helps people cope with crime by providing practical help, information and emotional support Contact Number: 0161 912 3238 Website: www.victimsupport.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.319314,
+					53.425127
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 40,
+				"featureAlias": "Organisation: Talkshop Trafford Address: Sale Waterside, Sale M33 7ZF Details: Advice and information service for young people aged between 13 and 19 years old (up to 25 depending on circumstances) Contact Number: 0161 912 2453 Website: www.trafforddirectory.co.uk/kb5/trafford/fsd/service.page?id=axGZQC-KNbQ "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.319938,
+					53.425084
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 41,
+				"featureAlias": "Organisation: Trafford Carers Centre Address: 19B School Road, Sale M33 7XX Details: Charity which supports unpaid carers looking after people living in Trafford Contact Number: 0161 848 2402 Website: www.traffordcarerscentre.org"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.321125,
+					53.424899
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 42,
+				"featureAlias": "Organisation: Dance System CIC Address: Sale High School, Norris Road, Sale, M33 3JR Details: Dance and meditation course to boost confidence and improve wellbeing - ?30 for 6 week course Contact Number: 07411400141 "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.305235,
+					53.414169
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 43,
+				"featureAlias": "Organisation: Parent Support Group Address: Life Centre, Washway Road, Sale M33 4BP Details: Drop in at the Life Centre cafe on Fridays 10am-12pm for mothers experiencing postnatal depression, anxiety or loneliness "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.334586,
+					53.416695
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 44,
+				"featureAlias": "Organisation: New Way Forward Address: The Avenue Methodist Church, Wincham Road, Sale M33 4PL Details: The organisation provides a range of activities to support mental health including one to one sessions, art and craft group and group sessions for men and women Contact Number: 0161 962 0487 Website: www.newwayforwardtrafford.org "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.341423,
+					53.414682
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 45,
+				"featureAlias": "Organisation: Coppice Library and Wellbeing Centre Address: Coppice Avenue, Sale M33 4ND Details: blueSCI offer sessions from Wellbeing Practitioners and offer activities such as arts, crafts and music open to everyone in the community Contact Number: 0161 912 3560 Website: www.coppicelibraryandwellbeing.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.348685,
+					53.41484
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 46,
+				"featureAlias": "Organisation: Sporting Memories Address: Sale West Community Centre, Newbury Avenue, Sale Details: Monthly meet-up for over 50s and those living with dememtia to reminisce about sporting memories; last Monday of every month 10.30am-12noon Contact Number: 07917750924 Email: kfloyd@lccc.co.uk"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.356671,
+					53.418598
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 47,
+				"featureAlias": "Organisation: Ear4U (listening ear service) Address: Moss Lane, Partington M31 4FA Details: Listening Ear service for residents feeling lonely or isolated delivered Website: https://www.trafforddirectory.co.uk/kb5/trafford/fsd/service.page?id=OK1YvvzD86g "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.420843,
+					53.415076
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 48,
+				"featureAlias": "Organisation: Partington Library & Wellbeing Centre Address: Central Road, Partington M31 4FL Details: blueSCI offer sessions from Wellbeing Practitioners and offer activities such as arts, crafts and music open to everyone in the community Contact Number: 0161 775 1912 Website: www.partingtonlibraryandwellbeing.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.425598,
+					53.417851
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 49,
+				"featureAlias": "Organisation: Creative Support Address: 1 Malton Drive, Altrincham WA14 4LW Details: Care and support services for people with learning disabilities, mental health needs and complex needs Contact Number: 0161 236 0829 Website: www.creativesupport.co.uk"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.371908,
+					53.393459
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 50,
+				"featureAlias": "Organisation: Altrincham Anxiety Group (Trafford Self Help Services) Address: Altrincham Methodist Church, Barrington Road, Altrincham WA154 1HF Details: Drop in group on Mondays 2-4pm for people suffering with anxiety Contact Number: 0161 226 3871 Website: https://www.selfhelpservices.org.uk/service/altrincham-anxiety-group/  "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.349538,
+					53.390123
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 51,
+				"featureAlias": "Organisation: Open Studios CIC Address: 47/49 Stamford New Road, Altrincham WA14 1DS Details: Art classes and workshops with a focus on working with people with mental health conditions Contact Number: 07873263271 Website: www.openstudiosaltrincham.co.uk"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.349797,
+					53.385998
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 52,
+				"featureAlias": "Organisation: The Counselling and Family Centre Address: 40 Mayor's Road, Altrincham WA15 9RP Details: Offers one to one counselling services and Cognitive Behavioural Therapy, and group sessions Contact Number: 0161 941 7754 Website: www.thecfc.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.342488,
+					53.384941
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 53,
+				"featureAlias": "Organisation: Dance System CIC Address: Altrincham Football Club, Community Sports Hall, Moss Lane, Altrincham WA15 8AP Details: Dance and wellbeing course to boost self esteem and confidence; mindfullness and meditation - ?45 for 8 week course Contact Number: 07411400141 Website: www.dancesystem.co.uk/essentia-dance-and-wellbeing-course "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.335795,
+					53.383215
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 54,
+				"featureAlias": "Organisation: Larkhill Demetia Cafe (Later Life Living) Address: The Larkhill Centre, Thorley Lane, Timperley WA15 7AZ Details: Meet up for people affected by dementia and their families and friends on alternate Saturdays 9.15am-12.15pm Email: bookings@larkhillcentre.org "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.31862,
+					53.395805
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 55,
+				"featureAlias": "Organisation: Broomwood Wellbeing Centre Address: Mainwood Road, Altrincham WA15 7JU Details: blueSCI offer sessions from Wellbeing Practitioners and offer activities such as arts, crafts and music open to everyone in the community Contact Number: 0161 980 0720 Website: www.broomwoodwellbeingcentre.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.307814,
+					53.391508
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 56,
+				"featureAlias": "Organisation: G-Force Address: 65 Briarfield Road, Altrincham WA15 7DD Details: Listening ear services, activities such as arts and crafts and Men in Sheds project to reduce isolation Contact Number: 0161 980 2879 Website: www.g-force.org.uk "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.311584,
+					53.392497
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 57,
+				"featureAlias": "Organisation: Being There Address: Neil Cliffe Centre, Wythenshawe Hospital, Southmoor Road, Manchester M23 9LT Details: Small charity providing emotional support and home-based practical help to people with cancer and other life-limiting illnesses Contact Number: 0845 123 23 29 "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.29034,
+					53.390348
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 58,
+				"featureAlias": "Organisation: United Response Address: 1 Cornish Close, Manchester M22 0GJ Details: Provides a range of support services for adults and young people with learning disabilities, autism, mental health needs or physical disabilities Contact Number: 0161 436 3848 Website: www.unitedresponse.org.uk"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.261802,
+					53.373375
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 59,
+				"featureAlias": "Organisation: Manchester Rape Crisis Address: 203 Outwood Road, Heald Green, Cheadle SK8 3JS Contact Number: 0161 273 4500 Website: www.manchesterrapecrisis.co.uk"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.231155,
+					53.36647
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 60,
+				"featureAlias": "Organisation: Samaritans Address: 72-74 Oxford Street, Manchester M1 5NH Details: Offers a safe place for people to talk about anything worrying them Contact Number: 0161 236 8000 Website: https://www.samaritans.org/branches/manchester-and-salford-samaritans   "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.241545,
+					53.474012
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 61,
+				"featureAlias": "Organisation: Target Cafe Address: Gorse Hill Methodist Church, Wesley Street, Stretford M32 0FP Details: The cafe meets every other Saturday and is open to people of all ages who require the support to stay free from drugs and alcohol Contact Number: 07501 441 072 Email: target180@hotmail.com  "
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.306673,
+					53.446697
+				]
+			}
+		}
+	]
+}

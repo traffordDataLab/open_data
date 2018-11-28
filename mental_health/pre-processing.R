@@ -4,8 +4,8 @@
 library(tidyverse) ; library(sf)
 
 # load the raw data ---------------------------
-df_csv_source <- read_csv("mental_health_services_RAW.csv")
-sf_geojson_source <- st_read("mental_health_services_RAW.geojson")
+df_csv_source <- read_csv("raw/mental_health_services_RAW.csv")
+sf_geojson_source <- st_read("raw/mental_health_services_RAW.geojson")
 
 # create a copy of the csv data without the id field which isn't required for the final output csv ---------------------------
 df_csv_output <- select(df_csv_source, -featureNum)
@@ -13,14 +13,8 @@ df_csv_output <- select(df_csv_source, -featureNum)
 # create the cleaned output csv ---------------------------
 write_csv(df_csv_output, "trafford_mental_health_services.csv")
 
-# create a new variable for the organisations' websites which is an HTML link ---------------------------
-df_csv_join <- rename(df_csv_source, website_text = website) %>%
-  mutate(website = paste0("<a href='", website_text, "' target='_blank'>View website</a>")) %>%
-  # remove the simple text website variable
-  select(-website_text) 
-
 # join data from csv to geojson ---------------------------
-sf_joined_geojson <- left_join(sf_geojson_source, df_csv_join, by = "featureNum") %>%
+sf_joined_geojson <- left_join(sf_geojson_source, df_csv_source, by = "featureNum") %>%
   # remove the unwanted variables
   select(-featureNum, -featureAlias)
 
