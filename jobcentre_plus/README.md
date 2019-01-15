@@ -1,4 +1,4 @@
-[<img src="thumbnail.png">](jobcentreplus_trafford_styled.geojson)
+[<img src="thumbnail.png">](jobcentreplus_trafford.geojson)
 
 <table>
 <tr>
@@ -31,7 +31,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>May 2018</td>
+	<td>September 2018</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -43,7 +43,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td></td>
+	<td>Contains public sector information licensed under the Open Government Licence v3.0 and OS data © Crown copyright and database right 2019 </td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -55,7 +55,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>May 2018</td>
+	<td>January 2019</td>
 </tr>
 <tr>
 	<td>Notes</td>
