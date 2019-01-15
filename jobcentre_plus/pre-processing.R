@@ -49,4 +49,4 @@ sf <- raw %>%
          `marker-size` = "medium")
 
 st_write(sf, "gm_jobcentreplus.geojson")
-write_csv(filter(sf, `Area name` == "Trafford"), "trafford_jobcentreplus.geojson")
+st_write(filter(sf, `Area name` == "Trafford"), "trafford_jobcentreplus.geojson")
