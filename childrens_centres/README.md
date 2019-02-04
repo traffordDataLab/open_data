@@ -5,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Children's centres in Trafford.</td>
+	<td>Children's centres in Trafford</td>
 </tr>
 <tr>
 	<td>Source</td>
