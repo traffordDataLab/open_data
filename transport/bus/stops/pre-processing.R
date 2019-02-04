@@ -7,13 +7,14 @@
 # load libraries---------------------------
 library(tidyverse) ; library(sf)
 
-# load and tidy data ---------------------------
+# load data ---------------------------
 # source: "http://naptan.app.dft.gov.uk/DataRequest/Naptan.ashx?format=csv&LA=180"
 unzip("NaPTAN180csv.zip", exdir = ".")
 file.remove("NaPTAN180csv.zip")
 
 bdy <- st_read("https://www.traffordDataLab.io/spatial_data/local_authority/2016/trafford_local_authority_full_resolution.geojson")
 
+# tidy data ---------------------------
 sf <- read_csv("Stops.csv") %>% 
   select(atco_code = ATCOCode, 
          common_name = CommonName, 
@@ -28,6 +29,9 @@ sf <- read_csv("Stops.csv") %>%
 
 # write data
 st_write(sf, "trafford_bus_stops.geojson")
+sf %>% 
+  st_set_geometry(value = NULL) %>% 
+  write_csv("trafford_bus_stops.csv")
 
 # style data
 sf %>% 
