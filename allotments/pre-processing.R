@@ -11,6 +11,7 @@ library(tidyverse) ; library(rvest) ; library(osmdata) ; library(sf) ; library(l
 html <- read_html("https://www.trafford.gov.uk/residents/leisure-and-lifestyle/parks-and-open-spaces/allotments/allotments-in-trafford.aspx")
 df <- data_frame(name = html_text(html_nodes(html, ".sys_t2643"))) %>% 
   mutate(name = str_replace_all(name, "allotments|Allotments|Allotment|Allotment Site", ""),
+         name = str_replace(name, "Chadwick Road", "Chadwick Park"),
          name = str_replace(name, "Grove Lane", "Quarry Bank"),
          name = str_replace(name, "Lesley Road / Moss Park", "Lesley Road/Moss Park"),
          name = str_replace(name, "Moss Lane / Golf Road", "Moss Lane/Golf Road"),
@@ -43,22 +44,6 @@ osm <- osm$osm_polygons %>%
 sf <- df %>% 
   left_join(osm, by = "name") %>% 
   st_as_sf(crs = 4326)
-
-# add missing geometry for Pickering Lodge Allotments ---------------------------
-sf[sf$name == "Pickering Lodge",]$geometry <- st_polygon(list(rbind(
-  c(-2.332236, 53.398683),
-  c(-2.332225, 53.398812),
-  c(-2.332088, 53.398866),
-  c(-2.331825, 53.398921),
-  c(-2.331650, 53.398692),
-  c(-2.331539, 53.398507),
-  c(-2.331444, 53.397967),
-  c(-2.331584, 53.397978),
-  c(-2.331791, 53.398163),
-  c(-2.331925, 53.398347),
-  c(-2.332113, 53.398483),
-  c(-2.332236, 53.398683)
-)))
 
 # add ward and locality names ---------------------------
 wards <- st_read("https://www.trafforddatalab.io/spatial_data/ward/2017/trafford_ward_full_resolution.geojson") %>% 
