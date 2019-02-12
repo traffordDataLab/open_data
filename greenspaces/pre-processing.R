@@ -35,26 +35,24 @@ sites_gm <- st_intersection(sites, gm)  %>%
                     "Sports" = "Tennis Court",
                     "Religious Ground and Cemetries" = "Religious Grounds",
                     "Religious Ground and Cemetries" = "Cemetery")) %>% 
-  select(`Site type` = site_type, 
-         `Site name` = site_name,
-         `Area code` = area_code, 
-         `Area name` = area_name)
+  select(site_type, site_name, area_code, area_name)
 
 access_gm <- st_intersection(access, gm)  %>% 
-  select(`Access type` = access_type,
-         `Area code` = area_code, 
-         `Area name` = area_name)
+  select(access_type, area_code, area_name)
 
 # write data ---------------------------
 st_write(sites_gm, "gm_greenspace_sites.geojson", driver = "GeoJSON")
-st_write(filter(sites_gm, `Area name` == "Trafford"), "trafford_greenspace_sites.geojson", driver = "GeoJSON")
+st_write(filter(sites_gm, area_name == "Trafford"), "trafford_greenspace_sites.geojson", driver = "GeoJSON")
 
 st_write(access_gm, "gm_greenspace_access_points.geojson", driver = "GeoJSON")
-st_write(filter(access_gm, `Area name` == "Trafford"), "trafford_greenspace_access_points.geojson", driver = "GeoJSON")
-
+st_write(filter(access_gm, area_name == "Trafford"), "trafford_greenspace_access_points.geojson", driver = "GeoJSON")
 
 # style data ---------------------------
-filter(sites_gm, `Area name` == "Trafford") %>% 
+filter(sites_gm, area_name == "Trafford") %>% 
+  select(`Site type` = site_type, 
+         `Site name` = site_name,
+         `Area code` = area_code, 
+         `Area name` = area_name) %>% 
   mutate(stroke = 
            case_when(
              `Site type` == "Allotments Or Community Growing Spaces" ~ "#66c2a5",
