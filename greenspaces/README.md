@@ -5,7 +5,7 @@
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>OS Open Greenspace</td>
+	<td>Green spaces</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
@@ -13,7 +13,7 @@
 </tr>
 <tr>
 	<td>Source</td>
-	<td>Ordnance Survey</td>
+	<td>OS Open Greenspace, Ordnance Survey</td>
 </tr>
 <tr>
 	<td>Publisher</td>
@@ -45,7 +45,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains Ordnance Survey data © Crown copyright and database right 2018</td>
+	<td>Contains Ordnance Survey data © Crown copyright and database right 2019</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -57,7 +57,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>March 2018</td>
+	<td>October 2018</td>
 </tr>
 <tr>
 	<td>Notes</td>
