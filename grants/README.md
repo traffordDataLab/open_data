@@ -17,7 +17,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td>https://www.traffordDataLabio/open_data/grants<a href=""></a>https://www.traffordDataLabio/open_data/grants</td>
+	<td><a href="https://github.com/traffordDataLab/open_data/tree/master/grants">https://github.com/traffordDataLab/open_data/tree/master/grants</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
