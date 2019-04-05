@@ -30,7 +30,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>June 2018</td>
+	<td>2018</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -54,11 +54,11 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>September 2018</td>
+	<td>April 2019</td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td></td>
+	<td>This is based on information reported by local authorities for 2018. This data set is correct as of January 2019.</td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>
