@@ -54,20 +54,19 @@ localities <- st_read("https://www.trafforddatalab.io/spatial_data/council_defin
 sf <- st_join(sf, wards, join = st_within, left = FALSE) %>% 
   st_join(localities, join = st_within, left = FALSE)
 
-# write data ---------------------------
+# write unstyled spatial data ---------------------------
+st_write(sf, "trafford_allotments.geojson", driver = "GeoJSON")
+
+# write styled spatial data ---------------------------
 sf %>% 
-  rename(Name = name,
-         OSM_ID = osm_id,
-         `Area name` = area_name,
-         `Area code` = area_code,
-         Locality = locality) %>%
   mutate(stroke = "#659D32",
          `stroke-width` = 3,
          `stroke-opacity` = 1,
          fill = "#659D32",
          `fill-opacity` = 0.8) %>% 
-  st_write("trafford_allotments.geojson")
+  st_write("trafford_allotments_styled.geojson", driver = "GeoJSON")
 
+# write csv data ---------------------------
 sf %>% 
   mutate(lon = map_dbl(geometry, ~st_centroid(.x)[[1]]),
          lat = map_dbl(geometry, ~st_centroid(.x)[[2]])) %>% 

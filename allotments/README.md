@@ -46,7 +46,7 @@
 </tr>
 <tr>
 	<td>Format</td>
-	<td>CSV; GeoJSON</td>
+	<td>CSV, GeoJSON</td>
 </tr>
 <tr>
 	<td>Openness rating</td>
@@ -54,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>February 2019</td>
+	<td>2019-04-10</td>
 </tr>
 <tr>
 	<td>Notes</td>
