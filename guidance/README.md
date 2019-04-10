@@ -32,18 +32,18 @@ Where available, the coordinates of a location or event need to be provided usin
 #### Styling
 Data made available in tabular CSV format must use [snake case](https://en.wikipedia.org/wiki/Snake_case) to name variables and be structured in [long format](http://r4ds.had.co.nz/images/tidy-9.png). Data is structured in this way to facilitate further analysis or visualisation in other statistical programming software.
 
-Geospatial data must be styled for use in GitHub and on the Lab's [Explore](https://www.trafforddatalab.io/maps/explore/) mapping application. Full variable names should be used and [features styled](https://help.github.com/articles/mapping-geojson-files-on-github/), e.g. marker colour and stroke width.
+Geospatial polygon/line data must also be provided in a separate styled form for use in GitHub and on the Lab's [Explore](https://www.trafforddatalab.io/maps/explore/) mapping application. These files should be distinguished from the standard versions by appending *_styled* to the dataset name, e.g. ```trafford_dataset_name_styled.geojson```. [Styling features](https://help.github.com/en/articles/mapping-geojson-files-on-github#styling-features) should be done using [simplestyle spec](https://github.com/mapbox/simplestyle-spec/tree/master/1.1.0) e.g. stroke-width, fill etc. Point data can also be styled e.g. marker-color, marker-size, however this should only be done if the styling is required to differentiate data items.
 
-*Example R script for renaming and feature styling*
+*Example R script for feature styling*
 ```r
-sf <- df %>%
-  st_as_sf(coords = c("lon", "lat")) %>%
-  st_set_crs(4326) %>%
-  rename(Name = name,
-         Address = address,
-         Postcode = postcode,
-         `Area name` = area_name,
-         `Area code` = area_code) %>%
-  mutate(`marker-color` = "#fc6721",
-         `marker-size` = "medium")
+trafford_sf <- trafford_sf %>%
+  mutate(stroke =
+           case_when(
+             Value == "1" ~ "#c7e9c0",
+             Value == "2" ~ "#a1d99b",
+             Value == "3" ~ "#74c476",
+         `stroke-width` = 3,
+         `stroke-opacity` = 1,
+         fill = stroke,
+         `fill-opacity` = 0.8)
 ```
