@@ -15,22 +15,26 @@ trafford <- st_read("https://www.traffordDataLab.io/spatial_data/local_authority
 
 # tidy data ---------------------------
 gm_sf <- st_intersection(sf, gm) %>%
-  select(Grade = ALC_GRADE, `Area code` = area_code, `Area name` = area_name)
+  select(grade = ALC_GRADE, area_code, area_name)
 
 trafford_sf <- st_intersection(sf, trafford) %>% 
-  select(Grade = ALC_GRADE, `Area code` = area_code, `Area name` = area_name)
+  select(grade = ALC_GRADE, area_code, area_name)
+
+# write data  ---------------------------
+st_write(gm_sf, "gm_agricultural_land_classification.geojson", driver = "GeoJSON")
+st_write(trafford_sf, "trafford_agricultural_land_classification.geojson", driver = "GeoJSON")
 
 # style GeoJSON  ---------------------------
 gm_sf <- gm_sf %>% 
   mutate(stroke = 
            case_when(
-             Grade == "Grade 1" ~ "#c7e9c0",
-             Grade == "Grade 2" ~ "#a1d99b",
-             Grade == "Grade 3" ~ "#74c476",
-             Grade == "Grade 4" ~ "#31a354",
-             Grade == "Grade 5" ~ "#006d2c",
-             Grade == "Non Agricultural" ~ "#ae8552",
-             Grade == "Urban" ~ "#828282"),
+             grade == "Grade 1" ~ "#c7e9c0",
+             grade == "Grade 2" ~ "#a1d99b",
+             grade == "Grade 3" ~ "#74c476",
+             grade == "Grade 4" ~ "#31a354",
+             grade == "Grade 5" ~ "#006d2c",
+             grade == "Non Agricultural" ~ "#ae8552",
+             grade == "Urban" ~ "#828282"),
          `stroke-width` = 3,
          `stroke-opacity` = 1,
          fill = stroke,
@@ -39,18 +43,18 @@ gm_sf <- gm_sf %>%
 trafford_sf <- trafford_sf %>% 
   mutate(stroke = 
            case_when(
-             Grade == "Grade 1" ~ "#c7e9c0",
-             Grade == "Grade 2" ~ "#a1d99b",
-             Grade == "Grade 3" ~ "#74c476",
-             Grade == "Grade 4" ~ "#31a354",
-             Grade == "Grade 5" ~ "#006d2c",
-             Grade == "Non Agricultural" ~ "#ae8552",
-             Grade == "Urban" ~ "#828282"),
+             grade == "Grade 1" ~ "#c7e9c0",
+             grade == "Grade 2" ~ "#a1d99b",
+             grade == "Grade 3" ~ "#74c476",
+             grade == "Grade 4" ~ "#31a354",
+             grade == "Grade 5" ~ "#006d2c",
+             grade == "Non Agricultural" ~ "#ae8552",
+             grade == "Urban" ~ "#828282"),
          `stroke-width` = 3,
          `stroke-opacity` = 1,
          fill = stroke,
          `fill-opacity` = 0.8)
 
-# write data  ---------------------------
-st_write(gm_sf, "gm_agricultural_land_classification.geojson", driver = "GeoJSON")
-st_write(trafford_sf, "trafford_agricultural_land_classification.geojson", driver = "GeoJSON")
+# write styled data  ---------------------------
+st_write(gm_sf, "gm_agricultural_land_classification_styled.geojson", driver = "GeoJSON")
+st_write(trafford_sf, "trafford_agricultural_land_classification_styled.geojson", driver = "GeoJSON")
