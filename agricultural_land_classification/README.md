@@ -18,7 +18,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="	http://naturalengland-defra.opendata.arcgis.com/datasets/provisional-agricultural-land-classification-alc-england"></a>	http://naturalengland-defra.opendata.arcgis.com/datasets/provisional-agricultural-land-classification-alc-england</td>
+	<td><a href="http://naturalengland-defra.opendata.arcgis.com/datasets/provisional-agricultural-land-classification-alc-england"></a>	http://naturalengland-defra.opendata.arcgis.com/datasets/provisional-agricultural-land-classification-alc-england</td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -30,7 +30,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>February 2018</td>
+	<td>2018-02</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -42,7 +42,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td></td>
+	<td>&copy; Natural England copyright. Contains Ordnance Survey data &copy; Crown copyright and database right [year].</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -54,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>September 2018</td>
+	<td>2019-04-10</td>
 </tr>
 <tr>
 	<td>Notes</td>
