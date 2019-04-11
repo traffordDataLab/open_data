@@ -10,7 +10,7 @@ Heathside Retirement Home,Residential homes,"74 Barrington Road, Altrincham",WA1
 Handsworth,Residential homes,"West Road, Bowdon, Altrincham",WA14 2LA,1619285314,http://www.mha.org.uk/ch15.aspx,Trafford,E0800009,-2.360602,53.377131
 SignHealth Bowfell Road,Residential homes,"SignHealth, 100 Bowfell Road, Urmston, Manchester",M41 5RR,1617478156,http://www.signhealth.org.uk,Trafford,E0800009,-2.370201,53.451021
 Bange Nursing Homes Limited t/a Bradley House Nursing Home,Nursing homes,"2 Brooklands Crescent, Sale",M33 3NB,1619732580,http://www.bangenursinghomes.com,Trafford,E0800009,-2.322919,53.417047
-Shawe House,Nursing homes,"Pennybridge Lane, Flixton, Manchester",M41 5DX,1617487867,NA,Trafford,E0800009,-2.373427,53.446247
+Shawe House,Nursing homes,"Pennybridge Lane, Flixton, Manchester",M41 5DX,1617487867,NA,Trafford,E0800009,-2.373763,53.446768
 The Coppice,Residential homes,"51 Wellington Road, Altrincham",WA15 7RQ,1619294178,http://www.efitzroy.org.uk,Trafford,E0800009,-2.336017,53.39518
 Prema Court,Nursing homes,"Clifton Court, Ayres Road, Manchester",M16 7NX,1612267698,http://www.deepdenecare.org,Trafford,E0800009,-2.258786,53.460422
 Norton Street,Residential homes,"28 Norton Street, Old Trafford, Manchester",M16 7GQ,1612262979,http://www.deepdenecare.org,Trafford,E0800009,-2.263454,53.457733
@@ -20,7 +20,6 @@ The Fairways,Residential homes,"269 Church Road, Urmston, Manchester",M41 6EP,16
 The Cedars Rest Home Limited,Residential homes,"23 Langham Road, Bowdon, Altrincham",WA14 2HX,1619284361,http://www.caringuk.com,Trafford,E0800009,-2.355688,53.375572
 Kara House Residential Care Home,Residential homes,"29 Harboro Road, Sale",M33 5AN,1619693393,NA,Trafford,E0800009,-2.338593,53.422228
 Lynwood Lodge Residential Care Home,Residential homes,"20-22 Broad Road, Sale",M33 2AL,1619737210,http://www.excelsiacare.co.uk,Trafford,E0800009,-2.315949,53.424654
-Premier Homes,Residential homes,"8 Premier Street, Old Trafford, Manchester",M16 9ND,1612262270,http://www.prem-care.co.uk,Trafford,E0800009,-2.262464,53.458419
 Ann Challis,Residential homes,"128 Stretford Road, Urmston, Manchester",M41 9LT,1617483597,http://www.jemcareltd.co.uk,Trafford,E0800009,-2.342776,53.446521
 Woodend Care Home,Nursing homes,"Bradgate Road, Altrincham",WA14 4QU,1619295127,NA,Trafford,E0800009,-2.373015,53.388832
 Beckdale House,Residential homes,"3 Beaufort Road, Sale",M33 3WR,1619739393,http://www.milewood.co.uk,Trafford,E0800009,-2.315423,53.416629
@@ -31,24 +30,22 @@ De Brook Lodge,Residential homes,"110 Irlam Road, Flixton, Manchester",M41 6NA,1
 Haylands Residential Home for Gentlemen,Residential homes,"93 Crofts Bank Road, Urmston, Manchester",M41 0US,1617498887,http://www.jemcareltd.co.uk,Trafford,E0800009,-2.355098,53.452669
 Norwood Drive,Residential homes,"2 Norwood Drive, Timperley, Altrincham",WA15 7LD,1619049228,NA,Trafford,E0800009,-2.306023,53.389975
 Manorhey Care Centre,Nursing homes,"130 Stretford Road, Urmston, Manchester",M41 9LT,1617476888,NA,Trafford,E0800009,-2.342776,53.446521
-Allingham House Care Centre,Nursing homes,"Deansgate Lane, Timperley, Altrincham",WA15 6SQ,1617476888,NA,Trafford,E0800009,-2.341537,53.399099
+Allingham House Care Centre,Nursing homes,"Deansgate Lane, Timperley, Altrincham",WA15 6SQ,1619291783,NA,Trafford,E0800009,-2.341537,53.399099
 Yew Tree,Residential homes,"Fairy Lane, Sale, Trafford",M33 2JT,1619739616,NA,Trafford,E0800009,-2.285748,53.420443
-St Mark's Care Centre,Nursing homes,"Delaunays Road, Sale",M33 6RX,1619622032,NA,Trafford,E0800009,-2.334908,53.422427
 York Lodge Residential Home,Residential homes,"54-56 Crofts Bank Road, Urmston, Manchester",M41 0UH,1617482315,NA,Trafford,E0800009,-2.353157,53.451048
 Ascot House,Residential homes,"Ascot Ave, Sale, Manchester",M33 4GT,1619620996,NA,Trafford,E0800009,-2.355164,53.417245
 Cheshire House,Nursing homes,"22 St Marys Road, Sale",M33 6SA,1619051228,http://www.consensussupport.com,Trafford,E0800009,-2.332335,53.424403
 Mayfield Care Home,Residential homes,"Beaufort Road, Sale",M33 3WR,1619732371,NA,Trafford,E0800009,-2.315423,53.416629
-Sunrise of Hale Barns,Residential homes,"295 Hale Road, Hale Barns, Altrincham",WA15 8SN,1619809500,http://www.sunrise-care.co.uk,Trafford,E0800009,-2.316924,53.371682
+Sunrise of Hale Barns,Residential homes,"295 Hale Road, Hale Barns, Altrincham",WA15 8SN,1619809500,http://www.sunrise-care.co.uk,Trafford,E0800009,-2.316703,53.37249
 Four Oaks Care Home,Nursing homes,"28 Wood Lane, Partington, Manchester",M31 4LX,1613593983,NA,Trafford,E0800009,-2.432407,53.415534
-EAM House,Nursing homes,"Manchester Road, Partington, Manchester",M31 4DJ,1617778511,http://www.eamcaregroup.co.uk,Trafford,E0800009,-2.422709,53.420647
-EAM Lodge (Trafford),Nursing homes,"46 Manchester Road, Partington, Manchester",M31 4DJ,1617778511,http://www.eamcaregroup.co.uk,Trafford,E0800009,-2.422709,53.420647
+EAM House,Nursing homes,"Manchester Road, Partington, Manchester",M31 4DJ,1617778511,http://www.eamcaregroup.co.uk,Trafford,E0800009,-2.421986,53.420801
+EAM Lodge (Trafford),Nursing homes,"46 Manchester Road, Partington, Manchester",M31 4DJ,1617778511,http://www.eamcaregroup.co.uk,Trafford,E0800009,-2.421986,53.420801
 Ferrol Lodge,Residential homes,"49 Northenden Road, Sale",M33 2DL,1619624056,NA,Trafford,E0800009,-2.313983,53.423392
 Flixton Manor,Nursing homes,"2-8 Delamere Road, Urmston, Manchester",M41 5QL,1617467175,http://www.flixtonmanor.com,Trafford,E0800009,-2.378333,53.449209
 Timperley Care Home,Nursing homes,"53d Mainwood Road, Timperley, Altrincham",WA15 7JW,1619808001,NA,Trafford,E0800009,-2.312943,53.392375
-Woodlea Supported Accommodation,Residential homes|Homecare agencies|Supported living,"196 Upper Chorlton Road, Manchester",M16 7SF,1618629521,NA,Trafford,E0800009,-2.265873,53.454519
-Cliffemount Community Care,Residential homes,"411 Hale Road, Hale Barns, Altrincham",WA15 8XU,NA,NA,Trafford,E0800009,-2.298658,53.364734
+Cliffemount Community Care,Residential homes,"411 Hale Road, Hale Barns, Altrincham",WA15 8XU,NA,NA,Trafford,E0800009,-2.299064,53.364742
 Ashlands manor Care Centre,Nursing homes|Residential homes,"2 Ashlands, Sale",M33 5PD,1619050760,http://www.newcarehomes.com,Trafford,E0800009,-2.331857,53.424863
-Sunrise of Hale Barns,Residential homes,"295 Hale Road, Hale Barns, Altrincham",WA15 8SN,1619809500,http://www.sunrise.care.co.uk,Trafford,E0800009,-2.316924,53.371682
+Sunrise of Hale Barns,Residential homes,"295 Hale Road, Hale Barns, Altrincham",WA15 8SN,1619809500,http://www.sunrise.care.co.uk,Trafford,E0800009,-2.316703,53.37249
 Oldfield Bank Residential Care Home,Residential homes,"5 Highgate Road, Altrincham",WA14 4QZ,1619280658,NA,Trafford,E0800009,-2.364967,53.388317
 Serendipity Home,Nursing homes,"Greenfield Avenue, Urmston, Manchester",M41 0XN,1617473738,NA,Trafford,E0800009,-2.351358,53.450235
 Claremont Care Home,Residential homes,"254-256 Washway Road, Sale",M33 4RZ,1619737130,NA,Trafford,E0800009,-2.335899,53.416537

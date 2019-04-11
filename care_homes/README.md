@@ -30,7 +30,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>Correct as of September 2018</td>
+	<td>2019-04-10</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -42,7 +42,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td></td>
+	<td>Uses information from the Care Quality Commission.</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -54,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>September 2018</td>
+	<td>2019-04-11</td>
 </tr>
 <tr>
 	<td>Notes</td>
