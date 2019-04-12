@@ -1,33 +1,24 @@
-## Tidy up data created from a GeoJSON to CSV conversion performed by http://www.convertcsv.com/geojson-to-csv.htm
-## Produces cleaned CSV and GeoJSON outputs and a styled GeoJSON output for use in the Lab's Explore application
+## This dataset was created by the Trafford Data Lab using our Plotter app.
+## Purpose of this script is simply to prepare the raw file and create cleaned CSV and GeoJSON outputs from it.
 
 # load libraries ---------------------------
 library(tidyverse) ; library(sf)
 
-# load the raw data ---------------------------
-df_csv_raw <- read_csv("CCTV_cameras_trafford_raw.csv")
-sf_geojson_raw <- st_read("CCTV_cameras_trafford_RAW.geojson")
+# load the raw GeoJSON data and select the variables we want ---------------------------
+sf <- st_read("CCTV_cameras_trafford_RAW.geojson") %>%
+  select(camera_id = cameraId, location = cameraLocation) %>%
+  mutate(area_name = "Trafford", area_code = "E0800009")
 
-# select the required columns in the required order from the raw CSV data ---------------------------
-df_csv_clean <- select(df_csv_raw, cameraId, cameraLocation, longitude, latitude) %>%
-  rename(camera_id = cameraId, location = cameraLocation)
+# extract the coordinates as separate lon and lat variables ---------------------------
+coords <- st_coordinates(sf) %>%
+  as_tibble() %>%
+  select(X, Y) %>%
+  rename(lon = X, lat = Y)
 
-# clean the raw geojson ---------------------------
-sf_geojson_clean <- select(sf_geojson_raw, -featureNum, -featureAlias) %>%
-  rename(camera_id = cameraId, location = cameraLocation)
+# bind the coordinates to the spatial features data frame, removing the geometry ---------------------------
+df <- st_set_geometry(sf, NULL) %>%
+  bind_cols(coords)
 
-# create the cleaned outputs ---------------------------
-write_csv(df_csv_clean, "CCTV_cameras_trafford.csv")
-st_write(sf_geojson_clean, "CCTV_cameras_trafford.geojson")
-
-# create a new spatial features object from the cleaned geojson, capitalising all the variables that the user will see in Explore ---------------------------
-sf_styled_geojson <- geojson_style(sf_geojson_clean,
-                                   color = "#fc6721",
-                                   size = "medium") %>%   
-  rename(`marker-color` = marker.color,
-         `marker-size` = marker.size,
-         Camera = camera_id,
-         Location = location)
-
-# save the styled version of the geojson
-st_write(sf_styled_geojson, "CCTV_cameras_trafford_styled.geojson")
+# write out the new spatial file and csv ---------------------------
+st_write(sf, "trafford_cctv_cameras.geojson")
+write_csv(df, "trafford_cctv_cameras.csv")

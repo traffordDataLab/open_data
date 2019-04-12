@@ -32,7 +32,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>Correct as of May 2018</td>
+	<td>2018-05</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -48,7 +48,7 @@
 </tr>
 <tr>
 	<td>Format</td>
-	<td>GeoJSON, CSV</td>
+	<td>CSV, GeoJSON</td>
 </tr>
 <tr>
 	<td>Openness rating</td>
@@ -56,11 +56,11 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>May 2018</td>
+	<td>2019-04-12</td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td></td>
+	<td>Correct as of May 2018</td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>
