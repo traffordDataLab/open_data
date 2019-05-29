@@ -16,19 +16,39 @@ sf <- content(r, as = "text", encoding = "UTF-8") %>%
   as_tibble() %>% 
   filter(WonGreenFlagAward == TRUE) %>% 
   mutate(name = str_trim(Title),
-         website = str_c("http://www.greenflagaward.org.uk/park-summary/?park=", ID),
+         green_flag_page = str_c("http://www.greenflagaward.org.uk/park-summary/?park=", ID),
          lon = as.numeric(as.character(Longitude)),
          lat = as.numeric(as.character(Latitude))) %>% 
-  select(name, website, lon, lat) %>% 
+  select(name, green_flag_page, lon, lat) %>% 
   arrange(name) %>% 
   st_as_sf(coords = c("lon", "lat"), crs = 4326) %>% 
   st_join(bdy, join = st_within) %>% 
   filter(!is.na(area_code)) %>% 
-  select(name, website, area_code, area_name) 
+  select(name, green_flag_page, area_code, area_name) 
 
-st_write(sf, "green_flags.geojson")
+url <- "http://www.greenflagaward.org.uk/park-summary/?park=%d"
+meta <- map_df(as.numeric(gsub("\\D", "", sf$green_flag_page)), function(i) {
+  query <- tryCatch(read_html(sprintf(url, i)),
+                    error = function(cond) { return(NULL) },
+                    warning = function(cond) { return(NULL) },
+                    finally = NA)
+  if (!is.null(query)) {
+    html <- read_html(sprintf(url, i))
+    tibble(name = str_trim(html_text(html_nodes(html, "h1"))),
+           managed = str_trim(html_text(html_nodes(html, ".item:nth-child(1) .value"))),
+           contact = str_trim(html_text(html_nodes(html, ".item:nth-child(2) .value"))),
+           telephone = str_trim(html_text(html_nodes(html, ".item:nth-child(3) .value"))),
+           email = str_trim(html_text(html_nodes(html, ".item:nth-child(4) .value"))),
+           website = str_trim(html_text(html_nodes(html, ":nth-child(5) .value"))))
+  }
+})
 
-sf %>% 
+sf_meta <- left_join(sf, meta, by = "name") %>% 
+  select(name, managed, contact, telephone, email, website, area_code, area_name)
+
+st_write(sf_meta, "green_flags.geojson")
+
+sf_meta %>% 
   cbind(st_coordinates(.)) %>%
   rename(lon = X, lat = Y) %>% 
   st_set_geometry(NULL) %>% 
