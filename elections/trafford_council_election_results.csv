@@ -1,0 +1,306 @@
+ward_code,ward_name,year,election_type,vacant_seats,candidate,party,votes,ballot_papers_issued,spoiled_ballots,electorate,elected,seat_status
+E05000819,Altrincham,2016,local election,1,JERROME Daniel Adam,Green Party,777,3288,NA,8472,FALSE,NA
+E05000819,Altrincham,2016,local election,1,NEWGROSH Julian David,Liberal Democrats,207,3288,NA,8472,FALSE,NA
+E05000819,Altrincham,2016,local election,1,WHYTE Amy Marie,Labour Party,763,3288,NA,8472,FALSE,NA
+E05000819,Altrincham,2016,local election,1,WILLIAMS Alex,Conservative Party,1533,3288,NA,8472,TRUE,hold
+E05000820,Ashton upon Mersey,2016,local election,1,HARTLEY Ben,Labour Party,1079,3110,NA,7255,FALSE,NA
+E05000820,Ashton upon Mersey,2016,local election,1,MARRITT Chris,Liberal Democrats,151,3110,NA,7255,FALSE,NA
+E05000820,Ashton upon Mersey,2016,local election,1,RIGBY Brian Dean,Conservative Party,1642,3110,NA,7255,TRUE,hold
+E05000820,Ashton upon Mersey,2016,local election,1,ROBERTSON-BROWN Caroline Louise,Green Party,231,3110,NA,7255,FALSE,NA
+E05000821,Bowdon,2016,local election,1,ANSTEE Sean Brian,Conservative Party,2090,2957,NA,7159,TRUE,hold
+E05000821,Bowdon,2016,local election,1,DAVIDSON Kirstie Janet,Liberal Democrats,235,2957,NA,7159,FALSE,NA
+E05000821,Bowdon,2016,local election,1,MAYER Charlie,Labour Party,452,2957,NA,7159,FALSE,NA
+E05000821,Bowdon,2016,local election,1,WADSWORTH Daniel Colin,Green Party,168,2957,NA,7159,FALSE,NA
+E05000822,Broadheath,2016,local election,1,CLIFF Pauline Anne,Liberal Democrats,204,3995,NA,9550,FALSE,NA
+E05000822,Broadheath,2016,local election,1,FARNDON Stephen John,Independent,105,3995,NA,9550,FALSE,NA
+E05000822,Broadheath,2016,local election,1,FERGUSON Neil Leslie,Conservative Party,1641,3995,NA,9550,FALSE,NA
+E05000822,Broadheath,2016,local election,1,SUTTON Owain,Green Party,152,3995,NA,9550,FALSE,NA
+E05000822,Broadheath,2016,local election,1,WESTERN Denise Ailsa,Labour Party,1877,3995,NA,9550,TRUE,hold
+E05000823,Brooklands,2016,local election,1,BOYES Chris,Conservative Party,1766,3419,NA,7737,TRUE,hold
+E05000823,Brooklands,2016,local election,1,CARR Serena Caris,Labour Party,1256,3419,NA,7737,FALSE,NA
+E05000823,Brooklands,2016,local election,1,MINNIS Meenakshi,Liberal Democrats,287,3419,NA,7737,FALSE,NA
+E05000823,Brooklands,2016,local election,1,RYAN Joseph Damien,Green Party,100,3419,NA,7737,FALSE,NA
+E05000824,Bucklow-St Martins,2016,local election,1,JOHNSON Thea Victoria,Green Party,98,2177,NA,6659,FALSE,NA
+E05000824,Bucklow-St Martins,2016,local election,1,JONES Steve,UK Independence Party,290,2177,NA,6659,FALSE,NA
+E05000824,Bucklow-St Martins,2016,local election,1,ROGERS Graham Peter,Liberal Democrats,64,2177,NA,6659,FALSE,NA
+E05000824,Bucklow-St Martins,2016,local election,1,RUDDEN Tony,Independent,517,2177,NA,6659,FALSE,NA
+E05000824,Bucklow-St Martins,2016,local election,1,TURNER Geoff,Conservative Party,371,2177,NA,6659,FALSE,NA
+E05000824,Bucklow-St Martins,2016,local election,1,WRIGHT James Alexander,Labour Party,835,2177,NA,6659,TRUE,hold
+E05000825,Clifford,2016,local election,1,FINNEY Alex,Conservative Party,195,2998,NA,7437,FALSE,NA
+E05000825,Clifford,2016,local election,1,MAYO Jess,Green Party,351,2998,NA,7437,FALSE,NA
+E05000825,Clifford,2016,local election,1,STENNETT Whit,Labour Party,2374,2998,NA,7437,TRUE,hold
+E05000825,Clifford,2016,local election,1,WRIGHT Simon Andrew,Liberal Democrats,63,2998,NA,7437,FALSE,NA
+E05000826,Davyhulme East,2016,local election,1,BLACKBURN Linda Louise,Conservative Party,1401,3112,NA,7444,TRUE,hold
+E05000826,Davyhulme East,2016,local election,1,DILLON Jayne Elizabeth,Labour Party,1172,3112,NA,7444,FALSE,NA
+E05000826,Davyhulme East,2016,local election,1,KIERMAN David Joseph,Liberal Democrats,79,3112,NA,7444,FALSE,NA
+E05000826,Davyhulme East,2016,local election,1,ROYLE Ian,UK Independence Party,321,3112,NA,7444,FALSE,NA
+E05000826,Davyhulme East,2016,local election,1,TENNANT Steven Roy,Green Party,128,3112,NA,7444,FALSE,NA
+E05000827,Davyhulme West,2016,local election,1,CARR Sally,Labour Party,1047,3065,NA,7456,FALSE,NA
+E05000827,Davyhulme West,2016,local election,1,EISEN James Adam,Liberal Democrats,62,3065,NA,7456,FALSE,NA
+E05000827,Davyhulme West,2016,local election,1,REGAN Paul John,UK Independence Party,388,3065,NA,7456,FALSE,NA
+E05000827,Davyhulme West,2016,local election,1,SHAW Brian,Conservative Party,1468,3065,NA,7456,TRUE,hold
+E05000827,Davyhulme West,2016,local election,1,SYRETT Paul Barry,Green Party,97,3065,NA,7456,FALSE,NA
+E05000828,Flixton,2016,local election,1,BAYLEY-SANDERSON Mike,UK Independence Party,422,3560,NA,8080,FALSE,NA
+E05000828,Flixton,2016,local election,1,LALLY Paul Michael David,Conservative Party,1475,3560,NA,8080,TRUE,hold
+E05000828,Flixton,2016,local election,1,MARTIN David Harold,Liberal Democrats,90,3560,NA,8080,FALSE,NA
+E05000828,Flixton,2016,local election,1,MCLAUGHLIN Christine Bridget Theresa,Green Party,157,3560,NA,8080,FALSE,NA
+E05000828,Flixton,2016,local election,1,THOMAS Simon Garfield,Labour Party,1415,3560,NA,8080,FALSE,NA
+E05000829,Gorse Hill,2016,local election,1,JOHN Lijo,Conservative Party,440,2678,NA,7768,FALSE,NA
+E05000829,Gorse Hill,2016,local election,1,LEPORI Simon Edward,Liberal Democrats,65,2678,NA,7768,FALSE,NA
+E05000829,Gorse Hill,2016,local election,1,ROYLE Pauline Brenda,UK Independence Party,261,2678,NA,7768,FALSE,NA
+E05000829,Gorse Hill,2016,local election,1,WADSWORTH Jennie Patricia,Green Party,146,2678,NA,7768,FALSE,NA
+E05000829,Gorse Hill,2016,local election,1,WALSH Laurence James,Labour Party,1760,2678,NA,7768,TRUE,hold
+E05000830,Hale Barns,2016,local election,1,ELLIOT Richard Martin,Liberal Democrats,225,2911,NA,7210,FALSE,NA
+E05000830,Hale Barns,2016,local election,1,LEFTWICH Deborah Jean,Green Party,141,2911,NA,7210,FALSE,NA
+E05000830,Hale Barns,2016,local election,1,MYERS Patrick John,Conservative Party,2030,2911,NA,7210,TRUE,hold
+E05000830,Hale Barns,2016,local election,1,TWINEY Barbara Ruth,Labour and Co-operative Party,509,2911,NA,7210,FALSE,NA
+E05000831,Hale Central,2016,local election,1,FORCOLIN Giulio Tiziano,Green Party,201,2788,NA,7205,FALSE,NA
+E05000831,Hale Central,2016,local election,1,HADDAD Denise Louise,Conservative Party,1614,2788,NA,7205,TRUE,hold
+E05000831,Hale Central,2016,local election,1,HARRISON Beverly Jill,Labour and Co-operative Party,683,2788,NA,7205,FALSE,NA
+E05000831,Hale Central,2016,local election,1,HARRISON Wayne Joseph,Liberal Democrats,278,2788,NA,7205,FALSE,NA
+E05000832,Longford,2016,local election,1,BAYLEY-SANDERSON Val,UK Independence Party,214,3416,NA,8511,FALSE,NA
+E05000832,Longford,2016,local election,1,CONCHIE Cathy,Conservative Party,487,3416,NA,8511,FALSE,NA
+E05000832,Longford,2016,local election,1,LLOYD Judith Ann,Labour Party,2311,3416,NA,8511,TRUE,hold
+E05000832,Longford,2016,local election,1,LOVELL Chris,Liberal Democrats,78,3416,NA,8511,FALSE,NA
+E05000832,Longford,2016,local election,1,WESTBROOK Margaret Emily,Green Party,314,3416,NA,8511,FALSE,NA
+E05000833,Priory,2016,local election,1,BROTHERTON Barry,Labour and Co-operative Party,1702,3103,NA,7769,TRUE,hold
+E05000833,Priory,2016,local election,1,GRIME Kevin,UK Independence Party,236,3103,NA,7769,FALSE,NA
+E05000833,Priory,2016,local election,1,JAY Paul Joseph,Conservative Party,822,3103,NA,7769,FALSE,NA
+E05000833,Priory,2016,local election,1,KING Mandy,Green Party,161,3103,NA,7769,FALSE,NA
+E05000833,Priory,2016,local election,1,MACDONALD Michael,Liberal Democrats,173,3103,NA,7769,FALSE,NA
+E05000834,St Mary's,2016,local election,1,BIRD Louise Claire,Liberal Democrats,147,3085,NA,8201,FALSE,NA
+E05000834,St Mary's,2016,local election,1,HOLDEN John Charles,Conservative Party,1772,3085,NA,8201,TRUE,hold
+E05000834,St Mary's,2016,local election,1,KEARY Gary William,Labour Party,965,3085,NA,8201,FALSE,NA
+E05000834,St Mary's,2016,local election,1,ROBERTSON-BROWN Nicholas Jonathan,Green Party,187,3085,NA,8201,FALSE,NA
+E05000835,Sale Moor,2016,local election,1,FREEMAN Mike,Labour Party,1547,2783,NA,7322,TRUE,hold
+E05000835,Sale Moor,2016,local election,1,JONES William,Liberal Democrats,134,2783,NA,7322,FALSE,NA
+E05000835,Sale Moor,2016,local election,1,LEICESTER Jane Frances,Green Party,192,2783,NA,7322,FALSE,NA
+E05000835,Sale Moor,2016,local election,1,MCHUGH Stephen James,Conservative Party,902,2783,NA,7322,FALSE,NA
+E05000836,Stretford,2016,local election,1,ENNIS Shaun Gavin,Liberal Democrats,100,3021,NA,7552,FALSE,NA
+E05000836,Stretford,2016,local election,1,HOOLEY Colin Ralph,Conservative Party,656,3021,NA,7552,FALSE,NA
+E05000836,Stretford,2016,local election,1,O'NEILL Liz,Green Party,249,3021,NA,7552,FALSE,NA
+E05000836,Stretford,2016,local election,1,ROSS Tom William,Labour Party,2004,3021,NA,7552,TRUE,hold
+E05000837,Timperley,2016,local election,1,AHMED Mo,Labour Party,436,4184,NA,8332,FALSE,NA
+E05000837,Timperley,2016,local election,1,BROPHY Jane Elisabeth,Liberal Democrats,2176,4184,NA,8332,TRUE,hold
+E05000837,Timperley,2016,local election,1,LEIGH Jadwiga Teresa,Green Party,173,4184,NA,8332,FALSE,NA
+E05000837,Timperley,2016,local election,1,MOUNFIELD Carol,Conservative Party,1388,4184,NA,8332,FALSE,NA
+E05000838,Urmston,2016,local election,1,BEAUMONT Andrew,UK Independence Party,340,3837,NA,8215,FALSE,NA
+E05000838,Urmston,2016,local election,1,COGGINS Geraldine Philomena,Green Party,144,3837,NA,8215,FALSE,NA
+E05000838,Urmston,2016,local election,1,CULLEN Kirsty,Liberal Democrats,91,3837,NA,8215,FALSE,NA
+E05000838,Urmston,2016,local election,1,HYNES Catherine Louise,Labour Party,1830,3837,NA,8215,TRUE,hold
+E05000838,Urmston,2016,local election,1,TURNER Christine,Conservative Party,1419,3837,NA,8215,FALSE,NA
+E05000839,Village,2016,local election,1,BOWKER Ray,Liberal Democrats,1482,3276,NA,7553,TRUE,hold
+E05000839,Village,2016,local election,1,CAREY Thomas John Patrick,Conservative Party,1050,3276,NA,7553,FALSE,NA
+E05000839,Village,2016,local election,1,O'BRIEN Tony,Labour Party,616,3276,NA,7553,FALSE,NA
+E05000839,Village,2016,local election,1,WESTBROOK Matthew John,Green Party,123,3276,NA,7553,FALSE,NA
+E05000824,Bucklow-St Martins,2017,by-election,1,BEAUMONT Andrew,UK Independence Party,65,1623,1,7110,FALSE,NA
+E05000824,Bucklow-St Martins,2017,by-election,1,LEPORI Simon Edward,Liberal Democrats,18,1623,1,7110,FALSE,NA
+E05000824,Bucklow-St Martins,2017,by-election,1,MARLAND Sarah Ashley,Conservative Party,456,1623,1,7110,FALSE,NA
+E05000824,Bucklow-St Martins,2017,by-election,1,RYAN Joseph Damien,Green Party,33,1623,1,7110,FALSE,NA
+E05000824,Bucklow-St Martins,2017,by-election,1,WILLIAMS Aidan James,Labour Party,1050,1623,1,7110,TRUE,gain
+E05000819,Altrincham,2018,local election,2,BILLER Constantine Philip,Conservative Party,1386,4133,257,8892,FALSE,NA
+E05000819,Altrincham,2018,local election,2,COGGINS Geraldine Philomena,Green Party,1621,4133,257,8892,TRUE,gain
+E05000819,Altrincham,2018,local election,2,JERROME Dan,Green Party,1944,4133,257,8892,TRUE,gain
+E05000819,Altrincham,2018,local election,2,MARTIN David Harold,Liberal Democrats,93,4133,257,8892,FALSE,NA
+E05000819,Altrincham,2018,local election,2,NEWGROSH Julian David,Liberal Democrats,118,4133,257,8892,FALSE,NA
+E05000819,Altrincham,2018,local election,2,SAVARY Stephane,Labour Party,846,4133,257,8892,FALSE,NA
+E05000819,Altrincham,2018,local election,2,STONE Angela Kay,Conservative Party,1342,4133,257,8892,FALSE,NA
+E05000819,Altrincham,2018,local election,2,WINSTANLEY Barry Gerard,Labour Party,655,4133,257,8892,FALSE,NA
+E05000820,Ashton upon Mersey,2018,local election,1,GRIME Kevin,UK Independence Party,53,3590,6,7617,FALSE,NA
+E05000820,Ashton upon Mersey,2018,local election,1,HARTLEY Ben,Labour Party,1568,3590,6,7617,FALSE,NA
+E05000820,Ashton upon Mersey,2018,local election,1,LAMB John Terence,Conservative Party,1677,3590,6,7617,TRUE,hold
+E05000820,Ashton upon Mersey,2018,local election,1,POWER Stephen Lee,Liberal Democrats,138,3590,6,7617,FALSE,NA
+E05000820,Ashton upon Mersey,2018,local election,1,ROBERTSON-BROWN Caroline,Green Party,148,3590,6,7617,FALSE,NA
+E05000821,Bowdon,2018,local election,1,BARCLAY Karen Myra,Conservative Party,2130,3121,5,7335,TRUE,hold
+E05000821,Bowdon,2018,local election,1,COOK Jim,UK Independence Party,39,3121,5,7335,FALSE,NA
+E05000821,Bowdon,2018,local election,1,HASSAN Waseem,Labour Party,422,3121,5,7335,FALSE,NA
+E05000821,Bowdon,2018,local election,1,HENNERLEY Nigel Robert,Green Party,169,3121,5,7335,FALSE,NA
+E05000821,Bowdon,2018,local election,1,TOLHURST-CLEAVER Ludo,Liberal Democrats,356,3121,5,7335,FALSE,NA
+E05000822,Broadheath,2018,local election,1,BAYLEY-SANDERSON Mike,UK Independence Party,56,4218,5,9891,FALSE,NA
+E05000822,Broadheath,2018,local election,1,BURKE Kate,Conservative Party,1716,4218,5,9891,FALSE,NA
+E05000822,Broadheath,2018,local election,1,FARNDON Stephen John,Independent,33,4218,5,9891,FALSE,NA
+E05000822,Broadheath,2018,local election,1,GRESTY Daniel,Green Party,160,4218,5,9891,FALSE,NA
+E05000822,Broadheath,2018,local election,1,MARRITT Christopher Paul,Liberal Democrats,170,4218,5,9891,FALSE,NA
+E05000822,Broadheath,2018,local election,1,WHYTE Amy Marie,Labour Party,2077,4218,5,9891,TRUE,hold
+E05000823,Brooklands,2018,local election,1,JEFFERSON Mike,Conservative Party,1755,4080,4,7844,FALSE,NA
+E05000823,Brooklands,2018,local election,1,KING Mandy,Green Party,155,4080,4,7844,FALSE,NA
+E05000823,Brooklands,2018,local election,1,LONGDEN Steven Gregory,Labour Party,1939,4080,4,7844,TRUE,gain
+E05000823,Brooklands,2018,local election,1,MINNIS Meenakshi,Liberal Democrats,170,4080,4,7844,FALSE,NA
+E05000823,Brooklands,2018,local election,1,NAYLER Tony,UK Independence Party,55,4080,4,7844,FALSE,NA
+E05000824,Bucklow-St Martins,2018,local election,1,CAPUCHO PAULO Rodrigo,Green Party,44,2027,4,7101,FALSE,NA
+E05000824,Bucklow-St Martins,2018,local election,1,NAPIER Norine Dorothy,UK Independence Party,90,2027,4,7101,FALSE,NA
+E05000824,Bucklow-St Martins,2018,local election,1,NEW Adele Louise,Labour Party,1427,2027,4,7101,TRUE,hold
+E05000824,Bucklow-St Martins,2018,local election,1,TURNER Geoffrey,Conservative Party,424,2027,4,7101,FALSE,NA
+E05000824,Bucklow-St Martins,2018,local election,1,WRIGHT Simon Andrew,Liberal Democrats,38,2027,4,7101,FALSE,NA
+E05000825,Clifford,2018,local election,1,CLIFF Pauline Anne,Liberal Democrats,82,3212,8,8183,FALSE,NA
+E05000825,Clifford,2018,local election,1,FINNEY Alex,Conservative Party,165,3212,8,8183,FALSE,NA
+E05000825,Clifford,2018,local election,1,MAYO Jess,Green Party,255,3212,8,8183,FALSE,NA
+E05000825,Clifford,2018,local election,1,TAYLOR Sophie Rachel,Labour Party,2702,3212,8,8183,TRUE,hold
+E05000826,Davyhulme East,2018,local election,1,CORNES Mike,Conservative Party,1388,3837,2,7758,FALSE,NA
+E05000826,Davyhulme East,2018,local election,1,DILLON Jayne Elizabeth,Labour Party,2205,3837,2,7758,TRUE,gain
+E05000826,Davyhulme East,2018,local election,1,REGAN Gary Anthony,UK Independence Party,69,3837,2,7758,FALSE,NA
+E05000826,Davyhulme East,2018,local election,1,SUTHERLAND Susan,Liberal Democrats,73,3837,2,7758,FALSE,NA
+E05000826,Davyhulme East,2018,local election,1,TENNANT-SMYTHE Steven Roy,Green Party,100,3837,2,7758,FALSE,NA
+E05000827,Davyhulme West,2018,local election,1,KIERMAN David Joseph,Liberal Democrats,81,3884,3,7696,FALSE,NA
+E05000827,Davyhulme West,2018,local election,1,RAIKES Rob,Green Party,71,3884,3,7696,FALSE,NA
+E05000827,Davyhulme West,2018,local election,1,REGAN Paul,UK Independence Party,96,3884,3,7696,FALSE,NA
+E05000827,Davyhulme West,2018,local election,1,TURNER Christine,Conservative Party,1403,3884,3,7696,FALSE,NA
+E05000827,Davyhulme West,2018,local election,1,WHITHAM Graham,Labour Party,2230,3884,3,7696,TRUE,gain
+E05000828,Flixton,2018,local election,1,BEAUMONT Andrew,UK Independence Party,91,4562,2,8290,FALSE,NA
+E05000828,Flixton,2018,local election,1,MCLAUGHLIN Christine Bridget Theresa,Green Party,125,4562,2,8290,FALSE,NA
+E05000828,Flixton,2018,local election,1,SUTHERLAND Norman Ian,Liberal Democrats,84,4562,2,8290,FALSE,NA
+E05000828,Flixton,2018,local election,1,THOMAS Simon Garfield,Labour Party,2732,4562,2,8290,TRUE,gain
+E05000828,Flixton,2018,local election,1,WARD Viv,Conservative Party,1528,4562,2,8290,FALSE,NA
+E05000829,Gorse Hill,2018,local election,1,ACTON David,Labour Party,2039,2799,6,8357,TRUE,hold
+E05000829,Gorse Hill,2018,local election,1,CARBERRY-POWER Dawn Lee,Liberal Democrats,88,2799,6,8357,FALSE,NA
+E05000829,Gorse Hill,2018,local election,1,JOHN Lijo,Conservative Party,485,2799,6,8357,FALSE,NA
+E05000829,Gorse Hill,2018,local election,1,MARTIN Seamus,UK Independence Party,66,2799,6,8357,FALSE,NA
+E05000829,Gorse Hill,2018,local election,1,RYAN Joe,Green Party,115,2799,6,8357,FALSE,NA
+E05000830,Hale Barns,2018,local election,1,AKINOLA Akila,Labour Party,477,2900,6,7431,FALSE,NA
+E05000830,Hale Barns,2018,local election,1,BOYSEN Maggie,Liberal Democrats,258,2900,6,7431,FALSE,NA
+E05000830,Hale Barns,2018,local election,1,BUTT Dylan,Conservative Party,1932,2900,6,7431,TRUE,hold
+E05000830,Hale Barns,2018,local election,1,LEFTWICH Deborah Jean,Green Party,95,2900,6,7431,FALSE,NA
+E05000830,Hale Barns,2018,local election,1,TAYLOR Sandra,Independent,132,2900,6,7431,FALSE,NA
+E05000831,Hale Central,2018,local election,1,AXFORD Jill Margaret,Labour Party,809,2999,7,7440,FALSE,NA
+E05000831,Hale Central,2018,local election,1,FRASS Will,Liberal Democrats,364,2999,7,7440,FALSE,NA
+E05000831,Hale Central,2018,local election,1,HARRISON Wayne Joseph,The Liberal Party,49,2999,7,7440,FALSE,NA
+E05000831,Hale Central,2018,local election,1,LEICESTER Stephen Edward,Green Party,166,2999,7,7440,FALSE,NA
+E05000831,Hale Central,2018,local election,1,MITCHELL Alan Robert,Conservative Party,1604,2999,7,7440,TRUE,hold
+E05000832,Longford,2018,local election,1,CONCHIE Cathy,Conservative Party,547,3658,8,9128,FALSE,NA
+E05000832,Longford,2018,local election,1,FRYER Anna Corrina,Liberal Democrats,194,3658,8,9128,FALSE,NA
+E05000832,Longford,2018,local election,1,JARMAN David Paul,Labour Party,2611,3658,8,9128,TRUE,hold
+E05000832,Longford,2018,local election,1,ROYLE Pauline Brenda,UK Independence Party,60,3658,8,9128,FALSE,NA
+E05000832,Longford,2018,local election,1,WESTBROOK Margaret Emily,Green Party,238,3658,8,9128,FALSE,NA
+E05000833,Priory,2018,local election,1,BARKER George Robso,Conservative Party,988,3352,6,8191,FALSE,NA
+E05000833,Priory,2018,local election,1,BAUGH Jane Everall,Labour Party,2018,3352,6,8191,TRUE,hold
+E05000833,Priory,2018,local election,1,GREER Paul Christopher,Green Party,170,3352,6,8191,FALSE,NA
+E05000833,Priory,2018,local election,1,MACDONALD Michael,Liberal Democrats,170,3352,6,8191,FALSE,NA
+E05000834,St Mary's,2018,local election,1,BIRD Louise Claire,Liberal Democrats,167,3432,8,8597,FALSE,NA
+E05000834,St Mary's,2018,local election,1,CHILTON Rob,Conservative Party,2053,3432,8,8597,TRUE,hold
+E05000834,St Mary's,2018,local election,1,CHOUDHURY Mal Mohibullah,Labour Party,1054,3432,8,8597,FALSE,NA
+E05000834,St Mary's,2018,local election,1,ROBERTSON-BROWN Nicholas Jonathan,Green Party,149,3432,8,8597,FALSE,NA
+E05000835,Sale Moor,2018,local election,1,KIRK Czarina Dawn,Liberal Democrats,207,2777,5,7632,FALSE,NA
+E05000835,Sale Moor,2018,local election,1,LEICESTER Jane Frances,Green Party,161,2777,5,7632,FALSE,NA
+E05000835,Sale Moor,2018,local election,1,MEACHER Darren Christopher,Conservative Party,971,2777,5,7632,FALSE,NA
+E05000835,Sale Moor,2018,local election,1,PATEL Elizabeth Alice Louise,Labour Party,1433,2777,5,7632,TRUE,hold
+E05000836,Stretford,2018,local election,1,LEPORI Simon Edward,Liberal Democrats,98,3130,8,7928,FALSE,NA
+E05000836,Stretford,2018,local election,1,O'NEILL Liz,Green Party,211,3130,8,7928,FALSE,NA
+E05000836,Stretford,2018,local election,1,ROYLE Ian,UK Independence Party,92,3130,8,7928,FALSE,NA
+E05000836,Stretford,2018,local election,1,SLATER Jane Winifred,Labour Party,2231,3130,8,7928,TRUE,hold
+E05000836,Stretford,2018,local election,1,ZHI Shengke,Conservative Party,490,3130,8,7928,FALSE,NA
+E05000837,Timperley,2018,local election,1,EVANS Nathan Morris France,Conservative Party,1694,4204,8,8479,TRUE,hold
+E05000837,Timperley,2018,local election,1,GARLICK Julia Elizabeth,Labour Party,718,4204,8,8479,FALSE,NA
+E05000837,Timperley,2018,local election,1,JONES William,Liberal Democrats,1329,4204,8,8479,FALSE,NA
+E05000837,Timperley,2018,local election,1,LEIGH Jadwiga Teresa,Green Party,113,4204,8,8479,FALSE,NA
+E05000837,Timperley,2018,local election,1,TAYLOR Neil Anthony,The Liberal Party,342,4204,8,8479,FALSE,NA
+E05000838,Urmston,2018,local election,1,CULLEN Kirsty,Liberal Democrats,130,3890,7,8591,FALSE,NA
+E05000838,Urmston,2018,local election,1,DOUGLAS Krissy,UK Independence Party,138,3890,7,8591,FALSE,NA
+E05000838,Urmston,2018,local election,1,MCGRATH Michelle Ann,Conservative Party,1217,3890,7,8591,FALSE,NA
+E05000838,Urmston,2018,local election,1,PROCTER Kevin Alan,Labour Party,2243,3890,7,8591,TRUE,hold
+E05000838,Urmston,2018,local election,1,WOODWARD Timothy John,Green Party,155,3890,7,8591,FALSE,NA
+E05000839,Village,2018,local election,1,CAREY Thomas John Patrick,Conservative Party,1331,3267,6,7929,TRUE,gain
+E05000839,Village,2018,local election,1,FISHWICK Tony,Liberal Democrats,1003,3267,6,7929,FALSE,NA
+E05000839,Village,2018,local election,1,O'BRIEN Tony,Labour Party,742,3267,6,7929,FALSE,NA
+E05000839,Village,2018,local election,1,O'NEILL Angela Marie,UK Independence Party,106,3267,6,7929,FALSE,NA
+E05000839,Village,2018,local election,1,WESTBROOK Matthew John,Green Party,73,3267,6,7929,FALSE,NA
+E05000819,Altrincham,2019,local election,1,CARTER Ged,Labour Party,313,3898,20,8867,FALSE,NA
+E05000819,Altrincham,2019,local election,1,MARTIN David Harold,Liberal Democrats,128,3898,20,8867,FALSE,NA
+E05000819,Altrincham,2019,local election,1,STONE Angela Kay,Conservative Party,1057,3898,20,8867,FALSE,NA
+E05000819,Altrincham,2019,local election,1,WELTON Michael John,Green Party,2377,3898,20,8867,TRUE,gain
+E05000820,Ashton upon Mersey,2019,local election,1,ELLIOT Martin,Liberal Democrats,247,3588,8,7500,FALSE,NA
+E05000820,Ashton upon Mersey,2019,local election,1,HARTLEY Ben,Labour Party,1535,3588,8,7500,TRUE,gain
+E05000820,Ashton upon Mersey,2019,local election,1,JOHNSON Brian William,UK Independence Party,127,3588,8,7500,FALSE,NA
+E05000820,Ashton upon Mersey,2019,local election,1,ROBERTSON-BROWN Caroline,Green Party,273,3588,8,7500,FALSE,NA
+E05000820,Ashton upon Mersey,2019,local election,1,WHETTON Mike,Conservative Party,1398,3588,8,7500,FALSE,NA
+E05000821,Bowdon,2019,local election,1,CHURCHILL Claire Helen,Conservative Party,1727,2929,31,7242,TRUE,hold
+E05000821,Bowdon,2019,local election,1,HAGUE Thomas,Labour Party,351,2929,31,7242,FALSE,NA
+E05000821,Bowdon,2019,local election,1,LEFTWICH Deborah Jean,Green Party,411,2929,31,7242,FALSE,NA
+E05000821,Bowdon,2019,local election,1,TOLHURST-CLEAVER Ludo,Liberal Democrats,411,2929,31,7242,FALSE,NA
+E05000822,Broadheath,2019,local election,1,CARR Serena,Labour Party,1904,4048,17,9960,TRUE,gain
+E05000822,Broadheath,2019,local election,1,FARNDON Stephen John,Independent,87,4048,17,9960,FALSE,NA
+E05000822,Broadheath,2019,local election,1,GRESTY Daniel Kenneth,Green Party,346,4048,17,9960,FALSE,NA
+E05000822,Broadheath,2019,local election,1,MARRITT Christopher Paul,Liberal Democrats,219,4048,17,9960,FALSE,NA
+E05000822,Broadheath,2019,local election,1,NAPIER Norine Dorothy,UK Independence Party,255,4048,17,9960,FALSE,NA
+E05000822,Broadheath,2019,local election,1,ZHI Shengke,Conservative Party,1219,4048,17,9960,FALSE,NA
+E05000823,Brooklands,2019,local election,1,CLIFF Pauline Anne,Liberal Democrats,298,3682,18,7735,FALSE,NA
+E05000823,Brooklands,2019,local election,1,MCGRATH Michelle Ann,Conservative Party,1295,3682,18,7735,FALSE,NA
+E05000823,Brooklands,2019,local election,1,NAYLER Tony,UK Independence Party,174,3682,18,7735,FALSE,NA
+E05000823,Brooklands,2019,local election,1,RYAN Joe,Green Party,309,3682,18,7735,FALSE,NA
+E05000823,Brooklands,2019,local election,1,THOMPSON Rose,Labour Party,1587,3682,18,7735,TRUE,gain
+E05000824,Bucklow-St Martins,2019,local election,1,AINSCOW Lyall Ashley,Conservative Party,327,1824,16,7060,FALSE,NA
+E05000824,Bucklow-St Martins,2019,local election,1,BEAUMONT Andrew,UK Independence Party,283,1824,16,7060,FALSE,NA
+E05000824,Bucklow-St Martins,2019,local election,1,CAPUCHO PAULO Rodrigo,Green Party,134,1824,16,7060,FALSE,NA
+E05000824,Bucklow-St Martins,2019,local election,1,POWER Stephen Lee,Liberal Democrats,76,1824,16,7060,FALSE,NA
+E05000824,Bucklow-St Martins,2019,local election,1,WILLIAMS Aidan James,Labour Party,988,1824,16,7060,TRUE,hold
+E05000825,Clifford,2019,local election,1,AKINOLA Akilah,Labour Party,2375,3012,10,8351,TRUE,hold
+E05000825,Clifford,2019,local election,1,FINNEY Alex,Conservative Party,155,3012,10,8351,FALSE,NA
+E05000825,Clifford,2019,local election,1,MAYO Jess,Green Party,378,3012,10,8351,FALSE,NA
+E05000825,Clifford,2019,local election,1,NICHOLSON Dave,Liberal Democrats,93,3012,10,8351,FALSE,NA
+E05000826,Davyhulme East,2019,local election,1,CARBERRY-POWER Dawn Lee,Liberal Democrats,102,3177,13,7700,FALSE,NA
+E05000826,Davyhulme East,2019,local election,1,KUPUSAREVIC Daniel William,Conservative Party,695,3177,13,7700,FALSE,NA
+E05000826,Davyhulme East,2019,local election,1,REGAN Gary Anthony,UK Independence Party,253,3177,13,7700,FALSE,NA
+E05000826,Davyhulme East,2019,local election,1,TENNANT-SMYTHE Steven Roy,Green Party,184,3177,13,7700,FALSE,NA
+E05000826,Davyhulme East,2019,local election,1,WINSTANLEY Barry Gerard,Labour Party,1929,3177,13,7700,TRUE,gain
+E05000827,Davyhulme West,2019,local election,1,CARTER Karina Gay,Labour Party,1704,3197,11,7681,TRUE,gain
+E05000827,Davyhulme West,2019,local election,1,COOKE Lisa Jane,Conservative Party,965,3197,11,7681,FALSE,NA
+E05000827,Davyhulme West,2019,local election,1,NACHIAPPAN Ram,Green Party,150,3197,11,7681,FALSE,NA
+E05000827,Davyhulme West,2019,local election,1,REGAN Paul,UK Independence Party,279,3197,11,7681,FALSE,NA
+E05000827,Davyhulme West,2019,local election,1,ZUK Ged,Liberal Democrats,86,3197,11,7681,FALSE,NA
+E05000828,Flixton,2019,local election,1,COOK James,UK Independence Party,287,3787,13,8322,FALSE,NA
+E05000828,Flixton,2019,local election,1,COUPE Jonathan Russell,Conservative Party,915,3787,13,8322,FALSE,NA
+E05000828,Flixton,2019,local election,1,PROCTER Shirley Blair,Labour Party,2203,3787,13,8322,TRUE,gain
+E05000828,Flixton,2019,local election,1,SUTHERLAND Ian,Liberal Democrats,152,3787,13,8322,FALSE,NA
+E05000828,Flixton,2019,local election,1,WOODWARD Tim,Green Party,217,3787,13,8322,FALSE,NA
+E05000829,Gorse Hill,2019,local election,1,CORDINGLEY Mike,Labour Party,1703,2620,14,8391,TRUE,hold
+E05000829,Gorse Hill,2019,local election,1,DEAN Adam Kenneth,Liberal Democrats,129,2620,14,8391,FALSE,NA
+E05000829,Gorse Hill,2019,local election,1,MARTIN Seamus,UK Independence Party,212,2620,14,8391,FALSE,NA
+E05000829,Gorse Hill,2019,local election,1,PARKER Gareth Adam,Conservative Party,310,2620,14,8391,FALSE,NA
+E05000829,Gorse Hill,2019,local election,1,WADSWORTH Jennie Patricia,Green Party,252,2620,14,8391,FALSE,NA
+E05000830,Hale Barns,2019,local election,1,BOYSEN Maggie,Liberal Democrats,313,2817,8,7362,FALSE,NA
+E05000830,Hale Barns,2019,local election,1,HESSION Jessica Jane,Green Party,196,2817,8,7362,FALSE,NA
+E05000830,Hale Barns,2019,local election,1,MORGAN Dave,Conservative Party,1613,2817,8,7362,TRUE,hold
+E05000830,Hale Barns,2019,local election,1,ROYLE Ian,UK Independence Party,144,2817,8,7362,FALSE,NA
+E05000830,Hale Barns,2019,local election,1,TAYLOR Sandra,Independent,164,2817,8,7362,FALSE,NA
+E05000830,Hale Barns,2019,local election,1,TWINEY Barbara Ruth,Labour and Co-operative Party,378,2817,8,7362,FALSE,NA
+E05000831,Hale Central,2019,local election,1,FRASS Will,Liberal Democrats,555,2973,29,7394,FALSE,NA
+E05000831,Hale Central,2019,local election,1,LEICESTER Stephen Edward,Green Party,512,2973,29,7394,FALSE,NA
+E05000831,Hale Central,2019,local election,1,SLATER Benjamin Duncan,Labour Party,447,2973,29,7394,FALSE,NA
+E05000831,Hale Central,2019,local election,1,YOUNG Patricia Beatrix,Conservative Party,1430,2973,29,7394,TRUE,hold
+E05000832,Longford,2019,local election,1,DUFFIELD Anne Christine,Labour Party,2150,3242,32,9098,TRUE,hold
+E05000832,Longford,2019,local election,1,FRYER Anna Corrina,Liberal Democrats,318,3242,32,9098,FALSE,NA
+E05000832,Longford,2019,local election,1,MIYA Adam Ahmad,Conservative Party,336,3242,32,9098,FALSE,NA
+E05000832,Longford,2019,local election,1,WESTBROOK Margaret Emily,Green Party,406,3242,32,9098,FALSE,NA
+E05000833,Priory,2019,local election,1,GRIME Kevin,UK Independence Party,199,3109,11,8052,FALSE,NA
+E05000833,Priory,2019,local election,1,MARKS Louis James,Conservative Party,679,3109,11,8052,FALSE,NA
+E05000833,Priory,2019,local election,1,ROBERTSON-BROWN Nicholas Jonathan,Green Party,404,3109,11,8052,FALSE,NA
+E05000833,Priory,2019,local election,1,STEPHENSON Briony Ruth,Liberal Democrats,305,3109,11,8052,FALSE,NA
+E05000833,Priory,2019,local election,1,WESTERN Andrew Howard,Labour Party,1511,3109,11,8052,TRUE,hold
+E05000834,St Mary's,2019,local election,1,AXFORD Jill Margaret,Labour Party,920,3126,13,8611,FALSE,NA
+E05000834,St Mary's,2019,local election,1,BUNTING Dan,Conservative Party,1527,3126,13,8611,TRUE,hold
+E05000834,St Mary's,2019,local election,1,MASON Kathy,UK Independence Party,184,3126,13,8611,FALSE,NA
+E05000834,St Mary's,2019,local election,1,MCGLASHAN James,Green Party,294,3126,13,8611,FALSE,NA
+E05000834,St Mary's,2019,local election,1,SMITH Alison Margaret,Liberal Democrats,188,3126,13,8611,FALSE,NA
+E05000835,Sale Moor,2019,local election,1,BENNETT Joanne Mary,Labour and Co-operative Party,1347,2601,32,7549,TRUE,hold
+E05000835,Sale Moor,2019,local election,1,LEICESTER Jane Frances,Green Party,355,2601,32,7549,FALSE,NA
+E05000835,Sale Moor,2019,local election,1,LEIGH Matt,Conservative Party,664,2601,32,7549,FALSE,NA
+E05000835,Sale Moor,2019,local election,1,WRIGHT Simon Andrew,Liberal Democrats,203,2601,32,7549,FALSE,NA
+E05000836,Stretford,2019,local election,1,ADSHEAD Stephen Anthony,Labour Party,1843,2804,12,7843,TRUE,hold
+E05000836,Stretford,2019,local election,1,LEPORI Simon Edward,Liberal Democrats,107,2804,12,7843,FALSE,NA
+E05000836,Stretford,2019,local election,1,LEUNG Kwok Si Nicholas,Conservative Party,329,2804,12,7843,FALSE,NA
+E05000836,Stretford,2019,local election,1,MCDERMOTT Barbara,UK Independence Party,208,2804,12,7843,FALSE,NA
+E05000836,Stretford,2019,local election,1,O'NEILL Liz,Green Party,304,2804,12,7843,FALSE,NA
+E05000837,Timperley,2019,local election,1,BRUER-MORRIS Angela Miriam,Conservative Party,1266,3918,23,8410,FALSE,NA
+E05000837,Timperley,2019,local election,1,LEIGH Jadwiga Teresa,Green Party,423,3918,23,8410,FALSE,NA
+E05000837,Timperley,2019,local election,1,MINNIS Meena,Liberal Democrats,1653,3918,23,8410,TRUE,gain
+E05000837,Timperley,2019,local election,1,ROYLE Pauline Brenda,UK Independence Party,187,3918,23,8410,FALSE,NA
+E05000837,Timperley,2019,local election,1,TAYLOR Neil Anthony,The Liberal Party,367,3918,23,8410,FALSE,NA
+E05000838,Urmston,2019,local election,1,DOUGLAS Krissy,UK Independence Party,340,3394,17,8472,FALSE,NA
+E05000838,Urmston,2019,local election,1,ENNIS Shaun Gavin,Liberal Democrats,179,3394,17,8472,FALSE,NA
+E05000838,Urmston,2019,local election,1,HARDING Jo,Labour and Co-operative Party,1844,3394,17,8472,TRUE,hold
+E05000838,Urmston,2019,local election,1,JOHN Lijo,Local Conservatives,724,3394,17,8472,FALSE,NA
+E05000838,Urmston,2019,local election,1,WHYTE Luciya,Green Party,290,3394,17,8472,FALSE,NA
+E05000839,Village,2019,local election,1,HASSAN Waseem,Labour Party,456,3217,18,7905,FALSE,NA
+E05000839,Village,2019,local election,1,MEACHER Darren Christopher,Conservative Party,942,3217,18,7905,FALSE,NA
+E05000839,Village,2019,local election,1,NEWGROSH Julian David,Liberal Democrats,1310,3217,18,7905,TRUE,gain
+E05000839,Village,2019,local election,1,O'NEILL Angela,UK Independence Party,295,3217,18,7905,FALSE,NA
+E05000839,Village,2019,local election,1,RAIKES Robert,Green Party,196,3217,18,7905,FALSE,NA
