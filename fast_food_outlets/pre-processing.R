@@ -108,13 +108,6 @@ st_write(sf, "gm_fast_food_outlets.geojson")
 
 filter(sf, area_name == "Trafford") %>% 
   st_write("trafford_fast_food_outlets.geojson")
-
-# style geospatial data ---------------------------
-filter(sf, area_name == "Trafford") %>% 
-  mutate(`marker-color` = "#fc6721",
-         `marker-size` = "medium") %>% 
-  st_write("trafford_fast_food_outlets_styled.geojson")
-            
             
             
             
