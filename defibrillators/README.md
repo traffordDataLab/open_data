@@ -48,7 +48,7 @@
 </tr>
 <tr>
 	<td>Format</td>
-	<td>CSV, GeoJSON, JSON</td>
+	<td>CSV, GeoJSON</td>
 </tr>
 <tr>
 	<td>Openness rating</td>
