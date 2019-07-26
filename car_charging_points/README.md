@@ -1,27 +1,24 @@
 
-[<img src="thumbnail.png">](trafford_car_charging_points_styled.geojson)
-</br>
-
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Electric car charging points</td>
+	<td>Car charging points</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Electric car charging points in Greater Manchester derived from Ordnance Survey's OpenMap – Local</td>
+	<td>Electric car charging points in Greater Manchester</td>
 </tr>
 <tr>
 	<td>Source</td>
-	<td>Ordnance Survey</td>
+	<td>Open Charge Map</td>
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td>Ordnance Survey</td>
+	<td>Open Charge Map</td>
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-map-local.html"></a>https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-map-local.html</td>
+	<td><a href="https://map.openchargemap.io" target="_blank">https://map.openchargemap.io</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -33,19 +30,19 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>NA</td>
+	<td>Not applicable</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>6 months</td>
+	<td>Ongoing</td>
 </tr>
 <tr>
 	<td>Licence</td>
-	<td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a></td>
+	<td><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a></td>
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains OS data © Crown copyright and database right 2018</td>
+	<td>Open Charge Map</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -57,11 +54,11 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>April 2018</td>
+	<td>July 2019</td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td></td>
+	<td>The data are crowd-sourced so we cannot verify its accuracy. </td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>

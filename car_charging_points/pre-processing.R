@@ -1,58 +1,68 @@
 ## Car charging points ##
 
-# Source: Ordnance Survey (OS OpenMap – Local)
-# Publisher URL: https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-map-local.html
-# Licence: Open Government Licence
+# Source: Open Charge Map
+# Publisher URL: https://map.openchargemap.io
+# Licence: Creative Commons Attribution-ShareAlike 4.0 International
 
-# load libraries---------------------------
-library(tidyverse) ; library(sf)
+# load libraries ---------------------------
+library(tidyverse) ; library(sf) ; library(httr) ; library(jsonlite)
 
-# load data ---------------------------
-sd <- st_read("OS OpenMap Local (ESRI Shape File) SD/data/SD_CarChargingPoint.shp") %>% 
-  st_as_sf(crs = 27700, coords = c("Easting", "Northing")) %>% 
-  st_transform(4326)
-se <- st_read("OS OpenMap Local (ESRI Shape File) SE/data/SE_CarChargingPoint.shp") %>% 
-  st_as_sf(crs = 27700, coords = c("Easting", "Northing")) %>% 
-  st_transform(4326)
-sj <- st_read("OS OpenMap Local (ESRI Shape File) SJ/data/SJ_CarChargingPoint.shp") %>% 
-  st_as_sf(crs = 27700, coords = c("Easting", "Northing")) %>% 
-  st_transform(4326)
-sk <- st_read("OS OpenMap Local (ESRI Shape File) SK/data/SK_CarChargingPoint.shp") %>% 
-  st_as_sf(crs = 27700, coords = c("Easting", "Northing")) %>% 
-  st_transform(4326)
-points <- rbind(sd, se, sj, sk)
+# retrieve GM local authority vector boundary layer from ONS Open Geography Portal ---------------------------
+bdy <- st_read("https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Local_Authority_Districts_December_2018_Boundaries_UK_BGC/MapServer/0/query?where=lad18nm%20IN%20('Bolton','Bury','Manchester','Oldham','Rochdale','Salford','Stockport','Tameside','Trafford','Wigan')&outFields=lad18cd,lad18nm&outSR=4326&f=geojson")
 
-gm <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/local_authority/2016/gm_local_authority_full_resolution.geojson") %>% 
-  st_set_crs(4326) %>% 
-  select(-lat, -lon)
-trafford <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/local_authority/2016/trafford_local_authority_full_resolution.geojson") %>% 
-  st_set_crs(4326) %>% 
-  select(-lat, -lon)
+# submit request to API ---------------------------
+request <- GET(url = "https://api.openchargemap.io/v3/poi/?",
+               query = list(
+                 output = "json",
+                 countrycode = "GB",
+                 boundingbox = paste0("(", st_bbox(bdy)[2], ",", st_bbox(bdy)[1], "),", "(", st_bbox(bdy)[4], ",", st_bbox(bdy)[3], ")"),
+                 opendata = TRUE,
+                 compact = FALSE,
+                 verbose = TRUE,
+                 comments = FALSE,
+                 camelcase = TRUE)
+               )
 
-# intersect data ---------------------------
-sf_gm <- st_intersection(points, gm)
-sf_trafford <- st_intersection(points, trafford)
+# parse the response and convert to a data frame ---------------------------
+response <- content(request, as = "text", encoding = "UTF-8") %>%
+  fromJSON(flatten = TRUE) %>%
+  as_tibble() %>% 
+  unnest(connections) 
 
-# check results  ---------------------------
-plot(st_geometry(gm))
-plot(st_geometry(sf_gm), add = T)
+# convert to spatial data, clip by boundary and rename variables ---------------------------
+points <- response %>% 
+  st_as_sf(crs = 4326, coords = c("addressInfo.longitude", "addressInfo.latitude"))  %>% 
+  st_intersection(bdy) %>% 
+  mutate_if(is.character, str_trim) %>% 
+  mutate(lon = map_dbl(geometry, ~st_coordinates(.x)[[1]]),
+         lat = map_dbl(geometry, ~st_coordinates(.x)[[2]])) %>% 
+  unite(address, c("addressInfo.addressLine1", "addressInfo.addressLine2", "addressInfo.town", "addressInfo.stateOrProvince"), sep = ", ") %>% 
+  mutate(address = str_replace_all(address, ", NA", ""),
+         address = str_replace_all(address, ", , ", ", "),
+         cost = str_replace_all(usageCost, "Â", "")) %>% 
+  select(name = addressInfo.title, 
+         points = numberOfPoints,
+         connection_type = connectionType.title,
+         kW = powerKW,
+         cost,
+         address,
+         postcode = addressInfo.postcode,
+         operator = operatorInfo.title,
+         website = operatorInfo.websiteURL,
+         email = operatorInfo.contactEmail,
+         updated = dateLastStatusUpdate,
+         area_code = lad18cd, 
+         area_name = lad18nm, 
+         lon, lat)
 
-# write geospatial data ---------------------------
-st_write(sf_gm, "gm_car_charging_points.geojson", driver = "GeoJSON")
-st_write(sf_trafford, "trafford_car_charging_points.geojson", driver = "GeoJSON")
+# check results ---------------------------
+plot(st_geometry(bdy))
+plot(st_geometry(points), add = TRUE)
 
-# write tabular data ---------------------------
-coords <- st_coordinates(sf_gm)
-df_gm <- sf_gm %>%
-  st_set_geometry(value = NULL) 
-df_gm$long <- coords[,1]
-df_gm$lat <- coords[,2]
-write_csv(df_gm, "gm_car_charging_points.csv")
+# export as CSV ---------------------------
+write_csv(st_set_geometry(points, value = NULL), "gm_car_charging_points.csv")
+write_csv(filter(st_set_geometry(points, value = NULL), area_name == "Trafford"), "trafford_car_charging_points.csv")
 
-coords <- st_coordinates(sf_trafford)
-df_trafford <- sf_trafford %>%
-  st_set_geometry(value = NULL)
-df_trafford$long <- coords[,1]
-df_trafford$lat <- coords[,2]
-write_csv(df_trafford, "trafford_car_charging_points.csv")
-
+# export as GeoJSON ---------------------------
+st_write(points, "gm_car_charging_points.geojson")
+st_write(filter(points, area_name == "Trafford"), "trafford_car_charging_points.geojson")
