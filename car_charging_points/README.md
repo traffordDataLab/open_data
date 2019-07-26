@@ -18,7 +18,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://map.openchargemap.io" target="_blank">https://map.openchargemap.io</a></td>
+	<td><a href="https://openchargemap.io" target="_blank">OpenChargeMap.org</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
