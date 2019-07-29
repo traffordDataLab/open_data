@@ -29,7 +29,9 @@ df <- mutate(df,
                                        "Health Deprivation and Disability" = "Health Deprivation and Disability Domain",
                                        "Crime" = "Crime Domain",
                                        "Barriers to Housing and Services" = "Barriers to Housing and Services Domain",
-                                       "Living Environment" = "Living Environment Deprivation Domain"))
+                                       "Living Environment" = "Living Environment Deprivation Domain",
+                                       "Income Deprivation Affecting Children" = "Income Deprivation Affecting Children Index (IDACI)",
+                                       "Income Deprivation Affecting Older People" = "Income Deprivation Affecting Older People Index (IDAOPI)"))
 
 # write results ---------------------------
 write_csv(df, "IMD_2015_long.csv") # long format
