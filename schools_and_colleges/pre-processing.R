@@ -8,14 +8,28 @@
 library(tidyverse) ; library(sf)
 
 # load data ---------------------------
-df <- read_csv("results.csv") 
+# NOTE: you will need to download results.csv from the Get Information Schools Service
+# 1. Search by Local Authority
+# 2. Enter "Trafford", tick "Include open schools only" and choose "Search"
+# 3. Choose link "Download these search results"
+# 4. Choose "Full set of data", tick "Include additional data: links" and choose "Select and continue"
+# 5. Choose "Data in CSV format" and choose "Select and continue"
+# 6. Download the file, unzip and place in the same folder as this script
+df_raw <- read_csv("results.csv") 
 
 # tidy data ---------------------------
-df %>%
+df <- df_raw %>%
   # remove Children's Centres
   filter(`EstablishmentTypeGroup (name)` != "Children's Centres") %>% 
+  
+  # change Sponsoring Trust to proper case
+  mutate(`Trusts (name)` = gsub("(?<=\\b)([a-z])", "\\U\\1", tolower(`Trusts (name)`), perl=TRUE)) %>%
+  
   # choose and rename variables
   select(name = EstablishmentName,
+         local_authority_code = `LA (code)`,
+         establishment_number = EstablishmentNumber,
+         unique_reference_number = URN,
          type = `EstablishmentTypeGroup (name)`,
          gender = `Gender (name)`,
          lowest_admission_age = StatutoryLowAge,
@@ -27,11 +41,7 @@ df %>%
          sponsoring_trust = `Trusts (name)`,
          website = SchoolWebsite,
          postcode = Postcode,
-         Easting, Northing) %>% 
-  # replace "Not applicable" with NA in Resource Provision field 
-  mutate(resource_provision = replace(resource_provision, resource_provision == "Not applicable", NA),
-         # change Sponsoring Trust to proper case
-         sponsoring_trust = gsub("(?<=\\b)([a-z])", "\\U\\1", tolower(sponsoring_trust), perl=TRUE))
+         Easting, Northing)
   
 # reproject data ------------------------------------
 sf <- df %>% 
@@ -41,27 +51,8 @@ sf <- df %>%
   mutate(lng = map_dbl(geometry, ~st_coordinates(.x)[[1]]),
          lat = map_dbl(geometry, ~st_coordinates(.x)[[2]]))
 
+# write geospatial data ---------------------------
+st_write(sf, "trafford_schools_and_colleges.geojson")
+
 # write data ---------------------------
 write_csv(sf %>% st_set_geometry(value = NULL), "trafford_schools_and_colleges.csv")
-
-# style geospatial data ---------------------------
-sf_styled_geojson <- sf %>% 
-  # make variable names human readable
-  select(Name = name,
-         Type = type,
-         Gender = gender,
-         `Lowest age of admission` = lowest_admission_age,
-         `Highest age of admission` = highest_admission_age,
-         Capacity = capacity,
-         `Resource provision`  = resource_provision,
-         Religion = religion,
-         `Trust type` = trust_type,
-         `Sponsoring Trust` = sponsoring_trust,
-         Website = website,
-         Postcode = postcode) %>% 
-  # add styling for rendering in GitHub
-  mutate(`marker-color` = "#fc6721",
-         `marker-size` = "medium")
-
-# write geospatial data ---------------------------
-st_write(sf_styled_geojson, "trafford_schools_and_colleges.geojson")
