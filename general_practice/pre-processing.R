@@ -4,7 +4,7 @@
 # Publisher URL: https://digital.nhs.uk/services/organisation-data-service/data-downloads/gp-and-gp-practice-related-data
 # Licence: Open Government Licence
 
-library(tidyverse) ; library(httr) ; library(jsonlite) ; library(lubridate) ; library(stringr) ; library(sf)
+library(tidyverse) ; library(lubridate)
 
 # download and unzip data
 url <- "https://files.digital.nhs.uk/assets/ods/current/epraccur.zip"
@@ -15,16 +15,16 @@ file.remove("epraccur.zip")
 # read data
 df <- read_csv("epraccur.csv", 
                # provide variable names
-                col_names = c(
-                  "Organisation Code", "Name", "National Grouping", 
-                  "High Level Health Geography", "Address Line 1", 
-                  "Address Line 2", "Address Line 3", "Address Line 4",
-                  "Address Line 5", "Postcode", "Open Date", "Close Date", 
-                  "Status Code",  "Organisation Sub-Type Code", "Commissioner", 
-                  "Join Provider/Purchaser Date", "Left Provider/Purchaser Date", 
-                  "Contact Telephone Number", "Null", "Null", "Null", 
-                  "Amended Record Indicator", "Null", "Provider/Purchaser", 
-                  "Null", "Prescribing Setting", "Null")) %>% 
+               col_names = c(
+                 "Organisation Code", "Name", "National Grouping", 
+                 "High Level Health Geography", "Address Line 1", 
+                 "Address Line 2", "Address Line 3", "Address Line 4",
+                 "Address Line 5", "Postcode", "Open Date", "Close Date", 
+                 "Status Code",  "Organisation Sub-Type Code", "Commissioner", 
+                 "Join Provider/Purchaser Date", "Left Provider/Purchaser Date", 
+                 "Contact Telephone Number", "Null", "Null", "Null", 
+                 "Amended Record Indicator", "Null", "Provider/Purchaser", 
+                 "Null", "Prescribing Setting", "Null")) %>% 
   # recode values
   mutate(`Status Code` = 
            fct_recode(`Status Code`,
@@ -60,6 +60,8 @@ df <- read_csv("epraccur.csv",
 
 # optional steps ---------------------------------------------------------------
 
+library(httr) ; library(jsonlite) ; library(sf)
+
 # retrieve postcode centroids for your CCG
 ccg = "E38000187"
 url <- paste0("https://ons-inspire.esriuk.com/arcgis/rest/services/Postcodes/ONS_Postcode_Directory_Latest_Centroids/MapServer/0/query?where=UPPER(ccg)%20like%20'%25", URLencode(toupper(ccg), reserved = TRUE), "%25'&outFields=pcds,ccg,lat,long&outSR=4326&f=json")
@@ -83,4 +85,3 @@ write_csv(results, "trafford_general_practices.csv")
 st_as_sf(results, coords = c("lon", "lat")) %>%
   st_set_crs(4326) %>%
   st_write("trafford_general_practices.geojson")
-
