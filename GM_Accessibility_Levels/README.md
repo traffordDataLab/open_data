@@ -54,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>September 2018</td>
+	<td>2018-09-26</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -62,6 +62,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=public_transport_accessibility">Explore application</a>.</td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/#dataset=public_transport_accessibility">Explore application</a>.</td>
 </tr>
 </table>
