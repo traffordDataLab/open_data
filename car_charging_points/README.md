@@ -54,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>July 2019</td>
+	<td>2019-07-26</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -62,6 +62,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=electric_car_charging_points">Explore application</a>.</td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/#dataset=electric_car_charging_points">Explore application</a>.</td>
 </tr>
 </table>
