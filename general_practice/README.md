@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>31 May 2019</td>
+	<td>2019-05-31</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -61,6 +61,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=general_practices">Explore application</a></td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore#dataset=general_practices">Explore application</a></td>
 </tr>
 </table>
