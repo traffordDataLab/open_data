@@ -8,7 +8,7 @@
 library(tidyverse) ;  library(sf)
 
 # load data ---------------------------
-raw <- read_csv("https://www.cqc.org.uk/sites/default/files/10_April_2019_CQC_directory.csv", 
+raw <- read_csv("https://www.cqc.org.uk/sites/default/files/17_July_2019_CQC_directory.csv", 
                 skip = 4, col_names = TRUE) %>% setNames(tolower(names(.)))
 
 area_lookup <- data_frame(
