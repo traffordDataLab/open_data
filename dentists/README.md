@@ -30,7 +30,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>Correct as of 26 September 2018</td>
+	<td>2019-07-17</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -42,7 +42,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td></td>
+	<td>Uses information from the Care Quality Commission.</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -54,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>October 2018</td>
+	<td>2019-08-12</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -62,6 +62,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=dentists">Explore application</a>.</td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/#dataset=dentists">Explore application</a>.</td>
 </tr>
 </table>
