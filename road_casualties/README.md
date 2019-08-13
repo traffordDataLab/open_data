@@ -13,11 +13,11 @@
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td>TfGM and Department for Transport</td>
+	<td>Transport for Greater Manchester</td>
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://data.gov.uk/dataset/road-accidents-safety-data"></a>https://data.gov.uk/dataset/road-accidents-safety-data</td>
+	<td><a href="https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data"></a>https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data</td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2015-2018</td>
+	<td>2005-2018</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -37,11 +37,11 @@
 </tr>
 <tr>
 	<td>Licence</td>
-	<td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a></td>
+	<td><a href="http://odata.tfgm.com/opendata/downloads/Licences/FreeToUseData_SubLicence_G_v12.pdf">OS "Free to Use Data" Licence</a></td>
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td></td>
+	<td>Contains OSdata © Crown copyright and database rights 2019</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>September 2018</td>
+	<td>July 2019</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -61,6 +61,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td><a href="https://trafforddatalab.shinyapps.io/road_casualty_map/">https://trafforddatalab.shinyapps.io/road_casualty_map/</a></td>
+	<td><a href="https://trafforddatalab.shinyapps.io/road_casualty_map/">#</a></td>
 </tr>
 </table>
