@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "name": "Partington Children's Centre", "UPRN": 100012699367.0, "postcode": "M31 4FL", "lon": -2.4254325757651936, "lat": 53.41768051190904 }, "geometry": { "type": "Point", "coordinates": [ -2.425432575765194, 53.41768051190904 ] } },
-{ "type": "Feature", "properties": { "name": "Stretford Children's Centre", "UPRN": 10070408543.0, "postcode": "M32 9AN", "lon": -2.3139313617292667, "lat": 53.440847811658038 }, "geometry": { "type": "Point", "coordinates": [ -2.313931361729267, 53.440847811658038 ] } }
+{ "type": "Feature", "properties": { "name": "Partington Children's Centre", "address": "Central Road, Partington, Manchester", "postcode": "M31 4FL", "telephone": "0161-912-2122", "unique_reference_number": 22329 }, "geometry": { "type": "Point", "coordinates": [ -2.425432575765194, 53.41768051190904 ] } },
+{ "type": "Feature", "properties": { "name": "Stretford Children's Centre", "address": "9 Poplar Road, Stretford", "postcode": "M32 9AN", "telephone": "0161-912-5020", "unique_reference_number": 22963 }, "geometry": { "type": "Point", "coordinates": [ -2.313931361729267, 53.440847811658038 ] } }
 ]
 }

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "Name": "Partington Children's Centre", "UPRN": 100012699367.0, "Postcode": "M31 4FL", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.425432575765194, 53.41768051190904 ] } },
-{ "type": "Feature", "properties": { "Name": "Stretford Children's Centre", "UPRN": 10070408543.0, "Postcode": "M32 9AN", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.313931361729267, 53.440847811658038 ] } }
-]
-}
