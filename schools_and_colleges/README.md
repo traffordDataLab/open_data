@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>Correct as of 2019-08-06</td>
+	<td>Correct as of 2019-08-30</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2019-08-06</td>
+	<td>2019-08-30</td>
 </tr>
 <tr>
 	<td>Notes</td>

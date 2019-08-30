@@ -43,16 +43,24 @@ df <- df_raw %>%
          postcode = Postcode,
          Easting, Northing)
   
-# reproject data ------------------------------------
+# convert to a spatial features object and in the process convert the eastings and northings to lon lat ------------------------------------
 sf <- df %>% 
   st_as_sf(crs = 27700, coords = c("Easting", "Northing")) %>% 
   st_transform(4326) %>% 
   # extract coordinates
-  mutate(lng = map_dbl(geometry, ~st_coordinates(.x)[[1]]),
-         lat = map_dbl(geometry, ~st_coordinates(.x)[[2]]))
-
-# write geospatial data ---------------------------
-st_write(sf, "trafford_schools_and_colleges.geojson")
+  mutate(lon = map_dbl(geometry, ~st_coordinates(.x)[[1]]),
+         lat = map_dbl(geometry, ~st_coordinates(.x)[[2]]),
+         # want to ensure that the output of the variables below is an integer and doesn't get ".0" appended
+         local_authority_code = as.integer(local_authority_code),
+         establishment_number = as.integer(establishment_number),
+         unique_reference_number = as.integer(unique_reference_number),
+         lowest_admission_age = as.integer(lowest_admission_age),
+         highest_admission_age = as.integer(highest_admission_age),
+         capacity = as.integer(capacity))
 
 # write data ---------------------------
-write_csv(sf %>% st_set_geometry(value = NULL), "trafford_schools_and_colleges.csv")
+write_csv(sf %>% st_set_geometry(value = NULL), "trafford_schools_and_colleges.csv") # write the CSV without the geometry field
+
+sf %>%
+  select(-lon, -lat) %>%  # remove the lon and lat from the properties as they are present in the geometry field
+  st_write("trafford_schools_and_colleges.geojson")  # write out the spatial data file
