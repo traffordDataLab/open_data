@@ -59,7 +59,7 @@ all_geographies <- bind_rows(la, ward, msoa, lsoa, oa) %>%
          count = OBS_VALUE,
          geography) %>% 
   mutate(period = ymd(str_c(period, "06-30", sep = "-")),
-         gender = fct_recode(gender, "Persons" = "Total"),
+         gender = fct_recode(gender, "Females" = "Female" , "Males" = "Male", "Persons" = "Total"),
          age = as.integer(str_trim(str_replace_all(age, "Age.|\\+", ""))))  %>% 
   spread(age, count) %>% 
   mutate(all_ages = rowSums(select(., `0`:`90`)),
