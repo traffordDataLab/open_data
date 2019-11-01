@@ -3,7 +3,7 @@
 Retrieving mid-2018 population estimates for Trafford by different administrative and statistical geographies.    
 
 |Indicator |Period |Geography |Source |Updated |Licence |
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 |Population estimates |Mid-2018 |Local authority |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2002" target="_blank">ONS/Nomis</a> |2019-10-28 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
 |Population estimates |Mid-2018 |Electoral ward |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2010" target="_blank">ONS/Nomis</a> |2019-10-28 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
 |Population estimates |Mid-2018 |Middle-layer Super Output Area |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2010" target="_blank">ONS/Nomis</a> |2019-10-28 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
