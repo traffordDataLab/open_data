@@ -1,0 +1,85 @@
+---
+title: "Fast Food Outlets"
+output:
+  html_document:
+    css: styles.css
+    self_contained: TRUE
+---
+
+<a href="https://www.trafforddatalab.io/data"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" width="100" border="0" style="position:absolute; top:0; right:0; padding:5px;"/></a>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse) ; library(crosstalk) ; library(leaflet) ; library(htmltools) ; library(DT)
+
+df <- read_csv("trafford_fast_food_outlets.csv") %>% 
+  select(-area_name) %>% 
+  rename_all(. %>% str_to_title() %>% str_replace_all("_", " ")) %>% 
+  mutate(Type = factor(Type)) %>% 
+  rename_all(. %>% str_to_title())
+
+df_shared <- SharedData$new(df)
+```
+
+The location of fast food outlets in Trafford.
+
+### Metadata
+
+|Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
+|:---|:---|:---|:---|:---|:---|:---|
+|Food Standards Agency, Food Hygiene Rating Scheme |<a href="http://ratings.food.gov.uk/open-data/en-GB" target="_blank">Food Standards Agency, Food Hygiene Rating Scheme</a> |2019-12-18 |Point data |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |December 2019 |
+
+<br />
+
+### Preview
+Sort, filter and export a selection of the data using the interactive table.
+
+```{r preview}
+map <- leaflet(df_shared) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addMarkers(~Lon, ~Lat,
+             popup = paste("<b>Name:</b> ", df$Name, "<br />",
+                           "<b>Address:</b>", df$Address, "<br />",
+                           "<b>Postcode:</b>", df$Postcode, "<br />"))
+
+table <- datatable(df_shared, 
+                   width = "100%",
+                   style = "bootstrap", 
+                   class = 'cell-border stripe',
+                   rownames = FALSE, 
+                   extensions = c('Scroller', 'Buttons', 'Responsive'),
+                   options = list(
+                     search = list(regex = TRUE),
+                     searchHighlight = TRUE,
+                     dom = 'ftipB',
+                     buttons = list(
+                       list(extend = "csv", 
+                            text = "Download selection")),
+                     deferRender = TRUE,
+                     scrollX = FALSE,
+                     scrollY = 300,
+                     scroller = TRUE,
+                     autoWidth = TRUE,
+                     columnDefs = list(
+                       list(className = 'dt-left', targets = "_all"))
+                     ))
+
+bscols(map, table)
+```
+
+<br />
+
+### Data
+Download the complete dataset using the links below.
+
+|File name |Format |
+|:---|:---|
+|[trafford_fast_food_outlets](trafford_fast_food_outlets.csv) |CSV |
+|[trafford_fast_food_outlets](trafford_fast_food_outlets.geojson) |GeoJSON |
+
+<br />
+
+### Pre-processing
+The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.
+
+<br />

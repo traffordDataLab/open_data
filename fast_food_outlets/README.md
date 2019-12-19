@@ -1,5 +1,3 @@
-[<img src="thumbnail.png">](trafford_fast_food_outlets_styled.geojson)
-
 <table>
 <tr>
 	<td>Dataset name</td>
@@ -7,19 +5,15 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>The location of fast food outlets in Greater Manchester</td>
+	<td>The location of fast food outlets in Trafford</td>
 </tr>
 <tr>
 	<td>Source</td>
-	<td>Food Standards Agency, Food Hygiene Rating Scheme</td>
-</tr>
-<tr>
-	<td>Publisher</td>
 	<td>Food Standards Agency</td>
 </tr>
 <tr>
-	<td>Publisher URL</td>
-	<td><a href="http://ratings.food.gov.uk/open-data/en-GB"</td>
+	<td>Publisher</td>
+	<td><a href="http://ratings.food.gov.uk/open-data/en-GB">Food Standards Agency</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -27,7 +21,7 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Greater Manchester</td>
+	<td>Trafford</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
@@ -55,14 +49,10 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>10 July 2018</td>
+	<td>18 December 2019</td>
 </tr>
 <tr>
 	<td>Notes</td>
 	<td>Fast food outlets (e.g. mobile hot dog vans) without addresses are not included.</td>
-</tr>
-<tr>
-	<td>Lab visualisation</td>
-	<td></td>
 </tr>
 </table>

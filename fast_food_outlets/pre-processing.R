@@ -69,17 +69,17 @@ takeaway <- filter(df, type ==  "Takeaway/sandwich shop")
 # 2: filter by search terms
 keywords <- c("burger", "chicken", "chip", "fish bar", "pizza", "kebab", "india", "china", "chinese")
 terms <- filter(df, type %in% c("Mobile caterer", 
-                                 "Other catering premises",
-                                 "Restaurant/Cafe/Canteen"),
-                 str_detect(name, regex(paste(keywords, collapse = ".|"), ignore_case = T)))
+                                "Other catering premises",
+                                "Restaurant/Cafe/Canteen"),
+                str_detect(name, regex(paste(keywords, collapse = ".|"), ignore_case = T)))
 
 # 3: filter by fast food chains
 keywords <- c("McDonald", "KFC", "Subway", "Burger King", "Domino", "Pret a Manger", "Wimpy", "Chicken Cottage")
 chains <- filter(df, type %in% c("Other catering premises", 
-                               "Restaurant/Cafe/Canteen",
-                               "Retailers - other",
-                               "Retailers - supermarkets/hypermarkets",
-                               "School/college/university"),
+                                 "Restaurant/Cafe/Canteen",
+                                 "Retailers - other",
+                                 "Retailers - supermarkets/hypermarkets",
+                                 "School/college/university"),
                  str_detect(name, regex(paste(keywords, collapse = ".|"), ignore_case = T)))            
 
 sub_df <- bind_rows(takeaway, terms, chains)     
@@ -91,23 +91,12 @@ sf <- sub_df %>%
   st_set_crs(4326)
 
 # write tabular data ---------------------------
-sf %>%
-  cbind(., st_coordinates(.)) %>%
-  rename(long = X, lat = Y) %>% 
-  st_set_geometry(NULL) %>% 
-  write_csv("gm_fast_food_outlets.csv")
-
 filter(sf, area_name == "Trafford") %>% 
   cbind(., st_coordinates(.)) %>%
-  rename(long = X, lat = Y) %>% 
+  rename(lon = X, lat = Y) %>% 
   st_set_geometry(NULL) %>% 
   write_csv("trafford_fast_food_outlets.csv")
 
 # write geospatial data ---------------------------
-st_write(sf, "gm_fast_food_outlets.geojson")
-
 filter(sf, area_name == "Trafford") %>% 
   st_write("trafford_fast_food_outlets.geojson")
-            
-            
-            
