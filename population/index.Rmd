@@ -1,0 +1,81 @@
+---
+title: "Mid-2018 population estimates"
+output:
+  html_document:
+    css: styles.css
+    self_contained: TRUE
+---
+
+<a href="https://www.trafforddatalab.io/data"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" width="100" border="0" style="position:absolute; top:0; right:0; padding:5px;"/></a>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse) ; library(htmltools) ; library(DT) 
+
+df <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/population/mid-2018/mid-2018_population_estimates_ward.csv") %>% 
+    rename_all(. %>% str_to_title() %>% str_replace_all("_", " ")) %>% 
+  mutate(`Area name` = factor(`Area name`)) %>% 
+  rename_all(. %>% str_to_title())
+```
+
+Estimates of the usual resident population in Trafford during mid-2018.
+
+### Metadata
+
+|Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
+|:---|:---|:---|:---|:---|:---|:---|
+|Office for National Statistics |<a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualmidyearpopulationestimates/mid2018" target="_blank">Office for National Statistics</a> |2018-30-06 |Local authority, electoral wards, MSOAs, LSOAs and OAs |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |November 2019 |
+
+<br />
+
+### Preview
+Sort, filter and export a selection of the data using the interactive table.
+
+```{r preview}
+datatable(df, 
+          class = 'cell-border stripe',
+          rownames = FALSE, 
+          filter = 'top',
+          caption = htmltools::tags$caption(
+            style = 'caption-side: bottom; text-align: center;',
+            em("Mid-2018 population estimates for Trafford's wards")),
+          width = "100%",
+          extensions = c('Scroller', 'Buttons'),
+          options = list(
+            search = list(regex = TRUE),
+            searchHighlight = TRUE,
+            dom = 'tipB',
+            buttons = list(
+              list(extend = "csv", 
+                   text = "Download selection")),
+            deferRender = TRUE,
+            scrollX = TRUE,
+            scrollY = 300,
+            scroller = TRUE,
+            autoWidth = TRUE,
+            columnDefs = list(
+              list(className = 'dt-left', targets = "_all")
+              # list(targets = 0, searchable = FALSE)
+              )))
+```
+
+<br />
+
+### Data
+Download the complete dataset using the links below.
+
+|File name |Format |
+|:---|:---|
+|[mid-2018_population_estimates_all_geographies](mid-2018_population_estimates_all_geographies.csv) |CSV |
+|[mid-2018_population_estimates_local_authority](mid-2018_population_estimates_local_authority) |CSV |
+|[mid-2018_population_estimates_ward](mid-2018_population_estimates_ward.csv) |CSV |
+|[mid-2018_population_estimates_msoa](mid-2018_population_estimates_msoa.csv) |CSV |
+|[mid-2018_population_estimates_lsoa](mid-2018_population_estimates_lsoa.csv) |CSV |
+|[mid-2018_population_estimates_oa](mid-2018_population_estimates_oa.csv) |CSV |
+
+<br />
+
+### Pre-processing
+The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.Rmd) used to process the data can adapted to other areas.
+
+<br />
