@@ -13,21 +13,22 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse) ; library(htmltools) ; library(DT) 
 
 df <- read_csv("trafford_electric_vehicle_charging_locations.csv") %>% 
-  rename_all(. %>% str_to_title() %>% str_replace_all("_", " "))
+  rename_all(. %>% str_to_title() %>% str_replace_all("_", " ")) %>% 
+  mutate(Website = paste0("<a href='", Website, "' target='_blank'>", Website, "</a>"))
 
-# create links
-createLink <- function(x) {
-  if(is.na(x)){
-    return("")
-  } else{
-    sprintf(paste0('<a href="', URLdecode(x),'" target="_blank">', 
-                   substr(x, 1, 40) ,'</a>'))
-  }
-}
-df$Website <- lapply(df$Website, function(x) sapply(x, createLink))
+# # create links
+# createLink <- function(x) {
+#   if(is.na(x)){
+#     return("")
+#   } else{
+#     sprintf(paste0('<a href="', URLdecode(x),'" target="_blank">', 
+#                    substr(x, 1, 40) ,'</a>'))
+#   }
+# }
+# df$Website <- lapply(df$Website, function(x) sapply(x, createLink))
 ```
 
-*Location of electric vehicle charging locations.*
+*Electric vehicle charging locations in Trafford.*
 
 <br />
 
@@ -45,8 +46,9 @@ datatable(df,
           class = 'cell-border stripe',
           rownames = FALSE, 
           filter = 'top',
+          escape = FALSE,
           caption = htmltools::tags$caption(
-            style = 'caption-side: bottom; text-align: center;',
+            style = 'caption-side: bottom; text-align: center; font-weight: bold;',
             em("Electric vehicle charging locations in Trafford")),
           width = "100%",
           extensions = c('Scroller', 'Buttons', 'KeyTable'),
@@ -65,7 +67,6 @@ datatable(df,
             autoWidth = TRUE,
             columnDefs = list(
               list(className = 'dt-left', targets = "_all")
-              # list(targets = 0, searchable = FALSE)
               )))
 ```
 
