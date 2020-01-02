@@ -13,7 +13,8 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse) ; library(htmltools) ; library(DT) 
 
 df <- read_csv("trafford_electric_vehicle_charging_locations.csv") %>% 
-  rename_all(. %>% str_to_title() %>% str_replace_all("_", " "))
+  rename_all(. %>% str_to_title() %>% str_replace_all("_", " ")) %>% 
+  mutate(Updated = as.Date(Updated, format = "%Y-%m-%d"))
 ```
 
 *Electric vehicle charging locations in Trafford.*
@@ -53,7 +54,8 @@ datatable(df,
             scroller = TRUE,
             autoWidth = TRUE,
             columnDefs = list(
-              list(className = 'dt-left', targets = "_all")
+              list(className = 'dt-left', targets = "_all"),
+              list(targets = 8:12, searchable = FALSE)
               )))
 ```
 
