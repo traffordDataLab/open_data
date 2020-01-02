@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6, .header {
   font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+  font-size: 1.75em;
+}
+
 a {
   color: #db3a00;
   text-decoration: none;
