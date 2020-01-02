@@ -5,5 +5,5 @@ Guidance on publishing open data on this repository is provided [here](guidance/
 
 The following datasets are available to preview:
 
-- [Fast food outlets](fast_food_outlets)
-- [Mid-2018 population estimates](population)
+- [Fast food outlets](https://www.trafforddatalab.io/open_data/fast_food_outlets)
+- [Mid-2018 population estimates](https://www.trafforddatalab.io/open_data/population)
