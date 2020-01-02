@@ -13,9 +13,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse) ; library(htmltools) ; library(DT) 
 
 df <- read_csv("trafford_allotments.csv") %>% 
-    rename_all(. %>% str_to_title() %>% str_replace_all("_", " ")) %>% 
-  mutate(`Area name` = factor(`Area name`)) %>% 
-  rename_all(. %>% str_to_title())
+    rename_all(. %>% str_to_title() %>% str_replace_all("_", " "))
 ```
 
 *Allotments sites in Trafford.*
