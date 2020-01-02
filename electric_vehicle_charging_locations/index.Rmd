@@ -42,6 +42,7 @@ Sort, filter and export a selection of the data using the table. An <a href="htt
 
 ```{r preview}
 datatable(df, 
+          class = 'cell-border stripe',
           rownames = FALSE, 
           filter = 'top',
           caption = htmltools::tags$caption(
