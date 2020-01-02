@@ -53,8 +53,8 @@ datatable(df,
             scroller = TRUE,
             autoWidth = TRUE,
             columnDefs = list(
-              list(className = 'dt-left', targets = "_all"),
-              # list(targets = 0, searchable = FALSE) stop filtering
+              list(className = 'dt-left', targets = "_all")
+              # , list(targets = 0, searchable = FALSE) stop filtering
               )))
 ```
 

@@ -20,13 +20,13 @@ df <- read_csv("trafford_allotments.csv") %>%
 
 <br />
 
-### Metadata
+## Metadata
 
 |Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
 |:---|:---|:---|:---|:---|:---|:---|
 |Trafford Council and OpenStreetMap |<a href="https://www.trafford.gov.uk/residents/leisure-and-lifestyle/parks-and-open-spaces/allotments/allotments-in-trafford.aspx" target="_blank">Trafford Council</a> |NA |Vector boundaries |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a>; <a href="https://www.openstreetmap.org/copyright" target="_blank">Open Data Commons Open Database License (ODbL)</a> |Contains public sector information licensed under the Open Government Licence v3.0; © OpenStreetMap contributors (ODbL) |2019-04-10 |
 
-### Preview
+## Preview
 Sort, filter and export a selection of the data using the table. An <a href="https://www.trafforddatalab.io/explore/#dataset=allotments" target="_blank">interactive map</a> is also available.
 
 ```{r preview}
@@ -34,12 +34,13 @@ datatable(df,
           class = 'cell-border stripe',
           rownames = FALSE, 
           filter = 'top',
-          caption = htmltools::tags$caption(
-            style = 'caption-side: bottom; text-align: center;',
+          caption = tags$caption(
+            style = 'caption-side: bottom; text-align: center; color: #555555;',
             em("Allotments in Trafford")),
           width = "100%",
-          extensions = c('Scroller', 'Buttons'),
+          extensions = c('Scroller', 'Buttons', 'KeyTable'),
           options = list(
+            keys = TRUE,
             search = list(regex = TRUE),
             searchHighlight = TRUE,
             dom = 'tipB',
@@ -52,11 +53,12 @@ datatable(df,
             scroller = TRUE,
             autoWidth = TRUE,
             columnDefs = list(
-              list(className = 'dt-left', targets = "_all")
+              list(className = 'dt-left', targets = "_all"), 
+              list(targets = 1:3, searchable = FALSE)
               )))
 ```
 
-### Data
+## Data
 Download the complete dataset using the links below.
 
 |File name |Format |
@@ -64,7 +66,7 @@ Download the complete dataset using the links below.
 |[trafford_allotments](trafford_allotments.csv) |CSV |
 |[trafford_allotments](trafford_allotments.geojson) |GeoJSON |
 
-### Pre-processing
+## Pre-processing
 The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.
 
 <br />

@@ -23,13 +23,13 @@ df <- read_csv("trafford_fast_food_outlets.csv") %>%
 
 <br />
 
-### Metadata
+## Metadata
 
 |Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
 |:---|:---|:---|:---|:---|:---|:---|
-|Food Standards Agency, Food Hygiene Rating Scheme |<a href="http://ratings.food.gov.uk/open-data/en-GB" target="_blank">Food Standards Agency, Food Hygiene Rating Scheme</a> |2019-12-18 |Point data |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |December 2019 |
+|Food Standards Agency, Food Hygiene Rating Scheme |<a href="http://ratings.food.gov.uk/open-data/en-GB" target="_blank">Food Standards Agency, Food Hygiene Rating Scheme</a> |2019-12-18 |Point data |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |2019-12 |
 
-### Preview
+## Preview
 Sort, filter and export a selection of the data using the table. An <a href="https://www.trafforddatalab.io/explore/#dataset=fast_food_outlets" target="_blank">interactive map</a> is also available.
 
 ```{r preview}
@@ -37,12 +37,13 @@ datatable(df,
           class = 'cell-border stripe',
           rownames = FALSE, 
           filter = 'top',
-          caption = htmltools::tags$caption(
-            style = 'caption-side: bottom; text-align: center;',
+          caption = tags$caption(
+            style = 'caption-side: bottom; text-align: center; color: #555555;',
             em("Fast food outlets in Trafford")),
           width = "100%",
-          extensions = c('Scroller', 'Buttons'),
+          extensions = c('Scroller', 'Buttons', 'KeyTable'),
           options = list(
+            keys = TRUE,
             search = list(regex = TRUE),
             searchHighlight = TRUE,
             dom = 'tipB',
@@ -55,12 +56,12 @@ datatable(df,
             scroller = TRUE,
             autoWidth = TRUE,
             columnDefs = list(
-              list(className = 'dt-left', targets = "_all")
-              # list(targets = 0, searchable = FALSE)
+              list(className = 'dt-left', targets = "_all"), 
+              list(targets = 4:5, searchable = FALSE)
               )))
 ```
 
-### Data
+## Data
 Download the complete dataset using the links below.
 
 |File name |Format |
@@ -68,7 +69,7 @@ Download the complete dataset using the links below.
 |[trafford_fast_food_outlets](trafford_fast_food_outlets.csv) |CSV |
 |[trafford_fast_food_outlets](trafford_fast_food_outlets.geojson) |GeoJSON |
 
-### Pre-processing
+## Pre-processing
 The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.
 
 <br />

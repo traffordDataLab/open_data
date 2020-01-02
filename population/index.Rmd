@@ -22,13 +22,13 @@ df <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/populati
 
 <br />
 
-### Metadata
+## Metadata
 
 |Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
 |:---|:---|:---|:---|:---|:---|:---|
-|Office for National Statistics |<a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualmidyearpopulationestimates/mid2018" target="_blank">Office for National Statistics</a> |2018-30-06 |Local authority, electoral wards, MSOAs, LSOAs and OAs |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |November 2019 |
+|Office for National Statistics |<a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualmidyearpopulationestimates/mid2018" target="_blank">Office for National Statistics</a> |2018-30-06 |Local authority, electoral wards, MSOAs, LSOAs and OAs |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |2019-11 |
 
-### Preview
+## Preview
 Sort, filter and export a selection of the data using the table.
 
 ```{r preview}
@@ -36,12 +36,13 @@ datatable(df,
           class = 'cell-border stripe',
           rownames = FALSE, 
           filter = 'top',
-          caption = htmltools::tags$caption(
-            style = 'caption-side: bottom; text-align: center;',
+          caption = tags$caption(
+            style = 'caption-side: bottom; text-align: center; color: #555555;',
             em("Mid-2018 population estimates for Trafford's wards")),
           width = "100%",
-          extensions = c('Scroller', 'Buttons'),
+          extensions = c('Scroller', 'Buttons', 'KeyTable'),
           options = list(
+            keys = TRUE,
             search = list(regex = TRUE),
             searchHighlight = TRUE,
             dom = 'tipB',
@@ -54,12 +55,12 @@ datatable(df,
             scroller = TRUE,
             autoWidth = TRUE,
             columnDefs = list(
-              list(className = 'dt-left', targets = "_all")
-              # list(targets = 0, searchable = FALSE)
+              list(className = 'dt-left', targets = "_all"), 
+              list(targets = 0, searchable = FALSE)
               )))
 ```
 
-### Data
+## Data
 Download the complete dataset using the links below.
 
 |File name |Format |
@@ -71,7 +72,7 @@ Download the complete dataset using the links below.
 |[mid-2018_population_estimates_lsoa](mid-2018_population_estimates_lsoa.csv) |CSV |
 |[mid-2018_population_estimates_oa](mid-2018_population_estimates_oa.csv) |CSV |
 
-### Pre-processing
-The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.Rmd) used to process the data can adapted to other areas.
+## Pre-processing
+The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.
 
 <br />
