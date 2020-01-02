@@ -1,6 +1,3 @@
-[<img src="thumbnail.png">](CCTV_cameras_trafford_styled.geojson)
-<br />
-
 <table>
 <tr>
 	<td>Dataset name</td>

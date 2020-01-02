@@ -1,0 +1,73 @@
+---
+title: "dataset_name"
+output:
+  html_document:
+    css: ../guidance/template/styles.css
+    self_contained: TRUE
+---
+
+<a href="https://www.trafforddatalab.io/data"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" width="100" border="0" style="position:absolute; top:0; right:0; padding:5px;"/></a>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse) ; library(htmltools) ; library(DT) 
+
+df <- read_csv("trafford_allotments.csv") %>% 
+    rename_all(. %>% str_to_title() %>% str_replace_all("_", " ")) %>% 
+  mutate(`Area name` = factor(`Area name`)) %>% 
+  rename_all(. %>% str_to_title())
+```
+
+*Short description of dataset.*
+
+<br />
+
+### Metadata
+
+|Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
+|:---|:---|:---|:---|:---|:---|:---|
+|Trafford Council and OpenStreetMap |<a href="https://www.trafford.gov.uk/residents/leisure-and-lifestyle/parks-and-open-spaces/allotments/allotments-in-trafford.aspx" target="_blank">Trafford Council</a> |NA |Vector boundaries |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a>; <a href="https://www.openstreetmap.org/copyright" target="_blank">Open Data Commons Open Database License (ODbL)</a> |Contains public sector information licensed under the Open Government Licence v3.0; © OpenStreetMap contributors (ODbL) |2019-04-10 |
+
+### Preview
+Sort, filter and export a selection of the data using the table. An <a href="https://www.trafforddatalab.io/explore/#dataset=allotments" target="_blank">interactive map</a> is also available.
+
+```{r preview}
+datatable(df, 
+          class = 'cell-border stripe',
+          rownames = FALSE, 
+          filter = 'top',
+          caption = htmltools::tags$caption(
+            style = 'caption-side: bottom; text-align: center;',
+            em("Allotments in Trafford")),
+          width = "100%",
+          extensions = c('Scroller', 'Buttons'),
+          options = list(
+            search = list(regex = TRUE),
+            searchHighlight = TRUE,
+            dom = 'tipB',
+            buttons = list(
+              list(extend = "csv", 
+                   text = "Download selection")),
+            deferRender = TRUE,
+            scrollX = TRUE,
+            scrollY = 300,
+            scroller = TRUE,
+            autoWidth = TRUE,
+            columnDefs = list(
+              list(className = 'dt-left', targets = "_all")
+              # list(targets = 0, searchable = FALSE)
+              )))
+```
+
+### Data
+Download the complete dataset using the links below.
+
+|File name |Format |
+|:---|:---|
+|[trafford_allotments](trafford_allotments.csv) |CSV |
+|[trafford_allotments](trafford_allotments.geojson) |GeoJSON |
+
+### Pre-processing
+The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.
+
+<br />

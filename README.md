@@ -5,6 +5,7 @@ Guidance on publishing open data on this repository is provided [here](guidance/
 
 The following datasets are available to preview:
 
+- [Allotments](https://www.trafforddatalab.io/open_data/allotments)
 - [CCTV](https://www.trafforddatalab.io/open_data/cctv)
 - [Fast food outlets](https://www.trafforddatalab.io/open_data/fast_food_outlets)
 - [Mid-2018 population estimates](https://www.trafforddatalab.io/open_data/population)
