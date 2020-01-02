@@ -1,5 +1,5 @@
 ---
-title: "dataset_name"
+title: "Allotments"
 output:
   html_document:
     css: ../guidance/template/styles.css
@@ -18,7 +18,7 @@ df <- read_csv("trafford_allotments.csv") %>%
   rename_all(. %>% str_to_title())
 ```
 
-*Short description of dataset.*
+*Allotments sites in Trafford.*
 
 <br />
 
@@ -55,7 +55,6 @@ datatable(df,
             autoWidth = TRUE,
             columnDefs = list(
               list(className = 'dt-left', targets = "_all")
-              # list(targets = 0, searchable = FALSE)
               )))
 ```
 
