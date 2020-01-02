@@ -1,4 +1,3 @@
-<a href="trafford_dataset_name.geojson"><img src="thumbnail.png" alt="Dataset name" width="600"/></a>
 <table>
 <tr>
 	<td>Dataset name</td>

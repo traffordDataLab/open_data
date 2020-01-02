@@ -2,7 +2,7 @@
 title: "Mid-2018 population estimates"
 output:
   html_document:
-    css: styles.css
+    css: ../guidance/template/styles.css
     self_contained: TRUE
 ---
 

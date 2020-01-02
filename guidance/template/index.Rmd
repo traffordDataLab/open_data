@@ -1,5 +1,5 @@
 ---
-title: "Fast Food Outlets"
+title: "dataset_name"
 output:
   html_document:
     css: ../guidance/template/styles.css
@@ -12,14 +12,13 @@ output:
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse) ; library(htmltools) ; library(DT) 
 
-df <- read_csv("trafford_fast_food_outlets.csv") %>% 
-  select(-area_name) %>% 
-  rename_all(. %>% str_to_title() %>% str_replace_all("_", " ")) %>% 
-  mutate(Type = factor(Type)) %>% 
+df <- read_csv("dataset_name.csv") %>% 
+    rename_all(. %>% str_to_title() %>% str_replace_all("_", " ")) %>% 
+  mutate(`Area name` = factor(`Area name`)) %>% 
   rename_all(. %>% str_to_title())
 ```
 
-*The location of fast food outlets in Trafford.*
+*The location of dataset_name in Trafford.*
 
 <br />
 
@@ -27,10 +26,10 @@ df <- read_csv("trafford_fast_food_outlets.csv") %>%
 
 |Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
 |:---|:---|:---|:---|:---|:---|:---|
-|Food Standards Agency, Food Hygiene Rating Scheme |<a href="http://ratings.food.gov.uk/open-data/en-GB" target="_blank">Food Standards Agency, Food Hygiene Rating Scheme</a> |2019-12-18 |Point data |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |December 2019 |
+| Source name |<a href="#" target="_blank">Publisher name</a> |YYYY-MM-DD |Point data |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |MM YYYY |
 
 ### Preview
-Sort, filter and export a selection of the data using the table. An <a href="https://www.trafforddatalab.io/explore/#dataset=fast_food_outlets" target="_blank">interactive map</a> is also available.
+Sort, filter and export a selection of the data using the table. An <a href="https://www.trafforddatalab.io/explore/#dataset=#" target="_blank">interactive map</a> is also available.
 
 ```{r preview}
 datatable(df, 
@@ -39,7 +38,7 @@ datatable(df,
           filter = 'top',
           caption = htmltools::tags$caption(
             style = 'caption-side: bottom; text-align: center;',
-            em("Fast food outlets in Trafford")),
+            em("Description of previewed data")),
           width = "100%",
           extensions = c('Scroller', 'Buttons'),
           options = list(
@@ -65,8 +64,8 @@ Download the complete dataset using the links below.
 
 |File name |Format |
 |:---|:---|
-|[trafford_fast_food_outlets](trafford_fast_food_outlets.csv) |CSV |
-|[trafford_fast_food_outlets](trafford_fast_food_outlets.geojson) |GeoJSON |
+|[trafford_dataset_name](trafford_dataset_name.csv) |CSV |
+|[trafford_dataset_name](trafford_dataset_name.geojson) |GeoJSON |
 
 ### Pre-processing
 The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.
