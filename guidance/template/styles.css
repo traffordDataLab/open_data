@@ -27,14 +27,14 @@ a:hover {
 }
 
 a:focus {
-  color: #fc6721;
+  color: #db3a00;
   text-decoration: none;
   outline: none;
   outline-offset: 0;
 }
 
 th, td {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #757575;
   font-size: 1.1em;
   padding: 2px;
