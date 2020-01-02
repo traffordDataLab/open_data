@@ -7,5 +7,6 @@ The following datasets are available to preview:
 
 - [Allotments](https://www.trafforddatalab.io/open_data/allotments)
 - [CCTV](https://www.trafforddatalab.io/open_data/cctv)
+- [Electric vehicle charging locations](https://www.trafforddatalab.io/open_data/electric_vehicle_charging_locations)
 - [Fast food outlets](https://www.trafforddatalab.io/open_data/fast_food_outlets)
 - [Mid-2018 population estimates](https://www.trafforddatalab.io/open_data/population)
