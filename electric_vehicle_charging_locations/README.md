@@ -2,11 +2,11 @@
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Car charging points</td>
+	<td>Electric vehicle charging locations</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Electric car charging points in Greater Manchester</td>
+	<td>Electric vehicle charging locations in Trafford</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -26,7 +26,7 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Greater Manchester</td>
+	<td>Trafford</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
@@ -54,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2019-07-26</td>
+	<td>2020-01-02</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -62,6 +62,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/#dataset=electric_car_charging_points">Explore application</a>.</td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/#dataset=electric_vehicle_charging_locations">Explore application</a>.</td>
 </tr>
 </table>

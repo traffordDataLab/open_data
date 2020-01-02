@@ -1,5 +1,5 @@
 ---
-title: "Allotments"
+title: "Electric vehicle charging locations"
 output:
   html_document:
     css: ../guidance/template/styles.css
@@ -12,11 +12,11 @@ output:
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse) ; library(htmltools) ; library(DT) 
 
-df <- read_csv("trafford_allotments.csv") %>% 
+df <- read_csv("trafford_electric_vehicle_charging_locations.csv") %>% 
     rename_all(. %>% str_to_title() %>% str_replace_all("_", " "))
 ```
 
-*Allotment sites in Trafford.*
+*Location of electric vehicle charging locations.*
 
 <br />
 
@@ -24,10 +24,10 @@ df <- read_csv("trafford_allotments.csv") %>%
 
 |Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
 |:---|:---|:---|:---|:---|:---|:---|
-|Trafford Council and OpenStreetMap |<a href="https://www.trafford.gov.uk/residents/leisure-and-lifestyle/parks-and-open-spaces/allotments/allotments-in-trafford.aspx" target="_blank">Trafford Council</a> |NA |Vector boundaries |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a>; <a href="https://www.openstreetmap.org/copyright" target="_blank">Open Data Commons Open Database License (ODbL)</a> |Contains public sector information licensed under the Open Government Licence v3.0; © OpenStreetMap contributors (ODbL) |2019-04-10 |
+|Open Charge Map |<a href="https://openchargemap.io/" target="_blank">Open Charge Map</a> |Continuous |Point data |<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a> |Open Charge Map |2020-01-02 |
 
 ### Preview
-Sort, filter and export a selection of the data using the table. An <a href="https://www.trafforddatalab.io/explore/#dataset=allotments" target="_blank">interactive map</a> is also available.
+Sort, filter and export a selection of the data using the table. An <a href="https://www.trafforddatalab.io/explore/#dataset=electric_vehicle_charging_locations" target="_blank">interactive map</a> is also available.
 
 ```{r preview}
 datatable(df, 
@@ -36,7 +36,7 @@ datatable(df,
           filter = 'top',
           caption = htmltools::tags$caption(
             style = 'caption-side: bottom; text-align: center;',
-            em("Allotments in Trafford")),
+            em("Electric vehicle charging locations in Trafford")),
           width = "100%",
           extensions = c('Scroller', 'Buttons'),
           options = list(
@@ -53,6 +53,7 @@ datatable(df,
             autoWidth = TRUE,
             columnDefs = list(
               list(className = 'dt-left', targets = "_all")
+              # list(targets = 0, searchable = FALSE)
               )))
 ```
 
@@ -61,8 +62,8 @@ Download the complete dataset using the links below.
 
 |File name |Format |
 |:---|:---|
-|[trafford_allotments](trafford_allotments.csv) |CSV |
-|[trafford_allotments](trafford_allotments.geojson) |GeoJSON |
+|[trafford_electric_vehicle_charging_locations](trafford_electric_vehicle_charging_locations.csv) |CSV |
+|[trafford_electric_vehicle_charging_locations](trafford_electric_vehicle_charging_locations.geojson) |GeoJSON |
 
 ### Pre-processing
 The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.
