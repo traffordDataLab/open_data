@@ -12,13 +12,15 @@ output:
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse) ; library(htmltools) ; library(DT) 
 
-df <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/population/mid-2018/mid-2018_population_estimates_ward.csv") %>% 
+df <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/population/mid-2018_population_estimates_ward.csv") %>% 
     rename_all(. %>% str_to_title() %>% str_replace_all("_", " ")) %>% 
   mutate(`Area name` = factor(`Area name`)) %>% 
   rename_all(. %>% str_to_title())
 ```
 
-Estimates of the usual resident population in Trafford during mid-2018.
+*Estimates of the usual resident population in Trafford during mid-2018.*
+
+<br />
 
 ### Metadata
 
@@ -26,10 +28,8 @@ Estimates of the usual resident population in Trafford during mid-2018.
 |:---|:---|:---|:---|:---|:---|:---|
 |Office for National Statistics |<a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualmidyearpopulationestimates/mid2018" target="_blank">Office for National Statistics</a> |2018-30-06 |Local authority, electoral wards, MSOAs, LSOAs and OAs |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |November 2019 |
 
-<br />
-
 ### Preview
-Sort, filter and export a selection of the data using the interactive table.
+Sort, filter and export a selection of the data using the table.
 
 ```{r preview}
 datatable(df, 
@@ -59,8 +59,6 @@ datatable(df,
               )))
 ```
 
-<br />
-
 ### Data
 Download the complete dataset using the links below.
 
@@ -72,8 +70,6 @@ Download the complete dataset using the links below.
 |[mid-2018_population_estimates_msoa](mid-2018_population_estimates_msoa.csv) |CSV |
 |[mid-2018_population_estimates_lsoa](mid-2018_population_estimates_lsoa.csv) |CSV |
 |[mid-2018_population_estimates_oa](mid-2018_population_estimates_oa.csv) |CSV |
-
-<br />
 
 ### Pre-processing
 The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.Rmd) used to process the data can adapted to other areas.
