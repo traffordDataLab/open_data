@@ -36,7 +36,6 @@ datatable(df,
           caption = tags$caption(
             style = 'caption-side: bottom; text-align: center; color: #555555;',
             em("Table caption")),
-          width = "100%",
           extensions = c('Scroller', 'Buttons', 'KeyTable'),
           options = list(
             keys = TRUE,
@@ -50,7 +49,7 @@ datatable(df,
             scrollX = TRUE,
             scrollY = 300,
             scroller = TRUE,
-            autoWidth = TRUE,
+            #autoWidth = TRUE, # ONLY REQUIRED IF COLUMNS SCROLL HORIZONTALLY
             columnDefs = list(
               list(className = 'dt-left', targets = "_all")
               # , list(targets = 0, searchable = FALSE) stop filtering

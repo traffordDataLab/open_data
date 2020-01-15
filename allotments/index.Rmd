@@ -33,17 +33,15 @@ Sort, filter and export a selection of the data using the table. An <a href="htt
 datatable(df, 
           class = 'cell-border stripe',
           rownames = FALSE, 
-          filter = 'top',
           caption = tags$caption(
             style = 'caption-side: bottom; text-align: center; color: #555555;',
             em("Allotments in Trafford")),
-          width = "100%",
           extensions = c('Scroller', 'Buttons', 'KeyTable'),
           options = list(
             keys = TRUE,
             search = list(regex = TRUE),
             searchHighlight = TRUE,
-            dom = 'tipB',
+            dom = 'ft',
             buttons = list(
               list(extend = "csv", 
                    text = "Download selection")),
@@ -51,10 +49,8 @@ datatable(df,
             scrollX = TRUE,
             scrollY = 300,
             scroller = TRUE,
-            autoWidth = TRUE,
             columnDefs = list(
-              list(className = 'dt-left', targets = "_all"), 
-              list(targets = 1:3, searchable = FALSE)
+              list(className = 'dt-left', targets = "_all")
               )))
 ```
 
