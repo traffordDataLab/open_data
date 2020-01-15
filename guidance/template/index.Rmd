@@ -33,7 +33,6 @@ Sort, filter and export a selection of the data using the table. An <a href="htt
 datatable(df, 
           class = 'cell-border stripe',
           rownames = FALSE, 
-          filter = 'top',
           caption = tags$caption(
             style = 'caption-side: bottom; text-align: center; color: #555555;',
             em("Table caption")),
@@ -43,7 +42,7 @@ datatable(df,
             keys = TRUE,
             search = list(regex = TRUE),
             searchHighlight = TRUE,
-            dom = 'tipB',
+            dom = 'ft',
             buttons = list(
               list(extend = "csv", 
                    text = "Download selection")),
