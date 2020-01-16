@@ -1,12 +1,11 @@
 ---
-title: "Electric vehicle charging locations"
+pagetitle: "Electric vehicle charging locations"
+lang: "en-GB"
 output:
   html_document:
     css: ../guidance/template/styles.css
     self_contained: TRUE
 ---
-
-<a href="https://www.trafforddatalab.io/data"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" width="100" border="0" style="position:absolute; top:0; right:0; padding:5px;"/></a>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
@@ -16,11 +15,14 @@ df <- read_csv("trafford_electric_vehicle_charging_locations.csv") %>%
   rename_all(. %>% str_to_title() %>% str_replace_all("_", " ")) %>% 
   mutate(Updated = as.Date(Updated, format = "%Y-%m-%d"))
 ```
+<header>
+<a href="https://www.trafforddatalab.io/data"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" width="100" border="0" style="position:absolute; top:0; right:0; padding:5px;"/></a>
 
+# Electric vehicle charging locations
 *Electric vehicle charging locations in Trafford.*
-
 <br />
-
+</header>
+<main>
 ## Metadata
 
 |Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
@@ -34,9 +36,6 @@ Sort, filter and export a selection of the data using the table. An <a href="htt
 datatable(df, 
           class = 'cell-border stripe',
           rownames = FALSE, 
-          caption = htmltools::tags$caption(
-            style = 'caption-side: bottom; text-align: center; color: #555555;',
-            em("Electric vehicle charging locations in Trafford")),
           extensions = c('Scroller', 'Buttons', 'KeyTable'),
           options = list(
             keys = TRUE,
@@ -55,6 +54,9 @@ datatable(df,
               list(className = 'dt-left', targets = "_all")
               )))
 ```
+<div style="text-align: center; color: #555;">
+  <em>Electric vehicle charging locations in Trafford</em>
+</div>
 
 ## Data
 Download the complete dataset using the links below.
@@ -65,6 +67,24 @@ Download the complete dataset using the links below.
 |[trafford_electric_vehicle_charging_locations](trafford_electric_vehicle_charging_locations.geojson) |GeoJSON |
 
 ## Pre-processing
-The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.
+The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.<br /><br />
+</main>
 
-<br />
+<script>
+  // Fixes to dynamic elements created by DataTables to improve accessibility
+  var removeElFn = setInterval(removeElement, 1000);
+  
+  function removeElement() {
+    try {
+      var el = document.getElementsByClassName("dataTables_scrollBody")[0].childNodes[0];
+      el.removeChild(el.childNodes[0]); // Remove unwanted hidden text element from table - causing accessibility alert as it has no label
+      
+      el.parentNode.setAttribute('tabindex', '0');  // add attribute allowing keyboard users to access scrollable area
+      
+      clearInterval(removeElFn);  // cancel any further calls to this function as we have completed all actions
+    }
+    catch(e) {
+      // form element 'el' doesn't exist yet so setInterval will call the function again until it does
+    }
+  }
+</script>

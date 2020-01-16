@@ -1,12 +1,11 @@
 ---
-title: "Mid-2018 population estimates"
+pagetitle: "Mid-2018 population estimates"
+lang: "en-GB"
 output:
   html_document:
     css: ../guidance/template/styles.css
     self_contained: TRUE
 ---
-
-<a href="https://www.trafforddatalab.io/data"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" width="100" border="0" style="position:absolute; top:0; right:0; padding:5px;"/></a>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
@@ -17,11 +16,14 @@ df <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/populati
   mutate(`Area name` = factor(`Area name`)) %>% 
   rename_all(. %>% str_to_title())
 ```
+<header>
+<a href="https://www.trafforddatalab.io/data"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" width="100" border="0" style="position:absolute; top:0; right:0; padding:5px;"/></a>
 
+# Mid-2018 population estimates
 *Estimates of the usual resident population in Trafford during mid-2018.*
-
 <br />
-
+</header>
+<main>
 ## Metadata
 
 |Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
@@ -35,9 +37,6 @@ Sort, filter and export a selection of the data using the table.
 datatable(df, 
           class = 'cell-border stripe',
           rownames = FALSE, 
-          caption = tags$caption(
-            style = 'caption-side: bottom; text-align: center; color: #555555;',
-            em("Mid-2018 population estimates for Trafford's wards")),
           extensions = c('Scroller', 'Buttons', 'KeyTable'),
           options = list(
             keys = TRUE,
@@ -55,6 +54,9 @@ datatable(df,
               list(className = 'dt-left', targets = "_all")
               )))
 ```
+<div style="text-align: center; color: #555;">
+  <em>Mid-2018 population estimates for Trafford's wards</em>
+</div>
 
 ## Data
 Download the complete dataset using the links below.
@@ -69,6 +71,24 @@ Download the complete dataset using the links below.
 |[mid-2018_population_estimates_oa](mid-2018_population_estimates_oa.csv) |CSV |
 
 ## Pre-processing
-The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.
+The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.<br /><br />
+</main>
 
-<br />
+<script>
+  // Fixes to dynamic elements created by DataTables to improve accessibility
+  var removeElFn = setInterval(removeElement, 1000);
+  
+  function removeElement() {
+    try {
+      var el = document.getElementsByClassName("dataTables_scrollBody")[0].childNodes[0];
+      el.removeChild(el.childNodes[0]); // Remove unwanted hidden text element from table - causing accessibility alert as it has no label
+      
+      el.parentNode.setAttribute('tabindex', '0');  // add attribute allowing keyboard users to access scrollable area
+      
+      clearInterval(removeElFn);  // cancel any further calls to this function as we have completed all actions
+    }
+    catch(e) {
+      // form element 'el' doesn't exist yet so setInterval will call the function again until it does
+    }
+  }
+</script>
