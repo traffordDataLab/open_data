@@ -1,0 +1,88 @@
+---
+pagetitle: "Voluntary Sector Grants"
+lang: "en-GB"
+output:
+  html_document:
+    css: ../guidance/template/styles.css
+    self_contained: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse) ; library(htmltools) ; library(DT) 
+
+df <- read_csv("trafford_council_voluntary_sector_grants_360_giving_format.csv") %>% 
+  rename_all(. %>% str_to_title() %>% str_replace_all("_", " "))
+```
+
+<header>
+<a href="https://www.trafforddatalab.io/data"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" width="100" border="0" style="position:absolute; top:0; right:0; padding:5px;"/></a>
+
+# Voluntary Sector Grants
+*Grants allocated by Trafford Council via Trafford Partnership*
+<br />
+</header>
+<main>
+## Metadata
+
+|Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
+|:---|:---|:---|:---|:---|:---|:---|
+|Trafford Council |<a href="https://www.trafford.gov.uk" target="_blank">Trafford Council</a> |2013-01-18 - 2017-06-24 |NA |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |2017-11-28 |
+
+## Preview
+Sort, filter and export a selection of the data using the table. The data are also available to view on <a href="https://grantnav.threesixtygiving.org/funder/GB-LAE-TRF" target="_blank">GrantNav</a>.
+
+```{r preview}
+datatable(df, 
+          class = 'cell-border stripe',
+          rownames = FALSE, 
+          extensions = c('Scroller', 'Buttons', 'KeyTable'),
+          options = list(
+            keys = TRUE,
+            search = list(regex = TRUE),
+            searchHighlight = TRUE,
+            dom = 'ft',
+            buttons = list(
+              list(extend = "csv", 
+                   text = "Download selection")),
+            deferRender = TRUE,
+            scrollX = TRUE,
+            scrollY = 300,
+            scroller = TRUE,
+            autoWidth = TRUE,
+            columnDefs = list(
+              list(className = 'dt-left', targets = "_all")
+              )))
+```
+<div style="text-align: center; color: #555;">
+  <em>Trafford Council Voluntary Sector Grants</em>
+</div>
+
+## Data
+Download the complete dataset using the links below.
+
+|File name |Format |
+|:---|:---|
+|[trafford_council_voluntary_sector_grants_360_giving_format](trafford_council_voluntary_sector_grants_360_giving_format.csv) |CSV |
+|[trafford_council_voluntary_sector_grants_360_giving_format](trafford_council_voluntary_sector_grants_360_giving_format.json) |JSON |
+<br /><br />
+</main>
+
+<script>
+  // Fixes to dynamic elements created by DataTables to improve accessibility
+  var removeElFn = setInterval(removeElement, 1000);
+  
+  function removeElement() {
+    try {
+      var el = document.getElementsByClassName("dataTables_scrollBody")[0].childNodes[0];
+      el.removeChild(el.childNodes[0]); // Remove unwanted hidden text element from table - causing accessibility alert as it has no label
+      
+      el.parentNode.setAttribute('tabindex', '0');  // add attribute allowing keyboard users to access scrollable area
+      
+      clearInterval(removeElFn);  // cancel any further calls to this function as we have completed all actions
+    }
+    catch(e) {
+      // form element 'el' doesn't exist yet so setInterval will call the function again until it does
+    }
+  }
+</script>
