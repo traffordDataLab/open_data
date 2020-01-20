@@ -1,0 +1,90 @@
+---
+pagetitle: "Trafford Council local election results"
+lang: "en-GB"
+output:
+  html_document:
+    css: ../guidance/template/styles.css
+    self_contained: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse) ; library(htmltools) ; library(DT) 
+
+df <- read_csv("trafford_council_election_results.csv") %>% 
+  rename_all(. %>% str_to_title() %>% str_replace_all("_", " "))
+```
+
+<header>
+<a href="https://www.trafforddatalab.io/data"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" width="100" border="0" style="position:absolute; top:0; right:0; padding:5px;"/></a>
+
+# Trafford Council local election results
+*Results from Trafford council local elections/by-elections from 2016 onwards*
+<br />
+</header>
+<main>
+## Metadata
+
+|Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
+|:---|:---|:---|:---|:---|:---|:---|
+|Trafford Council |<a href="https://www.trafford.gov.uk/about-your-council/elections/election-results.aspx" target="_blank">Trafford Council</a> |2016 - 2019 |Electoral Ward |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |2019-07-09 |
+
+## Notes
+Conforms to the specification described in the <a href="http://e-sd.org/vgTJ3" target="_blank">local transparency guidance - publishing elections results data</a> document by the Local Government Association. Validated using the <a href="https://validator.opendata.esd.org.uk/electionresults" target="_blank">Local Government Association data validator tool</a> on 2019-07-09.
+
+## Preview
+Sort, filter and export a selection of the data using the table. Visualisations can be found in our <a href="https://github.com/traffordDataLab/analysis/tree/master/local_election" target="_blank">analysis repository</a> on GitHub.
+
+```{r preview}
+datatable(df, 
+          class = 'cell-border stripe',
+          rownames = FALSE, 
+          extensions = c('Scroller', 'Buttons', 'KeyTable'),
+          options = list(
+            keys = TRUE,
+            search = list(regex = TRUE),
+            searchHighlight = TRUE,
+            dom = 'ft',
+            buttons = list(
+              list(extend = "csv", 
+                   text = "Download selection")),
+            deferRender = TRUE,
+            scrollX = TRUE,
+            scrollY = 300,
+            scroller = TRUE,
+            autoWidth = TRUE,
+            columnDefs = list(
+              list(className = 'dt-left', targets = "_all")
+              )))
+```
+<div style="text-align: center; color: #555;">
+  <em>Results from Trafford council local elections/by-elections</em>
+</div>
+
+## Data
+Download the complete dataset using the links below.
+
+|File name |Format |
+|:---|:---|
+|[trafford_council_election_results](trafford_council_election_results.csv) |CSV |
+<br /><br />
+</main>
+
+<script>
+  // Fixes to dynamic elements created by DataTables to improve accessibility
+  var removeElFn = setInterval(removeElement, 1000);
+  
+  function removeElement() {
+    try {
+      var el = document.getElementsByClassName("dataTables_scrollBody")[0].childNodes[0];
+      el.removeChild(el.childNodes[0]); // Remove unwanted hidden text element from table - causing accessibility alert as it has no label
+      
+      el.parentNode.setAttribute('tabindex', '0');  // add attribute allowing keyboard users to access scrollable area
+      
+      clearInterval(removeElFn);  // cancel any further calls to this function as we have completed all actions
+    }
+    catch(e) {
+      // form element 'el' doesn't exist yet so setInterval will call the function again until it does
+    }
+  }
+</script>
