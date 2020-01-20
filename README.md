@@ -9,4 +9,6 @@ The following datasets are available to preview:
 - [CCTV](https://www.trafforddatalab.io/open_data/cctv)
 - [Electric vehicle charging locations](https://www.trafforddatalab.io/open_data/electric_vehicle_charging_locations)
 - [Fast food outlets](https://www.trafforddatalab.io/open_data/fast_food_outlets)
+- [Grants to the voluntary sector](https://www.trafforddatalab.io/open_data/grants)
+- [Local election results](https://www.trafforddatalab.io/open_data/elections)
 - [Mid-2018 population estimates](https://www.trafforddatalab.io/open_data/population)
