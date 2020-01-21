@@ -27,7 +27,7 @@ df <- read_csv("trafford_dataset_name.csv") %>%
 
 |Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
 |:---|:---|:---|:---|:---|:---|:---|
-|Source name |<a href="#" target="_blank">Publisher name</a> |YYYY-MM-DD |Point data |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |MM YYYY |
+|Source name |<a href="#" target="_blank">Publisher name</a> |YYYY-MM-DD |Point data |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |YYYY-MM-DD |
 
 ## Preview
 Sort, filter and export a selection of the data using the table. An <a href="https://www.trafforddatalab.io/explore/#dataset=#" target="_blank">interactive map</a> is also available.

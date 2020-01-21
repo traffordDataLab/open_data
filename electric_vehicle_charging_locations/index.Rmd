@@ -41,7 +41,7 @@ datatable(df,
             keys = TRUE,
             search = list(regex = TRUE),
             searchHighlight = TRUE,
-            dom = 'ft',
+            dom = 'ftB',
             buttons = list(
               list(extend = "csv", 
                    text = "Download selection")),
