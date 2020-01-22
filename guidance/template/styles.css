@@ -50,24 +50,25 @@ th {
 
 div.dt-buttons {
   float: right;
+  margin-top: 10px;
 }
 
-table.dataTable td.sorting_1 { 
-  background-color: white; 
-  border:1px lightgrey; 
+table.dataTable td.sorting_1 {
+  background-color: white;
+  border:1px lightgrey;
 }
 
 table.dataTable td {
-  background-color: white;  
-  border:1px lightgrey;
-}
-    
-table.dataTable tr.odd { 
-  background-color: white;  
+  background-color: white;
   border:1px lightgrey;
 }
 
-table.dataTable tr.even { 
-  background-color: white; 
-  border:1px lightgrey; 
+table.dataTable tr.odd {
+  background-color: white;
+  border:1px lightgrey;
+}
+
+table.dataTable tr.even {
+  background-color: white;
+  border:1px lightgrey;
 }
