@@ -71,7 +71,7 @@ Download the complete dataset using the links below.
 |[mid-2018_population_estimates_oa](mid-2018_population_estimates_oa.csv) |CSV |
 
 ## Pre-processing
-The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.<br /><br />
+The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.Rmd) used to process the data can adapted to other areas.<br /><br />
 </main>
 
 <script>
