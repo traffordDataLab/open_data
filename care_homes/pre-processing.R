@@ -17,7 +17,7 @@ df <- read_csv("https://www.cqc.org.uk/sites/default/files/15_April_2020_CQC_dir
          `Local Authority` == "Trafford") %>%
   select(name = Name, cqc_id = `CQC Location (for office use only`, type = `Service types`, 
          address = Address, postcode = Postcode, telephone = `Phone number`, website = `Service's website (if available)`, 
-         provider = `Provider name`, inspection_date = `Date of latest check`,
+         provider = `Provider name`, inspection_date = `Date of latest check`, `cqc_webpage` = `Location URL`,
          area_name = `Local Authority`) %>% 
   mutate(inspection_date = as.POSIXct(inspection_date, format = "%d/%m/%Y - %H:%M", tz = Sys.timezone()),
          inspection_date = as.Date(inspection_date),
