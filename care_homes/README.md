@@ -1,4 +1,3 @@
-<a href="trafford_care_homes.geojson"><img src="thumbnail.png" alt="Care homes" width="600"/></a>
 <table>
 <tr>
 	<td>Dataset name</td>
@@ -6,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Nursing and residential care homes in Trafford and Greater Manchester</td>
+	<td>Nursing and residential care homes in Trafford </td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -14,11 +13,7 @@
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td>Care Quality Commission</td>
-</tr>
-<tr>
-	<td>Publisher URL</td>
-	<td><a href="http://www.cqc.org.uk/about-us/transparency/using-cqc-data"></a>http://www.cqc.org.uk/about-us/transparency/using-cqc-data</td>
+	<td><a href="http://www.cqc.org.uk/about-us/transparency/using-cqc-data">Care Quality Commission</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -26,11 +21,11 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Trafford, Greater Manchester</td>
+	<td>Trafford</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2019-07-17</td>
+	<td>As of 2020-04-15</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -42,11 +37,11 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Uses information from the Care Quality Commission.</td>
+	<td>Contains public sector information licensed under the Open Government Licence v3.0</td>
 </tr>
 <tr>
 	<td>Format</td>
-	<td>CSV, GeoJSON</td>
+	<td>CSV</td>
 </tr>
 <tr>
 	<td>Openness rating</td>
@@ -54,14 +49,6 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2019-08-12</td>
-</tr>
-<tr>
-	<td>Notes</td>
-	<td></td>
-</tr>
-<tr>
-	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/#dataset=care_homes">Explore application</a>.</td>
+	<td>April 2020</td>
 </tr>
 </table>

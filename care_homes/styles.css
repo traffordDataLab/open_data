@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  margin-right: 100px;
+}
+
+div {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .header {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #fc6721;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fc6721;
+  text-decoration: underline;
+}
+
+a:focus {
+  color: #fc6721;
+  text-decoration: none;
+  outline: none;
+  outline-offset: 0;
+}
+
+th, td {
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+  font-size: 1.1em;
+  padding: 2px;
+}
+
+th {
+  text-align: left;
+}
+
+div.dt-buttons {
+  float: right;
+}
