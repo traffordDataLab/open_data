@@ -22,6 +22,7 @@ df <- read_csv("https://www.cqc.org.uk/sites/default/files/15_April_2020_CQC_dir
   mutate(inspection_date = as.POSIXct(inspection_date, format = "%d/%m/%Y - %H:%M", tz = Sys.timezone()),
          inspection_date = as.Date(inspection_date),
          area_code = "E0800009") %>% 
+  arrange(name) %>% 
   left_join(., postcodes, by = "postcode")
 
 # create spatial object  ---------------------------
