@@ -1,7 +1,4 @@
 
-[<img src="thumbnail.png">](trafford_buildings_styled.geojson)
-</br>
-
 <table>
 <tr>
 	<td>Dataset name</td>
@@ -9,11 +6,11 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Buildings in Trafford derived from Ordnance Survey's OpenMap – Local</td>
+	<td>Buildings in Trafford</td>
 </tr>
 <tr>
 	<td>Source</td>
-	<td>Ordnance Survey</td>
+	<td>Ordnance Survey Open Map - Local</td>
 </tr>
 <tr>
 	<td>Publisher</td>
@@ -21,7 +18,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-map-local.html"></a>https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-map-local.html</td>
+	<td><a href="https://www.ordnancesurvey.co.uk/business-government/products/open-map-local"></a>https://www.ordnancesurvey.co.uk/business-government/products/open-map-local</td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -33,7 +30,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>October 2017</td>
+	<td>October 2019</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -45,7 +42,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains OS data © Crown copyright and database right 2018</td>
+	<td>Contains OS data © Crown copyright and database right 2020</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -57,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>March 2018</td>
+	<td>April 2020</td>
 </tr>
 <tr>
 	<td>Notes</td>
