@@ -14,7 +14,8 @@ buildings <- st_read("OS OpenMap Local (ESRI Shape File) SJ/data/SJ_Building.shp
 # UK Local Authority Districts
 # Source: ONS Open Geography Portal
 # URL: https://geoportal.statistics.gov.uk/datasets/local-authority-districts-december-2019-boundaries-uk-bfc
-trafford <- st_read("https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Local_Authority_Districts_December_2019_Boundaries_UK_BFC/MapServer/0/query?where=lad19cd%20%3D%20'E08000009'&outFields=lad19cd,lad19nm&outSR=27700&f=geojson")
+trafford <- st_read("https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Local_Authority_Districts_December_2019_Boundaries_UK_BFC/MapServer/0/query?where=lad19cd%20%3D%20'E08000009'&outFields=lad19cd,lad19nm&outSR=27700&f=geojson") %>% 
+  rename(area_code = lad19cd, area_name = lad19nm)
 
 # intersect data ---------------------------
 trafford_buildings <- st_intersection(buildings, trafford)
