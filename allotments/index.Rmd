@@ -52,12 +52,12 @@ datatable(df,
               list(className = 'dt-left', targets = "_all")
               )))
 ```
-<div style="text-align: center; color: #555;">
-  <em>Allotments in Trafford</em>
+<div id="tableFooterTitle">
+  Allotments in Trafford
 </div>
 
 ## Data
-Download the complete dataset using the links below.
+Download the complete dataset using the following links:
 
 |File name |Format |
 |:---|:---|
