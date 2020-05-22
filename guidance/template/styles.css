@@ -1,74 +1,129 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto');
 
-@font-face {
-  font-family: 'Open Sans', sans-serif;
+html, body
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
 }
 
-.title {
-  margin-right: 100px;
+.title
+{
+    margin-right: 100px;
 }
 
-div {
-  font-family: 'Open Sans', sans-serif;
+h1, h2, h3, h4, h5, h6, th
+{
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
 }
 
-h1, h2, h3, h4, h5, h6, .header {
-  font-family: 'Open Sans', sans-serif;
-}
-
-h2 {
+h2
+{
   font-size: 1.75em;
 }
 
-a {
-  color: #db3a00;
+a
+{
+  color: #046dc3;
   text-decoration: none;
 }
 
-a:hover {
-  color: #db3a00;
+a:hover
+{
+  color: #046dc3;
   text-decoration: underline;
 }
 
-a:focus {
-  color: #db3a00;
-  text-decoration: none;
-  outline: none;
-  outline-offset: 0;
-}
-
-th, td {
-  font-family: 'Open Sans', sans-serif;
-  color: #757575;
+th
+{
+  text-align: left;
   font-size: 1.1em;
   padding: 2px;
 }
 
-th {
-  text-align: left;
-}
-
-div.dt-buttons {
+div.dt-buttons
+{
   float: right;
   margin-top: 10px;
 }
 
-table.dataTable td.sorting_1 {
+table.dataTable td.sorting_1
+{
   background-color: white;
   border:1px lightgrey;
 }
 
-table.dataTable td {
+table.dataTable td
+{
   background-color: white;
   border:1px lightgrey;
 }
 
-table.dataTable tr.odd {
+table.dataTable tr.odd
+{
   background-color: white;
   border:1px lightgrey;
 }
 
-table.dataTable tr.even {
+table.dataTable tr.even
+{
   background-color: white;
   border:1px lightgrey;
+}
+
+#tableFooterTitle
+{
+    text-align: center;
+    color: #555;
+    font-style: italic;
+}
+
+/* The following are to style the download button like .labButton. ALL RULES ARE REQUIRED IN ORDER TO OVERRIDE BOOTSTRAP */
+button.dt-button,
+div.dt-button,
+a.dt-button
+{
+    background-image: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: #707070;
+    color: #fff;
+    text-align: center;
+    filter: none;
+}
+
+button.dt-button:hover:not(.disabled),
+div.dt-button:hover:not(.disabled),
+a.dt-button:hover:not(.disabled)
+{
+    background-image: none;
+    background-color: #707070;
+    filter: none;
+}
+
+button.dt-button:focus:not(.disabled),
+div.dt-button:focus:not(.disabled),
+a.dt-button:focus:not(.disabled)
+{
+    border: 1px solid #ccc;
+    text-shadow: none;
+    outline: 1px dotted #212121;
+    outline: 5px auto -webkit-focus-ring-color;
+    background-image: none;
+    background-color: #707070;
+    filter: none;
+}
+
+/* These are the labBorder styles for input boxes as well as buttons styled like .labButtons */
+input[type=search], button.dt-button, div.dt-button, a.dt-button
+{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type=search]:hover, .dt-button:hover
+{
+    border: 1px solid #5d77a3;
+    box-shadow: 0 0 5px #5d77a3;
 }
