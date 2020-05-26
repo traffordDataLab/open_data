@@ -1,14 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto');
 
+/* Styles in this section from base.css except .labButton/.labBorder declarations which appear in a modified form in the custom CSS below this section. */
+
 html, body
 {
+    padding: 0;
+    margin: 0;
+    height: 100%;
     font-family: 'Open Sans', sans-serif;
     color: #212121;
 }
 
-.title
+/* HTML5 fallback styles for older browsers */
+main, section, header, footer, nav, figure, figcaption, time
 {
-    margin-right: 100px;
+    display: block;
+    box-sizing: border-box;
+}
+/* ---------------------------------------- */
+
+a, .themeLink
+{
+    color: #046dc3;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #046dc3; /* has to be re-specified here in order to overide Bootstrap */
+    text-decoration: underline;
+}
+
+/* For areas of block colour such as div "card" layouts with no images, info panels, banners etc. */
+.themeBlockDark
+{
+    background-color: #5d77a3;
+    color: #000;
+}
+
+.themeBlockDark a, a .themeBlockDark    /* Links within a .themeBlockDark area need to be white for contrast. The "mirror" declaration here ensures that any .themeBlockDark content surrounded by a link is also rendered white */
+{
+    color: #fff;
+}
+
+.themeBlockLight
+{
+    background-color: #f5f9ff;
 }
 
 h1, h2, h3, h4, h5, h6, th
@@ -17,21 +54,12 @@ h1, h2, h3, h4, h5, h6, th
     color: #707070;
 }
 
+/* ------------------------------------ */
+
+/* Custom styles for data preview pages */
 h2
 {
   font-size: 1.75em;
-}
-
-a
-{
-  color: #046dc3;
-  text-decoration: none;
-}
-
-a:hover
-{
-  color: #046dc3;
-  text-decoration: underline;
 }
 
 th
@@ -69,6 +97,19 @@ table.dataTable tr.even
 {
   background-color: white;
   border:1px lightgrey;
+}
+
+.title
+{
+    margin-right: 100px;
+}
+
+.traffordDataLabLogo
+{
+    position: absolute;
+    top:0;
+    right:0;
+    padding:5px;
 }
 
 #tableFooterTitle
@@ -127,3 +168,36 @@ input[type=search]:hover, .dt-button:hover
     border: 1px solid #5d77a3;
     box-shadow: 0 0 5px #5d77a3;
 }
+
+/* Accessibility skip links - these are positioned off screen not hidden, so that they can be read out as well as focussed using keyboard */
+#a11yNav
+{
+    position: absolute;
+	top: -30em;
+	z-index: 333;
+}
+
+#a11yNav a
+{
+    position: absolute;
+    left: 0;
+    width: 20em;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding: 0.75em 0;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+#a11yNav a:hover
+{
+    text-decoration: underline;
+}
+
+#a11yNav a:focus, #a11yNav a:hover
+{
+    top: 30.25em;
+    left: -11.25em;
+}
+/* -------------------------------- */
