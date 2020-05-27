@@ -99,6 +99,23 @@ table.dataTable tr.even
   border:1px lightgrey;
 }
 
+table#metadata
+{
+    width: 100%;
+}
+
+table#metadata th
+{
+    width: 14%;
+}
+
+#tableFooterTitle
+{
+    text-align: center;
+    color: #555;
+    font-style: italic;
+}
+
 .title
 {
     margin-right: 100px;
@@ -110,13 +127,6 @@ table.dataTable tr.even
     top:0;
     right:0;
     padding:5px;
-}
-
-#tableFooterTitle
-{
-    text-align: center;
-    color: #555;
-    font-style: italic;
 }
 
 /* The following are to style the download button like .labButton. ALL RULES ARE REQUIRED IN ORDER TO OVERRIDE BOOTSTRAP */

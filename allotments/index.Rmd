@@ -26,9 +26,28 @@ df <- read_csv("trafford_allotments.csv") %>%
 <main>
 <h2>Metadata</h2>
 
-| Source | Publisher | Time period | Geography | Licence | Attribution | Last updated |
-|---|---|---|---|---|---|---|
-|Trafford Council and OpenStreetMap |<a href="https://www.trafford.gov.uk/residents/leisure-and-lifestyle/parks-and-open-spaces/allotments/allotments-in-trafford.aspx" target="_blank">Trafford Council</a> |NA |Vector boundaries |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a>; <a href="https://www.openstreetmap.org/copyright" target="_blank">Open Data Commons Open Database License (ODbL)</a> |Contains public sector information licensed under the Open Government Licence v3.0; © OpenStreetMap contributors (ODbL) |2019-04-10 |
+<table id="metadata" class="table table-condensed">
+  <thead>
+    <tr class="header">
+      <th>Source</th>
+      <th>Publisher</th>
+      <th>Time period</th>
+      <th>Geography</th>
+      <th>Licence</th>
+      <th>Attribution</th>
+      <th>Last updated</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Trafford Council and OpenStreetMap</td>
+    <td><a href="https://www.trafford.gov.uk/residents/leisure-and-lifestyle/parks-and-open-spaces/allotments/allotments-in-trafford.aspx" target="_blank">Trafford Council</a></td>
+    <td>NA</td>
+    <td>Vector boundaries</td>
+    <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a>; <a href="https://www.openstreetmap.org/copyright" target="_blank">Open Data Commons Open Database License (ODbL)</a></td>
+    <td>Contains public sector information licensed under the Open Government Licence v3.0; © OpenStreetMap contributors (ODbL)</td>
+    <td><time datetime="2019-04-10">2019-04-10</time></td>
+  </tr>
+</table>
 
 <h2>Preview</h2>
 Sort, filter and export a selection of the data using the table. An <a href="https://www.trafforddatalab.io/explore/#dataset=allotments" target="_blank">interactive map</a> is also available.
