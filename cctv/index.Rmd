@@ -16,20 +16,41 @@ df <- read_csv("trafford_cctv_cameras.csv") %>%
   rename_all(. %>% str_to_title() %>% str_replace_all("_", " "))
 ```
 <header>
-<a href="https://www.trafforddatalab.io/data"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" width="100" border="0" style="position:absolute; top:0; right:0; padding:5px;"/></a>
+<span id="a11yNav"><a href="#downloads" class="themeBlockDark">Skip to downloads</a></span>
+<a href="https://www.trafforddatalab.io/data.html"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" aria-label="Return to Trafford Data Lab data page" width="100" class="traffordDataLabLogo"/></a>
 
-# CCTV
+<h1>CCTV</h1>
 *The location of Local Authority controlled CCTV cameras in Trafford.*
-<br />
+
 </header>
+
 <main>
-## Metadata
+<h2>Metadata</h2>
 
-|Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
-|:---|:---|:---|:---|:---|:---|:---|
-|Trafford Council |<a href="https://www.trafforddatalab.io/open_data/cctv" target="_blank">Trafford Council</a> |2018-05 |Point data |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |2019-04-12 |
+<table id="metadata" class="table table-condensed">
+  <thead>
+    <tr class="header">
+      <th>Source</th>
+      <th>Publisher</th>
+      <th>Time period</th>
+      <th>Geography</th>
+      <th>Licence</th>
+      <th>Attribution</th>
+      <th>Last updated</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Trafford Council</td>
+    <td><a href="https://www.trafforddatalab.io/open_data/cctv" target="_blank">Trafford Council</a></td>
+    <td><time datetime="2018-05">2018-05</time></td>
+    <td>Point data</td>
+    <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
+    <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
+    <td><time datetime="2019-04-12">2019-04-12</time></td>
+  </tr>
+</table>
 
-## Preview
+<h2>Preview</h2>
 Sort, filter and export a selection of the data using the table. An <a href="https://www.trafforddatalab.io/explore/#dataset=cctv" target="_blank">interactive map</a> is also available.
 
 ```{r preview}
@@ -53,20 +74,19 @@ datatable(df,
               list(className = 'dt-left', targets = "_all")
               )))
 ```
-<div style="text-align: center; color: #555;">
-  <em>Local Authority controlled CCTV cameras in Trafford</em>
-</div>
+<div id="tableFooterTitle">Local Authority controlled CCTV cameras in Trafford</div>
 
-## Data
-Download the complete dataset using the links below.
+<h2>Data</h2>
+<span id ="downloads">Download the complete dataset using the following links:</span>
 
 |File name |Format |
-|:---|:---|
-|[trafford_cctv_cameras](trafford_cctv_cameras.csv) |CSV |
-|[trafford_cctv_cameras](trafford_cctv_cameras.geojson) |GeoJSON |
+|---|---|
+|[trafford_cctv_cameras.csv](trafford_cctv_cameras.csv) |CSV |
+|[trafford_cctv_cameras.geojson](trafford_cctv_cameras.geojson) |GeoJSON |
 
-## Pre-processing
-The <a href="https://cran.r-project.org" target="_blank">R</a> [script](pre-processing.R) used to process the data can adapted to other areas.<br /><br />
+<h2>Pre-processing</h2>
+[The R script used to process the data](pre-processing.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
+
 </main>
 
 <script>

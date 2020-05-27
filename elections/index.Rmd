@@ -1,5 +1,5 @@
 ---
-pagetitle: "Trafford Council local election results"
+pagetitle: "Local election results"
 lang: "en-GB"
 output:
   html_document:
@@ -16,20 +16,41 @@ df <- read_csv("trafford_council_election_results.csv") %>%
 ```
 
 <header>
-<a href="https://www.trafforddatalab.io/data"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" width="100" border="0" style="position:absolute; top:0; right:0; padding:5px;"/></a>
+<span id="a11yNav"><a href="#downloads" class="themeBlockDark">Skip to downloads</a></span>
+<a href="https://www.trafforddatalab.io/data.html"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" aria-label="Return to Trafford Data Lab data page" width="100" class="traffordDataLabLogo"/></a>
 
-# Trafford Council local election results
+<h1>Local election results</h1>
 *Results from Trafford council local elections/by-elections from 2016 onwards*
-<br />
+
 </header>
+
 <main>
-## Metadata
+<h2>Metadata</h2>
 
-|Source |Publisher |Time period |Geography |Licence |Attribution |Last updated |
-|:---|:---|:---|:---|:---|:---|:---|
-|Trafford Council |<a href="https://www.trafford.gov.uk/about-your-council/elections/election-results.aspx" target="_blank">Trafford Council</a> |2016 - 2019 |Electoral Ward |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |Contains public sector information licensed under the Open Government Licence v3.0 |2019-07-09 |
+<table id="metadata" class="table table-condensed">
+  <thead>
+    <tr class="header">
+      <th>Source</th>
+      <th>Publisher</th>
+      <th>Time period</th>
+      <th>Geography</th>
+      <th>Licence</th>
+      <th>Attribution</th>
+      <th>Last updated</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Trafford Council</td>
+    <td><a href="https://www.trafford.gov.uk/about-your-council/elections/election-results.aspx" target="_blank">Trafford Council</a></td>
+    <td>2016-2019</td>
+    <td>Electoral Ward</td>
+    <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
+    <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
+    <td><time datetime="2019-07-09">2019-07-09</time></td>
+  </tr>
+</table>
 
-## Preview
+<h2>Preview</h2>
 Sort, filter and export a selection of the data using the table. Visualisations can be found in our <a href="https://github.com/traffordDataLab/analysis/tree/master/local_election" target="_blank">analysis repository</a> on GitHub.
 
 ```{r preview}
@@ -54,20 +75,18 @@ datatable(df,
               list(className = 'dt-left', targets = "_all")
               )))
 ```
-<div style="text-align: center; color: #555;">
-  <em>Results from Trafford council local elections/by-elections</em>
-</div>
+<div id="tableFooterTitle">Results from Trafford council local elections/by-elections</div>
 
-## Data
-Download the complete dataset using the links below.
+<h2>Data</h2>
+<span id ="downloads">Download the complete dataset using the following link:</span>
 
 |File name |Format |
-|:---|:---|
-|[trafford_council_election_results](trafford_council_election_results.csv) |CSV |
+|---|---|
+|[trafford_council_election_results.csv](trafford_council_election_results.csv) |CSV |
 
-## Notes
-Conforms to the specification described in the <a href="http://e-sd.org/vgTJ3" target="_blank">local transparency guidance - publishing elections results data</a> document by the Local Government Association. Validated using the <a href="https://validator.opendata.esd.org.uk/electionresults" target="_blank">Local Government Association data validator tool</a> on 2019-07-09.
-<br /><br />
+<h2>Notes</h2>
+Conforms to the specification described in the <a href="http://e-sd.org/vgTJ3" target="_blank">local transparency guidance - publishing elections results data</a> document by the Local Government Association. Validated using the <a href="https://validator.opendata.esd.org.uk/electionresults" target="_blank">Local Government Association data validator tool</a> on <time datetime="2019-07-09">2019-07-09</time>.
+
 </main>
 
 <script>
