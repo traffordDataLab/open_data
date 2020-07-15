@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "trafford_food_establishments",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Robert Wiseman Dairies", "activity": "Processing Plant (Dairy)", "address": "Lake Road, Trafford Park", "postcode": "M17 1TU" }, "geometry": { "type": "Point", "coordinates": [ -2.313945, 53.47547 ] } },
+{ "type": "Feature", "properties": { "name": "Continental Fine Foods Ltd", "activity": "Re-Wrappingand repackaging establishment  Processing Plant (Dairy)  Processing Plant (Meat)  Processing Plant (Gelatine)", "address": "Hibernia Way, Barton Dock Road, Trafford Park", "postcode": "M32 0ZD" }, "geometry": { "type": "Point", "coordinates": [ -2.328178, 53.461185 ] } },
+{ "type": "Feature", "properties": { "name": "Continental Fine Foods Ltd", "activity": "Processing Plant (Dairy)  Processing Plant (Meat)  Processing Plant (Gelatine)", "address": "Centenary Link, Guinness Circle, Trafford Park", "postcode": "M17 1EB" }, "geometry": { "type": "Point", "coordinates": [ -2.327425, 53.474698 ] } },
+{ "type": "Feature", "properties": { "name": "J. Priestner Partnership", "activity": "Packing Centre (Egg)", "address": "Midlands Farm Moss Lane, Warburton, Lymm", "postcode": "WA13 9TX" }, "geometry": { "type": "Point", "coordinates": [ -2.420993, 53.408456 ] } },
+{ "type": "Feature", "properties": { "name": "XPO Supply Chain UK Ltd", "activity": "Cold Store", "address": "Mosley Road, Stretford", "postcode": "M17 1NR" }, "geometry": { "type": "Point", "coordinates": [ -2.315889, 53.469246 ] } },
+{ "type": "Feature", "properties": { "name": "Jawads Frozen Foods Limited", "activity": "Processing Plant (Meat)", "address": "Unit 4-5, Caxton Park, Wright Street", "postcode": "M16 9EW" }, "geometry": { "type": "Point", "coordinates": [ -2.270086, 53.465754 ] } },
+{ "type": "Feature", "properties": { "name": "Gate Gourmet", "activity": "Processing Plant (Meat)  Processing Plant (Fish)", "address": "Units K1  K2 & K3  Ashburton Point, Ashburton Road, Trafford Park", "postcode": "M17 1EH" }, "geometry": { "type": "Point", "coordinates": [ -2.333246, 53.469658 ] } },
+{ "type": "Feature", "properties": { "name": "Redhouse Farm", "activity": "Packing Centre (Egg)", "address": "Redhouse Lane", "postcode": "WA14 5RL" }, "geometry": { "type": "Point", "coordinates": [ -2.399779, 53.401671 ] } }
+]
+}
