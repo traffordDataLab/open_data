@@ -14,8 +14,10 @@ postcodes <- read_csv("https://github.com/traffordDataLab/spatial_data/raw/maste
 # load and tidy data ---------------------------
 df <- read_csv("https://fsadata.github.io/approved-food-establishments/data/approved-food-establishments-as-at-1-january-2018.csv") %>% 
   filter(CompetentAuthority == "Trafford") %>% 
-  mutate(address = str_replace_all(paste(Address1, Address2, Address3, sep = ", "), c("NA|NA, |, NA"), "")) %>% 
-  select(name = TradingName, activity = AllActivities, address, postcode = Postcode)
+  mutate(TradingName = case_when(TradingName == "Robert Wiseman Dairies" ~ "Müller Milk & Ingredients", TRUE ~ TradingName), 
+         address = str_replace_all(paste(Address1, Address2, Address3, sep = ", "), c("NA|NA, |, NA"), "")) %>% 
+  select(name = TradingName, activity = AllActivities, address, postcode = Postcode) %>% 
+  filter(name %in% c("Müller Milk & Ingredients", "J. Priestner Partnership", "Gate Gourmet", "Redhouse Farm"))
 
 # manual fill missing data
 df <- df %>% 
