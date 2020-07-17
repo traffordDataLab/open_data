@@ -44,7 +44,7 @@ df <- read_csv("trafford_wholesale_food_businesses.csv")
     <td>Point data</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2020-07-15">2020-07-15</time></td>
+    <td><time datetime="2020-07-17">2020-07-15</time></td>
   </tr>
 </table>
 

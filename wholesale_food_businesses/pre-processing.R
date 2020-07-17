@@ -12,14 +12,14 @@ postcodes <- read_csv("https://github.com/traffordDataLab/spatial_data/raw/maste
   select(-area_code, -area_name, -locality)
 
 # load and tidy data ---------------------------
-df <- read_csv("https://fsadata.github.io/approved-food-establishments/data/approved-food-establishments-as-at-1-january-2018.csv") %>% 
+df <- read_csv("https://fsadata.github.io/approved-food-establishments/data/approved-food-establishments-as-at-1-july-2020.csv") %>% 
   filter(CompetentAuthority == "Trafford") %>% 
-  mutate(TradingName = case_when(TradingName == "Robert Wiseman Dairies" ~ "Müller Milk & Ingredients", TRUE ~ TradingName), 
-         address = str_replace_all(paste(Address1, Address2, Address3, sep = ", "), c("NA|NA, |, NA"), "")) %>% 
-  select(name = TradingName, activity = AllActivities, address, postcode = Postcode) %>% 
-  filter(name %in% c("Müller Milk & Ingredients", "J. Priestner Partnership", "Gate Gourmet", "Redhouse Farm"))
+  mutate(address = str_replace_all(paste(Address1, Address2, Address3, sep = ", "), c("NA|NA, |, NA"), "")) %>% 
+  select(name = TradingName, activity = All_Activities, address, postcode = Postcode) %>% 
+  # since closed
+  filter(name != "XPO Supply Chain UK Ltd")
 
-# manual fill missing data
+# manually fillin  missing data
 df <- df %>% 
   # https://www.yell.com/biz/j-priestner-partnership-lymm-1259009
   mutate(address = case_when(name == "J. Priestner Partnership" ~ "Midlands Farm Moss Lane, Warburton, Lymm", TRUE ~ address),
