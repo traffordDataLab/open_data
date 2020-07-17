@@ -18,7 +18,7 @@ df <- read_csv("trafford_wholesale_food_businesses.csv")
 <a href="https://www.trafforddatalab.io/data.html"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" aria-label="Return to Trafford Data Lab data page" width="100" class="traffordDataLabLogo"/></a>
 
 <h1>Wholesale food businesses</h1>
-*Wholesale food businesses in Trafford supplying food of animal origin that require approval by the <a href="https://www.food.gov.uk/business-guidance/approved-food-establishments" target="_blank">Food Standards Agency</a> under Regulation 853/2004*
+*Wholesale food businesses in Trafford supplying food of animal origin that require approval by the Food Standards Agency under Regulation 853/2004*
 
 </header>
 
