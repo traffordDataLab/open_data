@@ -17,7 +17,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://github.com/traffordDataLab/open_data/tree/master/grants">https://github.com/traffordDataLab/open_data/tree/master/grants</a></td>
+	<td><a href="https://www.trafforddatalab.io/open_data/grants/">https://www.trafforddatalab.io/open_data/grants/</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>November 2017</td>
+	<td>2020-11-11</td>
 </tr>
 <tr>
 	<td>Notes</td>
