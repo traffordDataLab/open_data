@@ -9,8 +9,7 @@
             "awardDate": "2013-01-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2012-04-01T00:00:00+00:00",
-                    "endDate": "2013-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -42,7 +41,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1343",
@@ -53,8 +53,7 @@
             "awardDate": "2013-01-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2012-04-01T00:00:00+00:00",
-                    "endDate": "2013-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -86,7 +85,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1344",
@@ -97,8 +97,7 @@
             "awardDate": "2013-01-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2012-04-01T00:00:00+00:00",
-                    "endDate": "2013-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -130,7 +129,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1345",
@@ -141,8 +141,7 @@
             "awardDate": "2013-01-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2012-04-01T00:00:00+00:00",
-                    "endDate": "2013-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -176,7 +175,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1346",
@@ -187,8 +187,7 @@
             "awardDate": "2013-01-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2012-04-01T00:00:00+00:00",
-                    "endDate": "2013-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -220,7 +219,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1347",
@@ -231,8 +231,7 @@
             "awardDate": "2013-01-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2012-04-01T00:00:00+00:00",
-                    "endDate": "2013-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -265,7 +264,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1348",
@@ -276,8 +276,7 @@
             "awardDate": "2013-01-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2012-04-01T00:00:00+00:00",
-                    "endDate": "2013-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -309,7 +308,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1349",
@@ -320,8 +320,7 @@
             "awardDate": "2013-01-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2012-04-01T00:00:00+00:00",
-                    "endDate": "2013-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -354,7 +353,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1311",
@@ -365,8 +365,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -399,7 +398,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1312",
@@ -410,8 +410,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -443,7 +442,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1313",
@@ -454,8 +454,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -487,7 +486,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1314",
@@ -498,8 +498,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -531,7 +530,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1315",
@@ -542,8 +542,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -575,7 +574,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1316",
@@ -586,8 +586,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -620,7 +619,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1317",
@@ -631,8 +631,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -665,7 +664,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1330",
@@ -676,8 +676,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -710,7 +709,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1331",
@@ -721,8 +721,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -755,7 +754,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1332",
@@ -766,8 +766,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -800,7 +799,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1333",
@@ -811,8 +811,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -844,7 +843,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1334",
@@ -855,8 +855,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -889,7 +888,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1335",
@@ -900,8 +900,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -933,7 +932,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1336",
@@ -944,8 +944,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -977,7 +976,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1337",
@@ -988,8 +988,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1022,7 +1021,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1338",
@@ -1033,8 +1033,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1066,7 +1065,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1339",
@@ -1077,8 +1077,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1112,7 +1111,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1340",
@@ -1123,8 +1123,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1156,7 +1155,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1341",
@@ -1167,8 +1167,7 @@
             "awardDate": "2013-06-22T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1200,7 +1199,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1301",
@@ -1211,8 +1211,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1244,7 +1243,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1302",
@@ -1255,8 +1255,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1288,7 +1287,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1303",
@@ -1299,8 +1299,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1333,7 +1332,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1304",
@@ -1344,8 +1344,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1377,7 +1376,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1305",
@@ -1388,8 +1388,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1421,7 +1420,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1306",
@@ -1432,8 +1432,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1466,7 +1465,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1307",
@@ -1477,8 +1477,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1510,7 +1509,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1308",
@@ -1521,8 +1521,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1554,7 +1553,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1309",
@@ -1565,8 +1565,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1599,7 +1598,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1310",
@@ -1610,8 +1610,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1643,7 +1642,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1318",
@@ -1654,8 +1654,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1687,7 +1686,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1319",
@@ -1698,8 +1698,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1732,7 +1731,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1320",
@@ -1743,8 +1743,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1776,7 +1775,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1321",
@@ -1787,8 +1787,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1820,7 +1819,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1322",
@@ -1831,8 +1831,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1864,7 +1863,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1323",
@@ -1875,8 +1875,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1908,7 +1907,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1324",
@@ -1919,8 +1919,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1952,7 +1951,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1325",
@@ -1963,8 +1963,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -1996,7 +1995,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1326",
@@ -2007,8 +2007,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2042,7 +2041,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1327",
@@ -2053,8 +2053,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2088,7 +2087,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1328",
@@ -2099,8 +2099,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2132,7 +2131,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG1329",
@@ -2143,8 +2143,7 @@
             "awardDate": "2013-06-29T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2013-04-01T00:00:00+00:00",
-                    "endDate": "2014-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2176,7 +2175,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-UP14001",
@@ -2187,8 +2187,7 @@
             "awardDate": "2014-07-05T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2220,7 +2219,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-UP14002",
@@ -2231,8 +2231,7 @@
             "awardDate": "2014-07-05T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2266,7 +2265,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-UP14006",
@@ -2277,8 +2277,7 @@
             "awardDate": "2014-07-05T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2310,7 +2309,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-UP14010",
@@ -2321,8 +2321,7 @@
             "awardDate": "2014-07-05T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2354,7 +2353,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-UP14012",
@@ -2365,8 +2365,7 @@
             "awardDate": "2014-07-05T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2399,7 +2398,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-UP14015",
@@ -2410,8 +2410,7 @@
             "awardDate": "2014-07-05T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2444,7 +2443,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-UP14016",
@@ -2455,8 +2455,7 @@
             "awardDate": "2014-07-05T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2488,7 +2487,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-UPS14017",
@@ -2499,8 +2499,7 @@
             "awardDate": "2014-07-05T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2532,7 +2531,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-OTS14006",
@@ -2543,8 +2543,7 @@
             "awardDate": "2014-07-12T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2576,7 +2575,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-OTS14010",
@@ -2587,8 +2587,7 @@
             "awardDate": "2014-07-12T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2620,7 +2619,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-OTS14011",
@@ -2631,8 +2631,7 @@
             "awardDate": "2014-07-12T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2665,7 +2664,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-OTS14013",
@@ -2676,8 +2676,7 @@
             "awardDate": "2014-07-12T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2709,7 +2708,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-OTS14014",
@@ -2720,8 +2720,7 @@
             "awardDate": "2014-07-12T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2755,7 +2754,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-OTS14017",
@@ -2766,8 +2766,7 @@
             "awardDate": "2014-07-12T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2799,7 +2798,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-OTS14021",
@@ -2810,8 +2810,7 @@
             "awardDate": "2014-07-12T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2844,7 +2843,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-OTS14022",
@@ -2855,8 +2855,7 @@
             "awardDate": "2014-07-12T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2888,7 +2887,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-OTS14023",
@@ -2899,8 +2899,7 @@
             "awardDate": "2014-07-12T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2932,7 +2931,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-OTS14027",
@@ -2943,8 +2943,7 @@
             "awardDate": "2014-07-12T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -2977,7 +2976,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-STH14003",
@@ -2988,8 +2988,7 @@
             "awardDate": "2014-07-19T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3023,7 +3022,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-STH14008",
@@ -3034,8 +3034,7 @@
             "awardDate": "2014-07-19T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3067,7 +3066,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-STH14014",
@@ -3078,8 +3078,7 @@
             "awardDate": "2014-07-19T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3112,7 +3111,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-STH14015",
@@ -3123,8 +3123,7 @@
             "awardDate": "2014-07-19T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3156,7 +3155,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-STH14017",
@@ -3167,8 +3167,7 @@
             "awardDate": "2014-07-19T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3201,7 +3200,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-STH14018",
@@ -3212,8 +3212,7 @@
             "awardDate": "2014-07-19T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3245,7 +3244,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-STH14020",
@@ -3256,8 +3256,7 @@
             "awardDate": "2014-07-19T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3290,7 +3289,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-STH14022",
@@ -3301,8 +3301,7 @@
             "awardDate": "2014-07-19T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3334,7 +3333,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-SAL14006",
@@ -3345,8 +3345,7 @@
             "awardDate": "2014-09-06T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3378,7 +3377,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-SAL14007",
@@ -3389,8 +3389,7 @@
             "awardDate": "2014-09-06T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3422,7 +3421,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-SAL14010",
@@ -3433,8 +3433,7 @@
             "awardDate": "2014-09-06T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3466,7 +3465,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-SAL14012",
@@ -3477,8 +3477,7 @@
             "awardDate": "2014-09-06T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3512,7 +3511,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-SAL14015",
@@ -3523,8 +3523,7 @@
             "awardDate": "2014-09-06T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3558,7 +3557,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-SAL14018",
@@ -3569,8 +3569,7 @@
             "awardDate": "2014-09-06T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3602,7 +3601,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-SAL14023",
@@ -3613,8 +3613,7 @@
             "awardDate": "2014-09-06T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3646,7 +3645,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-SAL14027",
@@ -3657,8 +3657,7 @@
             "awardDate": "2014-09-06T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3690,7 +3689,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-SAL14032",
@@ -3701,8 +3701,7 @@
             "awardDate": "2014-09-06T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2014-04-01T00:00:00+00:00",
-                    "endDate": "2015-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3734,7 +3733,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-UP-17001",
@@ -3745,8 +3745,7 @@
             "awardDate": "2017-06-10T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3778,7 +3777,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-UP-17002",
@@ -3789,8 +3789,7 @@
             "awardDate": "2017-06-10T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3822,7 +3821,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-UP-17003",
@@ -3833,8 +3833,7 @@
             "awardDate": "2017-06-10T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3866,7 +3865,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-UP-17004",
@@ -3877,8 +3877,7 @@
             "awardDate": "2017-06-10T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3910,7 +3909,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-UP-17005",
@@ -3921,8 +3921,7 @@
             "awardDate": "2017-06-10T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3954,7 +3953,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-UP-17006",
@@ -3965,8 +3965,7 @@
             "awardDate": "2017-06-10T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -3999,7 +3998,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-STH-17007",
@@ -4010,8 +4010,7 @@
             "awardDate": "2017-06-17T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4044,7 +4043,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-STH-17008",
@@ -4055,8 +4055,7 @@
             "awardDate": "2017-06-17T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4089,7 +4088,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-STH-17009",
@@ -4100,8 +4100,7 @@
             "awardDate": "2017-06-17T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4134,7 +4133,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-STH-17010",
@@ -4145,8 +4145,7 @@
             "awardDate": "2017-06-17T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4180,7 +4179,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-STH-17011",
@@ -4191,8 +4191,7 @@
             "awardDate": "2017-06-17T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4225,7 +4224,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-STH-17012",
@@ -4236,8 +4236,7 @@
             "awardDate": "2017-06-17T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4271,7 +4270,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-STH-17013",
@@ -4282,8 +4282,7 @@
             "awardDate": "2017-06-17T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4315,7 +4314,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-STH-17014",
@@ -4326,8 +4326,7 @@
             "awardDate": "2017-06-17T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4360,7 +4359,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-STH-17015",
@@ -4371,8 +4371,7 @@
             "awardDate": "2017-06-17T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4405,7 +4404,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-STH-17016",
@@ -4416,8 +4416,7 @@
             "awardDate": "2017-06-17T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4451,7 +4450,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-SAL-17017",
@@ -4462,8 +4462,7 @@
             "awardDate": "2017-06-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4495,7 +4494,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-SAL-17018",
@@ -4506,8 +4506,7 @@
             "awardDate": "2017-06-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4541,7 +4540,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-SAL-17019",
@@ -4552,8 +4552,7 @@
             "awardDate": "2017-06-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4587,7 +4586,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-SAL-17020",
@@ -4598,8 +4598,7 @@
             "awardDate": "2017-06-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4633,7 +4632,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-SAL-17021",
@@ -4644,8 +4644,7 @@
             "awardDate": "2017-06-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4678,7 +4677,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-SAL-17022",
@@ -4689,8 +4689,7 @@
             "awardDate": "2017-06-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4722,7 +4721,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-SAL-17023",
@@ -4733,8 +4733,7 @@
             "awardDate": "2017-06-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4766,7 +4765,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-SAL-17024",
@@ -4777,8 +4777,7 @@
             "awardDate": "2017-06-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4810,7 +4809,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-SAL-17025",
@@ -4821,8 +4821,7 @@
             "awardDate": "2017-06-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4854,7 +4853,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-SAL-17026",
@@ -4865,8 +4865,7 @@
             "awardDate": "2017-06-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4898,7 +4897,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-SAL-17027",
@@ -4909,8 +4909,7 @@
             "awardDate": "2017-06-18T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4943,7 +4942,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-OTS-17028",
@@ -4954,8 +4954,7 @@
             "awardDate": "2017-06-24T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -4987,7 +4986,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-OTS-17029",
@@ -4998,8 +4998,7 @@
             "awardDate": "2017-06-24T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -5033,7 +5032,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-OTS-17030",
@@ -5044,8 +5044,7 @@
             "awardDate": "2017-06-24T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -5078,7 +5077,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-OTS-17031",
@@ -5089,8 +5089,7 @@
             "awardDate": "2017-06-24T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -5124,7 +5123,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-OTS-17032",
@@ -5135,8 +5135,7 @@
             "awardDate": "2017-06-24T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -5170,7 +5169,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-OTS-17033",
@@ -5181,8 +5181,7 @@
             "awardDate": "2017-06-24T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -5214,7 +5213,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-OTS-17034",
@@ -5225,8 +5225,7 @@
             "awardDate": "2017-06-24T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -5258,7 +5257,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-OTS-17035",
@@ -5269,8 +5269,7 @@
             "awardDate": "2017-06-24T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -5302,7 +5301,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-OTS-17036",
@@ -5313,8 +5313,7 @@
             "awardDate": "2017-06-24T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -5347,7 +5346,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-OTS-17037",
@@ -5358,8 +5358,7 @@
             "awardDate": "2017-06-24T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -5391,7 +5390,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         },
         {
             "id": "360G-traffordmbc-VSG-OTS-17038",
@@ -5402,8 +5402,7 @@
             "awardDate": "2017-06-24T00:00:00+00:00",
             "plannedDates": [
                 {
-                    "startDate": "2017-04-01T00:00:00+00:00",
-                    "endDate": "2018-03-31T00:00:00+00:00"
+                    "duration": 12
                 }
             ],
             "recipientOrganization": [
@@ -5435,7 +5434,8 @@
                 }
             ],
             "fromOpenCall": "Yes",
-            "dateModified": "2017-11-28T00:00:00+00:00"
+            "dateModified": "2020-11-11T00:00:00+00:00",
+            "dataSource": "https://www.trafforddatalab.io/open_data/grants/"
         }
     ]
 }
