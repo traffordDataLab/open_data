@@ -1,11 +1,11 @@
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Mid-2018 population estimates</td>
+	<td>Mid-2019 population estimates</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Estimates of the usual resident population during mid-2018</td>
+	<td>Estimates of the usual resident population during mid-2019</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -13,7 +13,7 @@
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualmidyearpopulationestimates/mid2018">Office for National Statistics</a></td>
+	<td><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualmidyearpopulationestimates/mid2019">Office for National Statistics</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -25,7 +25,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>Mid-2018</td>
+	<td>Mid-2019</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -49,6 +49,6 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>November 2019</td>
+	<td>November 2020</td>
 </tr>
 </table>
