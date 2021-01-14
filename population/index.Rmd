@@ -83,7 +83,7 @@ datatable(df,
 |File name |Format |
 |---|---|
 |[mid-2019_population_estimates_all_geographies.csv](mid-2019_population_estimates_all_geographies.csv) |CSV |
-|[mid-2019_population_estimates_local_authority.csv](mid-2019_population_estimates_local_authority) |CSV |
+|[mid-2019_population_estimates_local_authority.csv](mid-2019_population_estimates_local_authority.csv) |CSV |
 |[mid-2019_population_estimates_ward.csv](mid-2019_population_estimates_ward.csv) |CSV |
 |[mid-2019_population_estimates_msoa.csv](mid-2019_population_estimates_msoa.csv) |CSV |
 |[mid-2019_population_estimates_lsoa.csv](mid-2019_population_estimates_lsoa.csv) |CSV |
