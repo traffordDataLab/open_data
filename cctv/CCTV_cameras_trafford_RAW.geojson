@@ -5,9 +5,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 1,
-				"featureAlias": "Cam 1 - Trafford Wharf Road",
-				"cameraId": 1,
-				"cameraLocation": "Trafford Wharf Road (Trafford Park)"
+				"featureAlias": "Cam 1 - Trafford Wharf Road, Trafford Park"
 			},
 			"geometry": {
 				"type": "Point",
@@ -20,42 +18,8 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"featureNum": 2,
-				"featureAlias": "Cam 3 - Wharfside Way/John Gilbert Way",
-				"cameraId": 3,
-				"cameraLocation": "Wharfside Way/John Gilbert Way (Trafford Park)"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2.296845,
-					53.466056
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"featureNum": 3,
-				"featureAlias": "Cam 5 - Chester Rd White City)",
-				"cameraId": 5,
-				"cameraLocation": "Chester Rd White City (Old Trafford)"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2.284086,
-					53.462683
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"featureNum": 4,
-				"featureAlias": "Cam 6 - Chester Rd/Sir Matt Busby Way",
-				"cameraId": 6,
-				"cameraLocation": "Chester Rd/Sir Matt Busby Way (Old Trafford)"
+				"featureAlias": "Cam 6 - Chester Road/Sir Matt Busby Way, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -68,26 +32,8 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"featureNum": 5,
-				"featureAlias": "Cam 7 - Seymour Grove/Kings Rd",
-				"cameraId": 7,
-				"cameraLocation": "Seymour Grove/Kings Rd (Old Trafford)"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2.273636,
-					53.454314
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"featureNum": 6,
-				"featureAlias": "Cam 9 - The Quadrant",
-				"cameraId": 9,
-				"cameraLocation": "The Quadrant (Old Trafford)"
+				"featureAlias": "Cam 9 - The Quadrant, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -101,9 +47,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 7,
-				"featureAlias": "Cam 10 - Warwick Road/Talbot Road",
-				"cameraId": 10,
-				"cameraLocation": "Warwick Road/Talbot Road (Old Trafford)"
+				"featureAlias": "Cam 10 - Warwick Road/Talbot Road, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -117,9 +61,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 8,
-				"featureAlias": "Cam 11 - Talbot Road",
-				"cameraId": 11,
-				"cameraLocation": "Talbot Road (Gorse Hill)"
+				"featureAlias": "Cam 11 - Talbot Road, Gorse Hill"
 			},
 			"geometry": {
 				"type": "Point",
@@ -133,9 +75,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 9,
-				"featureAlias": "Cam 13 - Norris Road",
-				"cameraId": 13,
-				"cameraLocation": "Norris Road (Sale Moor)"
+				"featureAlias": "Cam 13 - Norris Road, Sale Moor"
 			},
 			"geometry": {
 				"type": "Point",
@@ -149,9 +89,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 10,
-				"featureAlias": "Cam 15 - Brooklands Metro Station",
-				"cameraId": 15,
-				"cameraLocation": "Brooklands Metro Station (Sale)"
+				"featureAlias": "Cam 15 - Marsland Road (Brooklands Metro Station), Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -165,9 +103,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 11,
-				"featureAlias": "Cam 16 - Goose Green",
-				"cameraId": 16,
-				"cameraLocation": "Goose Green (Altrincham)"
+				"featureAlias": "Cam 16 - Goose Green, Altrincham"
 			},
 			"geometry": {
 				"type": "Point",
@@ -181,9 +117,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 12,
-				"featureAlias": "Cam 24 - Edge Lane",
-				"cameraId": 24,
-				"cameraLocation": "Edge Lane (Stretford)"
+				"featureAlias": "Cam 24 - Edge Lane, Stretford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -197,9 +131,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 13,
-				"featureAlias": "Cam 25 - Subway 1 Chester Rd",
-				"cameraId": 25,
-				"cameraLocation": "Subway 1 Chester Rd (Stretford)"
+				"featureAlias": "Cam 25 - Chester Road (Subway 1), Stretford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -213,9 +145,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 14,
-				"featureAlias": "Cam 26 - Subway 2 Chester Rd",
-				"cameraId": 26,
-				"cameraLocation": "Subway 2 Chester Rd (Stretford)"
+				"featureAlias": "Cam 26 - Chester Road (Subway 2), Stretford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -229,9 +159,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 15,
-				"featureAlias": "Cam 30 - Seymour Grove",
-				"cameraId": 30,
-				"cameraLocation": "Seymour Grove (Old Trafford)"
+				"featureAlias": "Cam 30 - Seymour Grove, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -245,9 +173,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 16,
-				"featureAlias": "Cam 31 - Northumberland Rd",
-				"cameraId": 31,
-				"cameraLocation": "Northumberland Rd (Old Trafford)"
+				"featureAlias": "Cam 31 - Northumberland Road, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -261,9 +187,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 17,
-				"featureAlias": "Cam 32 - Henrietta Street",
-				"cameraId": 32,
-				"cameraLocation": "Henrietta Street (Old Trafford)"
+				"featureAlias": "Cam 32 - Henrietta Street, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -277,9 +201,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 18,
-				"featureAlias": "Cam 33 - Cornbrook Street",
-				"cameraId": 33,
-				"cameraLocation": "Cornbrook Street (Old Trafford)"
+				"featureAlias": "Cam 33 - Cornbrook Street, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -293,9 +215,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 19,
-				"featureAlias": "Cam 35 - Clifton Street",
-				"cameraId": 35,
-				"cameraLocation": "Clifton Street (Old Trafford)"
+				"featureAlias": "Cam 35 - Clifton Street, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -309,9 +229,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 20,
-				"featureAlias": "Cam 36 - Shrewsbury Street",
-				"cameraId": 36,
-				"cameraLocation": "Shrewsbury Street (Old Trafford)"
+				"featureAlias": "Cam 36 - Shrewsbury Street, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -325,9 +243,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 21,
-				"featureAlias": "Cam 37 - Albion St/Prestege St",
-				"cameraId": 37,
-				"cameraLocation": "Albion St/Prestege St (Old Trafford)"
+				"featureAlias": "Cam 37 - Albion Street/Prestege Street, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -341,9 +257,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 22,
-				"featureAlias": "Cam 38 - Powell Street",
-				"cameraId": 38,
-				"cameraLocation": "Powell Street (Old Trafford)"
+				"featureAlias": "Cam 38 - Powell Street, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -357,9 +271,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 23,
-				"featureAlias": "Cam 39 - St Johns Road",
-				"cameraId": 39,
-				"cameraLocation": "St Johns Road (Old Trafford)"
+				"featureAlias": "Cam 39 - St John's Road, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -373,9 +285,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 24,
-				"featureAlias": "Cam 40 - Ayres Rd",
-				"cameraId": 40,
-				"cameraLocation": "Ayres Rd (Old Trafford)"
+				"featureAlias": "Cam 40 - Ayres Road, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -389,9 +299,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 25,
-				"featureAlias": "Cam 60 - Bodmin Road Health Centre",
-				"cameraId": 60,
-				"cameraLocation": "Bodmin Road Health Centre (Sale West)"
+				"featureAlias": "Cam 60 - Plymouth Road/Bodmin Road (Health Centre), Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -405,9 +313,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 26,
-				"featureAlias": "Cam 61 - Magnolia Court - North",
-				"cameraId": 61,
-				"cameraLocation": "Magnolia Court (Sale West)"
+				"featureAlias": "Cam 61 - Magnolia Court (North), Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -421,9 +327,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 27,
-				"featureAlias": "Cam 62 - Magnolia Court - South",
-				"cameraId": 62,
-				"cameraLocation": "Magnolia Court (Sale West)"
+				"featureAlias": "Cam 62 - Magnolia Court (South), Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -437,9 +341,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 28,
-				"featureAlias": "Cam 63 - Epping Drive",
-				"cameraId": 63,
-				"cameraLocation": "Epping Drive (Sale West)"
+				"featureAlias": "Cam 63 - Epping Drive, Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -453,9 +355,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 29,
-				"featureAlias": "Cam 64 - Firsway/Goodwood Ave",
-				"cameraId": 64,
-				"cameraLocation": "Firsway/Goodwood Ave (Sale West)"
+				"featureAlias": "Cam 64 - Firsway/Goodwood Avenue, Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -469,9 +369,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 30,
-				"featureAlias": "Cam 65 - Newbury Ave",
-				"cameraId": 65,
-				"cameraLocation": "Newbury Ave (Sale West)"
+				"featureAlias": "Cam 65 - Newbury Avenue, Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -485,9 +383,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 31,
-				"featureAlias": "Cam 66 - Thirsk Ave",
-				"cameraId": 66,
-				"cameraLocation": "Thirsk Ave (Sale West)"
+				"featureAlias": "Cam 66 - Thirsk Avenue, Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -501,9 +397,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 32,
-				"featureAlias": "Cam 68 - Chepstow Ave",
-				"cameraId": 68,
-				"cameraLocation": "Chepstow Ave (Sale West)"
+				"featureAlias": "Cam 68 - Chepstow Avenue, Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -517,9 +411,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 33,
-				"featureAlias": "Cam 69 - Chepstow/Epsom Ave",
-				"cameraId": 69,
-				"cameraLocation": "Chepstow/Epsom Ave (Sale West)"
+				"featureAlias": "Cam 69 - Chepstow Avenue/Epsom Avenue, Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -533,9 +425,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 34,
-				"featureAlias": "Cam 70 - Hurst Ave",
-				"cameraId": 70,
-				"cameraLocation": "Hurst Ave (Sale West)"
+				"featureAlias": "Cam 70 - Hurst Avenue, Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -549,9 +439,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 35,
-				"featureAlias": "Cam 71 - Ascot Ave",
-				"cameraId": 71,
-				"cameraLocation": "Ascot Ave (Sale West)"
+				"featureAlias": "Cam 71 - Ascot Avenue, Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -565,9 +453,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 36,
-				"featureAlias": "Cam 72 - Manor Ave",
-				"cameraId": 72,
-				"cameraLocation": "Manor Ave (Sale West)"
+				"featureAlias": "Cam 72 - Manor Avenue, Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -581,9 +467,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 37,
-				"featureAlias": "Cam 73 - Lingfield Ave",
-				"cameraId": 73,
-				"cameraLocation": "Lingfield Ave (Sale West)"
+				"featureAlias": "Cam 73 - Lingfield Avenue, Sale West"
 			},
 			"geometry": {
 				"type": "Point",
@@ -597,9 +481,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 38,
-				"featureAlias": "Cam 79 - Briarfield Rd",
-				"cameraId": 79,
-				"cameraLocation": "Briarfield Rd (Altrincham)"
+				"featureAlias": "Cam 79 - Briarfield Road, Altrincham"
 			},
 			"geometry": {
 				"type": "Point",
@@ -613,9 +495,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 39,
-				"featureAlias": "Cam 80 - George Street",
-				"cameraId": 80,
-				"cameraLocation": "George Street (Altrincham)"
+				"featureAlias": "Cam 80 - George Street, Altrincham"
 			},
 			"geometry": {
 				"type": "Point",
@@ -629,9 +509,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 40,
-				"featureAlias": "Cam 81 - Regent/George St",
-				"cameraId": 81,
-				"cameraLocation": "Regent/George St (Altrincham)"
+				"featureAlias": "Cam 81 - Regent Road/George Street, Altrincham"
 			},
 			"geometry": {
 				"type": "Point",
@@ -645,9 +523,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 41,
-				"featureAlias": "Cam 84 - Regend Rd/Stamford New Rd",
-				"cameraId": 84,
-				"cameraLocation": "Regend Rd/Stamford New Rd (Altrincham)"
+				"featureAlias": "Cam 84 - Regent Road/Stamford New Road, Altrincham"
 			},
 			"geometry": {
 				"type": "Point",
@@ -661,9 +537,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 42,
-				"featureAlias": "Cam 87 - Green Lane",
-				"cameraId": 87,
-				"cameraLocation": "Green Lane (Ashton upon Mersey)"
+				"featureAlias": "Cam 87 - Green Lane, Ashton upon Mersey"
 			},
 			"geometry": {
 				"type": "Point",
@@ -677,9 +551,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 43,
-				"featureAlias": "Cam 89 - Northenden Road",
-				"cameraId": 89,
-				"cameraLocation": "Northenden Road (Sale Moor)"
+				"featureAlias": "Cam 89 - Northenden Road, Sale Moor"
 			},
 			"geometry": {
 				"type": "Point",
@@ -693,9 +565,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 44,
-				"featureAlias": "Cam 90 - Manchester Road",
-				"cameraId": 90,
-				"cameraLocation": "Manchester Road (Broadheath)"
+				"featureAlias": "Cam 90 - Manchester Road, Broadheath"
 			},
 			"geometry": {
 				"type": "Point",
@@ -709,9 +579,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 45,
-				"featureAlias": "Cam 91 - Sale Station/Taxi Rank",
-				"cameraId": 91,
-				"cameraLocation": "Sale Station/Taxi Rank (Sale)"
+				"featureAlias": "Cam 91 - Northenden Road/Hope Road (Sale Station/Taxi Rank), Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -725,9 +593,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 46,
-				"featureAlias": "Cam 92 - Sale Town Hall",
-				"cameraId": 92,
-				"cameraLocation": "Sale Town Hall (Sale)"
+				"featureAlias": "Cam 92 - Sale Town Hall, Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -741,9 +607,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 47,
-				"featureAlias": "Cam 93 - School Rd/Claremont Rd",
-				"cameraId": 93,
-				"cameraLocation": "School Rd/Claremont Rd (Sale)"
+				"featureAlias": "Cam 93 - School Road/Claremont Road, Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -757,9 +621,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 48,
-				"featureAlias": "Cam 94 - School Rd/Hereford St",
-				"cameraId": 94,
-				"cameraLocation": "School Rd/Hereford St (Sale)"
+				"featureAlias": "Cam 94 - School Road/Hereford Street, Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -773,9 +635,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 49,
-				"featureAlias": "Cam 95 - School Rd/Hayfield St",
-				"cameraId": 95,
-				"cameraLocation": "School Rd/Hayfield St (Sale)"
+				"featureAlias": "Cam 95 - School Road/Hayfield Street, Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -788,26 +648,8 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"featureNum": 50,
-				"featureAlias": "Cam 151 - Moorside Car Park",
-				"cameraId": 151,
-				"cameraLocation": "Moorside Car Park (Urmston)"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2.356897,
-					53.450961
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"featureNum": 51,
-				"featureAlias": "Cam 152 - Croftsbank Road",
-				"cameraId": 152,
-				"cameraLocation": "Croftsbank Road (Urmston)"
+				"featureAlias": "Cam 152 - Croftsbank Road, Urmston"
 			},
 			"geometry": {
 				"type": "Point",
@@ -821,9 +663,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 52,
-				"featureAlias": "Cam 153 - Flixton Rd/Roseneath Rd",
-				"cameraId": 153,
-				"cameraLocation": "Flixton Rd/Roseneath Rd (Urmston)"
+				"featureAlias": "Cam 153 - Flixton Road/Roseneath Road, Urmston"
 			},
 			"geometry": {
 				"type": "Point",
@@ -837,9 +677,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 53,
-				"featureAlias": "Cam 154 - Flixton Rd (Railway Station)",
-				"cameraId": 154,
-				"cameraLocation": "Flixton Rd - Railway Station (Urmston)"
+				"featureAlias": "Cam 154 - Flixton Road (Railway Station), Urmston"
 			},
 			"geometry": {
 				"type": "Point",
@@ -853,9 +691,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 54,
-				"featureAlias": "Cam 161 - Station Rd/Higher Rd",
-				"cameraId": 161,
-				"cameraLocation": "Station Rd/Higher Rd (Urmston)"
+				"featureAlias": "Cam 161 - Station Road/Higher Road, Urmston"
 			},
 			"geometry": {
 				"type": "Point",
@@ -869,9 +705,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 55,
-				"featureAlias": "Cam 165 - Woodsend Circle",
-				"cameraId": 165,
-				"cameraLocation": "Woodsend Circle (Flixton)"
+				"featureAlias": "Cam 165 - Woodsend Circle, Flixton"
 			},
 			"geometry": {
 				"type": "Point",
@@ -885,9 +719,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 56,
-				"featureAlias": "Cam 170 - Bucklow Ave",
-				"cameraId": 170,
-				"cameraLocation": "Bucklow Ave (Partington)"
+				"featureAlias": "Cam 170 - Bucklow Avenue, Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -901,9 +733,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 57,
-				"featureAlias": "Cam 171 - Moss Lane",
-				"cameraId": 171,
-				"cameraLocation": "Moss Lane (Partington)"
+				"featureAlias": "Cam 171 - Moss Lane, Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -917,9 +747,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 58,
-				"featureAlias": "Cam 173 - Manchester Rd/Redbrook Rd",
-				"cameraId": 173,
-				"cameraLocation": "Manchester Rd/Redbrook Rd (Partington)"
+				"featureAlias": "Cam 173 - Manchester Road/Redbrook Road, Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -933,9 +761,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 59,
-				"featureAlias": "Cam 175 - Tulip Road",
-				"cameraId": 175,
-				"cameraLocation": "Tulip Road (Partington)"
+				"featureAlias": "Cam 175 - Tulip Road, Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -949,9 +775,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 60,
-				"featureAlias": "Cam 176 - Laurel Walk",
-				"cameraId": 176,
-				"cameraLocation": "Laurel Walk (Partington)"
+				"featureAlias": "Cam 176 - Laurel Walk, Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -965,9 +789,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 61,
-				"featureAlias": "Cam 177 - Oak Road-Bus Stop",
-				"cameraId": 177,
-				"cameraLocation": "Oak Road - Bus Stop (Partington)"
+				"featureAlias": "Cam 177 - Oak Road (Bus Stop), Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -981,9 +803,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 62,
-				"featureAlias": "Cam 178 - Oak Road-Park",
-				"cameraId": 178,
-				"cameraLocation": "Oak Road - Park (Partington)"
+				"featureAlias": "Cam 178 - Oak Road (Park), Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -997,9 +817,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 63,
-				"featureAlias": "Cam 179 - Wood Lane/Myrtle Rd",
-				"cameraId": 179,
-				"cameraLocation": "Wood Lane/Myrtle Rd (Partington)"
+				"featureAlias": "Cam 179 - Wood Lane/Myrtle Road, Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1013,9 +831,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 64,
-				"featureAlias": "Cam 180 - Lock Lane/Birch Rd",
-				"cameraId": 180,
-				"cameraLocation": "Lock Lane/Birch Rd (Partington)"
+				"featureAlias": "Cam 180 - Lock Lane/Birch Road, Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1029,9 +845,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 65,
-				"featureAlias": "Cam 181 - Millbank House",
-				"cameraId": 181,
-				"cameraLocation": "Millbank House (Partington)"
+				"featureAlias": "Cam 181 - Millbank House, Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1045,9 +859,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 66,
-				"featureAlias": "Cam 182 - Wood Lane Shops",
-				"cameraId": 182,
-				"cameraLocation": "Wood Lane Shops (Partington)"
+				"featureAlias": "Cam 182 - Wood Lane (Shops), Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1061,9 +873,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 67,
-				"featureAlias": "Cam 184 - Lock Lane/Conniston)",
-				"cameraId": 184,
-				"cameraLocation": "Lock Lane/Conniston (Partington)"
+				"featureAlias": "Cam 184 - Lock Lane/Conniston Road, Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1077,9 +887,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 68,
-				"featureAlias": "Cam 185 - Millenium Clock",
-				"cameraId": 185,
-				"cameraLocation": "Millenium Clock - Manchester Road/Moss Lane (Partington)"
+				"featureAlias": "Cam 185 - Manchester Road/Moss Lane (Millenium Clock), Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1093,9 +901,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 69,
-				"featureAlias": "Cam 186 - Central Road Shops",
-				"cameraId": 186,
-				"cameraLocation": "Central Road Shops (Partington)"
+				"featureAlias": "Cam 186 - Central Road (Shops), Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1109,9 +915,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 70,
-				"featureAlias": "Cam 187 - Oak Road Shops",
-				"cameraId": 187,
-				"cameraLocation": "Oak Road Shops (Partington)"
+				"featureAlias": "Cam 187 - Oak Road (Shops), Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1125,9 +929,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 71,
-				"featureAlias": "Cam 188 - Car Park Rear of Co-op",
-				"cameraId": 188,
-				"cameraLocation": "Car Park Rear of Co-op - Central Road Service Road (Partington)"
+				"featureAlias": "Cam 188 - Central Road/service road (Car Park at rear of shops), Partington"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1141,9 +943,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 72,
-				"featureAlias": "Cam 201 - Sale Water Park PTZ 1",
-				"cameraId": 201,
-				"cameraLocation": "Sale Water Park (Sale)"
+				"featureAlias": "Cam 201 - Sale Water Park 1, Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1157,9 +957,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 73,
-				"featureAlias": "Cam 202 - Sale Water Park PTZ 2",
-				"cameraId": 202,
-				"cameraLocation": "Sale Water Park (Sale)"
+				"featureAlias": "Cam 202 - Sale Water Park 2, Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1173,9 +971,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 74,
-				"featureAlias": "Cam 203 - Sale Water Park PTZ 3",
-				"cameraId": 203,
-				"cameraLocation": "Sale Water Park (Sale)"
+				"featureAlias": "Cam 203 - Sale Water Park 3, Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1189,9 +985,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 75,
-				"featureAlias": "Cam 204 - Sale Water Park PTZ 4",
-				"cameraId": 204,
-				"cameraLocation": "Sale Water Park (Sale)"
+				"featureAlias": "Cam 204 - Sale Water Park 4, Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1205,9 +999,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 76,
-				"featureAlias": "Cam 205 - Sale Water Park Fixed 5 Internal",
-				"cameraId": 205,
-				"cameraLocation": "Sale Water Park (Sale)"
+				"featureAlias": "Cam 205 - Sale Water Park 5 (Internal), Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1221,9 +1013,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 77,
-				"featureAlias": "Cam 206 - Sale Water Park Fixed 6",
-				"cameraId": 206,
-				"cameraLocation": "Sale Water Park (Sale)"
+				"featureAlias": "Cam 206 - Sale Water Park 6 (Internal), Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1237,9 +1027,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 78,
-				"featureAlias": "Cam 207 - Sale Water Park Fixed 7",
-				"cameraId": 207,
-				"cameraLocation": "Sale Water Park (Sale)"
+				"featureAlias": "Cam 207 - Sale Water Park 7 (Internal), Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1253,9 +1041,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 79,
-				"featureAlias": "Cam 208 - Sale Water Park Fixed 8",
-				"cameraId": 208,
-				"cameraLocation": "Sale Water Park (Sale)"
+				"featureAlias": "Cam 208 - Sale Water Park 8 (Internal), Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1268,42 +1054,8 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"featureNum": 80,
-				"featureAlias": "Cam 275 - Kings Rd/Edge Lane",
-				"cameraId": 275,
-				"cameraLocation": "Kings Rd/Edge Lane (Stretford)"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2.302341,
-					53.445465
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"featureNum": 81,
-				"featureAlias": "Cam 276 - Sale Magistrates",
-				"cameraId": 276,
-				"cameraLocation": "Sale Magistrates - School Road/Cross Street (Sale)"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2.325966,
-					53.425703
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"featureNum": 82,
-				"featureAlias": "Cam 277 - Kings Ransom Sale",
-				"cameraId": 277,
-				"cameraLocation": "Kings Ransom - Northenden Road (Sale)"
+				"featureAlias": "Cam 277 - Northenden Road (Kings Ransom), Sale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1317,9 +1069,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 83,
-				"featureAlias": "Cam 278 - Upper Chorlton Rd)",
-				"cameraId": 278,
-				"cameraLocation": "Upper Chorlton Rd (Old Trafford)"
+				"featureAlias": "Cam 278 - Upper Chorlton Road, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1333,9 +1083,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 84,
-				"featureAlias": "Cam 279 - Grove Lane",
-				"cameraId": 279,
-				"cameraLocation": "Grove Lane, Hale (Altrincham)"
+				"featureAlias": "Cam 279 - Grove Lane, Hale"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1349,9 +1097,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 85,
-				"featureAlias": "Cam 280 - Norton Street",
-				"cameraId": 280,
-				"cameraLocation": "Norton Street (Old Trafford)"
+				"featureAlias": "Cam 280 - Norton Street, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1365,9 +1111,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 86,
-				"featureAlias": "Cam 281 - Chester Rd, Gorse Hill",
-				"cameraId": 281,
-				"cameraLocation": "Chester Rd, Gorse Hill (Gorse Hill)"
+				"featureAlias": "Cam 281 - Chester Road, Gorse Hill"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1380,26 +1124,8 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"featureNum": 87,
-				"featureAlias": "Cam 283 - Milton Road/Talbot Road",
-				"cameraId": 283,
-				"cameraLocation": "Milton Road/Talbot Road (Gorse Hill)"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2.296942,
-					53.453648
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"featureNum": 88,
-				"featureAlias": "Cam 284 - Moss Lane, Altrincham",
-				"cameraId": 284,
-				"cameraLocation": "Moss Lane (Altrincham)"
+				"featureAlias": "Cam 284 - Moss Lane, Altrincham"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1413,9 +1139,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 89,
-				"featureAlias": "Cam 286 - Stamford Street",
-				"cameraId": 286,
-				"cameraLocation": "Stamford Street (Old Trafford)"
+				"featureAlias": "Cam 286 - Stamford Street, Old Trafford"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1429,9 +1153,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 90,
-				"featureAlias": "Cam 288 - The Downs",
-				"cameraId": 288,
-				"cameraLocation": "The Downs (Altrincham)"
+				"featureAlias": "Cam 288 - The Downs, Altrincham"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1445,9 +1167,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 91,
-				"featureAlias": "Cam 289 - Lostock Subway - Circle Court",
-				"cameraId": 289,
-				"cameraLocation": "Lostock Subway - Circle Court (Lostock)"
+				"featureAlias": "Cam 289 - Lostock Subway/Circle Court, Lostock"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1461,9 +1181,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 92,
-				"featureAlias": "Cam 292 - Rippon Road",
-				"cameraId": 292,
-				"cameraLocation": "Rippon Road (Lostock)"
+				"featureAlias": "Cam 292 - Rippon Road, Lostock"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1477,9 +1195,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 93,
-				"featureAlias": "Cam 293 - Shaws Road, Altrincham Market",
-				"cameraId": 293,
-				"cameraLocation": "Shaws Road, Altrincham Market (Altrincham)"
+				"featureAlias": "Cam 293 - Shaw's Road (Altrincham Market), Altrincham"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1492,26 +1208,8 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"featureNum": 94,
-				"featureAlias": "Cam 294 - Stamford Park",
-				"cameraId": 294,
-				"cameraLocation": "Stamford Park (Altrincham)"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2.343039,
-					53.383295
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"featureNum": 95,
-				"featureAlias": "Cam 295 - Mainswood Road",
-				"cameraId": 295,
-				"cameraLocation": "Mainswood Road (Timperley)"
+				"featureAlias": "Cam 295 - Mainswood Road, Timperley"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1525,9 +1223,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 96,
-				"featureAlias": "Cam 296 - Goose Green/Cinema",
-				"cameraId": 296,
-				"cameraLocation": "Goose Green/Cinema (Altrincham)"
+				"featureAlias": "Cam 296 - Goose Green (Cinema), Altrincham"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1541,9 +1237,7 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 97,
-				"featureAlias": "Cam 297 - Altrincham Taxi Rank",
-				"cameraId": 297,
-				"cameraLocation": "Altrincham Taxi Rank (Altrincham)"
+				"featureAlias": "Cam 297 - Stamford New Road (Taxi Rank), Altrincham"
 			},
 			"geometry": {
 				"type": "Point",
@@ -1557,15 +1251,139 @@
 			"type": "Feature",
 			"properties": {
 				"featureNum": 98,
-				"featureAlias": "Cam 299 - Craven Road",
-				"cameraId": 299,
-				"cameraLocation": "Craven Road (Broadheath)"
+				"featureAlias": "Cam 299 - Craven Road, Broadheath"
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
 					-2.359343,
 					53.401198
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 197,
+				"featureAlias": "Cam 1276 - Washway Road, Sale"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.326824,
+					53.424168
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 201,
+				"featureAlias": "Cam 1150 - Barton Dock Road (Trafford Centre), Dumplington"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.347539,
+					53.467971
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 202,
+				"featureAlias": "Cam 1003 - Wharfside Way/Sir Matt Busby Way, Trafford Park"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.289589,
+					53.464723
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 204,
+				"featureAlias": "Cam 1005 - Chester Road, Old Trafford"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.285219,
+					53.46222
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 207,
+				"featureAlias": "Cam 1301 - Ashley Road/Hale View, Hale"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.348709,
+					53.378689
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 209,
+				"featureAlias": "Cam 1302 - Ashley Road/Victoria Road, Hale"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.347088,
+					53.377985
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 211,
+				"featureAlias": "Cam 1303 - Ashley Road, Hale"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.345115,
+					53.376644
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 213,
+				"featureAlias": "Cam 1151 - Europa Circle, Trafford Park"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.306039,
+					53.462625
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"featureNum": 215,
+				"featureAlias": "Cam 1033 - Empress Street (carpark), Old Trafford"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.26968,
+					53.46633
 				]
 			}
 		}
