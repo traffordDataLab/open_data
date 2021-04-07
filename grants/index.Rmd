@@ -42,11 +42,11 @@ df <- read_csv("trafford_council_voluntary_sector_grants_360_giving_format.csv")
   <tr>
     <td>Trafford Council</td>
     <td><a href="https://www.trafford.gov.uk" target="_blank">Trafford Council</a></td>
-    <td>2013-2017</td>
+    <td>2013-2020</td>
     <td>NA</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2020-11-11">2020-11-11</time></td>
+    <td><time datetime="2021-04-07">2021-04-07</time></td>
   </tr>
 </table>
 

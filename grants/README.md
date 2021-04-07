@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2013 - 2017</td>
+	<td>2013 - 2020</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -45,15 +45,15 @@
 </tr>
 <tr>
 	<td>Format</td>
-	<td>CSV, JSON</td>
+	<td>CSV, JSON, XLSX also included as this is an excepted file type for the 360Giving data standard.</td>
 </tr>
 <tr>
 	<td>Openness rating</td>
-	<td>&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
+	<td>&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV, JSON).</td>
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2020-11-11</td>
+	<td>2021-04-07</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -61,6 +61,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td><a href=""></a></td>
+	<td></td>
 </tr>
 </table>
