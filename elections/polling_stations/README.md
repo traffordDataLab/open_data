@@ -5,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Location of polling stations within Trafford and Greater Manchester for the Local Elections on Thursday 5<sup>th</sup> of May 2021</td>
+	<td>Location of polling stations within Trafford and Greater Manchester for the Local Elections on Thursday 6<sup>th</sup> of May 2021</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -57,7 +57,7 @@
 </tr>
 <tr>
 	<td>Notes</td>
-	<td>No data is available via the API for Bury.</td>
+	<td>No data was available via the API for Bury. Polling stations have been mapped to the centroid of their postcode. Polling stations where a postcode has not been provided, or where the postcode could not be matched, are present in the CSV but have been omitted from the GeoJSON.</td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>
