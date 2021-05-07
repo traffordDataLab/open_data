@@ -1,87 +1,81 @@
-id,name,address,postcode,area_code,area_name,lon,lat
-2472,Flixton Cricket and Sports Club,"Lawrence Road, Flixton",M41 8UU,E08000009,Trafford,-2.387009,53.451303
-2478,Stretford Sports Village Chester Centre,"Great Stone Road, Stretford",M32 0ZS,E08000009,Trafford,-2.292675,53.458331
-2570,Sevenways Methodist Church,"Barton Road, Stretford",M32 9RD,E08000009,Trafford,-2.316342,53.449228
-2445,Christ Church Hall,"Lostock Road, Urmston",M41 0TD,E08000009,Trafford,-2.346071,53.45737
-2402,Park Road Academy Primary School,"Frieston Road, Timperley",WA14 5AP,E08000009,Trafford,-2.340089,53.40608
-2580,Willows Primary School,"Victoria Road, Timperley",WA15 6PP,E08000009,Trafford,-2.330461,53.396202
-2487,All Saints Church Hall,"Barton Road, Stretford",M32 9RL,E08000009,Trafford,-2.322083,53.453689
-2504,2ND Hale Scout HQ,"Lilac Road, Hale",WA15 8BJ,E08000009,Trafford,-2.330278,53.380454
-2346,Oldfield Brow Primary School,"Taylor Road, Altrincham",WA14 4LE,E08000009,Trafford,-2.377778,53.391774
-2507,St Peters Assembly Rooms,"136 Cecil Road, Hale",WA15 9NU,E08000009,Trafford,-2.344881,53.373725
-2405,Mobile Polling Station Broadheath,"Corner of St Andrews Avenue, and Bridge Grove, Timperley",WA15 6LD,E08000009,Trafford,-2.338426,53.399424
-2500,Cloverlea Primary School,"Green Lane North, Timperley",WA15 7NQ,E08000009,Trafford,-2.321251,53.389369
-2510,Stamford Park Infants School,"Oak Road Entrance, Hale",WA15 9JB,E08000009,Trafford,-2.340502,53.382538
-2406,The Life Centre,"235 Washway Road, Sale",M33 4BP,E08000009,Trafford,-2.336595,53.415061
-2349,Evangelical Church,"Devonshire Road, Altrincham",WA14 4EZ,E08000009,Trafford,-2.354086,53.396152
-2475,Flixton House,"Flixton Road, Flixton",M41 5GJ,E08000009,Trafford,-2.383195,53.445796
-2413,Clubhouse Sale Football Club,"Heywood Road, Sale",M33 3WB,E08000009,Trafford,-2.321909,53.416854
-2551,Firs Primary School,"Firs Road, Sale",M33 5EL,E08000009,Trafford,-2.352276,53.422836
-2358,Altrincham Town Hall,"Market Street, Altrincham",WA14 1PG,E08000009,Trafford,-2.352153,53.387933
-2341,St Georges Parish Hall,"Church Walk, Altrincham",WA14 4TT,E08000009,Trafford,-2.352112,53.39027
-2355,St Vincents Catholic Primary School,"Junior Department, Osborne Road, Altrincham",WA15 8EU,E08000009,Trafford,-2.344485,53.389771
-2584,Altrincham United Reformed Church,"Woodlands Parkway, Timperley, Altrincham",WA15 7QT,E08000009,Trafford,-2.341551,53.39333
-2567,Moss Park Junior School,"Moss Park Road, Stretford",M32 9HR,E08000009,Trafford,-2.322763,53.448132
-2529,Sale Waterside,"Tatton Road Entrance, Sale",M33 7ZF,E08000009,Trafford,-2.32,53.425111
-2390,St Albans Hall,"Lindsell Road, West Timperley, Altrincham",WA14 5NX,E08000009,Trafford,-2.353799,53.40329
-2596,Unitarian Church Hall,"Queens Road, Urmston",M41 9HA,E08000009,Trafford,-2.352896,53.445009
-2457,St Marys Church Hall,"Entwistle Avenue, Off Davyhulme Road, Davyhulme",M41 5TP,E08000009,Trafford,-2.367594,53.455849
-2380,Jubilee Centre,"The Firs, Bowdon",WA14 2TQ,E08000009,Trafford,-2.362827,53.378931
-2352,Altrincham Methodist Church,"Barrington Road, Altrincham",WA14 1HF,E08000009,Trafford,-2.349286,53.390378
-2454,8TH Flixton Scout Group,"Woodsend Crescent Road, Flixton",M41 8AD,E08000009,Trafford,-2.397246,53.449399
-2426,Partington Community Centre,"Central Road, Partington",M31 4FL,E08000009,Trafford,-2.425053,53.417437
-2376,Bollin Primary School,"Apsley Grove, Bowdon",WA14 3AH,E08000009,Trafford,-2.365565,53.373961
-2573,Heyes Lane Primary School,"Crofton Avenue, Timperley",WA15 6BZ,E08000009,Trafford,-2.325453,53.406058
-2362,Townscroft Lodge,"Green Lane, Sale",M33 5GP,E08000009,Trafford,-2.342474,53.431475
-2419,Carrington Business Park,"Manchester Road, Carrington",M31 4DD,E08000009,Trafford,-2.400959,53.431202999999996
-2535,Sale United Reformed Church,"Montague Road, Sale",M33 3BU,E08000009,Trafford,-2.31664,53.422468
-2436,Old Trafford Community Academy,"Malvern Street, Old Trafford",M15 4FL,E08000009,Trafford,-2.265141,53.465109
-2516,St Ann's Parish Centre,"Cross Street, Off Chester Road, Stretford",M32 8LF,E08000009,Trafford,-2.303883,53.448297
-2606,St Johns Church Hall,"Brooklands Road, Sale",M33 3PB,E08000009,Trafford,-2.317693,53.408371
-2409,Mobile Polling Station,"Eastway/Walton Road, Sale",M33 4ER,E08000009,Trafford,-2.337878,53.408028
-2373,St Lukes Church,"Vicarage Lane, Bowdon",WA14 3BJ,E08000009,Trafford,-2.361832,53.371491
-2609,Broomwood Primary School,"Mainwood Road, Timperley",WA15 7JU,E08000009,Trafford,-2.30838,53.391488
-2423,Our Lady of Lourdes Catholic Primary,"Lock Lane, Partington",M31 4PJ,E08000009,Trafford,-2.436427,53.418701
-2367,Fiona Gardens,"29 Atkinson Road, Sale",M33 6GG,E08000009,Trafford,-2.326926,53.427456
-2513,Hale Library,"Leigh Road, Hale",WA15 9BG,E08000009,Trafford,-2.343644,53.376938
-2400,Woodheys Park Pavilion,"Kenmore Road/Woodhouse Lane, Sale",M33 4LP,E08000009,Trafford,-2.355328,53.409919
-2547,St Annes Church Hall,"Trinity Road, Sale",M33 3ED,E08000009,Trafford,-2.307114,53.420228
-2525,Longford Park Special School,"74 Cromwell Road, Stretford",M32 8QJ,E08000009,Trafford,-2.294817,53.448015
-2587,Methodist Church Meeting Room,"George Street, Urmston",M41 9BA,E08000009,Trafford,-2.344275,53.447586
-2532,Sale Sports Club,"Clarendon Crescent, Sale",M33 2DE,E08000009,Trafford,-2.305608,53.42638
-2386,The Parish Room,"Bent Lane, Warburton",WA13 9TQ,E08000009,Trafford,-2.445414,53.399028
-2593,Urmston Primary School,"Wycliffe Road, Urmston",M41 5AH,E08000009,Trafford,-2.359226,53.449331
-2484,Metros Sports and Social Club,"Moss Road, Stretford",M32 0AH,E08000009,Trafford,-2.310018,53.451213
-2564,Victoria Park Infant School,"Henshaw Street, Stretford",M32 8BU,E08000009,Trafford,-2.309099,53.449193
-2544,Lime Tree Primary School,"Budworth Road, Sale",M33 2RP,E08000009,Trafford,-2.297843,53.415739
-2393,Broadheath Primary School,"Sinderland Road, Altrincham",WA14 5JQ,E08000009,Trafford,-2.360126,53.404465
-2558,Sale West Community Centre,"Newbury Avenue, Sale",M33 4QW,E08000009,Trafford,-2.358027,53.419619
-2410,Brooklands Primary School,"Woodbourne Road, Sale",M33 3SY,E08000009,Trafford,-2.326637,53.413426
-2497,Well Green Primary School,"Briony Avenue, Hale",WA15 8QA,E08000009,Trafford,-2.316255,53.376762
-2541,Sale Moor Methodist Church,"Northenden Road, Sale Moor",M33 2PP,E08000009,Trafford,-2.293477,53.419597
-2439,St Johns Hall,"St Johns Road, Old Trafford",M16 7GX,E08000009,Trafford,-2.268164,53.457139
-2396,Tyntesfield Primary School,"Alma Road, Sale",M33 4HE,E08000009,Trafford,-2.346445,53.41088
-2519,Kings Road Primary School,"Kings Road, Firswood",M16 0GR,E08000009,Trafford,-2.281652,53.453979
-2463,182 North Trafford Sqn Atc,"Flixton Road, Flixton",M41 5PR,E08000009,Trafford,-2.372168,53.448536
-2451,Woodsend Library,"Woodsend Road, Flixton",M41 8GN,E08000009,Trafford,-2.393504,53.455039
-2561,St Matthews Hall - Dance Hall,"Chapel Lane, Stretford",M32 9AJ,E08000009,Trafford,-2.311646,53.443362
-2383,Little Heath Village Hall,"School Lane, Dunham Massey, Altrincham",WA14 4SE,E08000009,Trafford,-2.391853,53.388609
-2460,Woodhouse Primary School,"Nursery Road, Davyhulme",M41 7NP,E08000009,Trafford,-2.37011,53.457702
-2370,St Mary Magdalene with Sale West Community Church,"44 Moss Lane, Sale",M33 6GD,E08000009,Trafford,-2.33774,53.424738
-2448,Our Lady and the English Martyrs Parish Centre,"Davyhulme Road, Urmston",M41 7DS,E08000009,Trafford,-2.360543,53.457255
-2469,Flixton Primary School,"Delamere Road, Flixton",M41 5QL,E08000009,Trafford,-2.378333,53.449209
-2491,Lostock Youth Centre,"Selby Road, Stretford",M32 9PL,E08000009,Trafford,-2.331554,53.453681
-2576,Holy Cross Church Hall,"Park Road, Timperley",WA15 6QG,E08000009,Trafford,-2.332331,53.40266
-2429,Sale West Conference Centre,"Room 3, Manor Avenue, Sale",M33 5JX,E08000009,Trafford,-2.354017,53.425967
-2538,Sale Nomads,"Friars Road, Sale",M33 7UU,E08000009,Trafford,-2.323908,53.422422
-2481,Gorse Hill Primary School,"Burleigh Road, Stretford",M32 0PF,E08000009,Trafford,-2.299011,53.455582
-2494,Elmridge Primary School,"Wilton Drive, Hale Barns",WA15 0JF,E08000009,Trafford,-2.311557,53.367318
-2603,The Larkhill Centre,"Thorley Lane, Timperley",WA15 7BJ,E08000009,Trafford,-2.317166,53.396103
-2442,Davyhulme Primary School,"Canterbury Road, Davyhulme",M41 0RX,E08000009,Trafford,-2.351148,53.453966
-2554,The Avenue Methodist Church,"Wincham Road, Sale",M33 4PL,E08000009,Trafford,-2.342676,53.413551
-2590,Community Centre,"Humphrey Lane, Urmston",M41 9PT,E08000009,Trafford,-2.331202,53.45094
-2466,Shawe Hall Community Centre,"Church Road, Flixton",M41 6HJ,E08000009,Trafford,-2.37007,53.442682
-2523,Old Trafford Sports Barn,"St Hildas Road, Old Trafford",M16 9PQ,E08000009,Trafford,-2.271909,53.461148
-2600,2ND Timperley Scout HQ,"Heyes Drive, Timperley",WA15 6ED,E08000009,Trafford,-2.322666,53.401509
-2416,Sale Moor Community Centre,"Norris Road, Sale",M33 2TN,E08000009,Trafford,-2.303598,53.414709
-2433,Sharon Youth Centre,"Cornbrook Street, Old Trafford",M16 7WR,E08000009,Trafford,-2.259035,53.461707
+id,name,address,postcode,ward_code,ward_name,la_code,la_name,lon,lat
+4126,Woodheys Park Pavilion,"Kenmore Road/Woodhouse Lane, Sale",M33 4LP,E05000822,Broadheath,E08000009,Trafford,-2.355328,53.409919
+4272,Lostock Library,"Selby Road, Stretford",M32 9PB,E05000829,Gorse Hill,E08000009,Trafford,-2.331275,53.45458
+4137,Well Green Lodge,"Wellfield Lane, Hale",WA15 8NW,E05000830,Hale Barns,E08000009,Trafford,-2.314384,53.38181
+4341,Sale Nomads,"Friars Road, Sale",M33 7UU,E05000833,Priory,E08000009,Trafford,-2.323908,53.422422
+4194,Carrington Business Park,"Manchester Road, Carrington",M31 4DD,E05000824,Bucklow-St Martins,E08000009,Trafford,-2.400958,53.431219
+4106,Jubilee Centre,"The Firs, Bowdon",WA14 2TQ,E05000821,Bowdon,E08000009,Trafford,-2.362827,53.378931
+4268,All Saints Church Hall,"Barton Road, Stretford",M32 9RL,E05000829,Gorse Hill,E08000009,Trafford,-2.322083,53.453689
+4241,Urmston Leisure Centre,"Bowfell Road, Urmston",M41 5RR,E05000828,Flixton,E08000009,Trafford,-2.370201,53.451021
+4170,Holy Cross Church Hall,"Park Road, Timperley",WA15 6QG,E05000837,Timperley,E08000009,Trafford,-2.332331,53.40266
+4176,Altrincham United Reformed Church,"Woodlands Parkway, Timperley, Altrincham",WA15 7QT,E05000837,Timperley,E08000009,Trafford,-2.341551,53.39333
+4252,Flixton Cricket and Sports Club,"Lawrence Road, Flixton",M41 8UU,E05000828,Flixton,E08000009,Trafford,-2.386736,53.451167
+4235,St Marys Church Hall,"Entwistle Avenue, Off Davyhulme Road, Davyhulme",M41 5TP,E05000827,Davyhulme West,E08000009,Trafford,-2.367594,53.455849
+4283,Old Trafford Sports Barn,"St Hildas Road, Old Trafford",M16 9PQ,E05000832,Longford,E08000009,Trafford,-2.271909,53.461148
+4295,Moss Park Junior School,"Moss Park Road, Stretford",M32 9HR,E05000836,Stretford,E08000009,Trafford,-2.322583,53.448149
+4211,Old Trafford Community Academy,"Malvern Street, Old Trafford",M15 4FL,E05000825,Clifford,E08000009,Trafford,-2.265141,53.465109
+4299,Sevenways Methodist Church,"Barton Road, Stretford",M32 9RD,E05000836,Stretford,E08000009,Trafford,-2.316342,53.449228
+4306,Community Centre,"Humphrey Lane, Urmston",M41 9PT,E05000838,Urmston,E08000009,Trafford,-2.331202,53.45094
+4146,St Peters Assembly Rooms,"136 Cecil Road, Hale",WA15 9NU,E05000831,Hale Central,E08000009,Trafford,-2.344881,53.373725
+4095,St Mary Magdalene with Sale West Community Church,"44 Moss Lane, Sale",M33 6GD,E05000820,Ashton upon Mersey,E08000009,Trafford,-2.33774,53.424738
+4143,2ND Hale Scout HQ,"Lilac Road, Hale",WA15 8BJ,E05000831,Hale Central,E08000009,Trafford,-2.330278,53.380454
+4311,Unitarian Church Hall,"Queens Road, Urmston",M41 9HA,E05000838,Urmston,E08000009,Trafford,-2.352896,53.445009
+4279,Kings Road Primary School,"Kings Road, Firswood",M16 0GR,E05000832,Longford,E08000009,Trafford,-2.281652,53.453979
+4187,St Johns Church Hall,"Brooklands Road, Sale",M33 3PB,E05000839,Village,E08000009,Trafford,-2.317693,53.408371
+4218,Davyhulme Primary School,"Canterbury Road, Davyhulme",M41 0RX,E05000826,Davyhulme East,E08000009,Trafford,-2.351148,53.453966
+4120,Broadheath Community Hall,"Timperley, Altrincham",WA14 5JQ,E05000822,Broadheath,E08000009,Trafford,-2.360126,53.404465
+4259,Stretford Sports Village Chester Centre,"Great Stone Road, Stretford",M32 0ZS,E05000829,Gorse Hill,E08000009,Trafford,-2.292675,53.458331
+4109,Little Heath Village Hall,"School Lane, Dunham Massey, Altrincham",WA14 4SE,E05000821,Bowdon,E08000009,Trafford,-2.391853,53.388609
+4078,Altrincham Methodist Church,"Barrington Road, Altrincham",WA14 1HF,E05000819,Altrincham,E08000009,Trafford,-2.349286,53.390378
+4245,Shawe Hall Community Centre,"Church Road, Flixton",M41 6HJ,E05000828,Flixton,E08000009,Trafford,-2.37007,53.442682
+4275,St Ann`s Parish Centre,"Cross Street, Off Chester Road, Stretford",M32 8LF,E05000832,Longford,E08000009,Trafford,-2.303883,53.448297
+4201,Partington Community Centre,"Central Road, Partington",M31 4FL,E05000824,Bucklow-St Martins,E08000009,Trafford,-2.425053,53.417437
+4099,St Lukes Church,"Vicarage Lane, Bowdon",WA14 3BJ,E05000821,Bowdon,E08000009,Trafford,-2.361832,53.371491
+4130,Park Road Academy Primary School,"Frieston Road, Timperley",WA14 5AP,E05000822,Broadheath,E08000009,Trafford,-2.340089,53.40608
+4191,Broomwood Community Centre,"Mainwood Road, Timperley",WA15 7JF,E05000839,Village,E08000009,Trafford,-2.305895,53.390874
+4319,Mobile Polling Station,"Eastway/Walton Road, Sale",M33 4ER,E05000823,Brooklands,E08000009,Trafford,-2.337878,53.408028
+4334,Sale Sports Club,"Clarendon Crescent, Sale",M33 2DE,E05000833,Priory,E08000009,Trafford,-2.305251,53.426838
+4214,St Johns Hall,"St Johns Road, Old Trafford",M16 7GX,E05000825,Clifford,E08000009,Trafford,-2.268164,53.457139
+4153,Hale Library,"6 Leigh Road, Hale",WA15 9BE,E05000831,Hale Central,E08000009,Trafford,-2.343283,53.376804
+4238,Woodhouse Primary School,"Nursery Road, Davyhulme",M41 7NP,E05000827,Davyhulme West,E08000009,Trafford,-2.37011,53.457702
+4228,Woodsend Library,"Woodsend Road, Flixton",M41 8GN,E05000827,Davyhulme West,E08000009,Trafford,-2.393504,53.455039
+4072,Oldfield Brow Primary School,"Taylor Road, Altrincham",WA14 4LE,E05000819,Altrincham,E08000009,Trafford,-2.377778,53.391774
+4204,Sale West Conference Centre,"Room 3, Manor Avenue, Sale",M33 5JX,E05000824,Bucklow-St Martins,E08000009,Trafford,-2.354017,53.425967
+4163,Sale West Community Centre,"Newbury Avenue, Sale",M33 4QW,E05000834,St Mary's,E08000009,Trafford,-2.358027,53.419619
+4389,Carrington Lane Methodist Church,"34 Ennerdale Drive, Sale",M33 5NE,E05000820,Ashton upon Mersey,E08000009,Trafford,-2.34289,53.427016
+4208,Sharon Youth Centre,"Cornbrook Street, Old Trafford",M16 7WR,E05000825,Clifford,E08000009,Trafford,-2.259035,53.461707
+4198,Our Lady of Lourdes Catholic Primary,"Lock Lane, Partington",M31 4PJ,E05000824,Bucklow-St Martins,E08000009,Trafford,-2.436427,53.418701
+4159,The Avenue Methodist Church,"Wincham Road, Sale",M33 4PL,E05000834,St Mary's,E08000009,Trafford,-2.342676,53.413551
+4315,The Life Centre,"235 Washway Road, Sale",M33 4BP,E05000823,Brooklands,E08000009,Trafford,-2.336595,53.415061
+4331,Sale Waterside,"Tatton Road Entrance, Sale",M33 7ZF,E05000833,Priory,E08000009,Trafford,-2.32,53.425111
+4135,All Saints Church,"Hale Road, Hale Barns",WA15 8SP,E05000830,Hale Barns,E08000009,Trafford,-2.314574,53.369134
+4150,Stamford Park Infant School Nursery,"Oak Road, Hale",WA15 9JB,E05000831,Hale Central,E08000009,Trafford,-2.340502,53.382538
+4232,8TH Flixton Scout Group,"Woodsend Crescent Road, Flixton",M41 8AD,E05000827,Davyhulme West,E08000009,Trafford,-2.397246,53.449399
+4391,Christ Church,"Thorley Lane, Timperley",WA15 7AN,E05000830,Hale Barns,E08000009,Trafford,-2.316835,53.390046
+4174,Timperley Methodist Church,"Stockport Road, Timperley",WA15 7UG,E05000837,Timperley,E08000009,Trafford,-2.318996,53.397474
+4289,St Matthews Hall - Horrocks Room,"Chapel Lane, Stretford",M32 9AJ,E05000836,Stretford,E08000009,Trafford,-2.311646,53.443362
+4320,Brooklands Primary School,"Woodbourne Road, Sale",M33 3SY,E05000823,Brooklands,E08000009,Trafford,-2.326637,53.413426
+4066,St Georges Parish Hall,"Church Walk, Altrincham",WA14 4TT,E05000819,Altrincham,E08000009,Trafford,-2.352112,53.39027
+4221,Christ Church Hall,"Lostock Road, Urmston",M41 0TD,E05000826,Davyhulme East,E08000009,Trafford,-2.346071,53.45737
+4249,Flixton Primary School,"Delamere Road, Flixton",M41 5QL,E05000828,Flixton,E08000009,Trafford,-2.378333,53.449209
+4082,St Vincents Catholic Primary School,"Junior Department, Orchard Road, Altrincham",WA15 8EU,E05000819,Altrincham,E08000009,Trafford,-2.344485,53.389771
+4265,Metros Sports and Social Club,"Moss Road, Stretford",M32 0AH,E05000836,Stretford,E08000009,Trafford,-2.310018,53.451213
+4351,St Annes Church Hall,"Trinity Road, Sale",M33 3ED,E05000835,Sale Moor,E08000009,Trafford,-2.307114,53.420228
+4225,Our Lady and the English Martyrs Parish Centre,"Davyhulme Road, Urmston",M41 7DS,E05000826,Davyhulme East,E08000009,Trafford,-2.360543,53.457255
+4263,Gorse Hill Studios,"Cavendish Road, Stretford",M32 0PS,E05000829,Gorse Hill,E08000009,Trafford,-2.300093,53.457413
+4345,Sale Moor Methodist Church,"Northenden Road, Sale Moor",M33 2PP,E05000835,Sale Moor,E08000009,Trafford,-2.293477,53.419597
+4116,St Albans Hall,"Lindsell Road, West Timperley, Altrincham",WA14 5NX,E05000822,Broadheath,E08000009,Trafford,-2.353799,53.40329
+4179,2ND Timperley Scout HQ,"Heyes Drive, Timperley",WA15 6ED,E05000839,Village,E08000009,Trafford,-2.322666,53.401509
+4309,Urmston Library,"34 Golden Way, Urmston",M41 0NA,E05000838,Urmston,E08000009,Trafford,-2.354722,53.449093
+4112,The Parish Room,"Bent Lane, Warburton",WA13 9TQ,E05000821,Bowdon,E08000009,Trafford,-2.445414,53.399028
+4167,Heyes Lane Primary School,"Crofton Avenue, Timperley",WA15 6BZ,E05000837,Timperley,E08000009,Trafford,-2.325453,53.406058
+4328,Sale Moor Community Centre,"Norris Road, Sale",M33 2TN,E05000823,Brooklands,E08000009,Trafford,-2.303598,53.414709
+4337,Sale United Reformed Church,"Montague Road, Sale",M33 3BU,E05000833,Priory,E08000009,Trafford,-2.31664,53.422468
+4285,Longford Park Special School,"74 Cromwell Road, Stretford",M32 8QJ,E05000832,Longford,E08000009,Trafford,-2.294365,53.447952
+4302,Urmston Methodist Church Meeting Room,"George Street, Urmston",M41 9BA,E05000838,Urmston,E08000009,Trafford,-2.344275,53.447586
+4086,Altrincham Library,"2 Pott Street, Altrincham",WA14 1AH,E05000819,Altrincham,E08000009,Trafford,-2.352565,53.387023
+4387,Ashton-Upon-Mersey United Reformed Church,"20 Whitefield Road, Sale",M33 6NZ,E05000820,Ashton upon Mersey,E08000009,Trafford,-2.32931,53.42824
+4134,Mobile Polling Station Broadheath,"Corner of St Andrews Avenue, and Bridge Grove, Timperley",WA15 6LD,E05000822,Broadheath,E08000009,Trafford,-2.338426,53.399424
+4255,Flixton House,"Flixton Road, Flixton",M41 5GJ,E05000828,Flixton,E08000009,Trafford,-2.383195,53.445796
+4348,St Francis Church Hall,"Budworth Road, Sale",M33 2RP,E05000835,Sale Moor,E08000009,Trafford,-2.297843,53.415739
+4324,Clubhouse Sale Football Club,"Heywood Road, Sale",M33 3WB,E05000823,Brooklands,E08000009,Trafford,-2.321895,53.416825
