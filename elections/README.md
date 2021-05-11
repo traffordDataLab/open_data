@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2016 onwards</td>
+	<td>2016-2021</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -53,11 +53,11 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2019-07-09</td>
+	<td>2021-05-11</td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td>Conforms to the specification described in the <a href="http://e-sd.org/vgTJ3">local transparency guidance - publishing elections results data</a> document by the Local Government Association. Validated using the <a href="https://validator.opendata.esd.org.uk/electionresults">Local Government Association data validator tool</a> on 2019-07-09.</td>
+	<td>Conforms to the specification described in the <a href="http://e-sd.org/vgTJ3">local transparency guidance - publishing elections results data</a> document by the Local Government Association. Validated using the <a href="https://validator.opendata.esd.org.uk/electionresults">Local Government Association data validator tool</a> on 2021-05-11.</td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>

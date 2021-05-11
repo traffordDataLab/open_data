@@ -42,11 +42,11 @@ df <- read_csv("trafford_council_election_results.csv") %>%
   <tr>
     <td>Trafford Council</td>
     <td><a href="https://www.trafford.gov.uk/about-your-council/elections/election-results.aspx" target="_blank">Trafford Council</a></td>
-    <td>2016-2019</td>
+    <td>2016-2021</td>
     <td>Electoral Ward</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2019-07-09">2019-07-09</time></td>
+    <td><time datetime="2021-05-11">2021-05-11</time></td>
   </tr>
 </table>
 
@@ -85,7 +85,7 @@ datatable(df,
 |[trafford_council_election_results.csv](trafford_council_election_results.csv) |CSV |
 
 <h2>Notes</h2>
-Conforms to the specification described in the <a href="http://e-sd.org/vgTJ3" target="_blank">local transparency guidance - publishing elections results data</a> document by the Local Government Association. Validated using the <a href="https://validator.opendata.esd.org.uk/electionresults" target="_blank">Local Government Association data validator tool</a> on <time datetime="2019-07-09">2019-07-09</time>.
+Conforms to the specification described in the <a href="http://e-sd.org/vgTJ3" target="_blank">local transparency guidance - publishing elections results data</a> document by the Local Government Association. Validated using the <a href="https://validator.opendata.esd.org.uk/electionresults" target="_blank">Local Government Association data validator tool</a> on <time datetime="2021-05-11">2021-05-11</time>.
 
 </main>
 
