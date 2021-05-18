@@ -1,11 +1,11 @@
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Trafford GP practice patient registrations</td>
+	<td>Patients Registered at a GP Practice</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>The number of patients registered to GP practices in Trafford</td>
+	<td>Number of patients registered at GP Practices in Trafford</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -21,7 +21,7 @@
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>Postcode, Ward, MSOA, Trafford Locality</td>
+	<td>Ward, MSOA, Trafford Locality</td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>May 2021</td>
+	<td>2021-05-01</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
