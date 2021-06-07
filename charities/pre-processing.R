@@ -36,6 +36,7 @@ main_charities <- all_charities %>%
         remove = FALSE, sep = "#") %>%
   mutate(charity_contact_address = str_replace_all(charity_contact_address, "#NA", "")) %>%
   mutate(charity_contact_address = str_replace_all(charity_contact_address, "#", ", ")) %>%
+  mutate(charity_contact_address = str_to_title(charity_contact_address, locale = "en")) %>%
   mutate(date_of_registration = ymd(as.Date(date_of_registration))) %>%
   select(registered_charity_number,
          charity_company_registration_number,
@@ -44,9 +45,6 @@ main_charities <- all_charities %>%
          charity_type,
          charity_activities,
          date_of_registration,
-         charity_insolvent,
-         charity_in_administration,
-         charity_gift_aid,
          charity_contact_address,
          charity_contact_postcode,
          charity_contact_phone,
