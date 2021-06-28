@@ -21,7 +21,8 @@ df <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/populati
 <a href="https://www.trafforddatalab.io/data.html"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" aria-label="Return to Trafford Data Lab data page" width="100" class="traffordDataLabLogo"/></a>
 
 <h1>Mid-2019 population estimates</h1>
-*Estimates of the usual resident population in Trafford during mid-2019.*
+*Estimates of the usual resident population in Trafford during mid-2019 (all geographies).*<br />
+*Estimates of the usual resident population in Trafford during mid-2020 (Local Authority level only).*
 
 </header>
 
@@ -47,7 +48,7 @@ df <- read_csv("https://github.com/traffordDataLab/open_data/raw/master/populati
     <td>Local authority, electoral wards, MSOAs, LSOAs and OAs</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2019-11">2019-11</time></td>
+    <td><time datetime="2021-06-28">2021-06-21</time></td>
   </tr>
 </table>
 
@@ -82,6 +83,7 @@ datatable(df,
 
 |File name |Format |
 |---|---|
+|[mid-2020_population_estimates_local_authority.csv](mid-2020_population_estimates_local_authority.csv) |CSV |
 |[mid-2019_population_estimates_all_geographies.csv](mid-2019_population_estimates_all_geographies.csv) |CSV |
 |[mid-2019_population_estimates_local_authority.csv](mid-2019_population_estimates_local_authority.csv) |CSV |
 |[mid-2019_population_estimates_ward.csv](mid-2019_population_estimates_ward.csv) |CSV |
@@ -90,7 +92,7 @@ datatable(df,
 |[mid-2019_population_estimates_oa.csv](mid-2019_population_estimates_oa.csv) |CSV |
 
 <h2>Pre-processing</h2>
-[The R script used to process the data](pre-processing.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
+[The R script used to process the data](pre-processing.Rmd) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
 
 </main>
 
