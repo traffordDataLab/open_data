@@ -15,7 +15,7 @@ la <- st_read(paste0("https://ons-inspire.esriuk.com/arcgis/rest/services/Admini
   select(area_code = lad19cd, area_name = lad19nm) 
 
 # Submit request to API
-request <- GET(url = "https://api.openchargemap.io/v3/poi/?",
+request <- GET(url = "https://api.openchargemap.io/v3/poi/?key=",
                query = list(
                  output = "json",
                  countrycode = "GB",
@@ -56,7 +56,8 @@ sf <- response %>%
          website = operator_info_website_url,
          email = operator_info_contact_email,
          updated = date_last_status_update,
-         lon, lat)
+         lon, lat) %>%
+  arrange(desc(updated))
 
 # Write results
 st_write(sf, "trafford_electric_vehicle_charging_locations.geojson")
