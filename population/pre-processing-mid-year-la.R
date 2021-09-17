@@ -1,6 +1,6 @@
-# 2021-06-28
-# Temporary script for obtaining the mid-2020 population estimates at Local Authority level for Trafford
-# The main script for obtaining data for all geographic levels will be updated when the data are released
+# Temporary script for obtaining the mid-year population estimates at just Local Authority level for Trafford
+# The LA data is usually updated before the small areas, therefore use this if we need the LA updates ASAP.
+# The main script for obtaining data for all geographic levels is updated when all the data are released
 # Dataset: https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2002
 # License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
@@ -31,4 +31,4 @@ la <- read_csv("http://www.nomisweb.co.uk/api/v01/dataset/NM_2002_1.data.csv?geo
 
 
 #### Write data
-write_csv(la, "mid-2020_population_estimates_local_authority.csv")
+write_csv(la, "mid-year_population_estimates_local_authority.csv")

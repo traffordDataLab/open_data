@@ -1,5 +1,5 @@
 ---
-title: "Mid-2019 population estimates"
+title: "Mid-2020 population estimates"
 output:
   html_document:
     keep_md: yes
@@ -12,16 +12,16 @@ knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
 api_key <- ""
 ```
 
-Retrieving mid-2019 population estimates for Trafford by different administrative and statistical geographies.    
+Retrieving mid-2020 population estimates for Trafford by different administrative and statistical geographies.    
 
 
 |Indicator |Period |Geography |Source |Updated |Licence |
 |---|---|---|---|---|---|
-|Population estimates |Mid-2019 |Local authority |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2002" target="_blank">ONS/Nomis</a> |2019-10-28 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
-|Population estimates |Mid-2019 |Electoral ward |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2010" target="_blank">ONS/Nomis</a> |2019-10-28 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
-|Population estimates |Mid-2019 |Middle-layer Super Output Area |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2010" target="_blank">ONS/Nomis</a> |2019-10-28 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
-|Population estimates |Mid-2019 |Lower-layer Super Output Area |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2010" target="_blank">ONS/Nomis</a> |2019-10-28 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
-|Population estimates |Mid-2019 |Output Area |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2010" target="_blank">ONS/Nomis</a> |2019-10-28 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
+|Population estimates |Mid-2020 |Local authority |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2002" target="_blank">ONS/Nomis</a> |2020-09-16 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
+|Population estimates |Mid-2020 |Electoral ward |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2010" target="_blank">ONS/Nomis</a> |2020-09-16 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
+|Population estimates |Mid-2020 |Middle-layer Super Output Area |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2010" target="_blank">ONS/Nomis</a> |2020-09-16 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
+|Population estimates |Mid-2020 |Lower-layer Super Output Area |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2010" target="_blank">ONS/Nomis</a> |2020-09-16 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
+|Population estimates |Mid-2020 |Output Area |<a href="https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=2010" target="_blank">ONS/Nomis</a> |2020-09-16 |<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a> |
 
 #### Load libraries
 ```{r}
@@ -32,8 +32,8 @@ library(tidyverse) ; library(lubridate)
 ```{r}
 # MSOA names
 # Source: House of Commons Library
-# URL: https://visual.parliament.uk/msoanames
-msoa_names <- read_csv("https://visual.parliament.uk/msoanames/static/MSOA-Names-1.7.csv") %>% 
+# URL: https://houseofcommonslibrary.github.io/msoanames
+msoa_names <- read_csv("https://houseofcommonslibrary.github.io/msoanames/MSOA-Names-1.14.csv") %>% 
   select(msoa11cd, msoa11hclnm)
 
 # Local authority
@@ -84,20 +84,20 @@ all_geographies <- bind_rows(la, ward, msoa, lsoa, oa) %>%
 #### Write data
 ```{r}
 write_csv(filter(all_geographies, geography == "Local authority"), 
-          "mid-2019_population_estimates_local_authority.csv")
+          "mid-year_population_estimates_local_authority.csv")
 
 write_csv(filter(all_geographies, geography == "Electoral ward"), 
-          "mid-2019_population_estimates_ward.csv")
+          "mid-year_population_estimates_ward.csv")
 
 write_csv(filter(all_geographies, geography == "MSOA"), 
-          "mid-2019_population_estimates_msoa.csv")
+          "mid-year_population_estimates_msoa.csv")
 
 write_csv(filter(all_geographies, geography == "LSOA"), 
-          "mid-2019_population_estimates_lsoa.csv")
+          "mid-year_population_estimates_lsoa.csv")
 
 write_csv(filter(all_geographies, geography == "OA"), 
-          "mid-2019_population_estimates_oa.csv")
+          "mid-year_population_estimates_oa.csv")
 
-write_csv(all_geographies, "mid-2019_population_estimates_all_geographies.csv")
+write_csv(all_geographies, "mid-year_population_estimates_all_geographies.csv")
 ```
 
