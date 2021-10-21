@@ -1,0 +1,91 @@
+area_code,area_name,category,year,quarter,effective_date,vehicle_count
+E08000009,Trafford,All licensed cars,2020,4,2020-12-31,111669
+E08000009,Trafford,All licensed cars,2019,4,2019-12-31,112901
+E08000009,Trafford,All licensed cars,2018,4,2018-12-31,112102
+E08000009,Trafford,All licensed cars,2017,4,2017-12-31,111634
+E08000009,Trafford,All licensed cars,2016,4,2016-12-31,110712
+E08000009,Trafford,All licensed cars,2015,4,2015-12-31,131180
+E08000009,Trafford,All licensed cars,2014,4,2014-12-31,130951
+E08000009,Trafford,All licensed cars,2013,4,2013-12-31,129608
+E08000009,Trafford,All licensed cars,2012,4,2012-12-31,127573
+E08000009,Trafford,All licensed cars,2011,4,2011-12-31,127803
+E08000009,Trafford,All licensed motorcycles,2020,4,2020-12-31,2739
+E08000009,Trafford,All licensed motorcycles,2019,4,2019-12-31,2750
+E08000009,Trafford,All licensed motorcycles,2018,4,2018-12-31,2715
+E08000009,Trafford,All licensed motorcycles,2017,4,2017-12-31,2718
+E08000009,Trafford,All licensed motorcycles,2016,4,2016-12-31,2720
+E08000009,Trafford,All licensed motorcycles,2015,4,2015-12-31,2795
+E08000009,Trafford,All licensed motorcycles,2014,4,2014-12-31,2831
+E08000009,Trafford,All licensed motorcycles,2013,4,2013-12-31,2913
+E08000009,Trafford,All licensed motorcycles,2012,4,2012-12-31,2823
+E08000009,Trafford,All licensed motorcycles,2011,4,2011-12-31,2860
+E08000009,Trafford,All licensed light goods vehicles (LGV),2020,4,2020-12-31,9443
+E08000009,Trafford,All licensed light goods vehicles (LGV),2019,4,2019-12-31,9478
+E08000009,Trafford,All licensed light goods vehicles (LGV),2018,4,2018-12-31,9206
+E08000009,Trafford,All licensed light goods vehicles (LGV),2017,4,2017-12-31,8771
+E08000009,Trafford,All licensed light goods vehicles (LGV),2016,4,2016-12-31,8836
+E08000009,Trafford,All licensed light goods vehicles (LGV),2015,4,2015-12-31,12950
+E08000009,Trafford,All licensed light goods vehicles (LGV),2014,4,2014-12-31,11001
+E08000009,Trafford,All licensed light goods vehicles (LGV),2013,4,2013-12-31,10687
+E08000009,Trafford,All licensed light goods vehicles (LGV),2012,4,2012-12-31,9893
+E08000009,Trafford,All licensed light goods vehicles (LGV),2011,4,2011-12-31,9999
+E08000009,Trafford,All licensed heavy goods vehicles (HGV),2020,4,2020-12-31,3941
+E08000009,Trafford,All licensed heavy goods vehicles (HGV),2019,4,2019-12-31,4559
+E08000009,Trafford,All licensed heavy goods vehicles (HGV),2018,4,2018-12-31,4545
+E08000009,Trafford,All licensed heavy goods vehicles (HGV),2017,4,2017-12-31,4859
+E08000009,Trafford,All licensed heavy goods vehicles (HGV),2016,4,2016-12-31,4827
+E08000009,Trafford,All licensed heavy goods vehicles (HGV),2015,4,2015-12-31,5320
+E08000009,Trafford,All licensed heavy goods vehicles (HGV),2014,4,2014-12-31,5665
+E08000009,Trafford,All licensed heavy goods vehicles (HGV),2013,4,2013-12-31,5766
+E08000009,Trafford,All licensed heavy goods vehicles (HGV),2012,4,2012-12-31,4968
+E08000009,Trafford,All licensed heavy goods vehicles (HGV),2011,4,2011-12-31,5179
+E08000009,Trafford,All licensed buses and coaches,2020,4,2020-12-31,223
+E08000009,Trafford,All licensed buses and coaches,2019,4,2019-12-31,268
+E08000009,Trafford,All licensed buses and coaches,2018,4,2018-12-31,282
+E08000009,Trafford,All licensed buses and coaches,2017,4,2017-12-31,278
+E08000009,Trafford,All licensed buses and coaches,2016,4,2016-12-31,239
+E08000009,Trafford,All licensed buses and coaches,2015,4,2015-12-31,249
+E08000009,Trafford,All licensed buses and coaches,2014,4,2014-12-31,256
+E08000009,Trafford,All licensed buses and coaches,2013,4,2013-12-31,281
+E08000009,Trafford,All licensed buses and coaches,2012,4,2012-12-31,290
+E08000009,Trafford,All licensed buses and coaches,2011,4,2011-12-31,327
+E08000009,Trafford,All other licensed vehicles,2020,4,2020-12-31,1101
+E08000009,Trafford,All other licensed vehicles,2019,4,2019-12-31,1177
+E08000009,Trafford,All other licensed vehicles,2018,4,2018-12-31,1226
+E08000009,Trafford,All other licensed vehicles,2017,4,2017-12-31,1197
+E08000009,Trafford,All other licensed vehicles,2016,4,2016-12-31,1745
+E08000009,Trafford,All other licensed vehicles,2015,4,2015-12-31,2354
+E08000009,Trafford,All other licensed vehicles,2014,4,2014-12-31,2275
+E08000009,Trafford,All other licensed vehicles,2013,4,2013-12-31,2196
+E08000009,Trafford,All other licensed vehicles,2012,4,2012-12-31,2359
+E08000009,Trafford,All other licensed vehicles,2011,4,2011-12-31,2596
+E08000009,Trafford,All licensed vehicles,2020,4,2020-12-31,129116
+E08000009,Trafford,All licensed vehicles,2019,4,2019-12-31,131133
+E08000009,Trafford,All licensed vehicles,2018,4,2018-12-31,130076
+E08000009,Trafford,All licensed vehicles,2017,4,2017-12-31,129457
+E08000009,Trafford,All licensed vehicles,2016,4,2016-12-31,129079
+E08000009,Trafford,All licensed vehicles,2015,4,2015-12-31,154848
+E08000009,Trafford,All licensed vehicles,2014,4,2014-12-31,152979
+E08000009,Trafford,All licensed vehicles,2013,4,2013-12-31,151451
+E08000009,Trafford,All licensed vehicles,2012,4,2012-12-31,147906
+E08000009,Trafford,All licensed vehicles,2011,4,2011-12-31,148764
+E08000009,Trafford,All licensed diesel cars,2020,4,2020-12-31,38803
+E08000009,Trafford,All licensed diesel cars,2019,4,2019-12-31,40030
+E08000009,Trafford,All licensed diesel cars,2018,4,2018-12-31,40119
+E08000009,Trafford,All licensed diesel cars,2017,4,2017-12-31,39790
+E08000009,Trafford,All licensed diesel cars,2016,4,2016-12-31,38651
+E08000009,Trafford,All licensed diesel cars,2015,4,2015-12-31,56847
+E08000009,Trafford,All licensed diesel cars,2014,4,2014-12-31,55575
+E08000009,Trafford,All licensed diesel cars,2013,4,2013-12-31,53287
+E08000009,Trafford,All licensed diesel cars,2012,4,2012-12-31,49431
+E08000009,Trafford,All licensed diesel cars,2011,4,2011-12-31,47407
+E08000009,Trafford,All licensed diesel vans,2020,4,2020-12-31,9099
+E08000009,Trafford,All licensed diesel vans,2019,4,2019-12-31,9138
+E08000009,Trafford,All licensed diesel vans,2018,4,2018-12-31,8890
+E08000009,Trafford,All licensed diesel vans,2017,4,2017-12-31,8459
+E08000009,Trafford,All licensed diesel vans,2016,4,2016-12-31,8482
+E08000009,Trafford,All licensed diesel vans,2015,4,2015-12-31,12591
+E08000009,Trafford,All licensed diesel vans,2014,4,2014-12-31,10643
+E08000009,Trafford,All licensed diesel vans,2013,4,2013-12-31,10349
+E08000009,Trafford,All licensed diesel vans,2012,4,2012-12-31,9526
+E08000009,Trafford,All licensed diesel vans,2011,4,2011-12-31,9621
