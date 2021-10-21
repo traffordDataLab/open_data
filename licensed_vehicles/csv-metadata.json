@@ -1,0 +1,39 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Licensed Vehicles",
+  "dc:description": "Number of licensed vehicles by different vehicle and ownership categories. Specific data concerning ultra-low emission vehicles (ULEV), inc. battery electric vehicles (BEV), plug-in hybrid electric vehicles (PHEV) and all plug-in electric vehicles is available as a separate dataset.",
+  "dc:license": {"@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"},
+  "tables": [{
+    "url": "licensed_ulev_gm_authorities.csv"
+  }, {
+    "url": "licensed_ulev_trafford.csv"
+  }, {
+    "url": "licensed_vehicles_gm_authorities.csv"
+  }, {
+    "url": "licensed_vehicles_trafford.csv"
+  }],
+  "tableSchema": {
+    "columns": [{
+      "titles": "area_code",
+      "dc:description": "Office for National Statistics (ONS) code for a Local Authority geographic area."
+    },{
+      "titles": "area_name",
+      "dc:description": "Name of the Local Authority to which the data relates."
+    },{
+      "titles": "category",
+      "dc:description": "The particular classification of licensed vehicle. In the 'licensed_ulev_...csv' datasets 'BEV', 'PHEV' and 'plug-in electric' are subsets of ULEV. In the 'licensed_vehicles_...csv' datasets 'diesel cars' and 'diesel vans' are subsets of the other categories present."
+    },{
+      "titles": "year",
+      "dc:description": "The year in which the data relates to, expressed as a number in the format YYYY."
+    },{
+      "titles": "quarter",
+      "dc:description": "The calendar quarter in which the data relates to, expressed as a number between 1-4. All data is correct as at the end of the quarter. Data that is only reported annually has been recorded as quarter 4 for consistency."
+    },{
+      "titles": "effective_date",
+      "dc:description": "A date expressed in the format YYYY-MM-DD representing the end of the calendar quarter recorded in the 'year' and 'quarter' fields."
+    },{
+      "titles": "vehicle_count",
+      "dc:description": "A numeric count of the licensed vehicles belonging to the category expressed in the 'category' field."
+    }]
+  }
+}
