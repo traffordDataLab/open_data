@@ -1,7 +1,7 @@
 # Green Flag Awards #
 
 # Source: Ministry of Housing, Communities & Local Government / Keep Britain Tidy
-# Publisher URL: http://www.greenflagaward.org.uk
+# Publisher URL: https://www.greenflagaward.org
 # Licence: Open Government Licence v3.0
 
 # -------- Load required libraries
@@ -12,14 +12,14 @@ bdy <- st_read("https://ons-inspire.esriuk.com/arcgis/rest/services/Administrati
   select(area_code = lad18cd, area_name = lad18nm)
 
 # -------- Get the list of parks that have been awarded the Green Flag and lie within the GM boundary
-r <- POST("http://www.greenflagaward.org.uk/umbraco/surface/parks/getparks/")
+r <- POST("https://www.greenflagaward.org/umbraco/surface/parks/getparks/")
 sf <- content(r, as = "text", encoding = "UTF-8") %>% 
   fromJSON(flatten = TRUE) %>% 
   purrr::pluck("Parks") %>% 
   as_tibble() %>% 
   filter(WonGreenFlagAward == TRUE) %>% 
   mutate(name = str_trim(Title),
-         green_flag_page = str_c("http://www.greenflagaward.org.uk/park-summary/?park=", ID),
+         green_flag_page = str_c("https://www.greenflagaward.org/park-summary/?park=", ID),
          lon = as.numeric(as.character(Longitude)),
          lat = as.numeric(as.character(Latitude))) %>% 
   select(name, green_flag_page, lon, lat) %>% 
@@ -30,7 +30,7 @@ sf <- content(r, as = "text", encoding = "UTF-8") %>%
   select(name, green_flag_page, area_code, area_name) 
 
 # -------- Get the additional information, such as contact details etc. from each individual park page in turn
-url <- "http://www.greenflagaward.org.uk/park-summary/?park=%d"
+url <- "https://www.greenflagaward.org/park-summary/?park=%d"
 meta <- map_df(as.numeric(gsub("\\D", "", sf$green_flag_page)), function(i) {
   query <- tryCatch(read_html(sprintf(url, i)),
                     error = function(cond) { return(NULL) },
@@ -50,6 +50,11 @@ meta <- map_df(as.numeric(gsub("\\D", "", sf$green_flag_page)), function(i) {
 # -------- Join the meta data to the park boundary data obtained earlier
 sf_meta <- left_join(sf, meta, by = "name") %>% 
   select(name, managed, contact, telephone, email, website, area_code, area_name)
+
+# Check if email has been redacted (shown as [email protected]). If so, replace with "N/A" to match with any websites also stated as "N/A".
+# If we use the NA_character_ it will be saved as null in the GeoJSON
+sf_meta <- sf_meta %>%
+  mutate(email = if_else(str_detect(email, "[email protected]"), "N/A", email))
 
 sf_meta_trafford <- sf_meta %>%
   filter(area_name == "Trafford")

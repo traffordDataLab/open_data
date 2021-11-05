@@ -17,7 +17,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="http://www.greenflagaward.org.uk/"></a>www.greenflagaward.org.uk</td>
+	<td><a href="https://www.greenflagaward.org/"></a>www.greenflagaward.org</td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2018</td>
+	<td>2021</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -53,11 +53,11 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2019-06-18</td>
+	<td>2021-11-05</td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td></td>
+	<td>The Green Flag Awards website is run and hosted by Keep Britain Tidy. The scheme is managed on behalf of The Department for Communities and Local Government. Please refer to the <a href="https://www.greenflagaward.org/terms-conditions/">Terms and Conditions</a> for more information.</td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>
