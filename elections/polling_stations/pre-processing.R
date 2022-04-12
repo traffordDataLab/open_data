@@ -66,9 +66,12 @@ df_gm_stations <- df_gm_stations_src %>%  # create a new dataframe so that we do
 # Amend incorrect or missing data
 df_gm_stations <- df_gm_stations %>%
   mutate(postcode = case_when(
-      postcode == "M5 3QW" ~ "M5 3LQ",   # St. Clement's Church, Salford (postcode provided is incorrect)
-      postcode == "M41 2WW" ~ "M41 7NP", # Woodhouse Primary School, Davyhulme (postcode provided is incorrect)
-      address == "Marple Sixth Form College, Buxton Lane, Marple" ~ "SK6 7QY", # No postcode provided
+      #postcode == "M5 3QW" ~ "M5 3LQ",  # St. Clement's Church, Salford (postcode provided is incorrect)
+      postcode == "BL9 9XX" ~ "BL9 9NS",  # Manchester Road Community Centre, Bury (postcode provided is incorrect) 
+      postcode == "BL9 2JR" ~ "BL8 2JH",  # Greenhill CP School, Bury (postcode provided is incorrect)
+      postcode == "M21 0HU" ~ "M21 0UH",  # St Werburgh's Church Hall, Manchester (postcode is incorrect)
+      postcode == "M41 2WW" ~ "M41 7WW", # Woodhouse Primary School, Davyhulme (postcode provided is incorrect)
+      #address == "Marple Sixth Form College, Buxton Lane, Marple" ~ "SK6 7QY", # No postcode provided
       address == "Corner of St Andrews Avenue, and Bridge Grove, Timperley" ~ "WA15 6LD", # No postcode provided
       TRUE ~ postcode
     )

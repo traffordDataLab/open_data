@@ -5,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Location of polling stations within Trafford and Greater Manchester for the Local Elections on Thursday 6<sup>th</sup> of May 2021</td>
+	<td>Location of polling stations within Trafford and Greater Manchester for the Local Elections on Thursday 5<sup>th</sup> of May 2022</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -25,11 +25,11 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Bolton, Manchester, Oldham, Rochdale, Salford, Stockport, Tameside, Trafford, Wigan</td>
+	<td>Bury, Manchester, Oldham, Stockport, Tameside and Trafford</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2021-05-06</td>
+	<td>2022-04-12</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -41,7 +41,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains OS data &copy; Crown copyright and database right 2021.<br />Contains Royal Mail data &copy; Royal Mail copyright and database right 2021.<br />Contains National Statistics data &copy; Crown copyright and database right 2021.</td>
+	<td>Contains OS data &copy; Crown copyright and database right 2022.<br />Contains Royal Mail data &copy; Royal Mail copyright and database right 2022.<br />Contains National Statistics data &copy; Crown copyright and database right 2022.</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -53,11 +53,11 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2021-05-07</td>
+	<td>2022-04-12</td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td>No data was available via the API for Bury. Polling stations have been mapped to the centroid of their postcode. Polling stations where a postcode has not been provided, or where the postcode could not be matched, are present in the CSV but have been omitted from the GeoJSON.</td>
+	<td>No data was available via the API for Bolton, Rochdale, Salford and Wigan. Polling stations have been mapped to the centroid of their postcode. Polling stations where a postcode has not been provided, or where the postcode could not be matched, are present in the CSV but have been omitted from the GeoJSON.</td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>
