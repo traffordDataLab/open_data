@@ -1,88 +1,1706 @@
 {
-"type": "FeatureCollection",
-"name": "trafford_polling_stations",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": "4522", "name": "St Marys Church Hall", "address": "Entwistle Avenue, Off Davyhulme Road, Davyhulme", "postcode": "M41 5TP", "ward_code": "E05000827", "ward_name": "Davyhulme West", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.367594, 53.455849 ] } },
-{ "type": "Feature", "properties": { "id": "4489", "name": "Urmston Methodist Church Meeting Room", "address": "George Street, Urmston", "postcode": "M41 9BA", "ward_code": "E05000838", "ward_name": "Urmston", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.344275, 53.447586 ] } },
-{ "type": "Feature", "properties": { "id": "4440", "name": "Sharon Youth Centre", "address": "Cornbrook Street, Old Trafford", "postcode": "M16 7WR", "ward_code": "E05000825", "ward_name": "Clifford", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.259035, 53.461707 ] } },
-{ "type": "Feature", "properties": { "id": "4714", "name": "The Avenue Methodist Church", "address": "Wincham Road, Sale", "postcode": "M33 4PL", "ward_code": "E05000834", "ward_name": "St Mary's", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.342676, 53.413551 ] } },
-{ "type": "Feature", "properties": { "id": "4526", "name": "Woodhouse Primary School", "address": "Nursery Road, Davyhulme", "postcode": "M41 7WW", "ward_code": "E05000827", "ward_name": "Davyhulme West", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.369834, 53.457137 ] } },
-{ "type": "Feature", "properties": { "id": "4637", "name": "Stamford Park Primary School Nursery", "address": "Oak Road, Hale", "postcode": "WA15 9JB", "ward_code": "E05000831", "ward_name": "Hale Central", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.340502, 53.382538 ] } },
-{ "type": "Feature", "properties": { "id": "4517", "name": "Woodsend Library", "address": "Woodsend Road, Flixton", "postcode": "M41 8GN", "ward_code": "E05000827", "ward_name": "Davyhulme West", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.393504, 53.455039 ] } },
-{ "type": "Feature", "properties": { "id": "4691", "name": "Lostock Library", "address": "Selby Road, Stretford", "postcode": "M32 9PB", "ward_code": "E05000829", "ward_name": "Gorse Hill", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.331275, 53.45458 ] } },
-{ "type": "Feature", "properties": { "id": "4624", "name": "Little Heath Village Hall", "address": "School Lane, Dunham Massey, Altrincham", "postcode": "WA14 4SE", "ward_code": "E05000821", "ward_name": "Bowdon", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.391853, 53.388609 ] } },
-{ "type": "Feature", "properties": { "id": "4635", "name": "St Peters Assembly Rooms", "address": "136 Cecil Road, Hale", "postcode": "WA15 9NU", "ward_code": "E05000831", "ward_name": "Hale Central", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.344881, 53.373725 ] } },
-{ "type": "Feature", "properties": { "id": "4519", "name": "8TH Flixton Scout Group", "address": "Woodsend Crescent Road, Flixton", "postcode": "M41 8AD", "ward_code": "E05000827", "ward_name": "Davyhulme West", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.397246, 53.449399 ] } },
-{ "type": "Feature", "properties": { "id": "4553", "name": "St Georges Parish Hall", "address": "Church Walk, Altrincham", "postcode": "WA14 4TT", "ward_code": "E05000819", "ward_name": "Altrincham", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.352112, 53.39027 ] } },
-{ "type": "Feature", "properties": { "id": "4697", "name": "Well Green Lodge", "address": "Wellfield Lane, Hale", "postcode": "WA15 8NW", "ward_code": "E05000830", "ward_name": "Hale Barns", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.314384, 53.38181 ] } },
-{ "type": "Feature", "properties": { "id": "4560", "name": "Evangelical Church", "address": "Devonshire Road, Altrincham", "postcode": "WA14 4EZ", "ward_code": "E05000819", "ward_name": "Altrincham", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.354086, 53.396152 ] } },
-{ "type": "Feature", "properties": { "id": "4568", "name": "Altrincham Library", "address": "2 Pott Street, Altrincham", "postcode": "WA14 1AH", "ward_code": "E05000819", "ward_name": "Altrincham", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.352309, 53.386942 ] } },
-{ "type": "Feature", "properties": { "id": "4678", "name": "Sale Nomads", "address": "Friars Road, Sale", "postcode": "M33 7UU", "ward_code": "E05000833", "ward_name": "Priory", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.323908, 53.422422 ] } },
-{ "type": "Feature", "properties": { "id": "4448", "name": "St Johns Hall", "address": "St Johns Road, Old Trafford", "postcode": "M16 7GX", "ward_code": "E05000825", "ward_name": "Clifford", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.268164, 53.457139 ] } },
-{ "type": "Feature", "properties": { "id": "4609", "name": "Broomwood Community Centre", "address": "Mainwood Road, Timperley", "postcode": "WA15 7JF", "ward_code": "E05000839", "ward_name": "Village", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.305895, 53.390874 ] } },
-{ "type": "Feature", "properties": { "id": "4706", "name": "Ashton-Upon-Mersey United Reformed Church", "address": "20 Whitefield Road, Sale", "postcode": "M33 6NZ", "ward_code": "E05000820", "ward_name": "Ashton upon Mersey", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.32931, 53.42824 ] } },
-{ "type": "Feature", "properties": { "id": "4593", "name": "Park Road Academy Primary School", "address": "Frieston Road, Timperley", "postcode": "WA14 5AP", "ward_code": "E05000822", "ward_name": "Broadheath", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.340089, 53.40608 ] } },
-{ "type": "Feature", "properties": { "id": "4482", "name": "Moss Park Junior School", "address": "Moss Park Road, Stretford", "postcode": "M32 9HR", "ward_code": "E05000836", "ward_name": "Stretford", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.322583, 53.448149 ] } },
-{ "type": "Feature", "properties": { "id": "4570", "name": "Heyes Lane Primary School", "address": "Crofton Avenue, Timperley", "postcode": "WA15 6BZ", "ward_code": "E05000837", "ward_name": "Timperley", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.325453, 53.406058 ] } },
-{ "type": "Feature", "properties": { "id": "4472", "name": "St Matthews Hall - Horrocks Room", "address": "Chapel Lane, Stretford", "postcode": "M32 9AJ", "ward_code": "E05000836", "ward_name": "Stretford", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.311646, 53.443362 ] } },
-{ "type": "Feature", "properties": { "id": "4557", "name": "Oldfield Brow Primary School", "address": "Taylor Road, Altrincham", "postcode": "WA14 4LE", "ward_code": "E05000819", "ward_name": "Altrincham", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.377778, 53.391774 ] } },
-{ "type": "Feature", "properties": { "id": "4565", "name": "St Vincents Catholic Primary School", "address": "Junior Department, Orchard Road, Altrincham", "postcode": "WA15 8EU", "ward_code": "E05000819", "ward_name": "Altrincham", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.344485, 53.389771 ] } },
-{ "type": "Feature", "properties": { "id": "4614", "name": "St Lukes Church", "address": "Vicarage Lane, Bowdon", "postcode": "WA14 3BJ", "ward_code": "E05000821", "ward_name": "Bowdon", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.361832, 53.371491 ] } },
-{ "type": "Feature", "properties": { "id": "4661", "name": "St Francis Church Hall", "address": "Budworth Road, Sale", "postcode": "M33 2RP", "ward_code": "E05000835", "ward_name": "Sale Moor", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.297843, 53.415739 ] } },
-{ "type": "Feature", "properties": { "id": "4747", "name": "Christ Church", "address": "Thorley Lane, Timperley", "postcode": "WA15 7AN", "ward_code": "E05000830", "ward_name": "Hale Barns", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.316835, 53.390046 ] } },
-{ "type": "Feature", "properties": { "id": "4648", "name": "Brooklands Primary School", "address": "Woodbourne Road, Sale", "postcode": "M33 3SY", "ward_code": "E05000823", "ward_name": "Brooklands", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.326637, 53.413426 ] } },
-{ "type": "Feature", "properties": { "id": "4529", "name": "Davyhulme Primary School", "address": "Canterbury Road, Davyhulme", "postcode": "M41 0RX", "ward_code": "E05000826", "ward_name": "Davyhulme East", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.351148, 53.453966 ] } },
-{ "type": "Feature", "properties": { "id": "4549", "name": "Sale West Conference Centre", "address": "Room 3, Manor Avenue, Sale", "postcode": "M33 5JX", "ward_code": "E05000824", "ward_name": "Bucklow-St Martins", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.354017, 53.425967 ] } },
-{ "type": "Feature", "properties": { "id": "4598", "name": "2ND Timperley Scout HQ", "address": "Heyes Drive, Timperley", "postcode": "WA15 6ED", "ward_code": "E05000839", "ward_name": "Village", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.322666, 53.401509 ] } },
-{ "type": "Feature", "properties": { "id": "4573", "name": "Holy Cross Church Hall", "address": "Park Road, Timperley", "postcode": "WA15 6QG", "ward_code": "E05000837", "ward_name": "Timperley", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.332331, 53.40266 ] } },
-{ "type": "Feature", "properties": { "id": "4628", "name": "The Parish Room", "address": "Bent Lane, Warburton", "postcode": "WA13 9TQ", "ward_code": "E05000821", "ward_name": "Bowdon", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.445414, 53.399028 ] } },
-{ "type": "Feature", "properties": { "id": "4707", "name": "St Mary Magdalene with Sale West Community Church", "address": "44 Moss Lane, Sale", "postcode": "M33 6GD", "ward_code": "E05000820", "ward_name": "Ashton upon Mersey", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.33774, 53.424738 ] } },
-{ "type": "Feature", "properties": { "id": "4578", "name": "Altrincham United Reformed Church", "address": "Woodlands Parkway, Timperley, Altrincham", "postcode": "WA15 7QT", "ward_code": "E05000837", "ward_name": "Timperley", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.341551, 53.39333 ] } },
-{ "type": "Feature", "properties": { "id": "4460", "name": "Kings Road Primary School", "address": "Kings Road, Firswood", "postcode": "M16 0GR", "ward_code": "E05000832", "ward_name": "Longford", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.281652, 53.453979 ] } },
-{ "type": "Feature", "properties": { "id": "4682", "name": "Stretford Sports Village Chester Centre", "address": "Great Stone Road, Stretford", "postcode": "M32 0ZS", "ward_code": "E05000829", "ward_name": "Gorse Hill", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.292675, 53.458331 ] } },
-{ "type": "Feature", "properties": { "id": "4669", "name": "Sale Waterside", "address": "1 Waterside, Sale", "postcode": "M33 7ZF", "ward_code": "E05000833", "ward_name": "Priory", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.32, 53.425111 ] } },
-{ "type": "Feature", "properties": { "id": "4672", "name": "Sale Sports Club", "address": "Clarendon Crescent, Sale", "postcode": "M33 2DE", "ward_code": "E05000833", "ward_name": "Priory", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.305251, 53.426838 ] } },
-{ "type": "Feature", "properties": { "id": "4797", "name": "St Joseph`s Parish Centre", "address": "Hope Road, Sale", "postcode": "M33 3BF", "ward_code": "E05000833", "ward_name": "Priory", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.319997, 53.422583 ] } },
-{ "type": "Feature", "properties": { "id": "4576", "name": "Timperley Methodist Church", "address": "Stockport Road, Timperley", "postcode": "WA15 7UG", "ward_code": "E05000837", "ward_name": "Timperley", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.318906, 53.397499 ] } },
-{ "type": "Feature", "properties": { "id": "4643", "name": "The Life Centre", "address": "235 Washway Road, Sale", "postcode": "M33 4BP", "ward_code": "E05000823", "ward_name": "Brooklands", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.336595, 53.415061 ] } },
-{ "type": "Feature", "properties": { "id": "4684", "name": "Gorse Hill Studios", "address": "Cavendish Road, Stretford", "postcode": "M32 0PS", "ward_code": "E05000829", "ward_name": "Gorse Hill", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.300093, 53.457413 ] } },
-{ "type": "Feature", "properties": { "id": "4597", "name": "Mobile Polling Station Broadheath", "address": "Corner of St Andrews Avenue, and Bridge Grove, Timperley", "postcode": "WA15 6LD", "ward_code": "E05000822", "ward_name": "Broadheath", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.338426, 53.399424 ] } },
-{ "type": "Feature", "properties": { "id": "4468", "name": "Longford Park Special School", "address": "74 Cromwell Road, Stretford", "postcode": "M32 8QJ", "ward_code": "E05000832", "ward_name": "Longford", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.294365, 53.447952 ] } },
-{ "type": "Feature", "properties": { "id": "4507", "name": "Flixton Primary School", "address": "Delamere Road, Flixton", "postcode": "M41 5QL", "ward_code": "E05000828", "ward_name": "Flixton", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.378333, 53.449209 ] } },
-{ "type": "Feature", "properties": { "id": "4723", "name": "Carrington Lane Methodist Church", "address": "34 Ennerdale Drive, Sale", "postcode": "M33 5NE", "ward_code": "E05000820", "ward_name": "Ashton upon Mersey", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.34289, 53.427016 ] } },
-{ "type": "Feature", "properties": { "id": "4655", "name": "Sale Moor Community Centre", "address": "Norris Road, Sale", "postcode": "M33 2TN", "ward_code": "E05000823", "ward_name": "Brooklands", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.303598, 53.414709 ] } },
-{ "type": "Feature", "properties": { "id": "4585", "name": "Broadheath Community Hall", "address": "160 Sinderland Road, Altrincham", "postcode": "WA14 5JQ", "ward_code": "E05000822", "ward_name": "Broadheath", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.360126, 53.404465 ] } },
-{ "type": "Feature", "properties": { "id": "4452", "name": "Urmston Leisure Centre", "address": "Bowfell Road, Urmston", "postcode": "M41 5RR", "ward_code": "E05000828", "ward_name": "Flixton", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.370201, 53.451021 ] } },
-{ "type": "Feature", "properties": { "id": "4456", "name": "St Ann's Parish Centre", "address": "Cross Street, Off Chester Road, Stretford", "postcode": "M32 8LF", "ward_code": "E05000832", "ward_name": "Longford", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.303883, 53.448297 ] } },
-{ "type": "Feature", "properties": { "id": "4504", "name": "Shawe Hall Community Centre", "address": "Church Road, Flixton", "postcode": "M41 6HJ", "ward_code": "E05000828", "ward_name": "Flixton", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.37007, 53.442682 ] } },
-{ "type": "Feature", "properties": { "id": "4561", "name": "Altrincham Methodist Church", "address": "Barrington Road, Altrincham", "postcode": "WA14 1HF", "ward_code": "E05000819", "ward_name": "Altrincham", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.349286, 53.390378 ] } },
-{ "type": "Feature", "properties": { "id": "4538", "name": "Carrington Business Park", "address": "Manchester Road, Carrington", "postcode": "M31 4DD", "ward_code": "E05000824", "ward_name": "Bucklow-St Martins", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.400958, 53.431219 ] } },
-{ "type": "Feature", "properties": { "id": "4794", "name": "St Peter`s House", "address": "233 Ashley Road, Hale", "postcode": "WA15 9SS", "ward_code": "E05000831", "ward_name": "Hale Central", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.342116, 53.375639 ] } },
-{ "type": "Feature", "properties": { "id": "4647", "name": "Mobile Polling Station", "address": "Eastway/Walton Road, Sale", "postcode": "M33 4ER", "ward_code": "E05000823", "ward_name": "Brooklands", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.337878, 53.408028 ] } },
-{ "type": "Feature", "properties": { "id": "4651", "name": "Clubhouse Sale Football Club", "address": "Heywood Road, Sale", "postcode": "M33 3WB", "ward_code": "E05000823", "ward_name": "Brooklands", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.321895, 53.416915 ] } },
-{ "type": "Feature", "properties": { "id": "4606", "name": "St Johns Church Hall", "address": "Brooklands Road, Sale", "postcode": "M33 3PB", "ward_code": "E05000839", "ward_name": "Village", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.317693, 53.408371 ] } },
-{ "type": "Feature", "properties": { "id": "4658", "name": "Sale Moor Methodist Church", "address": "Northenden Road, Sale Moor", "postcode": "M33 2PP", "ward_code": "E05000835", "ward_name": "Sale Moor", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.293477, 53.419597 ] } },
-{ "type": "Feature", "properties": { "id": "4542", "name": "Our Lady of Lourdes Catholic Primary", "address": "Lock Lane, Partington", "postcode": "M31 4PJ", "ward_code": "E05000824", "ward_name": "Bucklow-St Martins", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.436427, 53.418701 ] } },
-{ "type": "Feature", "properties": { "id": "4694", "name": "All Saints Church", "address": "Hale Road, Hale Barns", "postcode": "WA15 8SP", "ward_code": "E05000830", "ward_name": "Hale Barns", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.314574, 53.369134 ] } },
-{ "type": "Feature", "properties": { "id": "4591", "name": "Woodheys Park Pavilion", "address": "Kenmore Road/Woodhouse Lane, Sale", "postcode": "M33 4LP", "ward_code": "E05000822", "ward_name": "Broadheath", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.355328, 53.409919 ] } },
-{ "type": "Feature", "properties": { "id": "4499", "name": "Unitarian Church Hall", "address": "Queens Road, Urmston", "postcode": "M41 9HA", "ward_code": "E05000838", "ward_name": "Urmston", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.352896, 53.445009 ] } },
-{ "type": "Feature", "properties": { "id": "4632", "name": "2ND Hale Scout HQ", "address": "Lilac Road, Hale", "postcode": "WA15 8BJ", "ward_code": "E05000831", "ward_name": "Hale Central", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.330278, 53.380454 ] } },
-{ "type": "Feature", "properties": { "id": "4545", "name": "Partington Community Centre", "address": "Central Road, Partington", "postcode": "M31 4FL", "ward_code": "E05000824", "ward_name": "Bucklow-St Martins", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.42617, 53.417784 ] } },
-{ "type": "Feature", "properties": { "id": "4493", "name": "Community Centre", "address": "Humphrey Lane, Urmston", "postcode": "M41 9PT", "ward_code": "E05000838", "ward_name": "Urmston", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.331202, 53.45094 ] } },
-{ "type": "Feature", "properties": { "id": "4479", "name": "Metros Sports and Social Club", "address": "Moss Road, Stretford", "postcode": "M32 0AH", "ward_code": "E05000836", "ward_name": "Stretford", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.310018, 53.451213 ] } },
-{ "type": "Feature", "properties": { "id": "4687", "name": "All Saints Church Hall", "address": "Barton Road, Stretford", "postcode": "M32 9RL", "ward_code": "E05000829", "ward_name": "Gorse Hill", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.322083, 53.453689 ] } },
-{ "type": "Feature", "properties": { "id": "4665", "name": "St Annes Church Hall", "address": "Trinity Road, Sale", "postcode": "M33 3ED", "ward_code": "E05000835", "ward_name": "Sale Moor", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.307114, 53.420228 ] } },
-{ "type": "Feature", "properties": { "id": "4486", "name": "Sevenways Methodist Church", "address": "Barton Road, Stretford", "postcode": "M32 9RD", "ward_code": "E05000836", "ward_name": "Stretford", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.316342, 53.449228 ] } },
-{ "type": "Feature", "properties": { "id": "4532", "name": "Christ Church Hall", "address": "Lostock Road, Urmston", "postcode": "M41 0TD", "ward_code": "E05000826", "ward_name": "Davyhulme East", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.346071, 53.45737 ] } },
-{ "type": "Feature", "properties": { "id": "4513", "name": "Flixton House", "address": "Flixton Road, Flixton", "postcode": "M41 5GJ", "ward_code": "E05000828", "ward_name": "Flixton", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.383185, 53.446405 ] } },
-{ "type": "Feature", "properties": { "id": "4581", "name": "St Albans Hall", "address": "Lindsell Road, West Timperley, Altrincham", "postcode": "WA14 5NX", "ward_code": "E05000822", "ward_name": "Broadheath", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.353799, 53.40329 ] } },
-{ "type": "Feature", "properties": { "id": "4445", "name": "Old Trafford Community Academy", "address": "Malvern Street, Old Trafford", "postcode": "M15 4FL", "ward_code": "E05000825", "ward_name": "Clifford", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.265141, 53.465109 ] } },
-{ "type": "Feature", "properties": { "id": "4464", "name": "Old Trafford Sports Barn", "address": "St Hildas Road, Old Trafford", "postcode": "M16 9PQ", "ward_code": "E05000832", "ward_name": "Longford", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.271909, 53.461148 ] } },
-{ "type": "Feature", "properties": { "id": "4718", "name": "Sale West Community Centre", "address": "Newbury Avenue, Sale", "postcode": "M33 4QW", "ward_code": "E05000834", "ward_name": "St Mary's", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.358027, 53.419619 ] } },
-{ "type": "Feature", "properties": { "id": "4621", "name": "Jubilee Centre", "address": "The Firs, Bowdon", "postcode": "WA14 2TQ", "ward_code": "E05000821", "ward_name": "Bowdon", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.362827, 53.378931 ] } },
-{ "type": "Feature", "properties": { "id": "4510", "name": "Flixton Cricket and Sports Club", "address": "Lawrence Road, Flixton", "postcode": "M41 8UU", "ward_code": "E05000828", "ward_name": "Flixton", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.386736, 53.451167 ] } },
-{ "type": "Feature", "properties": { "id": "4535", "name": "Our Lady and the English Martyrs Parish Centre", "address": "Davyhulme Road, Urmston", "postcode": "M41 7DS", "ward_code": "E05000826", "ward_name": "Davyhulme East", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.360543, 53.457255 ] } },
-{ "type": "Feature", "properties": { "id": "4496", "name": "Urmston Library", "address": "34 Golden Way, Urmston", "postcode": "M41 0NA", "ward_code": "E05000838", "ward_name": "Urmston", "la_code": "E08000009", "la_name": "Trafford" }, "geometry": { "type": "Point", "coordinates": [ -2.354722, 53.449093 ] } }
-]
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4522",
+				"name": "St Marys Church Hall",
+				"address": "Entwistle Avenue, Off Davyhulme Road, Davyhulme",
+				"postcode": "M41 5TP",
+				"ward_code": "E05000827",
+				"ward_name": "Davyhulme West",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 1
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.367297,
+					53.456639
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4489",
+				"name": "Urmston Methodist Church Meeting Room",
+				"address": "George Street, Urmston",
+				"postcode": "M41 9BA",
+				"ward_code": "E05000838",
+				"ward_name": "Urmston",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 2
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.343714,
+					53.447283
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4440",
+				"name": "Sharon Youth Centre",
+				"address": "Cornbrook Street, Old Trafford",
+				"postcode": "M16 7WR",
+				"ward_code": "E05000825",
+				"ward_name": "Clifford",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 3
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.258645,
+					53.461587
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4714",
+				"name": "The Avenue Methodist Church",
+				"address": "Wincham Road, Sale",
+				"postcode": "M33 4PL",
+				"ward_code": "E05000834",
+				"ward_name": "St Mary's",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 4
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.341391,
+					53.414702
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4526",
+				"name": "Woodhouse Primary School",
+				"address": "Nursery Road, Davyhulme",
+				"postcode": "M41 7WW",
+				"ward_code": "E05000827",
+				"ward_name": "Davyhulme West",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 5
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.371106,
+					53.457926
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4637",
+				"name": "Stamford Park Primary School Nursery",
+				"address": "Oak Road, Hale",
+				"postcode": "WA15 9JB",
+				"ward_code": "E05000831",
+				"ward_name": "Hale Central",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 6
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.340481,
+					53.382254
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4517",
+				"name": "Woodsend Library",
+				"address": "Woodsend Road, Flixton",
+				"postcode": "M41 8GN",
+				"ward_code": "E05000827",
+				"ward_name": "Davyhulme West",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 7
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.393056,
+					53.453401
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4691",
+				"name": "Lostock Library",
+				"address": "Selby Road, Stretford",
+				"postcode": "M32 9PB",
+				"ward_code": "E05000829",
+				"ward_name": "Gorse Hill",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 8
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.330526,
+					53.454896
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4624",
+				"name": "Little Heath Village Hall",
+				"address": "School Lane, Dunham Massey, Altrincham",
+				"postcode": "WA14 4SE",
+				"ward_code": "E05000821",
+				"ward_name": "Bowdon",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 9
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.392314,
+					53.38952
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4635",
+				"name": "St Peters Assembly Rooms",
+				"address": "136 Cecil Road, Hale",
+				"postcode": "WA15 9NU",
+				"ward_code": "E05000831",
+				"ward_name": "Hale Central",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 10
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.344201,
+					53.372775
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4519",
+				"name": "8TH Flixton Scout Group",
+				"address": "Woodsend Crescent Road, Flixton",
+				"postcode": "M41 8AD",
+				"ward_code": "E05000827",
+				"ward_name": "Davyhulme West",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 11
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.397176,
+					53.450072
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4553",
+				"name": "St Georges Parish Hall",
+				"address": "Church Walk, Altrincham",
+				"postcode": "WA14 4TT",
+				"ward_code": "E05000819",
+				"ward_name": "Altrincham",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 12
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.352346,
+					53.389692
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4697",
+				"name": "Well Green Lodge",
+				"address": "Wellfield Lane, Hale",
+				"postcode": "WA15 8NW",
+				"ward_code": "E05000830",
+				"ward_name": "Hale Barns",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 13
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.314384,
+					53.38181
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4560",
+				"name": "Evangelical Church",
+				"address": "Devonshire Road, Altrincham",
+				"postcode": "WA14 4EZ",
+				"ward_code": "E05000819",
+				"ward_name": "Altrincham",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 14
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.353719,
+					53.396234
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4568",
+				"name": "Altrincham Library",
+				"address": "2 Pott Street, Altrincham",
+				"postcode": "WA14 1AH",
+				"ward_code": "E05000819",
+				"ward_name": "Altrincham",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 15
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.352309,
+					53.386942
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4678",
+				"name": "Sale Nomads",
+				"address": "Friars Road, Sale",
+				"postcode": "M33 7UU",
+				"ward_code": "E05000833",
+				"ward_name": "Priory",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 16
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.325021,
+					53.422325
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4448",
+				"name": "St Johns Hall",
+				"address": "St Johns Road, Old Trafford",
+				"postcode": "M16 7GX",
+				"ward_code": "E05000825",
+				"ward_name": "Clifford",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 17
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.268576,
+					53.457984
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4609",
+				"name": "Broomwood Community Centre",
+				"address": "Mainwood Road, Timperley",
+				"postcode": "WA15 7JF",
+				"ward_code": "E05000839",
+				"ward_name": "Village",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 18
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.305839,
+					53.391507
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4706",
+				"name": "Ashton-Upon-Mersey United Reformed Church",
+				"address": "20 Whitefield Road, Sale",
+				"postcode": "M33 6NZ",
+				"ward_code": "E05000820",
+				"ward_name": "Ashton upon Mersey",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 19
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.329617,
+					53.428295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4593",
+				"name": "Park Road Academy Primary School",
+				"address": "Frieston Road, Timperley",
+				"postcode": "WA14 5AP",
+				"ward_code": "E05000822",
+				"ward_name": "Broadheath",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 20
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.341366,
+					53.406288
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4482",
+				"name": "Moss Park Junior School",
+				"address": "Moss Park Road, Stretford",
+				"postcode": "M32 9HR",
+				"ward_code": "E05000836",
+				"ward_name": "Stretford",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 21
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.321107,
+					53.448192
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4570",
+				"name": "Heyes Lane Primary School",
+				"address": "Crofton Avenue, Timperley",
+				"postcode": "WA15 6BZ",
+				"ward_code": "E05000837",
+				"ward_name": "Timperley",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 22
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.324363,
+					53.406252
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4472",
+				"name": "St Matthews Hall - Horrocks Room",
+				"address": "Chapel Lane, Stretford",
+				"postcode": "M32 9AJ",
+				"ward_code": "E05000836",
+				"ward_name": "Stretford",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 23
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.310471,
+					53.443484
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4557",
+				"name": "Oldfield Brow Primary School",
+				"address": "Taylor Road, Altrincham",
+				"postcode": "WA14 4LE",
+				"ward_code": "E05000819",
+				"ward_name": "Altrincham",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 24
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.376962,
+					53.391864
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4565",
+				"name": "St Vincents Catholic Primary School",
+				"address": "Junior Department, Orchard Road, Altrincham",
+				"postcode": "WA15 8EU",
+				"ward_code": "E05000819",
+				"ward_name": "Altrincham",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 25
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.34229,
+					53.38992
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4614",
+				"name": "St Lukes Church",
+				"address": "Vicarage Lane, Bowdon",
+				"postcode": "WA14 3BJ",
+				"ward_code": "E05000821",
+				"ward_name": "Bowdon",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 26
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.3616,
+					53.371872
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4661",
+				"name": "St Francis Church Hall",
+				"address": "Budworth Road, Sale",
+				"postcode": "M33 2RP",
+				"ward_code": "E05000835",
+				"ward_name": "Sale Moor",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 27
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.297183,
+					53.415211
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4747",
+				"name": "Christ Church",
+				"address": "Thorley Lane, Timperley",
+				"postcode": "WA15 7AN",
+				"ward_code": "E05000830",
+				"ward_name": "Hale Barns",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 28
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.315965,
+					53.390098
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4648",
+				"name": "Brooklands Primary School",
+				"address": "Woodbourne Road, Sale",
+				"postcode": "M33 3SY",
+				"ward_code": "E05000823",
+				"ward_name": "Brooklands",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 29
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.325665,
+					53.41324
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4529",
+				"name": "Davyhulme Primary School",
+				"address": "Canterbury Road, Davyhulme",
+				"postcode": "M41 0RX",
+				"ward_code": "E05000826",
+				"ward_name": "Davyhulme East",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 30
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.35005,
+					53.454461
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4549",
+				"name": "Sale West Conference Centre",
+				"address": "Room 3, Manor Avenue, Sale",
+				"postcode": "M33 5JX",
+				"ward_code": "E05000824",
+				"ward_name": "Bucklow-St Martins",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 31
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.355202,
+					53.424665
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4598",
+				"name": "2ND Timperley Scout HQ",
+				"address": "Heyes Drive, Timperley",
+				"postcode": "WA15 6ED",
+				"ward_code": "E05000839",
+				"ward_name": "Village",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 32
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.324284,
+					53.401863
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4573",
+				"name": "Holy Cross Church Hall",
+				"address": "Park Road, Timperley",
+				"postcode": "WA15 6QG",
+				"ward_code": "E05000837",
+				"ward_name": "Timperley",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 33
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.331674,
+					53.402474
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4628",
+				"name": "The Parish Room",
+				"address": "Bent Lane, Warburton",
+				"postcode": "WA13 9TQ",
+				"ward_code": "E05000821",
+				"ward_name": "Bowdon",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 34
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.445448,
+					53.398693
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4707",
+				"name": "St Mary Magdalene with Sale West Community Church",
+				"address": "44 Moss Lane, Sale",
+				"postcode": "M33 6GD",
+				"ward_code": "E05000820",
+				"ward_name": "Ashton upon Mersey",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 35
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.34006,
+					53.423535
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4578",
+				"name": "Altrincham United Reformed Church",
+				"address": "Woodlands Parkway, Timperley, Altrincham",
+				"postcode": "WA15 7QT",
+				"ward_code": "E05000837",
+				"ward_name": "Timperley",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 36
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.341684,
+					53.39237
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4460",
+				"name": "Kings Road Primary School",
+				"address": "Kings Road, Firswood",
+				"postcode": "M16 0GR",
+				"ward_code": "E05000832",
+				"ward_name": "Longford",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 37
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.280266,
+					53.454322
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4682",
+				"name": "Stretford Sports Village Chester Centre",
+				"address": "Great Stone Road, Stretford",
+				"postcode": "M32 0ZS",
+				"ward_code": "E05000829",
+				"ward_name": "Gorse Hill",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 38
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.292675,
+					53.458331
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4669",
+				"name": "Sale Waterside",
+				"address": "1 Waterside, Sale",
+				"postcode": "M33 7ZF",
+				"ward_code": "E05000833",
+				"ward_name": "Priory",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 39
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.319403,
+					53.425287
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4672",
+				"name": "Sale Sports Club",
+				"address": "Clarendon Crescent, Sale",
+				"postcode": "M33 2DE",
+				"ward_code": "E05000833",
+				"ward_name": "Priory",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 40
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.304896,
+					53.427727
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4797",
+				"name": "St Joseph`s Parish Centre",
+				"address": "Hope Road, Sale",
+				"postcode": "M33 3BF",
+				"ward_code": "E05000833",
+				"ward_name": "Priory",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 41
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.318936,
+					53.422848
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4576",
+				"name": "Timperley Methodist Church",
+				"address": "Stockport Road, Timperley",
+				"postcode": "WA15 7UG",
+				"ward_code": "E05000837",
+				"ward_name": "Timperley",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 42
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.319478,
+					53.397644
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4643",
+				"name": "The Life Centre",
+				"address": "235 Washway Road, Sale",
+				"postcode": "M33 4BP",
+				"ward_code": "E05000823",
+				"ward_name": "Brooklands",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 43
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.334686,
+					53.416729
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4684",
+				"name": "Gorse Hill Studios",
+				"address": "Cavendish Road, Stretford",
+				"postcode": "M32 0PS",
+				"ward_code": "E05000829",
+				"ward_name": "Gorse Hill",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 44
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.297265,
+					53.456085
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4597",
+				"name": "Mobile Polling Station Broadheath",
+				"address": "Corner of St Andrews Avenue, and Bridge Grove, Timperley",
+				"postcode": "WA15 6LD",
+				"ward_code": "E05000822",
+				"ward_name": "Broadheath",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 45
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.338677,
+					53.399109
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4468",
+				"name": "Longford Park Special School",
+				"address": "74 Cromwell Road, Stretford",
+				"postcode": "M32 8QJ",
+				"ward_code": "E05000832",
+				"ward_name": "Longford",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 46
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.294137,
+					53.448225
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4507",
+				"name": "Flixton Primary School",
+				"address": "Delamere Road, Flixton",
+				"postcode": "M41 5QL",
+				"ward_code": "E05000828",
+				"ward_name": "Flixton",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 47
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.378662,
+					53.449891
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4723",
+				"name": "Carrington Lane Methodist Church",
+				"address": "34 Ennerdale Drive, Sale",
+				"postcode": "M33 5NE",
+				"ward_code": "E05000820",
+				"ward_name": "Ashton upon Mersey",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 48
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.343017,
+					53.42772
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4655",
+				"name": "Sale Moor Community Centre",
+				"address": "Norris Road, Sale",
+				"postcode": "M33 2TN",
+				"ward_code": "E05000823",
+				"ward_name": "Brooklands",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 49
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.30464,
+					53.414654
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4585",
+				"name": "Broadheath Community Hall",
+				"address": "160 Sinderland Road, Altrincham",
+				"postcode": "WA14 5JQ",
+				"ward_code": "E05000822",
+				"ward_name": "Broadheath",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 50
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.361796,
+					53.405488
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4452",
+				"name": "Urmston Leisure Centre",
+				"address": "Bowfell Road, Urmston",
+				"postcode": "M41 5RR",
+				"ward_code": "E05000828",
+				"ward_name": "Flixton",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 51
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.371216,
+					53.4503
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4456",
+				"name": "St Ann's Parish Centre",
+				"address": "Cross Street, Off Chester Road, Stretford",
+				"postcode": "M32 8LF",
+				"ward_code": "E05000832",
+				"ward_name": "Longford",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 52
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.303883,
+					53.448297
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4504",
+				"name": "Shawe Hall Community Centre",
+				"address": "Church Road, Flixton",
+				"postcode": "M41 6HJ",
+				"ward_code": "E05000828",
+				"ward_name": "Flixton",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 53
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.369807,
+					53.442819
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4561",
+				"name": "Altrincham Methodist Church",
+				"address": "Barrington Road, Altrincham",
+				"postcode": "WA14 1HF",
+				"ward_code": "E05000819",
+				"ward_name": "Altrincham",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 54
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.347786,
+					53.390655
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4538",
+				"name": "Carrington Business Park",
+				"address": "Manchester Road, Carrington",
+				"postcode": "M31 4DD",
+				"ward_code": "E05000824",
+				"ward_name": "Bucklow-St Martins",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 55
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.399322,
+					53.431047
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4794",
+				"name": "St Peter`s House",
+				"address": "233 Ashley Road, Hale",
+				"postcode": "WA15 9SS",
+				"ward_code": "E05000831",
+				"ward_name": "Hale Central",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 56
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.341895,
+					53.375321
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4647",
+				"name": "Mobile Polling Station",
+				"address": "Eastway/Walton Road, Sale",
+				"postcode": "M33 4ER",
+				"ward_code": "E05000823",
+				"ward_name": "Brooklands",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 57
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.335979,
+					53.410066
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4651",
+				"name": "Clubhouse Sale Football Club",
+				"address": "Heywood Road, Sale",
+				"postcode": "M33 3WB",
+				"ward_code": "E05000823",
+				"ward_name": "Brooklands",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 58
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.321978,
+					53.416525
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4606",
+				"name": "St Johns Church Hall",
+				"address": "Brooklands Road, Sale",
+				"postcode": "M33 3PB",
+				"ward_code": "E05000839",
+				"ward_name": "Village",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 59
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.318498,
+					53.409257
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4658",
+				"name": "Sale Moor Methodist Church",
+				"address": "Northenden Road, Sale Moor",
+				"postcode": "M33 2PP",
+				"ward_code": "E05000835",
+				"ward_name": "Sale Moor",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 60
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.294642,
+					53.419875
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4542",
+				"name": "Our Lady of Lourdes Catholic Primary",
+				"address": "Lock Lane, Partington",
+				"postcode": "M31 4PJ",
+				"ward_code": "E05000824",
+				"ward_name": "Bucklow-St Martins",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 61
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.437127,
+					53.418548
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4694",
+				"name": "All Saints Church",
+				"address": "Hale Road, Hale Barns",
+				"postcode": "WA15 8SP",
+				"ward_code": "E05000830",
+				"ward_name": "Hale Barns",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 62
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.314965,
+					53.36948
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4591",
+				"name": "Woodheys Park Pavilion",
+				"address": "Kenmore Road/Woodhouse Lane, Sale",
+				"postcode": "M33 4LP",
+				"ward_code": "E05000822",
+				"ward_name": "Broadheath",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 63
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.354078,
+					53.411345
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4499",
+				"name": "Unitarian Church Hall",
+				"address": "Queens Road, Urmston",
+				"postcode": "M41 9HA",
+				"ward_code": "E05000838",
+				"ward_name": "Urmston",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 64
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.35305,
+					53.445662
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4632",
+				"name": "2ND Hale Scout HQ",
+				"address": "Lilac Road, Hale",
+				"postcode": "WA15 8BJ",
+				"ward_code": "E05000831",
+				"ward_name": "Hale Central",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 65
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.32857,
+					53.380452
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4545",
+				"name": "Partington Community Centre",
+				"address": "Central Road, Partington",
+				"postcode": "M31 4FL",
+				"ward_code": "E05000824",
+				"ward_name": "Bucklow-St Martins",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 66
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.425006,
+					53.416837
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4493",
+				"name": "Community Centre",
+				"address": "Humphrey Lane, Urmston",
+				"postcode": "M41 9PT",
+				"ward_code": "E05000838",
+				"ward_name": "Urmston",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 67
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.332411,
+					53.450075
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4479",
+				"name": "Metros Sports and Social Club",
+				"address": "Moss Road, Stretford",
+				"postcode": "M32 0AH",
+				"ward_code": "E05000836",
+				"ward_name": "Stretford",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 68
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.31067,
+					53.451233
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4687",
+				"name": "All Saints Church Hall",
+				"address": "Barton Road, Stretford",
+				"postcode": "M32 9RL",
+				"ward_code": "E05000829",
+				"ward_name": "Gorse Hill",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 69
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.320688,
+					53.452758
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4665",
+				"name": "St Annes Church Hall",
+				"address": "Trinity Road, Sale",
+				"postcode": "M33 3ED",
+				"ward_code": "E05000835",
+				"ward_name": "Sale Moor",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 70
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.309591,
+					53.420454
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4486",
+				"name": "Sevenways Methodist Church",
+				"address": "Barton Road, Stretford",
+				"postcode": "M32 9RD",
+				"ward_code": "E05000836",
+				"ward_name": "Stretford",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 71
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.317875,
+					53.450416
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4532",
+				"name": "Christ Church Hall",
+				"address": "Lostock Road, Urmston",
+				"postcode": "M41 0TD",
+				"ward_code": "E05000826",
+				"ward_name": "Davyhulme East",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 72
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.344897,
+					53.457468
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4513",
+				"name": "Flixton House",
+				"address": "Flixton Road, Flixton",
+				"postcode": "M41 5GJ",
+				"ward_code": "E05000828",
+				"ward_name": "Flixton",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 73
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.38354,
+					53.445756
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4581",
+				"name": "St Albans Hall",
+				"address": "Lindsell Road, West Timperley, Altrincham",
+				"postcode": "WA14 5NX",
+				"ward_code": "E05000822",
+				"ward_name": "Broadheath",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 74
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.352099,
+					53.402551
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4445",
+				"name": "Old Trafford Community Academy",
+				"address": "Malvern Street, Old Trafford",
+				"postcode": "M15 4FL",
+				"ward_code": "E05000825",
+				"ward_name": "Clifford",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 75
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.265141,
+					53.465109
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4464",
+				"name": "Old Trafford Sports Barn",
+				"address": "St Hildas Road, Old Trafford",
+				"postcode": "M16 9PQ",
+				"ward_code": "E05000832",
+				"ward_name": "Longford",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 76
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.273402,
+					53.460321
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4718",
+				"name": "Sale West Community Centre",
+				"address": "Newbury Avenue, Sale",
+				"postcode": "M33 4QW",
+				"ward_code": "E05000834",
+				"ward_name": "St Mary's",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 77
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.356895,
+					53.41851
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4621",
+				"name": "Jubilee Centre",
+				"address": "The Firs, Bowdon",
+				"postcode": "WA14 2TQ",
+				"ward_code": "E05000821",
+				"ward_name": "Bowdon",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 78
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.362827,
+					53.378931
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4510",
+				"name": "Flixton Cricket and Sports Club",
+				"address": "Lawrence Road, Flixton",
+				"postcode": "M41 8UU",
+				"ward_code": "E05000828",
+				"ward_name": "Flixton",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 79
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.387671,
+					53.45209
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4535",
+				"name": "Our Lady and the English Martyrs Parish Centre",
+				"address": "Davyhulme Road, Urmston",
+				"postcode": "M41 7DS",
+				"ward_code": "E05000826",
+				"ward_name": "Davyhulme East",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 80
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.358459,
+					53.457443
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4496",
+				"name": "Urmston Library",
+				"address": "34 Golden Way, Urmston",
+				"postcode": "M41 0NA",
+				"ward_code": "E05000838",
+				"ward_name": "Urmston",
+				"la_code": "E08000009",
+				"la_name": "Trafford",
+				"featureNum": 81
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.353499,
+					53.449554
+				]
+			}
+		}
+	]
 }
