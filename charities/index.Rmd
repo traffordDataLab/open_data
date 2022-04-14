@@ -40,11 +40,11 @@ df <- read_csv("charities_operating_in_trafford.csv") %>%
   <tr>
     <td>Charity Commission for England and Wales</td>
     <td><a href="https://register-of-charities.charitycommission.gov.uk/register/full-register-download" target="_blank">Charity Commission for England and Wales</a></td>
-    <td><time datetime="2021-06-07">2021-06-07</time></td>
+    <td><time datetime="2022-04-14">2022-04-14</time></td>
     <td>Trafford</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2021-06-07">2021-06-07</time></td>
+    <td><time datetime="2022-04-14">2022-04-14</time></td>
   </tr>
 </table>
 

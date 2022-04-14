@@ -29,11 +29,11 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2021-06-07</td>
+	<td>2022-04-14</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Unknown</td>
+	<td>Daily</td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2021-06-07</td>
+	<td>2022-04-14</td>
 </tr>
 <tr>
 	<td>Notes</td>
