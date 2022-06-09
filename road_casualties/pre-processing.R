@@ -8,8 +8,8 @@
 library(tidyverse) ; library(lubridate) ; library(sf)
 
 # download data ---------------------------
-accident <- read_csv("http://odata.tfgm.com/opendata/downloads/STATS19AccData20052018.csv") 
-casualty <- read_csv("http://odata.tfgm.com/opendata/downloads/STATS19CasData20052018.csv")
+accident <- read_csv("http://odata.tfgm.com/opendata/downloads/STATS19AccDataJan2010Dec2020forGMServers.csv")
+casualty <- read_csv("http://odata.tfgm.com/opendata/downloads/STATS19CasDataJan2010Dec2020forGMServers.csv")
 
 # merge and recode data  ---------------------------
 casualties <- left_join(casualty, accident, by = "Accident Index") %>% 
@@ -69,8 +69,8 @@ casualties <- st_as_sf(casualties, coords = c("Easting", "Northing")) %>%
   st_set_geometry(NULL)
 
 # write data ---------------------------
-write_csv(casualties, "STATS19_road_casualties_2005-2018.csv")
+write_csv(casualties, "STATS19_road_casualties_2010-2020.csv")
 st_as_sf(casualties, coords = c("lon", "lat")) %>% 
   st_set_crs(4326) %>% 
-  st_write("STATS19_road_casualties_2005-2018.geojson", driver = "GeoJSON")
+  st_write("STATS19_road_casualties_2010-2020.geojson", driver = "GeoJSON")
 
