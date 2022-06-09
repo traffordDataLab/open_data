@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2005-2018</td>
+	<td>2010-2020</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>July 2019</td>
+	<td>June 2019</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -61,6 +61,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td><a href="https://trafforddatalab.shinyapps.io/road_casualty_map/">#</a></td>
+	<td><a href="https://trafforddatalab.shinyapps.io/road_casualties/">#</a></td>
 </tr>
 </table>
