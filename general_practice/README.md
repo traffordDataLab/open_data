@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2019-05-31</td>
+	<td>2022-06-10</td>
 </tr>
 <tr>
 	<td>Notes</td>

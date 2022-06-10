@@ -85,3 +85,7 @@ write_csv(results, "trafford_general_practices.csv")
 st_as_sf(results, coords = c("lon", "lat")) %>%
   st_set_crs(4326) %>%
   st_write("trafford_general_practices.geojson")
+
+# Tidy up filesystem
+file.remove("epraccur.csv")
+file.remove("epraccur.pdf")
