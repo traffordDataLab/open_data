@@ -9,17 +9,17 @@ library(tidyverse) ; library(sf)
 
 # load postcode data
 postcodes <- read_csv("https://github.com/traffordDataLab/spatial_data/raw/master/postcodes/trafford_postcodes.csv") %>%
-  select(-area_code, -area_name, -locality)
+  select(postcode, lon, lat)
 
 # load and tidy data ---------------------------
-df <- read_csv("https://www.cqc.org.uk/sites/default/files/15_April_2020_CQC_directory.csv", skip = 4) %>% 
+df <- read_csv("https://www.cqc.org.uk/sites/default/files/2022-06/15_June_2022_CQC_directory.csv", skip = 4) %>% 
   filter(str_detect(`Service types`, "Nursing homes|Residential homes") & 
-         `Local Authority` == "Trafford") %>%
-  select(name = Name, cqc_id = `CQC Location (for office use only`, type = `Service types`, 
+         `Local authority` == "Trafford") %>%
+  select(name = Name, cqc_id = `CQC Location ID (for office use only)`, type = `Service types`, 
          address = Address, postcode = Postcode, telephone = `Phone number`, website = `Service's website (if available)`, 
          provider = `Provider name`, inspection_date = `Date of latest check`, `cqc_webpage` = `Location URL`,
-         area_name = `Local Authority`) %>% 
-  mutate(inspection_date = as.POSIXct(inspection_date, format = "%d/%m/%Y - %H:%M", tz = Sys.timezone()),
+         area_name = `Local authority`) %>% 
+  mutate(inspection_date = as.POSIXct(inspection_date, format = "%d/%b/%Y - %H:%M", tz = Sys.timezone()),
          inspection_date = as.Date(inspection_date),
          area_code = "E0800009") %>% 
   arrange(name) %>% 

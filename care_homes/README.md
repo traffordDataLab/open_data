@@ -25,11 +25,11 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>As of 2020-04-15</td>
+	<td>As of 2022-06-15</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Weekly</td>
+	<td>Monthly</td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -49,6 +49,6 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>April 2020</td>
+	<td>2022-06-22</td>
 </tr>
 </table>
