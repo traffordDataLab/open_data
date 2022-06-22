@@ -44,11 +44,11 @@ df <- read_csv("trafford_fast_food_outlets.csv") %>%
   <tr>
     <td>Food Standards Agency, Food Hygiene Rating Scheme</td>
     <td><a href="http://ratings.food.gov.uk/open-data/en-GB" target="_blank">Food Standards Agency, Food Hygiene Rating Scheme</a></td>
-    <td><time datetime="2019-12-18">2019-12-18</time></td>
+    <td><time datetime="2022-06-22">2022-06-22</time></td>
     <td>Point data</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2019-12">2019-12</time></td>
+    <td><time datetime="2022-06-22">2022-06-22</time></td>
   </tr>
 </table>
 
