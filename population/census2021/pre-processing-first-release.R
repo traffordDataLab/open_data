@@ -1,6 +1,6 @@
 # Obtain first release of Census 2021 data
 # 2022-06-23 James Austin.
-# Source: Office for National Statistics https://www.ons.gov.uk/census/censustransformationprogramme/census2021outputs/releaseplans
+# Source: Office for National Statistics https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021
 # Based on template made available prior to 2022-06-28: https://www.ons.gov.uk/file?uri=/census/censustransformationprogramme/census2021outputs/releaseplans/census2021firstresultsenglandwalestemplate.xlsx
 
 # AREA CODES OF INTEREST
@@ -56,7 +56,7 @@ library(tidyverse); library(httr); library(readxl); library(janitor)
 
 
 # Setup objects required by this script ---------------------------
-data_source <- "https://www.ons.gov.uk/file?uri=/census/censustransformationprogramme/census2021outputs/releaseplans/census2021firstresultsenglandwalestemplate.xlsx"
+data_source <- "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021/census2021/census2021firstresultsenglandwales1.xlsx"
 
 # Area codes of the 10 Local Authorities in Greater Manchester"
 area_codes_gm <- c("E08000001","E08000002","E08000003","E08000004","E08000005","E08000006","E08000007","E08000008","E08000009","E08000010")

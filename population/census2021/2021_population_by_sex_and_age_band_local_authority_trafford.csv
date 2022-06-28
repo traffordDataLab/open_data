@@ -1,4 +1,4 @@
 period,area_code,area_name,geography,sex,all_ages,aged_0_to_4,aged_5_to_9,aged_10_to_14,aged_15_to_19,aged_20_to_24,aged_25_to_29,aged_30_to_34,aged_35_to_39,aged_40_to_44,aged_45_to_49,aged_50_to_54,aged_55_to_59,aged_60_to_64,aged_65_to_69,aged_70_to_74,aged_75_to_79,aged_80_to_84,aged_85_to_89,aged_90_and_over
-2021-03-21,E08000009,Trafford,Local authority,Females,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2021-03-21,E08000009,Trafford,Local authority,Males,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-2021-03-21,E08000009,Trafford,Local authority,Persons,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2021-03-21,E08000009,Trafford,Local authority,Females,120700,6700,7700,8000,6400,5200,6300,8000,9100,9100,8400,8400,8100,6600,5500,5700,4400,3500,2300,1400
+2021-03-21,E08000009,Trafford,Local authority,Males,114400,6800,8300,8400,6800,5400,6300,6900,8200,8300,8100,8100,7800,6500,5300,5000,3500,2500,1500,700
+2021-03-21,E08000009,Trafford,Local authority,Persons,235100,13500,16000,16400,13200,10500,12600,14900,17300,17400,16500,16500,15900,13100,10800,10700,7900,6100,3800,2100
