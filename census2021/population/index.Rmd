@@ -12,9 +12,8 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse) ; library(htmltools) ; library(DT) 
 
 df <- read_csv("2021_population_by_sex_and_age_group_wide_local_authority_gm.csv") %>%
-    rename(`0-4` = aged_4_years_and_under,
-           `90+` = aged_90_years_and_over) %>%
-    rename_with(~str_replace_all(., "_to_", "-")) %>%
+    rename(`0_to_4` = aged_4_years_and_under,
+           `90 +` = aged_90_years_and_over) %>%
     rename_with(~str_remove(., "aged_")) %>%
     rename_with(~str_remove(., "_years")) %>%
     rename_all(. %>% str_to_title() %>% str_replace_all("_", " "))
@@ -50,7 +49,7 @@ df <- read_csv("2021_population_by_sex_and_age_group_wide_local_authority_gm.csv
     <td>Local authority</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2022-07-05">2022-07-05</time></td>
+    <td><time datetime="2022-07-06">2022-07-06</time></td>
   </tr>
 </table>
 
