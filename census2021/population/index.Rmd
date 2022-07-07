@@ -11,7 +11,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse) ; library(htmltools) ; library(DT) 
 
-df <- read_csv("2021_population_by_sex_and_age_group_wide_local_authority_gm.csv") %>%
+df <- read_csv("2021_population_by_sex_and_age_group_wide_la_gm.csv") %>%
     rename(`0_to_4` = aged_4_years_and_under,
            `90 +` = aged_90_years_and_over) %>%
     rename_with(~str_remove(., "aged_")) %>%
@@ -46,7 +46,7 @@ df <- read_csv("2021_population_by_sex_and_age_group_wide_local_authority_gm.csv
     <td>Office for National Statistics</td>
     <td><a href="https://www.ons.gov.uk/census" target="_blank">Office for National Statistics</a></td>
     <td><time datetime="2021-03-21">2021-03-21</time></td>
-    <td>Local authority</td>
+    <td>Local authority (la)</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
     <td><time datetime="2022-07-06">2022-07-06</time></td>
@@ -82,22 +82,24 @@ datatable(df,
 <h2>Data</h2>
 <span id ="downloads">Download the complete datasets using the following links:</span>
 
+<h3>2021 datasets</h3>
 |File name |Format |
 |---|---|
-|[2021_population_by_sex_and_age_group_local_authority_trafford.csv](2021_population_by_sex_and_age_group_local_authority_trafford.csv) |CSV |
-|[2021_population_by_sex_and_age_group_local_authority_gm.csv](2021_population_by_sex_and_age_band_local_authority_gm.csv) |CSV |
-|[2021_population_density_local_authority_gm.csv](2021_population_density_local_authority_gm.csv) |CSV |
-|[2021_households_local_authority_gm.csv](2021_households_local_authority_gm.csv) |CSV |
+|[2021_population_by_sex_and_age_group_la_trafford.csv](2021_population_by_sex_and_age_group_la_trafford.csv) |CSV |
+|[2021_population_by_sex_and_age_group_la_gm.csv](2021_population_by_sex_and_age_group_la_gm.csv) |CSV |
+|[2021_population_by_sex_and_age_group_wide_la_gm.csv](2021_population_by_sex_and_age_group_wide_la_gm.csv) |CSV |
+|[2021_population_density_la_gm.csv](2021_population_density_la_gm.csv) |CSV |
+|[2021_households_la_gm.csv](2021_households_la_gm.csv) |CSV |
 
-<h3>Census time series datasets (1981-2021)</h3>
+<h3>Time series datasets (1981-2021)</h3>
 |File name |Format |
 |---|---|
-|[1981_2021_population_by_sex_and_age_group_local_authority_trafford.csv](1981_2021_population_by_sex_and_age_group_local_authority_trafford.csv) |CSV |
-|[1981_2021_population_by_sex_and_age_group_local_authority_gm.csv](1981_2021_population_by_sex_and_age_band_local_authority_gm.csv) |CSV |
-|[1981_2021_population_density_local_authority_gm.csv](1981_2021_population_density_local_authority_gm.csv) |CSV |
+|[1981-2021_population_by_sex_and_age_group_la_trafford.csv](1981-2021_population_by_sex_and_age_group_la_trafford.csv) |CSV |
+|[1981-2021_population_by_sex_and_age_group_la_gm.csv](1981-2021_population_by_sex_and_age_band_la_gm.csv) |CSV |
+|[1981-2021_population_density_la_gm.csv](1981-2021_population_density_la_gm.csv) |CSV |
 
 <h2>Pre-processing</h2>
-The R scripts used to process the data for the [2021 first data release](pre-processing-first-release.R) and the [1981-2021](pre-processing-time-series.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
+The R scripts used to process the data for the [2021 first data release](pre-processing-first-release.R) and the [1981-2021 time series datasets](pre-processing-time-series.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
 
 </main>
 
