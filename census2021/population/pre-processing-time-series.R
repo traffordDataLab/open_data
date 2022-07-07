@@ -184,7 +184,7 @@ unlink(tmp)
 # Complete the time-series data by sex and age for the last 5 censuses ---------------------------
 # Bring in Census 2021 data prepared by another script 
 # Convert 85-89 and 90+ to "85 and over" to match the older time-series data
-df_pop_by_sex_and_age_2021 <- read_csv("2021_population_by_sex_and_age_group_local_authority_gm.csv") %>%
+df_pop_by_sex_and_age_2021 <- read_csv("2021_population_by_sex_and_age_group_la_gm.csv") %>%
   pivot_wider(names_from = "age_group",
               values_from = "usual_residents") %>%
   mutate(`Aged 85 years and over` = `Aged 85 to 89 years` + `Aged 90 years and over`) %>%
@@ -200,12 +200,12 @@ df_pop_by_time_series_by_sex_and_age <- bind_rows(df_pop_time_series_by_sex,    
   arrange(area_name, period, sex)
 
 # Create the dataset for Greater Manchester first  
-write_csv(df_pop_by_time_series_by_sex_and_age, "1981-2021_population_by_sex_and_age_group_local_authority_gm.csv")
+write_csv(df_pop_by_time_series_by_sex_and_age, "1981-2021_population_by_sex_and_age_group_la_gm.csv")
 
 # Then create the same dataset just for Trafford
 df_pop_by_time_series_by_sex_and_age %>%
   filter(area_name == "Trafford") %>%
-  write_csv("1981-2021_population_by_sex_and_age_group_local_authority_trafford.csv")
+  write_csv("1981-2021_population_by_sex_and_age_group_la_trafford.csv")
 
 
 # Time-series density data ---------------------------
@@ -215,7 +215,7 @@ tmp <- tempfile(fileext = ".xlsx")
 GET(url = "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/adhocs/14799ct1217populationdensitytimeseriescensus1981to2011/ct1217populationdensitytimeseriescensus1981to2011.xlsx", write_disk(tmp))
 
 # Data for 2021 previously prepared
-df_pop_density_2021 <- read_csv("2021_population_density_local_authority_gm.csv")
+df_pop_density_2021 <- read_csv("2021_population_density_la_gm.csv")
 
 df_pop_density_time_series <- read_xlsx(tmp, sheet = "CT1217 Population density", skip = 9) %>%
   rename(area_code = 1,
@@ -235,7 +235,7 @@ df_pop_density_time_series <- read_xlsx(tmp, sheet = "CT1217 Population density"
   bind_rows(df_pop_density_2021) %>%
   arrange(area_name, period)
   
-write_csv(df_pop_density_time_series, "1981-2021_population_density_local_authority_gm.csv")
+write_csv(df_pop_density_time_series, "1981-2021_population_density_la_gm.csv")
 
 # Cleanup the downloaded time-series density data
 unlink(tmp)

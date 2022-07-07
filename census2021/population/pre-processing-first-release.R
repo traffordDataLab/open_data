@@ -93,9 +93,6 @@ df_pop_by_sex <- df_pop_by_sex_wide %>%
   arrange(area_name, sex) %>%
   select(period, area_code, area_name, geography, sex, usual_residents)
 
-# Create CSV dataset if we need it
-#write_csv(df_pop_by_sex, "2021_population_by_sex_local_authority_gm.csv")
-
 
 # Usual resident population by 5-year age group ---------------------------
 df_pop_by_age_group <- read_xlsx(tmp, sheet = "P02", skip = 7) %>%
@@ -116,9 +113,6 @@ df_pop_by_age_group <- read_xlsx(tmp, sheet = "P02", skip = 7) %>%
          sex = "Persons",
          age_group = str_to_sentence(age_group)) %>%
   select(period, area_code, area_name, geography, sex, age_group, usual_residents)
-
-# Create CSV dataset if we need it
-#write_csv(df_pop_by_sex, "2021_population_by_age_group_local_authority_gm.csv")
 
 
 # Usual resident population by sex and 5-year age group ---------------------------
@@ -160,12 +154,12 @@ df_pop_by_sex_and_age_group <- df_pop_by_sex_and_age_group %>%
   arrange(area_name, sex)
 
 # Create the dataset as CSV
-write_csv(df_pop_by_sex_and_age_group, "2021_population_by_sex_and_age_group_local_authority_gm.csv")
+write_csv(df_pop_by_sex_and_age_group, "2021_population_by_sex_and_age_group_la_gm.csv")
 
 # Then create the same dataset just for Trafford
 df_pop_by_sex_and_age_group %>%
   filter(area_name == "Trafford") %>%
-  write_csv("2021_population_by_sex_and_age_group_local_authority_trafford.csv")
+  write_csv("2021_population_by_sex_and_age_group_la_trafford.csv")
 
 # Now convert the tidy data to wide format for an "easy read" informative version
 df_pop_by_sex_and_age_group_wide <- df_pop_by_sex_and_age_group %>%
@@ -175,7 +169,7 @@ df_pop_by_sex_and_age_group_wide <- df_pop_by_sex_and_age_group %>%
   clean_names() %>%
   arrange(area_name, sex)
 
-write_csv(df_pop_by_sex_and_age_group_wide, "2021_population_by_sex_and_age_group_wide_local_authority_gm.csv")
+write_csv(df_pop_by_sex_and_age_group_wide, "2021_population_by_sex_and_age_group_wide_la_gm.csv")
 
 
 # Usually resident population density ---------------------------
@@ -194,7 +188,7 @@ df_pop_density <- read_xlsx(tmp, sheet = "P04", skip = 6) %>%
          geography,
          usual_residents_per_square_kilometre)
 
-write_csv(df_pop_density, "2021_population_density_local_authority_gm.csv")
+write_csv(df_pop_density, "2021_population_density_la_gm.csv")
 
 
 # Number of households ---------------------------
@@ -209,7 +203,7 @@ df_households <- read_xlsx(tmp, sheet = "H01", skip = 6) %>%
   select(period, area_code, area_name, geography,
          number_of_households = number_of_households_with_at_least_one_usual_resident)
 
-write_csv(df_households, "2021_households_local_authority_gm.csv")
+write_csv(df_households, "2021_households_la_gm.csv")
 
 
 # Cleanup the downloaded data ---------------------------
