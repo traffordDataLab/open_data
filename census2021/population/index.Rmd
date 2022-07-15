@@ -95,7 +95,7 @@ datatable(df,
 |File name |Format |
 |---|---|
 |[1981-2021_population_by_sex_and_age_group_la_trafford.csv](1981-2021_population_by_sex_and_age_group_la_trafford.csv) |CSV |
-|[1981-2021_population_by_sex_and_age_group_la_gm.csv](1981-2021_population_by_sex_and_age_band_la_gm.csv) |CSV |
+|[1981-2021_population_by_sex_and_age_group_la_gm.csv](1981-2021_population_by_sex_and_age_group_la_gm.csv) |CSV |
 |[1981-2021_population_density_la_gm.csv](1981-2021_population_density_la_gm.csv) |CSV |
 
 <h2>Pre-processing</h2>
