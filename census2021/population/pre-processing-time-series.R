@@ -87,14 +87,14 @@ df_pop_time_series_by_sex <- read_xlsx(tmp, sheet = "CT1214 - Sex Time series", 
   filter(area_code %in% area_codes) %>%
   mutate(sex = if_else(sex == "Total: Sex", "Persons", sex)) %>%
   # Convert from wide to long format and in doing so make it tidy
-  pivot_longer(cols = c(-area_code, -area_name, -sex), names_to = "period", values_to = "usual_residents") %>%
+  pivot_longer(cols = c(-area_code, -area_name, -sex), names_to = "period", values_to = "value") %>%
   mutate(period = as.Date(case_when(period == "1981" ~ "1981-04-05",
                             period == "1991" ~ "1991-04-21",
                             period == "2001" ~ "2001-04-29",
                             TRUE ~ "2011-03-27")),
          geography = "Local authority",
          age_group = "All ages") %>%
-  select(period, area_code, area_name, geography, sex, age_group, usual_residents)
+  select(period, area_code, area_name, geography, sex, age_group, value)
 
 # Cleanup the downloaded time-series population data by sex
 unlink(tmp)
@@ -113,7 +113,7 @@ df_pop_time_series_by_age_all <- read_xlsx(tmp, sheet = "CT1215 - Age Time serie
          age_group = Age) %>%
   rename_with(~str_remove(., "Census ")) %>%
   filter(area_code %in% area_codes) %>%
-  pivot_longer(cols = c(-area_code, -area_name, -age_group), names_to = "period", values_to = "usual_residents") %>%
+  pivot_longer(cols = c(-area_code, -area_name, -age_group), names_to = "period", values_to = "value") %>%
   mutate(period = as.Date(case_when(period == "1981" ~ "1981-04-05",
                                     period == "1991" ~ "1991-04-21",
                                     period == "2001" ~ "2001-04-29",
@@ -123,7 +123,7 @@ df_pop_time_series_by_age_all <- read_xlsx(tmp, sheet = "CT1215 - Age Time serie
          age_group = case_when(age_group == "0 to 4" ~ "Aged 4 years and under",
                               age_group == "85 or over" ~ "Aged 85 years and over",
                               TRUE ~ paste0("Aged ", age_group, " years"))) %>%
-  select(period, area_code, area_name, geography, sex, age_group, usual_residents) %>%
+  select(period, area_code, area_name, geography, sex, age_group, value) %>%
   arrange(area_name, period)
   
 # Cleanup the downloaded time-series population data by 5-year age bands
@@ -143,7 +143,7 @@ df_pop_time_series_by_age_females <- read_xlsx(tmp, sheet = "CT1216 Females", sk
          area_name = 2,
          age_group = `Sex by age`) %>%
   filter(area_code %in% area_codes) %>%
-  pivot_longer(cols = c(-area_code, -area_name, -age_group), names_to = "period", values_to = "usual_residents") %>%
+  pivot_longer(cols = c(-area_code, -area_name, -age_group), names_to = "period", values_to = "value") %>%
   mutate(period = as.Date(case_when(period == "1981" ~ "1981-04-05",
                                     period == "1991" ~ "1991-04-21",
                                     period == "2001" ~ "2001-04-29",
@@ -154,7 +154,7 @@ df_pop_time_series_by_age_females <- read_xlsx(tmp, sheet = "CT1216 Females", sk
          age_group = case_when(age_group == "0 to 4" ~ "Aged 4 years and under",
                                age_group == "85 or over" ~ "Aged 85 years and over",
                                TRUE ~ paste0("Aged ", age_group, " years"))) %>%
-  select(period, area_code, area_name, geography, sex, age_group, usual_residents) %>%
+  select(period, area_code, area_name, geography, sex, age_group, value) %>%
   arrange(area_name, period)
 
 # Then the males
@@ -163,7 +163,7 @@ df_pop_time_series_by_age_males <- read_xlsx(tmp, sheet = "CT1216 Males", skip =
          area_name = 2,
          age_group = `Sex by age`) %>%
   filter(area_code %in% area_codes) %>%
-  pivot_longer(cols = c(-area_code, -area_name, -age_group), names_to = "period", values_to = "usual_residents") %>%
+  pivot_longer(cols = c(-area_code, -area_name, -age_group), names_to = "period", values_to = "value") %>%
   mutate(period = as.Date(case_when(period == "1981" ~ "1981-04-05",
                                     period == "1991" ~ "1991-04-21",
                                     period == "2001" ~ "2001-04-29",
@@ -174,7 +174,7 @@ df_pop_time_series_by_age_males <- read_xlsx(tmp, sheet = "CT1216 Males", skip =
          age_group = case_when(age_group == "0 to 4" ~ "Aged 4 years and under",
                                age_group == "85 or over" ~ "Aged 85 years and over",
                                TRUE ~ paste0("Aged ", age_group, " years"))) %>%
-  select(period, area_code, area_name, geography, sex, age_group, usual_residents) %>%
+  select(period, area_code, area_name, geography, sex, age_group, value) %>%
   arrange(area_name, period)
 
 # Cleanup the downloaded time-series population data by sex and 5-year age bands
@@ -184,12 +184,11 @@ unlink(tmp)
 # Complete the time-series data by sex and age for the last 5 censuses ---------------------------
 # Bring in Census 2021 data prepared by another script 
 # Convert 85-89 and 90+ to "85 and over" to match the older time-series data
-df_pop_by_sex_and_age_2021 <- read_csv("2021_population_by_sex_and_age_group_la_gm.csv") %>%
-  pivot_wider(names_from = "age_group",
-              values_from = "usual_residents") %>%
-  mutate(`Aged 85 years and over` = `Aged 85 to 89 years` + `Aged 90 years and over`) %>%
-  select(-`Aged 85 to 89 years`, -`Aged 90 years and over`) %>%
-  pivot_longer(cols = c(-period, -area_code, -area_name, -geography, -sex), names_to = "age_group", values_to = "usual_residents")
+df_pop_by_sex_and_age_2021 <- read_csv("2021_population_by_sex_and_age_group_wide_la_gm.csv") %>%
+  mutate(aged_85_years_and_over = aged_85_to_89_years + aged_90_years_and_over) %>%
+  select(-aged_85_to_89_years, -aged_90_years_and_over) %>%
+  pivot_longer(cols = c(-period, -area_code, -area_name, -geography, -sex), names_to = "age_group", values_to = "value") %>%
+  mutate(age_group = str_to_sentence(str_replace_all(age_group, "_", " ")))
 
 # Finally bind all the data together to create the completed dataset
 df_pop_by_time_series_by_sex_and_age <- bind_rows(df_pop_time_series_by_sex,         # "All ages" for females, males and persons (total) 1981 - 2011
@@ -197,7 +196,11 @@ df_pop_by_time_series_by_sex_and_age <- bind_rows(df_pop_time_series_by_sex,    
                                                   df_pop_time_series_by_age_males,   # age groups for males 1981 - 2011
                                                   df_pop_time_series_by_age_all,     # age groups for persons 1981 - 2011
                                                   df_pop_by_sex_and_age_2021) %>%    # all the above for 2021
-  arrange(area_name, period, sex)
+  arrange(area_name, period, sex) %>%
+  mutate(indicator = "Usual resident population by sex and age group",
+         measure = "Frequency",
+         unit = "Usual residents") %>%
+  select(area_code, area_name, geography, period, indicator, measure, unit, sex, age_group, value)
 
 # Create the dataset for Greater Manchester first  
 write_csv(df_pop_by_time_series_by_sex_and_age, "1981-2021_population_by_sex_and_age_group_la_gm.csv")
@@ -221,16 +224,19 @@ df_pop_density_time_series <- read_xlsx(tmp, sheet = "CT1217 Population density"
   rename(area_code = 1,
          area_name = 2) %>%
   filter(area_code %in% area_codes) %>%
-  select(-`Number of persons per square kilometre *`) %>%
+  select(-`Number of persons per square kilometre *`) %>% # This column actually just contains the word "density" not the data!
   # Convert from wide to tall format and in doing so make it tidy
-  pivot_longer(cols = c(-area_code, -area_name), names_to = "period", values_to = "usual_residents_per_square_kilometre") %>%
+  pivot_longer(cols = c(-area_code, -area_name), names_to = "period", values_to = "value") %>%
   # Amend the period to the full date of the census
   mutate(period = as.Date(case_when(period == "1981" ~ "1981-04-05",
                             period == "1991" ~ "1991-04-21",
                             period == "2001" ~ "2001-04-29",
                             TRUE ~ "2011-03-27")),
-         geography = "Local authority") %>%
-  select(period, area_code, area_name, geography, usual_residents_per_square_kilometre) %>%
+         geography = "Local authority",
+         indicator = "Usual resident population density",
+         measure = "Frequency",
+         unit = "Number of usual residents per square kilometre") %>%
+  select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
   # Add in the latest density figures for 2021 and then sort the data into the correct order
   bind_rows(df_pop_density_2021) %>%
   arrange(area_name, period)

@@ -49,7 +49,7 @@ df <- read_csv("2021_population_by_sex_and_age_group_wide_la_gm.csv") %>%
     <td>Local authority (la)</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2022-07-06">2022-07-06</time></td>
+    <td><time datetime="2022-07-15">2022-07-15</time></td>
   </tr>
 </table>
 

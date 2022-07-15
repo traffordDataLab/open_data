@@ -5,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Estimates of the usual resident population from the Census 2021 first release</td>
+	<td>Estimates of the usual resident population, population density and households from the Census 2021 first release. Additional time-series datasets are also included.</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -25,7 +25,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2021-03-21</td>
+	<td>1981-04-05 - 2021-03-21</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -49,6 +49,6 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2022-07-05</td>
+	<td>2022-07-15</td>
 </tr>
 </table>

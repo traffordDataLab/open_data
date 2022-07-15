@@ -1,61 +1,61 @@
-period,area_code,area_name,geography,sex,age_group,usual_residents
-2021-03-21,E08000009,Trafford,Local authority,Females,All ages,120700
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 4 years and under,6700
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 5 to 9 years,7700
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 10 to 14 years,8000
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 15 to 19 years,6400
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 20 to 24 years,5200
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 25 to 29 years,6300
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 30 to 34 years,8000
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 35 to 39 years,9100
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 40 to 44 years,9100
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 45 to 49 years,8400
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 50 to 54 years,8400
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 55 to 59 years,8100
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 60 to 64 years,6600
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 65 to 69 years,5500
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 70 to 74 years,5700
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 75 to 79 years,4400
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 80 to 84 years,3500
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 85 to 89 years,2300
-2021-03-21,E08000009,Trafford,Local authority,Females,Aged 90 years and over,1400
-2021-03-21,E08000009,Trafford,Local authority,Males,All ages,114400
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 4 years and under,6800
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 5 to 9 years,8300
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 10 to 14 years,8400
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 15 to 19 years,6800
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 20 to 24 years,5400
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 25 to 29 years,6300
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 30 to 34 years,6900
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 35 to 39 years,8200
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 40 to 44 years,8300
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 45 to 49 years,8100
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 50 to 54 years,8100
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 55 to 59 years,7800
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 60 to 64 years,6500
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 65 to 69 years,5300
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 70 to 74 years,5000
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 75 to 79 years,3500
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 80 to 84 years,2500
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 85 to 89 years,1500
-2021-03-21,E08000009,Trafford,Local authority,Males,Aged 90 years and over,700
-2021-03-21,E08000009,Trafford,Local authority,Persons,All ages,235100
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 4 years and under,13500
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 5 to 9 years,16000
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 10 to 14 years,16400
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 15 to 19 years,13200
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 20 to 24 years,10500
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 25 to 29 years,12600
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 30 to 34 years,14900
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 35 to 39 years,17300
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 40 to 44 years,17400
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 45 to 49 years,16500
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 50 to 54 years,16500
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 55 to 59 years,15900
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 60 to 64 years,13100
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 65 to 69 years,10800
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 70 to 74 years,10700
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 75 to 79 years,7900
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 80 to 84 years,6100
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 85 to 89 years,3800
-2021-03-21,E08000009,Trafford,Local authority,Persons,Aged 90 years and over,2100
+area_code,area_name,geography,period,indicator,measure,unit,sex,age_group,value
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,All ages,120700
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 4 years and under,6700
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 5 to 9 years,7700
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 10 to 14 years,8000
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 15 to 19 years,6400
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 20 to 24 years,5200
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 25 to 29 years,6300
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 30 to 34 years,8000
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 35 to 39 years,9100
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 40 to 44 years,9100
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 45 to 49 years,8400
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 50 to 54 years,8400
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 55 to 59 years,8100
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 60 to 64 years,6600
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 65 to 69 years,5500
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 70 to 74 years,5700
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 75 to 79 years,4400
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 80 to 84 years,3500
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 85 to 89 years,2300
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Females,Aged 90 years and over,1400
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,All ages,114400
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 4 years and under,6800
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 5 to 9 years,8300
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 10 to 14 years,8400
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 15 to 19 years,6800
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 20 to 24 years,5400
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 25 to 29 years,6300
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 30 to 34 years,6900
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 35 to 39 years,8200
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 40 to 44 years,8300
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 45 to 49 years,8100
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 50 to 54 years,8100
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 55 to 59 years,7800
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 60 to 64 years,6500
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 65 to 69 years,5300
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 70 to 74 years,5000
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 75 to 79 years,3500
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 80 to 84 years,2500
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 85 to 89 years,1500
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Males,Aged 90 years and over,700
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,All ages,235100
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 4 years and under,13500
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 5 to 9 years,16000
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 10 to 14 years,16400
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 15 to 19 years,13200
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 20 to 24 years,10500
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 25 to 29 years,12600
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 30 to 34 years,14900
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 35 to 39 years,17300
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 40 to 44 years,17400
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 45 to 49 years,16500
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 50 to 54 years,16500
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 55 to 59 years,15900
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 60 to 64 years,13100
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 65 to 69 years,10800
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 70 to 74 years,10700
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 75 to 79 years,7900
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 80 to 84 years,6100
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 85 to 89 years,3800
+E08000009,Trafford,Local authority,2021-03-21,Usual resident population by sex and age group,Frequency,Usual residents,Persons,Aged 90 years and over,2100
