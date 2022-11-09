@@ -1,5 +1,5 @@
 ---
-pagetitle: "2021 population estimates - first release"
+pagetitle: "2021 population estimates"
 lang: "en-GB"
 output:
   html_document:
@@ -12,17 +12,16 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse) ; library(htmltools) ; library(DT) 
 
 df <- read_csv("2021_population_by_sex_and_age_group_wide_la_gm.csv") %>%
-    rename(`0_to_4` = aged_4_years_and_under,
-           `90 +` = aged_90_years_and_over) %>%
-    rename_with(~str_remove(., "aged_")) %>%
-    rename_with(~str_remove(., "_years")) %>%
+    rename(`0-15` = aged_0_to_15,
+           `16-64` = aged_16_to_64,
+           `65+` = aged_65_and_over) %>%
     rename_all(. %>% str_to_title() %>% str_replace_all("_", " "))
 ```
 <header>
 <span id="a11yNav"><a href="#downloads" class="themeBlockDark">Skip to downloads</a></span>
 <a href="https://www.trafforddatalab.io/data.html"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" aria-label="Return to Trafford Data Lab data page" width="100" class="traffordDataLabLogo"/></a>
 
-<h1>2021 population estimates - first release</h1>
+<h1>Census 2021 population estimates</h1>
 *Estimates of the usual resident population in Trafford and Greater Manchester during 2021.*
 
 </header>
@@ -46,10 +45,10 @@ df <- read_csv("2021_population_by_sex_and_age_group_wide_la_gm.csv") %>%
     <td>Office for National Statistics</td>
     <td><a href="https://www.ons.gov.uk/census" target="_blank">Office for National Statistics</a></td>
     <td><time datetime="2021-03-21">2021-03-21</time></td>
-    <td>Local authority (la)</td>
+    <td>Local authority (la), Middle-layer Super Output Area (msoa), Lower-layer Super Output Area (lsoa), Output Area (oa)</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2022-07-15">2022-07-15</time></td>
+    <td><time datetime="2022-11-09">2022-11-09</time></td>
   </tr>
 </table>
 
@@ -77,19 +76,37 @@ datatable(df,
               list(className = 'dt-left', targets = "_all")
               )))
 ```
-<div id="tableFooterTitle">2021 population estimates for Greater Manchester authorities</div>
+<div id="tableFooterTitle">2021 population estimates for Greater Manchester authorities (wide layout)</div>
 
 <h2>Data</h2>
 <span id ="downloads">Download the complete datasets using the following links:</span>
 
 <h3>2021 datasets</h3>
+
+<h4>Population by age</h4>
 |File name |Format |
 |---|---|
 |[2021_population_by_sex_and_age_group_la_trafford.csv](2021_population_by_sex_and_age_group_la_trafford.csv) |CSV |
 |[2021_population_by_sex_and_age_group_la_gm.csv](2021_population_by_sex_and_age_group_la_gm.csv) |CSV |
 |[2021_population_by_sex_and_age_group_wide_la_gm.csv](2021_population_by_sex_and_age_group_wide_la_gm.csv) |CSV |
+
+<h4>Population density</h4>
+|File name |Format |
+|---|---|
+|[2021_population_density_all_geographies_trafford.csv](2021_population_density_all_geographies_trafford.csv) |CSV |
 |[2021_population_density_la_gm.csv](2021_population_density_la_gm.csv) |CSV |
-|[2021_households_la_gm.csv](2021_households_la_gm.csv) |CSV |
+
+<h4>Households</h4>
+|File name |Format |
+|---|---|
+|[2021_household_composition_oa_trafford.csv](2021_household_composition_oa_trafford.csv) |CSV |
+|[2021_household_composition_lsoa_trafford.csv](2021_household_composition_lsoa_trafford.csv) |CSV |
+|[2021_household_composition_msoa_trafford.csv](2021_household_composition_msoa_trafford.csv) |CSV |
+|[2021_household_composition_la_gm.csv](2021_household_composition_la_gm.csv) |CSV |
+|[2021_household_size_oa_trafford.csv](2021_household_size_oa_trafford.csv) |CSV |
+|[2021_household_size_lsoa_trafford.csv](2021_household_size_lsoa_trafford.csv) |CSV |
+|[2021_household_size_msoa_trafford.csv](2021_household_size_msoa_trafford.csv) |CSV |
+|[2021_household_size_la_gm.csv](2021_household_size_la_gm.csv) |CSV |
 
 <h3>Time series datasets (1981-2021)</h3>
 |File name |Format |
@@ -99,7 +116,7 @@ datatable(df,
 |[1981-2021_population_density_la_gm.csv](1981-2021_population_density_la_gm.csv) |CSV |
 
 <h2>Pre-processing</h2>
-The R scripts used to process the data for the [2021 first data release](pre-processing-first-release.R) and the [1981-2021 time series datasets](pre-processing-time-series.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
+The R scripts used to process the data for the [2021 population and household data releases](pre-processing.R) and the [1981-2021 time series datasets](pre-processing-time-series.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
 
 </main>
 

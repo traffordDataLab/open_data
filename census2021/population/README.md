@@ -5,11 +5,11 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Estimates of the usual resident population, population density and households from the Census 2021 first release. Additional time-series datasets are also included.</td>
+	<td>Estimates of the usual resident population, population density and households from the Census 2021 data release on 2022-11-02. Additional time-series datasets are also included from the first data release on 2022-06-28.</td>
 </tr>
 <tr>
 	<td>Source</td>
-	<td><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationandhouseholdestimatesenglandandwalescensus2021">Office for National Statistics</a></td>
+	<td><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/articles/demographyandmigrationdatacontent/2022-11-02">Office for National Statistics</a></td>
 </tr>
 <tr>
 	<td>Publisher</td>
@@ -17,7 +17,7 @@
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>Local Authority</td>
+	<td>Local Authority, MSOA, LSOA, OA</td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
@@ -49,6 +49,6 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2022-07-15</td>
+	<td>2022-11-09</td>
 </tr>
 </table>
