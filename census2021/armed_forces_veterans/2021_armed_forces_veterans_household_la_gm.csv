@@ -1,0 +1,41 @@
+area_code,area_name,geography,period,indicator,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,No people in the household previously served in UK armed forces,Frequency,Households,111771
+E08000001,Bolton,Local authority,2021-03-21,1 person in the household previously served in UK armed forces,Frequency,Households,6819
+E08000001,Bolton,Local authority,2021-03-21,2 people in the household previously served in UK armed forces,Frequency,Households,190
+E08000001,Bolton,Local authority,2021-03-21,3 or more people in the household previously served in UK armed forces,Frequency,Households,10
+E08000002,Bury,Local authority,2021-03-21,No people in the household previously served in UK armed forces,Frequency,Households,75839
+E08000002,Bury,Local authority,2021-03-21,1 person in the household previously served in UK armed forces,Frequency,Households,4707
+E08000002,Bury,Local authority,2021-03-21,2 people in the household previously served in UK armed forces,Frequency,Households,147
+E08000002,Bury,Local authority,2021-03-21,3 or more people in the household previously served in UK armed forces,Frequency,Households,2
+E08000003,Manchester,Local authority,2021-03-21,No people in the household previously served in UK armed forces,Frequency,Households,207430
+E08000003,Manchester,Local authority,2021-03-21,1 person in the household previously served in UK armed forces,Frequency,Households,7097
+E08000003,Manchester,Local authority,2021-03-21,2 people in the household previously served in UK armed forces,Frequency,Households,197
+E08000003,Manchester,Local authority,2021-03-21,3 or more people in the household previously served in UK armed forces,Frequency,Households,7
+E08000004,Oldham,Local authority,2021-03-21,No people in the household previously served in UK armed forces,Frequency,Households,87456
+E08000004,Oldham,Local authority,2021-03-21,1 person in the household previously served in UK armed forces,Frequency,Households,5524
+E08000004,Oldham,Local authority,2021-03-21,2 people in the household previously served in UK armed forces,Frequency,Households,154
+E08000004,Oldham,Local authority,2021-03-21,3 or more people in the household previously served in UK armed forces,Frequency,Households,6
+E08000005,Rochdale,Local authority,2021-03-21,No people in the household previously served in UK armed forces,Frequency,Households,84767
+E08000005,Rochdale,Local authority,2021-03-21,1 person in the household previously served in UK armed forces,Frequency,Households,5294
+E08000005,Rochdale,Local authority,2021-03-21,2 people in the household previously served in UK armed forces,Frequency,Households,158
+E08000005,Rochdale,Local authority,2021-03-21,3 or more people in the household previously served in UK armed forces,Frequency,Households,4
+E08000006,Salford,Local authority,2021-03-21,No people in the household previously served in UK armed forces,Frequency,Households,109366
+E08000006,Salford,Local authority,2021-03-21,1 person in the household previously served in UK armed forces,Frequency,Households,5602
+E08000006,Salford,Local authority,2021-03-21,2 people in the household previously served in UK armed forces,Frequency,Households,144
+E08000006,Salford,Local authority,2021-03-21,3 or more people in the household previously served in UK armed forces,Frequency,Households,6
+E08000007,Stockport,Local authority,2021-03-21,No people in the household previously served in UK armed forces,Frequency,Households,119023
+E08000007,Stockport,Local authority,2021-03-21,1 person in the household previously served in UK armed forces,Frequency,Households,7409
+E08000007,Stockport,Local authority,2021-03-21,2 people in the household previously served in UK armed forces,Frequency,Households,209
+E08000007,Stockport,Local authority,2021-03-21,3 or more people in the household previously served in UK armed forces,Frequency,Households,3
+E08000008,Tameside,Local authority,2021-03-21,No people in the household previously served in UK armed forces,Frequency,Households,93076
+E08000008,Tameside,Local authority,2021-03-21,1 person in the household previously served in UK armed forces,Frequency,Households,6274
+E08000008,Tameside,Local authority,2021-03-21,2 people in the household previously served in UK armed forces,Frequency,Households,171
+E08000008,Tameside,Local authority,2021-03-21,3 or more people in the household previously served in UK armed forces,Frequency,Households,6
+E08000009,Trafford,Local authority,2021-03-21,No people in the household previously served in UK armed forces,Frequency,Households,91176
+E08000009,Trafford,Local authority,2021-03-21,1 person in the household previously served in UK armed forces,Frequency,Households,4960
+E08000009,Trafford,Local authority,2021-03-21,2 people in the household previously served in UK armed forces,Frequency,Households,127
+E08000009,Trafford,Local authority,2021-03-21,3 or more people in the household previously served in UK armed forces,Frequency,Households,6
+E08000010,Wigan,Local authority,2021-03-21,No people in the household previously served in UK armed forces,Frequency,Households,133389
+E08000010,Wigan,Local authority,2021-03-21,1 person in the household previously served in UK armed forces,Frequency,Households,9417
+E08000010,Wigan,Local authority,2021-03-21,2 people in the household previously served in UK armed forces,Frequency,Households,291
+E08000010,Wigan,Local authority,2021-03-21,3 or more people in the household previously served in UK armed forces,Frequency,Households,9

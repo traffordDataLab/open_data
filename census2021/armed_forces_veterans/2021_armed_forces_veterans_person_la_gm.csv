@@ -1,0 +1,51 @@
+area_code,area_name,geography,period,indicator,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,Does not apply,Frequency,Persons,63674
+E08000001,Bolton,Local authority,2021-03-21,Previously served in UK armed forces,Frequency,Persons,5564
+E08000001,Bolton,Local authority,2021-03-21,Previously served in UK reserve armed forces,Frequency,Persons,1520
+E08000001,Bolton,Local authority,2021-03-21,Previously served in both regular and reserve UK armed forces,Frequency,Persons,261
+E08000001,Bolton,Local authority,2021-03-21,Has not previously served in any UK armed forces,Frequency,Persons,224944
+E08000002,Bury,Local authority,2021-03-21,Does not apply,Frequency,Persons,38978
+E08000002,Bury,Local authority,2021-03-21,Previously served in UK armed forces,Frequency,Persons,3756
+E08000002,Bury,Local authority,2021-03-21,Previously served in UK reserve armed forces,Frequency,Persons,1113
+E08000002,Bury,Local authority,2021-03-21,Previously served in both regular and reserve UK armed forces,Frequency,Persons,211
+E08000002,Bury,Local authority,2021-03-21,Has not previously served in any UK armed forces,Frequency,Persons,149793
+E08000003,Manchester,Local authority,2021-03-21,Does not apply,Frequency,Persons,113980
+E08000003,Manchester,Local authority,2021-03-21,Previously served in UK armed forces,Frequency,Persons,5114
+E08000003,Manchester,Local authority,2021-03-21,Previously served in UK reserve armed forces,Frequency,Persons,2303
+E08000003,Manchester,Local authority,2021-03-21,Previously served in both regular and reserve UK armed forces,Frequency,Persons,311
+E08000003,Manchester,Local authority,2021-03-21,Has not previously served in any UK armed forces,Frequency,Persons,430230
+E08000004,Oldham,Local authority,2021-03-21,Does not apply,Frequency,Persons,55053
+E08000004,Oldham,Local authority,2021-03-21,Previously served in UK armed forces,Frequency,Persons,4504
+E08000004,Oldham,Local authority,2021-03-21,Previously served in UK reserve armed forces,Frequency,Persons,1210
+E08000004,Oldham,Local authority,2021-03-21,Previously served in both regular and reserve UK armed forces,Frequency,Persons,227
+E08000004,Oldham,Local authority,2021-03-21,Has not previously served in any UK armed forces,Frequency,Persons,181096
+E08000005,Rochdale,Local authority,2021-03-21,Does not apply,Frequency,Persons,48826
+E08000005,Rochdale,Local authority,2021-03-21,Previously served in UK armed forces,Frequency,Persons,4409
+E08000005,Rochdale,Local authority,2021-03-21,Previously served in UK reserve armed forces,Frequency,Persons,1079
+E08000005,Rochdale,Local authority,2021-03-21,Previously served in both regular and reserve UK armed forces,Frequency,Persons,249
+E08000005,Rochdale,Local authority,2021-03-21,Has not previously served in any UK armed forces,Frequency,Persons,169211
+E08000006,Salford,Local authority,2021-03-21,Does not apply,Frequency,Persons,53000
+E08000006,Salford,Local authority,2021-03-21,Previously served in UK armed forces,Frequency,Persons,4390
+E08000006,Salford,Local authority,2021-03-21,Previously served in UK reserve armed forces,Frequency,Persons,1400
+E08000006,Salford,Local authority,2021-03-21,Previously served in both regular and reserve UK armed forces,Frequency,Persons,238
+E08000006,Salford,Local authority,2021-03-21,Has not previously served in any UK armed forces,Frequency,Persons,210894
+E08000007,Stockport,Local authority,2021-03-21,Does not apply,Frequency,Persons,55846
+E08000007,Stockport,Local authority,2021-03-21,Previously served in UK armed forces,Frequency,Persons,5898
+E08000007,Stockport,Local authority,2021-03-21,Previously served in UK reserve armed forces,Frequency,Persons,1758
+E08000007,Stockport,Local authority,2021-03-21,Previously served in both regular and reserve UK armed forces,Frequency,Persons,351
+E08000007,Stockport,Local authority,2021-03-21,Has not previously served in any UK armed forces,Frequency,Persons,230921
+E08000008,Tameside,Local authority,2021-03-21,Does not apply,Frequency,Persons,45936
+E08000008,Tameside,Local authority,2021-03-21,Previously served in UK armed forces,Frequency,Persons,5090
+E08000008,Tameside,Local authority,2021-03-21,Previously served in UK reserve armed forces,Frequency,Persons,1330
+E08000008,Tameside,Local authority,2021-03-21,Previously served in both regular and reserve UK armed forces,Frequency,Persons,276
+E08000008,Tameside,Local authority,2021-03-21,Has not previously served in any UK armed forces,Frequency,Persons,178438
+E08000009,Trafford,Local authority,2021-03-21,Does not apply,Frequency,Persons,48901
+E08000009,Trafford,Local authority,2021-03-21,Previously served in UK armed forces,Frequency,Persons,3796
+E08000009,Trafford,Local authority,2021-03-21,Previously served in UK reserve armed forces,Frequency,Persons,1350
+E08000009,Trafford,Local authority,2021-03-21,Previously served in both regular and reserve UK armed forces,Frequency,Persons,195
+E08000009,Trafford,Local authority,2021-03-21,Has not previously served in any UK armed forces,Frequency,Persons,180808
+E08000010,Wigan,Local authority,2021-03-21,Does not apply,Frequency,Persons,60636
+E08000010,Wigan,Local authority,2021-03-21,Previously served in UK armed forces,Frequency,Persons,7817
+E08000010,Wigan,Local authority,2021-03-21,Previously served in UK reserve armed forces,Frequency,Persons,1913
+E08000010,Wigan,Local authority,2021-03-21,Previously served in both regular and reserve UK armed forces,Frequency,Persons,404
+E08000010,Wigan,Local authority,2021-03-21,Has not previously served in any UK armed forces,Frequency,Persons,258560
