@@ -9,7 +9,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Locations of Local Authority and community/independently run libraries in Trafford and Greater Manchester.</td>
+	<td>Locations of Local Authority, partnership and community/independently run libraries in Trafford and Greater Manchester.</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -33,7 +33,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>Correct as of 19th October 2018</td>
+	<td>Trafford data correct at 6th December 2022, Rest of Greater Manchester correct at 19th October 2018</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -57,7 +57,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>October 2018</td>
+	<td>December 2022</td>
 </tr>
 <tr>
 	<td>Notes</td>
