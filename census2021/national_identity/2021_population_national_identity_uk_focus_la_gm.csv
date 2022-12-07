@@ -1,0 +1,161 @@
+area_code,area_name,geography,period,indicator,national_identity,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,National identity,British only identity,Frequency,Persons,174855
+E08000001,Bolton,Local authority,2021-03-21,National identity,English only identity,Frequency,Persons,43323
+E08000001,Bolton,Local authority,2021-03-21,National identity,English and British only identity,Frequency,Persons,43301
+E08000001,Bolton,Local authority,2021-03-21,National identity,Welsh only identity,Frequency,Persons,418
+E08000001,Bolton,Local authority,2021-03-21,National identity,Welsh and British only identity,Frequency,Persons,199
+E08000001,Bolton,Local authority,2021-03-21,National identity,Scottish only identity,Frequency,Persons,802
+E08000001,Bolton,Local authority,2021-03-21,National identity,Scottish and British only identity,Frequency,Persons,316
+E08000001,Bolton,Local authority,2021-03-21,National identity,Northern Irish only identity,Frequency,Persons,294
+E08000001,Bolton,Local authority,2021-03-21,National identity,Northern Irish and British only identity,Frequency,Persons,106
+E08000001,Bolton,Local authority,2021-03-21,National identity,Cornish only identity,Frequency,Persons,5
+E08000001,Bolton,Local authority,2021-03-21,National identity,Cornish and British only identity,Frequency,Persons,4
+E08000001,Bolton,Local authority,2021-03-21,National identity,Any other combination of only UK identities,Frequency,Persons,239
+E08000001,Bolton,Local authority,2021-03-21,National identity,Irish only identity,Frequency,Persons,962
+E08000001,Bolton,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Frequency,Persons,145
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only,Frequency,Persons,27155
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Frequency,Persons,3842
+E08000002,Bury,Local authority,2021-03-21,National identity,British only identity,Frequency,Persons,115132
+E08000002,Bury,Local authority,2021-03-21,National identity,English only identity,Frequency,Persons,31004
+E08000002,Bury,Local authority,2021-03-21,National identity,English and British only identity,Frequency,Persons,29582
+E08000002,Bury,Local authority,2021-03-21,National identity,Welsh only identity,Frequency,Persons,421
+E08000002,Bury,Local authority,2021-03-21,National identity,Welsh and British only identity,Frequency,Persons,183
+E08000002,Bury,Local authority,2021-03-21,National identity,Scottish only identity,Frequency,Persons,785
+E08000002,Bury,Local authority,2021-03-21,National identity,Scottish and British only identity,Frequency,Persons,330
+E08000002,Bury,Local authority,2021-03-21,National identity,Northern Irish only identity,Frequency,Persons,378
+E08000002,Bury,Local authority,2021-03-21,National identity,Northern Irish and British only identity,Frequency,Persons,120
+E08000002,Bury,Local authority,2021-03-21,National identity,Cornish only identity,Frequency,Persons,4
+E08000002,Bury,Local authority,2021-03-21,National identity,Cornish and British only identity,Frequency,Persons,1
+E08000002,Bury,Local authority,2021-03-21,National identity,Any other combination of only UK identities,Frequency,Persons,245
+E08000002,Bury,Local authority,2021-03-21,National identity,Irish only identity,Frequency,Persons,1197
+E08000002,Bury,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Frequency,Persons,211
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only,Frequency,Persons,12109
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Frequency,Persons,2149
+E08000003,Manchester,Local authority,2021-03-21,National identity,British only identity,Frequency,Persons,310709
+E08000003,Manchester,Local authority,2021-03-21,National identity,English only identity,Frequency,Persons,48800
+E08000003,Manchester,Local authority,2021-03-21,National identity,English and British only identity,Frequency,Persons,56401
+E08000003,Manchester,Local authority,2021-03-21,National identity,Welsh only identity,Frequency,Persons,2310
+E08000003,Manchester,Local authority,2021-03-21,National identity,Welsh and British only identity,Frequency,Persons,891
+E08000003,Manchester,Local authority,2021-03-21,National identity,Scottish only identity,Frequency,Persons,2401
+E08000003,Manchester,Local authority,2021-03-21,National identity,Scottish and British only identity,Frequency,Persons,903
+E08000003,Manchester,Local authority,2021-03-21,National identity,Northern Irish only identity,Frequency,Persons,1947
+E08000003,Manchester,Local authority,2021-03-21,National identity,Northern Irish and British only identity,Frequency,Persons,456
+E08000003,Manchester,Local authority,2021-03-21,National identity,Cornish only identity,Frequency,Persons,46
+E08000003,Manchester,Local authority,2021-03-21,National identity,Cornish and British only identity,Frequency,Persons,11
+E08000003,Manchester,Local authority,2021-03-21,National identity,Any other combination of only UK identities,Frequency,Persons,1221
+E08000003,Manchester,Local authority,2021-03-21,National identity,Irish only identity,Frequency,Persons,6175
+E08000003,Manchester,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Frequency,Persons,990
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only,Frequency,Persons,103748
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Frequency,Persons,14929
+E08000004,Oldham,Local authority,2021-03-21,National identity,British only identity,Frequency,Persons,147724
+E08000004,Oldham,Local authority,2021-03-21,National identity,English only identity,Frequency,Persons,36738
+E08000004,Oldham,Local authority,2021-03-21,National identity,English and British only identity,Frequency,Persons,31756
+E08000004,Oldham,Local authority,2021-03-21,National identity,Welsh only identity,Frequency,Persons,273
+E08000004,Oldham,Local authority,2021-03-21,National identity,Welsh and British only identity,Frequency,Persons,97
+E08000004,Oldham,Local authority,2021-03-21,National identity,Scottish only identity,Frequency,Persons,583
+E08000004,Oldham,Local authority,2021-03-21,National identity,Scottish and British only identity,Frequency,Persons,238
+E08000004,Oldham,Local authority,2021-03-21,National identity,Northern Irish only identity,Frequency,Persons,262
+E08000004,Oldham,Local authority,2021-03-21,National identity,Northern Irish and British only identity,Frequency,Persons,99
+E08000004,Oldham,Local authority,2021-03-21,National identity,Cornish only identity,Frequency,Persons,4
+E08000004,Oldham,Local authority,2021-03-21,National identity,Cornish and British only identity,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,National identity,Any other combination of only UK identities,Frequency,Persons,178
+E08000004,Oldham,Local authority,2021-03-21,National identity,Irish only identity,Frequency,Persons,766
+E08000004,Oldham,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Frequency,Persons,136
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only,Frequency,Persons,19792
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Frequency,Persons,3441
+E08000005,Rochdale,Local authority,2021-03-21,National identity,British only identity,Frequency,Persons,135768
+E08000005,Rochdale,Local authority,2021-03-21,National identity,English only identity,Frequency,Persons,33768
+E08000005,Rochdale,Local authority,2021-03-21,National identity,English and British only identity,Frequency,Persons,30571
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Welsh only identity,Frequency,Persons,339
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Welsh and British only identity,Frequency,Persons,126
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Scottish only identity,Frequency,Persons,614
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Scottish and British only identity,Frequency,Persons,241
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Northern Irish only identity,Frequency,Persons,354
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Northern Irish and British only identity,Frequency,Persons,90
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Cornish only identity,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Cornish and British only identity,Frequency,Persons,1
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Any other combination of only UK identities,Frequency,Persons,175
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Irish only identity,Frequency,Persons,1052
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Frequency,Persons,136
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only,Frequency,Persons,17848
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Frequency,Persons,2691
+E08000006,Salford,Local authority,2021-03-21,National identity,British only identity,Frequency,Persons,147221
+E08000006,Salford,Local authority,2021-03-21,National identity,English only identity,Frequency,Persons,38599
+E08000006,Salford,Local authority,2021-03-21,National identity,English and British only identity,Frequency,Persons,40284
+E08000006,Salford,Local authority,2021-03-21,National identity,Welsh only identity,Frequency,Persons,960
+E08000006,Salford,Local authority,2021-03-21,National identity,Welsh and British only identity,Frequency,Persons,418
+E08000006,Salford,Local authority,2021-03-21,National identity,Scottish only identity,Frequency,Persons,1158
+E08000006,Salford,Local authority,2021-03-21,National identity,Scottish and British only identity,Frequency,Persons,384
+E08000006,Salford,Local authority,2021-03-21,National identity,Northern Irish only identity,Frequency,Persons,706
+E08000006,Salford,Local authority,2021-03-21,National identity,Northern Irish and British only identity,Frequency,Persons,214
+E08000006,Salford,Local authority,2021-03-21,National identity,Cornish only identity,Frequency,Persons,8
+E08000006,Salford,Local authority,2021-03-21,National identity,Cornish and British only identity,Frequency,Persons,2
+E08000006,Salford,Local authority,2021-03-21,National identity,Any other combination of only UK identities,Frequency,Persons,421
+E08000006,Salford,Local authority,2021-03-21,National identity,Irish only identity,Frequency,Persons,1812
+E08000006,Salford,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Frequency,Persons,260
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only,Frequency,Persons,32908
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Frequency,Persons,4567
+E08000007,Stockport,Local authority,2021-03-21,National identity,British only identity,Frequency,Persons,176297
+E08000007,Stockport,Local authority,2021-03-21,National identity,English only identity,Frequency,Persons,48727
+E08000007,Stockport,Local authority,2021-03-21,National identity,English and British only identity,Frequency,Persons,46405
+E08000007,Stockport,Local authority,2021-03-21,National identity,Welsh only identity,Frequency,Persons,985
+E08000007,Stockport,Local authority,2021-03-21,National identity,Welsh and British only identity,Frequency,Persons,423
+E08000007,Stockport,Local authority,2021-03-21,National identity,Scottish only identity,Frequency,Persons,1320
+E08000007,Stockport,Local authority,2021-03-21,National identity,Scottish and British only identity,Frequency,Persons,629
+E08000007,Stockport,Local authority,2021-03-21,National identity,Northern Irish only identity,Frequency,Persons,607
+E08000007,Stockport,Local authority,2021-03-21,National identity,Northern Irish and British only identity,Frequency,Persons,211
+E08000007,Stockport,Local authority,2021-03-21,National identity,Cornish only identity,Frequency,Persons,12
+E08000007,Stockport,Local authority,2021-03-21,National identity,Cornish and British only identity,Frequency,Persons,3
+E08000007,Stockport,Local authority,2021-03-21,National identity,Any other combination of only UK identities,Frequency,Persons,516
+E08000007,Stockport,Local authority,2021-03-21,National identity,Irish only identity,Frequency,Persons,2103
+E08000007,Stockport,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Frequency,Persons,453
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only,Frequency,Persons,12112
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Frequency,Persons,3969
+E08000008,Tameside,Local authority,2021-03-21,National identity,British only identity,Frequency,Persons,134231
+E08000008,Tameside,Local authority,2021-03-21,National identity,English only identity,Frequency,Persons,41702
+E08000008,Tameside,Local authority,2021-03-21,National identity,English and British only identity,Frequency,Persons,37168
+E08000008,Tameside,Local authority,2021-03-21,National identity,Welsh only identity,Frequency,Persons,382
+E08000008,Tameside,Local authority,2021-03-21,National identity,Welsh and British only identity,Frequency,Persons,151
+E08000008,Tameside,Local authority,2021-03-21,National identity,Scottish only identity,Frequency,Persons,671
+E08000008,Tameside,Local authority,2021-03-21,National identity,Scottish and British only identity,Frequency,Persons,251
+E08000008,Tameside,Local authority,2021-03-21,National identity,Northern Irish only identity,Frequency,Persons,249
+E08000008,Tameside,Local authority,2021-03-21,National identity,Northern Irish and British only identity,Frequency,Persons,84
+E08000008,Tameside,Local authority,2021-03-21,National identity,Cornish only identity,Frequency,Persons,6
+E08000008,Tameside,Local authority,2021-03-21,National identity,Cornish and British only identity,Frequency,Persons,1
+E08000008,Tameside,Local authority,2021-03-21,National identity,Any other combination of only UK identities,Frequency,Persons,276
+E08000008,Tameside,Local authority,2021-03-21,National identity,Irish only identity,Frequency,Persons,789
+E08000008,Tameside,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Frequency,Persons,153
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only,Frequency,Persons,12539
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Frequency,Persons,2418
+E08000009,Trafford,Local authority,2021-03-21,National identity,British only identity,Frequency,Persons,145913
+E08000009,Trafford,Local authority,2021-03-21,National identity,English only identity,Frequency,Persons,30617
+E08000009,Trafford,Local authority,2021-03-21,National identity,English and British only identity,Frequency,Persons,31396
+E08000009,Trafford,Local authority,2021-03-21,National identity,Welsh only identity,Frequency,Persons,763
+E08000009,Trafford,Local authority,2021-03-21,National identity,Welsh and British only identity,Frequency,Persons,407
+E08000009,Trafford,Local authority,2021-03-21,National identity,Scottish only identity,Frequency,Persons,1068
+E08000009,Trafford,Local authority,2021-03-21,National identity,Scottish and British only identity,Frequency,Persons,486
+E08000009,Trafford,Local authority,2021-03-21,National identity,Northern Irish only identity,Frequency,Persons,613
+E08000009,Trafford,Local authority,2021-03-21,National identity,Northern Irish and British only identity,Frequency,Persons,203
+E08000009,Trafford,Local authority,2021-03-21,National identity,Cornish only identity,Frequency,Persons,16
+E08000009,Trafford,Local authority,2021-03-21,National identity,Cornish and British only identity,Frequency,Persons,3
+E08000009,Trafford,Local authority,2021-03-21,National identity,Any other combination of only UK identities,Frequency,Persons,407
+E08000009,Trafford,Local authority,2021-03-21,National identity,Irish only identity,Frequency,Persons,2703
+E08000009,Trafford,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Frequency,Persons,523
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only,Frequency,Persons,14966
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Frequency,Persons,4965
+E08000010,Wigan,Local authority,2021-03-21,National identity,British only identity,Frequency,Persons,190146
+E08000010,Wigan,Local authority,2021-03-21,National identity,English only identity,Frequency,Persons,57903
+E08000010,Wigan,Local authority,2021-03-21,National identity,English and British only identity,Frequency,Persons,62978
+E08000010,Wigan,Local authority,2021-03-21,National identity,Welsh only identity,Frequency,Persons,628
+E08000010,Wigan,Local authority,2021-03-21,National identity,Welsh and British only identity,Frequency,Persons,224
+E08000010,Wigan,Local authority,2021-03-21,National identity,Scottish only identity,Frequency,Persons,836
+E08000010,Wigan,Local authority,2021-03-21,National identity,Scottish and British only identity,Frequency,Persons,328
+E08000010,Wigan,Local authority,2021-03-21,National identity,Northern Irish only identity,Frequency,Persons,317
+E08000010,Wigan,Local authority,2021-03-21,National identity,Northern Irish and British only identity,Frequency,Persons,121
+E08000010,Wigan,Local authority,2021-03-21,National identity,Cornish only identity,Frequency,Persons,17
+E08000010,Wigan,Local authority,2021-03-21,National identity,Cornish and British only identity,Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,National identity,Any other combination of only UK identities,Frequency,Persons,274
+E08000010,Wigan,Local authority,2021-03-21,National identity,Irish only identity,Frequency,Persons,769
+E08000010,Wigan,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Frequency,Persons,120
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only,Frequency,Persons,12669
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Frequency,Persons,1999

@@ -1,0 +1,951 @@
+area_code,area_name,geography,period,indicator,language,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Does not apply,Frequency,Persons,10879
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,English,Frequency,Persons,253869
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Welsh,Frequency,Persons,15
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Frequency,Persons,1
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Scottish),Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other UK language: Manx Gaelic,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Not otherwise specified),Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other UK language: Cornish,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other UK language: Scots,Frequency,Persons,6
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other UK language: Ulster Scots,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other UK language: Romany English,Frequency,Persons,4
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other UK language: Irish Traveller Cant,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,French,Frequency,Persons,241
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Portuguese,Frequency,Persons,741
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Spanish,Frequency,Persons,460
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Italian,Frequency,Persons,509
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): German,Frequency,Persons,58
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Polish,Frequency,Persons,1708
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovak,Frequency,Persons,317
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Czech,Frequency,Persons,226
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Romanian,Frequency,Persons,756
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Lithuanian,Frequency,Persons,324
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Latvian,Frequency,Persons,41
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Hungarian,Frequency,Persons,912
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Bulgarian,Frequency,Persons,115
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Greek,Frequency,Persons,126
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Dutch,Frequency,Persons,68
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Swedish,Frequency,Persons,28
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Danish,Frequency,Persons,15
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Finnish,Frequency,Persons,1
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Estonian,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovenian,Frequency,Persons,3
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Maltese,Frequency,Persons,3
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (EU): Any other European language (EU),Frequency,Persons,2
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Albanian,Frequency,Persons,125
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Ukrainian,Frequency,Persons,36
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Any other Eastern European language (non EU),Frequency,Persons,1
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Northern European language (non EU),Frequency,Persons,12
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",Frequency,Persons,39
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Any Romani language,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Yiddish,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Russian,Frequency,Persons,135
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Turkish,Frequency,Persons,179
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Arabic,Frequency,Persons,1528
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Hebrew,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Kurdish,Frequency,Persons,980
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Persian or Farsi,Frequency,Persons,727
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Pashto,Frequency,Persons,651
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Any other West or Central Asian language,Frequency,Persons,36
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Urdu,Frequency,Persons,7144
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Hindi,Frequency,Persons,195
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Panjabi,Frequency,Persons,2196
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),Frequency,Persons,109
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Bengali (with Sylheti and Chatgaya),Frequency,Persons,303
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Gujarati,Frequency,Persons,5716
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Marathi,Frequency,Persons,11
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Telugu,Frequency,Persons,48
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Tamil,Frequency,Persons,169
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Malayalam,Frequency,Persons,274
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Sinhala,Frequency,Persons,35
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Nepalese,Frequency,Persons,46
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,South Asian language: Any other South Asian language,Frequency,Persons,165
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,East Asian language: Mandarin Chinese,Frequency,Persons,74
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,East Asian language: Cantonese Chinese,Frequency,Persons,189
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,East Asian language: All other Chinese,Frequency,Persons,261
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,East Asian language: Japanese,Frequency,Persons,15
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,East Asian language: Korean,Frequency,Persons,5
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,East Asian language: Vietnamese,Frequency,Persons,54
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,East Asian language: Thai,Frequency,Persons,65
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,East Asian language: Malay,Frequency,Persons,10
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,East Asian language: Tagalog or Filipino,Frequency,Persons,68
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,East Asian language: Any other East Asian language,Frequency,Persons,53
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Oceanic or Australian language,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,North or South American language,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Caribbean Creole: English-based Caribbean Creole,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Caribbean Creole: Any other Caribbean Creole,Frequency,Persons,3
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Amharic,Frequency,Persons,57
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Tigrinya,Frequency,Persons,42
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Somali,Frequency,Persons,1219
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Krio,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Akan,Frequency,Persons,27
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Yoruba,Frequency,Persons,47
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Igbo,Frequency,Persons,72
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Swahili or Kiswahili,Frequency,Persons,444
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Luganda,Frequency,Persons,1
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Lingala,Frequency,Persons,55
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Shona,Frequency,Persons,62
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Afrikaans,Frequency,Persons,9
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Any other Nigerian language,Frequency,Persons,13
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Any other West African language,Frequency,Persons,38
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,African language: Any other African language,Frequency,Persons,611
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Sign language: British Sign Language,Frequency,Persons,118
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Frequency,Persons,10
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Frequency,Persons,5
+E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other language,Frequency,Persons,41
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Does not apply,Frequency,Persons,6639
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,English,Frequency,Persons,174961
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Welsh,Frequency,Persons,25
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Frequency,Persons,2
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Scottish),Frequency,Persons,2
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other UK language: Manx Gaelic,Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Not otherwise specified),Frequency,Persons,1
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other UK language: Cornish,Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other UK language: Scots,Frequency,Persons,7
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other UK language: Ulster Scots,Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other UK language: Romany English,Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other UK language: Irish Traveller Cant,Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,French,Frequency,Persons,158
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Portuguese,Frequency,Persons,246
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Spanish,Frequency,Persons,310
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Italian,Frequency,Persons,275
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): German,Frequency,Persons,54
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Polish,Frequency,Persons,1713
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovak,Frequency,Persons,87
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Czech,Frequency,Persons,131
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Romanian,Frequency,Persons,280
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Lithuanian,Frequency,Persons,138
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Latvian,Frequency,Persons,46
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Hungarian,Frequency,Persons,123
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Bulgarian,Frequency,Persons,106
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Greek,Frequency,Persons,140
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Dutch,Frequency,Persons,43
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Swedish,Frequency,Persons,8
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Danish,Frequency,Persons,12
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Finnish,Frequency,Persons,8
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Estonian,Frequency,Persons,3
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovenian,Frequency,Persons,4
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Maltese,Frequency,Persons,3
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (EU): Any other European language (EU),Frequency,Persons,2
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Albanian,Frequency,Persons,80
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Ukrainian,Frequency,Persons,102
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Any other Eastern European language (non EU),Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Northern European language (non EU),Frequency,Persons,9
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",Frequency,Persons,21
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Any Romani language,Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Yiddish,Frequency,Persons,7
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Russian,Frequency,Persons,113
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Turkish,Frequency,Persons,48
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Arabic,Frequency,Persons,574
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Hebrew,Frequency,Persons,68
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Kurdish,Frequency,Persons,226
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Persian or Farsi,Frequency,Persons,684
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Pashto,Frequency,Persons,316
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Any other West or Central Asian language,Frequency,Persons,34
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Urdu,Frequency,Persons,2697
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Hindi,Frequency,Persons,35
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Panjabi,Frequency,Persons,1340
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),Frequency,Persons,94
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Bengali (with Sylheti and Chatgaya),Frequency,Persons,176
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Gujarati,Frequency,Persons,94
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Marathi,Frequency,Persons,10
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Telugu,Frequency,Persons,8
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Tamil,Frequency,Persons,22
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Malayalam,Frequency,Persons,112
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Sinhala,Frequency,Persons,34
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Nepalese,Frequency,Persons,50
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,South Asian language: Any other South Asian language,Frequency,Persons,94
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,East Asian language: Mandarin Chinese,Frequency,Persons,61
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,East Asian language: Cantonese Chinese,Frequency,Persons,186
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,East Asian language: All other Chinese,Frequency,Persons,165
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,East Asian language: Japanese,Frequency,Persons,19
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,East Asian language: Korean,Frequency,Persons,8
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,East Asian language: Vietnamese,Frequency,Persons,33
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,East Asian language: Thai,Frequency,Persons,49
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,East Asian language: Malay,Frequency,Persons,6
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,East Asian language: Tagalog or Filipino,Frequency,Persons,79
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,East Asian language: Any other East Asian language,Frequency,Persons,18
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Oceanic or Australian language,Frequency,Persons,1
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,North or South American language,Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Caribbean Creole: English-based Caribbean Creole,Frequency,Persons,1
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Caribbean Creole: Any other Caribbean Creole,Frequency,Persons,3
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Amharic,Frequency,Persons,19
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Tigrinya,Frequency,Persons,72
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Somali,Frequency,Persons,74
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Krio,Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Akan,Frequency,Persons,17
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Yoruba,Frequency,Persons,20
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Igbo,Frequency,Persons,27
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Swahili or Kiswahili,Frequency,Persons,94
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Luganda,Frequency,Persons,1
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Lingala,Frequency,Persons,3
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Shona,Frequency,Persons,36
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Afrikaans,Frequency,Persons,2
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Any other Nigerian language,Frequency,Persons,8
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Any other West African language,Frequency,Persons,14
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,African language: Any other African language,Frequency,Persons,145
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Sign language: British Sign Language,Frequency,Persons,92
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Frequency,Persons,7
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Frequency,Persons,3
+E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other language,Frequency,Persons,19
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Does not apply,Frequency,Persons,20457
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,English,Frequency,Persons,434289
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Welsh,Frequency,Persons,220
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Frequency,Persons,23
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Scottish),Frequency,Persons,6
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other UK language: Manx Gaelic,Frequency,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Not otherwise specified),Frequency,Persons,7
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other UK language: Cornish,Frequency,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other UK language: Scots,Frequency,Persons,8
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other UK language: Ulster Scots,Frequency,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other UK language: Romany English,Frequency,Persons,23
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other UK language: Irish Traveller Cant,Frequency,Persons,1
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,French,Frequency,Persons,2117
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Portuguese,Frequency,Persons,3239
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Spanish,Frequency,Persons,4032
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Italian,Frequency,Persons,3142
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): German,Frequency,Persons,589
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Polish,Frequency,Persons,6471
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovak,Frequency,Persons,353
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Czech,Frequency,Persons,800
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Romanian,Frequency,Persons,2834
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Lithuanian,Frequency,Persons,776
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Latvian,Frequency,Persons,313
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Hungarian,Frequency,Persons,742
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Bulgarian,Frequency,Persons,605
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Greek,Frequency,Persons,1360
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Dutch,Frequency,Persons,283
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Swedish,Frequency,Persons,140
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Danish,Frequency,Persons,71
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Finnish,Frequency,Persons,79
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Estonian,Frequency,Persons,50
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovenian,Frequency,Persons,20
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Maltese,Frequency,Persons,7
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (EU): Any other European language (EU),Frequency,Persons,105
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Albanian,Frequency,Persons,427
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Ukrainian,Frequency,Persons,158
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Any other Eastern European language (non EU),Frequency,Persons,5
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Northern European language (non EU),Frequency,Persons,141
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",Frequency,Persons,153
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Any Romani language,Frequency,Persons,1
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Yiddish,Frequency,Persons,62
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Russian,Frequency,Persons,830
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Turkish,Frequency,Persons,634
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Arabic,Frequency,Persons,10425
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Hebrew,Frequency,Persons,67
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Kurdish,Frequency,Persons,2425
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Persian or Farsi,Frequency,Persons,2580
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Pashto,Frequency,Persons,1580
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Any other West or Central Asian language,Frequency,Persons,167
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Urdu,Frequency,Persons,17572
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Hindi,Frequency,Persons,724
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Panjabi,Frequency,Persons,4591
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),Frequency,Persons,202
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Bengali (with Sylheti and Chatgaya),Frequency,Persons,3367
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Gujarati,Frequency,Persons,387
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Marathi,Frequency,Persons,101
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Telugu,Frequency,Persons,495
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Tamil,Frequency,Persons,549
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Malayalam,Frequency,Persons,1947
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Sinhala,Frequency,Persons,140
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Nepalese,Frequency,Persons,193
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,South Asian language: Any other South Asian language,Frequency,Persons,411
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,East Asian language: Mandarin Chinese,Frequency,Persons,952
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,East Asian language: Cantonese Chinese,Frequency,Persons,2061
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,East Asian language: All other Chinese,Frequency,Persons,5019
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,East Asian language: Japanese,Frequency,Persons,135
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,East Asian language: Korean,Frequency,Persons,191
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,East Asian language: Vietnamese,Frequency,Persons,439
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,East Asian language: Thai,Frequency,Persons,204
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,East Asian language: Malay,Frequency,Persons,433
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,East Asian language: Tagalog or Filipino,Frequency,Persons,241
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,East Asian language: Any other East Asian language,Frequency,Persons,192
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Oceanic or Australian language,Frequency,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,North or South American language,Frequency,Persons,1
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Caribbean Creole: English-based Caribbean Creole,Frequency,Persons,6
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Caribbean Creole: Any other Caribbean Creole,Frequency,Persons,38
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Amharic,Frequency,Persons,365
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Tigrinya,Frequency,Persons,1297
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Somali,Frequency,Persons,2415
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Krio,Frequency,Persons,25
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Akan,Frequency,Persons,690
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Yoruba,Frequency,Persons,457
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Igbo,Frequency,Persons,578
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Swahili or Kiswahili,Frequency,Persons,462
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Luganda,Frequency,Persons,53
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Lingala,Frequency,Persons,165
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Shona,Frequency,Persons,207
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Afrikaans,Frequency,Persons,37
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Any other Nigerian language,Frequency,Persons,250
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Any other West African language,Frequency,Persons,547
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,African language: Any other African language,Frequency,Persons,524
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Sign language: British Sign Language,Frequency,Persons,265
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Frequency,Persons,29
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Frequency,Persons,5
+E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other language,Frequency,Persons,161
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Does not apply,Frequency,Persons,9358
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,English,Frequency,Persons,207898
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Welsh,Frequency,Persons,13
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Scottish),Frequency,Persons,1
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other UK language: Manx Gaelic,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Not otherwise specified),Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other UK language: Cornish,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other UK language: Scots,Frequency,Persons,1
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other UK language: Ulster Scots,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other UK language: Romany English,Frequency,Persons,12
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other UK language: Irish Traveller Cant,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,French,Frequency,Persons,176
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Portuguese,Frequency,Persons,719
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Spanish,Frequency,Persons,517
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Italian,Frequency,Persons,458
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): German,Frequency,Persons,68
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Polish,Frequency,Persons,1068
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovak,Frequency,Persons,123
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Czech,Frequency,Persons,220
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Romanian,Frequency,Persons,1553
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Lithuanian,Frequency,Persons,176
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Latvian,Frequency,Persons,81
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Hungarian,Frequency,Persons,246
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Bulgarian,Frequency,Persons,106
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Greek,Frequency,Persons,59
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Dutch,Frequency,Persons,32
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Swedish,Frequency,Persons,5
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Danish,Frequency,Persons,7
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Finnish,Frequency,Persons,1
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Estonian,Frequency,Persons,3
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovenian,Frequency,Persons,2
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Maltese,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (EU): Any other European language (EU),Frequency,Persons,5
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Albanian,Frequency,Persons,64
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Ukrainian,Frequency,Persons,60
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Any other Eastern European language (non EU),Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Northern European language (non EU),Frequency,Persons,12
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",Frequency,Persons,16
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Any Romani language,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Yiddish,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Russian,Frequency,Persons,130
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Turkish,Frequency,Persons,49
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Arabic,Frequency,Persons,539
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Hebrew,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Kurdish,Frequency,Persons,359
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Persian or Farsi,Frequency,Persons,256
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Pashto,Frequency,Persons,532
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Any other West or Central Asian language,Frequency,Persons,1
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Urdu,Frequency,Persons,5598
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Hindi,Frequency,Persons,32
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Panjabi,Frequency,Persons,2799
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),Frequency,Persons,473
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Bengali (with Sylheti and Chatgaya),Frequency,Persons,5955
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Gujarati,Frequency,Persons,351
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Marathi,Frequency,Persons,1
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Telugu,Frequency,Persons,19
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Tamil,Frequency,Persons,45
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Malayalam,Frequency,Persons,138
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Sinhala,Frequency,Persons,16
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Nepalese,Frequency,Persons,14
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,South Asian language: Any other South Asian language,Frequency,Persons,237
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,East Asian language: Mandarin Chinese,Frequency,Persons,55
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,East Asian language: Cantonese Chinese,Frequency,Persons,136
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,East Asian language: All other Chinese,Frequency,Persons,141
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,East Asian language: Japanese,Frequency,Persons,3
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,East Asian language: Korean,Frequency,Persons,2
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,East Asian language: Vietnamese,Frequency,Persons,35
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,East Asian language: Thai,Frequency,Persons,39
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,East Asian language: Malay,Frequency,Persons,7
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,East Asian language: Tagalog or Filipino,Frequency,Persons,67
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,East Asian language: Any other East Asian language,Frequency,Persons,25
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Oceanic or Australian language,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,North or South American language,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Caribbean Creole: English-based Caribbean Creole,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Caribbean Creole: Any other Caribbean Creole,Frequency,Persons,5
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Amharic,Frequency,Persons,35
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Tigrinya,Frequency,Persons,91
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Somali,Frequency,Persons,67
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Krio,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Akan,Frequency,Persons,26
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Yoruba,Frequency,Persons,70
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Igbo,Frequency,Persons,54
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Swahili or Kiswahili,Frequency,Persons,67
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Luganda,Frequency,Persons,5
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Lingala,Frequency,Persons,14
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Shona,Frequency,Persons,62
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Afrikaans,Frequency,Persons,10
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Any other Nigerian language,Frequency,Persons,36
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Any other West African language,Frequency,Persons,51
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,African language: Any other African language,Frequency,Persons,160
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Sign language: British Sign Language,Frequency,Persons,142
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Frequency,Persons,12
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Frequency,Persons,3
+E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other language,Frequency,Persons,51
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Does not apply,Frequency,Persons,8611
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,English,Frequency,Persons,194800
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Welsh,Frequency,Persons,10
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Frequency,Persons,1
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Scottish),Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other UK language: Manx Gaelic,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Not otherwise specified),Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other UK language: Cornish,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other UK language: Scots,Frequency,Persons,2
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other UK language: Ulster Scots,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other UK language: Romany English,Frequency,Persons,1
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other UK language: Irish Traveller Cant,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,French,Frequency,Persons,184
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Portuguese,Frequency,Persons,1287
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Spanish,Frequency,Persons,448
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Italian,Frequency,Persons,313
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): German,Frequency,Persons,67
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Polish,Frequency,Persons,2628
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovak,Frequency,Persons,169
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Czech,Frequency,Persons,100
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Romanian,Frequency,Persons,669
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Lithuanian,Frequency,Persons,267
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Latvian,Frequency,Persons,91
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Hungarian,Frequency,Persons,111
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Bulgarian,Frequency,Persons,112
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Greek,Frequency,Persons,79
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Dutch,Frequency,Persons,25
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Swedish,Frequency,Persons,2
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Danish,Frequency,Persons,5
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Finnish,Frequency,Persons,2
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Estonian,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovenian,Frequency,Persons,3
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Maltese,Frequency,Persons,4
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (EU): Any other European language (EU),Frequency,Persons,3
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Albanian,Frequency,Persons,56
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Ukrainian,Frequency,Persons,41
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Any other Eastern European language (non EU),Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Northern European language (non EU),Frequency,Persons,6
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",Frequency,Persons,28
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Any Romani language,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Yiddish,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Russian,Frequency,Persons,152
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Turkish,Frequency,Persons,74
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Arabic,Frequency,Persons,607
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Hebrew,Frequency,Persons,2
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Kurdish,Frequency,Persons,399
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Persian or Farsi,Frequency,Persons,283
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Pashto,Frequency,Persons,126
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Any other West or Central Asian language,Frequency,Persons,32
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Urdu,Frequency,Persons,5218
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Hindi,Frequency,Persons,38
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Panjabi,Frequency,Persons,1818
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),Frequency,Persons,1384
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Bengali (with Sylheti and Chatgaya),Frequency,Persons,1413
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Gujarati,Frequency,Persons,45
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Marathi,Frequency,Persons,5
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Telugu,Frequency,Persons,8
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Tamil,Frequency,Persons,72
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Malayalam,Frequency,Persons,145
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Sinhala,Frequency,Persons,12
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Nepalese,Frequency,Persons,58
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,South Asian language: Any other South Asian language,Frequency,Persons,363
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,East Asian language: Mandarin Chinese,Frequency,Persons,96
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,East Asian language: Cantonese Chinese,Frequency,Persons,127
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,East Asian language: All other Chinese,Frequency,Persons,197
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,East Asian language: Japanese,Frequency,Persons,7
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,East Asian language: Korean,Frequency,Persons,2
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,East Asian language: Vietnamese,Frequency,Persons,33
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,East Asian language: Thai,Frequency,Persons,62
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,East Asian language: Malay,Frequency,Persons,20
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,East Asian language: Tagalog or Filipino,Frequency,Persons,53
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,East Asian language: Any other East Asian language,Frequency,Persons,10
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Oceanic or Australian language,Frequency,Persons,3
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,North or South American language,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Caribbean Creole: English-based Caribbean Creole,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Caribbean Creole: Any other Caribbean Creole,Frequency,Persons,2
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Amharic,Frequency,Persons,12
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Tigrinya,Frequency,Persons,70
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Somali,Frequency,Persons,7
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Krio,Frequency,Persons,3
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Akan,Frequency,Persons,15
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Yoruba,Frequency,Persons,68
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Igbo,Frequency,Persons,92
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Swahili or Kiswahili,Frequency,Persons,96
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Luganda,Frequency,Persons,4
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Lingala,Frequency,Persons,27
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Shona,Frequency,Persons,57
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Afrikaans,Frequency,Persons,4
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Any other Nigerian language,Frequency,Persons,39
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Any other West African language,Frequency,Persons,52
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,African language: Any other African language,Frequency,Persons,82
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Sign language: British Sign Language,Frequency,Persons,86
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Frequency,Persons,11
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Frequency,Persons,11
+E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other language,Frequency,Persons,47
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Does not apply,Frequency,Persons,10553
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,English,Frequency,Persons,229864
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Welsh,Frequency,Persons,73
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Frequency,Persons,8
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Scottish),Frequency,Persons,0
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other UK language: Manx Gaelic,Frequency,Persons,0
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Not otherwise specified),Frequency,Persons,1
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other UK language: Cornish,Frequency,Persons,1
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other UK language: Scots,Frequency,Persons,2
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other UK language: Ulster Scots,Frequency,Persons,0
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other UK language: Romany English,Frequency,Persons,3
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other UK language: Irish Traveller Cant,Frequency,Persons,0
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,French,Frequency,Persons,657
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Portuguese,Frequency,Persons,2685
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Spanish,Frequency,Persons,1469
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Italian,Frequency,Persons,957
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): German,Frequency,Persons,117
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Polish,Frequency,Persons,4813
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovak,Frequency,Persons,370
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Czech,Frequency,Persons,426
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Romanian,Frequency,Persons,1378
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Lithuanian,Frequency,Persons,376
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Latvian,Frequency,Persons,152
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Hungarian,Frequency,Persons,367
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Bulgarian,Frequency,Persons,651
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Greek,Frequency,Persons,579
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Dutch,Frequency,Persons,97
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Swedish,Frequency,Persons,43
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Danish,Frequency,Persons,21
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Finnish,Frequency,Persons,25
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Estonian,Frequency,Persons,20
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovenian,Frequency,Persons,10
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Maltese,Frequency,Persons,11
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Any other European language (EU),Frequency,Persons,35
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Albanian,Frequency,Persons,222
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Ukrainian,Frequency,Persons,136
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Any other Eastern European language (non EU),Frequency,Persons,5
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Northern European language (non EU),Frequency,Persons,37
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",Frequency,Persons,47
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Any Romani language,Frequency,Persons,0
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Yiddish,Frequency,Persons,1037
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Russian,Frequency,Persons,401
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Turkish,Frequency,Persons,233
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Arabic,Frequency,Persons,2461
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Hebrew,Frequency,Persons,411
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Kurdish,Frequency,Persons,663
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Persian or Farsi,Frequency,Persons,1154
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Pashto,Frequency,Persons,155
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Any other West or Central Asian language,Frequency,Persons,48
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Urdu,Frequency,Persons,908
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Hindi,Frequency,Persons,239
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Panjabi,Frequency,Persons,378
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),Frequency,Persons,3
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Bengali (with Sylheti and Chatgaya),Frequency,Persons,220
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Gujarati,Frequency,Persons,143
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Marathi,Frequency,Persons,48
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Telugu,Frequency,Persons,115
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Tamil,Frequency,Persons,276
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Malayalam,Frequency,Persons,424
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Sinhala,Frequency,Persons,30
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Nepalese,Frequency,Persons,58
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,South Asian language: Any other South Asian language,Frequency,Persons,110
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,East Asian language: Mandarin Chinese,Frequency,Persons,195
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,East Asian language: Cantonese Chinese,Frequency,Persons,782
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,East Asian language: All other Chinese,Frequency,Persons,666
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,East Asian language: Japanese,Frequency,Persons,25
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,East Asian language: Korean,Frequency,Persons,15
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,East Asian language: Vietnamese,Frequency,Persons,55
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,East Asian language: Thai,Frequency,Persons,93
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,East Asian language: Malay,Frequency,Persons,21
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,East Asian language: Tagalog or Filipino,Frequency,Persons,194
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,East Asian language: Any other East Asian language,Frequency,Persons,99
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Oceanic or Australian language,Frequency,Persons,1
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,North or South American language,Frequency,Persons,1
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Caribbean Creole: English-based Caribbean Creole,Frequency,Persons,0
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Caribbean Creole: Any other Caribbean Creole,Frequency,Persons,3
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Amharic,Frequency,Persons,110
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Tigrinya,Frequency,Persons,845
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Somali,Frequency,Persons,49
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Krio,Frequency,Persons,3
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Akan,Frequency,Persons,46
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Yoruba,Frequency,Persons,91
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Igbo,Frequency,Persons,96
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Swahili or Kiswahili,Frequency,Persons,53
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Luganda,Frequency,Persons,9
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Lingala,Frequency,Persons,107
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Shona,Frequency,Persons,86
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Afrikaans,Frequency,Persons,12
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Any other Nigerian language,Frequency,Persons,61
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Any other West African language,Frequency,Persons,106
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,African language: Any other African language,Frequency,Persons,194
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Sign language: British Sign Language,Frequency,Persons,104
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Frequency,Persons,7
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Frequency,Persons,5
+E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other language,Frequency,Persons,61
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Does not apply,Frequency,Persons,9733
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,English,Frequency,Persons,272788
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Welsh,Frequency,Persons,48
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Frequency,Persons,6
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Scottish),Frequency,Persons,2
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other UK language: Manx Gaelic,Frequency,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Not otherwise specified),Frequency,Persons,1
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other UK language: Cornish,Frequency,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other UK language: Scots,Frequency,Persons,4
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other UK language: Ulster Scots,Frequency,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other UK language: Romany English,Frequency,Persons,4
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other UK language: Irish Traveller Cant,Frequency,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,French,Frequency,Persons,244
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Portuguese,Frequency,Persons,353
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Spanish,Frequency,Persons,402
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Italian,Frequency,Persons,320
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): German,Frequency,Persons,114
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Polish,Frequency,Persons,1032
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovak,Frequency,Persons,52
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Czech,Frequency,Persons,90
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Romanian,Frequency,Persons,407
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Lithuanian,Frequency,Persons,70
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Latvian,Frequency,Persons,17
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Hungarian,Frequency,Persons,167
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Bulgarian,Frequency,Persons,136
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Greek,Frequency,Persons,134
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Dutch,Frequency,Persons,50
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Swedish,Frequency,Persons,24
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Danish,Frequency,Persons,22
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Finnish,Frequency,Persons,10
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Estonian,Frequency,Persons,4
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovenian,Frequency,Persons,7
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Maltese,Frequency,Persons,6
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (EU): Any other European language (EU),Frequency,Persons,17
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Albanian,Frequency,Persons,67
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Ukrainian,Frequency,Persons,20
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Any other Eastern European language (non EU),Frequency,Persons,3
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Northern European language (non EU),Frequency,Persons,17
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",Frequency,Persons,39
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Any Romani language,Frequency,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Yiddish,Frequency,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Russian,Frequency,Persons,141
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Turkish,Frequency,Persons,131
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Arabic,Frequency,Persons,774
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Hebrew,Frequency,Persons,38
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Kurdish,Frequency,Persons,302
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Persian or Farsi,Frequency,Persons,1346
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Pashto,Frequency,Persons,118
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Any other West or Central Asian language,Frequency,Persons,49
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Urdu,Frequency,Persons,1565
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Hindi,Frequency,Persons,166
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Panjabi,Frequency,Persons,534
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),Frequency,Persons,19
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Bengali (with Sylheti and Chatgaya),Frequency,Persons,234
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Gujarati,Frequency,Persons,251
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Marathi,Frequency,Persons,27
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Telugu,Frequency,Persons,65
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Tamil,Frequency,Persons,134
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Malayalam,Frequency,Persons,455
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Sinhala,Frequency,Persons,35
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Nepalese,Frequency,Persons,25
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,South Asian language: Any other South Asian language,Frequency,Persons,92
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,East Asian language: Mandarin Chinese,Frequency,Persons,116
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,East Asian language: Cantonese Chinese,Frequency,Persons,427
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,East Asian language: All other Chinese,Frequency,Persons,391
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,East Asian language: Japanese,Frequency,Persons,51
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,East Asian language: Korean,Frequency,Persons,18
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,East Asian language: Vietnamese,Frequency,Persons,85
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,East Asian language: Thai,Frequency,Persons,89
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,East Asian language: Malay,Frequency,Persons,9
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,East Asian language: Tagalog or Filipino,Frequency,Persons,165
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,East Asian language: Any other East Asian language,Frequency,Persons,31
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Oceanic or Australian language,Frequency,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,North or South American language,Frequency,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Caribbean Creole: English-based Caribbean Creole,Frequency,Persons,1
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Caribbean Creole: Any other Caribbean Creole,Frequency,Persons,1
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Amharic,Frequency,Persons,10
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Tigrinya,Frequency,Persons,21
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Somali,Frequency,Persons,37
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Krio,Frequency,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Akan,Frequency,Persons,14
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Yoruba,Frequency,Persons,10
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Igbo,Frequency,Persons,12
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Swahili or Kiswahili,Frequency,Persons,28
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Luganda,Frequency,Persons,3
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Lingala,Frequency,Persons,6
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Shona,Frequency,Persons,34
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Afrikaans,Frequency,Persons,14
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Any other Nigerian language,Frequency,Persons,4
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Any other West African language,Frequency,Persons,12
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,African language: Any other African language,Frequency,Persons,59
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Sign language: British Sign Language,Frequency,Persons,164
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Frequency,Persons,7
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Frequency,Persons,20
+E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other language,Frequency,Persons,24
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Does not apply,Frequency,Persons,8029
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,English,Frequency,Persons,209879
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Welsh,Frequency,Persons,17
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Scottish),Frequency,Persons,1
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other UK language: Manx Gaelic,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Not otherwise specified),Frequency,Persons,5
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other UK language: Cornish,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other UK language: Scots,Frequency,Persons,5
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other UK language: Ulster Scots,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other UK language: Romany English,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other UK language: Irish Traveller Cant,Frequency,Persons,1
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,French,Frequency,Persons,134
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Portuguese,Frequency,Persons,432
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Spanish,Frequency,Persons,311
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Italian,Frequency,Persons,304
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): German,Frequency,Persons,47
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Polish,Frequency,Persons,2072
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovak,Frequency,Persons,48
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Czech,Frequency,Persons,94
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Romanian,Frequency,Persons,402
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Lithuanian,Frequency,Persons,61
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Latvian,Frequency,Persons,50
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Hungarian,Frequency,Persons,66
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Bulgarian,Frequency,Persons,129
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Greek,Frequency,Persons,81
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Dutch,Frequency,Persons,29
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Swedish,Frequency,Persons,15
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Danish,Frequency,Persons,11
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Finnish,Frequency,Persons,6
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Estonian,Frequency,Persons,4
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovenian,Frequency,Persons,3
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Maltese,Frequency,Persons,3
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (EU): Any other European language (EU),Frequency,Persons,5
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Albanian,Frequency,Persons,63
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Ukrainian,Frequency,Persons,14
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Any other Eastern European language (non EU),Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Northern European language (non EU),Frequency,Persons,6
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",Frequency,Persons,13
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Any Romani language,Frequency,Persons,1
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Yiddish,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Russian,Frequency,Persons,136
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Turkish,Frequency,Persons,49
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Arabic,Frequency,Persons,537
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Hebrew,Frequency,Persons,2
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Kurdish,Frequency,Persons,159
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Persian or Farsi,Frequency,Persons,241
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Pashto,Frequency,Persons,69
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Any other West or Central Asian language,Frequency,Persons,14
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Urdu,Frequency,Persons,2179
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Hindi,Frequency,Persons,48
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Panjabi,Frequency,Persons,758
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),Frequency,Persons,19
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Bengali (with Sylheti and Chatgaya),Frequency,Persons,1657
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Gujarati,Frequency,Persons,881
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Marathi,Frequency,Persons,8
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Telugu,Frequency,Persons,21
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Tamil,Frequency,Persons,36
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Malayalam,Frequency,Persons,128
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Sinhala,Frequency,Persons,10
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Nepalese,Frequency,Persons,118
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,South Asian language: Any other South Asian language,Frequency,Persons,50
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,East Asian language: Mandarin Chinese,Frequency,Persons,83
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,East Asian language: Cantonese Chinese,Frequency,Persons,283
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,East Asian language: All other Chinese,Frequency,Persons,362
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,East Asian language: Japanese,Frequency,Persons,7
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,East Asian language: Korean,Frequency,Persons,1
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,East Asian language: Vietnamese,Frequency,Persons,62
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,East Asian language: Thai,Frequency,Persons,59
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,East Asian language: Malay,Frequency,Persons,6
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,East Asian language: Tagalog or Filipino,Frequency,Persons,65
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,East Asian language: Any other East Asian language,Frequency,Persons,18
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Oceanic or Australian language,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,North or South American language,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Caribbean Creole: English-based Caribbean Creole,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Caribbean Creole: Any other Caribbean Creole,Frequency,Persons,2
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Amharic,Frequency,Persons,18
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Tigrinya,Frequency,Persons,50
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Somali,Frequency,Persons,27
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Krio,Frequency,Persons,2
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Akan,Frequency,Persons,51
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Yoruba,Frequency,Persons,55
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Igbo,Frequency,Persons,22
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Swahili or Kiswahili,Frequency,Persons,82
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Luganda,Frequency,Persons,5
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Lingala,Frequency,Persons,7
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Shona,Frequency,Persons,29
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Afrikaans,Frequency,Persons,11
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Any other Nigerian language,Frequency,Persons,10
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Any other West African language,Frequency,Persons,47
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,African language: Any other African language,Frequency,Persons,130
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Sign language: British Sign Language,Frequency,Persons,88
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Frequency,Persons,14
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Frequency,Persons,8
+E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other language,Frequency,Persons,14
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Does not apply,Frequency,Persons,7669
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,English,Frequency,Persons,211103
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Welsh,Frequency,Persons,55
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Frequency,Persons,2
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Scottish),Frequency,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other UK language: Manx Gaelic,Frequency,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Not otherwise specified),Frequency,Persons,1
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other UK language: Cornish,Frequency,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other UK language: Scots,Frequency,Persons,2
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other UK language: Ulster Scots,Frequency,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other UK language: Romany English,Frequency,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other UK language: Irish Traveller Cant,Frequency,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,French,Frequency,Persons,271
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Portuguese,Frequency,Persons,330
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Spanish,Frequency,Persons,612
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Italian,Frequency,Persons,370
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): German,Frequency,Persons,109
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Polish,Frequency,Persons,1305
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovak,Frequency,Persons,73
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Czech,Frequency,Persons,134
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Romanian,Frequency,Persons,329
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Lithuanian,Frequency,Persons,84
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Latvian,Frequency,Persons,24
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Hungarian,Frequency,Persons,115
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Bulgarian,Frequency,Persons,118
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Greek,Frequency,Persons,254
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Dutch,Frequency,Persons,69
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Swedish,Frequency,Persons,43
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Danish,Frequency,Persons,12
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Finnish,Frequency,Persons,14
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Estonian,Frequency,Persons,9
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovenian,Frequency,Persons,4
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Maltese,Frequency,Persons,5
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (EU): Any other European language (EU),Frequency,Persons,16
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Albanian,Frequency,Persons,81
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Ukrainian,Frequency,Persons,14
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Any other Eastern European language (non EU),Frequency,Persons,1
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Northern European language (non EU),Frequency,Persons,30
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",Frequency,Persons,40
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Any Romani language,Frequency,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Yiddish,Frequency,Persons,8
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Russian,Frequency,Persons,198
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Turkish,Frequency,Persons,191
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Arabic,Frequency,Persons,1298
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Hebrew,Frequency,Persons,17
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Kurdish,Frequency,Persons,153
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Persian or Farsi,Frequency,Persons,628
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Pashto,Frequency,Persons,96
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Any other West or Central Asian language,Frequency,Persons,29
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Urdu,Frequency,Persons,2055
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Hindi,Frequency,Persons,388
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Panjabi,Frequency,Persons,933
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),Frequency,Persons,15
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Bengali (with Sylheti and Chatgaya),Frequency,Persons,207
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Gujarati,Frequency,Persons,585
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Marathi,Frequency,Persons,180
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Telugu,Frequency,Persons,423
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Tamil,Frequency,Persons,339
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Malayalam,Frequency,Persons,615
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Sinhala,Frequency,Persons,49
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Nepalese,Frequency,Persons,17
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,South Asian language: Any other South Asian language,Frequency,Persons,237
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,East Asian language: Mandarin Chinese,Frequency,Persons,285
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,East Asian language: Cantonese Chinese,Frequency,Persons,984
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,East Asian language: All other Chinese,Frequency,Persons,907
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,East Asian language: Japanese,Frequency,Persons,95
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,East Asian language: Korean,Frequency,Persons,63
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,East Asian language: Vietnamese,Frequency,Persons,39
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,East Asian language: Thai,Frequency,Persons,81
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,East Asian language: Malay,Frequency,Persons,22
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,East Asian language: Tagalog or Filipino,Frequency,Persons,73
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,East Asian language: Any other East Asian language,Frequency,Persons,25
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Oceanic or Australian language,Frequency,Persons,2
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,North or South American language,Frequency,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Caribbean Creole: English-based Caribbean Creole,Frequency,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Caribbean Creole: Any other Caribbean Creole,Frequency,Persons,6
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Amharic,Frequency,Persons,24
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Tigrinya,Frequency,Persons,49
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Somali,Frequency,Persons,142
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Krio,Frequency,Persons,1
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Akan,Frequency,Persons,10
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Yoruba,Frequency,Persons,18
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Igbo,Frequency,Persons,48
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Swahili or Kiswahili,Frequency,Persons,15
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Luganda,Frequency,Persons,7
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Lingala,Frequency,Persons,5
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Shona,Frequency,Persons,12
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Afrikaans,Frequency,Persons,16
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Any other Nigerian language,Frequency,Persons,5
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Any other West African language,Frequency,Persons,16
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,African language: Any other African language,Frequency,Persons,39
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Sign language: British Sign Language,Frequency,Persons,86
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Frequency,Persons,6
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Frequency,Persons,4
+E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other language,Frequency,Persons,5
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Does not apply,Frequency,Persons,10229
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,English,Frequency,Persons,307912
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Welsh,Frequency,Persons,17
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Frequency,Persons,6
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Scottish),Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other UK language: Manx Gaelic,Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Not otherwise specified),Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other UK language: Cornish,Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other UK language: Scots,Frequency,Persons,3
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other UK language: Ulster Scots,Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other UK language: Romany English,Frequency,Persons,2
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other UK language: Irish Traveller Cant,Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,French,Frequency,Persons,170
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Portuguese,Frequency,Persons,592
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Spanish,Frequency,Persons,291
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Italian,Frequency,Persons,202
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): German,Frequency,Persons,61
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Polish,Frequency,Persons,2059
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovak,Frequency,Persons,249
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Czech,Frequency,Persons,136
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Romanian,Frequency,Persons,1653
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Lithuanian,Frequency,Persons,537
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Latvian,Frequency,Persons,262
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Hungarian,Frequency,Persons,226
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Bulgarian,Frequency,Persons,218
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Greek,Frequency,Persons,145
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Dutch,Frequency,Persons,27
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Swedish,Frequency,Persons,8
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Danish,Frequency,Persons,4
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Finnish,Frequency,Persons,4
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Estonian,Frequency,Persons,8
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Slovenian,Frequency,Persons,10
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Maltese,Frequency,Persons,2
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (EU): Any other European language (EU),Frequency,Persons,10
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Albanian,Frequency,Persons,85
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Ukrainian,Frequency,Persons,13
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Any other Eastern European language (non EU),Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (non EU): Northern European language (non EU),Frequency,Persons,10
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",Frequency,Persons,8
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Any Romani language,Frequency,Persons,4
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other European language (non-national): Yiddish,Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Russian,Frequency,Persons,243
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Turkish,Frequency,Persons,175
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Arabic,Frequency,Persons,580
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Hebrew,Frequency,Persons,3
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Kurdish,Frequency,Persons,449
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Persian or Farsi,Frequency,Persons,320
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Pashto,Frequency,Persons,13
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,West or Central Asian language: Any other West or Central Asian language,Frequency,Persons,28
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Urdu,Frequency,Persons,313
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Hindi,Frequency,Persons,50
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Panjabi,Frequency,Persons,127
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),Frequency,Persons,2
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Bengali (with Sylheti and Chatgaya),Frequency,Persons,49
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Gujarati,Frequency,Persons,70
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Marathi,Frequency,Persons,10
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Telugu,Frequency,Persons,26
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Tamil,Frequency,Persons,193
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Malayalam,Frequency,Persons,277
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Sinhala,Frequency,Persons,35
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Nepalese,Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,South Asian language: Any other South Asian language,Frequency,Persons,18
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,East Asian language: Mandarin Chinese,Frequency,Persons,100
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,East Asian language: Cantonese Chinese,Frequency,Persons,143
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,East Asian language: All other Chinese,Frequency,Persons,301
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,East Asian language: Japanese,Frequency,Persons,17
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,East Asian language: Korean,Frequency,Persons,3
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,East Asian language: Vietnamese,Frequency,Persons,52
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,East Asian language: Thai,Frequency,Persons,105
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,East Asian language: Malay,Frequency,Persons,9
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,East Asian language: Tagalog or Filipino,Frequency,Persons,74
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,East Asian language: Any other East Asian language,Frequency,Persons,21
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Oceanic or Australian language,Frequency,Persons,2
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,North or South American language,Frequency,Persons,1
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Caribbean Creole: English-based Caribbean Creole,Frequency,Persons,1
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Caribbean Creole: Any other Caribbean Creole,Frequency,Persons,1
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Amharic,Frequency,Persons,24
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Tigrinya,Frequency,Persons,14
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Somali,Frequency,Persons,3
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Krio,Frequency,Persons,2
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Akan,Frequency,Persons,4
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Yoruba,Frequency,Persons,20
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Igbo,Frequency,Persons,6
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Swahili or Kiswahili,Frequency,Persons,13
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Luganda,Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Lingala,Frequency,Persons,14
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Shona,Frequency,Persons,42
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Afrikaans,Frequency,Persons,12
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Any other Nigerian language,Frequency,Persons,4
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Any other West African language,Frequency,Persons,20
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,African language: Any other African language,Frequency,Persons,80
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Sign language: British Sign Language,Frequency,Persons,73
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Frequency,Persons,11
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Frequency,Persons,9
+E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other language,Frequency,Persons,8

@@ -1,0 +1,113 @@
+---
+pagetitle: "Census 2021: National Identity"
+lang: "en-GB"
+output:
+  html_document:
+    css: ../../guidance/template/styles.css
+    self_contained: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse) ; library(htmltools) ; library(DT) 
+
+df <- read_csv("2021_population_national_identity_detailed_la_gm.csv") %>%
+    rename_all(. %>% str_to_title() %>% str_replace_all("_", " "))
+```
+<header>
+<span id="a11yNav"><a href="#downloads" class="themeBlockDark">Skip to downloads</a></span>
+<a href="https://www.trafforddatalab.io/data.html"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" aria-label="Return to Trafford Data Lab data page" width="100" class="traffordDataLabLogo"/></a>
+
+<h1>Census 2021: National Identity</h1>
+*Census 2021 estimates that classify usual residents in England and Wales by national identity.*
+
+</header>
+
+<main>
+<h2>Metadata</h2>
+
+<table id="metadata" class="table table-condensed">
+  <thead>
+    <tr class="header">
+      <th>Source</th>
+      <th>Publisher</th>
+      <th>Time period</th>
+      <th>Geography</th>
+      <th>Licence</th>
+      <th>Attribution</th>
+      <th>Last updated</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Office for National Statistics</td>
+    <td><a href="https://www.ons.gov.uk/census" target="_blank">Office for National Statistics</a></td>
+    <td><time datetime="2021-03-21">2021-03-21</time></td>
+    <td>Local authority (la), Middle-layer Super Output Area (msoa), Lower-layer Super Output Area (lsoa), Output Area (oa)</td>
+    <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
+    <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
+    <td><time datetime="2022-12-07">2022-12-07</time></td>
+  </tr>
+</table>
+
+<h2>Preview</h2>
+Sort, filter and export a selection of the data using the table.
+
+```{r preview}
+datatable(df, 
+          class = 'cell-border stripe',
+          rownames = FALSE, 
+          extensions = c('Scroller', 'Buttons', 'KeyTable'),
+          options = list(
+            keys = TRUE,
+            search = list(regex = TRUE),
+            searchHighlight = TRUE,
+            dom = 'ftB',
+            buttons = list(
+              list(extend = "csv", 
+                   text = "Download selection")),
+            deferRender = TRUE,
+            scrollX = TRUE,
+            scrollY = 300,
+            scroller = TRUE,
+            columnDefs = list(
+              list(className = 'dt-left', targets = "_all")
+              )))
+```
+<div id="tableFooterTitle">Population of Local Authorities in Greater Manchester classified by national identity (detailed)</div>
+
+<h2>Data</h2>
+<span id ="downloads">Download the complete datasets using the following links:</span>
+
+<h3>Persons</h3>
+|File name |Format |
+|---|---|
+|[2021_population_national_identity_detailed_la_gm.csv](2021_population_national_identity_detailed_la_gm.csv) |CSV |
+|[2021_population_national_identity_detailed_msoa_trafford.csv](2021_population_national_identity_detailed_msoa_trafford.csv) |CSV |
+|[2021_population_national_identity_uk_focus_la_gm.csv](2021_population_national_identity_uk_focus_la_gm.csv) |CSV |
+|[2021_population_national_identity_uk_focus_msoa_trafford.csv](2021_population_national_identity_uk_focus_msoa_trafford.csv) |CSV |
+|[2021_population_national_identity_uk_focus_lsoa_trafford.csv](2021_population_national_identity_uk_focus_lsoa_trafford.csv) |CSV |
+|[2021_population_national_identity_uk_focus_oa_trafford.csv](2021_population_national_identity_uk_focus_oa_trafford.csv) |CSV |
+
+<h2>Pre-processing</h2>
+[The R script used to process the data](pre-processing.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
+
+</main>
+
+<script>
+  // Fixes to dynamic elements created by DataTables to improve accessibility
+  var removeElFn = setInterval(removeElement, 1000);
+  
+  function removeElement() {
+    try {
+      var el = document.getElementsByClassName("dataTables_scrollBody")[0].childNodes[0];
+      el.removeChild(el.childNodes[0]); // Remove unwanted hidden text element from table - causing accessibility alert as it has no label
+      
+      el.parentNode.setAttribute('tabindex', '0');  // add attribute allowing keyboard users to access scrollable area
+      
+      clearInterval(removeElFn);  // cancel any further calls to this function as we have completed all actions
+    }
+    catch(e) {
+      // form element 'el' doesn't exist yet so setInterval will call the function again until it does
+    }
+  }
+</script>

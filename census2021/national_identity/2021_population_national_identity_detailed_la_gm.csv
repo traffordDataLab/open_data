@@ -1,0 +1,721 @@
+area_code,area_name,geography,period,indicator,national_identity,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity: British only identity,Frequency,Persons,174855
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity: English only identity,Frequency,Persons,43323
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity: English and British only identity,Frequency,Persons,43301
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity:  Welsh only identity,Frequency,Persons,418
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity: Welsh and British only identity,Frequency,Persons,199
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity: Scottish only identity,Frequency,Persons,802
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity:  Scottish and British only identity,Frequency,Persons,316
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity: Northern Irish only identity,Frequency,Persons,294
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity: Northern Irish and British only identity,Frequency,Persons,106
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity: Cornish only identity,Frequency,Persons,5
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity: Cornish and British only identity,Frequency,Persons,4
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity: Any other combination of UK identities (UK only),Frequency,Persons,239
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity: Other identity and at least one UK identity,Frequency,Persons,3842
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Guernsey Islander,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Jersey Islander,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Isle of Man (Manx),Frequency,Persons,10
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Channel Islander not otherwise specified,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Irish only identity,Frequency,Persons,962
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Irish and at least one UK identity,Frequency,Persons,145
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: French,Frequency,Persons,195
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: German,Frequency,Persons,244
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Italian,Frequency,Persons,1981
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Portuguese,Frequency,Persons,1125
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Spanish (including Canary Islander),Frequency,Persons,1794
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries in March 2001,Frequency,Persons,1342
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Lithuanian,Frequency,Persons,407
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Polish,Frequency,Persons,1668
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Romanian,Frequency,Persons,805
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries,Frequency,Persons,1871
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Turkish,Frequency,Persons,130
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Other European,Frequency,Persons,1063
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: African: North African,Frequency,Persons,576
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Ghanaian,Frequency,Persons,47
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Nigerian,Frequency,Persons,525
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Other Central and Western African,Frequency,Persons,985
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Kenyan,Frequency,Persons,50
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Somali,Frequency,Persons,842
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: South African,Frequency,Persons,70
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Zimbabwean,Frequency,Persons,179
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Other South and Eastern African,Frequency,Persons,657
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Kurdish,Frequency,Persons,274
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iranian,Frequency,Persons,370
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iraqi,Frequency,Persons,309
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Other Middle Eastern,Frequency,Persons,319
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Chinese,Frequency,Persons,248
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Hong Kong Chinese,Frequency,Persons,87
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Japanese,Frequency,Persons,18
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Other Eastern Asian,Frequency,Persons,9
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Afghan,Frequency,Persons,427
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Bangladeshi,Frequency,Persons,114
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Indian,Frequency,Persons,1830
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Pakistani,Frequency,Persons,5105
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Sri Lankan,Frequency,Persons,147
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Other Southern Asian,Frequency,Persons,63
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Filipino,Frequency,Persons,100
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Malaysian,Frequency,Persons,59
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Singaporean,Frequency,Persons,8
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Other South-East Asian,Frequency,Persons,126
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Central Asian,Frequency,Persons,4
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Asian not otherwise specified,Frequency,Persons,207
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Canadian,Frequency,Persons,45
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: US Citizen,Frequency,Persons,119
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Other North American,Frequency,Persons,1
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Central American,Frequency,Persons,65
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: South American,Frequency,Persons,130
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Jamaican,Frequency,Persons,28
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Other Caribbean,Frequency,Persons,36
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Australian,Frequency,Persons,40
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: New Zealander,Frequency,Persons,17
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Other Australasian,Frequency,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Other Oceanian,Frequency,Persons,5
+E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only: Other,Frequency,Persons,279
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity: British only identity,Frequency,Persons,115132
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity: English only identity,Frequency,Persons,31004
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity: English and British only identity,Frequency,Persons,29582
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity:  Welsh only identity,Frequency,Persons,421
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity: Welsh and British only identity,Frequency,Persons,183
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity: Scottish only identity,Frequency,Persons,785
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity:  Scottish and British only identity,Frequency,Persons,330
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity: Northern Irish only identity,Frequency,Persons,378
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity: Northern Irish and British only identity,Frequency,Persons,120
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity: Cornish only identity,Frequency,Persons,4
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity: Cornish and British only identity,Frequency,Persons,1
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity: Any other combination of UK identities (UK only),Frequency,Persons,245
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity: Other identity and at least one UK identity,Frequency,Persons,2149
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Guernsey Islander,Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Jersey Islander,Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Isle of Man (Manx),Frequency,Persons,5
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Channel Islander not otherwise specified,Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Irish only identity,Frequency,Persons,1197
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Irish and at least one UK identity,Frequency,Persons,211
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: French,Frequency,Persons,161
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: German,Frequency,Persons,143
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Italian,Frequency,Persons,958
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Portuguese,Frequency,Persons,291
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Spanish (including Canary Islander),Frequency,Persons,552
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries in March 2001,Frequency,Persons,502
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Lithuanian,Frequency,Persons,182
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Polish,Frequency,Persons,1703
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Romanian,Frequency,Persons,301
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries,Frequency,Persons,648
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Turkish,Frequency,Persons,43
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Other European,Frequency,Persons,1012
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: African: North African,Frequency,Persons,252
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Ghanaian,Frequency,Persons,30
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Nigerian,Frequency,Persons,195
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Other Central and Western African,Frequency,Persons,305
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Kenyan,Frequency,Persons,29
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Somali,Frequency,Persons,87
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: South African,Frequency,Persons,59
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Zimbabwean,Frequency,Persons,98
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Other South and Eastern African,Frequency,Persons,242
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Kurdish,Frequency,Persons,93
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iranian,Frequency,Persons,317
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iraqi,Frequency,Persons,83
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Other Middle Eastern,Frequency,Persons,205
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Chinese,Frequency,Persons,150
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Hong Kong Chinese,Frequency,Persons,37
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Japanese,Frequency,Persons,21
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Other Eastern Asian,Frequency,Persons,15
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Afghan,Frequency,Persons,204
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Bangladeshi,Frequency,Persons,48
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Indian,Frequency,Persons,301
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Pakistani,Frequency,Persons,1933
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Sri Lankan,Frequency,Persons,26
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Other Southern Asian,Frequency,Persons,24
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Filipino,Frequency,Persons,63
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Malaysian,Frequency,Persons,23
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Singaporean,Frequency,Persons,3
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Other South-East Asian,Frequency,Persons,88
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Central Asian,Frequency,Persons,7
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Asian not otherwise specified,Frequency,Persons,104
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Canadian,Frequency,Persons,39
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: US Citizen,Frequency,Persons,145
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Other North American,Frequency,Persons,1
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Central American,Frequency,Persons,23
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: South American,Frequency,Persons,87
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Jamaican,Frequency,Persons,28
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Other Caribbean,Frequency,Persons,20
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Australian,Frequency,Persons,42
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: New Zealander,Frequency,Persons,30
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Other Australasian,Frequency,Persons,0
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Other Oceanian,Frequency,Persons,2
+E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only: Other,Frequency,Persons,147
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity: British only identity,Frequency,Persons,310709
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity: English only identity,Frequency,Persons,48800
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity: English and British only identity,Frequency,Persons,56401
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity:  Welsh only identity,Frequency,Persons,2310
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity: Welsh and British only identity,Frequency,Persons,891
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity: Scottish only identity,Frequency,Persons,2401
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity:  Scottish and British only identity,Frequency,Persons,903
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity: Northern Irish only identity,Frequency,Persons,1947
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity: Northern Irish and British only identity,Frequency,Persons,456
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity: Cornish only identity,Frequency,Persons,46
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity: Cornish and British only identity,Frequency,Persons,11
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity: Any other combination of UK identities (UK only),Frequency,Persons,1221
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity: Other identity and at least one UK identity,Frequency,Persons,14929
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Guernsey Islander,Frequency,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Jersey Islander,Frequency,Persons,2
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Isle of Man (Manx),Frequency,Persons,40
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Channel Islander not otherwise specified,Frequency,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Irish only identity,Frequency,Persons,6175
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Irish and at least one UK identity,Frequency,Persons,990
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: French,Frequency,Persons,1695
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: German,Frequency,Persons,1868
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Italian,Frequency,Persons,8933
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Portuguese,Frequency,Persons,3334
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Spanish (including Canary Islander),Frequency,Persons,6653
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries in March 2001,Frequency,Persons,5961
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Lithuanian,Frequency,Persons,1028
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Polish,Frequency,Persons,6521
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Romanian,Frequency,Persons,2954
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries,Frequency,Persons,4095
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Turkish,Frequency,Persons,465
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Other European,Frequency,Persons,4866
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: African: North African,Frequency,Persons,3142
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Ghanaian,Frequency,Persons,1198
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Nigerian,Frequency,Persons,4090
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Other Central and Western African,Frequency,Persons,2383
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Kenyan,Frequency,Persons,160
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Somali,Frequency,Persons,838
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: South African,Frequency,Persons,241
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Zimbabwean,Frequency,Persons,606
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Other South and Eastern African,Frequency,Persons,2343
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Kurdish,Frequency,Persons,677
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iranian,Frequency,Persons,1211
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iraqi,Frequency,Persons,735
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Other Middle Eastern,Frequency,Persons,3936
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Chinese,Frequency,Persons,5197
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Hong Kong Chinese,Frequency,Persons,786
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Japanese,Frequency,Persons,168
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Other Eastern Asian,Frequency,Persons,469
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Afghan,Frequency,Persons,997
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Bangladeshi,Frequency,Persons,1121
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Indian,Frequency,Persons,5641
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Pakistani,Frequency,Persons,11170
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Sri Lankan,Frequency,Persons,240
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Other Southern Asian,Frequency,Persons,140
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Filipino,Frequency,Persons,219
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Malaysian,Frequency,Persons,860
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Singaporean,Frequency,Persons,127
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Other South-East Asian,Frequency,Persons,846
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Central Asian,Frequency,Persons,41
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Asian not otherwise specified,Frequency,Persons,472
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Canadian,Frequency,Persons,319
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: US Citizen,Frequency,Persons,823
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Other North American,Frequency,Persons,32
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Central American,Frequency,Persons,210
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: South American,Frequency,Persons,1092
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Jamaican,Frequency,Persons,675
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Other Caribbean,Frequency,Persons,396
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Australian,Frequency,Persons,360
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: New Zealander,Frequency,Persons,103
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Other Australasian,Frequency,Persons,3
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Other Oceanian,Frequency,Persons,14
+E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only: Other,Frequency,Persons,1251
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity: British only identity,Frequency,Persons,147724
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity: English only identity,Frequency,Persons,36738
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity: English and British only identity,Frequency,Persons,31756
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity:  Welsh only identity,Frequency,Persons,273
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity: Welsh and British only identity,Frequency,Persons,97
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity: Scottish only identity,Frequency,Persons,583
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity:  Scottish and British only identity,Frequency,Persons,238
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity: Northern Irish only identity,Frequency,Persons,262
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity: Northern Irish and British only identity,Frequency,Persons,99
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity: Cornish only identity,Frequency,Persons,4
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity: Cornish and British only identity,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity: Any other combination of UK identities (UK only),Frequency,Persons,178
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity: Other identity and at least one UK identity,Frequency,Persons,3441
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Guernsey Islander,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Jersey Islander,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Isle of Man (Manx),Frequency,Persons,7
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Channel Islander not otherwise specified,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Irish only identity,Frequency,Persons,766
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Irish and at least one UK identity,Frequency,Persons,136
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: French,Frequency,Persons,138
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: German,Frequency,Persons,243
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Italian,Frequency,Persons,2120
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Portuguese,Frequency,Persons,850
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Spanish (including Canary Islander),Frequency,Persons,1546
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries in March 2001,Frequency,Persons,626
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Lithuanian,Frequency,Persons,265
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Polish,Frequency,Persons,1098
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Romanian,Frequency,Persons,1719
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries,Frequency,Persons,813
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Turkish,Frequency,Persons,36
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Other European,Frequency,Persons,696
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: African: North African,Frequency,Persons,283
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Ghanaian,Frequency,Persons,79
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Nigerian,Frequency,Persons,717
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Other Central and Western African,Frequency,Persons,432
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Kenyan,Frequency,Persons,21
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Somali,Frequency,Persons,41
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: South African,Frequency,Persons,39
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Zimbabwean,Frequency,Persons,148
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Other South and Eastern African,Frequency,Persons,270
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Kurdish,Frequency,Persons,131
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iranian,Frequency,Persons,128
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iraqi,Frequency,Persons,95
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Other Middle Eastern,Frequency,Persons,79
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Chinese,Frequency,Persons,154
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Hong Kong Chinese,Frequency,Persons,27
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Japanese,Frequency,Persons,17
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Other Eastern Asian,Frequency,Persons,9
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Afghan,Frequency,Persons,168
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Bangladeshi,Frequency,Persons,1744
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Indian,Frequency,Persons,267
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Pakistani,Frequency,Persons,3706
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Sri Lankan,Frequency,Persons,42
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Other Southern Asian,Frequency,Persons,7
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Filipino,Frequency,Persons,60
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Malaysian,Frequency,Persons,8
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Singaporean,Frequency,Persons,3
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Other South-East Asian,Frequency,Persons,82
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Central Asian,Frequency,Persons,7
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Asian not otherwise specified,Frequency,Persons,214
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Canadian,Frequency,Persons,11
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: US Citizen,Frequency,Persons,80
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Other North American,Frequency,Persons,4
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Central American,Frequency,Persons,78
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: South American,Frequency,Persons,87
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Jamaican,Frequency,Persons,33
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Other Caribbean,Frequency,Persons,59
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Australian,Frequency,Persons,32
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: New Zealander,Frequency,Persons,9
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Other Australasian,Frequency,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Other Oceanian,Frequency,Persons,3
+E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only: Other,Frequency,Persons,261
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity: British only identity,Frequency,Persons,135768
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity: English only identity,Frequency,Persons,33768
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity: English and British only identity,Frequency,Persons,30571
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity:  Welsh only identity,Frequency,Persons,339
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity: Welsh and British only identity,Frequency,Persons,126
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity: Scottish only identity,Frequency,Persons,614
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity:  Scottish and British only identity,Frequency,Persons,241
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity: Northern Irish only identity,Frequency,Persons,354
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity: Northern Irish and British only identity,Frequency,Persons,90
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity: Cornish only identity,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity: Cornish and British only identity,Frequency,Persons,1
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity: Any other combination of UK identities (UK only),Frequency,Persons,175
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity: Other identity and at least one UK identity,Frequency,Persons,2691
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Guernsey Islander,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Jersey Islander,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Isle of Man (Manx),Frequency,Persons,5
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Channel Islander not otherwise specified,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Irish only identity,Frequency,Persons,1052
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Irish and at least one UK identity,Frequency,Persons,136
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: French,Frequency,Persons,108
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: German,Frequency,Persons,254
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Italian,Frequency,Persons,1286
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Portuguese,Frequency,Persons,1391
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Spanish (including Canary Islander),Frequency,Persons,1060
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries in March 2001,Frequency,Persons,505
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Lithuanian,Frequency,Persons,334
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Polish,Frequency,Persons,2581
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Romanian,Frequency,Persons,694
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries,Frequency,Persons,744
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Turkish,Frequency,Persons,55
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Other European,Frequency,Persons,592
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: African: North African,Frequency,Persons,270
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Ghanaian,Frequency,Persons,57
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Nigerian,Frequency,Persons,803
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Other Central and Western African,Frequency,Persons,518
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Kenyan,Frequency,Persons,28
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Somali,Frequency,Persons,11
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: South African,Frequency,Persons,52
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Zimbabwean,Frequency,Persons,170
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Other South and Eastern African,Frequency,Persons,247
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Kurdish,Frequency,Persons,133
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iranian,Frequency,Persons,230
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iraqi,Frequency,Persons,115
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Other Middle Eastern,Frequency,Persons,165
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Chinese,Frequency,Persons,257
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Hong Kong Chinese,Frequency,Persons,28
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Japanese,Frequency,Persons,9
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Other Eastern Asian,Frequency,Persons,5
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Afghan,Frequency,Persons,128
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Bangladeshi,Frequency,Persons,360
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Indian,Frequency,Persons,226
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Pakistani,Frequency,Persons,3249
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Sri Lankan,Frequency,Persons,49
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Other Southern Asian,Frequency,Persons,21
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Filipino,Frequency,Persons,62
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Malaysian,Frequency,Persons,32
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Singaporean,Frequency,Persons,1
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Other South-East Asian,Frequency,Persons,86
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Central Asian,Frequency,Persons,3
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Asian not otherwise specified,Frequency,Persons,371
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Canadian,Frequency,Persons,16
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: US Citizen,Frequency,Persons,56
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Other North American,Frequency,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Central American,Frequency,Persons,67
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: South American,Frequency,Persons,79
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Jamaican,Frequency,Persons,22
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Other Caribbean,Frequency,Persons,43
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Australian,Frequency,Persons,40
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: New Zealander,Frequency,Persons,15
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Other Australasian,Frequency,Persons,1
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Other Oceanian,Frequency,Persons,14
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only: Other,Frequency,Persons,199
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity: British only identity,Frequency,Persons,147221
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity: English only identity,Frequency,Persons,38599
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity: English and British only identity,Frequency,Persons,40284
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity:  Welsh only identity,Frequency,Persons,960
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity: Welsh and British only identity,Frequency,Persons,418
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity: Scottish only identity,Frequency,Persons,1158
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity:  Scottish and British only identity,Frequency,Persons,384
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity: Northern Irish only identity,Frequency,Persons,706
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity: Northern Irish and British only identity,Frequency,Persons,214
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity: Cornish only identity,Frequency,Persons,8
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity: Cornish and British only identity,Frequency,Persons,2
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity: Any other combination of UK identities (UK only),Frequency,Persons,421
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity: Other identity and at least one UK identity,Frequency,Persons,4567
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Guernsey Islander,Frequency,Persons,0
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Jersey Islander,Frequency,Persons,0
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Isle of Man (Manx),Frequency,Persons,15
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Channel Islander not otherwise specified,Frequency,Persons,0
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Irish only identity,Frequency,Persons,1812
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Irish and at least one UK identity,Frequency,Persons,260
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: French,Frequency,Persons,505
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: German,Frequency,Persons,305
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Italian,Frequency,Persons,1481
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Portuguese,Frequency,Persons,2347
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Spanish (including Canary Islander),Frequency,Persons,1318
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries in March 2001,Frequency,Persons,1483
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Lithuanian,Frequency,Persons,476
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Polish,Frequency,Persons,4578
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Romanian,Frequency,Persons,1354
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries,Frequency,Persons,2528
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Turkish,Frequency,Persons,175
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Other European,Frequency,Persons,1903
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: African: North African,Frequency,Persons,1152
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Ghanaian,Frequency,Persons,214
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Nigerian,Frequency,Persons,1464
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Other Central and Western African,Frequency,Persons,897
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Kenyan,Frequency,Persons,60
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Somali,Frequency,Persons,27
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: South African,Frequency,Persons,163
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Zimbabwean,Frequency,Persons,344
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Other South and Eastern African,Frequency,Persons,1185
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Kurdish,Frequency,Persons,268
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iranian,Frequency,Persons,909
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iraqi,Frequency,Persons,204
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Other Middle Eastern,Frequency,Persons,1316
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Chinese,Frequency,Persons,704
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Hong Kong Chinese,Frequency,Persons,415
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Japanese,Frequency,Persons,31
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Other Eastern Asian,Frequency,Persons,76
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Afghan,Frequency,Persons,206
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Bangladeshi,Frequency,Persons,100
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Indian,Frequency,Persons,1334
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Pakistani,Frequency,Persons,786
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Sri Lankan,Frequency,Persons,131
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Other Southern Asian,Frequency,Persons,37
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Filipino,Frequency,Persons,154
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Malaysian,Frequency,Persons,128
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Singaporean,Frequency,Persons,30
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Other South-East Asian,Frequency,Persons,199
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Central Asian,Frequency,Persons,13
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Asian not otherwise specified,Frequency,Persons,122
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Canadian,Frequency,Persons,108
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: US Citizen,Frequency,Persons,332
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Other North American,Frequency,Persons,7
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Central American,Frequency,Persons,71
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: South American,Frequency,Persons,508
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Jamaican,Frequency,Persons,50
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Other Caribbean,Frequency,Persons,68
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Australian,Frequency,Persons,126
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: New Zealander,Frequency,Persons,47
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Other Australasian,Frequency,Persons,0
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Other Oceanian,Frequency,Persons,9
+E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only: Other,Frequency,Persons,444
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity: British only identity,Frequency,Persons,176297
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity: English only identity,Frequency,Persons,48727
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity: English and British only identity,Frequency,Persons,46405
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity:  Welsh only identity,Frequency,Persons,985
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity: Welsh and British only identity,Frequency,Persons,423
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity: Scottish only identity,Frequency,Persons,1320
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity:  Scottish and British only identity,Frequency,Persons,629
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity: Northern Irish only identity,Frequency,Persons,607
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity: Northern Irish and British only identity,Frequency,Persons,211
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity: Cornish only identity,Frequency,Persons,12
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity: Cornish and British only identity,Frequency,Persons,3
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity: Any other combination of UK identities (UK only),Frequency,Persons,516
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity: Other identity and at least one UK identity,Frequency,Persons,3969
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Guernsey Islander,Frequency,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Jersey Islander,Frequency,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Isle of Man (Manx),Frequency,Persons,15
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Channel Islander not otherwise specified,Frequency,Persons,1
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Irish only identity,Frequency,Persons,2103
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Irish and at least one UK identity,Frequency,Persons,453
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: French,Frequency,Persons,275
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: German,Frequency,Persons,200
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Italian,Frequency,Persons,582
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Portuguese,Frequency,Persons,267
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Spanish (including Canary Islander),Frequency,Persons,352
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries in March 2001,Frequency,Persons,530
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Lithuanian,Frequency,Persons,108
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Polish,Frequency,Persons,1085
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Romanian,Frequency,Persons,393
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries,Frequency,Persons,561
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Turkish,Frequency,Persons,95
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Other European,Frequency,Persons,1625
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: African: North African,Frequency,Persons,177
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Ghanaian,Frequency,Persons,60
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Nigerian,Frequency,Persons,175
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Other Central and Western African,Frequency,Persons,145
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Kenyan,Frequency,Persons,29
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Somali,Frequency,Persons,36
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: South African,Frequency,Persons,88
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Zimbabwean,Frequency,Persons,62
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Other South and Eastern African,Frequency,Persons,127
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Kurdish,Frequency,Persons,85
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iranian,Frequency,Persons,744
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iraqi,Frequency,Persons,97
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Other Middle Eastern,Frequency,Persons,243
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Chinese,Frequency,Persons,295
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Hong Kong Chinese,Frequency,Persons,157
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Japanese,Frequency,Persons,56
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Other Eastern Asian,Frequency,Persons,40
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Afghan,Frequency,Persons,79
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Bangladeshi,Frequency,Persons,47
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Indian,Frequency,Persons,941
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Pakistani,Frequency,Persons,862
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Sri Lankan,Frequency,Persons,72
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Other Southern Asian,Frequency,Persons,15
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Filipino,Frequency,Persons,145
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Malaysian,Frequency,Persons,46
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Singaporean,Frequency,Persons,16
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Other South-East Asian,Frequency,Persons,159
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Central Asian,Frequency,Persons,5
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Asian not otherwise specified,Frequency,Persons,101
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Canadian,Frequency,Persons,76
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: US Citizen,Frequency,Persons,201
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Other North American,Frequency,Persons,2
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Central American,Frequency,Persons,46
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: South American,Frequency,Persons,167
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Jamaican,Frequency,Persons,42
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Other Caribbean,Frequency,Persons,40
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Australian,Frequency,Persons,103
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: New Zealander,Frequency,Persons,51
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Other Australasian,Frequency,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Other Oceanian,Frequency,Persons,2
+E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only: Other,Frequency,Persons,190
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity: British only identity,Frequency,Persons,134231
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity: English only identity,Frequency,Persons,41702
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity: English and British only identity,Frequency,Persons,37168
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity:  Welsh only identity,Frequency,Persons,382
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity: Welsh and British only identity,Frequency,Persons,151
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity: Scottish only identity,Frequency,Persons,671
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity:  Scottish and British only identity,Frequency,Persons,251
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity: Northern Irish only identity,Frequency,Persons,249
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity: Northern Irish and British only identity,Frequency,Persons,84
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity: Cornish only identity,Frequency,Persons,6
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity: Cornish and British only identity,Frequency,Persons,1
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity: Any other combination of UK identities (UK only),Frequency,Persons,276
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity: Other identity and at least one UK identity,Frequency,Persons,2418
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Guernsey Islander,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Jersey Islander,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Isle of Man (Manx),Frequency,Persons,6
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Channel Islander not otherwise specified,Frequency,Persons,1
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Irish only identity,Frequency,Persons,789
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Irish and at least one UK identity,Frequency,Persons,153
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: French,Frequency,Persons,96
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: German,Frequency,Persons,152
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Italian,Frequency,Persons,974
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Portuguese,Frequency,Persons,476
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Spanish (including Canary Islander),Frequency,Persons,728
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries in March 2001,Frequency,Persons,548
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Lithuanian,Frequency,Persons,84
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Polish,Frequency,Persons,2045
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Romanian,Frequency,Persons,405
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries,Frequency,Persons,523
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Turkish,Frequency,Persons,36
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Other European,Frequency,Persons,775
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: African: North African,Frequency,Persons,190
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Ghanaian,Frequency,Persons,150
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Nigerian,Frequency,Persons,376
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Other Central and Western African,Frequency,Persons,415
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Kenyan,Frequency,Persons,19
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Somali,Frequency,Persons,41
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: South African,Frequency,Persons,55
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Zimbabwean,Frequency,Persons,99
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Other South and Eastern African,Frequency,Persons,211
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Kurdish,Frequency,Persons,42
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iranian,Frequency,Persons,140
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iraqi,Frequency,Persons,87
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Other Middle Eastern,Frequency,Persons,180
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Chinese,Frequency,Persons,309
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Hong Kong Chinese,Frequency,Persons,79
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Japanese,Frequency,Persons,11
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Other Eastern Asian,Frequency,Persons,9
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Afghan,Frequency,Persons,88
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Bangladeshi,Frequency,Persons,502
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Indian,Frequency,Persons,428
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Pakistani,Frequency,Persons,1476
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Sri Lankan,Frequency,Persons,30
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Other Southern Asian,Frequency,Persons,49
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Filipino,Frequency,Persons,66
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Malaysian,Frequency,Persons,21
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Singaporean,Frequency,Persons,4
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Other South-East Asian,Frequency,Persons,106
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Central Asian,Frequency,Persons,3
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Asian not otherwise specified,Frequency,Persons,74
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Canadian,Frequency,Persons,18
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: US Citizen,Frequency,Persons,73
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Other North American,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Central American,Frequency,Persons,22
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: South American,Frequency,Persons,93
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Jamaican,Frequency,Persons,23
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Other Caribbean,Frequency,Persons,34
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Australian,Frequency,Persons,40
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: New Zealander,Frequency,Persons,15
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Other Australasian,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Other Oceanian,Frequency,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only: Other,Frequency,Persons,110
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity: British only identity,Frequency,Persons,145913
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity: English only identity,Frequency,Persons,30617
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity: English and British only identity,Frequency,Persons,31396
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity:  Welsh only identity,Frequency,Persons,763
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity: Welsh and British only identity,Frequency,Persons,407
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity: Scottish only identity,Frequency,Persons,1068
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity:  Scottish and British only identity,Frequency,Persons,486
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity: Northern Irish only identity,Frequency,Persons,613
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity: Northern Irish and British only identity,Frequency,Persons,203
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity: Cornish only identity,Frequency,Persons,16
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity: Cornish and British only identity,Frequency,Persons,3
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity: Any other combination of UK identities (UK only),Frequency,Persons,407
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity: Other identity and at least one UK identity,Frequency,Persons,4965
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Guernsey Islander,Frequency,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Jersey Islander,Frequency,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Isle of Man (Manx),Frequency,Persons,25
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Channel Islander not otherwise specified,Frequency,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Irish only identity,Frequency,Persons,2703
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Irish and at least one UK identity,Frequency,Persons,523
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: French,Frequency,Persons,325
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: German,Frequency,Persons,209
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Italian,Frequency,Persons,578
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Portuguese,Frequency,Persons,295
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Spanish (including Canary Islander),Frequency,Persons,546
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries in March 2001,Frequency,Persons,797
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Lithuanian,Frequency,Persons,105
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Polish,Frequency,Persons,1304
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Romanian,Frequency,Persons,325
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries,Frequency,Persons,614
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Turkish,Frequency,Persons,100
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Other European,Frequency,Persons,1595
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: African: North African,Frequency,Persons,437
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Ghanaian,Frequency,Persons,38
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Nigerian,Frequency,Persons,240
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Other Central and Western African,Frequency,Persons,146
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Kenyan,Frequency,Persons,18
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Somali,Frequency,Persons,71
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: South African,Frequency,Persons,112
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Zimbabwean,Frequency,Persons,70
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Other South and Eastern African,Frequency,Persons,135
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Kurdish,Frequency,Persons,50
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iranian,Frequency,Persons,334
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iraqi,Frequency,Persons,68
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Other Middle Eastern,Frequency,Persons,276
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Chinese,Frequency,Persons,811
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Hong Kong Chinese,Frequency,Persons,544
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Japanese,Frequency,Persons,107
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Other Eastern Asian,Frequency,Persons,87
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Afghan,Frequency,Persons,96
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Bangladeshi,Frequency,Persons,40
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Indian,Frequency,Persons,1727
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Pakistani,Frequency,Persons,1052
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Sri Lankan,Frequency,Persons,59
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Other Southern Asian,Frequency,Persons,5
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Filipino,Frequency,Persons,99
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Malaysian,Frequency,Persons,101
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Singaporean,Frequency,Persons,16
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Other South-East Asian,Frequency,Persons,107
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Central Asian,Frequency,Persons,12
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Asian not otherwise specified,Frequency,Persons,76
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Canadian,Frequency,Persons,98
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: US Citizen,Frequency,Persons,239
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Other North American,Frequency,Persons,7
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Central American,Frequency,Persons,53
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: South American,Frequency,Persons,192
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Jamaican,Frequency,Persons,159
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Other Caribbean,Frequency,Persons,52
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Australian,Frequency,Persons,163
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: New Zealander,Frequency,Persons,43
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Other Australasian,Frequency,Persons,4
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Other Oceanian,Frequency,Persons,3
+E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only: Other,Frequency,Persons,199
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity: British only identity,Frequency,Persons,190146
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity: English only identity,Frequency,Persons,57903
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity: English and British only identity,Frequency,Persons,62978
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity:  Welsh only identity,Frequency,Persons,628
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity: Welsh and British only identity,Frequency,Persons,224
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity: Scottish only identity,Frequency,Persons,836
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity:  Scottish and British only identity,Frequency,Persons,328
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity: Northern Irish only identity,Frequency,Persons,317
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity: Northern Irish and British only identity,Frequency,Persons,121
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity: Cornish only identity,Frequency,Persons,17
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity: Cornish and British only identity,Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity: Any other combination of UK identities (UK only),Frequency,Persons,274
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity: Other identity and at least one UK identity,Frequency,Persons,1999
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Guernsey Islander,Frequency,Persons,1
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Jersey Islander,Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Isle of Man (Manx),Frequency,Persons,25
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Channel Islander not otherwise specified,Frequency,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Irish only identity,Frequency,Persons,769
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Irish and at least one UK identity,Frequency,Persons,120
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: French,Frequency,Persons,108
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: German,Frequency,Persons,131
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Italian,Frequency,Persons,368
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Portuguese,Frequency,Persons,502
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Spanish (including Canary Islander),Frequency,Persons,216
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries in March 2001,Frequency,Persons,341
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Lithuanian,Frequency,Persons,657
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: European: EU countries:  Polish,Frequency,Persons,1953
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Romanian,Frequency,Persons,1645
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: European: EU countries: Other member countries,Frequency,Persons,1357
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Turkish,Frequency,Persons,121
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: European: Non-EU countries: Other European,Frequency,Persons,945
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: African: North African,Frequency,Persons,253
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Ghanaian,Frequency,Persons,38
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Nigerian,Frequency,Persons,292
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: African: Central and Western African: Other Central and Western African,Frequency,Persons,237
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Kenyan,Frequency,Persons,7
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Somali,Frequency,Persons,4
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: South African,Frequency,Persons,103
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Zimbabwean,Frequency,Persons,162
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: African: South and Eastern African: Other South and Eastern African,Frequency,Persons,147
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Kurdish,Frequency,Persons,206
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iranian,Frequency,Persons,300
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Iraqi,Frequency,Persons,118
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Middle Eastern: Other Middle Eastern,Frequency,Persons,142
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Chinese,Frequency,Persons,282
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Hong Kong Chinese,Frequency,Persons,55
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Japanese,Frequency,Persons,19
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Eastern Asian: Other Eastern Asian,Frequency,Persons,7
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Afghan,Frequency,Persons,38
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Bangladeshi,Frequency,Persons,23
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Indian,Frequency,Persons,463
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Pakistani,Frequency,Persons,304
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Sri Lankan,Frequency,Persons,107
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Southern Asian: Other Southern Asian,Frequency,Persons,7
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Filipino,Frequency,Persons,94
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Malaysian,Frequency,Persons,30
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Singaporean,Frequency,Persons,4
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: South-East Asian: Other South-East Asian,Frequency,Persons,176
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Central Asian,Frequency,Persons,4
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Middle Eastern and Asian: Asian not otherwise specified,Frequency,Persons,72
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Canadian,Frequency,Persons,39
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: US Citizen,Frequency,Persons,93
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: North American: Other North American,Frequency,Persons,6
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Central American,Frequency,Persons,37
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: South American,Frequency,Persons,127
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Jamaican,Frequency,Persons,11
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: American and Caribbean: Caribbean: Other Caribbean,Frequency,Persons,36
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Australian,Frequency,Persons,63
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: New Zealander,Frequency,Persons,30
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Australasian: Other Australasian,Frequency,Persons,1
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Antarctican and Oceanian: Other Oceanian,Frequency,Persons,10
+E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only: Other,Frequency,Persons,152

@@ -1,0 +1,51 @@
+area_code,area_name,geography,period,indicator,household_language,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,One person household,Frequency,Households,36521
+E08000001,Bolton,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,All household members have the same main language,Frequency,Households,73443
+E08000001,Bolton,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,"Main language differs between generations, but not within partnerships",Frequency,Households,3104
+E08000001,Bolton,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Main language differs within partnerships,Frequency,Households,3148
+E08000001,Bolton,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Any other combination of multiple main languages,Frequency,Households,2574
+E08000002,Bury,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,One person household,Frequency,Households,24880
+E08000002,Bury,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,All household members have the same main language,Frequency,Households,51985
+E08000002,Bury,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,"Main language differs between generations, but not within partnerships",Frequency,Households,1198
+E08000002,Bury,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Main language differs within partnerships,Frequency,Households,1540
+E08000002,Bury,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Any other combination of multiple main languages,Frequency,Households,1092
+E08000003,Manchester,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,One person household,Frequency,Households,71577
+E08000003,Manchester,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,All household members have the same main language,Frequency,Households,117070
+E08000003,Manchester,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,"Main language differs between generations, but not within partnerships",Frequency,Households,9371
+E08000003,Manchester,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Main language differs within partnerships,Frequency,Households,8134
+E08000003,Manchester,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Any other combination of multiple main languages,Frequency,Households,8581
+E08000004,Oldham,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,One person household,Frequency,Households,27396
+E08000004,Oldham,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,All household members have the same main language,Frequency,Households,57033
+E08000004,Oldham,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,"Main language differs between generations, but not within partnerships",Frequency,Households,3000
+E08000004,Oldham,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Main language differs within partnerships,Frequency,Households,3084
+E08000004,Oldham,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Any other combination of multiple main languages,Frequency,Households,2626
+E08000005,Rochdale,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,One person household,Frequency,Households,27641
+E08000005,Rochdale,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,All household members have the same main language,Frequency,Households,55663
+E08000005,Rochdale,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,"Main language differs between generations, but not within partnerships",Frequency,Households,2410
+E08000005,Rochdale,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Main language differs within partnerships,Frequency,Households,2651
+E08000005,Rochdale,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Any other combination of multiple main languages,Frequency,Households,1859
+E08000006,Salford,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,One person household,Frequency,Households,39141
+E08000006,Salford,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,All household members have the same main language,Frequency,Households,69132
+E08000006,Salford,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,"Main language differs between generations, but not within partnerships",Frequency,Households,2003
+E08000006,Salford,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Main language differs within partnerships,Frequency,Households,2472
+E08000006,Salford,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Any other combination of multiple main languages,Frequency,Households,2369
+E08000007,Stockport,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,One person household,Frequency,Households,39439
+E08000007,Stockport,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,All household members have the same main language,Frequency,Households,82962
+E08000007,Stockport,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,"Main language differs between generations, but not within partnerships",Frequency,Households,1355
+E08000007,Stockport,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Main language differs within partnerships,Frequency,Households,1890
+E08000007,Stockport,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Any other combination of multiple main languages,Frequency,Households,1002
+E08000008,Tameside,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,One person household,Frequency,Households,32374
+E08000008,Tameside,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,All household members have the same main language,Frequency,Households,63179
+E08000008,Tameside,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,"Main language differs between generations, but not within partnerships",Frequency,Households,1499
+E08000008,Tameside,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Main language differs within partnerships,Frequency,Households,1464
+E08000008,Tameside,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Any other combination of multiple main languages,Frequency,Households,1010
+E08000009,Trafford,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,One person household,Frequency,Households,28369
+E08000009,Trafford,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,All household members have the same main language,Frequency,Households,62314
+E08000009,Trafford,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,"Main language differs between generations, but not within partnerships",Frequency,Households,1962
+E08000009,Trafford,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Main language differs within partnerships,Frequency,Households,2339
+E08000009,Trafford,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Any other combination of multiple main languages,Frequency,Households,1285
+E08000010,Wigan,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,One person household,Frequency,Households,43950
+E08000010,Wigan,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,All household members have the same main language,Frequency,Households,96319
+E08000010,Wigan,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,"Main language differs between generations, but not within partnerships",Frequency,Households,918
+E08000010,Wigan,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Main language differs within partnerships,Frequency,Households,1256
+E08000010,Wigan,Local authority,2021-03-21,Combination of household members speaking the same or different main languages,Any other combination of multiple main languages,Frequency,Households,662
