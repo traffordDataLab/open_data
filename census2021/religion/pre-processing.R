@@ -82,7 +82,7 @@ df_la_religion_simple <- read_csv("religion_simple_la.csv") %>%
          religion != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "Religious affiliation",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, religion, measure, unit, value) %>%
@@ -99,7 +99,7 @@ df_msoa_religion_simple <- read_csv("religion_simple_msoa.csv") %>%
   filter(religion != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "Religious affiliation",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, religion, measure, unit, value) %>%
@@ -116,7 +116,7 @@ df_lsoa_religion_simple <- read_csv("religion_simple_lsoa.csv") %>%
   filter(religion != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "Religious affiliation",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, religion, measure, unit, value) %>%
@@ -133,7 +133,7 @@ df_oa_religion_simple <- read_csv("religion_simple_oa.csv") %>%
   filter(religion != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Output Area",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "Religious affiliation",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, religion, measure, unit, value) %>%
@@ -153,7 +153,7 @@ df_la_religion_detailed <- read_csv("religion_detailed_la.csv") %>%
          religion != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "Religious affiliation",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, religion, measure, unit, value) %>%
@@ -170,7 +170,7 @@ df_msoa_religion_detailed <- read_csv("religion_detailed_msoa.csv") %>%
   filter(religion != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "Religious affiliation",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, religion, measure, unit, value) %>%
@@ -191,7 +191,7 @@ df_la_religion_diversity_household <- read_csv("household_religion_diversity_la.
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Classifies households by whether members identify with the same religion, no religion, did not answer the question, or a combination of these options",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, household_religion, measure, unit, value) %>%
   write_csv("2021_household_religion_diversity_la_gm.csv")
@@ -208,7 +208,7 @@ df_msoa_religion_diversity_household <- read_csv("household_religion_diversity_m
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Classifies households by whether members identify with the same religion, no religion, did not answer the question, or a combination of these options",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, household_religion, measure, unit, value) %>%
   write_csv("2021_household_religion_diversity_msoa_trafford.csv")
@@ -225,7 +225,7 @@ df_lsoa_religion_diversity_household <- read_csv("household_religion_diversity_l
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Classifies households by whether members identify with the same religion, no religion, did not answer the question, or a combination of these options",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, household_religion, measure, unit, value) %>%
   write_csv("2021_household_religion_diversity_lsoa_trafford.csv")
@@ -242,7 +242,7 @@ df_oa_religion_diversity_household <- read_csv("household_religion_diversity_oa.
   mutate(geography = "Output Area",
          period = "2021-03-21",
          indicator = "Classifies households by whether members identify with the same religion, no religion, did not answer the question, or a combination of these options",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, household_religion, measure, unit, value) %>%
   write_csv("2021_household_religion_diversity_oa_trafford.csv")

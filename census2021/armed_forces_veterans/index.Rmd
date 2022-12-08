@@ -1,5 +1,5 @@
 ---
-pagetitle: "UK armed forces veterans (census 2021)"
+pagetitle: "Census 2021: UK armed forces veterans"
 lang: "en-GB"
 output:
   html_document:

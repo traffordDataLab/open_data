@@ -83,8 +83,8 @@ df_pop_by_sex_wide <- read_xlsx(tmp, sheet = "P01", skip = 6) %>%
          Persons = `All persons`) %>%
   filter(area_code %in% area_codes)
 
-# Now turn the wide format into tidy data  
-df_pop_by_sex <- df_pop_by_sex_wide %>%  
+# Now turn the wide format into tidy data
+df_pop_by_sex <- df_pop_by_sex_wide %>%
   pivot_longer(c(-area_code, -area_name),
                names_to = "sex",
                values_to = "value") %>%
@@ -167,7 +167,7 @@ write_csv(df_pop_by_sex_and_age_group_wide, "2021_population_by_sex_and_age_grou
 # Create the extra variables for the tidy data from our schema
 df_pop_by_sex_and_age_group <- df_pop_by_sex_and_age_group %>%
   mutate(indicator = "Usual resident population by sex and age group",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Usual residents") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, sex, age_group, value)
 
@@ -191,7 +191,7 @@ df_pop_density <- read_xlsx(tmp, sheet = "P04", skip = 6) %>%
   mutate(period = "2021-03-21",
          geography = "Local authority",
          indicator = "Usual resident population density",
-         measure = "Frequency",
+         measure = "Rate",
          unit = "Number of usual residents per square kilometre") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
@@ -209,10 +209,10 @@ df_households <- read_xlsx(tmp, sheet = "H01", skip = 6) %>%
   mutate(period = "2021-03-21",
          geography = "Local authority",
          indicator = "Number of households with at least one usual resident",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
-  
+
 write_csv(df_households, "2021_households_la_gm.csv")
 
 

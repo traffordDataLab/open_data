@@ -1,61 +1,61 @@
 area_code,area_name,geography,period,indicator,proficiency,measure,unit,value
-E08000001,Bolton,Local authority,2021-03-21,Proficiency in English,Does not apply,Frequency,Persons,10879
-E08000001,Bolton,Local authority,2021-03-21,Proficiency in English,Main language is English,Frequency,Persons,253869
-E08000001,Bolton,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Frequency,Persons,9764
-E08000001,Bolton,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Frequency,Persons,12303
-E08000001,Bolton,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Frequency,Persons,7590
-E08000001,Bolton,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Frequency,Persons,1558
-E08000002,Bury,Local authority,2021-03-21,Proficiency in English,Does not apply,Frequency,Persons,6639
-E08000002,Bury,Local authority,2021-03-21,Proficiency in English,Main language is English,Frequency,Persons,174961
-E08000002,Bury,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Frequency,Persons,4485
-E08000002,Bury,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Frequency,Persons,4590
-E08000002,Bury,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Frequency,Persons,2631
-E08000002,Bury,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Frequency,Persons,545
-E08000003,Manchester,Local authority,2021-03-21,Proficiency in English,Does not apply,Frequency,Persons,20457
-E08000003,Manchester,Local authority,2021-03-21,Proficiency in English,Main language is English,Frequency,Persons,434289
-E08000003,Manchester,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Frequency,Persons,40168
-E08000003,Manchester,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Frequency,Persons,35592
-E08000003,Manchester,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Frequency,Persons,17854
-E08000003,Manchester,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Frequency,Persons,3578
-E08000004,Oldham,Local authority,2021-03-21,Proficiency in English,Does not apply,Frequency,Persons,9358
-E08000004,Oldham,Local authority,2021-03-21,Proficiency in English,Main language is English,Frequency,Persons,207898
-E08000004,Oldham,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Frequency,Persons,6692
-E08000004,Oldham,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Frequency,Persons,9247
-E08000004,Oldham,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Frequency,Persons,7246
-E08000004,Oldham,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Frequency,Persons,1647
-E08000005,Rochdale,Local authority,2021-03-21,Proficiency in English,Does not apply,Frequency,Persons,8611
-E08000005,Rochdale,Local authority,2021-03-21,Proficiency in English,Main language is English,Frequency,Persons,194800
-E08000005,Rochdale,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Frequency,Persons,6225
-E08000005,Rochdale,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Frequency,Persons,7872
-E08000005,Rochdale,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Frequency,Persons,5278
-E08000005,Rochdale,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Frequency,Persons,987
-E08000006,Salford,Local authority,2021-03-21,Proficiency in English,Does not apply,Frequency,Persons,10553
-E08000006,Salford,Local authority,2021-03-21,Proficiency in English,Main language is English,Frequency,Persons,229864
-E08000006,Salford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Frequency,Persons,12290
-E08000006,Salford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Frequency,Persons,10804
-E08000006,Salford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Frequency,Persons,5532
-E08000006,Salford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Frequency,Persons,879
-E08000007,Stockport,Local authority,2021-03-21,Proficiency in English,Does not apply,Frequency,Persons,9733
-E08000007,Stockport,Local authority,2021-03-21,Proficiency in English,Main language is English,Frequency,Persons,272788
-E08000007,Stockport,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Frequency,Persons,5746
-E08000007,Stockport,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Frequency,Persons,4107
-E08000007,Stockport,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Frequency,Persons,2010
-E08000007,Stockport,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Frequency,Persons,389
-E08000008,Tameside,Local authority,2021-03-21,Proficiency in English,Does not apply,Frequency,Persons,8029
-E08000008,Tameside,Local authority,2021-03-21,Proficiency in English,Main language is English,Frequency,Persons,209879
-E08000008,Tameside,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Frequency,Persons,4738
-E08000008,Tameside,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Frequency,Persons,4819
-E08000008,Tameside,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Frequency,Persons,2991
-E08000008,Tameside,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Frequency,Persons,615
-E08000009,Trafford,Local authority,2021-03-21,Proficiency in English,Does not apply,Frequency,Persons,7669
-E08000009,Trafford,Local authority,2021-03-21,Proficiency in English,Main language is English,Frequency,Persons,211103
-E08000009,Trafford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Frequency,Persons,8555
-E08000009,Trafford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Frequency,Persons,5017
-E08000009,Trafford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Frequency,Persons,2349
-E08000009,Trafford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Frequency,Persons,359
-E08000010,Wigan,Local authority,2021-03-21,Proficiency in English,Does not apply,Frequency,Persons,10229
-E08000010,Wigan,Local authority,2021-03-21,Proficiency in English,Main language is English,Frequency,Persons,307912
-E08000010,Wigan,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Frequency,Persons,4365
-E08000010,Wigan,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Frequency,Persons,4450
-E08000010,Wigan,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Frequency,Persons,2067
-E08000010,Wigan,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Frequency,Persons,307
+E08000001,Bolton,Local authority,2021-03-21,Proficiency in English,Does not apply,Count,Persons,10879
+E08000001,Bolton,Local authority,2021-03-21,Proficiency in English,Main language is English,Count,Persons,253869
+E08000001,Bolton,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,9764
+E08000001,Bolton,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,12303
+E08000001,Bolton,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,7590
+E08000001,Bolton,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,1558
+E08000002,Bury,Local authority,2021-03-21,Proficiency in English,Does not apply,Count,Persons,6639
+E08000002,Bury,Local authority,2021-03-21,Proficiency in English,Main language is English,Count,Persons,174961
+E08000002,Bury,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,4485
+E08000002,Bury,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,4590
+E08000002,Bury,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,2631
+E08000002,Bury,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,545
+E08000003,Manchester,Local authority,2021-03-21,Proficiency in English,Does not apply,Count,Persons,20457
+E08000003,Manchester,Local authority,2021-03-21,Proficiency in English,Main language is English,Count,Persons,434289
+E08000003,Manchester,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,40168
+E08000003,Manchester,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,35592
+E08000003,Manchester,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,17854
+E08000003,Manchester,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,3578
+E08000004,Oldham,Local authority,2021-03-21,Proficiency in English,Does not apply,Count,Persons,9358
+E08000004,Oldham,Local authority,2021-03-21,Proficiency in English,Main language is English,Count,Persons,207898
+E08000004,Oldham,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,6692
+E08000004,Oldham,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,9247
+E08000004,Oldham,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,7246
+E08000004,Oldham,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,1647
+E08000005,Rochdale,Local authority,2021-03-21,Proficiency in English,Does not apply,Count,Persons,8611
+E08000005,Rochdale,Local authority,2021-03-21,Proficiency in English,Main language is English,Count,Persons,194800
+E08000005,Rochdale,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,6225
+E08000005,Rochdale,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,7872
+E08000005,Rochdale,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,5278
+E08000005,Rochdale,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,987
+E08000006,Salford,Local authority,2021-03-21,Proficiency in English,Does not apply,Count,Persons,10553
+E08000006,Salford,Local authority,2021-03-21,Proficiency in English,Main language is English,Count,Persons,229864
+E08000006,Salford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,12290
+E08000006,Salford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,10804
+E08000006,Salford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,5532
+E08000006,Salford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,879
+E08000007,Stockport,Local authority,2021-03-21,Proficiency in English,Does not apply,Count,Persons,9733
+E08000007,Stockport,Local authority,2021-03-21,Proficiency in English,Main language is English,Count,Persons,272788
+E08000007,Stockport,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,5746
+E08000007,Stockport,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,4107
+E08000007,Stockport,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,2010
+E08000007,Stockport,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,389
+E08000008,Tameside,Local authority,2021-03-21,Proficiency in English,Does not apply,Count,Persons,8029
+E08000008,Tameside,Local authority,2021-03-21,Proficiency in English,Main language is English,Count,Persons,209879
+E08000008,Tameside,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,4738
+E08000008,Tameside,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,4819
+E08000008,Tameside,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,2991
+E08000008,Tameside,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,615
+E08000009,Trafford,Local authority,2021-03-21,Proficiency in English,Does not apply,Count,Persons,7669
+E08000009,Trafford,Local authority,2021-03-21,Proficiency in English,Main language is English,Count,Persons,211103
+E08000009,Trafford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,8555
+E08000009,Trafford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,5017
+E08000009,Trafford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,2349
+E08000009,Trafford,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,359
+E08000010,Wigan,Local authority,2021-03-21,Proficiency in English,Does not apply,Count,Persons,10229
+E08000010,Wigan,Local authority,2021-03-21,Proficiency in English,Main language is English,Count,Persons,307912
+E08000010,Wigan,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,4365
+E08000010,Wigan,Local authority,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,4450
+E08000010,Wigan,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,2067
+E08000010,Wigan,Local authority,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,307

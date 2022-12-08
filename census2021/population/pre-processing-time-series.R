@@ -125,7 +125,7 @@ df_pop_time_series_by_age_all <- read_xlsx(tmp, sheet = "CT1215 - Age Time serie
                               TRUE ~ paste0("Aged ", age_group, " years"))) %>%
   select(period, area_code, area_name, geography, sex, age_group, value) %>%
   arrange(area_name, period)
-  
+
 # Cleanup the downloaded time-series population data by 5-year age bands
 unlink(tmp)
 
@@ -182,7 +182,7 @@ unlink(tmp)
 
 
 # Complete the time-series data by sex and age for the last 5 censuses ---------------------------
-# Bring in Census 2021 data prepared by another script 
+# Bring in Census 2021 data prepared by another script
 # Convert 85-89 and 90+ to "85 and over" to match the older time-series data
 df_pop_by_sex_and_age_2021 <- read_csv("2021_population_by_sex_and_age_group_wide_la_gm.csv") %>%
   mutate(aged_85_years_and_over = aged_85_to_89_years + aged_90_years_and_over) %>%
@@ -198,11 +198,11 @@ df_pop_by_time_series_by_sex_and_age <- bind_rows(df_pop_time_series_by_sex,    
                                                   df_pop_by_sex_and_age_2021) %>%    # all the above for 2021
   arrange(area_name, period, sex) %>%
   mutate(indicator = "Usual resident population by sex and age group",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Usual residents") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, sex, age_group, value)
 
-# Create the dataset for Greater Manchester first  
+# Create the dataset for Greater Manchester first
 write_csv(df_pop_by_time_series_by_sex_and_age, "1981-2021_population_by_sex_and_age_group_la_gm.csv")
 
 # Then create the same dataset just for Trafford
@@ -234,13 +234,13 @@ df_pop_density_time_series <- read_xlsx(tmp, sheet = "CT1217 Population density"
                             TRUE ~ "2011-03-27")),
          geography = "Local authority",
          indicator = "Usual resident population density",
-         measure = "Frequency",
+         measure = "Rate",
          unit = "Number of usual residents per square kilometre") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
   # Add in the latest density figures for 2021 and then sort the data into the correct order
   bind_rows(df_pop_density_2021) %>%
   arrange(area_name, period)
-  
+
 write_csv(df_pop_density_time_series, "1981-2021_population_density_la_gm.csv")
 
 # Cleanup the downloaded time-series density data

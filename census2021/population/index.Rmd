@@ -1,5 +1,5 @@
 ---
-pagetitle: "2021 population estimates"
+pagetitle: "Census 2021: Population estimates"
 lang: "en-GB"
 output:
   html_document:
@@ -9,7 +9,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
-library(tidyverse) ; library(htmltools) ; library(DT) 
+library(tidyverse) ; library(htmltools) ; library(DT)
 
 df <- read_csv("2021_population_by_sex_and_age_group_wide_la_gm.csv") %>%
     rename(`0-15` = aged_0_to_15,
@@ -21,8 +21,8 @@ df <- read_csv("2021_population_by_sex_and_age_group_wide_la_gm.csv") %>%
 <span id="a11yNav"><a href="#downloads" class="themeBlockDark">Skip to downloads</a></span>
 <a href="https://www.trafforddatalab.io/data.html"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" aria-label="Return to Trafford Data Lab data page" width="100" class="traffordDataLabLogo"/></a>
 
-<h1>Census 2021 population estimates</h1>
-*Estimates of the usual resident population in Trafford and Greater Manchester during 2021.*
+<h1>Census 2021: Population estimates</h1>
+*Census 2021 estimates of the usual resident population in Trafford and Greater Manchester.*
 
 </header>
 
@@ -56,9 +56,9 @@ df <- read_csv("2021_population_by_sex_and_age_group_wide_la_gm.csv") %>%
 Sort, filter and export a selection of the data using the table.
 
 ```{r preview}
-datatable(df, 
+datatable(df,
           class = 'cell-border stripe',
-          rownames = FALSE, 
+          rownames = FALSE,
           extensions = c('Scroller', 'Buttons', 'KeyTable'),
           options = list(
             keys = TRUE,
@@ -66,7 +66,7 @@ datatable(df,
             searchHighlight = TRUE,
             dom = 'ftB',
             buttons = list(
-              list(extend = "csv", 
+              list(extend = "csv",
                    text = "Download selection")),
             deferRender = TRUE,
             scrollX = TRUE,
@@ -123,14 +123,14 @@ The R scripts used to process the data for the [2021 population and household da
 <script>
   // Fixes to dynamic elements created by DataTables to improve accessibility
   var removeElFn = setInterval(removeElement, 1000);
-  
+
   function removeElement() {
     try {
       var el = document.getElementsByClassName("dataTables_scrollBody")[0].childNodes[0];
       el.removeChild(el.childNodes[0]); // Remove unwanted hidden text element from table - causing accessibility alert as it has no label
-      
+
       el.parentNode.setAttribute('tabindex', '0');  // add attribute allowing keyboard users to access scrollable area
-      
+
       clearInterval(removeElFn);  // cancel any further calls to this function as we have completed all actions
     }
     catch(e) {

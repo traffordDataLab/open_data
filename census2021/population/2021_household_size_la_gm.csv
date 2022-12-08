@@ -1,81 +1,81 @@
 area_code,area_name,geography,period,indicator,measure,unit,value
-E08000001,Bolton,Local authority,2021-03-21,1 person in household,Frequency,Households,36521
-E08000001,Bolton,Local authority,2021-03-21,2 people in household,Frequency,Households,36766
-E08000001,Bolton,Local authority,2021-03-21,3 people in household,Frequency,Households,19218
-E08000001,Bolton,Local authority,2021-03-21,4 people in household,Frequency,Households,15001
-E08000001,Bolton,Local authority,2021-03-21,5 people in household,Frequency,Households,6336
-E08000001,Bolton,Local authority,2021-03-21,6 people in household,Frequency,Households,2696
-E08000001,Bolton,Local authority,2021-03-21,7 people in household,Frequency,Households,1169
-E08000001,Bolton,Local authority,2021-03-21,8 or more people in household,Frequency,Households,1084
-E08000002,Bury,Local authority,2021-03-21,1 person in household,Frequency,Households,24880
-E08000002,Bury,Local authority,2021-03-21,2 people in household,Frequency,Households,26584
-E08000002,Bury,Local authority,2021-03-21,3 people in household,Frequency,Households,13122
-E08000002,Bury,Local authority,2021-03-21,4 people in household,Frequency,Households,10148
-E08000002,Bury,Local authority,2021-03-21,5 people in household,Frequency,Households,3621
-E08000002,Bury,Local authority,2021-03-21,6 people in household,Frequency,Households,1356
-E08000002,Bury,Local authority,2021-03-21,7 people in household,Frequency,Households,555
-E08000002,Bury,Local authority,2021-03-21,8 or more people in household,Frequency,Households,429
-E08000003,Manchester,Local authority,2021-03-21,1 person in household,Frequency,Households,71577
-E08000003,Manchester,Local authority,2021-03-21,2 people in household,Frequency,Households,62664
-E08000003,Manchester,Local authority,2021-03-21,3 people in household,Frequency,Households,32180
-E08000003,Manchester,Local authority,2021-03-21,4 people in household,Frequency,Households,24487
-E08000003,Manchester,Local authority,2021-03-21,5 people in household,Frequency,Households,12817
-E08000003,Manchester,Local authority,2021-03-21,6 people in household,Frequency,Households,6275
-E08000003,Manchester,Local authority,2021-03-21,7 people in household,Frequency,Households,2700
-E08000003,Manchester,Local authority,2021-03-21,8 or more people in household,Frequency,Households,2029
-E08000004,Oldham,Local authority,2021-03-21,1 person in household,Frequency,Households,27396
-E08000004,Oldham,Local authority,2021-03-21,2 people in household,Frequency,Households,28070
-E08000004,Oldham,Local authority,2021-03-21,3 people in household,Frequency,Households,15256
-E08000004,Oldham,Local authority,2021-03-21,4 people in household,Frequency,Households,11738
-E08000004,Oldham,Local authority,2021-03-21,5 people in household,Frequency,Households,5397
-E08000004,Oldham,Local authority,2021-03-21,6 people in household,Frequency,Households,2743
-E08000004,Oldham,Local authority,2021-03-21,7 people in household,Frequency,Households,1261
-E08000004,Oldham,Local authority,2021-03-21,8 or more people in household,Frequency,Households,1278
-E08000005,Rochdale,Local authority,2021-03-21,1 person in household,Frequency,Households,27641
-E08000005,Rochdale,Local authority,2021-03-21,2 people in household,Frequency,Households,27854
-E08000005,Rochdale,Local authority,2021-03-21,3 people in household,Frequency,Households,14951
-E08000005,Rochdale,Local authority,2021-03-21,4 people in household,Frequency,Households,11210
-E08000005,Rochdale,Local authority,2021-03-21,5 people in household,Frequency,Households,5003
-E08000005,Rochdale,Local authority,2021-03-21,6 people in household,Frequency,Households,2146
-E08000005,Rochdale,Local authority,2021-03-21,7 people in household,Frequency,Households,849
-E08000005,Rochdale,Local authority,2021-03-21,8 or more people in household,Frequency,Households,569
-E08000006,Salford,Local authority,2021-03-21,1 person in household,Frequency,Households,39141
-E08000006,Salford,Local authority,2021-03-21,2 people in household,Frequency,Households,37670
-E08000006,Salford,Local authority,2021-03-21,3 people in household,Frequency,Households,18097
-E08000006,Salford,Local authority,2021-03-21,4 people in household,Frequency,Households,12359
-E08000006,Salford,Local authority,2021-03-21,5 people in household,Frequency,Households,4608
-E08000006,Salford,Local authority,2021-03-21,6 people in household,Frequency,Households,1794
-E08000006,Salford,Local authority,2021-03-21,7 people in household,Frequency,Households,664
-E08000006,Salford,Local authority,2021-03-21,8 or more people in household,Frequency,Households,785
-E08000007,Stockport,Local authority,2021-03-21,1 person in household,Frequency,Households,39439
-E08000007,Stockport,Local authority,2021-03-21,2 people in household,Frequency,Households,42565
-E08000007,Stockport,Local authority,2021-03-21,3 people in household,Frequency,Households,20627
-E08000007,Stockport,Local authority,2021-03-21,4 people in household,Frequency,Households,16999
-E08000007,Stockport,Local authority,2021-03-21,5 people in household,Frequency,Households,5049
-E08000007,Stockport,Local authority,2021-03-21,6 people in household,Frequency,Households,1328
-E08000007,Stockport,Local authority,2021-03-21,7 people in household,Frequency,Households,399
-E08000007,Stockport,Local authority,2021-03-21,8 or more people in household,Frequency,Households,239
-E08000008,Tameside,Local authority,2021-03-21,1 person in household,Frequency,Households,32374
-E08000008,Tameside,Local authority,2021-03-21,2 people in household,Frequency,Households,32399
-E08000008,Tameside,Local authority,2021-03-21,3 people in household,Frequency,Households,16536
-E08000008,Tameside,Local authority,2021-03-21,4 people in household,Frequency,Households,11845
-E08000008,Tameside,Local authority,2021-03-21,5 people in household,Frequency,Households,4169
-E08000008,Tameside,Local authority,2021-03-21,6 people in household,Frequency,Households,1370
-E08000008,Tameside,Local authority,2021-03-21,7 people in household,Frequency,Households,488
-E08000008,Tameside,Local authority,2021-03-21,8 or more people in household,Frequency,Households,346
-E08000009,Trafford,Local authority,2021-03-21,1 person in household,Frequency,Households,28369
-E08000009,Trafford,Local authority,2021-03-21,2 people in household,Frequency,Households,30169
-E08000009,Trafford,Local authority,2021-03-21,3 people in household,Frequency,Households,16038
-E08000009,Trafford,Local authority,2021-03-21,4 people in household,Frequency,Households,14824
-E08000009,Trafford,Local authority,2021-03-21,5 people in household,Frequency,Households,4766
-E08000009,Trafford,Local authority,2021-03-21,6 people in household,Frequency,Households,1448
-E08000009,Trafford,Local authority,2021-03-21,7 people in household,Frequency,Households,410
-E08000009,Trafford,Local authority,2021-03-21,8 or more people in household,Frequency,Households,245
-E08000010,Wigan,Local authority,2021-03-21,1 person in household,Frequency,Households,43950
-E08000010,Wigan,Local authority,2021-03-21,2 people in household,Frequency,Households,49686
-E08000010,Wigan,Local authority,2021-03-21,3 people in household,Frequency,Households,24370
-E08000010,Wigan,Local authority,2021-03-21,4 people in household,Frequency,Households,17771
-E08000010,Wigan,Local authority,2021-03-21,5 people in household,Frequency,Households,5425
-E08000010,Wigan,Local authority,2021-03-21,6 people in household,Frequency,Households,1366
-E08000010,Wigan,Local authority,2021-03-21,7 people in household,Frequency,Households,365
-E08000010,Wigan,Local authority,2021-03-21,8 or more people in household,Frequency,Households,172
+E08000001,Bolton,Local authority,2021-03-21,1 person in household,Count,Households,36521
+E08000001,Bolton,Local authority,2021-03-21,2 people in household,Count,Households,36766
+E08000001,Bolton,Local authority,2021-03-21,3 people in household,Count,Households,19218
+E08000001,Bolton,Local authority,2021-03-21,4 people in household,Count,Households,15001
+E08000001,Bolton,Local authority,2021-03-21,5 people in household,Count,Households,6336
+E08000001,Bolton,Local authority,2021-03-21,6 people in household,Count,Households,2696
+E08000001,Bolton,Local authority,2021-03-21,7 people in household,Count,Households,1169
+E08000001,Bolton,Local authority,2021-03-21,8 or more people in household,Count,Households,1084
+E08000002,Bury,Local authority,2021-03-21,1 person in household,Count,Households,24880
+E08000002,Bury,Local authority,2021-03-21,2 people in household,Count,Households,26584
+E08000002,Bury,Local authority,2021-03-21,3 people in household,Count,Households,13122
+E08000002,Bury,Local authority,2021-03-21,4 people in household,Count,Households,10148
+E08000002,Bury,Local authority,2021-03-21,5 people in household,Count,Households,3621
+E08000002,Bury,Local authority,2021-03-21,6 people in household,Count,Households,1356
+E08000002,Bury,Local authority,2021-03-21,7 people in household,Count,Households,555
+E08000002,Bury,Local authority,2021-03-21,8 or more people in household,Count,Households,429
+E08000003,Manchester,Local authority,2021-03-21,1 person in household,Count,Households,71577
+E08000003,Manchester,Local authority,2021-03-21,2 people in household,Count,Households,62664
+E08000003,Manchester,Local authority,2021-03-21,3 people in household,Count,Households,32180
+E08000003,Manchester,Local authority,2021-03-21,4 people in household,Count,Households,24487
+E08000003,Manchester,Local authority,2021-03-21,5 people in household,Count,Households,12817
+E08000003,Manchester,Local authority,2021-03-21,6 people in household,Count,Households,6275
+E08000003,Manchester,Local authority,2021-03-21,7 people in household,Count,Households,2700
+E08000003,Manchester,Local authority,2021-03-21,8 or more people in household,Count,Households,2029
+E08000004,Oldham,Local authority,2021-03-21,1 person in household,Count,Households,27396
+E08000004,Oldham,Local authority,2021-03-21,2 people in household,Count,Households,28070
+E08000004,Oldham,Local authority,2021-03-21,3 people in household,Count,Households,15256
+E08000004,Oldham,Local authority,2021-03-21,4 people in household,Count,Households,11738
+E08000004,Oldham,Local authority,2021-03-21,5 people in household,Count,Households,5397
+E08000004,Oldham,Local authority,2021-03-21,6 people in household,Count,Households,2743
+E08000004,Oldham,Local authority,2021-03-21,7 people in household,Count,Households,1261
+E08000004,Oldham,Local authority,2021-03-21,8 or more people in household,Count,Households,1278
+E08000005,Rochdale,Local authority,2021-03-21,1 person in household,Count,Households,27641
+E08000005,Rochdale,Local authority,2021-03-21,2 people in household,Count,Households,27854
+E08000005,Rochdale,Local authority,2021-03-21,3 people in household,Count,Households,14951
+E08000005,Rochdale,Local authority,2021-03-21,4 people in household,Count,Households,11210
+E08000005,Rochdale,Local authority,2021-03-21,5 people in household,Count,Households,5003
+E08000005,Rochdale,Local authority,2021-03-21,6 people in household,Count,Households,2146
+E08000005,Rochdale,Local authority,2021-03-21,7 people in household,Count,Households,849
+E08000005,Rochdale,Local authority,2021-03-21,8 or more people in household,Count,Households,569
+E08000006,Salford,Local authority,2021-03-21,1 person in household,Count,Households,39141
+E08000006,Salford,Local authority,2021-03-21,2 people in household,Count,Households,37670
+E08000006,Salford,Local authority,2021-03-21,3 people in household,Count,Households,18097
+E08000006,Salford,Local authority,2021-03-21,4 people in household,Count,Households,12359
+E08000006,Salford,Local authority,2021-03-21,5 people in household,Count,Households,4608
+E08000006,Salford,Local authority,2021-03-21,6 people in household,Count,Households,1794
+E08000006,Salford,Local authority,2021-03-21,7 people in household,Count,Households,664
+E08000006,Salford,Local authority,2021-03-21,8 or more people in household,Count,Households,785
+E08000007,Stockport,Local authority,2021-03-21,1 person in household,Count,Households,39439
+E08000007,Stockport,Local authority,2021-03-21,2 people in household,Count,Households,42565
+E08000007,Stockport,Local authority,2021-03-21,3 people in household,Count,Households,20627
+E08000007,Stockport,Local authority,2021-03-21,4 people in household,Count,Households,16999
+E08000007,Stockport,Local authority,2021-03-21,5 people in household,Count,Households,5049
+E08000007,Stockport,Local authority,2021-03-21,6 people in household,Count,Households,1328
+E08000007,Stockport,Local authority,2021-03-21,7 people in household,Count,Households,399
+E08000007,Stockport,Local authority,2021-03-21,8 or more people in household,Count,Households,239
+E08000008,Tameside,Local authority,2021-03-21,1 person in household,Count,Households,32374
+E08000008,Tameside,Local authority,2021-03-21,2 people in household,Count,Households,32399
+E08000008,Tameside,Local authority,2021-03-21,3 people in household,Count,Households,16536
+E08000008,Tameside,Local authority,2021-03-21,4 people in household,Count,Households,11845
+E08000008,Tameside,Local authority,2021-03-21,5 people in household,Count,Households,4169
+E08000008,Tameside,Local authority,2021-03-21,6 people in household,Count,Households,1370
+E08000008,Tameside,Local authority,2021-03-21,7 people in household,Count,Households,488
+E08000008,Tameside,Local authority,2021-03-21,8 or more people in household,Count,Households,346
+E08000009,Trafford,Local authority,2021-03-21,1 person in household,Count,Households,28369
+E08000009,Trafford,Local authority,2021-03-21,2 people in household,Count,Households,30169
+E08000009,Trafford,Local authority,2021-03-21,3 people in household,Count,Households,16038
+E08000009,Trafford,Local authority,2021-03-21,4 people in household,Count,Households,14824
+E08000009,Trafford,Local authority,2021-03-21,5 people in household,Count,Households,4766
+E08000009,Trafford,Local authority,2021-03-21,6 people in household,Count,Households,1448
+E08000009,Trafford,Local authority,2021-03-21,7 people in household,Count,Households,410
+E08000009,Trafford,Local authority,2021-03-21,8 or more people in household,Count,Households,245
+E08000010,Wigan,Local authority,2021-03-21,1 person in household,Count,Households,43950
+E08000010,Wigan,Local authority,2021-03-21,2 people in household,Count,Households,49686
+E08000010,Wigan,Local authority,2021-03-21,3 people in household,Count,Households,24370
+E08000010,Wigan,Local authority,2021-03-21,4 people in household,Count,Households,17771
+E08000010,Wigan,Local authority,2021-03-21,5 people in household,Count,Households,5425
+E08000010,Wigan,Local authority,2021-03-21,6 people in household,Count,Households,1366
+E08000010,Wigan,Local authority,2021-03-21,7 people in household,Count,Households,365
+E08000010,Wigan,Local authority,2021-03-21,8 or more people in household,Count,Households,172

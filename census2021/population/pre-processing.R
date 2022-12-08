@@ -92,7 +92,7 @@ df_pop_by_single_year_age_la <- read_xlsx(tmp, sheet = "Table") %>%
   filter(area_code %in% area_codes_gm) %>%
   mutate(sex = "Persons",
          # Although the single year of age for all persons goes up to 100+, by sex it's only 90+.
-         # Therefore we need to sum all counts from 90 onwards to normalise the data 
+         # Therefore we need to sum all counts from 90 onwards to normalise the data
          age_number = as.integer(age_number),
          age_number = if_else(age_number >= 90, 90, as.double(age_number)),
          age_group = if_else(age_number == 90, "Aged 90 years and over", age_group)) %>%
@@ -130,7 +130,7 @@ df_pop_by_single_year_age_la_all <- df_pop_by_single_year_age_la %>%
 # Create the tidy datasets for GM and Trafford
 df_pop_by_single_year_age_la_all %>%
   mutate(indicator = "Usual resident population by sex and age group",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Usual residents",
          geography = "Local authority",
          period = "2021-03-21") %>%
@@ -174,7 +174,7 @@ df_pop_density_la <- read_xlsx(tmp, sheet = "Table") %>%
   mutate(period = "2021-03-21",
          geography = "Local authority",
          indicator = "Usual resident population density",
-         measure = "Frequency",
+         measure = "Rate",
          unit = "Number of usual residents per square kilometre") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
@@ -227,7 +227,7 @@ df_pop_density <- bind_rows(df_pop_density_msoa,
                             df_pop_density_oa) %>%
   mutate(period = "2021-03-21",
          indicator = "Usual resident population density",
-         measure = "Frequency",
+         measure = "Rate",
          unit = "Number of usual residents per square kilometre") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
@@ -257,7 +257,7 @@ df_household_comp_la <- read_xlsx(tmp, sheet = "Table") %>%
   # Final addition of extra variables
   mutate(period = "2021-03-21",
          geography = "Local authority",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
@@ -279,7 +279,7 @@ df_household_comp_msoa <- read_xlsx(tmp, sheet = "Table") %>%
   # Final addition of extra variables
   mutate(period = "2021-03-21",
          geography = "Middle-layer Super Output Area",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
@@ -301,7 +301,7 @@ df_household_comp_lsoa <- read_xlsx(tmp, sheet = "Table") %>%
   # Final addition of extra variables
   mutate(period = "2021-03-21",
          geography = "Lower-layer Super Output Area",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
@@ -323,7 +323,7 @@ df_household_comp_oa <- read_xlsx(tmp, sheet = "Table") %>%
   # Final addition of extra variables
   mutate(period = "2021-03-21",
          geography = "Output Area",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
@@ -350,7 +350,7 @@ df_household_size_la <- read_xlsx(tmp, sheet = "Table") %>%
   # Final addition of extra variables
   mutate(period = "2021-03-21",
          geography = "Local authority",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
@@ -372,7 +372,7 @@ df_household_size_msoa <- read_xlsx(tmp, sheet = "Table") %>%
   # Final addition of extra variables
   mutate(period = "2021-03-21",
          geography = "Middle-layer Super Output Area",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
@@ -394,7 +394,7 @@ df_household_size_lsoa <- read_xlsx(tmp, sheet = "Table") %>%
   # Final addition of extra variables
   mutate(period = "2021-03-21",
          geography = "Lower-layer Super Output Area",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
@@ -416,7 +416,7 @@ df_household_size_oa <- read_xlsx(tmp, sheet = "Table") %>%
   # Final addition of extra variables
   mutate(period = "2021-03-21",
          geography = "Output Area",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 

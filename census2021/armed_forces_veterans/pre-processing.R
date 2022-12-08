@@ -82,12 +82,12 @@ df_veterans_person_la <- read_xlsx(tmp, sheet = "Table") %>%
   # Final addition of extra variables
   mutate(period = "2021-03-21",
          geography = "Local authority",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
 write_csv(df_veterans_person_la, "2021_armed_forces_veterans_person_la_gm.csv")
-  
+
 unlink(tmp)
 
 # MSOA
@@ -103,7 +103,7 @@ df_veterans_person_msoa <- read_xlsx(tmp, sheet = "Table") %>%
   # Final addition of extra variables
   mutate(period = "2021-03-21",
          geography = "Middle-layer Super Output Area",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
@@ -129,7 +129,7 @@ df_veterans_household_la <- read_xlsx(tmp, sheet = "Table") %>%
   # Final addition of extra variables
   mutate(period = "2021-03-21",
          geography = "Local authority",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
@@ -151,11 +151,10 @@ df_veterans_household_msoa <- read_xlsx(tmp, sheet = "Table") %>%
   # Final addition of extra variables
   mutate(period = "2021-03-21",
          geography = "Middle-layer Super Output Area",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, measure, unit, value)
 
 write_csv(df_veterans_household_msoa, "2021_armed_forces_veterans_household_msoa_trafford.csv")
 
 unlink(tmp)
-

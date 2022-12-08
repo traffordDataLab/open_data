@@ -81,7 +81,7 @@ df_la_languages_detailed <- read_csv("languages_la.csv") %>%
   filter(area_code %in% area_codes_gm) %>%
   mutate(geography = "Local authority",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "First or preferred language",
          unit = "Usual residents",
          language = case_when(language == "English (English or Welsh in Wales)" ~ "English",
@@ -103,7 +103,7 @@ df_la_english_proficiency <- read_csv("english_proficiency_la.csv") %>%
   filter(area_code %in% area_codes_gm) %>%
   mutate(geography = "Local authority",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "Proficiency in English",
          unit = "Persons",
          indicator = str_replace(indicator, " \\(English or Welsh in Wales\\)", "")) %>%
@@ -120,7 +120,7 @@ df_msoa_english_proficiency <- read_csv("english_proficiency_msoa.csv") %>%
   ) %>%
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "Proficiency in English",
          unit = "Persons",
          indicator = str_replace(indicator, " \\(English or Welsh in Wales\\)", "")) %>%
@@ -137,7 +137,7 @@ df_lsoa_english_proficiency <- read_csv("english_proficiency_lsoa.csv") %>%
   ) %>%
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "Proficiency in English",
          unit = "Persons",
          indicator = str_replace(indicator, " \\(English or Welsh in Wales\\)", "")) %>%
@@ -154,7 +154,7 @@ df_oa_english_proficiency <- read_csv("english_proficiency_oa.csv") %>%
   ) %>%
   mutate(geography = "Output Area",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "Proficiency in English",
          unit = "Persons",
          indicator = str_replace(indicator, " \\(English or Welsh in Wales\\)", "")) %>%
@@ -176,7 +176,7 @@ df_la_eng_main_lang_household <- read_csv("household_language_la.csv") %>%
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Combination of adults and children within a household that have English as a main language",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households",
          household_language = str_replace_all(household_language, c(" in England, or English or Welsh in Wales" = "", ", has English in England or English or Welsh in Wales" = " has English"))) %>%
   select(area_code, area_name, geography, period, indicator, household_language, measure, unit, value) %>%
@@ -194,7 +194,7 @@ df_msoa_eng_main_lang_household <- read_csv("household_language_msoa.csv") %>%
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Combination of adults and children within a household that have English as a main language",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households",
          household_language = str_replace_all(household_language, c(" in England, or English or Welsh in Wales" = "", ", has English in England or English or Welsh in Wales" = " has English"))) %>%
   select(area_code, area_name, geography, period, indicator, household_language, measure, unit, value) %>%
@@ -212,7 +212,7 @@ df_lsoa_eng_main_lang_household <- read_csv("household_language_lsoa.csv") %>%
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Combination of adults and children within a household that have English as a main language",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households",
          household_language = str_replace_all(household_language, c(" in England, or English or Welsh in Wales" = "", ", has English in England or English or Welsh in Wales" = " has English"))) %>%
   select(area_code, area_name, geography, period, indicator, household_language, measure, unit, value) %>%
@@ -230,7 +230,7 @@ df_oa_eng_main_lang_household <- read_csv("household_language_oa.csv") %>%
   mutate(geography = "Output Area",
          period = "2021-03-21",
          indicator = "Combination of adults and children within a household that have English as a main language",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households",
          household_language = str_replace_all(household_language, c(" in England, or English or Welsh in Wales" = "", ", has English in England or English or Welsh in Wales" = " has English"))) %>%
   select(area_code, area_name, geography, period, indicator, household_language, measure, unit, value) %>%
@@ -251,7 +251,7 @@ df_la_lang_diversity_household <- read_csv("household_language_diversity_la.csv"
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Combination of household members speaking the same or different main languages",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, household_language, measure, unit, value) %>%
   write_csv("2021_household_language_diversity_la_gm.csv")
@@ -268,7 +268,7 @@ df_msoa_lang_diversity_household <- read_csv("household_language_diversity_msoa.
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Combination of household members speaking the same or different main languages",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, household_language, measure, unit, value) %>%
   write_csv("2021_household_language_diversity_msoa_trafford.csv")
@@ -285,7 +285,7 @@ df_lsoa_lang_diversity_household <- read_csv("household_language_diversity_lsoa.
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Combination of household members speaking the same or different main languages",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, household_language, measure, unit, value) %>%
   write_csv("2021_household_language_diversity_lsoa_trafford.csv")
@@ -302,8 +302,7 @@ df_oa_lang_diversity_household <- read_csv("household_language_diversity_oa.csv"
   mutate(geography = "Output Area",
          period = "2021-03-21",
          indicator = "Combination of household members speaking the same or different main languages",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, household_language, measure, unit, value) %>%
   write_csv("2021_household_language_diversity_oa_trafford.csv")
-

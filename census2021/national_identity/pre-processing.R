@@ -82,7 +82,7 @@ df_la_national_identity_uk <- read_csv("national_identity_uk_la.csv") %>%
          national_identity != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "National identity",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, national_identity, measure, unit, value) %>%
@@ -99,7 +99,7 @@ df_msoa_national_identity_uk <- read_csv("national_identity_uk_msoa.csv") %>%
   filter(national_identity != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "National identity",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, national_identity, measure, unit, value) %>%
@@ -116,7 +116,7 @@ df_lsoa_national_identity_uk <- read_csv("national_identity_uk_lsoa.csv") %>%
   filter(national_identity != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "National identity",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, national_identity, measure, unit, value) %>%
@@ -133,7 +133,7 @@ df_oa_national_identity_uk <- read_csv("national_identity_uk_oa.csv") %>%
   filter(national_identity != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Output Area",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "National identity",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, national_identity, measure, unit, value) %>%
@@ -153,7 +153,7 @@ df_la_national_identity_detailed <- read_csv("national_identity_la.csv") %>%
          national_identity != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "National identity",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, national_identity, measure, unit, value) %>%
@@ -170,9 +170,8 @@ df_msoa_national_identity_detailed <- read_csv("national_identity_msoa.csv") %>%
   filter(national_identity != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
-         measure = "Frequency",
+         measure = "Count",
          indicator = "National identity",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, national_identity, measure, unit, value) %>%
   write_csv("2021_population_national_identity_detailed_msoa_trafford.csv")
-

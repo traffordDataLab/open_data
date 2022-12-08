@@ -1,51 +1,51 @@
 area_code,area_name,geography,period,indicator,ethnic_diversity,measure,unit,value
-E08000001,Bolton,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Frequency,Households,36521
-E08000001,Bolton,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Frequency,Households,74311
-E08000001,Bolton,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Frequency,Households,1674
-E08000001,Bolton,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Frequency,Households,4402
-E08000001,Bolton,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Frequency,Households,1882
-E08000002,Bury,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Frequency,Households,24880
-E08000002,Bury,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Frequency,Households,49105
-E08000002,Bury,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Frequency,Households,1251
-E08000002,Bury,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Frequency,Households,4228
-E08000002,Bury,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Frequency,Households,1231
-E08000003,Manchester,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Frequency,Households,71577
-E08000003,Manchester,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Frequency,Households,108822
-E08000003,Manchester,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Frequency,Households,6890
-E08000003,Manchester,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Frequency,Households,14823
-E08000003,Manchester,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Frequency,Households,12620
-E08000004,Oldham,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Frequency,Households,27396
-E08000004,Oldham,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Frequency,Households,59190
-E08000004,Oldham,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Frequency,Households,1613
-E08000004,Oldham,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Frequency,Households,3330
-E08000004,Oldham,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Frequency,Households,1613
-E08000005,Rochdale,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Frequency,Households,27641
-E08000005,Rochdale,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Frequency,Households,56056
-E08000005,Rochdale,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Frequency,Households,1531
-E08000005,Rochdale,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Frequency,Households,3528
-E08000005,Rochdale,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Frequency,Households,1467
-E08000006,Salford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Frequency,Households,39141
-E08000006,Salford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Frequency,Households,63963
-E08000006,Salford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Frequency,Households,1973
-E08000006,Salford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Frequency,Households,6212
-E08000006,Salford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Frequency,Households,3827
-E08000007,Stockport,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Frequency,Households,39439
-E08000007,Stockport,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Frequency,Households,76809
-E08000007,Stockport,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Frequency,Households,1651
-E08000007,Stockport,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Frequency,Households,7116
-E08000007,Stockport,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Frequency,Households,1632
-E08000008,Tameside,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Frequency,Households,32374
-E08000008,Tameside,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Frequency,Households,61112
-E08000008,Tameside,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Frequency,Households,1205
-E08000008,Tameside,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Frequency,Households,3594
-E08000008,Tameside,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Frequency,Households,1242
-E08000009,Trafford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Frequency,Households,28369
-E08000009,Trafford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Frequency,Households,56793
-E08000009,Trafford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Frequency,Households,1867
-E08000009,Trafford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Frequency,Households,7372
-E08000009,Trafford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Frequency,Households,1868
-E08000010,Wigan,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Frequency,Households,43950
-E08000010,Wigan,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Frequency,Households,92971
-E08000010,Wigan,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Frequency,Households,1125
-E08000010,Wigan,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Frequency,Households,3889
-E08000010,Wigan,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Frequency,Households,1170
+E08000001,Bolton,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Count,Households,36521
+E08000001,Bolton,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Count,Households,74311
+E08000001,Bolton,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Count,Households,1674
+E08000001,Bolton,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Count,Households,4402
+E08000001,Bolton,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Count,Households,1882
+E08000002,Bury,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Count,Households,24880
+E08000002,Bury,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Count,Households,49105
+E08000002,Bury,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Count,Households,1251
+E08000002,Bury,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Count,Households,4228
+E08000002,Bury,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Count,Households,1231
+E08000003,Manchester,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Count,Households,71577
+E08000003,Manchester,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Count,Households,108822
+E08000003,Manchester,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Count,Households,6890
+E08000003,Manchester,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Count,Households,14823
+E08000003,Manchester,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Count,Households,12620
+E08000004,Oldham,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Count,Households,27396
+E08000004,Oldham,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Count,Households,59190
+E08000004,Oldham,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Count,Households,1613
+E08000004,Oldham,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Count,Households,3330
+E08000004,Oldham,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Count,Households,1613
+E08000005,Rochdale,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Count,Households,27641
+E08000005,Rochdale,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Count,Households,56056
+E08000005,Rochdale,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Count,Households,1531
+E08000005,Rochdale,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Count,Households,3528
+E08000005,Rochdale,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Count,Households,1467
+E08000006,Salford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Count,Households,39141
+E08000006,Salford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Count,Households,63963
+E08000006,Salford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Count,Households,1973
+E08000006,Salford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Count,Households,6212
+E08000006,Salford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Count,Households,3827
+E08000007,Stockport,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Count,Households,39439
+E08000007,Stockport,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Count,Households,76809
+E08000007,Stockport,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Count,Households,1651
+E08000007,Stockport,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Count,Households,7116
+E08000007,Stockport,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Count,Households,1632
+E08000008,Tameside,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Count,Households,32374
+E08000008,Tameside,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Count,Households,61112
+E08000008,Tameside,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Count,Households,1205
+E08000008,Tameside,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Count,Households,3594
+E08000008,Tameside,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Count,Households,1242
+E08000009,Trafford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Count,Households,28369
+E08000009,Trafford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Count,Households,56793
+E08000009,Trafford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Count,Households,1867
+E08000009,Trafford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Count,Households,7372
+E08000009,Trafford,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Count,Households,1868
+E08000010,Wigan,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,One-person household,Count,Households,43950
+E08000010,Wigan,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,All household members have the same ethnic group,Count,Households,92971
+E08000010,Wigan,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ between generations but not within partnerships,Count,Households,1125
+E08000010,Wigan,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Ethnic groups differ within partnerships,Count,Households,3889
+E08000010,Wigan,Local authority,2021-03-21,Diversity in ethnic group of household members in different relationships,Any other combination of multiple ethnic identities,Count,Households,1170

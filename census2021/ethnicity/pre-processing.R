@@ -83,7 +83,7 @@ df_la_ethnicity <- read_csv("ethnicity_la.csv") %>%
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "The ethnic group that the person completing the census feels they belong to",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, ethnic_group, measure, unit, value) %>%
   write_csv("2021_population_ethnic_group_la_gm.csv")
@@ -100,7 +100,7 @@ df_msoa_ethnicity <- read_csv("ethnicity_msoa_trafford.csv") %>%
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "The ethnic group that the person completing the census feels they belong to",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, ethnic_group, measure, unit, value) %>%
   write_csv("2021_population_ethnic_group_msoa_trafford.csv")
@@ -117,7 +117,7 @@ df_lsoa_ethnicity <- read_csv("ethnicity_lsoa_trafford.csv") %>%
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
          indicator = "The ethnic group that the person completing the census feels they belong to",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, ethnic_group, measure, unit, value) %>%
   write_csv("2021_population_ethnic_group_lsoa_trafford.csv")
@@ -134,7 +134,7 @@ df_oa_ethnicity <- read_csv("ethnicity_oa_trafford.csv") %>%
   mutate(geography = "Output Area",
          period = "2021-03-21",
          indicator = "The ethnic group that the person completing the census feels they belong to",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, ethnic_group, measure, unit, value) %>%
   write_csv("2021_population_ethnic_group_oa_trafford.csv")
@@ -154,7 +154,7 @@ df_la_ethnicity_detailed <- read_csv("ethnicity_detailed_la.csv") %>%
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "The ethnic group that the person completing the census feels they belong to",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, ethnic_group, measure, unit, value) %>%
   write_csv("2021_population_ethnic_group_detailed_la_gm.csv")
@@ -171,7 +171,7 @@ df_msoa_ethnicity_detailed <- read_csv("ethnicity_detailed_msoa_trafford.csv") %
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "The ethnic group that the person completing the census feels they belong to",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, ethnic_group, measure, unit, value) %>%
   write_csv("2021_population_ethnic_group_detailed_msoa_trafford.csv")
@@ -191,7 +191,7 @@ df_la_ethnic_group_household <- read_csv("household_multiple_ethnicity_la.csv") 
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Diversity in ethnic group of household members in different relationships",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, ethnic_diversity, measure, unit, value) %>%
   write_csv("2021_household_ethnic_diversity_la_gm.csv")
@@ -208,7 +208,7 @@ df_msoa_ethnic_group_household <- read_csv("household_multiple_ethnicity_msoa.cs
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Diversity in ethnic group of household members in different relationships",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, ethnic_diversity, measure, unit, value) %>%
   write_csv("2021_household_ethnic_diversity_msoa_trafford.csv")
@@ -225,7 +225,7 @@ df_lsoa_ethnic_group_household <- read_csv("household_multiple_ethnicity_lsoa.cs
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Diversity in ethnic group of household members in different relationships",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, ethnic_diversity, measure, unit, value) %>%
   write_csv("2021_household_ethnic_diversity_lsoa_trafford.csv")
@@ -242,8 +242,7 @@ df_oa_ethnic_group_household <- read_csv("household_multiple_ethnicity_oa.csv") 
   mutate(geography = "Output Area",
          period = "2021-03-21",
          indicator = "Diversity in ethnic group of household members in different relationships",
-         measure = "Frequency",
+         measure = "Count",
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, ethnic_diversity, measure, unit, value) %>%
   write_csv("2021_household_ethnic_diversity_oa_trafford.csv")
-

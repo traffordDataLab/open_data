@@ -1,91 +1,91 @@
 area_code,area_name,geography,period,indicator,religion,measure,unit,value
-E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,No religion,Frequency,Persons,76244
-E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Christian,Frequency,Persons,139144
-E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Buddhist,Frequency,Persons,576
-E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Hindu,Frequency,Persons,5887
-E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Jewish,Frequency,Persons,159
-E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Muslim,Frequency,Persons,58997
-E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Sikh,Frequency,Persons,219
-E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Other religion,Frequency,Persons,979
-E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Not answered,Frequency,Persons,13758
-E08000002,Bury,Local authority,2021-03-21,Religious affiliation,No religion,Frequency,Persons,57008
-E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Christian,Frequency,Persons,94669
-E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Buddhist,Frequency,Persons,508
-E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Hindu,Frequency,Persons,874
-E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Jewish,Frequency,Persons,10734
-E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Muslim,Frequency,Persons,19243
-E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Sikh,Frequency,Persons,575
-E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Other religion,Frequency,Persons,649
-E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Not answered,Frequency,Persons,9591
-E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,No religion,Frequency,Persons,179037
-E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Christian,Frequency,Persons,199873
-E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Buddhist,Frequency,Persons,3219
-E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Hindu,Frequency,Persons,6048
-E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Jewish,Frequency,Persons,2632
-E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Muslim,Frequency,Persons,122962
-E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Sikh,Frequency,Persons,2718
-E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Other religion,Frequency,Persons,2736
-E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Not answered,Frequency,Persons,32713
-E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,No religion,Frequency,Persons,60507
-E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Christian,Frequency,Persons,108720
-E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Buddhist,Frequency,Persons,468
-E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Hindu,Frequency,Persons,1222
-E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Jewish,Frequency,Persons,146
-E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Muslim,Frequency,Persons,59031
-E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Sikh,Frequency,Persons,132
-E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Other religion,Frequency,Persons,589
-E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Not answered,Frequency,Persons,11273
-E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,No religion,Frequency,Persons,64349
-E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Christian,Frequency,Persons,104841
-E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Buddhist,Frequency,Persons,398
-E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Hindu,Frequency,Persons,613
-E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Jewish,Frequency,Persons,218
-E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Muslim,Frequency,Persons,42121
-E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Sikh,Frequency,Persons,191
-E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Other religion,Frequency,Persons,675
-E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Not answered,Frequency,Persons,10366
-E08000006,Salford,Local authority,2021-03-21,Religious affiliation,No religion,Frequency,Persons,96140
-E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Christian,Frequency,Persons,128785
-E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Buddhist,Frequency,Persons,1022
-E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Hindu,Frequency,Persons,2113
-E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Jewish,Frequency,Persons,10373
-E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Muslim,Frequency,Persons,13542
-E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Sikh,Frequency,Persons,728
-E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Other religion,Frequency,Persons,1068
-E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Not answered,Frequency,Persons,16152
-E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,No religion,Frequency,Persons,116749
-E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Christian,Frequency,Persons,139951
-E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Buddhist,Frequency,Persons,964
-E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Hindu,Frequency,Persons,2388
-E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Jewish,Frequency,Persons,1234
-E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Muslim,Frequency,Persons,16332
-E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Sikh,Frequency,Persons,503
-E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Other religion,Frequency,Persons,1207
-E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Not answered,Frequency,Persons,15445
-E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,No religion,Frequency,Persons,87910
-E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Christian,Frequency,Persons,110539
-E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Buddhist,Frequency,Persons,588
-E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Hindu,Frequency,Persons,3096
-E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Jewish,Frequency,Persons,87
-E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Muslim,Frequency,Persons,16945
-E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Sikh,Frequency,Persons,181
-E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Other religion,Frequency,Persons,879
-E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Not answered,Frequency,Persons,10846
-E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,No religion,Frequency,Persons,77864
-E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Christian,Frequency,Persons,113712
-E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Buddhist,Frequency,Persons,955
-E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Hindu,Frequency,Persons,4656
-E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Jewish,Frequency,Persons,2408
-E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Muslim,Frequency,Persons,20549
-E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Sikh,Frequency,Persons,1984
-E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Other religion,Frequency,Persons,920
-E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Not answered,Frequency,Persons,12007
-E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,No religion,Frequency,Persons,99784
-E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Christian,Frequency,Persons,206870
-E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Buddhist,Frequency,Persons,831
-E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Hindu,Frequency,Persons,995
-E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Jewish,Frequency,Persons,84
-E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Muslim,Frequency,Persons,4155
-E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Sikh,Frequency,Persons,122
-E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Other religion,Frequency,Persons,1099
-E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Not answered,Frequency,Persons,15390
+E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,No religion,Count,Persons,76244
+E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Christian,Count,Persons,139144
+E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Buddhist,Count,Persons,576
+E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Persons,5887
+E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,159
+E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,58997
+E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,219
+E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Other religion,Count,Persons,979
+E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Not answered,Count,Persons,13758
+E08000002,Bury,Local authority,2021-03-21,Religious affiliation,No religion,Count,Persons,57008
+E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Christian,Count,Persons,94669
+E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Buddhist,Count,Persons,508
+E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Persons,874
+E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,10734
+E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,19243
+E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,575
+E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Other religion,Count,Persons,649
+E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Not answered,Count,Persons,9591
+E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,No religion,Count,Persons,179037
+E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Christian,Count,Persons,199873
+E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Buddhist,Count,Persons,3219
+E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Persons,6048
+E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,2632
+E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,122962
+E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,2718
+E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Other religion,Count,Persons,2736
+E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Not answered,Count,Persons,32713
+E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,No religion,Count,Persons,60507
+E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Christian,Count,Persons,108720
+E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Buddhist,Count,Persons,468
+E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Persons,1222
+E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,146
+E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,59031
+E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,132
+E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Other religion,Count,Persons,589
+E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Not answered,Count,Persons,11273
+E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,No religion,Count,Persons,64349
+E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Christian,Count,Persons,104841
+E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Buddhist,Count,Persons,398
+E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Persons,613
+E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,218
+E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,42121
+E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,191
+E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Other religion,Count,Persons,675
+E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Not answered,Count,Persons,10366
+E08000006,Salford,Local authority,2021-03-21,Religious affiliation,No religion,Count,Persons,96140
+E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Christian,Count,Persons,128785
+E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Buddhist,Count,Persons,1022
+E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Persons,2113
+E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,10373
+E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,13542
+E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,728
+E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Other religion,Count,Persons,1068
+E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Not answered,Count,Persons,16152
+E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,No religion,Count,Persons,116749
+E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Christian,Count,Persons,139951
+E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Buddhist,Count,Persons,964
+E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Persons,2388
+E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,1234
+E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,16332
+E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,503
+E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Other religion,Count,Persons,1207
+E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Not answered,Count,Persons,15445
+E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,No religion,Count,Persons,87910
+E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Christian,Count,Persons,110539
+E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Buddhist,Count,Persons,588
+E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Persons,3096
+E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,87
+E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,16945
+E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,181
+E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Other religion,Count,Persons,879
+E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Not answered,Count,Persons,10846
+E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,No religion,Count,Persons,77864
+E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Christian,Count,Persons,113712
+E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Buddhist,Count,Persons,955
+E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Persons,4656
+E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,2408
+E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,20549
+E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,1984
+E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Other religion,Count,Persons,920
+E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Not answered,Count,Persons,12007
+E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,No religion,Count,Persons,99784
+E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Christian,Count,Persons,206870
+E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Buddhist,Count,Persons,831
+E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Persons,995
+E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,84
+E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,4155
+E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,122
+E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Other religion,Count,Persons,1099
+E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Not answered,Count,Persons,15390
