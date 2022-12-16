@@ -49,7 +49,7 @@
 </tr>
 <tr>
 	<td>Openness rating</td>
-	<td>&#9733&#9733&#9733&#9734&#9734&nbsp; Structured data in open format (e.g. CSV)</td>
+	<td>&#9733&#9733&#9733&#9733&#9734&nbsp; Structured data in open format (e.g. CSV) with URIs to describe data items.</td>
 </tr>
 <tr>
 	<td>Last updated</td>
