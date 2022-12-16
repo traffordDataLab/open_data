@@ -1,5 +1,5 @@
 ---
-pagetitle: "Local election results"
+pagetitle: "Trafford election results"
 lang: "en-GB"
 output:
   html_document:
@@ -9,7 +9,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
-library(tidyverse) ; library(htmltools) ; library(DT) 
+library(tidyverse) ; library(htmltools) ; library(DT)
 
 df <- read_csv("trafford_council_election_results.csv")
 ```
@@ -18,8 +18,8 @@ df <- read_csv("trafford_council_election_results.csv")
 <span id="a11yNav"><a href="#downloads" class="themeBlockDark">Skip to downloads</a></span>
 <a href="https://www.trafforddatalab.io/data.html"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" aria-label="Return to Trafford Data Lab data page" width="100" class="traffordDataLabLogo"/></a>
 
-<h1>Local election results</h1>
-*Results from Trafford council local elections/by-elections from 2016 onwards*
+<h1>Trafford election results</h1>
+*Results from local and Parliamentary elections/by-elections within Trafford from 2016 onwards*
 
 </header>
 
@@ -42,10 +42,10 @@ df <- read_csv("trafford_council_election_results.csv")
     <td>Trafford Council</td>
     <td><a href="https://www.trafford.gov.uk/about-your-council/elections/election-results.aspx" target="_blank">Trafford Council</a></td>
     <td>2016-2022</td>
-    <td>Electoral Ward</td>
+    <td>Electoral Ward, Parliamentary Constituency</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2022-05-16">2022-05-16</time></td>
+    <td><time datetime="2022-12-16">2022-12-16</time></td>
   </tr>
 </table>
 
@@ -53,9 +53,9 @@ df <- read_csv("trafford_council_election_results.csv")
 Sort, filter and export a selection of the data using the table. Visualisations can be found in our <a href="https://github.com/traffordDataLab/analysis/tree/master/local_election" target="_blank">analysis repository</a> on GitHub.
 
 ```{r preview}
-datatable(df, 
+datatable(df,
           class = 'cell-border stripe',
-          rownames = FALSE, 
+          rownames = FALSE,
           extensions = c('Scroller', 'Buttons', 'KeyTable'),
           options = list(
             keys = TRUE,
@@ -63,7 +63,7 @@ datatable(df,
             searchHighlight = TRUE,
             dom = 'ftB',
             buttons = list(
-              list(extend = "csv", 
+              list(extend = "csv",
                    text = "Download selection")),
             deferRender = TRUE,
             scrollX = TRUE,
@@ -74,7 +74,7 @@ datatable(df,
               list(className = 'dt-left', targets = "_all")
               )))
 ```
-<div id="tableFooterTitle">Results from Trafford council local elections/by-elections</div>
+<div id="tableFooterTitle">Results from local and Parliamentary elections/by-elections within Trafford</div>
 
 <h2>Data</h2>
 <span id ="downloads">Download the complete dataset using the following link:</span>
@@ -91,14 +91,14 @@ Conforms to the specification described in the <a href="http://e-sd.org/vgTJ3" t
 <script>
   // Fixes to dynamic elements created by DataTables to improve accessibility
   var removeElFn = setInterval(removeElement, 1000);
-  
+
   function removeElement() {
     try {
       var el = document.getElementsByClassName("dataTables_scrollBody")[0].childNodes[0];
       el.removeChild(el.childNodes[0]); // Remove unwanted hidden text element from table - causing accessibility alert as it has no label
-      
+
       el.parentNode.setAttribute('tabindex', '0');  // add attribute allowing keyboard users to access scrollable area
-      
+
       clearInterval(removeElFn);  // cancel any further calls to this function as we have completed all actions
     }
     catch(e) {

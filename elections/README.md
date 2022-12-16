@@ -1,11 +1,11 @@
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Trafford Council local election results.</td>
+	<td>Trafford election results.</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Results from Trafford council local elections/by-elections from 2016 onwards</td>
+	<td>Results from local and Parliamentary elections/by-elections within Trafford from 2016 onwards</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -21,7 +21,7 @@
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>Local authority</td>
+	<td>Electoral Ward, Parliamentary Constituency</td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
@@ -33,7 +33,7 @@
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Following a local election/by-election</td>
+	<td>Following an election/by-election</td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2021-05-16</td>
+	<td>2022-12-16</td>
 </tr>
 <tr>
 	<td>Notes</td>
