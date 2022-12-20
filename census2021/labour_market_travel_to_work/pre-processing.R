@@ -1,6 +1,8 @@
-# Labout Market and Travel to Work from Census 2021 data
+# Labour Market and Travel to Work from Census 2021 data
+# ONS QUALITY NOTICE: As Census 2021 was during a unique period of rapid change, take care when using this data for planning purposes.
+
 # 2022-12-14 James Austin.
-# Source: Office for National Statistics https://www.ons.gov.uk/releases/ethnicgroupnationalidentitylanguageandreligioncensus2021inenglandandwales
+# Source: Office for National Statistics https://www.ons.gov.uk/releases/labourmarketandtraveltoworkcensus2021inenglandandwales
 
 # AREA CODES OF INTEREST
 # Regions
@@ -75,7 +77,7 @@ area_codes_cipfa <- c("E06000007","E06000030","E08000029","E06000042","E06000025
 df_la_distance_travelled_to_work <- read_csv("distance_travelled_to_work_la.csv") %>%
   rename(area_code = `Lower Tier Local Authorities Code`,
          area_name = `Lower Tier Local Authorities`,
-         distance_category = `Distance travelled to work (11 categories)`,
+         distance_travelled_category = `Distance travelled to work (11 categories)`,
          value = Observation
   ) %>%
   filter(area_code %in% area_codes_gm) %>%
@@ -84,7 +86,7 @@ df_la_distance_travelled_to_work <- read_csv("distance_travelled_to_work_la.csv"
          indicator = "Distance travelled to work by usual residents (aged 16 years and over in employment the week before the census)",
          measure = "Count",
          unit = "Persons") %>%
-  select(area_code, area_name, geography, period, indicator, distance_category, measure, unit, value) %>%
+  select(area_code, area_name, geography, period, indicator, distance_travelled_category, measure, unit, value) %>%
   write_csv("2021_distance_travelled_to_work_la_gm.csv")
 
 
@@ -92,7 +94,7 @@ df_la_distance_travelled_to_work <- read_csv("distance_travelled_to_work_la.csv"
 df_msoa_distance_travelled_to_work <- read_csv("distance_travelled_to_work_msoa.csv") %>%
   rename(area_code = `Middle Layer Super Output Areas Code`,
          area_name = `Middle Layer Super Output Areas`,
-         distance_category = `Distance travelled to work (11 categories)`,
+         distance_travelled_category = `Distance travelled to work (11 categories)`,
          value = Observation
   ) %>%
   mutate(geography = "Middle-layer Super Output Area",
@@ -100,7 +102,7 @@ df_msoa_distance_travelled_to_work <- read_csv("distance_travelled_to_work_msoa.
          indicator = "Distance travelled to work by usual residents (aged 16 years and over in employment the week before the census)",
          measure = "Count",
          unit = "Persons") %>%
-  select(area_code, area_name, geography, period, indicator, distance_category, measure, unit, value) %>%
+  select(area_code, area_name, geography, period, indicator, distance_travelled_category, measure, unit, value) %>%
   write_csv("2021_distance_travelled_to_work_msoa_trafford.csv")
 
 
@@ -108,7 +110,7 @@ df_msoa_distance_travelled_to_work <- read_csv("distance_travelled_to_work_msoa.
 df_lsoa_distance_travelled_to_work <- read_csv("distance_travelled_to_work_lsoa.csv") %>%
   rename(area_code = `Lower Layer Super Output Areas Code`,
          area_name = `Lower Layer Super Output Areas`,
-         distance_category = `Distance travelled to work (11 categories)`,
+         distance_travelled_category = `Distance travelled to work (11 categories)`,
          value = Observation
   ) %>%
   mutate(geography = "Lower-layer Super Output Area",
@@ -116,7 +118,7 @@ df_lsoa_distance_travelled_to_work <- read_csv("distance_travelled_to_work_lsoa.
          indicator = "Distance travelled to work by usual residents (aged 16 years and over in employment the week before the census)",
          measure = "Count",
          unit = "Persons") %>%
-  select(area_code, area_name, geography, period, indicator, distance_category, measure, unit, value) %>%
+  select(area_code, area_name, geography, period, indicator, distance_travelled_category, measure, unit, value) %>%
   write_csv("2021_distance_travelled_to_work_lsoa_trafford.csv")
 
 
@@ -124,7 +126,7 @@ df_lsoa_distance_travelled_to_work <- read_csv("distance_travelled_to_work_lsoa.
 df_oa_distance_travelled_to_work <- read_csv("distance_travelled_to_work_oa.csv") %>%
   rename(area_code = `Output Areas Code`,
          area_name = `Output Areas`,
-         distance_category = `Distance travelled to work (11 categories)`,
+         distance_travelled_category = `Distance travelled to work (11 categories)`,
          value = Observation
   ) %>%
   mutate(geography = "Output Area",
@@ -132,9 +134,75 @@ df_oa_distance_travelled_to_work <- read_csv("distance_travelled_to_work_oa.csv"
          indicator = "Distance travelled to work by usual residents (aged 16 years and over in employment the week before the census)",
          measure = "Count",
          unit = "Persons") %>%
-  select(area_code, area_name, geography, period, indicator, distance_category, measure, unit, value) %>%
+  select(area_code, area_name, geography, period, indicator, distance_travelled_category, measure, unit, value) %>%
   write_csv("2021_distance_travelled_to_work_oa_trafford.csv")
 
+
+# Hours work ---------------------------
+
+# LA (GM)
+df_la_hours_worked <- read_csv("hours_worked_la.csv") %>%
+  rename(area_code = `Lower Tier Local Authorities Code`,
+         area_name = `Lower Tier Local Authorities`,
+         hours_worked_category = `Hours worked (5 categories)`,
+         value = Observation
+  ) %>%
+  filter(area_code %in% area_codes_gm) %>%
+  mutate(geography = "Local authority",
+         period = "2021-03-21",
+         indicator = "Hours worked per week by usual residents (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, hours_worked_category, measure, unit, value) %>%
+  write_csv("2021_hours_worked_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_msoa_hours_worked <- read_csv("hours_worked_msoa.csv") %>%
+  rename(area_code = `Middle Layer Super Output Areas Code`,
+         area_name = `Middle Layer Super Output Areas`,
+         hours_worked_category = `Hours worked (5 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Middle-layer Super Output Area",
+         period = "2021-03-21",
+         indicator = "Hours worked per week by usual residents (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, hours_worked_category, measure, unit, value) %>%
+  write_csv("2021_hours_worked_msoa_trafford.csv")
+
+
+# LSOA (Trafford)
+df_lsoa_hours_worked <- read_csv("hours_worked_lsoa.csv") %>%
+  rename(area_code = `Lower Layer Super Output Areas Code`,
+         area_name = `Lower Layer Super Output Areas`,
+         hours_worked_category = `Hours worked (5 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Lower-layer Super Output Area",
+         period = "2021-03-21",
+         indicator = "Hours worked per week by usual residents (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, hours_worked_category, measure, unit, value) %>%
+  write_csv("2021_hours_worked_lsoa_trafford.csv")
+
+
+# OA (Trafford)
+df_oa_hours_worked <- read_csv("hours_worked_oa.csv") %>%
+  rename(area_code = `Output Areas Code`,
+         area_name = `Output Areas`,
+         hours_worked_category = `Hours worked (5 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Output Area",
+         period = "2021-03-21",
+         indicator = "Hours worked per week by usual residents (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, hours_worked_category, measure, unit, value) %>%
+  write_csv("2021_hours_worked_oa_trafford.csv")
 
 
 

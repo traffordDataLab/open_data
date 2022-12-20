@@ -1,0 +1,51 @@
+area_code,area_name,geography,period,indicator,hours_worked_category,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,170525
+E08000001,Bolton,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 15 hours or less worked,Count,Persons,11725
+E08000001,Bolton,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 16 to 30 hours worked,Count,Persons,27750
+E08000001,Bolton,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 31 to 48 hours worked,Count,Persons,75764
+E08000001,Bolton,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 49 or more hours worked,Count,Persons,10199
+E08000002,Bury,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,105369
+E08000002,Bury,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 15 hours or less worked,Count,Persons,8126
+E08000002,Bury,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 16 to 30 hours worked,Count,Persons,18005
+E08000002,Bury,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 31 to 48 hours worked,Count,Persons,54514
+E08000002,Bury,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 49 or more hours worked,Count,Persons,7838
+E08000003,Manchester,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,317655
+E08000003,Manchester,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 15 hours or less worked,Count,Persons,25672
+E08000003,Manchester,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 16 to 30 hours worked,Count,Persons,48753
+E08000003,Manchester,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 31 to 48 hours worked,Count,Persons,142505
+E08000003,Manchester,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 49 or more hours worked,Count,Persons,17353
+E08000004,Oldham,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,143882
+E08000004,Oldham,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 15 hours or less worked,Count,Persons,9088
+E08000004,Oldham,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 16 to 30 hours worked,Count,Persons,22246
+E08000004,Oldham,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 31 to 48 hours worked,Count,Persons,59308
+E08000004,Oldham,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 49 or more hours worked,Count,Persons,7564
+E08000005,Rochdale,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,129314
+E08000005,Rochdale,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 15 hours or less worked,Count,Persons,8024
+E08000005,Rochdale,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 16 to 30 hours worked,Count,Persons,19554
+E08000005,Rochdale,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 31 to 48 hours worked,Count,Persons,59047
+E08000005,Rochdale,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 49 or more hours worked,Count,Persons,7834
+E08000006,Salford,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,142317
+E08000006,Salford,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 15 hours or less worked,Count,Persons,11306
+E08000006,Salford,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 16 to 30 hours worked,Count,Persons,23988
+E08000006,Salford,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 31 to 48 hours worked,Count,Persons,81921
+E08000006,Salford,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 49 or more hours worked,Count,Persons,10391
+E08000007,Stockport,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,154967
+E08000007,Stockport,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 15 hours or less worked,Count,Persons,13170
+E08000007,Stockport,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 16 to 30 hours worked,Count,Persons,27032
+E08000007,Stockport,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 31 to 48 hours worked,Count,Persons,86908
+E08000007,Stockport,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 49 or more hours worked,Count,Persons,12697
+E08000008,Tameside,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,125417
+E08000008,Tameside,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 15 hours or less worked,Count,Persons,8523
+E08000008,Tameside,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 16 to 30 hours worked,Count,Persons,20690
+E08000008,Tameside,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 31 to 48 hours worked,Count,Persons,68222
+E08000008,Tameside,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 49 or more hours worked,Count,Persons,8219
+E08000009,Trafford,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,123494
+E08000009,Trafford,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 15 hours or less worked,Count,Persons,10658
+E08000009,Trafford,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 16 to 30 hours worked,Count,Persons,20998
+E08000009,Trafford,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 31 to 48 hours worked,Count,Persons,68817
+E08000009,Trafford,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 49 or more hours worked,Count,Persons,11085
+E08000010,Wigan,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,174716
+E08000010,Wigan,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 15 hours or less worked,Count,Persons,12340
+E08000010,Wigan,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Part-time: 16 to 30 hours worked,Count,Persons,29585
+E08000010,Wigan,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 31 to 48 hours worked,Count,Persons,98905
+E08000010,Wigan,Local authority,2021-03-21,Hours worked per week by usual residents (aged 16 years and over in employment the week before the census),Full-time: 49 or more hours worked,Count,Persons,13784

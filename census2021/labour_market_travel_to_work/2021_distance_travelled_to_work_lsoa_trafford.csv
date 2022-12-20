@@ -1,4 +1,4 @@
-area_code,area_name,geography,period,indicator,distance_category,measure,unit,value
+area_code,area_name,geography,period,indicator,distance_travelled_category,measure,unit,value
 E01006074,Trafford 025A,Lower-layer Super Output Area,2021-03-21,Distance travelled to work by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,929
 E01006074,Trafford 025A,Lower-layer Super Output Area,2021-03-21,Distance travelled to work by usual residents (aged 16 years and over in employment the week before the census),Less than 2km,Count,Persons,103
 E01006074,Trafford 025A,Lower-layer Super Output Area,2021-03-21,Distance travelled to work by usual residents (aged 16 years and over in employment the week before the census),2km to less than 5km,Count,Persons,48
