@@ -205,5 +205,70 @@ df_oa_hours_worked <- read_csv("hours_worked_oa.csv") %>%
   write_csv("2021_hours_worked_oa_trafford.csv")
 
 
+# Economic activity ---------------------------
+
+# LA (GM)
+df_la_economic_activity <- read_csv("economic_activity_la.csv") %>%
+  rename(area_code = `Lower Tier Local Authorities Code`,
+         area_name = `Lower Tier Local Authorities`,
+         economic_activity_status = `Economic activity status (20 categories)`,
+         value = Observation
+  ) %>%
+  filter(area_code %in% area_codes_gm) %>%
+  mutate(geography = "Local authority",
+         period = "2021-03-21",
+         indicator = "Economic activity status of usual residents (aged 16 years and over)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, economic_activity_status, measure, unit, value) %>%
+  write_csv("2021_economic_activity_status_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_msoa_economic_activity <- read_csv("economic_activity_msoa.csv") %>%
+  rename(area_code = `Middle Layer Super Output Areas Code`,
+         area_name = `Middle Layer Super Output Areas`,
+         economic_activity_status = `Economic activity status (20 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Middle-layer Super Output Area",
+         period = "2021-03-21",
+         indicator = "Economic activity status of usual residents (aged 16 years and over)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, economic_activity_status, measure, unit, value) %>%
+  write_csv("2021_economic_activity_status_msoa_trafford.csv")
+
+
+# LSOA (Trafford)
+df_lsoa_economic_activity <- read_csv("economic_activity_lsoa.csv") %>%
+  rename(area_code = `Lower Layer Super Output Areas Code`,
+         area_name = `Lower Layer Super Output Areas`,
+         economic_activity_status = `Economic activity status (20 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Lower-layer Super Output Area",
+         period = "2021-03-21",
+         indicator = "Economic activity status of usual residents (aged 16 years and over)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, economic_activity_status, measure, unit, value) %>%
+  write_csv("2021_economic_activity_status_lsoa_trafford.csv")
+
+
+# OA (Trafford)
+df_oa_economic_activity <- read_csv("economic_activity_oa.csv") %>%
+  rename(area_code = `Output Areas Code`,
+         area_name = `Output Areas`,
+         economic_activity_status = `Economic activity status (20 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Output Area",
+         period = "2021-03-21",
+         indicator = "Economic activity status of usual residents (aged 16 years and over)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, economic_activity_status, measure, unit, value) %>%
+  write_csv("2021_economic_activity_status_oa_trafford.csv")
 
  
