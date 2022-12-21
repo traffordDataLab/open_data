@@ -272,3 +272,41 @@ df_oa_economic_activity <- read_csv("economic_activity_oa.csv") %>%
   write_csv("2021_economic_activity_status_oa_trafford.csv")
 
  
+# Industry ---------------------------
+
+# LA (GM)
+df_la_industry <- read_csv("industry_la.csv") %>%
+  rename(area_code = `Lower Tier Local Authorities Code`,
+         area_name = `Lower Tier Local Authorities`,
+         industry = `Industry (current) (88 categories)`,
+         value = Observation
+  ) %>%
+  filter(area_code %in% area_codes_gm) %>%
+  mutate(geography = "Local authority",
+         period = "2021-03-21",
+         indicator = "Industry worked in by usual residents (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons",
+         industry = str_replace_all(industry, "[0-9]+ ", "")) %>% # remove the category code number
+  select(area_code, area_name, geography, period, indicator, industry, measure, unit, value) %>%
+  write_csv("2021_industry_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_msoa_industry <- read_csv("industry_msoa.csv") %>%
+  rename(area_code = `Middle Layer Super Output Areas Code`,
+         area_name = `Middle Layer Super Output Areas`,
+         industry = `Industry (current) (88 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Middle-layer Super Output Area",
+         period = "2021-03-21",
+         indicator = "Industry worked in by usual residents (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons",
+         industry = str_replace_all(industry, "[0-9]+ ", "")) %>% # remove the category code number
+  select(area_code, area_name, geography, period, indicator, industry, measure, unit, value) %>%
+  write_csv("2021_industry_msoa_trafford.csv")
+
+
+

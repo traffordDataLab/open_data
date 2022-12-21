@@ -5,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>These datasets provide data from the Census 2021 based on people in and out of work covering employment, unemployment, hours worked and employment history, industries that people are employed in, types of work people do as their main job and social grades and method of travel and distance travelled to work. The estimates are as at Census Day, 21 March 2021.</td>
+	<td>These datasets provide data from the Census 2021 based on people in and out of work covering employment, unemployment, hours worked and employment history, industries that people are employed in, types of work people do as their main job and social grades and method of travel and distance travelled to work. The estimates are as at Census Day, 21 March 2021. ONS QUALITY NOTICE: As Census 2021 was during a unique period of rapid change, take care when using this data for planning purposes.</td>
 </tr>
 <tr>
 	<td>Source</td>
