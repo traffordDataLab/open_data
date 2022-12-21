@@ -375,3 +375,74 @@ df_oa_nssec <- read_csv("ns-sec_oa.csv") %>%
   select(area_code, area_name, geography, period, indicator, socio_economic_classification, measure, unit, value) %>%
   write_csv("2021_socio-economic_classification_oa_trafford.csv")
 
+
+# Occupation ---------------------------
+
+# LA (GM)
+df_la_occupation <- read_csv("occupation_la.csv") %>%
+  rename(area_code = `Lower Tier Local Authorities Code`,
+         area_name = `Lower Tier Local Authorities`,
+         occupation = `Occupation (current) (10 categories)`,
+         value = Observation
+  ) %>%
+  filter(area_code %in% area_codes_gm) %>%
+  mutate(geography = "Local authority",
+         period = "2021-03-21",
+         indicator = "Occupation of usual residents (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons",
+         occupation = str_replace_all(occupation, "[0-9]\\. ", "")) %>% # remove the category code number
+  select(area_code, area_name, geography, period, indicator, occupation, measure, unit, value) %>%
+  write_csv("2021_occupation_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_msoa_occupation <- read_csv("occupation_msoa.csv") %>%
+  rename(area_code = `Middle Layer Super Output Areas Code`,
+         area_name = `Middle Layer Super Output Areas`,
+         occupation = `Occupation (current) (10 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Middle-layer Super Output Area",
+         period = "2021-03-21",
+         indicator = "Occupation of usual residents (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons",
+         occupation = str_replace_all(occupation, "[0-9]\\. ", "")) %>% # remove the category code number
+  select(area_code, area_name, geography, period, indicator, occupation, measure, unit, value) %>%
+  write_csv("2021_occupation_msoa_trafford.csv")
+
+
+# LSOA (Trafford)
+df_lsoa_occupation <- read_csv("occupation_lsoa.csv") %>%
+  rename(area_code = `Lower Layer Super Output Areas Code`,
+         area_name = `Lower Layer Super Output Areas`,
+         occupation = `Occupation (current) (10 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Lower-layer Super Output Area",
+         period = "2021-03-21",
+         indicator = "Occupation of usual residents (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons",
+         occupation = str_replace_all(occupation, "[0-9]\\. ", "")) %>% # remove the category code number
+  select(area_code, area_name, geography, period, indicator, occupation, measure, unit, value) %>%
+  write_csv("2021_occupation_lsoa_trafford.csv")
+
+
+# OA (Trafford)
+df_oa_occupation <- read_csv("occupation_oa.csv") %>%
+  rename(area_code = `Output Areas Code`,
+         area_name = `Output Areas`,
+         occupation = `Occupation (current) (10 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Output Area",
+         period = "2021-03-21",
+         indicator = "Occupation of usual residents (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons",
+         occupation = str_replace_all(occupation, "[0-9]\\. ", "")) %>% # remove the category code number
+  select(area_code, area_name, geography, period, indicator, occupation, measure, unit, value) %>%
+  write_csv("2021_occupation_oa_trafford.csv")
+
