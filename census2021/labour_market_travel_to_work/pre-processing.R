@@ -483,3 +483,69 @@ df_msoa_occupation_detailed <- read_csv("occupation_detailed_msoa.csv") %>%
   select(area_code, area_name, geography, period, indicator, occupation, measure, unit, value) %>%
   write_csv("2021_occupation_detailed_msoa_trafford.csv")
 
+
+# Method of travel to work ---------------------------
+
+# LA (GM)
+df_la_work_travel_mode <- read_csv("method_of_travel_to_work_la.csv") %>%
+  rename(area_code = `Lower Tier Local Authorities Code`,
+         area_name = `Lower Tier Local Authorities`,
+         mode_of_travel = `Method used to travel to workplace (12 categories)`,
+         value = Observation
+  ) %>%
+  filter(area_code %in% area_codes_gm) %>%
+  mutate(geography = "Local authority",
+         period = "2021-03-21",
+         indicator = "Method used to travel to work (2001 specification) of usual residents, (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, mode_of_travel, measure, unit, value) %>%
+  write_csv("2021_method_of_travel_to_work_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_msoa_work_travel_mode <- read_csv("method_of_travel_to_work_msoa.csv") %>%
+  rename(area_code = `Middle Layer Super Output Areas Code`,
+         area_name = `Middle Layer Super Output Areas`,
+         mode_of_travel = `Method used to travel to workplace (12 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Middle-layer Super Output Area",
+         period = "2021-03-21",
+         indicator = "Method used to travel to work (2001 specification) of usual residents, (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, mode_of_travel, measure, unit, value) %>%
+  write_csv("2021_method_of_travel_to_work_msoa_trafford.csv")
+
+
+# LSOA (Trafford)
+df_lsoa_work_travel_mode <- read_csv("method_of_travel_to_work_lsoa.csv") %>%
+  rename(area_code = `Lower Layer Super Output Areas Code`,
+         area_name = `Lower Layer Super Output Areas`,
+         mode_of_travel = `Method used to travel to workplace (12 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Lower-layer Super Output Area",
+         period = "2021-03-21",
+         indicator = "Method used to travel to work (2001 specification) of usual residents, (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, mode_of_travel, measure, unit, value) %>%
+  write_csv("2021_method_of_travel_to_work_lsoa_trafford.csv")
+
+
+# OA (Trafford)
+df_oa_work_travel_mode <- read_csv("method_of_travel_to_work_oa.csv") %>%
+  rename(area_code = `Output Areas Code`,
+         area_name = `Output Areas`,
+         mode_of_travel = `Method used to travel to workplace (12 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Output Area",
+         period = "2021-03-21",
+         indicator = "Method used to travel to work (2001 specification) of usual residents, (aged 16 years and over in employment the week before the census)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, mode_of_travel, measure, unit, value) %>%
+  write_csv("2021_method_of_travel_to_work_oa_trafford.csv")
