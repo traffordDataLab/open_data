@@ -1,5 +1,5 @@
 ---
-pagetitle: "Census 2021: Ethnicity"
+pagetitle: "Census 2021: Labour market and travel to work"
 lang: "en-GB"
 output:
   html_document:
@@ -11,15 +11,15 @@ output:
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse) ; library(htmltools) ; library(DT) 
 
-df <- read_csv("2021_population_ethnic_group_la_gm.csv") %>%
+df <- read_csv("2021_industry_la_gm.csv") %>%
     rename_all(. %>% str_to_title() %>% str_replace_all("_", " "))
 ```
 <header>
 <span id="a11yNav"><a href="#downloads" class="themeBlockDark">Skip to downloads</a></span>
 <a href="https://www.trafforddatalab.io/data.html"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" aria-label="Return to Trafford Data Lab data page" width="100" class="traffordDataLabLogo"/></a>
 
-<h1>Census 2021: Ethnicity</h1>
-*Census 2021 estimates that classify usual residents in England and Wales by ethnic group.*
+<h1>Census 2021: Labour market and travel to work</h1>
+*Census 2021 estimates that classify usual residents in England and Wales relating to the labour market and travel to work.*
 
 </header>
 
@@ -45,7 +45,7 @@ df <- read_csv("2021_population_ethnic_group_la_gm.csv") %>%
     <td>Local authority (la), Middle-layer Super Output Area (msoa), Lower-layer Super Output Area (lsoa), Output Area (oa)</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2022-12-07">2022-12-07</time></td>
+    <td><time datetime="2022-12-21">2022-12-21</time></td>
   </tr>
 </table>
 
@@ -73,28 +73,46 @@ datatable(df,
               list(className = 'dt-left', targets = "_all")
               )))
 ```
-<div id="tableFooterTitle">Population of Local Authorities in Greater Manchester classified by ethnic group (broad classification)</div>
+<div id="tableFooterTitle">Population of Local Authorities in Greater Manchester classified by the industry they work in</div>
 
 <h2>Data</h2>
 <span id ="downloads">Download the complete datasets using the following links:</span>
 
-<h3>Persons</h3>
+<h3>Labour market</h3>
 |File name |Format |
 |---|---|
-|[2021_population_ethnic_group_detailed_la_gm.csv](2021_population_ethnic_group_detailed_la_gm.csv) |CSV |
-|[2021_population_ethnic_group_detailed_msoa_trafford.csv](2021_population_ethnic_group_detailed_msoa_trafford.csv) |CSV |
-|[2021_population_ethnic_group_la_gm.csv](2021_population_ethnic_group_la_gm.csv) |CSV |
-|[2021_population_ethnic_group_msoa_trafford.csv](2021_population_ethnic_group_msoa_trafford.csv) |CSV |
-|[2021_population_ethnic_group_lsoa_trafford.csv](2021_population_ethnic_group_lsoa_trafford.csv) |CSV |
-|[2021_population_ethnic_group_oa_trafford.csv](2021_population_ethnic_group_oa_trafford.csv) |CSV |
+|[2021_industry_la_gm.csv](2021_industry_la_gm.csv) |CSV |
+|[2021_industry_msoa_trafford.csv](2021_industry_msoa_trafford.csv) |CSV |
+|[2021_occupation_la_gm.csv](2021_occupation_la_gm.csv) |CSV |
+|[2021_occupation_msoa_trafford.csv](2021_occupation_msoa_trafford.csv) |CSV |
+|[2021_occupation_lsoa_trafford.csv](2021_occupation_lsoa_traffordcsv) |CSV |
+|[2021_occupation_oa_trafford.csv](2021_occupation_oa_trafford.csv) |CSV |
+|[2021_occupation_detailed_la_gm.csv](2021_occupation_detailed_la_gm.csv) |CSV |
+|[2021_occupation_detailed_msoa_trafford.csv](2021_occupation_detailed_msoa_trafford.csv) |CSV |
+|[2021_hours_worked_la_gm.csv](2021_hours_worked_la_gm.csv) |CSV |
+|[2021_hours_worked_msoa_trafford.csv](2021_hours_worked_msoa_trafford.csv) |CSV |
+|[2021_hours_worked_lsoa_trafford.csv](2021_hours_worked_lsoa_trafford.csv) |CSV |
+|[2021_hours_worked_oa_trafford.csv](2021_hours_worked_oa_trafford.csv) |CSV |
+|[2021_economic_activity_status_la_gm.csv](2021_economic_activity_status_la_gm.csv) |CSV |
+|[2021_economic_activity_status_msoa_trafford.csv](2021_economic_activity_status_msoa_trafford.csv) |CSV |
+|[2021_economic_activity_status_lsoa_trafford.csv](2021_economic_activity_status_lsoa_trafford.csv) |CSV |
+|[2021_economic_activity_status_oa_trafford.csv](2021_economic_activity_status_oa_trafford.csv) |CSV |
+|[2021_socio-economic_classification_la_gm.csv](2021_socio-economic_classification_la_gm.csv) |CSV |
+|[2021_socio-economic_classification_msoa_trafford.csv](2021_socio-economic_classification_msoa_trafford.csv) |CSV |
+|[2021_socio-economic_classification_lsoa_trafford.csv](2021_socio-economic_classification_lsoa_trafford.csv) |CSV |
+|[2021_socio-economic_classification_oa_trafford.csv](2021_socio-economic_classification_oa_trafford.csv) |CSV |
 
-<h3>Households</h3>
+<h3>Travel to work</h3>
 |File name |Format |
 |---|---|
-|[2021_household_ethnic_diversity_la_gm.csv](2021_household_ethnic_diversity_la_gm.csv) |CSV |
-|[2021_household_ethnic_diversity_msoa_trafford.csv](2021_household_ethnic_diversity_msoa_trafford.csv) |CSV |
-|[2021_household_ethnic_diversity_lsoa_trafford.csv](2021_household_ethnic_diversity_lsoa_trafford.csv) |CSV |
-|[2021_household_ethnic_diversity_oa_trafford.csv](2021_household_ethnic_diversity_oa_trafford.csv) |CSV |
+|[2021_distance_travelled_to_work_la_gm.csv](2021_distance_travelled_to_work_la_gm.csv) |CSV |
+|[2021_distance_travelled_to_work_msoa_trafford.csv](2021_distance_travelled_to_work_msoa_trafford.csv) |CSV |
+|[2021_distance_travelled_to_work_lsoa_trafford.csv](2021_distance_travelled_to_work_lsoa_trafford.csv) |CSV |
+|[2021_distance_travelled_to_work_oa_trafford.csv](2021_distance_travelled_to_work_oa_trafford.csv) |CSV |
+|[2021_method_of_travel_to_work_la_gm.csv](2021_method_of_travel_to_work_la_gm.csv) |CSV |
+|[2021_method_of_travel_to_work_msoa_trafford.csv](2021_method_of_travel_to_work_msoa_trafford.csv) |CSV |
+|[2021_method_of_travel_to_work_lsoa_trafford.csv](2021_method_of_travel_to_work_lsoa_trafford.csv) |CSV |
+|[2021_method_of_travel_to_work_oa_trafford.csv](2021_method_of_travel_to_work_oa_trafford.csv) |CSV |
 
 <h2>Pre-processing</h2>
 [The R script used to process the data](pre-processing.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
