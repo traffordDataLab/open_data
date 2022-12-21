@@ -309,4 +309,69 @@ df_msoa_industry <- read_csv("industry_msoa.csv") %>%
   write_csv("2021_industry_msoa_trafford.csv")
 
 
+# National Statistics Socio-economic Classification (NS-SEC) ---------------------------
+
+# LA (GM)
+df_la_nssec <- read_csv("ns-sec_la.csv") %>%
+  rename(area_code = `Lower Tier Local Authorities Code`,
+         area_name = `Lower Tier Local Authorities`,
+         socio_economic_classification = `National Statistics Socio-economic Classification (NS-SeC) (10 categories)`,
+         value = Observation
+  ) %>%
+  filter(area_code %in% area_codes_gm) %>%
+  mutate(geography = "Local authority",
+         period = "2021-03-21",
+         indicator = "National Statistics Socio-economic Classification (NS-SEC) of usual residents, (aged 16 years and over)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, socio_economic_classification, measure, unit, value) %>%
+  write_csv("2021_socio-economic_classification_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_msoa_nssec <- read_csv("ns-sec_msoa.csv") %>%
+  rename(area_code = `Middle Layer Super Output Areas Code`,
+         area_name = `Middle Layer Super Output Areas`,
+         socio_economic_classification = `National Statistics Socio-economic Classification (NS-SeC) (10 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Middle-layer Super Output Area",
+         period = "2021-03-21",
+         indicator = "National Statistics Socio-economic Classification (NS-SEC) of usual residents, (aged 16 years and over)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, socio_economic_classification, measure, unit, value) %>%
+  write_csv("2021_socio-economic_classification_msoa_trafford.csv")
+
+
+# LSOA (Trafford)
+df_lsoa_nssec <- read_csv("ns-sec_lsoa.csv") %>%
+  rename(area_code = `Lower Layer Super Output Areas Code`,
+         area_name = `Lower Layer Super Output Areas`,
+         socio_economic_classification = `National Statistics Socio-economic Classification (NS-SeC) (10 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Lower-layer Super Output Area",
+         period = "2021-03-21",
+         indicator = "National Statistics Socio-economic Classification (NS-SEC) of usual residents, (aged 16 years and over)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, socio_economic_classification, measure, unit, value) %>%
+  write_csv("2021_socio-economic_classification_lsoa_trafford.csv")
+
+
+# OA (Trafford)
+df_oa_nssec <- read_csv("ns-sec_oa.csv") %>%
+  rename(area_code = `Output Areas Code`,
+         area_name = `Output Areas`,
+         socio_economic_classification = `National Statistics Socio-economic Classification (NS-SeC) (10 categories)`,
+         value = Observation
+  ) %>%
+  mutate(geography = "Output Area",
+         period = "2021-03-21",
+         indicator = "National Statistics Socio-economic Classification (NS-SEC) of usual residents, (aged 16 years and over)",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, socio_economic_classification, measure, unit, value) %>%
+  write_csv("2021_socio-economic_classification_oa_trafford.csv")
 
