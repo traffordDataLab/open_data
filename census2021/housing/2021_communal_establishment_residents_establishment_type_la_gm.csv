@@ -1,0 +1,261 @@
+area_code,area_name,geography,period,indicator,establishment_type,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,128
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Children's home (including secure units),Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home with nursing,Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home without nursing,Count,Persons,13
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Other home,Count,Persons,4
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Registered Social Landlord or Housing Association: Home or hostel,Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home with nursing,Count,Persons,612
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home without nursing,Count,Persons,790
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Children's home (including secure units),Count,Persons,10
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Mental health hospital or unit (including secure units),Count,Persons,35
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other hospital,Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other establishment,Count,Persons,31
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Defence,Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Prison service,Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Approved premises (probation or bail hostel),Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Detention centres and other detention,Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Education,Count,Persons,453
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,"Other establishment: Hotel, guest house, B&B or youth hostel",Count,Persons,26
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Hostel or temporary shelter for the homeless,Count,Persons,109
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Holiday accommodation,Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,46
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,43
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,2
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,113
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Children's home (including secure units),Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home with nursing,Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home without nursing,Count,Persons,45
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Other home,Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Registered Social Landlord or Housing Association: Home or hostel,Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home with nursing,Count,Persons,666
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home without nursing,Count,Persons,584
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Children's home (including secure units),Count,Persons,16
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Mental health hospital or unit (including secure units),Count,Persons,49
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other hospital,Count,Persons,18
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other establishment,Count,Persons,39
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Defence,Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Prison service,Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Approved premises (probation or bail hostel),Count,Persons,14
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Detention centres and other detention,Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Education,Count,Persons,181
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,"Other establishment: Hotel, guest house, B&B or youth hostel",Count,Persons,2
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Hostel or temporary shelter for the homeless,Count,Persons,25
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Holiday accommodation,Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,10
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,363
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,6
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,121
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,27
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Children's home (including secure units),Count,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home with nursing,Count,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home without nursing,Count,Persons,11
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Other home,Count,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Registered Social Landlord or Housing Association: Home or hostel,Count,Persons,9
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home with nursing,Count,Persons,1258
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home without nursing,Count,Persons,877
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Children's home (including secure units),Count,Persons,29
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Mental health hospital or unit (including secure units),Count,Persons,54
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other hospital,Count,Persons,22
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other establishment,Count,Persons,30
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Defence,Count,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Prison service,Count,Persons,652
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Approved premises (probation or bail hostel),Count,Persons,47
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Detention centres and other detention,Count,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Education,Count,Persons,17300
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,"Other establishment: Hotel, guest house, B&B or youth hostel",Count,Persons,249
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Hostel or temporary shelter for the homeless,Count,Persons,242
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Holiday accommodation,Count,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,8
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,493
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,89
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,11
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Children's home (including secure units),Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home with nursing,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home without nursing,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Other home,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Registered Social Landlord or Housing Association: Home or hostel,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home with nursing,Count,Persons,442
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home without nursing,Count,Persons,769
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Children's home (including secure units),Count,Persons,14
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Mental health hospital or unit (including secure units),Count,Persons,22
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other hospital,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other establishment,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Defence,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Prison service,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Approved premises (probation or bail hostel),Count,Persons,19
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Detention centres and other detention,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Education,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,"Other establishment: Hotel, guest house, B&B or youth hostel",Count,Persons,5
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Hostel or temporary shelter for the homeless,Count,Persons,13
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Holiday accommodation,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,53
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,95
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,25
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Children's home (including secure units),Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home with nursing,Count,Persons,26
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home without nursing,Count,Persons,25
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Other home,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Registered Social Landlord or Housing Association: Home or hostel,Count,Persons,14
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home with nursing,Count,Persons,570
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home without nursing,Count,Persons,592
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Children's home (including secure units),Count,Persons,17
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Mental health hospital or unit (including secure units),Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other hospital,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other establishment,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Defence,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Prison service,Count,Persons,428
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Approved premises (probation or bail hostel),Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Detention centres and other detention,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Education,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,"Other establishment: Hotel, guest house, B&B or youth hostel",Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Hostel or temporary shelter for the homeless,Count,Persons,70
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Holiday accommodation,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,2
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,21
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,524
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,8
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,59
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,17
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Children's home (including secure units),Count,Persons,0
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home with nursing,Count,Persons,0
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home without nursing,Count,Persons,13
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Other home,Count,Persons,0
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Registered Social Landlord or Housing Association: Home or hostel,Count,Persons,0
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home with nursing,Count,Persons,454
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home without nursing,Count,Persons,459
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Children's home (including secure units),Count,Persons,7
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Mental health hospital or unit (including secure units),Count,Persons,110
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other hospital,Count,Persons,0
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other establishment,Count,Persons,2
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Defence,Count,Persons,0
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Prison service,Count,Persons,896
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Approved premises (probation or bail hostel),Count,Persons,18
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Detention centres and other detention,Count,Persons,0
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Education,Count,Persons,2914
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,"Other establishment: Hotel, guest house, B&B or youth hostel",Count,Persons,16
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Hostel or temporary shelter for the homeless,Count,Persons,143
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Holiday accommodation,Count,Persons,0
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,2
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,20
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,22
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,58
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,16
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Children's home (including secure units),Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home with nursing,Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home without nursing,Count,Persons,62
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Other home,Count,Persons,3
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Registered Social Landlord or Housing Association: Home or hostel,Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home with nursing,Count,Persons,801
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home without nursing,Count,Persons,1013
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Children's home (including secure units),Count,Persons,80
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Mental health hospital or unit (including secure units),Count,Persons,97
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other hospital,Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other establishment,Count,Persons,15
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Defence,Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Prison service,Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Approved premises (probation or bail hostel),Count,Persons,19
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Detention centres and other detention,Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Education,Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,"Other establishment: Hotel, guest house, B&B or youth hostel",Count,Persons,5
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Hostel or temporary shelter for the homeless,Count,Persons,44
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Holiday accommodation,Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,2
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,2
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,108
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Children's home (including secure units),Count,Persons,4
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home with nursing,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home without nursing,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Other home,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Registered Social Landlord or Housing Association: Home or hostel,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home with nursing,Count,Persons,345
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home without nursing,Count,Persons,738
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Children's home (including secure units),Count,Persons,29
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Mental health hospital or unit (including secure units),Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other hospital,Count,Persons,1
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other establishment,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Defence,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Prison service,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Approved premises (probation or bail hostel),Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Detention centres and other detention,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Education,Count,Persons,8
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,"Other establishment: Hotel, guest house, B&B or youth hostel",Count,Persons,30
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Hostel or temporary shelter for the homeless,Count,Persons,116
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Holiday accommodation,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,8
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,49
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,40
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Children's home (including secure units),Count,Persons,4
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home with nursing,Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home without nursing,Count,Persons,10
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Other home,Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Registered Social Landlord or Housing Association: Home or hostel,Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home with nursing,Count,Persons,733
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home without nursing,Count,Persons,466
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Children's home (including secure units),Count,Persons,3
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Mental health hospital or unit (including secure units),Count,Persons,2
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other hospital,Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other establishment,Count,Persons,29
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Defence,Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Prison service,Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Approved premises (probation or bail hostel),Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Detention centres and other detention,Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Education,Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,"Other establishment: Hotel, guest house, B&B or youth hostel",Count,Persons,23
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Hostel or temporary shelter for the homeless,Count,Persons,6
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Holiday accommodation,Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,12
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,4
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,3
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,27
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,2
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,4
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Children's home (including secure units),Count,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home with nursing,Count,Persons,50
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Care home without nursing,Count,Persons,82
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Local Authority: Other home,Count,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Registered Social Landlord or Housing Association: Home or hostel,Count,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home with nursing,Count,Persons,882
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Care home without nursing,Count,Persons,703
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Children's home (including secure units),Count,Persons,36
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Mental health hospital or unit (including secure units),Count,Persons,70
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other hospital,Count,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: Other: Other establishment,Count,Persons,21
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Defence,Count,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Prison service,Count,Persons,498
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Approved premises (probation or bail hostel),Count,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Detention centres and other detention,Count,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Education,Count,Persons,1
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,"Other establishment: Hotel, guest house, B&B or youth hostel",Count,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Hostel or temporary shelter for the homeless,Count,Persons,82
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Holiday accommodation,Count,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,21
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,2

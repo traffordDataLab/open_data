@@ -1,0 +1,81 @@
+area_code,area_name,geography,period,indicator,accommodation_type,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,Households in England and Wales by accommodation type,Detached,Count,Households,20799
+E08000001,Bolton,Local authority,2021-03-21,Households in England and Wales by accommodation type,Semi-detached,Count,Households,42656
+E08000001,Bolton,Local authority,2021-03-21,Households in England and Wales by accommodation type,Terraced,Count,Households,39464
+E08000001,Bolton,Local authority,2021-03-21,Households in England and Wales by accommodation type,In a purpose-built block of flats or tenement,Count,Households,13194
+E08000001,Bolton,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of a converted or shared house, including bedsits",Count,Households,1046
+E08000001,Bolton,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of another converted building, for example, former school, church or warehouse",Count,Households,829
+E08000001,Bolton,Local authority,2021-03-21,Households in England and Wales by accommodation type,"In a commercial building, for example, in an office building, hotel or over a shop",Count,Households,714
+E08000001,Bolton,Local authority,2021-03-21,Households in England and Wales by accommodation type,A caravan or other mobile or temporary structure,Count,Households,89
+E08000002,Bury,Local authority,2021-03-21,Households in England and Wales by accommodation type,Detached,Count,Households,15185
+E08000002,Bury,Local authority,2021-03-21,Households in England and Wales by accommodation type,Semi-detached,Count,Households,31115
+E08000002,Bury,Local authority,2021-03-21,Households in England and Wales by accommodation type,Terraced,Count,Households,22817
+E08000002,Bury,Local authority,2021-03-21,Households in England and Wales by accommodation type,In a purpose-built block of flats or tenement,Count,Households,9735
+E08000002,Bury,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of a converted or shared house, including bedsits",Count,Households,888
+E08000002,Bury,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of another converted building, for example, former school, church or warehouse",Count,Households,365
+E08000002,Bury,Local authority,2021-03-21,Households in England and Wales by accommodation type,"In a commercial building, for example, in an office building, hotel or over a shop",Count,Households,541
+E08000002,Bury,Local authority,2021-03-21,Households in England and Wales by accommodation type,A caravan or other mobile or temporary structure,Count,Households,49
+E08000003,Manchester,Local authority,2021-03-21,Households in England and Wales by accommodation type,Detached,Count,Households,11603
+E08000003,Manchester,Local authority,2021-03-21,Households in England and Wales by accommodation type,Semi-detached,Count,Households,68528
+E08000003,Manchester,Local authority,2021-03-21,Households in England and Wales by accommodation type,Terraced,Count,Households,60020
+E08000003,Manchester,Local authority,2021-03-21,Households in England and Wales by accommodation type,In a purpose-built block of flats or tenement,Count,Households,60411
+E08000003,Manchester,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of a converted or shared house, including bedsits",Count,Households,8370
+E08000003,Manchester,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of another converted building, for example, former school, church or warehouse",Count,Households,3837
+E08000003,Manchester,Local authority,2021-03-21,Households in England and Wales by accommodation type,"In a commercial building, for example, in an office building, hotel or over a shop",Count,Households,1771
+E08000003,Manchester,Local authority,2021-03-21,Households in England and Wales by accommodation type,A caravan or other mobile or temporary structure,Count,Households,192
+E08000004,Oldham,Local authority,2021-03-21,Households in England and Wales by accommodation type,Detached,Count,Households,12356
+E08000004,Oldham,Local authority,2021-03-21,Households in England and Wales by accommodation type,Semi-detached,Count,Households,33440
+E08000004,Oldham,Local authority,2021-03-21,Households in England and Wales by accommodation type,Terraced,Count,Households,35838
+E08000004,Oldham,Local authority,2021-03-21,Households in England and Wales by accommodation type,In a purpose-built block of flats or tenement,Count,Households,9857
+E08000004,Oldham,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of a converted or shared house, including bedsits",Count,Households,556
+E08000004,Oldham,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of another converted building, for example, former school, church or warehouse",Count,Households,470
+E08000004,Oldham,Local authority,2021-03-21,Households in England and Wales by accommodation type,"In a commercial building, for example, in an office building, hotel or over a shop",Count,Households,549
+E08000004,Oldham,Local authority,2021-03-21,Households in England and Wales by accommodation type,A caravan or other mobile or temporary structure,Count,Households,74
+E08000005,Rochdale,Local authority,2021-03-21,Households in England and Wales by accommodation type,Detached,Count,Households,15155
+E08000005,Rochdale,Local authority,2021-03-21,Households in England and Wales by accommodation type,Semi-detached,Count,Households,32358
+E08000005,Rochdale,Local authority,2021-03-21,Households in England and Wales by accommodation type,Terraced,Count,Households,31026
+E08000005,Rochdale,Local authority,2021-03-21,Households in England and Wales by accommodation type,In a purpose-built block of flats or tenement,Count,Households,9916
+E08000005,Rochdale,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of a converted or shared house, including bedsits",Count,Households,771
+E08000005,Rochdale,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of another converted building, for example, former school, church or warehouse",Count,Households,356
+E08000005,Rochdale,Local authority,2021-03-21,Households in England and Wales by accommodation type,"In a commercial building, for example, in an office building, hotel or over a shop",Count,Households,547
+E08000005,Rochdale,Local authority,2021-03-21,Households in England and Wales by accommodation type,A caravan or other mobile or temporary structure,Count,Households,94
+E08000006,Salford,Local authority,2021-03-21,Households in England and Wales by accommodation type,Detached,Count,Households,10764
+E08000006,Salford,Local authority,2021-03-21,Households in England and Wales by accommodation type,Semi-detached,Count,Households,39987
+E08000006,Salford,Local authority,2021-03-21,Households in England and Wales by accommodation type,Terraced,Count,Households,29241
+E08000006,Salford,Local authority,2021-03-21,Households in England and Wales by accommodation type,In a purpose-built block of flats or tenement,Count,Households,31999
+E08000006,Salford,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of a converted or shared house, including bedsits",Count,Households,1606
+E08000006,Salford,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of another converted building, for example, former school, church or warehouse",Count,Households,702
+E08000006,Salford,Local authority,2021-03-21,Households in England and Wales by accommodation type,"In a commercial building, for example, in an office building, hotel or over a shop",Count,Households,690
+E08000006,Salford,Local authority,2021-03-21,Households in England and Wales by accommodation type,A caravan or other mobile or temporary structure,Count,Households,128
+E08000007,Stockport,Local authority,2021-03-21,Households in England and Wales by accommodation type,Detached,Count,Households,27416
+E08000007,Stockport,Local authority,2021-03-21,Households in England and Wales by accommodation type,Semi-detached,Count,Households,52145
+E08000007,Stockport,Local authority,2021-03-21,Households in England and Wales by accommodation type,Terraced,Count,Households,26512
+E08000007,Stockport,Local authority,2021-03-21,Households in England and Wales by accommodation type,In a purpose-built block of flats or tenement,Count,Households,16692
+E08000007,Stockport,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of a converted or shared house, including bedsits",Count,Households,1730
+E08000007,Stockport,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of another converted building, for example, former school, church or warehouse",Count,Households,1004
+E08000007,Stockport,Local authority,2021-03-21,Households in England and Wales by accommodation type,"In a commercial building, for example, in an office building, hotel or over a shop",Count,Households,1075
+E08000007,Stockport,Local authority,2021-03-21,Households in England and Wales by accommodation type,A caravan or other mobile or temporary structure,Count,Households,74
+E08000008,Tameside,Local authority,2021-03-21,Households in England and Wales by accommodation type,Detached,Count,Households,11904
+E08000008,Tameside,Local authority,2021-03-21,Households in England and Wales by accommodation type,Semi-detached,Count,Households,38449
+E08000008,Tameside,Local authority,2021-03-21,Households in England and Wales by accommodation type,Terraced,Count,Households,33953
+E08000008,Tameside,Local authority,2021-03-21,Households in England and Wales by accommodation type,In a purpose-built block of flats or tenement,Count,Households,12799
+E08000008,Tameside,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of a converted or shared house, including bedsits",Count,Households,915
+E08000008,Tameside,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of another converted building, for example, former school, church or warehouse",Count,Households,680
+E08000008,Tameside,Local authority,2021-03-21,Households in England and Wales by accommodation type,"In a commercial building, for example, in an office building, hotel or over a shop",Count,Households,720
+E08000008,Tameside,Local authority,2021-03-21,Households in England and Wales by accommodation type,A caravan or other mobile or temporary structure,Count,Households,106
+E08000009,Trafford,Local authority,2021-03-21,Households in England and Wales by accommodation type,Detached,Count,Households,14601
+E08000009,Trafford,Local authority,2021-03-21,Households in England and Wales by accommodation type,Semi-detached,Count,Households,42193
+E08000009,Trafford,Local authority,2021-03-21,Households in England and Wales by accommodation type,Terraced,Count,Households,19976
+E08000009,Trafford,Local authority,2021-03-21,Households in England and Wales by accommodation type,In a purpose-built block of flats or tenement,Count,Households,16236
+E08000009,Trafford,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of a converted or shared house, including bedsits",Count,Households,1839
+E08000009,Trafford,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of another converted building, for example, former school, church or warehouse",Count,Households,547
+E08000009,Trafford,Local authority,2021-03-21,Households in England and Wales by accommodation type,"In a commercial building, for example, in an office building, hotel or over a shop",Count,Households,846
+E08000009,Trafford,Local authority,2021-03-21,Households in England and Wales by accommodation type,A caravan or other mobile or temporary structure,Count,Households,31
+E08000010,Wigan,Local authority,2021-03-21,Households in England and Wales by accommodation type,Detached,Count,Households,27450
+E08000010,Wigan,Local authority,2021-03-21,Households in England and Wales by accommodation type,Semi-detached,Count,Households,65250
+E08000010,Wigan,Local authority,2021-03-21,Households in England and Wales by accommodation type,Terraced,Count,Households,37347
+E08000010,Wigan,Local authority,2021-03-21,Households in England and Wales by accommodation type,In a purpose-built block of flats or tenement,Count,Households,10604
+E08000010,Wigan,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of a converted or shared house, including bedsits",Count,Households,1066
+E08000010,Wigan,Local authority,2021-03-21,Households in England and Wales by accommodation type,"Part of another converted building, for example, former school, church or warehouse",Count,Households,529
+E08000010,Wigan,Local authority,2021-03-21,Households in England and Wales by accommodation type,"In a commercial building, for example, in an office building, hotel or over a shop",Count,Households,771
+E08000010,Wigan,Local authority,2021-03-21,Households in England and Wales by accommodation type,A caravan or other mobile or temporary structure,Count,Households,86

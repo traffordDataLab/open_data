@@ -1,0 +1,337 @@
+area_code,area_name,geography,period,indicator,central_heating_type,measure,unit,value
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,100
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2727
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,23
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,1187
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,2
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,1
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,36
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,162
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,133
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,379
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,15
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,37
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2723
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,5
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,76
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,1
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,2
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,2
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,2
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,11
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,211
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,4
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,70
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2807
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,11
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,405
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,5
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,6
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,17
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,28
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,315
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,3
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,46
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2462
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,4
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,247
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,1
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,3
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,1
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,25
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,30
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,262
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,4
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,23
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3049
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,4
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,101
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,3
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,2
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,4
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,1
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,9
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,209
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,5
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,35
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2845
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,7
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,142
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,2
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,2
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,0
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,2
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,24
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,238
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,0
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,36
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2983
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,4
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,84
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,2
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,1
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,2
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,22
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,17
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,225
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,9
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,46
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2424
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,9
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,295
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,2
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,1
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,46
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,34
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,218
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,15
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,50
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2666
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,7
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,377
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,0
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,1
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,1
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,3
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,43
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,16
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,223
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,3
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,23
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2630
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,2
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,98
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,1
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,1
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,4
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,0
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,9
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,178
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,11
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,50
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2869
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,7
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,333
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,3
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,4
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,16
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,26
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,268
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,1
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,40
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2860
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,3
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,458
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,0
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,2
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,31
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,20
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,230
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,10
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,42
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2389
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,4
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,123
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,2
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,1
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,11
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,13
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,197
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,3
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,44
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2879
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,9
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,214
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,4
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,3
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,10
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,8
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,187
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,10
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,73
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3189
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,10
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,687
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,4
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,22
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,12
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,22
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,24
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,294
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,13
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,23
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2757
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,6
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,169
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,3
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,1
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,4
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,10
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,168
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,6
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,60
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2784
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,18
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,141
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,4
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,2
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,1
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,0
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,11
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,40
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,277
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,10
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,27
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2862
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,15
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,85
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,0
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,3
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,2
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,2
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,22
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,220
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,9
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,50
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3236
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,11
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,124
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,3
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,1
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,0
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,16
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,46
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,309
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,6
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,42
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2671
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,4
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,435
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,3
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,1
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,1
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,3
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,11
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,184
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,3
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,22
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2891
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,4
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,48
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,1
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,1
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,1
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,2
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,0
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,5
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,182
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,10
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,44
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2846
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,5
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,270
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,1
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,21
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,12
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,21
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,282
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,11
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,20
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2680
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,2
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,156
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,1
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,2
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,15
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,8
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,183
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,5
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,56
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3501
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,9
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,337
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,4
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,4
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,11
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,15
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,282
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,7
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,36
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3003
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,23
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,558
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,38
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,4
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,4
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,14
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,67
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,23
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,311
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,12
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,25
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2691
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,6
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,199
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,1
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,0
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,0
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,8
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,182
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,10
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,21
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2771
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,6
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,207
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,4
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,1
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,10
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,2
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,12
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,217
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,11
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,20
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,2681
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,8
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,79
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,10
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,9
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,2
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,7
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,230
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,10

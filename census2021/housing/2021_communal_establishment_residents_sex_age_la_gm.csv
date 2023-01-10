@@ -1,0 +1,191 @@
+area_code,area_name,geography,period,indicator,resident_category,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 0 to 15 years,Count,Persons,56
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 16 to 24 years,Count,Persons,233
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 25 to 34 years,Count,Persons,65
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 35 to 49 years,Count,Persons,71
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 50 to 64 years,Count,Persons,130
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 65 to 74 years,Count,Persons,82
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 75 to 84 years,Count,Persons,168
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 85 years and over,Count,Persons,147
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 0 to 15 years,Count,Persons,8
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 16 to 24 years,Count,Persons,198
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 25 to 34 years,Count,Persons,55
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 35 to 49 years,Count,Persons,47
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 50 to 64 years,Count,Persons,79
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 65 to 74 years,Count,Persons,114
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 75 to 84 years,Count,Persons,252
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 85 years and over,Count,Persons,529
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Staff or owner,Count,Persons,5
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Family member or partner of staff or owner,Count,Persons,4
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by age and sex,Staying temporarily (no usual UK address),Count,Persons,18
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 0 to 15 years,Count,Persons,89
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 16 to 24 years,Count,Persons,139
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 25 to 34 years,Count,Persons,69
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 35 to 49 years,Count,Persons,88
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 50 to 64 years,Count,Persons,156
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 65 to 74 years,Count,Persons,110
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 75 to 84 years,Count,Persons,111
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 85 years and over,Count,Persons,117
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 0 to 15 years,Count,Persons,6
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 16 to 24 years,Count,Persons,25
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 25 to 34 years,Count,Persons,21
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 35 to 49 years,Count,Persons,26
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 50 to 64 years,Count,Persons,71
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 65 to 74 years,Count,Persons,84
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 75 to 84 years,Count,Persons,217
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 85 years and over,Count,Persons,457
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Staff or owner,Count,Persons,4
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Family member or partner of staff or owner,Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by age and sex,Staying temporarily (no usual UK address),Count,Persons,16
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 0 to 15 years,Count,Persons,50
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 16 to 24 years,Count,Persons,7410
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 25 to 34 years,Count,Persons,996
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 35 to 49 years,Count,Persons,508
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 50 to 64 years,Count,Persons,458
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 65 to 74 years,Count,Persons,262
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 75 to 84 years,Count,Persons,241
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 85 years and over,Count,Persons,166
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 0 to 15 years,Count,Persons,42
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 16 to 24 years,Count,Persons,9047
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 25 to 34 years,Count,Persons,564
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 35 to 49 years,Count,Persons,125
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 50 to 64 years,Count,Persons,174
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 65 to 74 years,Count,Persons,158
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 75 to 84 years,Count,Persons,338
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 85 years and over,Count,Persons,542
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Staff or owner,Count,Persons,85
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Family member or partner of staff or owner,Count,Persons,44
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by age and sex,Staying temporarily (no usual UK address),Count,Persons,591
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 0 to 15 years,Count,Persons,14
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 16 to 24 years,Count,Persons,11
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 25 to 34 years,Count,Persons,32
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 35 to 49 years,Count,Persons,51
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 50 to 64 years,Count,Persons,96
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 65 to 74 years,Count,Persons,99
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 75 to 84 years,Count,Persons,139
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 85 years and over,Count,Persons,113
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 0 to 15 years,Count,Persons,8
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 16 to 24 years,Count,Persons,17
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 25 to 34 years,Count,Persons,21
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 35 to 49 years,Count,Persons,18
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 50 to 64 years,Count,Persons,68
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 65 to 74 years,Count,Persons,98
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 75 to 84 years,Count,Persons,243
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 85 years and over,Count,Persons,378
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Staff or owner,Count,Persons,0
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Family member or partner of staff or owner,Count,Persons,4
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by age and sex,Staying temporarily (no usual UK address),Count,Persons,27
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 0 to 15 years,Count,Persons,5
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 16 to 24 years,Count,Persons,36
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 25 to 34 years,Count,Persons,209
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 35 to 49 years,Count,Persons,213
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 50 to 64 years,Count,Persons,189
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 65 to 74 years,Count,Persons,112
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 75 to 84 years,Count,Persons,145
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 85 years and over,Count,Persons,107
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 0 to 15 years,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 16 to 24 years,Count,Persons,9
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 25 to 34 years,Count,Persons,9
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 35 to 49 years,Count,Persons,23
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 50 to 64 years,Count,Persons,75
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 65 to 74 years,Count,Persons,80
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 75 to 84 years,Count,Persons,191
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 85 years and over,Count,Persons,388
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Staff or owner,Count,Persons,37
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Family member or partner of staff or owner,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by age and sex,Staying temporarily (no usual UK address),Count,Persons,52
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 0 to 15 years,Count,Persons,6
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 16 to 24 years,Count,Persons,1695
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 25 to 34 years,Count,Persons,463
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 35 to 49 years,Count,Persons,399
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 50 to 64 years,Count,Persons,212
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 65 to 74 years,Count,Persons,96
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 75 to 84 years,Count,Persons,102
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 85 years and over,Count,Persons,84
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 0 to 15 years,Count,Persons,14
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 16 to 24 years,Count,Persons,1726
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 25 to 34 years,Count,Persons,90
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 35 to 49 years,Count,Persons,56
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 50 to 64 years,Count,Persons,65
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 65 to 74 years,Count,Persons,64
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 75 to 84 years,Count,Persons,196
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 85 years and over,Count,Persons,293
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Staff or owner,Count,Persons,8
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Family member or partner of staff or owner,Count,Persons,10
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by age and sex,Staying temporarily (no usual UK address),Count,Persons,105
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 0 to 15 years,Count,Persons,43
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 16 to 24 years,Count,Persons,67
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 25 to 34 years,Count,Persons,45
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 35 to 49 years,Count,Persons,51
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 50 to 64 years,Count,Persons,68
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 65 to 74 years,Count,Persons,101
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 75 to 84 years,Count,Persons,203
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 85 years and over,Count,Persons,200
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 0 to 15 years,Count,Persons,26
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 16 to 24 years,Count,Persons,59
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 25 to 34 years,Count,Persons,39
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 35 to 49 years,Count,Persons,38
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 50 to 64 years,Count,Persons,65
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 65 to 74 years,Count,Persons,81
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 75 to 84 years,Count,Persons,346
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 85 years and over,Count,Persons,736
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Staff or owner,Count,Persons,18
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Family member or partner of staff or owner,Count,Persons,2
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by age and sex,Staying temporarily (no usual UK address),Count,Persons,30
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 0 to 15 years,Count,Persons,19
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 16 to 24 years,Count,Persons,9
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 25 to 34 years,Count,Persons,4
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 35 to 49 years,Count,Persons,13
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 50 to 64 years,Count,Persons,53
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 65 to 74 years,Count,Persons,84
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 75 to 84 years,Count,Persons,171
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 85 years and over,Count,Persons,119
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 0 to 15 years,Count,Persons,20
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 16 to 24 years,Count,Persons,7
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 25 to 34 years,Count,Persons,21
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 35 to 49 years,Count,Persons,18
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 50 to 64 years,Count,Persons,23
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 65 to 74 years,Count,Persons,61
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 75 to 84 years,Count,Persons,250
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 85 years and over,Count,Persons,427
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Staff or owner,Count,Persons,6
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Family member or partner of staff or owner,Count,Persons,19
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by age and sex,Staying temporarily (no usual UK address),Count,Persons,62
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 0 to 15 years,Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 16 to 24 years,Count,Persons,24
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 25 to 34 years,Count,Persons,35
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 35 to 49 years,Count,Persons,49
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 50 to 64 years,Count,Persons,91
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 65 to 74 years,Count,Persons,65
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 75 to 84 years,Count,Persons,116
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 85 years and over,Count,Persons,134
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 0 to 15 years,Count,Persons,2
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 16 to 24 years,Count,Persons,13
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 25 to 34 years,Count,Persons,18
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 35 to 49 years,Count,Persons,22
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 50 to 64 years,Count,Persons,54
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 65 to 74 years,Count,Persons,72
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 75 to 84 years,Count,Persons,198
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 85 years and over,Count,Persons,452
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Staff or owner,Count,Persons,13
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Family member or partner of staff or owner,Count,Persons,7
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by age and sex,Staying temporarily (no usual UK address),Count,Persons,18
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 0 to 15 years,Count,Persons,13
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 16 to 24 years,Count,Persons,190
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 25 to 34 years,Count,Persons,195
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 35 to 49 years,Count,Persons,142
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 50 to 64 years,Count,Persons,109
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 65 to 74 years,Count,Persons,116
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 75 to 84 years,Count,Persons,216
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Male: Aged 85 years and over,Count,Persons,176
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 0 to 15 years,Count,Persons,5
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 16 to 24 years,Count,Persons,23
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 25 to 34 years,Count,Persons,5
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 35 to 49 years,Count,Persons,12
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 50 to 64 years,Count,Persons,60
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 65 to 74 years,Count,Persons,127
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 75 to 84 years,Count,Persons,329
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Resident: Female: Aged 85 years and over,Count,Persons,638
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Staff or owner,Count,Persons,4
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Family member or partner of staff or owner,Count,Persons,5
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by age and sex,Staying temporarily (no usual UK address),Count,Persons,115

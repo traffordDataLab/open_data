@@ -1,0 +1,91 @@
+area_code,area_name,geography,period,indicator,household_rooms,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),1 room,Count,Households,443
+E08000001,Bolton,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),2 rooms,Count,Households,9678
+E08000001,Bolton,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),3 rooms,Count,Households,37065
+E08000001,Bolton,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),4 rooms,Count,Households,38995
+E08000001,Bolton,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),5 rooms,Count,Households,19612
+E08000001,Bolton,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),6 rooms,Count,Households,8365
+E08000001,Bolton,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),7 rooms,Count,Households,2974
+E08000001,Bolton,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),8 rooms,Count,Households,975
+E08000001,Bolton,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),9 or more rooms,Count,Households,685
+E08000002,Bury,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),1 room,Count,Households,362
+E08000002,Bury,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),2 rooms,Count,Households,6311
+E08000002,Bury,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),3 rooms,Count,Households,22676
+E08000002,Bury,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),4 rooms,Count,Households,22841
+E08000002,Bury,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),5 rooms,Count,Households,18240
+E08000002,Bury,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),6 rooms,Count,Households,6886
+E08000002,Bury,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),7 rooms,Count,Households,2179
+E08000002,Bury,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),8 rooms,Count,Households,745
+E08000002,Bury,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),9 or more rooms,Count,Households,454
+E08000003,Manchester,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),1 room,Count,Households,2957
+E08000003,Manchester,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),2 rooms,Count,Households,29586
+E08000003,Manchester,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),3 rooms,Count,Households,60979
+E08000003,Manchester,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),4 rooms,Count,Households,60731
+E08000003,Manchester,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),5 rooms,Count,Households,42839
+E08000003,Manchester,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),6 rooms,Count,Households,12056
+E08000003,Manchester,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),7 rooms,Count,Households,3359
+E08000003,Manchester,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),8 rooms,Count,Households,1264
+E08000003,Manchester,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),9 or more rooms,Count,Households,960
+E08000004,Oldham,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),1 room,Count,Households,367
+E08000004,Oldham,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),2 rooms,Count,Households,7165
+E08000004,Oldham,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),3 rooms,Count,Households,30934
+E08000004,Oldham,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),4 rooms,Count,Households,27446
+E08000004,Oldham,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),5 rooms,Count,Households,18277
+E08000004,Oldham,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),6 rooms,Count,Households,6039
+E08000004,Oldham,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),7 rooms,Count,Households,1849
+E08000004,Oldham,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),8 rooms,Count,Households,641
+E08000004,Oldham,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),9 or more rooms,Count,Households,423
+E08000005,Rochdale,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),1 room,Count,Households,513
+E08000005,Rochdale,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),2 rooms,Count,Households,7261
+E08000005,Rochdale,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),3 rooms,Count,Households,26818
+E08000005,Rochdale,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),4 rooms,Count,Households,29634
+E08000005,Rochdale,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),5 rooms,Count,Households,16637
+E08000005,Rochdale,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),6 rooms,Count,Households,6562
+E08000005,Rochdale,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),7 rooms,Count,Households,1852
+E08000005,Rochdale,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),8 rooms,Count,Households,559
+E08000005,Rochdale,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),9 or more rooms,Count,Households,387
+E08000006,Salford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),1 room,Count,Households,1477
+E08000006,Salford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),2 rooms,Count,Households,13036
+E08000006,Salford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),3 rooms,Count,Households,34499
+E08000006,Salford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),4 rooms,Count,Households,34251
+E08000006,Salford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),5 rooms,Count,Households,22055
+E08000006,Salford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),6 rooms,Count,Households,6492
+E08000006,Salford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),7 rooms,Count,Households,2029
+E08000006,Salford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),8 rooms,Count,Households,673
+E08000006,Salford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),9 or more rooms,Count,Households,604
+E08000007,Stockport,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),1 room,Count,Households,972
+E08000007,Stockport,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),2 rooms,Count,Households,10471
+E08000007,Stockport,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),3 rooms,Count,Households,29096
+E08000007,Stockport,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),4 rooms,Count,Households,30903
+E08000007,Stockport,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),5 rooms,Count,Households,37399
+E08000007,Stockport,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),6 rooms,Count,Households,11740
+E08000007,Stockport,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),7 rooms,Count,Households,4035
+E08000007,Stockport,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),8 rooms,Count,Households,1339
+E08000007,Stockport,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),9 or more rooms,Count,Households,692
+E08000008,Tameside,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),1 room,Count,Households,464
+E08000008,Tameside,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),2 rooms,Count,Households,8814
+E08000008,Tameside,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),3 rooms,Count,Households,33921
+E08000008,Tameside,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),4 rooms,Count,Households,35437
+E08000008,Tameside,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),5 rooms,Count,Households,14423
+E08000008,Tameside,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),6 rooms,Count,Households,4463
+E08000008,Tameside,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),7 rooms,Count,Households,1408
+E08000008,Tameside,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),8 rooms,Count,Households,361
+E08000008,Tameside,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),9 or more rooms,Count,Households,238
+E08000009,Trafford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),1 room,Count,Households,848
+E08000009,Trafford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),2 rooms,Count,Households,7809
+E08000009,Trafford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),3 rooms,Count,Households,17595
+E08000009,Trafford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),4 rooms,Count,Households,22042
+E08000009,Trafford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),5 rooms,Count,Households,32324
+E08000009,Trafford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),6 rooms,Count,Households,9235
+E08000009,Trafford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),7 rooms,Count,Households,3773
+E08000009,Trafford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),8 rooms,Count,Households,1408
+E08000009,Trafford,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),9 or more rooms,Count,Households,1236
+E08000010,Wigan,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),1 room,Count,Households,348
+E08000010,Wigan,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),2 rooms,Count,Households,7646
+E08000010,Wigan,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),3 rooms,Count,Households,31948
+E08000010,Wigan,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),4 rooms,Count,Households,55686
+E08000010,Wigan,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),5 rooms,Count,Households,32784
+E08000010,Wigan,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),6 rooms,Count,Households,10814
+E08000010,Wigan,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),7 rooms,Count,Households,2800
+E08000010,Wigan,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),8 rooms,Count,Households,696
+E08000010,Wigan,Local authority,2021-03-21,Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition),9 or more rooms,Count,Households,382

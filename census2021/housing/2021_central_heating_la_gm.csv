@@ -1,0 +1,121 @@
+area_code,area_name,geography,period,indicator,central_heating_type,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,1747
+E08000001,Bolton,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,96195
+E08000001,Bolton,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,402
+E08000001,Bolton,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,8045
+E08000001,Bolton,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,250
+E08000001,Bolton,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,42
+E08000001,Bolton,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,90
+E08000001,Bolton,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,104
+E08000001,Bolton,Local authority,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,643
+E08000001,Bolton,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,1346
+E08000001,Bolton,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,9650
+E08000001,Bolton,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,275
+E08000002,Bury,Local authority,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,1035
+E08000002,Bury,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,67065
+E08000002,Bury,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,225
+E08000002,Bury,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,4957
+E08000002,Bury,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,182
+E08000002,Bury,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,27
+E08000002,Bury,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,20
+E08000002,Bury,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,66
+E08000002,Bury,Local authority,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,200
+E08000002,Bury,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,574
+E08000002,Bury,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,6159
+E08000002,Bury,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,184
+E08000003,Manchester,Local authority,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,4884
+E08000003,Manchester,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,143876
+E08000003,Manchester,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,1039
+E08000003,Manchester,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,39199
+E08000003,Manchester,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,193
+E08000003,Manchester,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,77
+E08000003,Manchester,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,23
+E08000003,Manchester,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,400
+E08000003,Manchester,Local authority,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,2349
+E08000003,Manchester,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,3731
+E08000003,Manchester,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,18074
+E08000003,Manchester,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,890
+E08000004,Oldham,Local authority,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,1109
+E08000004,Oldham,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,75150
+E08000004,Oldham,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,432
+E08000004,Oldham,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,4829
+E08000004,Oldham,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,269
+E08000004,Oldham,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,28
+E08000004,Oldham,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,39
+E08000004,Oldham,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,89
+E08000004,Oldham,Local authority,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,1190
+E08000004,Oldham,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,1313
+E08000004,Oldham,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,8407
+E08000004,Oldham,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,284
+E08000005,Rochdale,Local authority,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,1144
+E08000005,Rochdale,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,73569
+E08000005,Rochdale,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,433
+E08000005,Rochdale,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,5011
+E08000005,Rochdale,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,257
+E08000005,Rochdale,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,46
+E08000005,Rochdale,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,39
+E08000005,Rochdale,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,76
+E08000005,Rochdale,Local authority,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,315
+E08000005,Rochdale,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,1116
+E08000005,Rochdale,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,7968
+E08000005,Rochdale,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,251
+E08000006,Salford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,1952
+E08000006,Salford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,79857
+E08000006,Salford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,436
+E08000006,Salford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,20813
+E08000006,Salford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,161
+E08000006,Salford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,21
+E08000006,Salford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,59
+E08000006,Salford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,368
+E08000006,Salford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,843
+E08000006,Salford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,1368
+E08000006,Salford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,8826
+E08000006,Salford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,412
+E08000007,Stockport,Local authority,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,1570
+E08000007,Stockport,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,103947
+E08000007,Stockport,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,362
+E08000007,Stockport,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,8626
+E08000007,Stockport,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,238
+E08000007,Stockport,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,169
+E08000007,Stockport,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,32
+E08000007,Stockport,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,210
+E08000007,Stockport,Local authority,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,1157
+E08000007,Stockport,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,887
+E08000007,Stockport,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,9017
+E08000007,Stockport,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,434
+E08000008,Tameside,Local authority,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,1456
+E08000008,Tameside,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,81583
+E08000008,Tameside,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,331
+E08000008,Tameside,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,5629
+E08000008,Tameside,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,168
+E08000008,Tameside,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,38
+E08000008,Tameside,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,32
+E08000008,Tameside,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,103
+E08000008,Tameside,Local authority,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,357
+E08000008,Tameside,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,930
+E08000008,Tameside,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,8542
+E08000008,Tameside,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,355
+E08000009,Trafford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,1160
+E08000009,Trafford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,78873
+E08000009,Trafford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,228
+E08000009,Trafford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,7638
+E08000009,Trafford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,107
+E08000009,Trafford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,39
+E08000009,Trafford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,11
+E08000009,Trafford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,139
+E08000009,Trafford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,557
+E08000009,Trafford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,629
+E08000009,Trafford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,6669
+E08000009,Trafford,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,217
+E08000010,Wigan,Local authority,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,1383
+E08000010,Wigan,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,120044
+E08000010,Wigan,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,577
+E08000010,Wigan,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,7411
+E08000010,Wigan,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,297
+E08000010,Wigan,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,51
+E08000010,Wigan,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,298
+E08000010,Wigan,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,132
+E08000010,Wigan,Local authority,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,283
+E08000010,Wigan,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,893
+E08000010,Wigan,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,11341
+E08000010,Wigan,Local authority,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,392

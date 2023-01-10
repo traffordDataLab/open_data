@@ -1,0 +1,41 @@
+area_code,area_name,geography,period,indicator,household_bedrooms,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,11272
+E08000001,Bolton,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,38324
+E08000001,Bolton,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,49567
+E08000001,Bolton,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,19627
+E08000002,Bury,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,7207
+E08000002,Bury,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,23477
+E08000002,Bury,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,34960
+E08000002,Bury,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,15051
+E08000003,Manchester,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,33402
+E08000003,Manchester,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,70157
+E08000003,Manchester,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,85527
+E08000003,Manchester,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,25645
+E08000004,Oldham,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,8485
+E08000004,Oldham,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,32285
+E08000004,Oldham,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,37975
+E08000004,Oldham,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,14395
+E08000005,Rochdale,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,9018
+E08000005,Rochdale,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,27450
+E08000005,Rochdale,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,39259
+E08000005,Rochdale,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,14496
+E08000006,Salford,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,15894
+E08000006,Salford,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,39296
+E08000006,Salford,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,45429
+E08000006,Salford,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,14497
+E08000007,Stockport,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,12050
+E08000007,Stockport,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,33509
+E08000007,Stockport,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,54033
+E08000007,Stockport,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,27056
+E08000008,Tameside,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,10113
+E08000008,Tameside,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,33757
+E08000008,Tameside,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,43281
+E08000008,Tameside,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,12377
+E08000009,Trafford,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,9130
+E08000009,Trafford,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,21354
+E08000009,Trafford,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,43420
+E08000009,Trafford,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,22365
+E08000010,Wigan,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,9943
+E08000010,Wigan,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,40326
+E08000010,Wigan,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,71027
+E08000010,Wigan,Local authority,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,21809
