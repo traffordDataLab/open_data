@@ -1,0 +1,51 @@
+area_code,area_name,geography,period,indicator,sexual_orientation,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Straight or Heterosexual,Count,Persons,210665
+E08000001,Bolton,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Gay or Lesbian,Count,Persons,2807
+E08000001,Bolton,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Bisexual,Count,Persons,2317
+E08000001,Bolton,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),All other sexual orientations,Count,Persons,570
+E08000001,Bolton,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,15931
+E08000002,Bury,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Straight or Heterosexual,Count,Persons,140309
+E08000002,Bury,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Gay or Lesbian,Count,Persons,2443
+E08000002,Bury,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Bisexual,Count,Persons,1524
+E08000002,Bury,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),All other sexual orientations,Count,Persons,395
+E08000002,Bury,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,10202
+E08000003,Manchester,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Straight or Heterosexual,Count,Persons,370576
+E08000003,Manchester,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Gay or Lesbian,Count,Persons,14608
+E08000003,Manchester,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Bisexual,Count,Persons,11782
+E08000003,Manchester,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),All other sexual orientations,Count,Persons,2830
+E08000003,Manchester,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,38162
+E08000004,Oldham,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Straight or Heterosexual,Count,Persons,169261
+E08000004,Oldham,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Gay or Lesbian,Count,Persons,2152
+E08000004,Oldham,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Bisexual,Count,Persons,1541
+E08000004,Oldham,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),All other sexual orientations,Count,Persons,487
+E08000004,Oldham,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,13594
+E08000005,Rochdale,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Straight or Heterosexual,Count,Persons,159265
+E08000005,Rochdale,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Gay or Lesbian,Count,Persons,2040
+E08000005,Rochdale,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Bisexual,Count,Persons,1515
+E08000005,Rochdale,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),All other sexual orientations,Count,Persons,413
+E08000005,Rochdale,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,11711
+E08000006,Salford,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Straight or Heterosexual,Count,Persons,187446
+E08000006,Salford,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Gay or Lesbian,Count,Persons,7181
+E08000006,Salford,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Bisexual,Count,Persons,4141
+E08000006,Salford,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),All other sexual orientations,Count,Persons,925
+E08000006,Salford,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,17230
+E08000007,Stockport,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Straight or Heterosexual,Count,Persons,217470
+E08000007,Stockport,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Gay or Lesbian,Count,Persons,3983
+E08000007,Stockport,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Bisexual,Count,Persons,2500
+E08000007,Stockport,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),All other sexual orientations,Count,Persons,637
+E08000007,Stockport,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,14335
+E08000008,Tameside,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Straight or Heterosexual,Count,Persons,168142
+E08000008,Tameside,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Gay or Lesbian,Count,Persons,3315
+E08000008,Tameside,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Bisexual,Count,Persons,2081
+E08000008,Tameside,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),All other sexual orientations,Count,Persons,612
+E08000008,Tameside,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,10985
+E08000009,Trafford,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Straight or Heterosexual,Count,Persons,169221
+E08000009,Trafford,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Gay or Lesbian,Count,Persons,3032
+E08000009,Trafford,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Bisexual,Count,Persons,1856
+E08000009,Trafford,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),All other sexual orientations,Count,Persons,523
+E08000009,Trafford,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,11519
+E08000010,Wigan,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Straight or Heterosexual,Count,Persons,247126
+E08000010,Wigan,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Gay or Lesbian,Count,Persons,3885
+E08000010,Wigan,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Bisexual,Count,Persons,2381
+E08000010,Wigan,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),All other sexual orientations,Count,Persons,507
+E08000010,Wigan,Local authority,2021-03-21,Sexual orientation of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,14795

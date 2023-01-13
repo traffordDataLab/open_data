@@ -1,0 +1,71 @@
+area_code,area_name,geography,period,indicator,gender_identity,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity the same as sex registered at birth,Count,Persons,217137
+E08000001,Bolton,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity different from sex registered at birth but no specific identity given,Count,Persons,724
+E08000001,Bolton,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans woman,Count,Persons,296
+E08000001,Bolton,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans man,Count,Persons,314
+E08000001,Bolton,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Non-binary,Count,Persons,85
+E08000001,Bolton,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),All other gender identities,Count,Persons,50
+E08000001,Bolton,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,13683
+E08000002,Bury,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity the same as sex registered at birth,Count,Persons,146150
+E08000002,Bury,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity different from sex registered at birth but no specific identity given,Count,Persons,326
+E08000002,Bury,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans woman,Count,Persons,165
+E08000002,Bury,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans man,Count,Persons,145
+E08000002,Bury,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Non-binary,Count,Persons,61
+E08000002,Bury,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),All other gender identities,Count,Persons,40
+E08000002,Bury,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,7986
+E08000003,Manchester,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity the same as sex registered at birth,Count,Persons,401445
+E08000003,Manchester,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity different from sex registered at birth but no specific identity given,Count,Persons,1988
+E08000003,Manchester,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans woman,Count,Persons,725
+E08000003,Manchester,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans man,Count,Persons,751
+E08000003,Manchester,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Non-binary,Count,Persons,701
+E08000003,Manchester,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),All other gender identities,Count,Persons,314
+E08000003,Manchester,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,32034
+E08000004,Oldham,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity the same as sex registered at birth,Count,Persons,174222
+E08000004,Oldham,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity different from sex registered at birth but no specific identity given,Count,Persons,736
+E08000004,Oldham,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans woman,Count,Persons,233
+E08000004,Oldham,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans man,Count,Persons,249
+E08000004,Oldham,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Non-binary,Count,Persons,47
+E08000004,Oldham,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),All other gender identities,Count,Persons,37
+E08000004,Oldham,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,11512
+E08000005,Rochdale,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity the same as sex registered at birth,Count,Persons,164383
+E08000005,Rochdale,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity different from sex registered at birth but no specific identity given,Count,Persons,492
+E08000005,Rochdale,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans woman,Count,Persons,180
+E08000005,Rochdale,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans man,Count,Persons,196
+E08000005,Rochdale,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Non-binary,Count,Persons,46
+E08000005,Rochdale,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),All other gender identities,Count,Persons,45
+E08000005,Rochdale,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,9607
+E08000006,Salford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity the same as sex registered at birth,Count,Persons,201319
+E08000006,Salford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity different from sex registered at birth but no specific identity given,Count,Persons,663
+E08000006,Salford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans woman,Count,Persons,250
+E08000006,Salford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans man,Count,Persons,297
+E08000006,Salford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Non-binary,Count,Persons,250
+E08000006,Salford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),All other gender identities,Count,Persons,119
+E08000006,Salford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,14025
+E08000007,Stockport,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity the same as sex registered at birth,Count,Persons,227115
+E08000007,Stockport,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity different from sex registered at birth but no specific identity given,Count,Persons,316
+E08000007,Stockport,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans woman,Count,Persons,177
+E08000007,Stockport,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans man,Count,Persons,163
+E08000007,Stockport,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Non-binary,Count,Persons,134
+E08000007,Stockport,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),All other gender identities,Count,Persons,66
+E08000007,Stockport,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,10956
+E08000008,Tameside,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity the same as sex registered at birth,Count,Persons,175401
+E08000008,Tameside,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity different from sex registered at birth but no specific identity given,Count,Persons,450
+E08000008,Tameside,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans woman,Count,Persons,180
+E08000008,Tameside,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans man,Count,Persons,157
+E08000008,Tameside,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Non-binary,Count,Persons,103
+E08000008,Tameside,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),All other gender identities,Count,Persons,64
+E08000008,Tameside,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,8781
+E08000009,Trafford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity the same as sex registered at birth,Count,Persons,176586
+E08000009,Trafford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity different from sex registered at birth but no specific identity given,Count,Persons,284
+E08000009,Trafford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans woman,Count,Persons,166
+E08000009,Trafford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans man,Count,Persons,159
+E08000009,Trafford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Non-binary,Count,Persons,101
+E08000009,Trafford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),All other gender identities,Count,Persons,63
+E08000009,Trafford,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,8797
+E08000010,Wigan,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity the same as sex registered at birth,Count,Persons,255782
+E08000010,Wigan,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Gender identity different from sex registered at birth but no specific identity given,Count,Persons,470
+E08000010,Wigan,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans woman,Count,Persons,156
+E08000010,Wigan,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Trans man,Count,Persons,216
+E08000010,Wigan,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Non-binary,Count,Persons,66
+E08000010,Wigan,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),All other gender identities,Count,Persons,57
+E08000010,Wigan,Local authority,2021-03-21,Gender identity of usual residents (voluntary question only asked of people aged 16 years and over),Not answered,Count,Persons,11946
