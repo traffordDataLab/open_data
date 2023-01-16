@@ -78,12 +78,17 @@ datatable(df,
 <h2>Data</h2>
 <span id ="downloads">Download the complete datasets in Comma Separated Values (<abbr>CSV</abbr>) format using the following links:</span>
 
+<h3>Highest level of qualification (Persons)</h3>
 |File name |Geography |
 |---|---|
 |[2021_highest_level_qualification_la_gm.csv](2021_highest_level_qualification_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
 |[2021_highest_level_qualification_msoa_trafford.csv](2021_highest_level_qualification_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_highest_level_qualification_lsoa_trafford.csv](2021_highest_level_qualification_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_highest_level_qualification_oa_trafford.csv](2021_highest_level_qualification_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+
+<h3>Schoolchildren and full-time students (Persons)</h3>
+|File name |Geography |
+|---|---|
 |[2021_schoolchildren_and_full-time_students_la_gm.csv](2021_schoolchildren_and_full-time_students_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
 |[2021_schoolchildren_and_full-time_students_msoa_trafford.csv](2021_schoolchildren_and_full-time_students_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_schoolchildren_and_full-time_students_lsoa_trafford.csv](2021_schoolchildren_and_full-time_students_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
