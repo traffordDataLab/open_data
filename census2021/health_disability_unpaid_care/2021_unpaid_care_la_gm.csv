@@ -1,0 +1,61 @@
+area_code,area_name,geography,period,indicator,unpaid_care,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,251525
+E08000001,Bolton,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,7910
+E08000001,Bolton,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,3567
+E08000001,Bolton,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,2682
+E08000001,Bolton,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,3220
+E08000001,Bolton,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,8601
+E08000002,Bury,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,165816
+E08000002,Bury,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,5775
+E08000002,Bury,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,2366
+E08000002,Bury,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,1744
+E08000002,Bury,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,1896
+E08000002,Bury,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,5095
+E08000003,Manchester,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,479346
+E08000003,Manchester,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,10472
+E08000003,Manchester,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,5158
+E08000003,Manchester,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,4481
+E08000003,Manchester,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,5919
+E08000003,Manchester,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,12184
+E08000004,Oldham,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,205397
+E08000004,Oldham,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,5932
+E08000004,Oldham,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,2805
+E08000004,Oldham,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,2323
+E08000004,Oldham,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,2755
+E08000004,Oldham,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,6871
+E08000005,Rochdale,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,189720
+E08000005,Rochdale,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,5534
+E08000005,Rochdale,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,2684
+E08000005,Rochdale,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,2143
+E08000005,Rochdale,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,2557
+E08000005,Rochdale,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,6496
+E08000006,Salford,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,231773
+E08000006,Salford,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,6152
+E08000006,Salford,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,2740
+E08000006,Salford,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,2130
+E08000006,Salford,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,2820
+E08000006,Salford,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,7050
+E08000007,Stockport,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,251993
+E08000007,Stockport,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,10028
+E08000007,Stockport,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,3729
+E08000007,Stockport,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,2455
+E08000007,Stockport,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,2516
+E08000007,Stockport,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,7475
+E08000008,Tameside,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,196729
+E08000008,Tameside,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,6456
+E08000008,Tameside,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,2828
+E08000008,Tameside,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,2160
+E08000008,Tameside,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,2512
+E08000008,Tameside,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,6719
+E08000009,Trafford,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,202763
+E08000009,Trafford,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,7362
+E08000009,Trafford,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,2692
+E08000009,Trafford,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,1766
+E08000009,Trafford,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,1915
+E08000009,Trafford,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,5087
+E08000010,Wigan,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,280073
+E08000010,Wigan,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,9511
+E08000010,Wigan,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,4416
+E08000010,Wigan,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,3148
+E08000010,Wigan,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,3903
+E08000010,Wigan,Local authority,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,10497
