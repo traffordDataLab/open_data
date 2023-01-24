@@ -42,7 +42,7 @@ df <- read_csv("2021_industry_la_gm.csv") %>%
     <td>Office for National Statistics</td>
     <td><a href="https://www.ons.gov.uk/census" target="_blank">Office for National Statistics</a></td>
     <td><time datetime="2021-03-21">2021-03-21</time></td>
-    <td>Local authority (la), Middle-layer Super Output Area (msoa), Lower-layer Super Output Area (lsoa), Output Area (oa)</td>
+    <td>Local authority (<abbr>LA<abbr>), Middle-layer Super Output Area (<abbr>MSOA</abbr>), Lower-layer Super Output Area (<abbr>LSOA</abbr>), Output Area (<abbr>OA</abbr>)</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
     <td><time datetime="2022-12-21">2022-12-21</time></td>
@@ -76,43 +76,67 @@ datatable(df,
 <div id="tableFooterTitle">Population of Local Authorities in Greater Manchester classified by the industry they work in</div>
 
 <h2>Data</h2>
-<span id ="downloads">Download the complete datasets using the following links:</span>
+<span id ="downloads">Download the complete datasets in Comma Separated Values (<abbr>CSV</abbr>) format using the following links:</span>
 
-<h3>Labour market</h3>
-|File name |Format |
+<h3>Industry (Persons)</h3>
+|File name |Geography |
 |---|---|
-|[2021_industry_la_gm.csv](2021_industry_la_gm.csv) |CSV |
-|[2021_industry_msoa_trafford.csv](2021_industry_msoa_trafford.csv) |CSV |
-|[2021_occupation_la_gm.csv](2021_occupation_la_gm.csv) |CSV |
-|[2021_occupation_msoa_trafford.csv](2021_occupation_msoa_trafford.csv) |CSV |
-|[2021_occupation_lsoa_trafford.csv](2021_occupation_lsoa_trafford.csv) |CSV |
-|[2021_occupation_oa_trafford.csv](2021_occupation_oa_trafford.csv) |CSV |
-|[2021_occupation_detailed_la_gm.csv](2021_occupation_detailed_la_gm.csv) |CSV |
-|[2021_occupation_detailed_msoa_trafford.csv](2021_occupation_detailed_msoa_trafford.csv) |CSV |
-|[2021_hours_worked_la_gm.csv](2021_hours_worked_la_gm.csv) |CSV |
-|[2021_hours_worked_msoa_trafford.csv](2021_hours_worked_msoa_trafford.csv) |CSV |
-|[2021_hours_worked_lsoa_trafford.csv](2021_hours_worked_lsoa_trafford.csv) |CSV |
-|[2021_hours_worked_oa_trafford.csv](2021_hours_worked_oa_trafford.csv) |CSV |
-|[2021_economic_activity_status_la_gm.csv](2021_economic_activity_status_la_gm.csv) |CSV |
-|[2021_economic_activity_status_msoa_trafford.csv](2021_economic_activity_status_msoa_trafford.csv) |CSV |
-|[2021_economic_activity_status_lsoa_trafford.csv](2021_economic_activity_status_lsoa_trafford.csv) |CSV |
-|[2021_economic_activity_status_oa_trafford.csv](2021_economic_activity_status_oa_trafford.csv) |CSV |
-|[2021_socio-economic_classification_la_gm.csv](2021_socio-economic_classification_la_gm.csv) |CSV |
-|[2021_socio-economic_classification_msoa_trafford.csv](2021_socio-economic_classification_msoa_trafford.csv) |CSV |
-|[2021_socio-economic_classification_lsoa_trafford.csv](2021_socio-economic_classification_lsoa_trafford.csv) |CSV |
-|[2021_socio-economic_classification_oa_trafford.csv](2021_socio-economic_classification_oa_trafford.csv) |CSV |
+|[2021_industry_la_gm.csv](2021_industry_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_industry_msoa_trafford.csv](2021_industry_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 
-<h3>Travel to work</h3>
-|File name |Format |
+<h3>Occupation (Persons)</h3>
+|File name |Geography |
 |---|---|
-|[2021_distance_travelled_to_work_la_gm.csv](2021_distance_travelled_to_work_la_gm.csv) |CSV |
-|[2021_distance_travelled_to_work_msoa_trafford.csv](2021_distance_travelled_to_work_msoa_trafford.csv) |CSV |
-|[2021_distance_travelled_to_work_lsoa_trafford.csv](2021_distance_travelled_to_work_lsoa_trafford.csv) |CSV |
-|[2021_distance_travelled_to_work_oa_trafford.csv](2021_distance_travelled_to_work_oa_trafford.csv) |CSV |
-|[2021_method_of_travel_to_work_la_gm.csv](2021_method_of_travel_to_work_la_gm.csv) |CSV |
-|[2021_method_of_travel_to_work_msoa_trafford.csv](2021_method_of_travel_to_work_msoa_trafford.csv) |CSV |
-|[2021_method_of_travel_to_work_lsoa_trafford.csv](2021_method_of_travel_to_work_lsoa_trafford.csv) |CSV |
-|[2021_method_of_travel_to_work_oa_trafford.csv](2021_method_of_travel_to_work_oa_trafford.csv) |CSV |
+|[2021_occupation_la_gm.csv](2021_occupation_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_occupation_msoa_trafford.csv](2021_occupation_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_occupation_lsoa_trafford.csv](2021_occupation_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
+|[2021_occupation_oa_trafford.csv](2021_occupation_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+
+<h3>Occupation - minor groups (detailed) (Persons)</h3>
+|File name |Geography |
+|---|---|
+|[2021_occupation_detailed_la_gm.csv](2021_occupation_detailed_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_occupation_detailed_msoa_trafford.csv](2021_occupation_detailed_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+
+<h3>Hours worked (Persons)</h3>
+|File name |Geography |
+|---|---|
+|[2021_hours_worked_la_gm.csv](2021_hours_worked_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_hours_worked_msoa_trafford.csv](2021_hours_worked_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_hours_worked_lsoa_trafford.csv](2021_hours_worked_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
+|[2021_hours_worked_oa_trafford.csv](2021_hours_worked_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+
+<h3>Economic activity status (Persons)</h3>
+|File name |Geography |
+|---|---|
+|[2021_economic_activity_status_la_gm.csv](2021_economic_activity_status_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_economic_activity_status_msoa_trafford.csv](2021_economic_activity_status_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_economic_activity_status_lsoa_trafford.csv](2021_economic_activity_status_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
+|[2021_economic_activity_status_oa_trafford.csv](2021_economic_activity_status_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+
+<h3>National Statistics Socio-economic Classification (Persons)</h3>
+|File name |Geography |
+|---|---|
+|[2021_socio-economic_classification_la_gm.csv](2021_socio-economic_classification_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_socio-economic_classification_msoa_trafford.csv](2021_socio-economic_classification_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_socio-economic_classification_lsoa_trafford.csv](2021_socio-economic_classification_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
+|[2021_socio-economic_classification_oa_trafford.csv](2021_socio-economic_classification_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+
+<h3>Distance travelled to work (Persons)</h3>
+|File name |Geography |
+|---|---|
+|[2021_distance_travelled_to_work_la_gm.csv](2021_distance_travelled_to_work_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_distance_travelled_to_work_msoa_trafford.csv](2021_distance_travelled_to_work_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_distance_travelled_to_work_lsoa_trafford.csv](2021_distance_travelled_to_work_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
+|[2021_distance_travelled_to_work_oa_trafford.csv](2021_distance_travelled_to_work_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+
+<h3>Method of travel to work (Persons)</h3>
+|File name |Geography |
+|---|---|
+|[2021_method_of_travel_to_work_la_gm.csv](2021_method_of_travel_to_work_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_method_of_travel_to_work_msoa_trafford.csv](2021_method_of_travel_to_work_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_method_of_travel_to_work_lsoa_trafford.csv](2021_method_of_travel_to_work_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
+|[2021_method_of_travel_to_work_oa_trafford.csv](2021_method_of_travel_to_work_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
 
 <h2>Pre-processing</h2>
 [The R script used to process the data](pre-processing.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
