@@ -45,7 +45,7 @@ df <- read_csv("2021_population_by_sex_and_age_group_wide_la_gm.csv") %>%
     <td>Office for National Statistics</td>
     <td><a href="https://www.ons.gov.uk/census" target="_blank">Office for National Statistics</a></td>
     <td><time datetime="2021-03-21">2021-03-21</time></td>
-    <td>Local authority (la), Middle-layer Super Output Area (msoa), Lower-layer Super Output Area (lsoa), Output Area (oa)</td>
+    <td>Local authority (<abbr>LA<abbr>), Middle-layer Super Output Area (<abbr>MSOA</abbr>), Lower-layer Super Output Area (<abbr>LSOA</abbr>), Output Area (<abbr>OA</abbr>)</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
     <td><time datetime="2022-11-09">2022-11-09</time></td>
@@ -79,41 +79,47 @@ datatable(df,
 <div id="tableFooterTitle">2021 population estimates for Greater Manchester authorities (wide layout)</div>
 
 <h2>Data</h2>
-<span id ="downloads">Download the complete datasets using the following links:</span>
+<span id ="downloads">Download the complete datasets in Comma Separated Values (<abbr>CSV</abbr>) format using the following links:</span>
 
-<h3>2021 datasets</h3>
-
-<h4>Population by age</h4>
-|File name |Format |
+<h3>Population by sex and age group (Persons)</h3>
+|File name |Geography |
 |---|---|
-|[2021_population_by_sex_and_age_group_la_trafford.csv](2021_population_by_sex_and_age_group_la_trafford.csv) |CSV |
-|[2021_population_by_sex_and_age_group_la_gm.csv](2021_population_by_sex_and_age_group_la_gm.csv) |CSV |
-|[2021_population_by_sex_and_age_group_wide_la_gm.csv](2021_population_by_sex_and_age_group_wide_la_gm.csv) |CSV |
+|[2021_population_by_sex_and_age_group_wide_la_gm.csv](2021_population_by_sex_and_age_group_wide_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_population_by_sex_and_age_group_la_gm.csv](2021_population_by_sex_and_age_group_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_population_by_sex_and_age_group_la_trafford.csv](2021_population_by_sex_and_age_group_la_trafford.csv) |<abbr title="Local Authority">LA</abbr> |
 
-<h4>Population density</h4>
-|File name |Format |
+<h3>Population by sex and age group time series 1981-2021 (Persons)</h3>
+|File name |Geography |
 |---|---|
-|[2021_population_density_all_geographies_trafford.csv](2021_population_density_all_geographies_trafford.csv) |CSV |
-|[2021_population_density_la_gm.csv](2021_population_density_la_gm.csv) |CSV |
+|[1981-2021_population_by_sex_and_age_group_la_gm.csv](1981-2021_population_by_sex_and_age_group_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[1981-2021_population_by_sex_and_age_group_la_trafford.csv](1981-2021_population_by_sex_and_age_group_la_trafford.csv) |<abbr title="Local Authority">LA</abbr> |
 
-<h4>Households</h4>
-|File name |Format |
+<h3>Population density (Persons)</h3>
+|File name |Geography |
 |---|---|
-|[2021_household_composition_oa_trafford.csv](2021_household_composition_oa_trafford.csv) |CSV |
-|[2021_household_composition_lsoa_trafford.csv](2021_household_composition_lsoa_trafford.csv) |CSV |
-|[2021_household_composition_msoa_trafford.csv](2021_household_composition_msoa_trafford.csv) |CSV |
-|[2021_household_composition_la_gm.csv](2021_household_composition_la_gm.csv) |CSV |
-|[2021_household_size_oa_trafford.csv](2021_household_size_oa_trafford.csv) |CSV |
-|[2021_household_size_lsoa_trafford.csv](2021_household_size_lsoa_trafford.csv) |CSV |
-|[2021_household_size_msoa_trafford.csv](2021_household_size_msoa_trafford.csv) |CSV |
-|[2021_household_size_la_gm.csv](2021_household_size_la_gm.csv) |CSV |
+|[2021_population_density_la_gm.csv](2021_population_density_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_population_density_all_geographies_trafford.csv](2021_population_density_all_geographies_trafford.csv) |<abbr title="Local Authority">LA</abbr>, <abbr title="Middle-layer Super Output Area">MSOA</abbr>, <abbr title="Lower-layer Super Output Area">LSOA</abbr>, <abbr title="Output Area">OA</abbr> |
 
-<h3>Time series datasets (1981-2021)</h3>
-|File name |Format |
+<h3>Population density time series 1981-2021 (Persons)</h3>
+|File name |Geography |
 |---|---|
-|[1981-2021_population_by_sex_and_age_group_la_trafford.csv](1981-2021_population_by_sex_and_age_group_la_trafford.csv) |CSV |
-|[1981-2021_population_by_sex_and_age_group_la_gm.csv](1981-2021_population_by_sex_and_age_group_la_gm.csv) |CSV |
-|[1981-2021_population_density_la_gm.csv](1981-2021_population_density_la_gm.csv) |CSV |
+|[1981-2021_population_density_la_gm.csv](1981-2021_population_density_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+
+<h3>Household composition (Households)</h3>
+|File name |Geography |
+|---|---|
+|[2021_household_composition_la_gm.csv](2021_household_composition_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_household_composition_msoa_trafford.csv](2021_household_composition_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_household_composition_lsoa_trafford.csv](2021_household_composition_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
+|[2021_household_composition_oa_trafford.csv](2021_household_composition_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+
+<h3>Household size (Households)</h3>
+|File name |Geography |
+|---|---|
+|[2021_household_size_la_gm.csv](2021_household_size_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_household_size_msoa_trafford.csv](2021_household_size_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_household_size_lsoa_trafford.csv](2021_household_size_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
+|[2021_household_size_oa_trafford.csv](2021_household_size_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
 
 <h2>Pre-processing</h2>
 The R scripts used to process the data for the [2021 population and household data releases](pre-processing.R) and the [1981-2021 time series datasets](pre-processing-time-series.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
