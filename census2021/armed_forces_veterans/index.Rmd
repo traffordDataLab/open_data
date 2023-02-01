@@ -42,10 +42,10 @@ df <- read_csv("2021_armed_forces_veterans_person_la_gm.csv") %>%
     <td>Office for National Statistics</td>
     <td><a href="https://www.ons.gov.uk/census" target="_blank">Office for National Statistics</a></td>
     <td><time datetime="2021-03-21">2021-03-21</time></td>
-    <td>Local authority (<abbr>LA<abbr>), Middle-layer Super Output Area (<abbr>MSOA</abbr>)</td>
+    <td>Local authority (<abbr>LA<abbr>), Middle-layer Super Output Area (<abbr>MSOA</abbr>), Electoral ward (<abbr>Ward</abbr>)</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2022-11-10">2022-11-10</time></td>
+    <td><time datetime="2023-02-01">2023-02-01</time></td>
   </tr>
 </table>
 
@@ -83,12 +83,28 @@ datatable(df,
 |---|---|
 |[2021_armed_forces_veterans_person_la_gm.csv](2021_armed_forces_veterans_person_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
 |[2021_armed_forces_veterans_person_msoa_trafford.csv](2021_armed_forces_veterans_person_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_armed_forces_veterans_person_ward_trafford.csv](2021_armed_forces_veterans_person_ward_trafford.csv) |<abbr title="Electoral ward">Ward</abbr> |
 
-<h3>Previously served in UK armed forces (Households)</h3>
+<h3>Number of people in household who have previously served in UK armed forces (Households)</h3>
 |File name |Geography |
 |---|---|
 |[2021_armed_forces_veterans_household_la_gm.csv](2021_armed_forces_veterans_household_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
 |[2021_armed_forces_veterans_household_msoa_trafford.csv](2021_armed_forces_veterans_household_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_armed_forces_veterans_household_ward_trafford.csv](2021_armed_forces_veterans_household_ward_trafford.csv) |<abbr title="Electoral ward">Ward</abbr> |
+
+<h3>Population who have previously served in UK armed forces in communal establishments and in households (Persons)</h3>
+|File name |Geography |
+|---|---|
+|[2021_armed_forces_veterans_residence_la_gm.csv](2021_armed_forces_veterans_residence_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_armed_forces_veterans_residence_msoa_trafford.csv.csv](2021_armed_forces_veterans_residence_msoa_trafford.csv.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_armed_forces_veterans_residence_ward_trafford.csv](2021_armed_forces_veterans_residence_ward_trafford.csv) |<abbr title="Electoral ward">Ward</abbr> |
+
+<h3>Household Reference Person indicator of previous service in UK armed forces (Households)</h3>
+|File name |Geography |
+|---|---|
+|[2021_armed_forces_veterans_household_reference_indicator_la_gm.csv](2021_armed_forces_veterans_household_reference_indicator_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_armed_forces_veterans_household_reference_indicator_msoa_trafford.csv](2021_armed_forces_veterans_household_reference_indicator_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_armed_forces_veterans_household_reference_indicator_ward_trafford.csv](2021_armed_forces_veterans_household_reference_indicator_ward_trafford.csv) |<abbr title="Electoral ward">Ward</abbr> |
 
 <h2>Pre-processing</h2>
 [The R script used to process the data](pre-processing.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.

@@ -1,6 +1,7 @@
 # UK armed forces veterans data, England and Wales: Census 2021
 # 2022-11-10 James Austin.
-# Source: Office for National Statistics https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/articles/demographyandmigrationdatacontent/2022-11-02
+# 2023-01-31 Updated to use NOMIS API and added ward data
+# Source: Office for National Statistics via NOMIS and https://www.ons.gov.uk/peoplepopulationandcommunity/armedforcescommunity/bulletins/ukarmedforcesveteransenglandandwales/census2021
 
 # AREA CODES OF INTEREST
 # Regions
@@ -51,110 +52,208 @@
 
 
 # Load the required libraries ---------------------------
-library(tidyverse); library(httr); library(readxl); library(janitor)
+library(tidyverse);
 
 
-# Setup objects required by this script ---------------------------
-
-# Area codes of the 10 Local Authorities in Greater Manchester"
-area_codes_gm <- c("E08000001","E08000002","E08000003","E08000004","E08000005","E08000006","E08000007","E08000008","E08000009","E08000010")
-
-# Area codes of Trafford's Children's Services Statistical Neighbours
-area_codes_cssn <- c("E10000015","E09000006","E08000029","E08000007","E06000036","E06000056","E06000014","E06000049","E10000014","E06000060")
-
-# Area codes of Trafford's CIPFA Nearest Neighbours (2019)
-area_codes_cipfa <- c("E06000007","E06000030","E08000029","E06000042","E06000025","E06000034","E08000007","E06000014","E06000055","E06000050","E06000031","E06000005","E06000015","E08000002","E06000020")
-
-
-# Previously served in the UK armed forces (person) ---------------------------
+# TS071 - Previously served in the UK armed forces (persons) ---------------------------
 
 # LA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/20221110/TS071_uk_armed_forces/UR-ltla%2Buk_armed_forces.xlsx", write_disk(tmp))
-
-df_veterans_person_la <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities Label`,
-         indicator = `UK armed forces veteran indicator (5 categories) Label`,
-         value = Count
+df_veterans_person_la <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2088_1.data.csv?date=latest&geography=645922841...645922850&c2021_ukforcevet_6=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         veteran_status = C2021_UKFORCEVET_6_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm) %>%
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Local authority",
+  mutate(geography = "Local authority",
+         period = "2021-03-21",
          measure = "Count",
-         unit = "Persons") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
+         unit = "Persons",
+         indicator = "Identifies all usual residents aged 16 and over who have previously served in the UK armed forces. This includes those who have served for at least one day in armed forces, either regular or reserves, or Merchant Mariners who have seen duty on legally defined military operations.") %>%
+  select(area_code, area_name, geography, period, indicator, veteran_status, measure, unit, value) %>%
+  write_csv("2021_armed_forces_veterans_person_la_gm.csv")
 
-write_csv(df_veterans_person_la, "2021_armed_forces_veterans_person_la_gm.csv")
-
-unlink(tmp)
 
 # MSOA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/20221110/TS071_uk_armed_forces/UR-msoa%2Buk_armed_forces.xlsx", write_disk(tmp))
-
-df_veterans_person_msoa <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas Label`,
-         indicator = `UK armed forces veteran indicator (5 categories) Label`,
-         value = Count) %>%
-  filter(grepl('Trafford', area_name)) %>%
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Middle-layer Super Output Area",
+df_veterans_person_msoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2088_1.data.csv?date=latest&geography=637535406...637535433&c2021_ukforcevet_6=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         veteran_status = C2021_UKFORCEVET_6_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Middle-layer Super Output Area",
+         period = "2021-03-21",
          measure = "Count",
-         unit = "Persons") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
-
-write_csv(df_veterans_person_msoa, "2021_armed_forces_veterans_person_msoa_trafford.csv")
-
-unlink(tmp)
+         unit = "Persons",
+         indicator = "Identifies all usual residents aged 16 and over who have previously served in the UK armed forces. This includes those who have served for at least one day in armed forces, either regular or reserves, or Merchant Mariners who have seen duty on legally defined military operations.") %>%
+  select(area_code, area_name, geography, period, indicator, veteran_status, measure, unit, value) %>%
+  write_csv("2021_armed_forces_veterans_person_msoa_trafford.csv")
 
 
-# Previously served in the UK armed forces (households) ---------------------------
+# Ward
+df_veterans_person_ward <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2088_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_ukforcevet_6=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         veteran_status = C2021_UKFORCEVET_6_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         measure = "Count",
+         unit = "Persons",
+         indicator = "Identifies all usual residents aged 16 and over who have previously served in the UK armed forces. This includes those who have served for at least one day in armed forces, either regular or reserves, or Merchant Mariners who have seen duty on legally defined military operations.") %>%
+  select(area_code, area_name, geography, period, indicator, veteran_status, measure, unit, value) %>%
+  write_csv("2021_armed_forces_veterans_person_ward_trafford.csv")
+
+
+# TS072 - Number of people in household who have previously served in UK armed forces (households) ---------------------------
 
 # LA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/20221110/TS072_hh_veterans_5a/HH-ltla%2Bhh_veterans_5a.xlsx", write_disk(tmp))
-
-df_veterans_household_la <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities Label`,
-         indicator = `Number of people in household who previously served in UK armed forces (5 categories) Label`,
-         value = Count
+df_veterans_household_la <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2089_1.data.csv?date=latest&geography=645922841...645922850&c2021_hhveteran_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_veterans = C2021_HHVETERAN_5_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm,
-         indicator != "Does not apply") %>% # checked the data and all of these are zero
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Local authority",
+  mutate(geography = "Local authority",
+         period = "2021-03-21",
          measure = "Count",
-         unit = "Households") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
+         unit = "Households",
+         indicator = "Number of people in the household who have previously served in the UK armed forces. This includes those who have served for at least one day in armed forces, either regular, reserves or Merchant Mariners who have seen duty on legally defined military operations.") %>%
+  select(area_code, area_name, geography, period, indicator, household_veterans, measure, unit, value) %>%
+  write_csv("2021_armed_forces_veterans_household_la_gm.csv")
 
-write_csv(df_veterans_household_la, "2021_armed_forces_veterans_household_la_gm.csv")
-
-unlink(tmp)
 
 # MSOA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/20221110/TS072_hh_veterans_5a/HH-msoa%2Bhh_veterans_5a.xlsx", write_disk(tmp))
-
-df_veterans_household_msoa <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas Label`,
-         indicator = `Number of people in household who previously served in UK armed forces (5 categories) Label`,
-         value = Count) %>%
-  filter(grepl('Trafford', area_name),
-         indicator != "Does not apply") %>% # checked the data and all of these are zero
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Middle-layer Super Output Area",
+df_veterans_household_msoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2089_1.data.csv?date=latest&geography=637535406...637535433&c2021_hhveteran_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_veterans = C2021_HHVETERAN_5_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Middle-layer Super Output Area",
+         period = "2021-03-21",
          measure = "Count",
-         unit = "Households") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
+         unit = "Households",
+         indicator = "Number of people in the household who have previously served in the UK armed forces. This includes those who have served for at least one day in armed forces, either regular, reserves or Merchant Mariners who have seen duty on legally defined military operations.") %>%
+  select(area_code, area_name, geography, period, indicator, household_veterans, measure, unit, value) %>%
+  write_csv("2021_armed_forces_veterans_household_msoa_trafford.csv")
 
-write_csv(df_veterans_household_msoa, "2021_armed_forces_veterans_household_msoa_trafford.csv")
 
-unlink(tmp)
+# Ward
+df_veterans_household_ward <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2089_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_hhveteran_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_veterans = C2021_HHVETERAN_5_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         measure = "Count",
+         unit = "Households",
+         indicator = "Number of people in the household who have previously served in the UK armed forces. This includes those who have served for at least one day in armed forces, either regular, reserves or Merchant Mariners who have seen duty on legally defined military operations.") %>%
+  select(area_code, area_name, geography, period, indicator, household_veterans, measure, unit, value) %>%
+  write_csv("2021_armed_forces_veterans_household_ward_trafford.csv")
+
+
+# TS073 - Population who have previously served in UK armed forces in communal establishments and in households (persons) ---------------------------
+
+# LA
+df_veterans_residence_la <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2090_1.data.csv?date=latest&geography=645922841...645922850&c2021_restype_3=1,2&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         residence_type = C2021_RESTYPE_3_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Local authority",
+         period = "2021-03-21",
+         measure = "Count",
+         unit = "Persons",
+         indicator = "Usual residents in England and Wales who have previously served in the UK armed forces by whether they reside in communal establishments and in households.") %>%
+  select(area_code, area_name, geography, period, indicator, residence_type, measure, unit, value) %>%
+  write_csv("2021_armed_forces_veterans_residence_la_gm.csv")
+
+
+# MSOA
+df_veterans_residence_msoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2090_1.data.csv?date=latest&geography=637535406...637535433&c2021_restype_3=1,2&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         residence_type = C2021_RESTYPE_3_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Middle-layer Super Output Area",
+         period = "2021-03-21",
+         measure = "Count",
+         unit = "Persons",
+         indicator = "Usual residents in England and Wales who have previously served in the UK armed forces by whether they reside in communal establishments and in households.") %>%
+  select(area_code, area_name, geography, period, indicator, residence_type, measure, unit, value) %>%
+  write_csv("2021_armed_forces_veterans_residence_msoa_trafford.csv")
+
+
+# Ward
+df_veterans_residence_ward <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2090_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_restype_3=1,2&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         residence_type = C2021_RESTYPE_3_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         measure = "Count",
+         unit = "Persons",
+         indicator = "Usual residents in England and Wales who have previously served in the UK armed forces by whether they reside in communal establishments and in households.") %>%
+  select(area_code, area_name, geography, period, indicator, residence_type, measure, unit, value) %>%
+  write_csv("2021_armed_forces_veterans_residence_ward_trafford.csv")
+
+
+# TS074 - Household Reference Person indicator of previous service in UK armed forces (households) ---------------------------
+
+# LA
+df_veterans_household_ref_person_la <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2091_1.data.csv?date=latest&geography=645922841...645922850&c2021_hh_hrp_veteran_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         reference_person_veteran_status = C2021_HH_HRP_VETERAN_5_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Local authority",
+         period = "2021-03-21",
+         measure = "Count",
+         unit = "Households",
+         indicator = "Classifying households in England and Wales by whether or not the Household Reference Person has previously served in the UK armed forces.") %>%
+  select(area_code, area_name, geography, period, indicator, reference_person_veteran_status, measure, unit, value) %>%
+  write_csv("2021_armed_forces_veterans_household_reference_indicator_la_gm.csv")
+
+
+# MSOA
+df_veterans_household_ref_person_msoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2091_1.data.csv?date=latest&geography=637535406...637535433&c2021_hh_hrp_veteran_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         reference_person_veteran_status = C2021_HH_HRP_VETERAN_5_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Middle-layer Super Output Area",
+         period = "2021-03-21",
+         measure = "Count",
+         unit = "Households",
+         indicator = "Classifying households in England and Wales by whether or not the Household Reference Person has previously served in the UK armed forces.") %>%
+  select(area_code, area_name, geography, period, indicator, reference_person_veteran_status, measure, unit, value) %>%
+  write_csv("2021_armed_forces_veterans_household_reference_indicator_msoa_trafford.csv")
+
+
+# Ward
+df_veterans_household_ref_person_ward <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2091_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_hh_hrp_veteran_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         reference_person_veteran_status = C2021_HH_HRP_VETERAN_5_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         measure = "Count",
+         unit = "Households",
+         indicator = "Classifying households in England and Wales by whether or not the Household Reference Person has previously served in the UK armed forces.") %>%
+  select(area_code, area_name, geography, period, indicator, reference_person_veteran_status, measure, unit, value) %>%
+  write_csv("2021_armed_forces_veterans_household_reference_indicator_ward_trafford.csv")
