@@ -1,6 +1,7 @@
 # Education data from Census 2021
 # 2023-01-16 James Austin.
 # Source: Office for National Statistics https://www.ons.gov.uk/releases/educationcensus2021inenglandandwales
+## NOTE: Data can be downloaded locally via the URL above or via NOMIS API as shown in code below
 
 # AREA CODES OF INTEREST
 # Regions
@@ -54,22 +55,7 @@
 library(tidyverse);
 
 
-# Objects containing LA codes above ---------------------------
-
-# Area codes of the 10 Local Authorities in Greater Manchester"
-area_codes_gm <- c("E08000001","E08000002","E08000003","E08000004","E08000005","E08000006","E08000007","E08000008","E08000009","E08000010")
-
-# Area codes of Trafford's Children's Services Statistical Neighbours
-area_codes_cssn <- c("E10000015","E09000006","E08000029","E08000007","E06000036","E06000056","E06000014","E06000049","E10000014","E06000060")
-
-# Area codes of Trafford's CIPFA Nearest Neighbours (2019)
-area_codes_cipfa <- c("E06000007","E06000030","E08000029","E06000042","E06000025","E06000034","E08000007","E06000014","E06000055","E06000050","E06000031","E06000005","E06000015","E08000002","E06000020")
-
-
-## NOTE: Data can be downloaded locally via the URL at the top of the script or via NOMIS API as shown in code below
-
-
-# Highest level of qualification ---------------------------
+# TS067 - Highest level of qualification (persons) ---------------------------
 
 # LA (GM)
 df_la_highest_qualification <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2084_1.data.csv?date=latest&geography=645922841...645922850&c2021_hiqual_8=1...7&measures=20100") %>%
@@ -135,7 +121,24 @@ df_oa_highest_qualification <- read_csv("https://www.nomisweb.co.uk/api/v01/data
   write_csv("2021_highest_level_qualification_oa_trafford.csv")
 
 
-# Schoolchildren and full-time students ---------------------------
+# Ward (Trafford)
+df_ward_highest_qualification <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2084_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_hiqual_8=1...7&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         highest_qualification = C2021_HIQUAL_8_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         measure = "Count",
+         indicator = "Highest level of qualification held by usual residents aged 16 years and over. This is derived from the question asking people to indicate all qualifications held, or their nearest equivalent. This may include foreign qualifications where they were matched to the closest UK equivalent",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, highest_qualification, measure, unit, value) %>%
+  write_csv("2021_highest_level_qualification_ward_trafford.csv")
+
+
+# TS068 - Schoolchildren and full-time students ---------------------------
 
 # LA (GM)
 df_la_student <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?date=latest&geography=645922841...645922850&c2021_student_3=1,2&measures=20100") %>%
@@ -199,4 +202,21 @@ df_oa_student <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, student_status, measure, unit, value) %>%
   write_csv("2021_schoolchildren_and_full-time_students_oa_trafford.csv")
+
+
+# Ward (Trafford)
+df_oa_student <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_student_3=1,2&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         student_status = C2021_STUDENT_3_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         measure = "Count",
+         indicator = "Whether a person aged 5 years and over was in full-time education on Census Day, 21 March 2021. This includes schoolchildren and adults in full-time education. Schoolchildren and students in full-time education studying away from home are treated as usually resident at their term-time address",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, student_status, measure, unit, value) %>%
+  write_csv("2021_schoolchildren_and_full-time_students_ward_trafford.csv")
 
