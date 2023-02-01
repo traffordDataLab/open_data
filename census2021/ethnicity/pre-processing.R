@@ -1,5 +1,6 @@
 # Ethnic group data from Census 2021 data
 # 2022-12-07 James Austin.
+# 2023-02-01 Updated to use NOMIS API and added ward data
 # Source: Office for National Statistics https://www.ons.gov.uk/releases/ethnicgroupnationalidentitylanguageandreligioncensus2021inenglandandwales
 
 # AREA CODES OF INTEREST
@@ -51,35 +52,18 @@
 
 
 # Load the required libraries ---------------------------
-library(tidyverse); library(httr); library(janitor)
+library(tidyverse);
 
 
-# Setup objects required by this script ---------------------------
-
-# Area codes of the 10 Local Authorities in Greater Manchester"
-area_codes_gm <- c("E08000001","E08000002","E08000003","E08000004","E08000005","E08000006","E08000007","E08000008","E08000009","E08000010")
-
-# Area codes of Trafford's Children's Services Statistical Neighbours
-area_codes_cssn <- c("E10000015","E09000006","E08000029","E08000007","E06000036","E06000056","E06000014","E06000049","E10000014","E06000060")
-
-# Area codes of Trafford's CIPFA Nearest Neighbours (2019)
-area_codes_cipfa <- c("E06000007","E06000030","E08000029","E06000042","E06000025","E06000034","E08000007","E06000014","E06000055","E06000050","E06000031","E06000005","E06000015","E08000002","E06000020")
-
-
-## NOTE: Data has to be downloaded locally via the form on the ONS website
-
-
-# Ethnic Group non-detailed (Individuals) ---------------------------
+# TS021 - Ethnic group non-detailed (persons) ---------------------------
 
 # LA (GM)
-df_la_ethnicity <- read_csv("ethnicity_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         ethnic_group = `Ethnic group (20 categories)`,
-         value = Observation
+df_la_ethnicity <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2041_1.data.csv?date=latest&geography=645922841...645922850&c2021_eth_20=12,13,10,11,14,16,15,17,8,7,6,9,1...5,18,19&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_group = C2021_ETH_20_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm,
-         ethnic_group != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "The ethnic group that the person completing the census feels they belong to",
@@ -90,13 +74,12 @@ df_la_ethnicity <- read_csv("ethnicity_la.csv") %>%
 
 
 # MSOA (Trafford)
-df_msoa_ethnicity <- read_csv("ethnicity_msoa_trafford.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         ethnic_group = `Ethnic group (20 categories)`,
-         value = Observation
+df_msoa_ethnicity <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2041_1.data.csv?date=latest&geography=637535406...637535433&c2021_eth_20=12,13,10,11,14,16,15,17,8,7,6,9,1...5,18,19&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_group = C2021_ETH_20_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(ethnic_group != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "The ethnic group that the person completing the census feels they belong to",
@@ -107,13 +90,12 @@ df_msoa_ethnicity <- read_csv("ethnicity_msoa_trafford.csv") %>%
 
 
 # LSOA (Trafford)
-df_lsoa_ethnicity <- read_csv("ethnicity_lsoa_trafford.csv") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas`,
-         ethnic_group = `Ethnic group (20 categories)`,
-         value = Observation
+df_lsoa_ethnicity <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2041_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_eth_20=12,13,10,11,14,16,15,17,8,7,6,9,1...5,18,19&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_group = C2021_ETH_20_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(ethnic_group != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
          indicator = "The ethnic group that the person completing the census feels they belong to",
@@ -124,13 +106,12 @@ df_lsoa_ethnicity <- read_csv("ethnicity_lsoa_trafford.csv") %>%
 
 
 # OA (Trafford)
-df_oa_ethnicity <- read_csv("ethnicity_oa_trafford.csv") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas`,
-         ethnic_group = `Ethnic group (20 categories)`,
-         value = Observation
+df_oa_ethnicity <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2041_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_eth_20=12,13,10,11,14,16,15,17,8,7,6,9,1...5,18,19&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_group = C2021_ETH_20_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(ethnic_group != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Output Area",
          period = "2021-03-21",
          indicator = "The ethnic group that the person completing the census feels they belong to",
@@ -140,17 +121,32 @@ df_oa_ethnicity <- read_csv("ethnicity_oa_trafford.csv") %>%
   write_csv("2021_population_ethnic_group_oa_trafford.csv")
 
 
-# Ethnic Group detailed (Individuals) ---------------------------
+# Ward (Trafford)
+df_ward_ethnicity <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2041_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_eth_20=12,13,10,11,14,16,15,17,8,7,6,9,1...5,18,19&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_group = C2021_ETH_20_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "The ethnic group that the person completing the census feels they belong to",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, ethnic_group, measure, unit, value) %>%
+  write_csv("2021_population_ethnic_group_ward_trafford.csv")
+
+
+# TS022 - Ethnic group (detailed) (persons) ---------------------------
 
 # LA (GM)
-df_la_ethnicity_detailed <- read_csv("ethnicity_detailed_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         ethnic_group = `Ethnic Group (detailed) (288 categories)`,
-         value = Observation
+df_la_ethnicity_detailed <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2095_1.data.csv?date=latest&geography=645922841...645922850&c2021_ethnic_288=1...287&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_group = C2021_ETHNIC_288_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm,
-         ethnic_group != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "The ethnic group that the person completing the census feels they belong to",
@@ -161,13 +157,12 @@ df_la_ethnicity_detailed <- read_csv("ethnicity_detailed_la.csv") %>%
 
 
 # MSOA (Trafford)
-df_msoa_ethnicity_detailed <- read_csv("ethnicity_detailed_msoa_trafford.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         ethnic_group = `Ethnic Group (detailed) (288 categories)`,
-         value = Observation
+df_msoa_ethnicity_detailed <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2095_1.data.csv?date=latest&geography=637535406...637535433&c2021_ethnic_288=1...287&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_group = C2021_ETHNIC_288_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(ethnic_group != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "The ethnic group that the person completing the census feels they belong to",
@@ -177,17 +172,32 @@ df_msoa_ethnicity_detailed <- read_csv("ethnicity_detailed_msoa_trafford.csv") %
   write_csv("2021_population_ethnic_group_detailed_msoa_trafford.csv")
 
 
-# Multiple Ethnic Group (Household) ---------------------------
+# Ward (Trafford)
+df_ward_ethnicity_detailed <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2095_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_ethnic_288=1...287&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_group = C2021_ETHNIC_288_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "The ethnic group that the person completing the census feels they belong to",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, ethnic_group, measure, unit, value) %>%
+  write_csv("2021_population_ethnic_group_detailed_ward_trafford.csv")
+
+
+# TS023 - Multiple ethnic group (Household) ---------------------------
 
 # LA (GM)
-df_la_ethnic_group_household <- read_csv("household_multiple_ethnicity_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         ethnic_diversity = `Multiple ethnic groups in household (6 categories)`,
-         value = Observation
+df_la_ethnic_group_household <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2042_1.data.csv?date=latest&geography=645922841...645922850&c2021_meth_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_diversity = C2021_METH_6_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm,
-         ethnic_diversity != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Diversity in ethnic group of household members in different relationships",
@@ -198,13 +208,12 @@ df_la_ethnic_group_household <- read_csv("household_multiple_ethnicity_la.csv") 
 
 
 # MSOA (Trafford)
-df_msoa_ethnic_group_household <- read_csv("household_multiple_ethnicity_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         ethnic_diversity = `Multiple ethnic groups in household (6 categories)`,
-         value = Observation
+df_msoa_ethnic_group_household <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2042_1.data.csv?date=latest&geography=637535406...637535433&c2021_meth_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_diversity = C2021_METH_6_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(ethnic_diversity != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Diversity in ethnic group of household members in different relationships",
@@ -215,13 +224,12 @@ df_msoa_ethnic_group_household <- read_csv("household_multiple_ethnicity_msoa.cs
 
 
 # LSOA (Trafford)
-df_lsoa_ethnic_group_household <- read_csv("household_multiple_ethnicity_lsoa.csv") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas`,
-         ethnic_diversity = `Multiple ethnic groups in household (6 categories)`,
-         value = Observation
+df_lsoa_ethnic_group_household <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2042_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_meth_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_diversity = C2021_METH_6_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(ethnic_diversity != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Diversity in ethnic group of household members in different relationships",
@@ -232,13 +240,12 @@ df_lsoa_ethnic_group_household <- read_csv("household_multiple_ethnicity_lsoa.cs
 
 
 # OA (Trafford)
-df_oa_ethnic_group_household <- read_csv("household_multiple_ethnicity_oa.csv") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas`,
-         ethnic_diversity = `Multiple ethnic groups in household (6 categories)`,
-         value = Observation
+df_oa_ethnic_group_household <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2042_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_meth_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_diversity = C2021_METH_6_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(ethnic_diversity != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Output Area",
          period = "2021-03-21",
          indicator = "Diversity in ethnic group of household members in different relationships",
@@ -246,3 +253,20 @@ df_oa_ethnic_group_household <- read_csv("household_multiple_ethnicity_oa.csv") 
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, ethnic_diversity, measure, unit, value) %>%
   write_csv("2021_household_ethnic_diversity_oa_trafford.csv")
+
+
+# Ward (Trafford)
+df_ward_ethnic_group_household <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2042_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_meth_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         ethnic_diversity = C2021_METH_6_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "Diversity in ethnic group of household members in different relationships",
+         measure = "Count",
+         unit = "Households") %>%
+  select(area_code, area_name, geography, period, indicator, ethnic_diversity, measure, unit, value) %>%
+  write_csv("2021_household_ethnic_diversity_ward_trafford.csv")
