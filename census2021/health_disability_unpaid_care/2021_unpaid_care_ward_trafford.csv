@@ -1,0 +1,127 @@
+area_code,area_name,geography,period,indicator,unpaid_care,measure,unit,value
+E05000819,Altrincham,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,11336
+E05000819,Altrincham,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,397
+E05000819,Altrincham,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,124
+E05000819,Altrincham,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,70
+E05000819,Altrincham,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,65
+E05000819,Altrincham,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,183
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,8978
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,359
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,119
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,60
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,68
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,170
+E05000821,Bowdon,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,8035
+E05000821,Bowdon,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,332
+E05000821,Bowdon,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,103
+E05000821,Bowdon,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,69
+E05000821,Bowdon,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,67
+E05000821,Bowdon,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,172
+E05000822,Broadheath,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,12438
+E05000822,Broadheath,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,406
+E05000822,Broadheath,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,132
+E05000822,Broadheath,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,88
+E05000822,Broadheath,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,92
+E05000822,Broadheath,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,236
+E05000823,Brooklands,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,9109
+E05000823,Brooklands,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,387
+E05000823,Brooklands,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,114
+E05000823,Brooklands,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,54
+E05000823,Brooklands,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,70
+E05000823,Brooklands,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,199
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,8464
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,241
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,116
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,125
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,122
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,370
+E05000825,Clifford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,11481
+E05000825,Clifford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,317
+E05000825,Clifford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,156
+E05000825,Clifford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,112
+E05000825,Clifford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,155
+E05000825,Clifford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,290
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,8201
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,292
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,131
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,80
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,88
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,257
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,8706
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,332
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,133
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,74
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,102
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,277
+E05000828,Flixton,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,9247
+E05000828,Flixton,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,420
+E05000828,Flixton,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,131
+E05000828,Flixton,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,79
+E05000828,Flixton,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,79
+E05000828,Flixton,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,262
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,10455
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,310
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,141
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,109
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,116
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,266
+E05000830,Hale Barns,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,8807
+E05000830,Hale Barns,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,356
+E05000830,Hale Barns,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,113
+E05000830,Hale Barns,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,71
+E05000830,Hale Barns,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,61
+E05000830,Hale Barns,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,214
+E05000831,Hale Central,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,9065
+E05000831,Hale Central,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,391
+E05000831,Hale Central,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,106
+E05000831,Hale Central,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,54
+E05000831,Hale Central,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,48
+E05000831,Hale Central,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,133
+E05000832,Longford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,11063
+E05000832,Longford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,348
+E05000832,Longford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,164
+E05000832,Longford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,118
+E05000832,Longford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,140
+E05000832,Longford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,306
+E05000833,Priory,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,9677
+E05000833,Priory,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,337
+E05000833,Priory,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,101
+E05000833,Priory,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,71
+E05000833,Priory,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,87
+E05000833,Priory,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,180
+E05000835,Sale Moor,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,9138
+E05000835,Sale Moor,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,291
+E05000835,Sale Moor,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,115
+E05000835,Sale Moor,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,102
+E05000835,Sale Moor,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,86
+E05000835,Sale Moor,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,243
+E05000834,St Mary's,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,10166
+E05000834,St Mary's,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,356
+E05000834,St Mary's,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,150
+E05000834,St Mary's,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,103
+E05000834,St Mary's,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,102
+E05000834,St Mary's,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,310
+E05000836,Stretford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,9829
+E05000836,Stretford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,327
+E05000836,Stretford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,136
+E05000836,Stretford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,94
+E05000836,Stretford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,122
+E05000836,Stretford,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,292
+E05000837,Timperley,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,9826
+E05000837,Timperley,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,415
+E05000837,Timperley,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,131
+E05000837,Timperley,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,70
+E05000837,Timperley,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,77
+E05000837,Timperley,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,218
+E05000838,Urmston,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,9633
+E05000838,Urmston,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,421
+E05000838,Urmston,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,130
+E05000838,Urmston,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,76
+E05000838,Urmston,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,86
+E05000838,Urmston,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,247
+E05000839,Village,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides no unpaid care,Count,Persons,9108
+E05000839,Village,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 9 hours or less unpaid care a week,Count,Persons,330
+E05000839,Village,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 10 to 19 hours unpaid care a week,Count,Persons,146
+E05000839,Village,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 20 to 34 hours unpaid care a week,Count,Persons,88
+E05000839,Village,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 35 to 49 hours unpaid care a week,Count,Persons,80
+E05000839,Village,Electoral ward,2021-03-21,Estimates that classify usual residents by the number of hours of unpaid care they provide,Provides 50 or more hours unpaid care a week,Count,Persons,262

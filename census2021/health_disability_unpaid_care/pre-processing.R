@@ -2,6 +2,8 @@
 # 2023-01-19 James Austin.
 # Source: Office for National Statistics https://www.ons.gov.uk/releases/healthdisabilityandunpaidcarecensus2021inenglandandwales
 
+# NOTE: Data can be downloaded locally via the URL above or via NOMIS API as shown in code below
+
 # AREA CODES OF INTEREST
 # Regions
 # E92000001: England
@@ -54,22 +56,7 @@
 library(tidyverse);
 
 
-# Objects containing LA codes above ---------------------------
-
-# Area codes of the 10 Local Authorities in Greater Manchester"
-area_codes_gm <- c("E08000001","E08000002","E08000003","E08000004","E08000005","E08000006","E08000007","E08000008","E08000009","E08000010")
-
-# Area codes of Trafford's Children's Services Statistical Neighbours
-area_codes_cssn <- c("E10000015","E09000006","E08000029","E08000007","E06000036","E06000056","E06000014","E06000049","E10000014","E06000060")
-
-# Area codes of Trafford's CIPFA Nearest Neighbours (2019)
-area_codes_cipfa <- c("E06000007","E06000030","E08000029","E06000042","E06000025","E06000034","E08000007","E06000014","E06000055","E06000050","E06000031","E06000005","E06000015","E08000002","E06000020")
-
-
-## NOTE: Data can be downloaded locally via the URL at the top of the script or via NOMIS API as shown in code below
-
-
-# General health ---------------------------
+# TS037 - General health (persons) ---------------------------
 
 # LA (GM)
 df_la_general_health <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2055_1.data.csv?date=latest&geography=645922841...645922850&c2021_health_6=1...5&measures=20100") %>%
@@ -135,7 +122,24 @@ df_oa_general_health <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_
   write_csv("2021_general_health_oa_trafford.csv")
 
 
-# General health (Age Standardised Proportions) ---------------------------
+# Ward (Trafford)
+df_ward_general_health <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2055_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_health_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         general_health = C2021_HEALTH_6_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         measure = "Count",
+         indicator = "Estimates that classify usual residents by their own assessment of the general state of their health from very good to very bad. This assessment is not based on a person's health over any specified period of time.",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, general_health, measure, unit, value) %>%
+  write_csv("2021_general_health_ward_trafford.csv")
+
+
+# TS037ASP - General health - Age Standardised Proportions (persons) ---------------------------
 
 # LA (GM)
 df_la_general_health_asp <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2092_1.data.csv?date=latest&geography=645922841...645922850&c2021_health_5=0...4&measures=20100") %>%
@@ -153,7 +157,7 @@ df_la_general_health_asp <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset
   write_csv("2021_general_health_age_standardised_la_gm.csv")
 
 
-# Disability ---------------------------
+# TS038 - Disability (persons) ---------------------------
 
 # LA (GM)
 df_la_disability <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2056_1.data.csv?date=latest&geography=645922841...645922850&c2021_disability_5=1...4&measures=20100") %>%
@@ -219,7 +223,24 @@ df_oa_disability <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2056
   write_csv("2021_disability_oa_trafford.csv")
 
 
-# Disability (Age Standardised Proportions) ---------------------------
+# Ward (Trafford)
+df_ward_disability <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2056_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_disability_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         disability_category = C2021_DISABILITY_5_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         measure = "Count",
+         indicator = "Estimates that classify usual residents by long-term health problems or disabilities. Residents who assessed their day-to-day activities as limited by long-term physical or mental health conditions or illnesses are considered disabled.",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, disability_category, measure, unit, value) %>%
+  write_csv("2021_disability_ward_trafford.csv")
+
+
+# TS038ASP - Disability - Age Standardised Proportions (persons)  ---------------------------
 
 # LA (GM)
 df_la_disability_asp <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2093_1.data.csv?date=latest&geography=645922841...645922850&c2021_disability_3=0...2&measures=20100") %>%
@@ -237,7 +258,7 @@ df_la_disability_asp <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_
   write_csv("2021_disability_age_standardised_la_gm.csv")
 
 
-# Provision of unpaid care ---------------------------
+# TS039 - Provision of unpaid care (persons) ---------------------------
 
 # LA (GM)
 df_la_unpaid_care <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2057_1.data.csv?date=latest&geography=645922841...645922850&c2021_carer_7=1...6&measures=20100") %>%
@@ -253,25 +274,6 @@ df_la_unpaid_care <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_205
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, unpaid_care, measure, unit, value) %>%
   write_csv("2021_unpaid_care_la_gm.csv")
-
-
-# Provision of unpaid care (Age Standardised Proportions) ---------------------------
-
-# LA (GM)
-df_la_unpaid_care_asp <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2094_1.data.csv?date=latest&geography=645922841...645922850&c2021_carer_4=0...3&measures=20100") %>%
-  rename(area_code = GEOGRAPHY_CODE,
-         area_name = GEOGRAPHY_NAME,
-         unpaid_care = C2021_CARER_4_NAME,
-         value = OBS_VALUE
-  ) %>%
-  mutate(geography = "Local authority",
-         period = "2021-03-21",
-         measure = "Percentage",
-         indicator = "Estimates that classify usual residents by the number of hours of unpaid care they provide. Age-standardisation allows for comparisons between populations that may contain proportions of different ages, represented as a percentage.",
-         unit = "Persons",
-         unpaid_care = str_replace_all(unpaid_care, 'carea', 'care a')) %>%
-  select(area_code, area_name, geography, period, indicator, unpaid_care, measure, unit, value) %>%
-  write_csv("2021_unpaid_care_age_standardised_la_gm.csv")
 
 
 # MSOA (Trafford)
@@ -322,7 +324,43 @@ df_oa_unpaid_care <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_205
   write_csv("2021_unpaid_care_oa_trafford.csv")
 
 
-# Number of disabled people in the household ---------------------------
+# Ward (Trafford)
+df_ward_unpaid_care <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2057_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_carer_7=1...6&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         unpaid_care = C2021_CARER_7_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         measure = "Count",
+         indicator = "Estimates that classify usual residents by the number of hours of unpaid care they provide",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, unpaid_care, measure, unit, value) %>%
+  write_csv("2021_unpaid_care_ward_trafford.csv")
+
+
+# TS039ASP - Provision of unpaid care - Age Standardised Proportions (persons) ---------------------------
+
+# LA (GM)
+df_la_unpaid_care_asp <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2094_1.data.csv?date=latest&geography=645922841...645922850&c2021_carer_4=0...3&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         unpaid_care = C2021_CARER_4_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Local authority",
+         period = "2021-03-21",
+         measure = "Percentage",
+         indicator = "Estimates that classify usual residents by the number of hours of unpaid care they provide. Age-standardisation allows for comparisons between populations that may contain proportions of different ages, represented as a percentage.",
+         unit = "Persons",
+         unpaid_care = str_replace_all(unpaid_care, 'carea', 'care a')) %>%
+  select(area_code, area_name, geography, period, indicator, unpaid_care, measure, unit, value) %>%
+  write_csv("2021_unpaid_care_age_standardised_la_gm.csv")
+
+
+# TS040 - Number of disabled people in the household (households) ---------------------------
 
 # LA (GM)
 df_la_household_disabled_members <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2058_1.data.csv?date=latest&geography=645922841...645922850&c2021_hhdisabled_4=1...3&measures=20100") %>%
@@ -386,4 +424,21 @@ df_oa_household_disabled_members <- read_csv("https://www.nomisweb.co.uk/api/v01
          unit = "Households") %>%
   select(area_code, area_name, geography, period, indicator, disabled_household_members, measure, unit, value) %>%
   write_csv("2021_disabled_people_in_household_oa_trafford.csv")
+
+
+# Ward (Trafford)
+df_ward_household_disabled_members <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2058_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_hhdisabled_4=1...3&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         disabled_household_members = C2021_HHDISABLED_4_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         measure = "Count",
+         indicator = "The number of people in a household who assessed their day-to-day activities as limited by long-term physical or mental health conditions or illnesses and are considered disabled. This definition of a disabled person meets the harmonised standard for measuring disability and is in line with the Equality Act (2010).",
+         unit = "Households") %>%
+  select(area_code, area_name, geography, period, indicator, disabled_household_members, measure, unit, value) %>%
+  write_csv("2021_disabled_people_in_household_ward_trafford.csv")
 
