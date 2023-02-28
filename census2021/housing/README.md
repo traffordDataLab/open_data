@@ -49,6 +49,6 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2023-01-10</td>
+	<td>2023-02-28</td>
 </tr>
 </table>

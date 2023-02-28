@@ -42,10 +42,10 @@ df <- read_csv("2021_central_heating_la_gm.csv") %>%
     <td>Office for National Statistics</td>
     <td><a href="https://www.ons.gov.uk/census" target="_blank">Office for National Statistics</a></td>
     <td><time datetime="2021-03-21">2021-03-21</time></td>
-    <td>Local authority (<abbr>LA<abbr>), Middle-layer Super Output Area (<abbr>MSOA</abbr>), Lower-layer Super Output Area (<abbr>LSOA</abbr>), Output Area (<abbr>OA</abbr>)</td>
+    <td>Local authority (<abbr>LA<abbr>), Middle-layer Super Output Area (<abbr>MSOA</abbr>), Lower-layer Super Output Area (<abbr>LSOA</abbr>), Output Area (<abbr>OA</abbr>), Electoral Ward (Ward)</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2023-01-10">2023-01-10</time></td>
+    <td><time datetime="2023-02-28">2023-02-28</time></td>
   </tr>
 </table>
 
@@ -83,12 +83,14 @@ datatable(df,
 |---|---|
 |[2021_communal_establishment_residents_establishment_type_la_gm.csv](2021_communal_establishment_residents_establishment_type_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
 |[2021_communal_establishment_residents_establishment_type_msoa_trafford.csv](2021_communal_establishment_residents_establishment_type_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_communal_establishment_residents_establishment_type_ward_trafford.csv](2021_communal_establishment_residents_establishment_type_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Communal establishment residents by age &amp; sex (Persons)</h3>
 |File name |Geography |
 |---|---|
 |[2021_communal_establishment_residents_sex_age_la_gm.csv](2021_communal_establishment_residents_sex_age_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
 |[2021_communal_establishment_residents_sex_age_msoa_trafford.csv](2021_communal_establishment_residents_sex_age_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_communal_establishment_residents_sex_age_ward_trafford.csv](2021_communal_establishment_residents_sex_age_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Second address indicator (Persons)</h3>
 |File name |Geography |
@@ -97,6 +99,7 @@ datatable(df,
 |[2021_second_address_indicator_msoa_trafford.csv](2021_second_address_indicator_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_second_address_indicator_lsoa_trafford.csv](2021_second_address_indicator_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_second_address_indicator_oa_trafford.csv](2021_second_address_indicator_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_second_address_indicator_ward_trafford.csv](2021_second_address_indicator_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Purpose of second address (Persons)</h3>
 |File name |Geography |
@@ -105,6 +108,7 @@ datatable(df,
 |[2021_second_address_purpose_msoa_trafford.csv](2021_second_address_purpose_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_second_address_purpose_lsoa_trafford.csv](2021_second_address_purpose_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_second_address_purpose_oa_trafford.csv](2021_second_address_purpose_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_second_address_purpose_ward_trafford.csv](2021_second_address_purpose_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Accommodation type (Households)</h3>
 |File name |Geography |
@@ -113,6 +117,7 @@ datatable(df,
 |[2021_accommodation_type_msoa_trafford.csv](2021_accommodation_type_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_accommodation_type_lsoa_trafford.csv](2021_accommodation_type_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_accommodation_type_oa_trafford.csv](2021_accommodation_type_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_accommodation_type_ward_trafford.csv](2021_accommodation_type_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Car or van availability (Households)</h3>
 |File name |Geography |
@@ -121,6 +126,7 @@ datatable(df,
 |[2021_car_van_availability_msoa_trafford.csv](2021_car_van_availability_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_car_van_availability_lsoa_trafford.csv](2021_car_van_availability_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_car_van_availability_oa_trafford.csv](2021_car_van_availability_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_car_van_availability_ward_trafford.csv](2021_car_van_availability_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Central heating (Households)</h3>
 |File name |Geography |
@@ -129,6 +135,7 @@ datatable(df,
 |[2021_central_heating_msoa_trafford.csv](2021_central_heating_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_central_heating_lsoa_trafford.csv](2021_central_heating_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_central_heating_oa_trafford.csv](2021_central_heating_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_central_heating_ward_trafford.csv](2021_central_heating_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Number of bedrooms (Households)</h3>
 |File name |Geography |
@@ -137,6 +144,7 @@ datatable(df,
 |[2021_household_number_of_bedrooms_msoa_trafford.csv](2021_household_number_of_bedrooms_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_household_number_of_bedrooms_lsoa_trafford.csv](2021_household_number_of_bedrooms_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_household_number_of_bedrooms_oa_trafford.csv](2021_household_number_of_bedrooms_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_household_number_of_bedrooms_ward_trafford.csv](2021_household_number_of_bedrooms_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Occupancy rating for bedrooms (Households)</h3>
 |File name |Geography |
@@ -145,6 +153,7 @@ datatable(df,
 |[2021_household_bedroom_occupancy_msoa_trafford.csv](2021_household_bedroom_occupancy_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_household_bedroom_occupancy_lsoa_trafford.csv](2021_household_bedroom_occupancy_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_household_bedroom_occupancy_oa_trafford.csv](2021_household_bedroom_occupancy_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_household_bedroom_occupancy_ward_trafford.csv](2021_household_bedroom_occupancy_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Number of rooms (Households)</h3>
 |File name |Geography |
@@ -153,6 +162,7 @@ datatable(df,
 |[2021_household_number_of_rooms_msoa_trafford.csv](2021_household_number_of_rooms_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_household_number_of_rooms_lsoa_trafford.csv](2021_household_number_of_rooms_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_household_number_of_rooms_oa_trafford.csv](2021_household_number_of_rooms_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_household_number_of_rooms_ward_trafford.csv](2021_household_number_of_rooms_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Occupancy rating for rooms (Households)</h3>
 |File name |Geography |
@@ -161,6 +171,7 @@ datatable(df,
 |[2021_household_room_occupancy_msoa_trafford.csv](2021_household_room_occupancy_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_household_room_occupancy_lsoa_trafford.csv](2021_household_room_occupancy_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_household_room_occupancy_oa_trafford.csv](2021_household_room_occupancy_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_household_room_occupancy_ward_trafford.csv](2021_household_room_occupancy_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Tenure (Households)</h3>
 |File name |Geography |
@@ -169,6 +180,7 @@ datatable(df,
 |[2021_household_tenure_msoa_trafford.csv](2021_household_tenure_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_household_tenure_lsoa_trafford.csv](2021_household_tenure_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_household_tenure_oa_trafford.csv](2021_household_tenure_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_household_tenure_ward_trafford.csv](2021_household_tenure_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h2>Pre-processing</h2>
 [The R script used to process the data](pre-processing.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.

@@ -4,6 +4,8 @@
 # 2023-01-05 James Austin.
 # Source: Office for National Statistics https://www.ons.gov.uk/releases/housingcensus2021inenglandandwales
 
+# NOTE: Data can be downloaded locally via the URL above or via NOMIS API as shown in code below
+
 # AREA CODES OF INTEREST
 # Regions
 # E92000001: England
@@ -56,31 +58,15 @@
 library(tidyverse);
 
 
-# Setup objects required by this script ---------------------------
-
-# Area codes of the 10 Local Authorities in Greater Manchester"
-area_codes_gm <- c("E08000001","E08000002","E08000003","E08000004","E08000005","E08000006","E08000007","E08000008","E08000009","E08000010")
-
-# Area codes of Trafford's Children's Services Statistical Neighbours
-area_codes_cssn <- c("E10000015","E09000006","E08000029","E08000007","E06000036","E06000056","E06000014","E06000049","E10000014","E06000060")
-
-# Area codes of Trafford's CIPFA Nearest Neighbours (2019)
-area_codes_cipfa <- c("E06000007","E06000030","E08000029","E06000042","E06000025","E06000034","E08000007","E06000014","E06000055","E06000050","E06000031","E06000005","E06000015","E08000002","E06000020")
-
-
-## NOTE: Data downloaded locally via the form on the ONS website. Can also be downloaded via API from NOMIS
-
-
-# Accommodation type ---------------------------
+# TS044 - Accommodation type (households) ---------------------------
 
 # LA (GM)
-df_la_accommodation_type <- read_csv("accommodation_type_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         accommodation_type = `Accommodation type (8 categories)`,
-         value = Observation
+df_la_accommodation_type <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2062_1.data.csv?date=latest&geography=645922841...645922850&c2021_acctype_9=1...8&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         accommodation_type = C2021_ACCTYPE_9_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm) %>%
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Households in England and Wales by accommodation type",
@@ -91,11 +77,11 @@ df_la_accommodation_type <- read_csv("accommodation_type_la.csv") %>%
 
 
 # MSOA (Trafford)
-df_msoa_accommodation_type <- read_csv("accommodation_type_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         accommodation_type = `Accommodation type (8 categories)`,
-         value = Observation
+df_msoa_accommodation_type <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2062_1.data.csv?date=latest&geography=637535406...637535433&c2021_acctype_9=1...8&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         accommodation_type = C2021_ACCTYPE_9_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
@@ -107,11 +93,11 @@ df_msoa_accommodation_type <- read_csv("accommodation_type_msoa.csv") %>%
 
 
 # LSOA (Trafford)
-df_lsoa_accommodation_type <- read_csv("accommodation_type_lsoa.csv") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas`,
-         accommodation_type = `Accommodation type (8 categories)`,
-         value = Observation
+df_lsoa_accommodation_type <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2062_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_acctype_9=1...8&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         accommodation_type = C2021_ACCTYPE_9_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
@@ -123,11 +109,11 @@ df_lsoa_accommodation_type <- read_csv("accommodation_type_lsoa.csv") %>%
 
 
 # OA (Trafford)
-df_oa_accommodation_type <- read_csv("accommodation_type_oa.csv") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas`,
-         accommodation_type = `Accommodation type (8 categories)`,
-         value = Observation
+df_oa_accommodation_type <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2062_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_acctype_9=1...8&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         accommodation_type = C2021_ACCTYPE_9_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Output Area",
          period = "2021-03-21",
@@ -138,17 +124,32 @@ df_oa_accommodation_type <- read_csv("accommodation_type_oa.csv") %>%
   write_csv("2021_accommodation_type_oa_trafford.csv")
 
 
-# Household Tenure ---------------------------
+# Ward (Trafford)
+df_ward_accommodation_type <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2062_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_acctype_9=1...8&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         accommodation_type = C2021_ACCTYPE_9_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "Households in England and Wales by accommodation type",
+         measure = "Count",
+         unit = "Households") %>%
+  select(area_code, area_name, geography, period, indicator, accommodation_type, measure, unit, value) %>%
+  write_csv("2021_accommodation_type_ward_trafford.csv")
+
+
+# TS054 - Household Tenure (households) ---------------------------
 
 # LA (GM)
-df_la_household_tenure <- read_csv("household_tenure_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         household_tenure = `Tenure of household (9 categories)`,
-         value = Observation
+df_la_household_tenure <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2072_1.data.csv?date=latest&geography=645922841...645922850&c2021_tenure_9=1...8&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_tenure = C2021_TENURE_9_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm,
-         household_tenure != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Classification of households by tenure. There is evidence of people incorrectly identifying their type of landlord as ”Council or local authority” or “Housing association”. You should add these two categories together when analysing data that uses this variable",
@@ -159,13 +160,12 @@ df_la_household_tenure <- read_csv("household_tenure_la.csv") %>%
 
 
 # MSOA (Trafford)
-df_msoa_household_tenure <- read_csv("household_tenure_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         household_tenure = `Tenure of household (9 categories)`,
-         value = Observation
+df_msoa_household_tenure <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2072_1.data.csv?date=latest&geography=637535406...637535433&c2021_tenure_9=1...8&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_tenure = C2021_TENURE_9_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(household_tenure != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Classification of households by tenure. There is evidence of people incorrectly identifying their type of landlord as ”Council or local authority” or “Housing association”. You should add these two categories together when analysing data that uses this variable",
@@ -176,11 +176,11 @@ df_msoa_household_tenure <- read_csv("household_tenure_msoa.csv") %>%
 
 
 # LSOA (Trafford)
-df_lsoa_household_tenure <- read_csv("household_tenure_lsoa.csv") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas`,
-         household_tenure = `Tenure of household (9 categories)`,
-         value = Observation
+df_lsoa_household_tenure <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2072_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_tenure_9=1...8&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_tenure = C2021_TENURE_9_NAME,
+         value = OBS_VALUE
   ) %>%
   filter(household_tenure != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Lower-layer Super Output Area",
@@ -193,13 +193,12 @@ df_lsoa_household_tenure <- read_csv("household_tenure_lsoa.csv") %>%
 
 
 # OA (Trafford)
-df_oa_household_tenure <- read_csv("household_tenure_oa.csv") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas`,
-         household_tenure = `Tenure of household (9 categories)`,
-         value = Observation
+df_oa_household_tenure <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2072_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_tenure_9=1...8&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_tenure = C2021_TENURE_9_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(household_tenure != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Output Area",
          period = "2021-03-21",
          indicator = "Classification of households by tenure. There is evidence of people incorrectly identifying their type of landlord as ”Council or local authority” or “Housing association”. You should add these two categories together when analysing data that uses this variable",
@@ -209,17 +208,32 @@ df_oa_household_tenure <- read_csv("household_tenure_oa.csv") %>%
   write_csv("2021_household_tenure_oa_trafford.csv")
 
 
-# Car or van availability ---------------------------
+# Ward (Trafford)
+df_ward_household_tenure <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2072_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_tenure_9=1...8&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_tenure = C2021_TENURE_9_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "Classification of households by tenure. There is evidence of people incorrectly identifying their type of landlord as ”Council or local authority” or “Housing association”. You should add these two categories together when analysing data that uses this variable",
+         measure = "Count",
+         unit = "Households") %>%
+  select(area_code, area_name, geography, period, indicator, household_tenure, measure, unit, value) %>%
+  write_csv("2021_household_tenure_ward_trafford.csv")
+
+
+# TS045 - Car or van availability (households) ---------------------------
 
 # LA (GM)
-df_la_car_van_availability <- read_csv("car_van_availability_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         availability_category = `Car or van availability (5 categories)`,
-         value = Observation
+df_la_car_van_availability <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2063_1.data.csv?date=latest&geography=645922841...645922850&c2021_cars_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         availability_category = C2021_CARS_5_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm,
-         availability_category != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "The number of cars or vans owned or available for use by household members (excludes motorbikes, trikes, quad bikes, mobility scooters, vehicles with a SORN, vehicles owned or used only by a visitor, vehicles that are kept at another address or not easily accessed)",
@@ -230,13 +244,12 @@ df_la_car_van_availability <- read_csv("car_van_availability_la.csv") %>%
 
 
 # MSOA (Trafford)
-df_msoa_car_van_availability <- read_csv("car_van_availability_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         availability_category = `Car or van availability (5 categories)`,
-         value = Observation
+df_msoa_car_van_availability <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2063_1.data.csv?date=latest&geography=637535406...637535433&c2021_cars_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         availability_category = C2021_CARS_5_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(availability_category != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "The number of cars or vans owned or available for use by household members (excludes motorbikes, trikes, quad bikes, mobility scooters, vehicles with a SORN, vehicles owned or used only by a visitor, vehicles that are kept at another address or not easily accessed)",
@@ -247,13 +260,12 @@ df_msoa_car_van_availability <- read_csv("car_van_availability_msoa.csv") %>%
 
 
 # LSOA (Trafford)
-df_lsoa_car_van_availability <- read_csv("car_van_availability_lsoa.csv") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas`,
-         availability_category = `Car or van availability (5 categories)`,
-         value = Observation
+df_lsoa_car_van_availability <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2063_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_cars_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         availability_category = C2021_CARS_5_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(availability_category != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
          indicator = "The number of cars or vans owned or available for use by household members (excludes motorbikes, trikes, quad bikes, mobility scooters, vehicles with a SORN, vehicles owned or used only by a visitor, vehicles that are kept at another address or not easily accessed)",
@@ -264,13 +276,12 @@ df_lsoa_car_van_availability <- read_csv("car_van_availability_lsoa.csv") %>%
 
 
 # OA (Trafford)
-df_oa_car_van_availability <- read_csv("car_van_availability_oa.csv") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas`,
-         availability_category = `Car or van availability (5 categories)`,
-         value = Observation
+df_oa_car_van_availability <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2063_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_cars_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         availability_category = C2021_CARS_5_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(availability_category != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Output Area",
          period = "2021-03-21",
          indicator = "The number of cars or vans owned or available for use by household members (excludes motorbikes, trikes, quad bikes, mobility scooters, vehicles with a SORN, vehicles owned or used only by a visitor, vehicles that are kept at another address or not easily accessed)",
@@ -280,17 +291,32 @@ df_oa_car_van_availability <- read_csv("car_van_availability_oa.csv") %>%
   write_csv("2021_car_van_availability_oa_trafford.csv")
 
 
-# Central Heating ---------------------------
+# Ward (Trafford)
+df_ward_car_van_availability <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2063_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_cars_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         availability_category = C2021_CARS_5_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "The number of cars or vans owned or available for use by household members (excludes motorbikes, trikes, quad bikes, mobility scooters, vehicles with a SORN, vehicles owned or used only by a visitor, vehicles that are kept at another address or not easily accessed)",
+         measure = "Count",
+         unit = "Households") %>%
+  select(area_code, area_name, geography, period, indicator, availability_category, measure, unit, value) %>%
+  write_csv("2021_car_van_availability_ward_trafford.csv")
+
+
+# TS046 - Central Heating (households) ---------------------------
 
 # LA (GM)
-df_la_central_heating <- read_csv("central_heating_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         central_heating_type = `Type of central heating in household (13 categories)`,
-         value = Observation
+df_la_central_heating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2064_1.data.csv?date=latest&geography=645922841...645922850&c2021_heating_13=1...12&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         central_heating_type = C2021_HEATING_13_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm,
-         central_heating_type != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "The type of central heating present in occupied household spaces",
@@ -301,13 +327,12 @@ df_la_central_heating <- read_csv("central_heating_la.csv") %>%
 
 
 # MSOA (Trafford)
-df_msoa_central_heating <- read_csv("central_heating_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         central_heating_type = `Type of central heating in household (13 categories)`,
-         value = Observation
+df_msoa_central_heating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2064_1.data.csv?date=latest&geography=637535406...637535433&c2021_heating_13=1...12&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         central_heating_type = C2021_HEATING_13_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(central_heating_type != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "The type of central heating present in occupied household spaces",
@@ -318,13 +343,12 @@ df_msoa_central_heating <- read_csv("central_heating_msoa.csv") %>%
 
 
 # LSOA (Trafford)
-df_lsoa_central_heating <- read_csv("central_heating_lsoa.csv") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas`,
-         central_heating_type = `Type of central heating in household (13 categories)`,
-         value = Observation
+df_lsoa_central_heating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2064_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_heating_13=1...12&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         central_heating_type = C2021_HEATING_13_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(central_heating_type != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
          indicator = "The type of central heating present in occupied household spaces",
@@ -335,13 +359,12 @@ df_lsoa_central_heating <- read_csv("central_heating_lsoa.csv") %>%
 
 
 # OA (Trafford)
-df_oa_central_heating <- read_csv("central_heating_oa.csv") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas`,
-         central_heating_type = `Type of central heating in household (13 categories)`,
-         value = Observation
+df_oa_central_heating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2064_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_heating_13=1...12&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         central_heating_type = C2021_HEATING_13_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(central_heating_type != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Output Area",
          period = "2021-03-21",
          indicator = "The type of central heating present in occupied household spaces",
@@ -351,16 +374,32 @@ df_oa_central_heating <- read_csv("central_heating_oa.csv") %>%
   write_csv("2021_central_heating_oa_trafford.csv")
 
 
-# Communal Establishment Residents by sex and age  ---------------------------
+# Ward (Trafford)
+df_ward_central_heating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2064_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_heating_13=1...12&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         central_heating_type = C2021_HEATING_13_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "The type of central heating present in occupied household spaces",
+         measure = "Count",
+         unit = "Households") %>%
+  select(area_code, area_name, geography, period, indicator, central_heating_type, measure, unit, value) %>%
+  write_csv("2021_central_heating_ward_trafford.csv")
+
+
+# TS047 - Communal Establishment Residents by sex and age (persons)  ---------------------------
 
 # LA (GM)
-df_la_communal_estab_residents_by_sex_and_age <- read_csv("communal_establishment_residents_sex_age_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         resident_category = `Position in communal establishment and sex and age (19 categories)`,
-         value = Observation
+df_la_communal_estab_residents_by_sex_and_age <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2065_1.data.csv?date=latest&geography=645922841...645922850&c2021_age_sex_20=1...19&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         resident_category = C2021_AGE_SEX_20_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm) %>%
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Communal establishment residents by age and sex",
@@ -371,11 +410,11 @@ df_la_communal_estab_residents_by_sex_and_age <- read_csv("communal_establishmen
 
 
 # MSOA (Trafford)
-df_msoa_communal_estab_residents_by_sex_and_age <- read_csv("communal_establishment_residents_sex_and_age_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         resident_category = `Position in communal establishment and sex and age (19 categories)`,
-         value = Observation
+df_msoa_communal_estab_residents_by_sex_and_age <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2065_1.data.csv?date=latest&geography=637535406...637535433&c2021_age_sex_20=1...19&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         resident_category = C2021_AGE_SEX_20_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
@@ -386,16 +425,32 @@ df_msoa_communal_estab_residents_by_sex_and_age <- read_csv("communal_establishm
   write_csv("2021_communal_establishment_residents_sex_age_msoa_trafford.csv")
 
 
-# Communal Establishment Residents by establishment type  ---------------------------
+# Ward (Trafford)
+df_ward_communal_estab_residents_by_sex_and_age <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2065_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_age_sex_20=1...19&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         resident_category = C2021_AGE_SEX_20_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "Communal establishment residents by age and sex",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, resident_category, measure, unit, value) %>%
+  write_csv("2021_communal_establishment_residents_sex_age_ward_trafford.csv")
+
+
+# TS048 - Communal Establishment Residents by establishment type (persons)  ---------------------------
 
 # LA (GM)
-df_la_communal_estab_residents_by_establishment_type <- read_csv("communal_establishment_residents_type_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         establishment_type = `Communal establishment management and type (26 categories)`,
-         value = Observation
+df_la_communal_estab_residents_by_establishment_type <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2066_1.data.csv?date=latest&geography=645922841...645922850&c2021_comest_26=1...26&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         establishment_type = C2021_COMEST_26_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm) %>%
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Communal establishment residents by establishment management and type",
@@ -406,11 +461,11 @@ df_la_communal_estab_residents_by_establishment_type <- read_csv("communal_estab
 
 
 # MSOA (Trafford)
-df_msoa_communal_estab_residents_by_establishment_type <- read_csv("communal_establishment_residents_type_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         establishment_type = `Communal establishment management and type (26 categories)`,
-         value = Observation
+df_msoa_communal_estab_residents_by_establishment_type <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2066_1.data.csv?date=latest&geography=637535406...637535433&c2021_comest_26=1...26&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         establishment_type = C2021_COMEST_26_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
@@ -421,17 +476,32 @@ df_msoa_communal_estab_residents_by_establishment_type <- read_csv("communal_est
   write_csv("2021_communal_establishment_residents_establishment_type_msoa_trafford.csv")
 
 
-# Household number of bedrooms  ---------------------------
+# Ward (Trafford)
+df_ward_communal_estab_residents_by_establishment_type <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2066_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_comest_26=1...26&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         establishment_type = C2021_COMEST_26_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "Communal establishment residents by establishment management and type",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, establishment_type, measure, unit, value) %>%
+  write_csv("2021_communal_establishment_residents_establishment_type_ward_trafford.csv")
+
+
+# TS050 - Household number of bedrooms (households)  ---------------------------
 
 # LA (GM)
-df_la_household_number_of_bedrooms <- read_csv("household_bedrooms_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         household_bedrooms = `Number of Bedrooms (5 categories)`,
-         value = Observation
+df_la_household_number_of_bedrooms <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2068_1.data.csv?date=latest&geography=645922841...645922850&c2021_bedrooms_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_bedrooms = C2021_BEDROOMS_5_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm,
-         household_bedrooms != "Does not apply") %>%  # These are 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Number of bedrooms in household spaces with at least one usual resident",
@@ -442,13 +512,12 @@ df_la_household_number_of_bedrooms <- read_csv("household_bedrooms_la.csv") %>%
 
 
 # MSOA (Trafford)
-df_msoa_household_number_of_bedrooms <- read_csv("household_bedrooms_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         household_bedrooms = `Number of Bedrooms (5 categories)`,
-         value = Observation
+df_msoa_household_number_of_bedrooms <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2068_1.data.csv?date=latest&geography=637535406...637535433&c2021_bedrooms_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_bedrooms = C2021_BEDROOMS_5_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(household_bedrooms != "Does not apply") %>%  # These are 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Number of bedrooms in household spaces with at least one usual resident",
@@ -459,13 +528,12 @@ df_msoa_household_number_of_bedrooms <- read_csv("household_bedrooms_msoa.csv") 
 
 
 # LSOA (Trafford)
-df_lsoa_household_number_of_bedrooms <- read_csv("household_bedrooms_lsoa.csv") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas`,
-         household_bedrooms = `Number of Bedrooms (5 categories)`,
-         value = Observation
+df_lsoa_household_number_of_bedrooms <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2068_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_bedrooms_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_bedrooms = C2021_BEDROOMS_5_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(household_bedrooms != "Does not apply") %>%  # These are 0 for all areas
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Number of bedrooms in household spaces with at least one usual resident",
@@ -476,13 +544,12 @@ df_lsoa_household_number_of_bedrooms <- read_csv("household_bedrooms_lsoa.csv") 
 
 
 # OA (Trafford)
-df_oa_household_number_of_bedrooms <- read_csv("household_bedrooms_oa.csv") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas`,
-         household_bedrooms = `Number of Bedrooms (5 categories)`,
-         value = Observation
+df_oa_household_number_of_bedrooms <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2068_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_bedrooms_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_bedrooms = C2021_BEDROOMS_5_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(household_bedrooms != "Does not apply") %>%  # These are 0 for all areas
   mutate(geography = "Output Area",
          period = "2021-03-21",
          indicator = "Number of bedrooms in household spaces with at least one usual resident",
@@ -492,16 +559,32 @@ df_oa_household_number_of_bedrooms <- read_csv("household_bedrooms_oa.csv") %>%
   write_csv("2021_household_number_of_bedrooms_oa_trafford.csv")
 
 
-# Household number of rooms  ---------------------------
+# Ward (Trafford)
+df_ward_household_number_of_bedrooms <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2068_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_bedrooms_5=1...4&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_bedrooms = C2021_BEDROOMS_5_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "Number of bedrooms in household spaces with at least one usual resident",
+         measure = "Count",
+         unit = "Households") %>%
+  select(area_code, area_name, geography, period, indicator, household_bedrooms, measure, unit, value) %>%
+  write_csv("2021_household_number_of_bedrooms_ward_trafford.csv")
+
+
+# TS051 Household number of rooms (households) ---------------------------
 
 # LA (GM)
-df_la_household_number_of_rooms <- read_csv("household_rooms_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         household_rooms = `Number of rooms (Valuation Office Agency) (9 categories)`,
-         value = Observation
+df_la_household_number_of_rooms <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2069_1.data.csv?date=latest&geography=645922841...645922850&c2021_rooms_10=1...9&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_rooms = C2021_ROOMS_10_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm) %>%
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition)",
@@ -512,11 +595,11 @@ df_la_household_number_of_rooms <- read_csv("household_rooms_la.csv") %>%
 
 
 # MSOA (Trafford)
-df_msoa_household_number_of_rooms <- read_csv("household_rooms_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         household_rooms = `Number of rooms (Valuation Office Agency) (9 categories)`,
-         value = Observation
+df_msoa_household_number_of_rooms <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2069_1.data.csv?date=latest&geography=637535406...637535433&c2021_rooms_10=1...9&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_rooms = C2021_ROOMS_10_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
@@ -528,11 +611,11 @@ df_msoa_household_number_of_rooms <- read_csv("household_rooms_msoa.csv") %>%
 
 
 # LSOA (Trafford)
-df_lsoa_household_number_of_rooms <- read_csv("household_rooms_lsoa.csv") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas`,
-         household_rooms = `Number of rooms (Valuation Office Agency) (9 categories)`,
-         value = Observation
+df_lsoa_household_number_of_rooms <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2069_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_rooms_10=1...9&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_rooms = C2021_ROOMS_10_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
@@ -544,11 +627,11 @@ df_lsoa_household_number_of_rooms <- read_csv("household_rooms_lsoa.csv") %>%
 
 
 # OA (Trafford)
-df_oa_household_number_of_rooms <- read_csv("household_rooms_oa.csv") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas`,
-         household_rooms = `Number of rooms (Valuation Office Agency) (9 categories)`,
-         value = Observation
+df_oa_household_number_of_rooms <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2069_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_rooms_10=1...9&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_rooms = C2021_ROOMS_10_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Output Area",
          period = "2021-03-21",
@@ -559,17 +642,32 @@ df_oa_household_number_of_rooms <- read_csv("household_rooms_oa.csv") %>%
   write_csv("2021_household_number_of_rooms_oa_trafford.csv")
 
 
-# Household bedroom occupancy rating  ---------------------------
+# Ward (Trafford)
+df_ward_household_number_of_rooms <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2069_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_rooms_10=1...9&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         household_rooms = C2021_ROOMS_10_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "Number of rooms in household spaces with at least one usual resident (Valuation Office Agency definition)",
+         measure = "Count",
+         unit = "Households") %>%
+  select(area_code, area_name, geography, period, indicator, household_rooms, measure, unit, value) %>%
+  write_csv("2021_household_number_of_rooms_ward_trafford.csv")
+
+
+# TS052 - Household bedroom occupancy rating (households) ---------------------------
 
 # LA (GM)
-df_la_household_bedroom_occupancy_rating <- read_csv("bedroom_occupancy_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         bedroom_occupancy = `Occupancy rating for bedrooms (6 categories)`,
-         value = Observation
+df_la_household_bedroom_occupancy_rating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2070_1.data.csv?date=latest&geography=645922841...645922850&c2021_occrat_bedrooms_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         bedroom_occupancy = C2021_OCCRAT_BEDROOMS_6_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm,
-         bedroom_occupancy != "Does not apply") %>%  # These are 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Occupancy rating based on the number of bedrooms in the household. -1 or less implies overcrowding, +1 or more implies under-occupancy and 0 suggests the household has an ideal number of bedrooms",
@@ -580,13 +678,12 @@ df_la_household_bedroom_occupancy_rating <- read_csv("bedroom_occupancy_la.csv")
 
 
 # MSOA (Trafford)
-df_msoa_household_bedroom_occupancy_rating <- read_csv("bedroom_occupancy_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         bedroom_occupancy = `Occupancy rating for bedrooms (6 categories)`,
-         value = Observation
+df_msoa_household_bedroom_occupancy_rating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2070_1.data.csv?date=latest&geography=637535406...637535433&c2021_occrat_bedrooms_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         bedroom_occupancy = C2021_OCCRAT_BEDROOMS_6_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(bedroom_occupancy != "Does not apply") %>%  # These are 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Occupancy rating based on the number of bedrooms in the household. -1 or less implies overcrowding, +1 or more implies under-occupancy and 0 suggests the household has an ideal number of bedrooms",
@@ -597,13 +694,12 @@ df_msoa_household_bedroom_occupancy_rating <- read_csv("bedroom_occupancy_msoa.c
 
 
 # LSOA (Trafford)
-df_lsoa_household_bedroom_occupancy_rating <- read_csv("bedroom_occupancy_lsoa.csv") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas`,
-         bedroom_occupancy = `Occupancy rating for bedrooms (6 categories)`,
-         value = Observation
+df_lsoa_household_bedroom_occupancy_rating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2070_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_occrat_bedrooms_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         bedroom_occupancy = C2021_OCCRAT_BEDROOMS_6_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(bedroom_occupancy != "Does not apply") %>%  # These are 0 for all areas
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Occupancy rating based on the number of bedrooms in the household. -1 or less implies overcrowding, +1 or more implies under-occupancy and 0 suggests the household has an ideal number of bedrooms",
@@ -614,11 +710,11 @@ df_lsoa_household_bedroom_occupancy_rating <- read_csv("bedroom_occupancy_lsoa.c
 
 
 # OA (Trafford)
-df_oa_household_bedroom_occupancy_rating <- read_csv("bedroom_occupancy_oa.csv") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas`,
-         bedroom_occupancy = `Occupancy rating for bedrooms (6 categories)`,
-         value = Observation
+df_oa_household_bedroom_occupancy_rating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2070_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_occrat_bedrooms_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         bedroom_occupancy = C2021_OCCRAT_BEDROOMS_6_NAME,
+         value = OBS_VALUE
   ) %>%
   filter(bedroom_occupancy != "Does not apply") %>%  # These are 0 for all areas
   mutate(geography = "Output Area",
@@ -630,17 +726,32 @@ df_oa_household_bedroom_occupancy_rating <- read_csv("bedroom_occupancy_oa.csv")
   write_csv("2021_household_bedroom_occupancy_oa_trafford.csv")
 
 
-# Household room occupancy rating  ---------------------------
+# Ward (Trafford)
+df_ward_household_bedroom_occupancy_rating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2070_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_occrat_bedrooms_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         bedroom_occupancy = C2021_OCCRAT_BEDROOMS_6_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "Occupancy rating based on the number of bedrooms in the household. -1 or less implies overcrowding, +1 or more implies under-occupancy and 0 suggests the household has an ideal number of bedrooms",
+         measure = "Count",
+         unit = "Households") %>%
+  select(area_code, area_name, geography, period, indicator, bedroom_occupancy, measure, unit, value) %>%
+  write_csv("2021_household_bedroom_occupancy_ward_trafford.csv")
+
+
+# TS053 - Household room occupancy rating (households) ---------------------------
 
 # LA (GM)
-df_la_household_room_occupancy_rating <- read_csv("room_occupancy_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         room_occupancy = `Occupancy rating for rooms (6 categories)`,
-         value = Observation
+df_la_household_room_occupancy_rating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2071_1.data.csv?date=latest&geography=645922841...645922850&c2021_occrat_rooms_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         room_occupancy = C2021_OCCRAT_ROOMS_6_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm,
-         room_occupancy != "Does not apply") %>%  # These are 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Occupancy rating based on the number of rooms in the household (Valuation Office Agency definition). -1 or less implies overcrowding, +1 or more implies under-occupancy and 0 suggests the household has an ideal number of rooms",
@@ -651,13 +762,12 @@ df_la_household_room_occupancy_rating <- read_csv("room_occupancy_la.csv") %>%
 
 
 # MSOA (Trafford)
-df_msoa_household_room_occupancy_rating <- read_csv("room_occupancy_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         room_occupancy = `Occupancy rating for rooms (6 categories)`,
-         value = Observation
+df_msoa_household_room_occupancy_rating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2071_1.data.csv?date=latest&geography=637535406...637535433&c2021_occrat_rooms_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         room_occupancy = C2021_OCCRAT_ROOMS_6_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(room_occupancy != "Does not apply") %>%  # These are 0 for all areas
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Occupancy rating based on the number of rooms in the household (Valuation Office Agency definition). -1 or less implies overcrowding, +1 or more implies under-occupancy and 0 suggests the household has an ideal number of rooms",
@@ -668,13 +778,12 @@ df_msoa_household_room_occupancy_rating <- read_csv("room_occupancy_msoa.csv") %
 
 
 # LSOA (Trafford)
-df_lsoa_household_room_occupancy_rating <- read_csv("room_occupancy_lsoa.csv") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas`,
-         room_occupancy = `Occupancy rating for rooms (6 categories)`,
-         value = Observation
+df_lsoa_household_room_occupancy_rating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2071_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_occrat_rooms_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         room_occupancy = C2021_OCCRAT_ROOMS_6_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(room_occupancy != "Does not apply") %>%  # These are 0 for all areas
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
          indicator = "Occupancy rating based on the number of rooms in the household (Valuation Office Agency definition). -1 or less implies overcrowding, +1 or more implies under-occupancy and 0 suggests the household has an ideal number of rooms",
@@ -685,13 +794,12 @@ df_lsoa_household_room_occupancy_rating <- read_csv("room_occupancy_lsoa.csv") %
 
 
 # OA (Trafford)
-df_oa_household_room_occupancy_rating <- read_csv("room_occupancy_oa.csv") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas`,
-         room_occupancy = `Occupancy rating for rooms (6 categories)`,
-         value = Observation
+df_oa_household_room_occupancy_rating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2071_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_occrat_rooms_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         room_occupancy = C2021_OCCRAT_ROOMS_6_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(room_occupancy != "Does not apply") %>%  # These are 0 for all areas
   mutate(geography = "Output Area",
          period = "2021-03-21",
          indicator = "Occupancy rating based on the number of rooms in the household (Valuation Office Agency definition). -1 or less implies overcrowding, +1 or more implies under-occupancy and 0 suggests the household has an ideal number of rooms",
@@ -701,16 +809,32 @@ df_oa_household_room_occupancy_rating <- read_csv("room_occupancy_oa.csv") %>%
   write_csv("2021_household_room_occupancy_oa_trafford.csv")
 
 
-# Second Address Indicator ---------------------------
+# Ward (Trafford)
+df_ward_household_room_occupancy_rating <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2071_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_occrat_rooms_6=1...5&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         room_occupancy = C2021_OCCRAT_ROOMS_6_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "Occupancy rating based on the number of rooms in the household (Valuation Office Agency definition). -1 or less implies overcrowding, +1 or more implies under-occupancy and 0 suggests the household has an ideal number of rooms",
+         measure = "Count",
+         unit = "Households") %>%
+  select(area_code, area_name, geography, period, indicator, room_occupancy, measure, unit, value) %>%
+  write_csv("2021_household_room_occupancy_ward_trafford.csv")
+
+
+# TS056 - Second Address Indicator (persons) ---------------------------
 
 # LA (GM)
-df_la_second_address <- read_csv("second_address_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         second_address_category = `Second address indicator (3 categories)`,
-         value = Observation
+df_la_second_address <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2074_1.data.csv?date=latest&geography=645922841...645922850&c2021_2addr_4=1...3&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         second_address_category = C2021_2ADDR_4_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm) %>%
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Classification of usual residents by their use of a second address and whether that address is inside or outside the UK",
@@ -721,11 +845,11 @@ df_la_second_address <- read_csv("second_address_la.csv") %>%
 
 
 # MSOA (Trafford)
-df_msoa_second_address <- read_csv("second_address_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         second_address_category = `Second address indicator (3 categories)`,
-         value = Observation
+df_msoa_second_address <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2074_1.data.csv?date=latest&geography=637535406...637535433&c2021_2addr_4=1...3&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         second_address_category = C2021_2ADDR_4_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
@@ -737,11 +861,11 @@ df_msoa_second_address <- read_csv("second_address_msoa.csv") %>%
 
 
 # LSOA (Trafford)
-df_lsoa_second_address <- read_csv("second_address_lsoa.csv") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas`,
-         second_address_category = `Second address indicator (3 categories)`,
-         value = Observation
+df_lsoa_second_address <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2074_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_2addr_4=1...3&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         second_address_category = C2021_2ADDR_4_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
@@ -753,11 +877,11 @@ df_lsoa_second_address <- read_csv("second_address_lsoa.csv") %>%
 
 
 # OA (Trafford)
-df_oa_second_address <- read_csv("second_address_oa.csv") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas`,
-         second_address_category = `Second address indicator (3 categories)`,
-         value = Observation
+df_oa_second_address <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2074_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_2addr_4=1...3&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         second_address_category = C2021_2ADDR_4_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Output Area",
          period = "2021-03-21",
@@ -768,16 +892,32 @@ df_oa_second_address <- read_csv("second_address_oa.csv") %>%
   write_csv("2021_second_address_indicator_oa_trafford.csv")
 
 
-# Second Address Purpose ---------------------------
+# Ward (Trafford)
+df_ward_second_address <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2074_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_2addr_4=1...3&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         second_address_category = C2021_2ADDR_4_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "Classification of usual residents by their use of a second address and whether that address is inside or outside the UK",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, second_address_category, measure, unit, value) %>%
+  write_csv("2021_second_address_indicator_ward_trafford.csv")
+
+
+# TS055 - Second Address Purpose (persons) ---------------------------
 
 # LA (GM)
-df_la_second_address_purpose <- read_csv("second_address_purpose_la.csv") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities`,
-         second_address_purpose = `Second address type (10 categories)`,
-         value = Observation
+df_la_second_address_purpose <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2073_1.data.csv?date=latest&geography=645922841...645922850&c2021_pur2addr_10=1...9&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         second_address_purpose = C2021_PUR2ADDR_10_NAME,
+         value = OBS_VALUE
   ) %>%
-  filter(area_code %in% area_codes_gm) %>%
   mutate(geography = "Local authority",
          period = "2021-03-21",
          indicator = "Classification of usual residents with a second address by the purpose of that second address. The 'Does not apply' classification applies to people without an alternative address.",
@@ -788,11 +928,11 @@ df_la_second_address_purpose <- read_csv("second_address_purpose_la.csv") %>%
 
 
 # MSOA (Trafford)
-df_msoa_second_address_purpose <- read_csv("second_address_purpose_msoa.csv") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas`,
-         second_address_purpose = `Second address type (10 categories)`,
-         value = Observation
+df_msoa_second_address_purpose <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2073_1.data.csv?date=latest&geography=637535406...637535433&c2021_pur2addr_10=1...9&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         second_address_purpose = C2021_PUR2ADDR_10_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Middle-layer Super Output Area",
          period = "2021-03-21",
@@ -804,11 +944,11 @@ df_msoa_second_address_purpose <- read_csv("second_address_purpose_msoa.csv") %>
 
 
 # LSOA (Trafford)
-df_lsoa_second_address_purpose <- read_csv("second_address_purpose_lsoa.csv") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas`,
-         second_address_purpose = `Second address type (10 categories)`,
-         value = Observation
+df_lsoa_second_address_purpose <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2073_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_pur2addr_10=1...9&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         second_address_purpose = C2021_PUR2ADDR_10_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Lower-layer Super Output Area",
          period = "2021-03-21",
@@ -820,11 +960,11 @@ df_lsoa_second_address_purpose <- read_csv("second_address_purpose_lsoa.csv") %>
 
 
 # OA (Trafford)
-df_oa_second_address_purpose <- read_csv("second_address_purpose_oa.csv") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas`,
-         second_address_purpose = `Second address type (10 categories)`,
-         value = Observation
+df_oa_second_address_purpose <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2073_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_pur2addr_10=1...9&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         second_address_purpose = C2021_PUR2ADDR_10_NAME,
+         value = OBS_VALUE
   ) %>%
   mutate(geography = "Output Area",
          period = "2021-03-21",
@@ -833,4 +973,20 @@ df_oa_second_address_purpose <- read_csv("second_address_purpose_oa.csv") %>%
          unit = "Persons") %>%
   select(area_code, area_name, geography, period, indicator, second_address_purpose, measure, unit, value) %>%
   write_csv("2021_second_address_purpose_oa_trafford.csv")
+
+
+df_ward_second_address_purpose <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2073_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_pur2addr_10=1...9&measures=20100") %>%
+  rename(area_code = GEOGRAPHY_CODE,
+         area_name = GEOGRAPHY_NAME,
+         second_address_purpose = C2021_PUR2ADDR_10_NAME,
+         value = OBS_VALUE
+  ) %>%
+  mutate(geography = "Electoral ward",
+         area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets
+         period = "2021-03-21",
+         indicator = "Classification of usual residents with a second address by the purpose of that second address. The 'Does not apply' classification applies to people without an alternative address.",
+         measure = "Count",
+         unit = "Persons") %>%
+  select(area_code, area_name, geography, period, indicator, second_address_purpose, measure, unit, value) %>%
+  write_csv("2021_second_address_purpose_ward_trafford.csv")
 

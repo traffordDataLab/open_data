@@ -1,0 +1,85 @@
+area_code,area_name,geography,period,indicator,household_bedrooms,measure,unit,value
+E05000819,Altrincham,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,629
+E05000819,Altrincham,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,1669
+E05000819,Altrincham,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2078
+E05000819,Altrincham,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,1232
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,488
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,1069
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,1635
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,1136
+E05000821,Bowdon,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,238
+E05000821,Bowdon,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,815
+E05000821,Bowdon,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,1025
+E05000821,Bowdon,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,1660
+E05000822,Broadheath,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,279
+E05000822,Broadheath,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,1353
+E05000822,Broadheath,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2702
+E05000822,Broadheath,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,1238
+E05000823,Brooklands,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,324
+E05000823,Brooklands,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,630
+E05000823,Brooklands,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,1977
+E05000823,Brooklands,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,1271
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,294
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,1187
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2302
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,402
+E05000825,Clifford,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,1053
+E05000825,Clifford,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,1429
+E05000825,Clifford,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,1834
+E05000825,Clifford,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,893
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,264
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,518
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2539
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,664
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,178
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,590
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2411
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,929
+E05000828,Flixton,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,416
+E05000828,Flixton,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,844
+E05000828,Flixton,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2393
+E05000828,Flixton,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,951
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,384
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,1551
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2690
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,440
+E05000830,Hale Barns,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,193
+E05000830,Hale Barns,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,475
+E05000830,Hale Barns,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,1192
+E05000830,Hale Barns,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,1961
+E05000831,Hale Central,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,147
+E05000831,Hale Central,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,984
+E05000831,Hale Central,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,1241
+E05000831,Hale Central,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,1807
+E05000832,Longford,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,822
+E05000832,Longford,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,1071
+E05000832,Longford,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2472
+E05000832,Longford,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,784
+E05000833,Priory,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,819
+E05000833,Priory,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,1720
+E05000833,Priory,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,1550
+E05000833,Priory,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,936
+E05000835,Sale Moor,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,357
+E05000835,Sale Moor,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,969
+E05000835,Sale Moor,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2294
+E05000835,Sale Moor,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,777
+E05000834,St Mary's,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,505
+E05000834,St Mary's,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,1018
+E05000834,St Mary's,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2068
+E05000834,St Mary's,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,1221
+E05000836,Stretford,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,600
+E05000836,Stretford,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,962
+E05000836,Stretford,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2336
+E05000836,Stretford,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,771
+E05000837,Timperley,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,73
+E05000837,Timperley,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,467
+E05000837,Timperley,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2478
+E05000837,Timperley,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,1365
+E05000838,Urmston,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,711
+E05000838,Urmston,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,1077
+E05000838,Urmston,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2169
+E05000838,Urmston,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,955
+E05000839,Village,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,1 bedroom,Count,Households,354
+E05000839,Village,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,2 bedrooms,Count,Households,958
+E05000839,Village,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,3 bedrooms,Count,Households,2034
+E05000839,Village,Electoral ward,2021-03-21,Number of bedrooms in household spaces with at least one usual resident,4 or more bedrooms,Count,Households,973

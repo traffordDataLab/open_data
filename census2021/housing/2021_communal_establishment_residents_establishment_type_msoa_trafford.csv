@@ -1,5 +1,4 @@
 area_code,area_name,geography,period,indicator,establishment_type,measure,unit,value
-E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,5
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -25,7 +24,7 @@ E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,12
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,2
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,5
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -51,7 +50,7 @@ E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,4
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,1
-E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,4
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,2
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -77,7 +76,7 @@ E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,4
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -103,7 +102,7 @@ E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,40
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -129,7 +128,7 @@ E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -155,7 +154,7 @@ E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,2
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -181,7 +180,7 @@ E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,2
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -207,7 +206,7 @@ E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,2
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -233,7 +232,7 @@ E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,4
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,2
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -259,7 +258,7 @@ E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,4
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,4
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -285,7 +284,7 @@ E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,4
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -311,7 +310,7 @@ E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -337,7 +336,7 @@ E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -363,7 +362,7 @@ E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,5
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -389,7 +388,7 @@ E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,2
-E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,5
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,5
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -415,7 +414,7 @@ E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,5
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -441,7 +440,7 @@ E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -467,7 +466,7 @@ E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,5
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -493,7 +492,7 @@ E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,5
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -519,7 +518,7 @@ E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -545,7 +544,7 @@ E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,6
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -571,7 +570,7 @@ E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,6
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -597,7 +596,7 @@ E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -623,7 +622,7 @@ E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -649,7 +648,7 @@ E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -675,7 +674,7 @@ E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -701,7 +700,7 @@ E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
-E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,1
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -727,3 +726,4 @@ E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Communal establ
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,0
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,0

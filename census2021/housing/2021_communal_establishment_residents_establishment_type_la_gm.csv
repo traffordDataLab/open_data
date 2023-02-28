@@ -1,5 +1,4 @@
 area_code,area_name,geography,period,indicator,establishment_type,measure,unit,value
-E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,128
 E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -25,7 +24,7 @@ E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by 
 E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,46
-E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,43
+E08000001,Bolton,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,128
 E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,2
 E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,113
 E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -51,7 +50,7 @@ E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by es
 E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,10
-E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,363
+E08000002,Bury,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,43
 E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,6
 E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,121
 E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,27
@@ -77,7 +76,7 @@ E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents
 E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,8
 E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,493
-E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,89
+E08000003,Manchester,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,363
 E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,11
 E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -103,7 +102,7 @@ E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by 
 E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,53
-E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,95
+E08000004,Oldham,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,89
 E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,25
 E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -129,7 +128,7 @@ E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents b
 E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,2
 E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,21
-E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,524
+E08000005,Rochdale,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,95
 E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,8
 E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,59
 E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,17
@@ -155,7 +154,7 @@ E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by
 E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,2
 E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,20
 E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,22
-E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,58
+E08000006,Salford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,524
 E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,16
 E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -181,7 +180,7 @@ E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents 
 E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,2
 E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,2
-E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,108
+E08000007,Stockport,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,58
 E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,0
 E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -207,7 +206,7 @@ E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents b
 E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,0
 E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,8
-E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,49
+E08000008,Tameside,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,108
 E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,40
 E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,0
 E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -233,7 +232,7 @@ E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents b
 E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,12
 E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,4
 E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,3
-E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,27
+E08000009,Trafford,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,49
 E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: General hospital,Count,Persons,2
 E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Mental health hospital or unit (including secure units),Count,Persons,4
 E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Medical and care establishment: NHS: Other hospital,Count,Persons,0
@@ -259,3 +258,4 @@ E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by e
 E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Other travel or temporary accommodation,Count,Persons,21
 E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Religious,Count,Persons,0
 E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Other establishment: Staff or worker accommodation or Other,Count,Persons,2
+E08000010,Wigan,Local authority,2021-03-21,Communal establishment residents by establishment management and type,Establishment not stated,Count,Persons,27

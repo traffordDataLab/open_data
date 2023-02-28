@@ -1,0 +1,253 @@
+area_code,area_name,geography,period,indicator,central_heating_type,measure,unit,value
+E05000819,Altrincham,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,55
+E05000819,Altrincham,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,4287
+E05000819,Altrincham,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,12
+E05000819,Altrincham,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,741
+E05000819,Altrincham,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,5
+E05000819,Altrincham,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E05000819,Altrincham,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000819,Altrincham,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,10
+E05000819,Altrincham,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,77
+E05000819,Altrincham,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,31
+E05000819,Altrincham,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,379
+E05000819,Altrincham,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,12
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,49
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3497
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,7
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,450
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,2
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,3
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,37
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,20
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,255
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,7
+E05000821,Bowdon,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,31
+E05000821,Bowdon,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3076
+E05000821,Bowdon,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,20
+E05000821,Bowdon,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,258
+E05000821,Bowdon,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,41
+E05000821,Bowdon,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,4
+E05000821,Bowdon,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,5
+E05000821,Bowdon,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,11
+E05000821,Bowdon,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,1
+E05000821,Bowdon,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,14
+E05000821,Bowdon,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,268
+E05000821,Bowdon,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,10
+E05000822,Broadheath,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,70
+E05000822,Broadheath,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,4654
+E05000822,Broadheath,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,8
+E05000822,Broadheath,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,453
+E05000822,Broadheath,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,8
+E05000822,Broadheath,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,1
+E05000822,Broadheath,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000822,Broadheath,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,1
+E05000822,Broadheath,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,4
+E05000822,Broadheath,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,19
+E05000822,Broadheath,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,347
+E05000822,Broadheath,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,9
+E05000823,Brooklands,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,42
+E05000823,Brooklands,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3591
+E05000823,Brooklands,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,5
+E05000823,Brooklands,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,319
+E05000823,Brooklands,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,5
+E05000823,Brooklands,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E05000823,Brooklands,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000823,Brooklands,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,0
+E05000823,Brooklands,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,5
+E05000823,Brooklands,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,14
+E05000823,Brooklands,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,213
+E05000823,Brooklands,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,8
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,75
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3451
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,18
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,226
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,4
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,2
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,1
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,1
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,13
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,46
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,336
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,11
+E05000825,Clifford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,114
+E05000825,Clifford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3222
+E05000825,Clifford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,23
+E05000825,Clifford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,1085
+E05000825,Clifford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,3
+E05000825,Clifford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,1
+E05000825,Clifford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000825,Clifford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,37
+E05000825,Clifford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,156
+E05000825,Clifford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,127
+E05000825,Clifford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,425
+E05000825,Clifford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,15
+E05000826,Davyhulme East,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,48
+E05000826,Davyhulme East,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3548
+E05000826,Davyhulme East,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,6
+E05000826,Davyhulme East,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,88
+E05000826,Davyhulme East,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,1
+E05000826,Davyhulme East,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E05000826,Davyhulme East,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,2
+E05000826,Davyhulme East,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,2
+E05000826,Davyhulme East,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,6
+E05000826,Davyhulme East,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,18
+E05000826,Davyhulme East,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,265
+E05000826,Davyhulme East,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,4
+E05000827,Davyhulme West,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,30
+E05000827,Davyhulme West,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3691
+E05000827,Davyhulme West,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,5
+E05000827,Davyhulme West,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,91
+E05000827,Davyhulme West,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,4
+E05000827,Davyhulme West,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,2
+E05000827,Davyhulme West,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000827,Davyhulme West,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,4
+E05000827,Davyhulme West,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,4
+E05000827,Davyhulme West,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,18
+E05000827,Davyhulme West,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,252
+E05000827,Davyhulme West,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,11
+E05000828,Flixton,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,40
+E05000828,Flixton,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,4042
+E05000828,Flixton,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,4
+E05000828,Flixton,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,158
+E05000828,Flixton,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,4
+E05000828,Flixton,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E05000828,Flixton,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,1
+E05000828,Flixton,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,6
+E05000828,Flixton,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,19
+E05000828,Flixton,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,15
+E05000828,Flixton,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,299
+E05000828,Flixton,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,13
+E05000829,Gorse Hill,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,83
+E05000829,Gorse Hill,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,4133
+E05000829,Gorse Hill,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,14
+E05000829,Gorse Hill,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,345
+E05000829,Gorse Hill,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,5
+E05000829,Gorse Hill,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E05000829,Gorse Hill,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000829,Gorse Hill,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,2
+E05000829,Gorse Hill,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,17
+E05000829,Gorse Hill,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,35
+E05000829,Gorse Hill,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,423
+E05000829,Gorse Hill,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,8
+E05000830,Hale Barns,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,28
+E05000830,Hale Barns,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3310
+E05000830,Hale Barns,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,8
+E05000830,Hale Barns,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,147
+E05000830,Hale Barns,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,10
+E05000830,Hale Barns,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E05000830,Hale Barns,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000830,Hale Barns,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,10
+E05000830,Hale Barns,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,4
+E05000830,Hale Barns,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,11
+E05000830,Hale Barns,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,282
+E05000830,Hale Barns,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,13
+E05000831,Hale Central,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,31
+E05000831,Hale Central,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3570
+E05000831,Hale Central,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,12
+E05000831,Hale Central,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,261
+E05000831,Hale Central,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,1
+E05000831,Hale Central,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E05000831,Hale Central,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000831,Hale Central,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,5
+E05000831,Hale Central,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,1
+E05000831,Hale Central,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,11
+E05000831,Hale Central,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,275
+E05000831,Hale Central,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,11
+E05000832,Longford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,65
+E05000832,Longford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3796
+E05000832,Longford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,8
+E05000832,Longford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,746
+E05000832,Longford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,4
+E05000832,Longford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,3
+E05000832,Longford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000832,Longford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,7
+E05000832,Longford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,37
+E05000832,Longford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,58
+E05000832,Longford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,421
+E05000832,Longford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,6
+E05000833,Priory,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,79
+E05000833,Priory,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3858
+E05000833,Priory,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,16
+E05000833,Priory,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,627
+E05000833,Priory,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,2
+E05000833,Priory,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,22
+E05000833,Priory,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000833,Priory,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,12
+E05000833,Priory,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,31
+E05000833,Priory,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,25
+E05000833,Priory,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,337
+E05000833,Priory,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,18
+E05000835,Sale Moor,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,51
+E05000835,Sale Moor,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3775
+E05000835,Sale Moor,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,20
+E05000835,Sale Moor,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,208
+E05000835,Sale Moor,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,2
+E05000835,Sale Moor,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,3
+E05000835,Sale Moor,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000835,Sale Moor,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,4
+E05000835,Sale Moor,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,2
+E05000835,Sale Moor,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,24
+E05000835,Sale Moor,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,300
+E05000835,Sale Moor,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,11
+E05000834,St Mary's,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,51
+E05000834,St Mary's,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,4116
+E05000834,St Mary's,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,9
+E05000834,St Mary's,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,182
+E05000834,St Mary's,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,2
+E05000834,St Mary's,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,1
+E05000834,St Mary's,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000834,St Mary's,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,0
+E05000834,St Mary's,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,20
+E05000834,St Mary's,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,46
+E05000834,St Mary's,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,376
+E05000834,St Mary's,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,9
+E05000836,Stretford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,66
+E05000836,Stretford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3786
+E05000836,Stretford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,13
+E05000836,Stretford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,366
+E05000836,Stretford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,3
+E05000836,Stretford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E05000836,Stretford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000836,Stretford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,1
+E05000836,Stretford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,58
+E05000836,Stretford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,44
+E05000836,Stretford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,321
+E05000836,Stretford,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,11
+E05000837,Timperley,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,35
+E05000837,Timperley,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3908
+E05000837,Timperley,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,5
+E05000837,Timperley,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,144
+E05000837,Timperley,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,2
+E05000837,Timperley,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,1
+E05000837,Timperley,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,1
+E05000837,Timperley,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,2
+E05000837,Timperley,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,15
+E05000837,Timperley,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,11
+E05000837,Timperley,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,250
+E05000837,Timperley,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,10
+E05000838,Urmston,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,70
+E05000838,Urmston,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3970
+E05000838,Urmston,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,9
+E05000838,Urmston,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,468
+E05000838,Urmston,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,0
+E05000838,Urmston,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,1
+E05000838,Urmston,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,3
+E05000838,Urmston,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,3
+E05000838,Urmston,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,40
+E05000838,Urmston,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,23
+E05000838,Urmston,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,318
+E05000838,Urmston,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,5
+E05000839,Village,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,No central heating,Count,Households,49
+E05000839,Village,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Mains gas only,Count,Households,3596
+E05000839,Village,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Tank or bottled gas only,Count,Households,7
+E05000839,Village,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Electric only,Count,Households,279
+E05000839,Village,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Oil only,Count,Households,2
+E05000839,Village,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Wood only,Count,Households,0
+E05000839,Village,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Solid fuel only,Count,Households,0
+E05000839,Village,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Renewable energy only,Count,Households,22
+E05000839,Village,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,District or communal heat networks only,Count,Households,11
+E05000839,Village,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Other central heating only,Count,Households,20
+E05000839,Village,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (not including renewable energy),Count,Households,326
+E05000839,Village,Electoral ward,2021-03-21,The type of central heating present in occupied household spaces,Two or more types of central heating (including renewable energy),Count,Households,12
