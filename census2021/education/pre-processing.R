@@ -205,7 +205,7 @@ df_oa_student <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.
 
 
 # Ward (Trafford)
-df_oa_student <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_student_3=1,2&measures=20100") %>%
+df_ward_student <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2085_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_student_3=1,2&measures=20100") %>%
   rename(area_code = GEOGRAPHY_CODE,
          area_name = GEOGRAPHY_NAME,
          student_status = C2021_STUDENT_3_NAME,
