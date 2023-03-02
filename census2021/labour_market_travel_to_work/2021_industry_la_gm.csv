@@ -1,5 +1,4 @@
 area_code,area_name,geography,period,indicator,industry,measure,unit,value
-E08000001,Bolton,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,170525
 E08000001,Bolton,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),"Crop and animal production, hunting and related service activities",Count,Persons,224
 E08000001,Bolton,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Forestry and logging,Count,Persons,13
 E08000001,Bolton,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Fishing and aquaculture,Count,Persons,8
@@ -87,7 +86,6 @@ E08000001,Bolton,Local authority,2021-03-21,Industry worked in by usual resident
 E08000001,Bolton,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of households as employers of domestic personnel,Count,Persons,22
 E08000001,Bolton,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Undifferentiated goods- and services-producing activities of private households for own use,Count,Persons,0
 E08000001,Bolton,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of extraterritorial organisations and bodies,Count,Persons,5
-E08000002,Bury,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,105369
 E08000002,Bury,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),"Crop and animal production, hunting and related service activities",Count,Persons,141
 E08000002,Bury,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Forestry and logging,Count,Persons,8
 E08000002,Bury,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Fishing and aquaculture,Count,Persons,6
@@ -175,7 +173,6 @@ E08000002,Bury,Local authority,2021-03-21,Industry worked in by usual residents 
 E08000002,Bury,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of households as employers of domestic personnel,Count,Persons,14
 E08000002,Bury,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Undifferentiated goods- and services-producing activities of private households for own use,Count,Persons,0
 E08000002,Bury,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of extraterritorial organisations and bodies,Count,Persons,3
-E08000003,Manchester,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,317655
 E08000003,Manchester,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),"Crop and animal production, hunting and related service activities",Count,Persons,195
 E08000003,Manchester,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Forestry and logging,Count,Persons,6
 E08000003,Manchester,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Fishing and aquaculture,Count,Persons,4
@@ -263,7 +260,6 @@ E08000003,Manchester,Local authority,2021-03-21,Industry worked in by usual resi
 E08000003,Manchester,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of households as employers of domestic personnel,Count,Persons,69
 E08000003,Manchester,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Undifferentiated goods- and services-producing activities of private households for own use,Count,Persons,0
 E08000003,Manchester,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of extraterritorial organisations and bodies,Count,Persons,116
-E08000004,Oldham,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,143882
 E08000004,Oldham,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),"Crop and animal production, hunting and related service activities",Count,Persons,138
 E08000004,Oldham,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Forestry and logging,Count,Persons,11
 E08000004,Oldham,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Fishing and aquaculture,Count,Persons,8
@@ -351,7 +347,6 @@ E08000004,Oldham,Local authority,2021-03-21,Industry worked in by usual resident
 E08000004,Oldham,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of households as employers of domestic personnel,Count,Persons,13
 E08000004,Oldham,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Undifferentiated goods- and services-producing activities of private households for own use,Count,Persons,0
 E08000004,Oldham,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of extraterritorial organisations and bodies,Count,Persons,3
-E08000005,Rochdale,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,129314
 E08000005,Rochdale,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),"Crop and animal production, hunting and related service activities",Count,Persons,167
 E08000005,Rochdale,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Forestry and logging,Count,Persons,5
 E08000005,Rochdale,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Fishing and aquaculture,Count,Persons,5
@@ -439,7 +434,6 @@ E08000005,Rochdale,Local authority,2021-03-21,Industry worked in by usual reside
 E08000005,Rochdale,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of households as employers of domestic personnel,Count,Persons,16
 E08000005,Rochdale,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Undifferentiated goods- and services-producing activities of private households for own use,Count,Persons,0
 E08000005,Rochdale,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of extraterritorial organisations and bodies,Count,Persons,3
-E08000006,Salford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,142317
 E08000006,Salford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),"Crop and animal production, hunting and related service activities",Count,Persons,110
 E08000006,Salford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Forestry and logging,Count,Persons,4
 E08000006,Salford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Fishing and aquaculture,Count,Persons,2
@@ -527,7 +521,6 @@ E08000006,Salford,Local authority,2021-03-21,Industry worked in by usual residen
 E08000006,Salford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of households as employers of domestic personnel,Count,Persons,32
 E08000006,Salford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Undifferentiated goods- and services-producing activities of private households for own use,Count,Persons,0
 E08000006,Salford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of extraterritorial organisations and bodies,Count,Persons,20
-E08000007,Stockport,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,154967
 E08000007,Stockport,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),"Crop and animal production, hunting and related service activities",Count,Persons,175
 E08000007,Stockport,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Forestry and logging,Count,Persons,5
 E08000007,Stockport,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Fishing and aquaculture,Count,Persons,10
@@ -615,7 +608,6 @@ E08000007,Stockport,Local authority,2021-03-21,Industry worked in by usual resid
 E08000007,Stockport,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of households as employers of domestic personnel,Count,Persons,25
 E08000007,Stockport,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Undifferentiated goods- and services-producing activities of private households for own use,Count,Persons,0
 E08000007,Stockport,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of extraterritorial organisations and bodies,Count,Persons,10
-E08000008,Tameside,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,125417
 E08000008,Tameside,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),"Crop and animal production, hunting and related service activities",Count,Persons,123
 E08000008,Tameside,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Forestry and logging,Count,Persons,2
 E08000008,Tameside,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Fishing and aquaculture,Count,Persons,5
@@ -703,7 +695,6 @@ E08000008,Tameside,Local authority,2021-03-21,Industry worked in by usual reside
 E08000008,Tameside,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of households as employers of domestic personnel,Count,Persons,25
 E08000008,Tameside,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Undifferentiated goods- and services-producing activities of private households for own use,Count,Persons,0
 E08000008,Tameside,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of extraterritorial organisations and bodies,Count,Persons,12
-E08000009,Trafford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,123494
 E08000009,Trafford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),"Crop and animal production, hunting and related service activities",Count,Persons,135
 E08000009,Trafford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Forestry and logging,Count,Persons,4
 E08000009,Trafford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Fishing and aquaculture,Count,Persons,3
@@ -791,7 +782,6 @@ E08000009,Trafford,Local authority,2021-03-21,Industry worked in by usual reside
 E08000009,Trafford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of households as employers of domestic personnel,Count,Persons,45
 E08000009,Trafford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Undifferentiated goods- and services-producing activities of private households for own use,Count,Persons,0
 E08000009,Trafford,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Activities of extraterritorial organisations and bodies,Count,Persons,24
-E08000010,Wigan,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,174716
 E08000010,Wigan,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),"Crop and animal production, hunting and related service activities",Count,Persons,330
 E08000010,Wigan,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Forestry and logging,Count,Persons,9
 E08000010,Wigan,Local authority,2021-03-21,Industry worked in by usual residents (aged 16 years and over in employment the week before the census),Fishing and aquaculture,Count,Persons,10

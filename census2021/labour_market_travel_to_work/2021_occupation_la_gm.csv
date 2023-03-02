@@ -1,5 +1,4 @@
 area_code,area_name,geography,period,indicator,occupation,measure,unit,value
-E08000001,Bolton,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,170525
 E08000001,Bolton,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Managers, directors and senior officials",Count,Persons,13286
 E08000001,Bolton,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Professional occupations,Count,Persons,21197
 E08000001,Bolton,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Associate professional and technical occupations,Count,Persons,15019
@@ -9,7 +8,6 @@ E08000001,Bolton,Local authority,2021-03-21,Occupation of usual residents (aged 
 E08000001,Bolton,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Sales and customer service occupations,Count,Persons,12227
 E08000001,Bolton,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Process, plant and machine operatives",Count,Persons,11486
 E08000001,Bolton,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Elementary occupations,Count,Persons,14810
-E08000002,Bury,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,105369
 E08000002,Bury,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Managers, directors and senior officials",Count,Persons,11113
 E08000002,Bury,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Professional occupations,Count,Persons,18354
 E08000002,Bury,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Associate professional and technical occupations,Count,Persons,12059
@@ -19,7 +17,6 @@ E08000002,Bury,Local authority,2021-03-21,Occupation of usual residents (aged 16
 E08000002,Bury,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Sales and customer service occupations,Count,Persons,7351
 E08000002,Bury,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Process, plant and machine operatives",Count,Persons,6042
 E08000002,Bury,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Elementary occupations,Count,Persons,7971
-E08000003,Manchester,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,317655
 E08000003,Manchester,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Managers, directors and senior officials",Count,Persons,20368
 E08000003,Manchester,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Professional occupations,Count,Persons,55875
 E08000003,Manchester,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Associate professional and technical occupations,Count,Persons,31626
@@ -29,7 +26,6 @@ E08000003,Manchester,Local authority,2021-03-21,Occupation of usual residents (a
 E08000003,Manchester,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Sales and customer service occupations,Count,Persons,21720
 E08000003,Manchester,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Process, plant and machine operatives",Count,Persons,15035
 E08000003,Manchester,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Elementary occupations,Count,Persons,31651
-E08000004,Oldham,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,143882
 E08000004,Oldham,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Managers, directors and senior officials",Count,Persons,9616
 E08000004,Oldham,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Professional occupations,Count,Persons,14988
 E08000004,Oldham,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Associate professional and technical occupations,Count,Persons,11314
@@ -39,7 +35,6 @@ E08000004,Oldham,Local authority,2021-03-21,Occupation of usual residents (aged 
 E08000004,Oldham,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Sales and customer service occupations,Count,Persons,8596
 E08000004,Oldham,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Process, plant and machine operatives",Count,Persons,9362
 E08000004,Oldham,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Elementary occupations,Count,Persons,13019
-E08000005,Rochdale,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,129314
 E08000005,Rochdale,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Managers, directors and senior officials",Count,Persons,9745
 E08000005,Rochdale,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Professional occupations,Count,Persons,15229
 E08000005,Rochdale,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Associate professional and technical occupations,Count,Persons,10969
@@ -49,7 +44,6 @@ E08000005,Rochdale,Local authority,2021-03-21,Occupation of usual residents (age
 E08000005,Rochdale,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Sales and customer service occupations,Count,Persons,7893
 E08000005,Rochdale,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Process, plant and machine operatives",Count,Persons,8665
 E08000005,Rochdale,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Elementary occupations,Count,Persons,12407
-E08000006,Salford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,142317
 E08000006,Salford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Managers, directors and senior officials",Count,Persons,13594
 E08000006,Salford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Professional occupations,Count,Persons,26141
 E08000006,Salford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Associate professional and technical occupations,Count,Persons,18314
@@ -59,7 +53,6 @@ E08000006,Salford,Local authority,2021-03-21,Occupation of usual residents (aged
 E08000006,Salford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Sales and customer service occupations,Count,Persons,11281
 E08000006,Salford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Process, plant and machine operatives",Count,Persons,7786
 E08000006,Salford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Elementary occupations,Count,Persons,14987
-E08000007,Stockport,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,154967
 E08000007,Stockport,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Managers, directors and senior officials",Count,Persons,19060
 E08000007,Stockport,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Professional occupations,Count,Persons,34321
 E08000007,Stockport,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Associate professional and technical occupations,Count,Persons,20204
@@ -69,7 +62,6 @@ E08000007,Stockport,Local authority,2021-03-21,Occupation of usual residents (ag
 E08000007,Stockport,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Sales and customer service occupations,Count,Persons,11083
 E08000007,Stockport,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Process, plant and machine operatives",Count,Persons,6958
 E08000007,Stockport,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Elementary occupations,Count,Persons,10149
-E08000008,Tameside,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,125417
 E08000008,Tameside,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Managers, directors and senior officials",Count,Persons,10510
 E08000008,Tameside,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Professional occupations,Count,Persons,15922
 E08000008,Tameside,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Associate professional and technical occupations,Count,Persons,13385
@@ -79,7 +71,6 @@ E08000008,Tameside,Local authority,2021-03-21,Occupation of usual residents (age
 E08000008,Tameside,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Sales and customer service occupations,Count,Persons,10159
 E08000008,Tameside,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Process, plant and machine operatives",Count,Persons,9628
 E08000008,Tameside,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Elementary occupations,Count,Persons,11202
-E08000009,Trafford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,123494
 E08000009,Trafford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Managers, directors and senior officials",Count,Persons,16656
 E08000009,Trafford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Professional occupations,Count,Persons,32126
 E08000009,Trafford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Associate professional and technical occupations,Count,Persons,16379
@@ -89,7 +80,6 @@ E08000009,Trafford,Local authority,2021-03-21,Occupation of usual residents (age
 E08000009,Trafford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Sales and customer service occupations,Count,Persons,7937
 E08000009,Trafford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Process, plant and machine operatives",Count,Persons,4475
 E08000009,Trafford,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Elementary occupations,Count,Persons,7588
-E08000010,Wigan,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Does not apply,Count,Persons,174716
 E08000010,Wigan,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),"Managers, directors and senior officials",Count,Persons,16153
 E08000010,Wigan,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Professional occupations,Count,Persons,25062
 E08000010,Wigan,Local authority,2021-03-21,Occupation of usual residents (aged 16 years and over in employment the week before the census),Associate professional and technical occupations,Count,Persons,19252
