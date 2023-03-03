@@ -1,0 +1,106 @@
+area_code,area_name,geography,period,indicator,proficiency,measure,unit,value
+E05000819,Altrincham,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,11426
+E05000819,Altrincham,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,602
+E05000819,Altrincham,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,352
+E05000819,Altrincham,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,104
+E05000819,Altrincham,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,15
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,9565
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,272
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,126
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,56
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,10
+E05000821,Bowdon,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,8505
+E05000821,Bowdon,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,262
+E05000821,Bowdon,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,136
+E05000821,Bowdon,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,34
+E05000821,Bowdon,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,12
+E05000822,Broadheath,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,12354
+E05000822,Broadheath,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,870
+E05000822,Broadheath,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,379
+E05000822,Broadheath,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,156
+E05000822,Broadheath,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,19
+E05000823,Brooklands,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,9557
+E05000823,Brooklands,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,417
+E05000823,Brooklands,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,166
+E05000823,Brooklands,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,66
+E05000823,Brooklands,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,10
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,9416
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,137
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,112
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,59
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,12
+E05000825,Clifford,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,10293
+E05000825,Clifford,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,965
+E05000825,Clifford,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,936
+E05000825,Clifford,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,567
+E05000825,Clifford,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,81
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,9017
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,122
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,78
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,35
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,4
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,9649
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,114
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,57
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,31
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,2
+E05000828,Flixton,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,10276
+E05000828,Flixton,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,115
+E05000828,Flixton,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,58
+E05000828,Flixton,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,19
+E05000828,Flixton,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,3
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,10632
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,563
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,333
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,147
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,32
+E05000830,Hale Barns,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,9117
+E05000830,Hale Barns,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,436
+E05000830,Hale Barns,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,186
+E05000830,Hale Barns,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,70
+E05000830,Hale Barns,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,11
+E05000831,Hale Central,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,9655
+E05000831,Hale Central,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,238
+E05000831,Hale Central,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,137
+E05000831,Hale Central,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,50
+E05000831,Hale Central,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,6
+E05000832,Longford,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,10771
+E05000832,Longford,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,698
+E05000832,Longford,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,615
+E05000832,Longford,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,301
+E05000832,Longford,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,55
+E05000833,Priory,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,9758
+E05000833,Priory,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,556
+E05000833,Priory,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,289
+E05000833,Priory,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,155
+E05000833,Priory,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,15
+E05000835,Sale Moor,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,9628
+E05000835,Sale Moor,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,391
+E05000835,Sale Moor,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,157
+E05000835,Sale Moor,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,90
+E05000835,Sale Moor,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,15
+E05000834,St Mary's,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,10673
+E05000834,St Mary's,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,467
+E05000834,St Mary's,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,229
+E05000834,St Mary's,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,105
+E05000834,St Mary's,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,9
+E05000836,Stretford,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,10210
+E05000836,Stretford,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,429
+E05000836,Stretford,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,295
+E05000836,Stretford,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,134
+E05000836,Stretford,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,22
+E05000837,Timperley,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,10532
+E05000837,Timperley,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,292
+E05000837,Timperley,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,116
+E05000837,Timperley,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,46
+E05000837,Timperley,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,5
+E05000838,Urmston,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,10508
+E05000838,Urmston,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,195
+E05000838,Urmston,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,96
+E05000838,Urmston,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,49
+E05000838,Urmston,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,8
+E05000839,Village,Electoral ward,2021-03-21,Proficiency in English,Main language is English,Count,Persons,9562
+E05000839,Village,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,413
+E05000839,Village,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,164
+E05000839,Village,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,74
+E05000839,Village,Electoral ward,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,10

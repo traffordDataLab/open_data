@@ -42,10 +42,10 @@ df <- read_csv("2021_population_language_detailed_la_gm.csv") %>%
     <td>Office for National Statistics</td>
     <td><a href="https://www.ons.gov.uk/census" target="_blank">Office for National Statistics</a></td>
     <td><time datetime="2021-03-21">2021-03-21</time></td>
-    <td>Local authority (<abbr>LA<abbr>), Middle-layer Super Output Area (<abbr>MSOA</abbr>), Lower-layer Super Output Area (<abbr>LSOA</abbr>), Output Area (<abbr>OA</abbr>)</td>
+    <td>Local authority (<abbr>LA<abbr>), Middle-layer Super Output Area (<abbr>MSOA</abbr>), Lower-layer Super Output Area (<abbr>LSOA</abbr>), Output Area (<abbr>OA</abbr>), Electoral Ward (<abbr>Ward</abbr>)</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2022-12-07">2022-12-07</time></td>
+    <td><time datetime="2023-03-03">2023-03-03</time></td>
   </tr>
 </table>
 
@@ -90,6 +90,7 @@ datatable(df,
 |[2021_population_english_proficiency_msoa_trafford.csv](2021_population_english_proficiency_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_population_english_proficiency_lsoa_trafford.csv](2021_population_english_proficiency_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_population_english_proficiency_oa_trafford.csv](2021_population_english_proficiency_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_population_english_proficiency_ward_trafford.csv](2021_population_english_proficiency_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Multiple main languages in household (Households)</h3>
 |File name |Geography |
@@ -98,6 +99,7 @@ datatable(df,
 |[2021_household_language_diversity_msoa_trafford.csv](2021_household_language_diversity_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_household_language_diversity_lsoa_trafford.csv](2021_household_language_diversity_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_household_language_diversity_oa_trafford.csv](2021_household_language_diversity_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_household_language_diversity_ward_trafford.csv](2021_household_language_diversity_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h3>Household language (Households)</h3>
 |File name |Geography |
@@ -106,6 +108,7 @@ datatable(df,
 |[2021_household_main_language_english_msoa_trafford.csv](2021_household_main_language_english_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_household_main_language_english_lsoa_trafford.csv](2021_household_main_language_english_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_household_main_language_english_oa_trafford.csv](2021_household_main_language_english_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_household_main_language_english_ward_trafford.csv](2021_household_main_language_english_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
 
 <h2>Pre-processing</h2>
 [The R script used to process the data](pre-processing.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.

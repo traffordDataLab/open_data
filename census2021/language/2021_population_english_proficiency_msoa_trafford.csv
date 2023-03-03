@@ -1,167 +1,139 @@
 area_code,area_name,geography,period,indicator,proficiency,measure,unit,value
-E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,478
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,8828
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,912
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,898
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,529
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,77
-E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,264
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7116
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,100
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,65
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,30
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,6
-E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,332
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7616
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,504
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,285
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,122
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,19
-E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,320
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7084
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,495
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,458
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,269
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,47
-E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,229
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7978
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,110
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,47
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,25
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,4
-E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,302
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7703
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,314
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,232
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,80
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,26
-E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,267
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7785
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,79
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,43
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,19
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,0
-E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,265
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,6258
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,204
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,122
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,63
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,12
-E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,233
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,6804
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,120
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,52
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,35
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,4
-E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,206
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,6711
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,64
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,43
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,12
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,1
-E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,248
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7474
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,303
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,222
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,99
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,10
-E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,329
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7660
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,332
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,156
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,62
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,10
-E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,212
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,6172
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,135
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,84
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,38
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,6
-E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,262
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7423
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,222
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,79
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,33
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,5
-E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,299
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,8290
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,514
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,273
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,146
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,14
-E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,174
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7251
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,381
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,183
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,66
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,4
-E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,305
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7642
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,103
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,82
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,49
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,9
-E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,291
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7254
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,352
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,129
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,74
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,16
-E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,313
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,8197
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,494
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,219
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,113
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,15
-E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,273
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7760
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,397
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,179
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,74
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,11
-E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,247
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7647
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,271
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,86
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,30
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,4
-E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,243
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7586
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,348
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,153
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,62
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,8
-E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,211
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7268
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,144
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,69
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,41
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,4
-E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,410
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,8858
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,460
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,283
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,87
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,9
-E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,257
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,8569
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,417
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,206
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,55
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,10
-E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,269
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7548
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,189
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,103
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,39
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,5
-E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,163
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7234
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,206
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,110
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English well,Count,Persons,30
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Cannot speak English,Count,Persons,13
-E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Does not apply,Count,Persons,269
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is English,Count,Persons,7388
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English very well,Count,Persons,387
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Proficiency in English,Main language is not English: Can speak English well,Count,Persons,159

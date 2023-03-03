@@ -1,5 +1,4 @@
 area_code,area_name,geography,period,indicator,language,measure,unit,value
-E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Does not apply,Count,Persons,10879
 E08000001,Bolton,Local authority,2021-03-21,First or preferred language,English,Count,Persons,253869
 E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Welsh,Count,Persons,15
 E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Count,Persons,1
@@ -94,7 +93,6 @@ E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Sign lan
 E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Count,Persons,10
 E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Count,Persons,5
 E08000001,Bolton,Local authority,2021-03-21,First or preferred language,Other language,Count,Persons,41
-E08000002,Bury,Local authority,2021-03-21,First or preferred language,Does not apply,Count,Persons,6639
 E08000002,Bury,Local authority,2021-03-21,First or preferred language,English,Count,Persons,174961
 E08000002,Bury,Local authority,2021-03-21,First or preferred language,Welsh,Count,Persons,25
 E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Count,Persons,2
@@ -189,7 +187,6 @@ E08000002,Bury,Local authority,2021-03-21,First or preferred language,Sign langu
 E08000002,Bury,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Count,Persons,7
 E08000002,Bury,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Count,Persons,3
 E08000002,Bury,Local authority,2021-03-21,First or preferred language,Other language,Count,Persons,19
-E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Does not apply,Count,Persons,20457
 E08000003,Manchester,Local authority,2021-03-21,First or preferred language,English,Count,Persons,434289
 E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Welsh,Count,Persons,220
 E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Count,Persons,23
@@ -284,7 +281,6 @@ E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Sign
 E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Count,Persons,29
 E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Count,Persons,5
 E08000003,Manchester,Local authority,2021-03-21,First or preferred language,Other language,Count,Persons,161
-E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Does not apply,Count,Persons,9358
 E08000004,Oldham,Local authority,2021-03-21,First or preferred language,English,Count,Persons,207898
 E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Welsh,Count,Persons,13
 E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Count,Persons,0
@@ -379,7 +375,6 @@ E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Sign lan
 E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Count,Persons,12
 E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Count,Persons,3
 E08000004,Oldham,Local authority,2021-03-21,First or preferred language,Other language,Count,Persons,51
-E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Does not apply,Count,Persons,8611
 E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,English,Count,Persons,194800
 E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Welsh,Count,Persons,10
 E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Count,Persons,1
@@ -474,7 +469,6 @@ E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Sign l
 E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Count,Persons,11
 E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Count,Persons,11
 E08000005,Rochdale,Local authority,2021-03-21,First or preferred language,Other language,Count,Persons,47
-E08000006,Salford,Local authority,2021-03-21,First or preferred language,Does not apply,Count,Persons,10553
 E08000006,Salford,Local authority,2021-03-21,First or preferred language,English,Count,Persons,229864
 E08000006,Salford,Local authority,2021-03-21,First or preferred language,Welsh,Count,Persons,73
 E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Count,Persons,8
@@ -569,7 +563,6 @@ E08000006,Salford,Local authority,2021-03-21,First or preferred language,Sign la
 E08000006,Salford,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Count,Persons,7
 E08000006,Salford,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Count,Persons,5
 E08000006,Salford,Local authority,2021-03-21,First or preferred language,Other language,Count,Persons,61
-E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Does not apply,Count,Persons,9733
 E08000007,Stockport,Local authority,2021-03-21,First or preferred language,English,Count,Persons,272788
 E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Welsh,Count,Persons,48
 E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Count,Persons,6
@@ -664,7 +657,6 @@ E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Sign 
 E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Count,Persons,7
 E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Count,Persons,20
 E08000007,Stockport,Local authority,2021-03-21,First or preferred language,Other language,Count,Persons,24
-E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Does not apply,Count,Persons,8029
 E08000008,Tameside,Local authority,2021-03-21,First or preferred language,English,Count,Persons,209879
 E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Welsh,Count,Persons,17
 E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Count,Persons,0
@@ -759,7 +751,6 @@ E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Sign l
 E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Count,Persons,14
 E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Count,Persons,8
 E08000008,Tameside,Local authority,2021-03-21,First or preferred language,Other language,Count,Persons,14
-E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Does not apply,Count,Persons,7669
 E08000009,Trafford,Local authority,2021-03-21,First or preferred language,English,Count,Persons,211103
 E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Welsh,Count,Persons,55
 E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Count,Persons,2
@@ -854,7 +845,6 @@ E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Sign l
 E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Sign language: Any other sign language,Count,Persons,6
 E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Sign language: Any sign communication system,Count,Persons,4
 E08000009,Trafford,Local authority,2021-03-21,First or preferred language,Other language,Count,Persons,5
-E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Does not apply,Count,Persons,10229
 E08000010,Wigan,Local authority,2021-03-21,First or preferred language,English,Count,Persons,307912
 E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Welsh,Count,Persons,17
 E08000010,Wigan,Local authority,2021-03-21,First or preferred language,Other UK language: Gaelic (Irish),Count,Persons,6
