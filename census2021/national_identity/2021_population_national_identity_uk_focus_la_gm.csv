@@ -15,6 +15,8 @@ E08000001,Bolton,Local authority,2021-03-21,National identity,Irish only identit
 E08000001,Bolton,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Count,Persons,145
 E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity only,Count,Persons,27155
 E08000001,Bolton,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Count,Persons,3842
+E08000001,Bolton,Local authority,2021-03-21,National identity,Non-UK identity only,Count,Persons,28117
+E08000001,Bolton,Local authority,2021-03-21,National identity,UK identity and non-UK identity,Count,Persons,3987
 E08000002,Bury,Local authority,2021-03-21,National identity,British only identity,Count,Persons,115132
 E08000002,Bury,Local authority,2021-03-21,National identity,English only identity,Count,Persons,31004
 E08000002,Bury,Local authority,2021-03-21,National identity,English and British only identity,Count,Persons,29582
@@ -31,6 +33,8 @@ E08000002,Bury,Local authority,2021-03-21,National identity,Irish only identity,
 E08000002,Bury,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Count,Persons,211
 E08000002,Bury,Local authority,2021-03-21,National identity,Other identity only,Count,Persons,12109
 E08000002,Bury,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Count,Persons,2149
+E08000002,Bury,Local authority,2021-03-21,National identity,Non-UK identity only,Count,Persons,13306
+E08000002,Bury,Local authority,2021-03-21,National identity,UK identity and non-UK identity,Count,Persons,2360
 E08000003,Manchester,Local authority,2021-03-21,National identity,British only identity,Count,Persons,310709
 E08000003,Manchester,Local authority,2021-03-21,National identity,English only identity,Count,Persons,48800
 E08000003,Manchester,Local authority,2021-03-21,National identity,English and British only identity,Count,Persons,56401
@@ -47,6 +51,8 @@ E08000003,Manchester,Local authority,2021-03-21,National identity,Irish only ide
 E08000003,Manchester,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Count,Persons,990
 E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity only,Count,Persons,103748
 E08000003,Manchester,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Count,Persons,14929
+E08000003,Manchester,Local authority,2021-03-21,National identity,Non-UK identity only,Count,Persons,109923
+E08000003,Manchester,Local authority,2021-03-21,National identity,UK identity and non-UK identity,Count,Persons,15919
 E08000004,Oldham,Local authority,2021-03-21,National identity,British only identity,Count,Persons,147724
 E08000004,Oldham,Local authority,2021-03-21,National identity,English only identity,Count,Persons,36738
 E08000004,Oldham,Local authority,2021-03-21,National identity,English and British only identity,Count,Persons,31756
@@ -63,6 +69,8 @@ E08000004,Oldham,Local authority,2021-03-21,National identity,Irish only identit
 E08000004,Oldham,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Count,Persons,136
 E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity only,Count,Persons,19792
 E08000004,Oldham,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Count,Persons,3441
+E08000004,Oldham,Local authority,2021-03-21,National identity,Non-UK identity only,Count,Persons,20558
+E08000004,Oldham,Local authority,2021-03-21,National identity,UK identity and non-UK identity,Count,Persons,3577
 E08000005,Rochdale,Local authority,2021-03-21,National identity,British only identity,Count,Persons,135768
 E08000005,Rochdale,Local authority,2021-03-21,National identity,English only identity,Count,Persons,33768
 E08000005,Rochdale,Local authority,2021-03-21,National identity,English and British only identity,Count,Persons,30571
@@ -79,6 +87,8 @@ E08000005,Rochdale,Local authority,2021-03-21,National identity,Irish only ident
 E08000005,Rochdale,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Count,Persons,136
 E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity only,Count,Persons,17848
 E08000005,Rochdale,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Count,Persons,2691
+E08000005,Rochdale,Local authority,2021-03-21,National identity,Non-UK identity only,Count,Persons,18900
+E08000005,Rochdale,Local authority,2021-03-21,National identity,UK identity and non-UK identity,Count,Persons,2827
 E08000006,Salford,Local authority,2021-03-21,National identity,British only identity,Count,Persons,147221
 E08000006,Salford,Local authority,2021-03-21,National identity,English only identity,Count,Persons,38599
 E08000006,Salford,Local authority,2021-03-21,National identity,English and British only identity,Count,Persons,40284
@@ -95,6 +105,8 @@ E08000006,Salford,Local authority,2021-03-21,National identity,Irish only identi
 E08000006,Salford,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Count,Persons,260
 E08000006,Salford,Local authority,2021-03-21,National identity,Other identity only,Count,Persons,32908
 E08000006,Salford,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Count,Persons,4567
+E08000006,Salford,Local authority,2021-03-21,National identity,Non-UK identity only,Count,Persons,34720
+E08000006,Salford,Local authority,2021-03-21,National identity,UK identity and non-UK identity,Count,Persons,4827
 E08000007,Stockport,Local authority,2021-03-21,National identity,British only identity,Count,Persons,176297
 E08000007,Stockport,Local authority,2021-03-21,National identity,English only identity,Count,Persons,48727
 E08000007,Stockport,Local authority,2021-03-21,National identity,English and British only identity,Count,Persons,46405
@@ -111,6 +123,8 @@ E08000007,Stockport,Local authority,2021-03-21,National identity,Irish only iden
 E08000007,Stockport,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Count,Persons,453
 E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity only,Count,Persons,12112
 E08000007,Stockport,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Count,Persons,3969
+E08000007,Stockport,Local authority,2021-03-21,National identity,Non-UK identity only,Count,Persons,14215
+E08000007,Stockport,Local authority,2021-03-21,National identity,UK identity and non-UK identity,Count,Persons,4422
 E08000008,Tameside,Local authority,2021-03-21,National identity,British only identity,Count,Persons,134231
 E08000008,Tameside,Local authority,2021-03-21,National identity,English only identity,Count,Persons,41702
 E08000008,Tameside,Local authority,2021-03-21,National identity,English and British only identity,Count,Persons,37168
@@ -127,6 +141,8 @@ E08000008,Tameside,Local authority,2021-03-21,National identity,Irish only ident
 E08000008,Tameside,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Count,Persons,153
 E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity only,Count,Persons,12539
 E08000008,Tameside,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Count,Persons,2418
+E08000008,Tameside,Local authority,2021-03-21,National identity,Non-UK identity only,Count,Persons,13328
+E08000008,Tameside,Local authority,2021-03-21,National identity,UK identity and non-UK identity,Count,Persons,2571
 E08000009,Trafford,Local authority,2021-03-21,National identity,British only identity,Count,Persons,145913
 E08000009,Trafford,Local authority,2021-03-21,National identity,English only identity,Count,Persons,30617
 E08000009,Trafford,Local authority,2021-03-21,National identity,English and British only identity,Count,Persons,31396
@@ -143,6 +159,8 @@ E08000009,Trafford,Local authority,2021-03-21,National identity,Irish only ident
 E08000009,Trafford,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Count,Persons,523
 E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity only,Count,Persons,14966
 E08000009,Trafford,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Count,Persons,4965
+E08000009,Trafford,Local authority,2021-03-21,National identity,Non-UK identity only,Count,Persons,17669
+E08000009,Trafford,Local authority,2021-03-21,National identity,UK identity and non-UK identity,Count,Persons,5488
 E08000010,Wigan,Local authority,2021-03-21,National identity,British only identity,Count,Persons,190146
 E08000010,Wigan,Local authority,2021-03-21,National identity,English only identity,Count,Persons,57903
 E08000010,Wigan,Local authority,2021-03-21,National identity,English and British only identity,Count,Persons,62978
@@ -159,3 +177,5 @@ E08000010,Wigan,Local authority,2021-03-21,National identity,Irish only identity
 E08000010,Wigan,Local authority,2021-03-21,National identity,Irish and at least one UK identity,Count,Persons,120
 E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity only,Count,Persons,12669
 E08000010,Wigan,Local authority,2021-03-21,National identity,Other identity and at least one UK identity,Count,Persons,1999
+E08000010,Wigan,Local authority,2021-03-21,National identity,Non-UK identity only,Count,Persons,13438
+E08000010,Wigan,Local authority,2021-03-21,National identity,UK identity and non-UK identity,Count,Persons,2119
