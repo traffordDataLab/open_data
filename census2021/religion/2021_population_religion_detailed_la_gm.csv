@@ -5,13 +5,13 @@ E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Pe
 E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,159
 E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,58997
 E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,219
-E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,27
 E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,No religion: Agnostic,Count,Persons,76
 E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,No religion: Atheist,Count,Persons,51
 E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,No religion: Free Thinker,Count,Persons,2
 E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,No religion: Humanist,Count,Persons,31
 E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,No religion: No religion,Count,Persons,76086
 E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,No religion: Realist,Count,Persons,0
+E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,27
 E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Other religion: Animism,Count,Persons,0
 E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Other religion: Baha'i,Count,Persons,4
 E08000001,Bolton,Local authority,2021-03-21,Religious affiliation,Other religion: Believe in God,Count,Persons,5
@@ -62,13 +62,13 @@ E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Pers
 E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,10734
 E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,19243
 E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,575
-E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,0
 E08000002,Bury,Local authority,2021-03-21,Religious affiliation,No religion: Agnostic,Count,Persons,60
 E08000002,Bury,Local authority,2021-03-21,Religious affiliation,No religion: Atheist,Count,Persons,24
 E08000002,Bury,Local authority,2021-03-21,Religious affiliation,No religion: Free Thinker,Count,Persons,0
 E08000002,Bury,Local authority,2021-03-21,Religious affiliation,No religion: Humanist,Count,Persons,24
 E08000002,Bury,Local authority,2021-03-21,Religious affiliation,No religion: No religion,Count,Persons,56899
 E08000002,Bury,Local authority,2021-03-21,Religious affiliation,No religion: Realist,Count,Persons,0
+E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,0
 E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Other religion: Animism,Count,Persons,4
 E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Other religion: Baha'i,Count,Persons,15
 E08000002,Bury,Local authority,2021-03-21,Religious affiliation,Other religion: Believe in God,Count,Persons,2
@@ -119,13 +119,13 @@ E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Hindu,Coun
 E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,2632
 E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,122962
 E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,2718
-E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,43
 E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,No religion: Agnostic,Count,Persons,402
 E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,No religion: Atheist,Count,Persons,150
 E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,No religion: Free Thinker,Count,Persons,3
 E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,No religion: Humanist,Count,Persons,86
 E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,No religion: No religion,Count,Persons,178396
 E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,No religion: Realist,Count,Persons,0
+E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,43
 E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Other religion: Animism,Count,Persons,6
 E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Other religion: Baha'i,Count,Persons,66
 E08000003,Manchester,Local authority,2021-03-21,Religious affiliation,Other religion: Believe in God,Count,Persons,27
@@ -176,13 +176,13 @@ E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Pe
 E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,146
 E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,59031
 E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,132
-E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,3
 E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,No religion: Agnostic,Count,Persons,54
 E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,No religion: Atheist,Count,Persons,26
 E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,No religion: Free Thinker,Count,Persons,1
 E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,No religion: Humanist,Count,Persons,18
 E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,No religion: No religion,Count,Persons,60404
 E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,No religion: Realist,Count,Persons,1
+E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,3
 E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Other religion: Animism,Count,Persons,0
 E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Other religion: Baha'i,Count,Persons,3
 E08000004,Oldham,Local authority,2021-03-21,Religious affiliation,Other religion: Believe in God,Count,Persons,6
@@ -233,13 +233,13 @@ E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Hindu,Count,
 E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,218
 E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,42121
 E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,191
-E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,9
 E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,No religion: Agnostic,Count,Persons,50
 E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,No religion: Atheist,Count,Persons,28
 E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,No religion: Free Thinker,Count,Persons,0
 E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,No religion: Humanist,Count,Persons,24
 E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,No religion: No religion,Count,Persons,64245
 E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,No religion: Realist,Count,Persons,0
+E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,9
 E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Other religion: Animism,Count,Persons,4
 E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Other religion: Baha'i,Count,Persons,8
 E08000005,Rochdale,Local authority,2021-03-21,Religious affiliation,Other religion: Believe in God,Count,Persons,2
@@ -290,13 +290,13 @@ E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Hindu,Count,P
 E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,10373
 E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,13542
 E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,728
-E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,1
 E08000006,Salford,Local authority,2021-03-21,Religious affiliation,No religion: Agnostic,Count,Persons,220
 E08000006,Salford,Local authority,2021-03-21,Religious affiliation,No religion: Atheist,Count,Persons,54
 E08000006,Salford,Local authority,2021-03-21,Religious affiliation,No religion: Free Thinker,Count,Persons,1
 E08000006,Salford,Local authority,2021-03-21,Religious affiliation,No religion: Humanist,Count,Persons,28
 E08000006,Salford,Local authority,2021-03-21,Religious affiliation,No religion: No religion,Count,Persons,95837
 E08000006,Salford,Local authority,2021-03-21,Religious affiliation,No religion: Realist,Count,Persons,0
+E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,1
 E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Other religion: Animism,Count,Persons,0
 E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Other religion: Baha'i,Count,Persons,13
 E08000006,Salford,Local authority,2021-03-21,Religious affiliation,Other religion: Believe in God,Count,Persons,9
@@ -347,13 +347,13 @@ E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Hindu,Count
 E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,1234
 E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,16332
 E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,503
-E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,4
 E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,No religion: Agnostic,Count,Persons,141
 E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,No religion: Atheist,Count,Persons,63
 E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,No religion: Free Thinker,Count,Persons,0
 E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,No religion: Humanist,Count,Persons,51
 E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,No religion: No religion,Count,Persons,116493
 E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,No religion: Realist,Count,Persons,0
+E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,4
 E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Other religion: Animism,Count,Persons,3
 E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Other religion: Baha'i,Count,Persons,43
 E08000007,Stockport,Local authority,2021-03-21,Religious affiliation,Other religion: Believe in God,Count,Persons,11
@@ -404,13 +404,13 @@ E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Hindu,Count,
 E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,87
 E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,16945
 E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,181
-E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,0
 E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,No religion: Agnostic,Count,Persons,86
 E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,No religion: Atheist,Count,Persons,33
 E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,No religion: Free Thinker,Count,Persons,0
 E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,No religion: Humanist,Count,Persons,26
 E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,No religion: No religion,Count,Persons,87765
 E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,No religion: Realist,Count,Persons,0
+E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,0
 E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Other religion: Animism,Count,Persons,0
 E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Other religion: Baha'i,Count,Persons,12
 E08000008,Tameside,Local authority,2021-03-21,Religious affiliation,Other religion: Believe in God,Count,Persons,2
@@ -461,13 +461,13 @@ E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Hindu,Count,
 E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,2408
 E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,20549
 E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,1984
-E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,3
 E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,No religion: Agnostic,Count,Persons,95
 E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,No religion: Atheist,Count,Persons,54
 E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,No religion: Free Thinker,Count,Persons,0
 E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,No religion: Humanist,Count,Persons,35
 E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,No religion: No religion,Count,Persons,77680
 E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,No religion: Realist,Count,Persons,0
+E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,3
 E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Other religion: Animism,Count,Persons,4
 E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Other religion: Baha'i,Count,Persons,73
 E08000009,Trafford,Local authority,2021-03-21,Religious affiliation,Other religion: Believe in God,Count,Persons,7
@@ -518,13 +518,13 @@ E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Hindu,Count,Per
 E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Jewish,Count,Persons,84
 E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Muslim,Count,Persons,4155
 E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Sikh,Count,Persons,122
-E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,11
 E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,No religion: Agnostic,Count,Persons,84
 E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,No religion: Atheist,Count,Persons,42
 E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,No religion: Free Thinker,Count,Persons,3
 E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,No religion: Humanist,Count,Persons,24
 E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,No religion: No religion,Count,Persons,99631
 E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,No religion: Realist,Count,Persons,0
+E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Other religion: Alevi,Count,Persons,11
 E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Other religion: Animism,Count,Persons,5
 E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Other religion: Baha'i,Count,Persons,7
 E08000010,Wigan,Local authority,2021-03-21,Religious affiliation,Other religion: Believe in God,Count,Persons,8

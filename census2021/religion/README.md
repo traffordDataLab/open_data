@@ -17,7 +17,7 @@
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>Local Authority, MSOA, LSOA, OA</td>
+	<td>Local Authority, MSOA, LSOA, OA, Ward</td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
@@ -49,6 +49,6 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2022-12-07</td>
+	<td>2023-03-15</td>
 </tr>
 </table>
