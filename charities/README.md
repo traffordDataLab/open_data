@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2022-04-14</td>
+	<td>2023-04-04</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
