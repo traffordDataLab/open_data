@@ -2,6 +2,8 @@
 # 2023-01-13 James Austin.
 # Source: Office for National Statistics https://www.ons.gov.uk/releases/sexualorientationandgenderidentitycensus2021inenglandandwales
 
+# NOTE: Data can be downloaded locally via the URL above or via NOMIS API as shown in code below
+
 # AREA CODES OF INTEREST
 # Regions
 # E92000001: England
@@ -54,22 +56,10 @@
 library(tidyverse);
 
 
-# Objects containing LA codes above ---------------------------
-
-# Area codes of the 10 Local Authorities in Greater Manchester"
-area_codes_gm <- c("E08000001","E08000002","E08000003","E08000004","E08000005","E08000006","E08000007","E08000008","E08000009","E08000010")
-
-# Area codes of Trafford's Children's Services Statistical Neighbours
-area_codes_cssn <- c("E10000015","E09000006","E08000029","E08000007","E06000036","E06000056","E06000014","E06000049","E10000014","E06000060")
-
-# Area codes of Trafford's CIPFA Nearest Neighbours (2019)
-area_codes_cipfa <- c("E06000007","E06000030","E08000029","E06000042","E06000025","E06000034","E08000007","E06000014","E06000055","E06000050","E06000031","E06000005","E06000015","E08000002","E06000020")
-
-
 ## NOTE: Data can be downloaded locally via the URL at the top of the script or via NOMIS API as shown in code below
 
 
-# Gender identity ---------------------------
+# TS078 - Gender identity ---------------------------
 
 # LA (GM)
 df_la_gender_identity <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2061_1.data.csv?date=latest&geography=645922841...645922850&c2021_genderid_7=1...6&measures=20100") %>%
@@ -103,7 +93,7 @@ df_msoa_gender_identity <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/
   write_csv("2021_gender_identity_msoa_trafford.csv")
 
 
-# Gender identity - Detailed ---------------------------
+# TS070 - Gender identity - Detailed ---------------------------
 
 # LA (GM)
 df_la_gender_identity_detailed <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2087_1.data.csv?date=latest&geography=645922841...645922850&c2021_genderid_8=1...7&measures=20100") %>%
@@ -112,7 +102,6 @@ df_la_gender_identity_detailed <- read_csv("https://www.nomisweb.co.uk/api/v01/d
          gender_identity = C2021_GENDERID_8_NAME,
          value = OBS_VALUE
   ) %>%
-  filter(gender_identity != "Does not apply") %>% # These are all 0 for all areas
   mutate(geography = "Local authority",
          period = "2021-03-21",
          measure = "Count",
@@ -122,7 +111,7 @@ df_la_gender_identity_detailed <- read_csv("https://www.nomisweb.co.uk/api/v01/d
   write_csv("2021_gender_identity_detailed_la_gm.csv")
 
 
-# Sexual orientation ---------------------------
+# TS077 - Sexual orientation ---------------------------
 
 # LA (GM)
 df_la_sexual_orientation <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2060_1.data.csv?date=latest&geography=645922841...645922850&c2021_sexor_6=1...5&measures=20100") %>%
@@ -156,7 +145,7 @@ df_msoa_sexual_orientation <- read_csv("https://www.nomisweb.co.uk/api/v01/datas
   write_csv("2021_sexual_orientation_msoa_trafford.csv")
 
 
-# Sexual orientation - detailed ---------------------------
+# TS079 - Sexual orientation - detailed ---------------------------
 
 # LA (GM)
 df_la_sexual_orientation_detailed <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2086_1.data.csv?date=latest&geography=645922841...645922850&c2021_sexor_9=1...8&measures=20100") %>%
