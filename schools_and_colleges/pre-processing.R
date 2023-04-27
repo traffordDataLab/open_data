@@ -39,6 +39,8 @@ df <- df_raw %>%
          religion = `ReligiousCharacter (name)`,
          trust_type = `TrustSchoolFlag (name)`,
          sponsoring_trust = `Trusts (name)`,
+         percent_fsm = PercentageFSM,
+         ofsted_rating = `OfstedRating (name)`,
          website = SchoolWebsite,
          postcode = Postcode,
          Easting, Northing)
