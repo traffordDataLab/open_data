@@ -9,13 +9,16 @@ library(tidyverse) ; library(sf) ; library(httr) ; library(jsonlite) ; library(j
 # Create a string object with the name of your local authority
 id <- "Trafford"
 
+# Insert the key for the openchargemap API
+api_key = ''
+
 # Retrieve the local authority boundary
 # Source: ONS Open Geography Portal
-la <- st_read(paste0("https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Local_Authority_Districts_April_2019_Boundaries_UK_BGC/MapServer/0/query?where=UPPER(lad19nm)%20like%20'%25", URLencode(toupper(id), reserved = TRUE), "%25'&outFields=lad19cd,lad19nm,long,lat&outSR=4326&f=geojson"), quiet = TRUE) %>% 
-  select(area_code = lad19cd, area_name = lad19nm) 
+la <- st_read(paste0("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_May_2023_UK_BGC/FeatureServer/0/query?where=LAD23NM%20%3D%20'", URLencode(toupper(id), reserved = TRUE), "'&outFields=LAD23CD,LAD23NM&outSR=4326&f=geojson"), quiet = TRUE) %>% 
+  select(area_code = LAD23CD, area_name = LAD23NM) 
 
 # Submit request to API
-request <- GET(url = "https://api.openchargemap.io/v3/poi/?key=",
+request <- GET(url = paste0("https://api.openchargemap.io/v3/poi/?key=", api_key),
                query = list(
                  output = "json",
                  countrycode = "GB",

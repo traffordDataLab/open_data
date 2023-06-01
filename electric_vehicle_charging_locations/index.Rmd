@@ -46,7 +46,7 @@ df <- read_csv("trafford_electric_vehicle_charging_locations.csv") %>%
     <td>Point data</td>
     <td><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a></td>
     <td>Open Charge Map</td>
-    <td><time datetime="2021-09-16">2021-09-16</time></td>
+    <td><time datetime="2023-06-01">2023-06-01</time></td>
   </tr>
 </table>
 
