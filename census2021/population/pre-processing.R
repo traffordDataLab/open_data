@@ -1,6 +1,8 @@
-# Unrounded population and household data from second release of Census 2021 data
-# 2022-11-02 James Austin.
-# Source: Office for National Statistics https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/articles/demographyandmigrationdatacontent/2022-11-02
+# Population and household data from Census 2021 data
+# Initially created: 2022-11-02, modified: 2023-06-02 James Austin.
+# Source: Office for National Statistics https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/populationandhouseholdestimatesenglandandwales/census2021unroundeddata
+
+# NOTE: Data can be downloaded locally via the URL above or via NOMIS API as shown in code below
 
 # AREA CODES OF INTEREST
 # Regions
@@ -54,372 +56,458 @@
 library(tidyverse); library(httr); library(readxl); library(janitor)
 
 
-# Setup objects required by this script ---------------------------
-
-# Area codes of the 10 Local Authorities in Greater Manchester"
-area_codes_gm <- c("E08000001","E08000002","E08000003","E08000004","E08000005","E08000006","E08000007","E08000008","E08000009","E08000010")
-
-# Area codes of Trafford's Children's Services Statistical Neighbours
-area_codes_cssn <- c("E10000015","E09000006","E08000029","E08000007","E06000036","E06000056","E06000014","E06000049","E10000014","E06000060")
-
-# Area codes of Trafford's CIPFA Nearest Neighbours (2019)
-area_codes_cipfa <- c("E06000007","E06000030","E08000029","E06000042","E06000025","E06000034","E08000007","E06000014","E06000055","E06000050","E06000031","E06000005","E06000015","E08000002","E06000020")
-
-# Trafford's Output Area codes
-tmp <- tempfile(fileext = ".csv")
-GET(url = "https://www.trafforddatalab.io/spatial_data/lookups/2021/statistical_lookup.csv", write_disk(tmp))
-
-trafford_oa <- read_csv(tmp) %>%
-  filter(lad22nm == "Trafford") %>%
-  select(oa21cd)
-
-unlink(tmp)
-
-
-# Population by single year of age ---------------------------
-
-# LA - all persons
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS007_resident_age_101a/UR-ltla%2Bresident_age_101a.xlsx", write_disk(tmp))
-
-df_pop_by_single_year_age_la <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities Label`,
-         age_number = `Age (101 categories) Code`,
-         age_group = `Age (101 categories) Label`,
-         value = Count
-  ) %>%
-  filter(area_code %in% area_codes_gm) %>%
-  mutate(sex = "Persons",
-         # Although the single year of age for all persons goes up to 100+, by sex it's only 90+.
-         # Therefore we need to sum all counts from 90 onwards to normalise the data
-         age_number = as.integer(age_number),
-         age_number = if_else(age_number >= 90, 90, as.double(age_number)),
-         age_group = if_else(age_number == 90, "Aged 90 years and over", age_group)) %>%
-  group_by(area_code, area_name, age_number, age_group, sex) %>%
-  summarise(value = sum(value)) %>%
-  arrange(area_code, age_number) %>%
-  ungroup()
-
-unlink(tmp)
-
-# LA - by sex
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS009_sex_resident_age_91a/UR-ltla%2Bsex%2Bresident_age_91a.xlsx", write_disk(tmp))
-
-df_pop_by_single_year_age_la_by_sex <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities Label`,
-         sex = `Sex (2 categories) Label`,
-         age_number = `Age (91 categories) Code`,
-         age_group = `Age (91 categories) Label`,
-         value = Count
-  ) %>%
-  filter(area_code %in% area_codes_gm) %>%
-  mutate(age_number = as.integer(age_number),
-         sex = if_else(sex == "Female", "Females", "Males")) %>%
-  select(area_code, area_name, age_number, age_group, sex, value)
-
-unlink(tmp)
-
-# Merge the separate datasets together
-df_pop_by_single_year_age_la_all <- df_pop_by_single_year_age_la %>%
-  bind_rows(df_pop_by_single_year_age_la_by_sex) %>%
-  arrange(area_code, sex, age_number)
-
-# Create the tidy datasets for GM and Trafford
-df_pop_by_single_year_age_la_all %>%
-  mutate(indicator = "Usual resident population by sex and age group",
-         measure = "Count",
-         unit = "Usual residents",
-         geography = "Local authority",
-         period = "2021-03-21") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, sex, age_group, value) %>%
-  write_csv("2021_population_by_sex_and_age_group_la_gm.csv") %>%
-  filter(area_name == "Trafford") %>%
-  write_csv("2021_population_by_sex_and_age_group_la_trafford.csv")
-
-# Create the wide dataset for GM
-df_pop_by_single_year_age_la_all_wide <- df_pop_by_single_year_age_la_all %>%
-  mutate(geography = "Local authority",
-         period = "2021-03-21") %>%
-  select(-age_group) %>%
-  pivot_wider(names_from = age_number, values_from = value) %>%
-  # create the commonly required age bands: all ages, 0 -15, 16 - 64 and 65+
-  mutate(all_ages = rowSums(select(., `0`:`90`)),
-         aged_0_to_15 = rowSums(select(., `0`:`15`)),
-         aged_16_to_64 = rowSums(select(., `16`:`64`)),
-         aged_65_and_over = rowSums(select(., `65`:`90`))) %>%
-  rename(`90+` = `90`) %>%
-  select(area_code, area_name, geography, period, sex, all_ages, aged_0_to_15, aged_16_to_64, aged_65_and_over, everything())
-
-# Create the wide format CSV
-write_csv(df_pop_by_single_year_age_la_all_wide, "2021_population_by_sex_and_age_group_wide_la_gm.csv")
-
-
-# Usually resident population density ---------------------------
-# Data is provided separately for the different geographies: LA, MSOA, LSOA, OA
-# Produce one dataset for all GM LAs then another dataset for Trafford at all geographies
-
-# LA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS006_population_density/atc-ts-demmig-ur-pd-oa-ltla.xlsx", write_disk(tmp))
-
-df_pop_density_la <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities Label`,
-         value = `Population Density`) %>%
-  filter(area_code %in% area_codes_gm) %>%
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Local authority",
-         indicator = "Usual resident population density",
-         measure = "Rate",
-         unit = "Number of usual residents per square kilometre") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
-
-write_csv(df_pop_density_la, "2021_population_density_la_gm.csv")
-
-unlink(tmp)
-
-# MSOA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS006_population_density/atc-ts-demmig-ur-pd-oa-msoa.xlsx", write_disk(tmp))
-
-df_pop_density_msoa <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas Label`,
-         value = `Population Density`) %>%
-  filter(grepl('Trafford', area_name)) %>%
-  mutate(geography = "Middle-layer Super Output Area")
-
-unlink(tmp)
-
-# LSOA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS006_population_density/atc-ts-demmig-ur-pd-oa-lsoa.xlsx", write_disk(tmp))
-
-df_pop_density_lsoa <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas Label`,
-         value = `Population Density`) %>%
-  filter(grepl('Trafford', area_name)) %>%
-  mutate(geography = "Lower-layer Super Output Area")
-
-unlink(tmp)
-
-# OA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS006_population_density/atc-ts-demmig-ur-pd-oa-oa.xlsx", write_disk(tmp))
-
-df_pop_density_oa <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas Label`,
-         value = `Population Density`) %>%
-  filter(area_code %in% trafford_oa$oa21cd) %>%
-  mutate(geography = "Output Area")
-
-unlink(tmp)
-
-# Bind MSOA, LSOA and OA together, then mutate the consistent, extra variables
-df_pop_density <- bind_rows(df_pop_density_msoa,
-                            df_pop_density_lsoa,
-                            df_pop_density_oa) %>%
-  mutate(period = "2021-03-21",
-         indicator = "Usual resident population density",
-         measure = "Rate",
-         unit = "Number of usual residents per square kilometre") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
-
-# Finally get the Trafford LA density and add to form the completed all geography dataset for Trafford
-df_pop_density <- df_pop_density_la %>%
-  filter(area_name == "Trafford") %>%
-  bind_rows(df_pop_density)
-
-write_csv(df_pop_density, "2021_population_density_all_geographies_trafford.csv")
-
-
-# Household composition ---------------------------
-# Data is provided separately for the different geographies: LA, MSOA, LSOA, OA
-# Produce one dataset for all GM LAs then separate datasets for Trafford at MSOA, LSOA and OA
-
-# LA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS003_hh_family_composition_15a/HH-ltla%2Bhh_family_composition_15a.xlsx", write_disk(tmp))
-
-df_household_comp_la <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities Label`,
-         indicator = `Household composition (15 categories) Label`,
-         value = Count) %>%
-  filter(area_code %in% area_codes_gm,
-         indicator != "Does not apply") %>%
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Local authority",
-         measure = "Count",
-         unit = "Households") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
-
-write_csv(df_household_comp_la, "2021_household_composition_la_gm.csv")
-
-unlink(tmp)
-
-# MSOA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS003_hh_family_composition_15a/HH-msoa%2Bhh_family_composition_15a.xlsx", write_disk(tmp))
-
-df_household_comp_msoa <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas Label`,
-         indicator = `Household composition (15 categories) Label`,
-         value = Count) %>%
-  filter(grepl('Trafford', area_name),
-         indicator != "Does not apply") %>%
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Middle-layer Super Output Area",
-         measure = "Count",
-         unit = "Households") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
-
-write_csv(df_household_comp_msoa, "2021_household_composition_msoa_trafford.csv")
-
-unlink(tmp)
-
-# LSOA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS003_hh_family_composition_15a/HH-lsoa%2Bhh_family_composition_15a.xlsx", write_disk(tmp))
-
-df_household_comp_lsoa <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas Label`,
-         indicator = `Household composition (15 categories) Label`,
-         value = Count) %>%
-  filter(grepl('Trafford', area_name),
-         indicator != "Does not apply") %>%
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Lower-layer Super Output Area",
-         measure = "Count",
-         unit = "Households") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
-
-write_csv(df_household_comp_lsoa, "2021_household_composition_lsoa_trafford.csv")
-
-unlink(tmp)
-
-# OA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS003_hh_family_composition_15a/HH-oa%2Bhh_family_composition_15a_north_west.xlsx", write_disk(tmp))
-
-df_household_comp_oa <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas Label`,
-         indicator = `Household composition (15 categories) Label`,
-         value = Count) %>%
-  filter(area_code %in% trafford_oa$oa21cd,
-         indicator != "Does not apply") %>%
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Output Area",
-         measure = "Count",
-         unit = "Households") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
-
-write_csv(df_household_comp_oa, "2021_household_composition_oa_trafford.csv")
-
-unlink(tmp)
-
-
-# Household size ---------------------------
-# Data is provided separately for the different geographies: LA, MSOA, LSOA, OA
-# Produce one dataset for all GM LAs then separate datasets for Trafford at MSOA, LSOA and OA
-
-# LA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS017_hh_size_9a/HH-ltla%2Bhh_size_9a.xlsx", write_disk(tmp))
-
-df_household_size_la <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Lower Tier Local Authorities Code`,
-         area_name = `Lower Tier Local Authorities Label`,
-         indicator = `Household size (9 categories) Label`,
-         value = Count) %>%
-  filter(area_code %in% area_codes_gm,
-         indicator != "0 people in household") %>%
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Local authority",
-         measure = "Count",
-         unit = "Households") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
-
-write_csv(df_household_size_la, "2021_household_size_la_gm.csv")
-
-unlink(tmp)
-
-# MSOA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS017_hh_size_9a/HH-msoa%2Bhh_size_9a.xlsx", write_disk(tmp))
-
-df_household_size_msoa <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Middle Layer Super Output Areas Code`,
-         area_name = `Middle Layer Super Output Areas Label`,
-         indicator = `Household size (9 categories) Label`,
-         value = Count) %>%
-  filter(grepl('Trafford', area_name),
-         indicator != "0 people in household") %>%
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Middle-layer Super Output Area",
-         measure = "Count",
-         unit = "Households") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
-
-write_csv(df_household_size_msoa, "2021_household_size_msoa_trafford.csv")
-
-unlink(tmp)
-
-# LSOA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS017_hh_size_9a/HH-lsoa%2Bhh_size_9a.xlsx", write_disk(tmp))
-
-df_household_size_lsoa <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Lower Layer Super Output Areas Code`,
-         area_name = `Lower Layer Super Output Areas Label`,
-         indicator = `Household size (9 categories) Label`,
-         value = Count) %>%
-  filter(grepl('Trafford', area_name),
-         indicator != "0 people in household") %>%
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Lower-layer Super Output Area",
-         measure = "Count",
-         unit = "Households") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
-
-write_csv(df_household_size_lsoa, "2021_household_size_lsoa_trafford.csv")
-
-unlink(tmp)
-
-# OA
-tmp <- tempfile(fileext = ".xlsx")
-GET(url = "https://ons-dp-prod-census-publication.s3.eu-west-2.amazonaws.com/TS017_hh_size_9a/HH-oa%2Bhh_size_9a_north_west.xlsx", write_disk(tmp))
-
-df_household_size_oa <- read_xlsx(tmp, sheet = "Table") %>%
-  rename(area_code = `Output Areas Code`,
-         area_name = `Output Areas Label`,
-         indicator = `Household size (9 categories) Label`,
-         value = Count) %>%
-  filter(area_code %in% trafford_oa$oa21cd,
-         indicator != "0 people in household") %>%
-  # Final addition of extra variables
-  mutate(period = "2021-03-21",
-         geography = "Output Area",
-         measure = "Count",
-         unit = "Households") %>%
-  select(area_code, area_name, geography, period, indicator, measure, unit, value)
-
-write_csv(df_household_size_oa, "2021_household_size_oa_trafford.csv")
-
-unlink(tmp)
+# TS007A - Age by five-year age bands (persons) ---------------------------
+
+# LA (GM)
+df_age_5_year_bands_la <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?date=latest&geography=645922841...645922850&c2021_age_19=1...18&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_AGE_19_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Local authority",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_by_5_year_age_bands_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_age_5_year_bands_msoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?date=latest&geography=637535406...637535433&c2021_age_19=1...18&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_AGE_19_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Middle-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_by_5_year_age_bands_msoa_trafford.csv")
+
+
+# LSOA (Trafford)
+df_age_5_year_bands_lsoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_age_19=1...18&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_AGE_19_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Lower-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_by_5_year_age_bands_lsoa_trafford.csv")
+
+
+# OA (Trafford)
+df_age_5_year_bands_oa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2020_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_age_19=1...18&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_AGE_19_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_by_5_year_age_bands_oa_trafford.csv")
+
+
+# TS008 - Sex (persons) ---------------------------
+
+# LA (GM)
+df_pop_by_sex_la <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2028_1.data.csv?date=latest&geography=645922841...645922850&c_sex=0...2&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C_SEX_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Local authority",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_by_sex_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_pop_by_sex_msoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2028_1.data.csv?date=latest&geography=637535406...637535433&c_sex=0...2&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C_SEX_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Middle-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_by_sex_msoa_trafford.csv")
+
+
+# LSOA (Trafford)
+df_pop_by_sex_lsoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2028_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c_sex=0...2&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C_SEX_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Lower-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_by_sex_lsoa_trafford.csv")
+
+
+# OA (Trafford)
+df_pop_by_sex_oa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2028_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c_sex=0...2&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C_SEX_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_by_sex_oa_trafford.csv")
+
+
+# Ward (Trafford)
+df_pop_by_sex_ward <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2028_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c_sex=0...2&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C_SEX_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Electoral ward",
+           area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets)
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_by_sex_ward_trafford.csv")
+
+
+# RM200 - Sex by single year of age (detailed) (persons) ---------------------------
+
+# LA (GM)
+df_sex_and_age_la <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2300_1.data.csv?date=latest&geography=645922841...645922850&c2021_age_92=1...91&c_sex=0...2&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           age = C2021_AGE_92_NAME,
+           sex = C_SEX_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Local authority",
+           period = "2021-03-21",
+           measure = "Count",
+           indicator = "Usual resident population by sex and age",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, age, sex, value) %>%
+    write_csv("2021_population_by_sex_and_age_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_sex_and_age_msoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2300_1.data.csv?date=latest&geography=637535406...637535433&c2021_age_92=1...91&c_sex=0...2&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           age = C2021_AGE_92_NAME,
+           sex = C_SEX_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Middle-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           indicator = "Usual resident population by sex and age",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, age, sex, value) %>%
+    write_csv("2021_population_by_sex_and_age_msoa_trafford.csv")
+
+
+# LSOA (Trafford)
+df_sex_and_age_lsoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2300_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_age_92=1...91&c_sex=0...2&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           age = C2021_AGE_92_NAME,
+           sex = C_SEX_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Lower-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           indicator = "Usual resident population by sex and age",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, age, sex, value) %>%
+    write_csv("2021_population_by_sex_and_age_lsoa_trafford.csv")
+
+
+# Ward (Trafford)
+df_sex_and_age_ward <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2300_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_age_92=1...91&c_sex=0...2&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           age = C2021_AGE_92_NAME,
+           sex = C_SEX_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Electoral ward",
+           area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets)
+           period = "2021-03-21",
+           measure = "Count",
+           indicator = "Usual resident population by sex and age",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, age, sex, value) %>%
+    write_csv("2021_population_by_sex_and_age_ward_trafford.csv")
+
+
+# Create the wide dataset with specific age groups for whole of GM
+df_sex_and_age_groups_la_wide <- df_sex_and_age_la %>%
+    pivot_wider(names_from = age, values_from = value) %>%
+    # create the commonly required age bands: all ages, 0 -15, 16 - 64 and 65+
+    mutate(all_ages = rowSums(select(., `Aged under 1 year`:`Aged 90 years and over`)),
+           aged_0_to_15 = rowSums(select(., `Aged under 1 year`:`Aged 15 years`)),
+           aged_16_to_64 = rowSums(select(., `Aged 16 years`:`Aged 64 years`)),
+           aged_65_and_over = rowSums(select(., `Aged 65 years`:`Aged 90 years and over`))) %>%
+    select(area_code, area_name, geography, period, sex, all_ages, aged_0_to_15, aged_16_to_64, aged_65_and_over) %>%
+    write_csv("2021_population_by_sex_and_age_group_wide_la_gm.csv")
+
+
+# TS006 - Population density (persons) ---------------------------
+
+# LA (GM)
+df_pop_density_la <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?date=latest&geography=645922841...645922850&cell=0&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Local authority",
+           period = "2021-03-21",
+           measure = "Count",
+           indicator = "Usual residents per square kilometre",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_density_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_pop_density_msoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?date=latest&geography=637535406...637535433&cell=0&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Middle-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           indicator = "Usual residents per square kilometre",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_density_msoa_trafford.csv")
+
+
+# LSOA (Trafford)
+df_pop_density_lsoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&cell=0&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Lower-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           indicator = "Usual residents per square kilometre",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_density_lsoa_trafford.csv")
+
+
+# OA (Trafford)
+df_pop_density_oa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&cell=0&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           indicator = "Usual residents per square kilometre",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_density_oa_trafford.csv")
+
+
+# Ward (Trafford)
+df_pop_density_ward <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2026_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&cell=0&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Electoral ward",
+           area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets)
+           period = "2021-03-21",
+           measure = "Count",
+           indicator = "Usual residents per square kilometre",
+           unit = "Persons") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_density_ward_trafford.csv")
+
+
+# TS003 - Household composition (households) ---------------------------
+
+# LA (GM)
+df_household_comp_la <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2023_1.data.csv?date=latest&geography=645922841...645922850&c2021_hhcomp_15=1...14&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HHCOMP_15_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Local authority",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_composition_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_household_comp_msoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2023_1.data.csv?date=latest&geography=637535406...637535433&c2021_hhcomp_15=1...14&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HHCOMP_15_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Middle-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_composition_msoa_trafford.csv")
+
+
+# LSOA (Trafford)
+df_household_comp_lsoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2023_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_hhcomp_15=1...14&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HHCOMP_15_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Lower-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_composition_lsoa_trafford.csv")
+
+
+# OA (Trafford)
+df_household_comp_oa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2023_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_hhcomp_15=1...14&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HHCOMP_15_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_composition_oa_trafford.csv")
+
+
+# Ward (Trafford)
+df_household_comp_ward <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2023_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_hhcomp_15=1...14&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HHCOMP_15_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Electoral ward",
+           area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets)
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_composition_ward_trafford.csv")
+
+
+# TS017 - Household size (households) ---------------------------
+
+# LA (GM)
+df_household_size_la <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2037_1.data.csv?date=latest&geography=645922841...645922850&c2021_hhsize_10=1...9&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HHSIZE_10_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Local authority",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_size_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_household_size_msoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2037_1.data.csv?date=latest&geography=637535406...637535433&c2021_hhsize_10=1...9&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HHSIZE_10_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Middle-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_size_msoa_trafford.csv")
+
+
+# LSOA (Trafford)
+df_household_size_lsoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2037_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_hhsize_10=1...9&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HHSIZE_10_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Lower-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_size_lsoa_trafford.csv")
+
+
+# OA (Trafford)
+df_household_size_oa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2037_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_hhsize_10=1...9&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HHSIZE_10_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_size_oa_trafford.csv")
+
+
+# Ward (Trafford)
+df_household_size_ward <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2037_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_hhsize_10=1...9&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HHSIZE_10_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Electoral ward",
+           area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets)
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_size_ward_trafford.csv")

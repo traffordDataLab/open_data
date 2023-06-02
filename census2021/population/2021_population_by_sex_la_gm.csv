@@ -1,0 +1,31 @@
+area_code,area_name,geography,period,indicator,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,All persons,Count,Persons,295963
+E08000001,Bolton,Local authority,2021-03-21,Female,Count,Persons,150056
+E08000001,Bolton,Local authority,2021-03-21,Male,Count,Persons,145907
+E08000002,Bury,Local authority,2021-03-21,All persons,Count,Persons,193851
+E08000002,Bury,Local authority,2021-03-21,Female,Count,Persons,98741
+E08000002,Bury,Local authority,2021-03-21,Male,Count,Persons,95110
+E08000003,Manchester,Local authority,2021-03-21,All persons,Count,Persons,551938
+E08000003,Manchester,Local authority,2021-03-21,Female,Count,Persons,277877
+E08000003,Manchester,Local authority,2021-03-21,Male,Count,Persons,274061
+E08000004,Oldham,Local authority,2021-03-21,All persons,Count,Persons,242089
+E08000004,Oldham,Local authority,2021-03-21,Female,Count,Persons,123766
+E08000004,Oldham,Local authority,2021-03-21,Male,Count,Persons,118323
+E08000005,Rochdale,Local authority,2021-03-21,All persons,Count,Persons,223773
+E08000005,Rochdale,Local authority,2021-03-21,Female,Count,Persons,114055
+E08000005,Rochdale,Local authority,2021-03-21,Male,Count,Persons,109718
+E08000006,Salford,Local authority,2021-03-21,All persons,Count,Persons,269923
+E08000006,Salford,Local authority,2021-03-21,Female,Count,Persons,134389
+E08000006,Salford,Local authority,2021-03-21,Male,Count,Persons,135534
+E08000007,Stockport,Local authority,2021-03-21,All persons,Count,Persons,294773
+E08000007,Stockport,Local authority,2021-03-21,Female,Count,Persons,151373
+E08000007,Stockport,Local authority,2021-03-21,Male,Count,Persons,143400
+E08000008,Tameside,Local authority,2021-03-21,All persons,Count,Persons,231073
+E08000008,Tameside,Local authority,2021-03-21,Female,Count,Persons,117797
+E08000008,Tameside,Local authority,2021-03-21,Male,Count,Persons,113276
+E08000009,Trafford,Local authority,2021-03-21,All persons,Count,Persons,235052
+E08000009,Trafford,Local authority,2021-03-21,Female,Count,Persons,120644
+E08000009,Trafford,Local authority,2021-03-21,Male,Count,Persons,114408
+E08000010,Wigan,Local authority,2021-03-21,All persons,Count,Persons,329330
+E08000010,Wigan,Local authority,2021-03-21,Female,Count,Persons,166333
+E08000010,Wigan,Local authority,2021-03-21,Male,Count,Persons,162997

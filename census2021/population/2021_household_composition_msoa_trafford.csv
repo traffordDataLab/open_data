@@ -1,6 +1,6 @@
 area_code,area_name,geography,period,indicator,measure,unit,value
-E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,387
-E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,1414
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,387
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,1414
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,73
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,227
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,653
@@ -11,10 +11,10 @@ E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,423
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,248
 E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,105
-E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,223
-E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,331
-E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,402
-E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,336
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,223
+E02001259,Trafford 001,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,331
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,402
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,336
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,331
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,342
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,578
@@ -25,10 +25,10 @@ E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,197
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,149
 E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,9
-E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,69
-E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,68
-E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,286
-E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,837
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,69
+E02001260,Trafford 002,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,68
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,286
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,837
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,117
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,265
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,555
@@ -39,10 +39,10 @@ E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,354
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,213
 E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,38
-E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,95
-E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,187
-E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,338
-E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,503
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,95
+E02001261,Trafford 003,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,187
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,338
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,503
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,151
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,194
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,535
@@ -53,10 +53,10 @@ E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,211
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,193
 E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,32
-E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,217
-E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,204
-E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,515
-E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,368
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,217
+E02001262,Trafford 004,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,204
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,515
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,368
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,465
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,379
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,647
@@ -67,10 +67,10 @@ E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,140
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,130
 E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,6
-E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,60
-E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,65
-E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,318
-E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,454
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,60
+E02001263,Trafford 005,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,65
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,318
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,454
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,213
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,335
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,656
@@ -81,10 +81,10 @@ E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,242
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,220
 E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,15
-E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,118
-E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,84
-E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,487
-E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,462
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,118
+E02001264,Trafford 006,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,84
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,487
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,462
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,303
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,345
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,546
@@ -95,10 +95,10 @@ E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,247
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,172
 E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,12
-E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,75
-E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,67
-E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,437
-E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,713
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,75
+E02001265,Trafford 007,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,67
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,437
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,713
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,207
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,258
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,408
@@ -109,10 +109,10 @@ E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,291
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,150
 E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,31
-E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,66
-E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,74
-E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,585
-E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,751
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,66
+E02001266,Trafford 008,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,74
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,585
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,751
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,242
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,308
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,476
@@ -123,10 +123,10 @@ E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,169
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,133
 E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,9
-E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,43
-E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,84
-E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,477
-E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,331
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,43
+E02001267,Trafford 009,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,84
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,477
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,331
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,385
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,338
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,541
@@ -137,10 +137,10 @@ E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,127
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,116
 E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,14
-E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,45
-E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,45
-E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,512
-E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,742
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,45
+E02001268,Trafford 010,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,45
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,512
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,742
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,180
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,281
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,548
@@ -151,10 +151,10 @@ E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,262
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,171
 E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,29
-E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,98
-E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,152
-E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,472
-E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,683
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,98
+E02001269,Trafford 011,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,152
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,472
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,683
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,243
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,311
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,776
@@ -165,10 +165,10 @@ E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,225
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,123
 E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,24
-E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,47
-E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,72
-E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,398
-E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,430
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,47
+E02001270,Trafford 012,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,72
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,398
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,430
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,223
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,249
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,475
@@ -179,10 +179,10 @@ E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,236
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,145
 E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,20
-E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,61
-E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,57
-E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,463
-E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,524
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,61
+E02001271,Trafford 013,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,57
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,463
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,524
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,359
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,318
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,757
@@ -193,10 +193,10 @@ E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,154
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,119
 E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,9
-E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,59
-E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,67
-E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,645
-E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,1013
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,59
+E02001272,Trafford 014,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,67
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,645
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,1013
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,300
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,404
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,901
@@ -207,10 +207,10 @@ E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,189
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,97
 E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,23
-E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,48
-E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,99
-E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,490
-E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,287
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,48
+E02001273,Trafford 015,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,99
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,490
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,287
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,481
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,370
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,759
@@ -221,10 +221,10 @@ E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,87
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,93
 E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,11
-E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,64
-E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,74
-E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,428
-E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,582
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,64
+E02001274,Trafford 016,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,74
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,428
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,582
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,188
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,293
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,323
@@ -235,10 +235,10 @@ E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,505
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,227
 E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,23
-E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,83
-E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,92
-E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,471
-E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,414
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,83
+E02001275,Trafford 017,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,92
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,471
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,414
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,227
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,273
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,606
@@ -249,10 +249,10 @@ E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,314
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,178
 E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,18
-E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,87
-E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,70
-E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,387
-E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,760
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,87
+E02001276,Trafford 018,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,70
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,387
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,760
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,150
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,267
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,719
@@ -263,10 +263,10 @@ E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,439
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,237
 E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,22
-E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,105
-E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,94
-E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,371
-E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,436
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,105
+E02001277,Trafford 019,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,94
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,371
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,436
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,340
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,355
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,915
@@ -277,10 +277,10 @@ E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,139
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,105
 E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,20
-E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,64
-E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,64
-E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,360
-E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,282
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,64
+E02001278,Trafford 020,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,64
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,360
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,282
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,382
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,384
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,884
@@ -291,10 +291,10 @@ E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,109
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,104
 E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,5
-E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,58
-E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,58
-E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,605
-E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,554
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,58
+E02001279,Trafford 021,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,58
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,605
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,554
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,304
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,273
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,575
@@ -305,10 +305,10 @@ E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,326
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,183
 E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,23
-E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,92
-E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,86
-E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,501
-E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,250
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,92
+E02001280,Trafford 022,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,86
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,501
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,250
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,456
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,330
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,761
@@ -319,10 +319,10 @@ E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,102
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,87
 E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,7
-E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,48
-E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,47
-E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,482
-E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,743
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,48
+E02001281,Trafford 023,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,47
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,482
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,743
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,258
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,347
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,976
@@ -333,10 +333,10 @@ E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,261
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,144
 E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,24
-E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,63
-E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,119
-E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,575
-E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,715
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,63
+E02001282,Trafford 024,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,119
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,575
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,715
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,447
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,409
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,848
@@ -347,10 +347,10 @@ E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,170
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,108
 E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,27
-E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,60
-E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,86
-E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,359
-E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,330
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,60
+E02001283,Trafford 025,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,86
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,359
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,330
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,297
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,361
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,933
@@ -361,10 +361,10 @@ E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,142
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,100
 E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,11
-E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,43
-E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,70
-E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,518
-E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,460
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,43
+E02001284,Trafford 026,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,70
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,518
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,460
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,442
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,328
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,669
@@ -375,10 +375,10 @@ E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,160
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,85
 E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,10
-E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,51
-E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,57
-E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,One person household: Aged 66 years and over,Count,Households,497
-E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,One person household: Other,Count,Households,233
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,51
+E02001285,Trafford 027,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,57
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,One-person household: Aged 66 years and over,Count,Households,497
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,One-person household: Other,Count,Households,233
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Single family household: All aged 66 years and over,Count,Households,440
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,325
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,790
@@ -389,5 +389,5 @@ E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Single family h
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,122
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,89
 E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,5
-E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Multiple-family household: With dependent children,Count,Households,105
-E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,74
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,Other household types: With dependent children,Count,Households,105
+E02001286,Trafford 028,Middle-layer Super Output Area,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,74

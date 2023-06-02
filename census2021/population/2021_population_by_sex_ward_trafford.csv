@@ -1,0 +1,64 @@
+area_code,area_name,geography,period,indicator,measure,unit,value
+E05000819,Altrincham,Electoral ward,2021-03-21,All persons,Count,Persons,12931
+E05000819,Altrincham,Electoral ward,2021-03-21,Female,Count,Persons,6599
+E05000819,Altrincham,Electoral ward,2021-03-21,Male,Count,Persons,6332
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,All persons,Count,Persons,10345
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Female,Count,Persons,5265
+E05000820,Ashton upon Mersey,Electoral ward,2021-03-21,Male,Count,Persons,5080
+E05000821,Bowdon,Electoral ward,2021-03-21,All persons,Count,Persons,9133
+E05000821,Bowdon,Electoral ward,2021-03-21,Female,Count,Persons,4717
+E05000821,Bowdon,Electoral ward,2021-03-21,Male,Count,Persons,4416
+E05000822,Broadheath,Electoral ward,2021-03-21,All persons,Count,Persons,14287
+E05000822,Broadheath,Electoral ward,2021-03-21,Female,Count,Persons,7316
+E05000822,Broadheath,Electoral ward,2021-03-21,Male,Count,Persons,6971
+E05000823,Brooklands,Electoral ward,2021-03-21,All persons,Count,Persons,10524
+E05000823,Brooklands,Electoral ward,2021-03-21,Female,Count,Persons,5325
+E05000823,Brooklands,Electoral ward,2021-03-21,Male,Count,Persons,5199
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,All persons,Count,Persons,10107
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Female,Count,Persons,5325
+E05000824,Bucklow-St Martins,Electoral ward,2021-03-21,Male,Count,Persons,4782
+E05000825,Clifford,Electoral ward,2021-03-21,All persons,Count,Persons,13371
+E05000825,Clifford,Electoral ward,2021-03-21,Female,Count,Persons,6749
+E05000825,Clifford,Electoral ward,2021-03-21,Male,Count,Persons,6622
+E05000826,Davyhulme East,Electoral ward,2021-03-21,All persons,Count,Persons,9584
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Female,Count,Persons,4964
+E05000826,Davyhulme East,Electoral ward,2021-03-21,Male,Count,Persons,4620
+E05000827,Davyhulme West,Electoral ward,2021-03-21,All persons,Count,Persons,10163
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Female,Count,Persons,5243
+E05000827,Davyhulme West,Electoral ward,2021-03-21,Male,Count,Persons,4920
+E05000828,Flixton,Electoral ward,2021-03-21,All persons,Count,Persons,10791
+E05000828,Flixton,Electoral ward,2021-03-21,Female,Count,Persons,5556
+E05000828,Flixton,Electoral ward,2021-03-21,Male,Count,Persons,5235
+E05000829,Gorse Hill,Electoral ward,2021-03-21,All persons,Count,Persons,12178
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Female,Count,Persons,6225
+E05000829,Gorse Hill,Electoral ward,2021-03-21,Male,Count,Persons,5953
+E05000830,Hale Barns,Electoral ward,2021-03-21,All persons,Count,Persons,10131
+E05000830,Hale Barns,Electoral ward,2021-03-21,Female,Count,Persons,5239
+E05000830,Hale Barns,Electoral ward,2021-03-21,Male,Count,Persons,4892
+E05000831,Hale Central,Electoral ward,2021-03-21,All persons,Count,Persons,10437
+E05000831,Hale Central,Electoral ward,2021-03-21,Female,Count,Persons,5350
+E05000831,Hale Central,Electoral ward,2021-03-21,Male,Count,Persons,5087
+E05000832,Longford,Electoral ward,2021-03-21,All persons,Count,Persons,12896
+E05000832,Longford,Electoral ward,2021-03-21,Female,Count,Persons,6541
+E05000832,Longford,Electoral ward,2021-03-21,Male,Count,Persons,6355
+E05000833,Priory,Electoral ward,2021-03-21,All persons,Count,Persons,11168
+E05000833,Priory,Electoral ward,2021-03-21,Female,Count,Persons,5636
+E05000833,Priory,Electoral ward,2021-03-21,Male,Count,Persons,5532
+E05000835,Sale Moor,Electoral ward,2021-03-21,All persons,Count,Persons,10666
+E05000835,Sale Moor,Electoral ward,2021-03-21,Female,Count,Persons,5498
+E05000835,Sale Moor,Electoral ward,2021-03-21,Male,Count,Persons,5168
+E05000834,St Mary's,Electoral ward,2021-03-21,All persons,Count,Persons,11812
+E05000834,St Mary's,Electoral ward,2021-03-21,Female,Count,Persons,6142
+E05000834,St Mary's,Electoral ward,2021-03-21,Male,Count,Persons,5670
+E05000836,Stretford,Electoral ward,2021-03-21,All persons,Count,Persons,11475
+E05000836,Stretford,Electoral ward,2021-03-21,Female,Count,Persons,5855
+E05000836,Stretford,Electoral ward,2021-03-21,Male,Count,Persons,5620
+E05000837,Timperley,Electoral ward,2021-03-21,All persons,Count,Persons,11323
+E05000837,Timperley,Electoral ward,2021-03-21,Female,Count,Persons,5805
+E05000837,Timperley,Electoral ward,2021-03-21,Male,Count,Persons,5518
+E05000838,Urmston,Electoral ward,2021-03-21,All persons,Count,Persons,11203
+E05000838,Urmston,Electoral ward,2021-03-21,Female,Count,Persons,5811
+E05000838,Urmston,Electoral ward,2021-03-21,Male,Count,Persons,5392
+E05000839,Village,Electoral ward,2021-03-21,All persons,Count,Persons,10525
+E05000839,Village,Electoral ward,2021-03-21,Female,Count,Persons,5481
+E05000839,Village,Electoral ward,2021-03-21,Male,Count,Persons,5044

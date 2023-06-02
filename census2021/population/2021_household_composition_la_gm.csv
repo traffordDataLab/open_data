@@ -1,6 +1,6 @@
 area_code,area_name,geography,period,indicator,measure,unit,value
-E08000001,Bolton,Local authority,2021-03-21,One person household: Aged 66 years and over,Count,Households,15389
-E08000001,Bolton,Local authority,2021-03-21,One person household: Other,Count,Households,21132
+E08000001,Bolton,Local authority,2021-03-21,One-person household: Aged 66 years and over,Count,Households,15389
+E08000001,Bolton,Local authority,2021-03-21,One-person household: Other,Count,Households,21132
 E08000001,Bolton,Local authority,2021-03-21,Single family household: All aged 66 years and over,Count,Households,10058
 E08000001,Bolton,Local authority,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,11114
 E08000001,Bolton,Local authority,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,18079
@@ -11,10 +11,10 @@ E08000001,Bolton,Local authority,2021-03-21,Single family household: Cohabiting 
 E08000001,Bolton,Local authority,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,9492
 E08000001,Bolton,Local authority,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,5492
 E08000001,Bolton,Local authority,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,809
-E08000001,Bolton,Local authority,2021-03-21,Multiple-family household: With dependent children,Count,Households,3988
-E08000001,Bolton,Local authority,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,2877
-E08000002,Bury,Local authority,2021-03-21,One person household: Aged 66 years and over,Count,Households,10646
-E08000002,Bury,Local authority,2021-03-21,One person household: Other,Count,Households,14234
+E08000001,Bolton,Local authority,2021-03-21,Other household types: With dependent children,Count,Households,3988
+E08000001,Bolton,Local authority,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,2877
+E08000002,Bury,Local authority,2021-03-21,One-person household: Aged 66 years and over,Count,Households,10646
+E08000002,Bury,Local authority,2021-03-21,One-person household: Other,Count,Households,14234
 E08000002,Bury,Local authority,2021-03-21,Single family household: All aged 66 years and over,Count,Households,7288
 E08000002,Bury,Local authority,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,7946
 E08000002,Bury,Local authority,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,12192
@@ -25,10 +25,10 @@ E08000002,Bury,Local authority,2021-03-21,Single family household: Cohabiting co
 E08000002,Bury,Local authority,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,6057
 E08000002,Bury,Local authority,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,3569
 E08000002,Bury,Local authority,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,501
-E08000002,Bury,Local authority,2021-03-21,Multiple-family household: With dependent children,Count,Households,1997
-E08000002,Bury,Local authority,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,2051
-E08000003,Manchester,Local authority,2021-03-21,One person household: Aged 66 years and over,Count,Households,18712
-E08000003,Manchester,Local authority,2021-03-21,One person household: Other,Count,Households,52865
+E08000002,Bury,Local authority,2021-03-21,Other household types: With dependent children,Count,Households,1997
+E08000002,Bury,Local authority,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,2051
+E08000003,Manchester,Local authority,2021-03-21,One-person household: Aged 66 years and over,Count,Households,18712
+E08000003,Manchester,Local authority,2021-03-21,One-person household: Other,Count,Households,52865
 E08000003,Manchester,Local authority,2021-03-21,Single family household: All aged 66 years and over,Count,Households,6339
 E08000003,Manchester,Local authority,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,13055
 E08000003,Manchester,Local authority,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,28116
@@ -39,10 +39,10 @@ E08000003,Manchester,Local authority,2021-03-21,Single family household: Cohabit
 E08000003,Manchester,Local authority,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,20225
 E08000003,Manchester,Local authority,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,10744
 E08000003,Manchester,Local authority,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,3813
-E08000003,Manchester,Local authority,2021-03-21,Multiple-family household: With dependent children,Count,Households,8270
-E08000003,Manchester,Local authority,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,19042
-E08000004,Oldham,Local authority,2021-03-21,One person household: Aged 66 years and over,Count,Households,11748
-E08000004,Oldham,Local authority,2021-03-21,One person household: Other,Count,Households,15649
+E08000003,Manchester,Local authority,2021-03-21,Other household types: With dependent children,Count,Households,8270
+E08000003,Manchester,Local authority,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,19042
+E08000004,Oldham,Local authority,2021-03-21,One-person household: Aged 66 years and over,Count,Households,11748
+E08000004,Oldham,Local authority,2021-03-21,One-person household: Other,Count,Households,15649
 E08000004,Oldham,Local authority,2021-03-21,Single family household: All aged 66 years and over,Count,Households,7361
 E08000004,Oldham,Local authority,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,8251
 E08000004,Oldham,Local authority,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,14386
@@ -53,10 +53,10 @@ E08000004,Oldham,Local authority,2021-03-21,Single family household: Cohabiting 
 E08000004,Oldham,Local authority,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,8716
 E08000004,Oldham,Local authority,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,4665
 E08000004,Oldham,Local authority,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,696
-E08000004,Oldham,Local authority,2021-03-21,Multiple-family household: With dependent children,Count,Households,3856
-E08000004,Oldham,Local authority,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,2310
-E08000005,Rochdale,Local authority,2021-03-21,One person household: Aged 66 years and over,Count,Households,11285
-E08000005,Rochdale,Local authority,2021-03-21,One person household: Other,Count,Households,16356
+E08000004,Oldham,Local authority,2021-03-21,Other household types: With dependent children,Count,Households,3856
+E08000004,Oldham,Local authority,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,2310
+E08000005,Rochdale,Local authority,2021-03-21,One-person household: Aged 66 years and over,Count,Households,11285
+E08000005,Rochdale,Local authority,2021-03-21,One-person household: Other,Count,Households,16356
 E08000005,Rochdale,Local authority,2021-03-21,Single family household: All aged 66 years and over,Count,Households,6855
 E08000005,Rochdale,Local authority,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,8169
 E08000005,Rochdale,Local authority,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,12797
@@ -67,10 +67,10 @@ E08000005,Rochdale,Local authority,2021-03-21,Single family household: Cohabitin
 E08000005,Rochdale,Local authority,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,8761
 E08000005,Rochdale,Local authority,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,4291
 E08000005,Rochdale,Local authority,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,731
-E08000005,Rochdale,Local authority,2021-03-21,Multiple-family household: With dependent children,Count,Households,3119
-E08000005,Rochdale,Local authority,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,2175
-E08000006,Salford,Local authority,2021-03-21,One person household: Aged 66 years and over,Count,Households,12380
-E08000006,Salford,Local authority,2021-03-21,One person household: Other,Count,Households,26761
+E08000005,Rochdale,Local authority,2021-03-21,Other household types: With dependent children,Count,Households,3119
+E08000005,Rochdale,Local authority,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,2175
+E08000006,Salford,Local authority,2021-03-21,One-person household: Aged 66 years and over,Count,Households,12380
+E08000006,Salford,Local authority,2021-03-21,One-person household: Other,Count,Households,26761
 E08000006,Salford,Local authority,2021-03-21,Single family household: All aged 66 years and over,Count,Households,6293
 E08000006,Salford,Local authority,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,8749
 E08000006,Salford,Local authority,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,13197
@@ -81,10 +81,10 @@ E08000006,Salford,Local authority,2021-03-21,Single family household: Cohabiting
 E08000006,Salford,Local authority,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,9794
 E08000006,Salford,Local authority,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,4923
 E08000006,Salford,Local authority,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,1464
-E08000006,Salford,Local authority,2021-03-21,Multiple-family household: With dependent children,Count,Households,2732
-E08000006,Salford,Local authority,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,7070
-E08000007,Stockport,Local authority,2021-03-21,One person household: Aged 66 years and over,Count,Households,17805
-E08000007,Stockport,Local authority,2021-03-21,One person household: Other,Count,Households,21634
+E08000006,Salford,Local authority,2021-03-21,Other household types: With dependent children,Count,Households,2732
+E08000006,Salford,Local authority,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,7070
+E08000007,Stockport,Local authority,2021-03-21,One-person household: Aged 66 years and over,Count,Households,17805
+E08000007,Stockport,Local authority,2021-03-21,One-person household: Other,Count,Households,21634
 E08000007,Stockport,Local authority,2021-03-21,Single family household: All aged 66 years and over,Count,Households,12336
 E08000007,Stockport,Local authority,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,12472
 E08000007,Stockport,Local authority,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,19338
@@ -95,10 +95,10 @@ E08000007,Stockport,Local authority,2021-03-21,Single family household: Cohabiti
 E08000007,Stockport,Local authority,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,8684
 E08000007,Stockport,Local authority,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,5238
 E08000007,Stockport,Local authority,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,702
-E08000007,Stockport,Local authority,2021-03-21,Multiple-family household: With dependent children,Count,Households,2526
-E08000007,Stockport,Local authority,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,3107
-E08000008,Tameside,Local authority,2021-03-21,One person household: Aged 66 years and over,Count,Households,13013
-E08000008,Tameside,Local authority,2021-03-21,One person household: Other,Count,Households,19361
+E08000007,Stockport,Local authority,2021-03-21,Other household types: With dependent children,Count,Households,2526
+E08000007,Stockport,Local authority,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,3107
+E08000008,Tameside,Local authority,2021-03-21,One-person household: Aged 66 years and over,Count,Households,13013
+E08000008,Tameside,Local authority,2021-03-21,One-person household: Other,Count,Households,19361
 E08000008,Tameside,Local authority,2021-03-21,Single family household: All aged 66 years and over,Count,Households,7645
 E08000008,Tameside,Local authority,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,9321
 E08000008,Tameside,Local authority,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,11912
@@ -109,10 +109,10 @@ E08000008,Tameside,Local authority,2021-03-21,Single family household: Cohabitin
 E08000008,Tameside,Local authority,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,9030
 E08000008,Tameside,Local authority,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,4752
 E08000008,Tameside,Local authority,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,652
-E08000008,Tameside,Local authority,2021-03-21,Multiple-family household: With dependent children,Count,Households,2496
-E08000008,Tameside,Local authority,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,2298
-E08000009,Trafford,Local authority,2021-03-21,One person household: Aged 66 years and over,Count,Households,12764
-E08000009,Trafford,Local authority,2021-03-21,One person household: Other,Count,Households,15605
+E08000008,Tameside,Local authority,2021-03-21,Other household types: With dependent children,Count,Households,2496
+E08000008,Tameside,Local authority,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,2298
+E08000009,Trafford,Local authority,2021-03-21,One-person household: Aged 66 years and over,Count,Households,12764
+E08000009,Trafford,Local authority,2021-03-21,One-person household: Other,Count,Households,15605
 E08000009,Trafford,Local authority,2021-03-21,Single family household: All aged 66 years and over,Count,Households,8205
 E08000009,Trafford,Local authority,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,8869
 E08000009,Trafford,Local authority,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,18808
@@ -123,10 +123,10 @@ E08000009,Trafford,Local authority,2021-03-21,Single family household: Cohabitin
 E08000009,Trafford,Local authority,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,6339
 E08000009,Trafford,Local authority,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,4120
 E08000009,Trafford,Local authority,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,586
-E08000009,Trafford,Local authority,2021-03-21,Multiple-family household: With dependent children,Count,Households,2248
-E08000009,Trafford,Local authority,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,2648
-E08000010,Wigan,Local authority,2021-03-21,One person household: Aged 66 years and over,Count,Households,18692
-E08000010,Wigan,Local authority,2021-03-21,One person household: Other,Count,Households,25258
+E08000009,Trafford,Local authority,2021-03-21,Other household types: With dependent children,Count,Households,2248
+E08000009,Trafford,Local authority,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,2648
+E08000010,Wigan,Local authority,2021-03-21,One-person household: Aged 66 years and over,Count,Households,18692
+E08000010,Wigan,Local authority,2021-03-21,One-person household: Other,Count,Households,25258
 E08000010,Wigan,Local authority,2021-03-21,Single family household: All aged 66 years and over,Count,Households,13595
 E08000010,Wigan,Local authority,2021-03-21,Single family household: Married or civil partnership couple: No children,Count,Households,15164
 E08000010,Wigan,Local authority,2021-03-21,Single family household: Married or civil partnership couple: Dependent children,Count,Households,18150
@@ -137,5 +137,5 @@ E08000010,Wigan,Local authority,2021-03-21,Single family household: Cohabiting c
 E08000010,Wigan,Local authority,2021-03-21,Single family household: Lone parent family: With dependent children,Count,Households,10503
 E08000010,Wigan,Local authority,2021-03-21,Single family household: Lone parent family: All children non-dependent,Count,Households,6547
 E08000010,Wigan,Local authority,2021-03-21,Single family household: Other single family household: Other family composition,Count,Households,751
-E08000010,Wigan,Local authority,2021-03-21,Multiple-family household: With dependent children,Count,Households,2688
-E08000010,Wigan,Local authority,2021-03-21,"Multiple-family household: Other, including all full-time students and all aged 66 years and over",Count,Households,2916
+E08000010,Wigan,Local authority,2021-03-21,Other household types: With dependent children,Count,Households,2688
+E08000010,Wigan,Local authority,2021-03-21,"Other household types: Other, including all full-time students and all aged 66 years and over",Count,Households,2916
