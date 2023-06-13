@@ -19,7 +19,7 @@ library(tidyverse)
 trafford_postcodes <- read_csv("https://www.trafforddatalab.io/spatial_data/postcodes/trafford_postcodes.csv") %>%
   select(postcode, ward_code, ward_name, msoa_code, msoa_hcl_name, locality)
 
-# Get the list of GP practices under Trafford CCG
+# Get the list of GP practices within Trafford
 trafford_gp <- read_csv("https://files.digital.nhs.uk/11/9809CA/gp-reg-pat-prac-map.csv") %>%
   filter(PRACTICE_POSTCODE %in% trafford_postcodes$postcode) %>%
   select(practice_code = PRACTICE_CODE,
