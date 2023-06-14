@@ -53,11 +53,11 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2022-06-10</td>
+	<td>2023-06-14</td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td>The postcodes for GP Practice are matched with centroids derived from the latest release of the <a href="https://geoportal.statistics.gov.uk/datasets/ons-postcode-directory-latest-centroids">ONS Postcode Directory</a></td>
+	<td>The postcodes for GP Practices are matched with centroids derived from the May 2023 release of the <a href="https://geoportal.statistics.gov.uk/datasets/ons-postcode-directory-may-2023/about">ONS Postcode Directory</a></td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>

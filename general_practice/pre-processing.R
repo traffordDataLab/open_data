@@ -58,34 +58,53 @@ df <- read_csv("epraccur.csv",
   # drop variables starting NULL
   select(-starts_with("NULL"))
 
-# optional steps ---------------------------------------------------------------
-
-library(httr) ; library(jsonlite) ; library(sf)
-
-# retrieve postcode centroids for your CCG
-ccg = "E38000187"
-url <- paste0("https://ons-inspire.esriuk.com/arcgis/rest/services/Postcodes/ONS_Postcode_Directory_Latest_Centroids/MapServer/0/query?where=UPPER(ccg)%20like%20'%25", URLencode(toupper(ccg), reserved = TRUE), "%25'&outFields=pcds,ccg,lat,long&outSR=4326&f=json")
-postcodes <- fromJSON(content(GET(url), "text", encoding="UTF-8"))$features$attributes %>% 
-  rename(Postcode = pcds)
-
-# filter GP Practices by matching postcodes
-geo <- left_join(df, postcodes, by = "Postcode") %>% 
-  filter(!is.na(ccg))
-
-# remove inactive GP practices and rename variables
-results <- geo %>% 
-  filter(`Status Code` == "Active") %>% 
-  select(Name, Address, Postcode, 
-         telephone = `Contact Telephone Number`, lon = long, lat) %>% 
-  rename_all(tolower)
-
-# write results as CSV and GeoJSON
-write_csv(results, "trafford_general_practices.csv")
-
-st_as_sf(results, coords = c("lon", "lat")) %>%
-  st_set_crs(4326) %>%
-  st_write("trafford_general_practices.geojson")
 
 # Tidy up filesystem
 file.remove("epraccur.csv")
 file.remove("epraccur.pdf")
+
+
+# Get just GPs in Trafford ---------------------------------------------------------------
+
+# NOTE Clinical Commissioning Groups (CCG) were abolished in favour of Integrated Care Boards (ICB) in 2022.
+# ICB22NM: NHS Greater Manchester Integrated Care Board
+# ICB22CD: E54000057
+# ICB22CDH: QOP
+
+library(httr) ; library(jsonlite) ; library(sf)
+
+# Retrieve postcode centroids for Trafford - https://geoportal.statistics.gov.uk/datasets/ons-postcode-directory-may-2023/about
+pcode_file_reference <- "ONSPD_MAY_2023_UK" # makes it easier to change this once here than throughout the code below
+
+tmp <- tempfile(fileext = ".zip")
+GET(url = "https://www.arcgis.com/sharing/rest/content/items/bd25c421196b4546a7830e95ecdd70bc/data",
+    write_disk(tmp))
+
+unzip(tmp, exdir = pcode_file_reference) # extract the contents of the zip
+
+# delete the downloaded zip
+unlink(tmp)
+
+postcodes <- read_csv(paste0(pcode_file_reference, "/Data/", pcode_file_reference, ".csv")) %>%
+    filter(oslaua == "E08000009") %>%
+    select(Postcode = pcds,
+           lon = long,
+           lat = lat) 
+
+# remove the postcodes folder (contents of the zip)
+unlink(pcode_file_reference, recursive = TRUE)
+
+# Get just GPs in Trafford by matching to Trafford postcodes and filtering to select only active GP Practices
+gp <- inner_join(df, postcodes, by = "Postcode") %>%
+    filter(`Prescribing Setting` == "GP Practice",
+           `Status Code` == "Active") %>% 
+    select(Name, Address, Postcode, 
+           telephone = `Contact Telephone Number`, lon, lat) %>% 
+    rename_all(tolower)
+
+# write results as CSV and GeoJSON
+write_csv(gp, "trafford_general_practices.csv")
+
+st_as_sf(gp, coords = c("lon", "lat")) %>%
+  st_set_crs(4326) %>%
+  st_write("trafford_general_practices.geojson")
