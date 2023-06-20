@@ -30,7 +30,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>October 2019</td>
+	<td>April 2023</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -54,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>April 2020</td>
+	<td>June 2023</td>
 </tr>
 <tr>
 	<td>Notes</td>

@@ -9,13 +9,14 @@ library(tidyverse) ; library(sf)
 
 # load data ---------------------------
 buildings <- st_read("OS OpenMap Local (ESRI Shape File) SJ/data/SJ_Building.shp") %>% 
-  st_transform(27700)
+  st_transform(4326)
 
 # UK Local Authority Districts
 # Source: ONS Open Geography Portal
-# URL: https://geoportal.statistics.gov.uk/datasets/local-authority-districts-december-2019-boundaries-uk-bfc
-trafford <- st_read("https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Local_Authority_Districts_December_2019_Boundaries_UK_BFC/MapServer/0/query?where=lad19cd%20%3D%20'E08000009'&outFields=lad19cd,lad19nm&outSR=27700&f=geojson") %>% 
-  rename(area_code = lad19cd, area_name = lad19nm)
+# URL: https://geoportal.statistics.gov.uk/datasets/ons::local-authority-districts-may-2023-uk-bfc
+
+trafford <- st_read("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_May_2023_UK_BFC/FeatureServer/0/query?where=LAD23NM%20%3D%20'TRAFFORD'&outFields=LAD23CD,LAD23NM&outSR=4326&f=json") %>% 
+  rename(area_code = LAD23CD, area_name = LAD23NM)
 
 # intersect data ---------------------------
 trafford_buildings <- st_intersection(buildings, trafford)
