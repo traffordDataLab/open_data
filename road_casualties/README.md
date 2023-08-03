@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2010-2020</td>
+	<td>2010-2021</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -41,7 +41,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains OSdata © Crown copyright and database rights 2019</td>
+	<td>Contains OSdata © Crown copyright and database rights 2023</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>June 2019</td>
+	<td>August 2023</td>
 </tr>
 <tr>
 	<td>Notes</td>

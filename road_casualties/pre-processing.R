@@ -1,4 +1,4 @@
-## Road casualties 2005-2018 ##
+## Road casualties 2010-2021 ##
 
 # Source: Transport for Greater Manchester
 # Publisher URL: https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data
@@ -8,8 +8,8 @@
 library(tidyverse) ; library(lubridate) ; library(sf)
 
 # download data ---------------------------
-accident <- read_csv("http://odata.tfgm.com/opendata/downloads/STATS19AccDataJan2010Dec2020forGMServers.csv")
-casualty <- read_csv("http://odata.tfgm.com/opendata/downloads/STATS19CasDataJan2010Dec2020forGMServers.csv")
+accident <- read_csv("https://odata.tfgm.com/opendata/downloads/STATS19AccDataJan2010Dec2021forGMServers.csv")
+casualty <- read_csv("https://odata.tfgm.com/opendata/downloads/STATS19CasDataJan2010Dec2021forGMServers.csv")
 
 # merge and recode data  ---------------------------
 casualties <- left_join(casualty, accident, by = "Accident Index") %>% 
@@ -69,8 +69,8 @@ casualties <- st_as_sf(casualties, coords = c("Easting", "Northing")) %>%
   st_set_geometry(NULL)
 
 # write data ---------------------------
-write_csv(casualties, "STATS19_road_casualties_2010-2020.csv")
+write_csv(casualties, "STATS19_road_casualties_2010-2021.csv")
 st_as_sf(casualties, coords = c("lon", "lat")) %>% 
   st_set_crs(4326) %>% 
-  st_write("STATS19_road_casualties_2010-2020.geojson", driver = "GeoJSON")
+  st_write("STATS19_road_casualties_2010-2021.geojson", driver = "GeoJSON")
 
