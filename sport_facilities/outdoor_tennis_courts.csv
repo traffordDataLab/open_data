@@ -1,0 +1,29 @@
+Courts,Floodlit,SiteID,SiteName,ThoroughfareName,PostTown,PostCode,Latitude,Longitude,TelNumber,Email,Website,CarParkExist,NumCarPark,CyclePark,NurseryFlag,FirstAid,DisabilityExist,DisabilityNotes,RecLastChkdDate
+4,1,1001039,David Lloyd (Manchester Trafford City),Barton Embankment,Manchester,M17 8RH,53.469923,-2.35997,0161 749 2000,mship.manchester@davidlloyd.co.uk,http://www.davidlloyd.co.uk,Yes,359,Yes,Yes,No,Yes,NA,18-05-2023
+4,0,1002636,Ashton On Mersey Health And Fitness Centre,Cecil Avenue,Sale,M33 5BP,53.419491,-2.340015,0161 976 5970,info@aomfitness.co.uk,http://www.thedeantrust.co.uk/fitness-leisure,Yes,100,Yes,No,Yes,Yes,NA,05-10-2022
+4,0,1002639,Partington Sports Village,Chapel Lane,Manchester,M31 4ES,53.413337,-2.428383,0161 777 4222,kelly.cooke@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,25,No,No,Yes,Yes,Hoist,21-06-2022
+3,0,1037888,Hale Country Club And Spa,Clay Lane,Altrincham,WA15 7AF,53.387685,-2.312006,0161 904 5939,enquiries@halecountryclub.co.uk,http://www.halecountryclub.co.uk,Yes,200,Yes,Yes,Yes,Yes,NA,30-06-2022
+4,0,1040932,Flixton Cricket And Sports Club,Lawrence Road,Manchester,M41 8UU,53.4521,-2.387694,0161 748 2546,info@flixtoncricketandsportsclub.com,http://flixtoncricketandsportsclub.com/,Yes,74,Yes,No,Yes,Yes,NA,13-05-2022
+3,0,1042903,Abbotsfield Park,Lime Avenue,Flixton,M41 5DE,53.447641,-2.367052,0333 003 5865,NA,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,28-11-2022
+8,0,1043161,Longford Park,Edge Lane,Manchester,M21 9JY,53.444847,-2.292558,079122 80894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,06-06-2022
+3,0,1043162,Davyhulme Park,Canterbury Road,Manchester,M41 0RX,53.454035,-2.35121,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,12-10-2022
+3,0,1043164,Pickering Lodge,Moss Lane,Altrincham,WA15 6LE,53.398205,-2.334236,07912 280894,andy.hilton@traffordleisure.co.uk,http://trafford.gov.uk/residents/leisure-and-lifestyle/parks-and-open-spaces/parks-in-trafford/pickering-lodge.aspx,Yes,10,No,No,No,Yes,NA,06-06-2022
+3,0,1043165,John Leigh Park,The Mount,Altrincham,WA14 4DX,53.391806,-2.355018,07912280894,andy.hilton@traffordleisure.co.uk,http://www.trafforddirectory.co.uk/kb5/trafford/fsd/service.page?id=YAk_GhgYMnc,No,0,No,No,No,Yes,NA,12-10-2022
+5,1,1043816,Hale Barns Tennis Club,Chapel Lane,Altrincham,WA15 0AQ,53.366077,-2.314641,07971 248887,christine.silk@btopenworld.com,http://www.hbtc.org.uk,Yes,20,No,No,No,Yes,NA,19-07-2022
+6,1,1044482,Heyes Grove Tennis Club,Heyes Lane,Altrincham,WA15 6PG,53.399417,-2.323696,0161 980 8932,enquiries@heyesgrovetennis.com,https://heyesgrove.com/,Yes,30,No,No,No,Yes,NA,07-06-2022
+4,0,1201410,The Grammar,Malborough Road,Altrincham,WA14 2RS,53.376339,-2.351787,0161 929 1078,thegrammarteam@traffordleisure.co.uk,https://thegrammar.co.uk/,Yes,100,Yes,No,No,Yes,NA,10-07-2023
+4,0,1201454,Broadoak School,Warburton Lane,Manchester,M31 4BU,53.413413,-2.429873,0161 776 1977,office@broadoak.trafford.sch.uk,http://broadoakschool.thedeantrust.co.uk/,Yes,100,Yes,No,Yes,Yes,NA,01-02-2023
+4,0,1201500,North Cestrian School,Dunham Road,Altrincham,WA14 4AJ,53.388228,-2.355929,0161 928 1856,office@northcestrian.co.uk,http://www.ncgs.co.uk,Yes,30,Yes,No,Yes,Yes,NA,23-05-2022
+6,2,1208702,Sale Sports Club,Clarendon Crescent,Sale,M33 2DE,53.427704,-2.304943,0161 973 7250,information@salesportsclub.com,http://www.salesportsclub.com,Yes,50,Yes,No,No,Yes,NA,01-08-2022
+13,2,1208707,Brooklands Sports Club,Whitehall Road,Sale,M33 3NL,53.415106,-2.316796,0161 9697582,membership@brooklandssportsclub.co.uk,http://www.brooklandssportsclub.co.uk,Yes,180,No,No,No,Yes,NA,26-10-2022
+3,0,1208730,Ashton-On-Mersey Cricket Club,Little Ees Lane,Sale,M33 5GT,53.436229,-2.336567,0161 969 9507,aomclub@hotmail.co.uk,http://www.aomclub.co.uk,Yes,50,No,No,No,Yes,NA,25-11-2022
+11,0,1208750,Urmston Sports Club,Moorside Road,Manchester,M41 5UU,53.451195,-2.361094,0161 748 4660,admin@urmstonsportsclub.co.uk,http://www.urmstonchbts.org.uk,Yes,30,Yes,No,No,Yes,NA,04-01-2023
+2,0,6006142,Ashton Park (Sale),Grosvenor Road,Sale,M33 6WL,53.429759,-2.334851,07912280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,06-06-2022
+3,0,6006152,Stamford Park,Stamford Park Road,Altrincham,WA15 9EN,53.384202,-2.342231,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,06-06-2022
+2,0,6006183,Walton Park,Walton Road,Sale,M33 4AT,53.414727,-2.331353,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.traffordleisure.co.uk,No,0,No,No,No,Yes,NA,06-06-2022
+1,0,6006197,Halecroft Park,Hale Road,Altrincham,WA15 8SN,53.372542,-2.318431,0161 912 2000,NA,http://www.traffordleisure.co.uk,Yes,14,No,No,No,Yes,NA,10-01-2023
+3,0,20000044,Victoria Park (Stretford),Victoria Road,Manchester,M32 0AD,53.448944,-2.310412,07912 280894,andy.hilton@traffordleisure.co.uk,http://www.trafford.gov.uk,No,0,No,No,No,Yes,NA,06-06-2022
+6,0,30003080,Bowdon Bowling And Lawn Tennis Club,St Mary'S Road,Altrincham,WA14 2PL,53.378873,-2.361022,0161 928 3905,tennis@bbltc.org.uk,http://bbltc.org.uk/,Yes,8,No,No,No,No,NA,27-10-2022
+4,1,30006652,Claremont Tennis Club,Claremont Drive,Altrincham,WA14 5ND,53.403932,-2.348729,0161 5319930,claremonttennis.club@gmail.com,https://www.claremonttennis.co.uk/,Yes,25,No,No,No,Yes,NA,15-06-2023
+9,1,30006997,Hale Lawn Tennis Club,Park Avenue,Altrincham,WA15 9DL,53.375124,-2.333574,0161 980 3855,georgina.timothy@sage.com,http://www.haleltc.org.uk,Yes,6,Yes,No,No,Yes,NA,04-03-2022
+3,0,30007297,Hale Village Tennis Club,Leigh Road,Hale,WA15 9BJ,53.377783,-2.343516,00000 000000,halevillage.tennis@gmail.com,https://clubspark.lta.org.uk/halevillageltc,No,0,No,No,No,Yes,NA,31-05-2022

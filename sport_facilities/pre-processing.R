@@ -7,11 +7,10 @@
 # load libraries ---------------------------
 library(tidyverse) ; library(sf)
 
-# download and unzip data ---------------------------
-url <- "https://cdn.activeplacespower.com/cdn/opendata.csv.zip"
-download.file(url, dest = "Active Places Open Data_2018_09_17.zip")
-unzip("Active Places Open Data_2018_09_17.zip")
-file.remove("Active Places Open Data_2018_09_17.zip")
+# download the data manually from https://www.activeplacespower.com/OpenData/download and then unzip using code below ---------------------------
+zip_name <- "Active Places Open Data_2023_07_30.zip"
+unzip(zip_name)
+file.remove(zip_name)
 
 # read all CSV files as a list ---------------------------
 filenames <- list.files(pattern = "*.csv")
@@ -60,14 +59,16 @@ sites_na <- filter(sites, Longitude == 0) %>%
   select(-Latitude, -Longitude)
 
 # geocode using ONS Postcode Directory
-postcodes <- read_csv("https://www.traffordDataLab.io/spatial_data/postcodes/trafford_postcodes_2018-05.csv") %>%
-  select(PostCode = postcode, Latitude = lat, Longitude = long)
-sites_na <- left_join(sites_na, postcodes, by = "PostCode") %>% 
-  # add non-matching coordinates for Longford Park (SiteID: 1043161)
-  mutate(Latitude = case_when(SiteID == 1043161 ~ 53.446901, TRUE ~ .$Latitude),
-         Longitude = case_when(SiteID == 1043161 ~ -2.292593, TRUE ~ .$Longitude))
+postcodes <- read_csv("https://www.traffordDataLab.io/spatial_data/postcodes/trafford_postcodes.csv") %>%
+  select(PostCode = postcode, Latitude = lat, Longitude = lon)
 
-# drop then merge geocoded sites     
+# If sites_na contains observations, fill in the missing lon lat values
+#sites_na <- left_join(sites_na, postcodes, by = "PostCode") %>% 
+  # add non-matching coordinates for Longford Park (SiteID: 1043161)
+#  mutate(Latitude = case_when(SiteID == 1043161 ~ 53.446901, TRUE ~ .$Latitude),
+#         Longitude = case_when(SiteID == 1043161 ~ -2.292593, TRUE ~ .$Longitude))
+
+# drop then merge geocoded sites
 sites <- filter(sites, Longitude != 0) %>% 
   bind_rows(sites_na)
 
@@ -86,9 +87,9 @@ sites <- left_join(sites, contacts, by = "SiteID") %>%
          everything())
 
 # subset list to include Facility Types only ---------------------------
-list_facilities <- list_df[c("ArtificialGrassPitch", "AthleticsTracks", "Cycling", "Golf", "GrassPitches",
-                         "HealthandFitnessSuite", "IceRinks", "IndoorBowls", "IndoorTennisCentre", "SkiSlopes",
-                         "SportsHall", "SquashCourts", "Studio", "SwimmingPool", "TennisCourts")]
+list_facilities <- list_df[c("ArtificialGrassPitch", "Athletics", "Cycling", "Golf", "GrassPitches",
+                         "HealthandFitnessGym", "IceRinks", "IndoorBowls", "IndoorTennisCentre", "OutdoorTennisCourts",
+                         "SkiSlopes", "SportsHall", "SquashCourts", "Studio", "SwimmingPool")]
 
 # overwrite 'Geographic' dataframe and add FacilityID ---------------------------
 geographic <- list_df[["Geographic"]] %>%
@@ -103,10 +104,35 @@ list_facilities <- lapply(list_facilities, left_join, geographic, by = "Facility
 # filter list to Facility Types within Trafford ---------------------------
 list_facilities <- lapply(list_facilities, function(x) filter(x, `Local Authority Name` == "Trafford"))
 
+
+# Tidy up the filesystem, deleting the downloaded files from the ZIP as we don't need them anymore
+file.remove("ArtificialGrassPitch.csv", "Athletics.csv", "Cycling.csv", "Golf.csv", "GrassPitches.csv", "HealthandFitnessGym.csv", "IceRinks.csv", "IndoorBowls.csv",
+            "IndoorTennisCentre.csv", "OutdoorTennisCourts.csv", "SkiSlopes.csv", "SportsHall.csv", "SquashCourts.csv", "Studio.csv", "SwimmingPool.csv")
+
+file.remove("Contacts.csv", "Facilities.csv", "FacilityCriteriaExceptions.csv", "FacilityManagement.csv", "FacilitySubType.csv", "FacilityTimings.csv",
+            "FacilityType.csv", "Geographic.csv", "SiteActivities.csv", "SiteEquipment.csv", "SiteNameAlias.csv", "SiteQualities.csv", "Sites.csv")
+
+
 # check for Site duplicates for each Facility Type before proceeding !! ---------------------------
-# list_facilities[["TennisCourts"]] %>% 
-#   filter(SiteID %in% unique(.[["SiteID"]][duplicated(.[["SiteID"]])])) %>% 
-#   View()
+# NOTE: This shouldn't really be the case - so long as the facility IDs are unique then the records should be considered valid.  This may have been required for an earlier version of the Sports Data Model (SDM) dataset.
+list_facilities[["HealthandFitnessGym"]] %>% 
+    #View()
+    filter(SiteID %in% unique(.[["SiteID"]][duplicated(.[["SiteID"]])])) %>% 
+    View()
+
+
+# Function to create the spatial data (geojson) files from the individual data frames created below
+createGeoJson <- function(df, filename) {
+    df %>%
+    rename(`Site ID` = SiteID, `Site name` = SiteName, Street = ThoroughfareName, Town = PostTown,
+           Postcode = PostCode, `Telephone number` = TelNumber, `Car park` = CarParkExist,
+           `Car park capacity` = NumCarPark, `Cycle park` = CyclePark, Nursery = NurseryFlag,
+           `First aid room` = FirstAid, `Disabled access` = DisabilityExist, `Disability notes` = DisabilityNotes,
+           `Last updated` = RecLastChkdDate) %>% 
+        st_as_sf(crs = 4326, coords = c("Longitude", "Latitude")) %>% 
+        st_write(., paste0(filename, ".geojson"))
+}
+
 
 # ArtificialGrassPitch ---------------------------
 artificial_grass_pitch <- list_facilities[["ArtificialGrassPitch"]] %>% 
@@ -115,19 +141,26 @@ artificial_grass_pitch <- list_facilities[["ArtificialGrassPitch"]] %>%
             Floodlit = sum(Floodlit)) %>% 
   left_join(., sites, by = "SiteID") %>%
   filter(!is.na(SiteName)) %>%
-  select(Pitches, Floodlit, everything()) 
-write_csv(artificial_grass_pitch, "data/artificial_grass_pitch.csv")
+  select(Pitches, Floodlit, everything())
 
-# AthleticsTracks ---------------------------
-athletics_tracks <- list_facilities[["AthleticsTracks"]] %>% 
+write_csv(artificial_grass_pitch, "artificial_grass_pitch.csv")
+createGeoJson(artificial_grass_pitch, "artificial_grass_pitch")
+
+
+# Athletics ---------------------------
+athletics <- list_facilities[["Athletics"]] %>%
   left_join(., sites, by = "SiteID") %>% 
   filter(!is.na(SiteName)) %>% 
   select(-FacilityID, -`Local Authority Name`) %>% 
-  select(Lanes, Floodlit, everything()) 
-write_csv(athletics_tracks, "data/athletics_tracks.csv")
+  select(Floodlit, SiteID, SiteName, ThoroughfareName, PostTown, PostCode, TelNumber, Email, Website, everything())
+
+write_csv(athletics, "athletics.csv")
+createGeoJson(athletics, "athletics")
+
 
 # Cycling ---------------------------
 list_facilities[["Cycling"]] # no facilities in Trafford
+
 
 # Golf ---------------------------
 golf <- list_facilities[["Golf"]] %>% 
@@ -135,7 +168,10 @@ golf <- list_facilities[["Golf"]] %>%
   filter(!is.na(SiteName)) %>% 
   select(-FacilityID, -Length, -`Local Authority Name`) %>% 
   select(Holes, Bays, Floodlit, everything())
-write_csv(golf, "data/golf.csv")
+
+write_csv(golf, "golf.csv")
+createGeoJson(golf, "golf")
+
 
 # GrassPitches ---------------------------
 grass_pitches <- list_facilities[["GrassPitches"]] %>% 
@@ -145,27 +181,36 @@ grass_pitches <- list_facilities[["GrassPitches"]] %>%
   left_join(., sites, by = "SiteID") %>%
   filter(!is.na(SiteName)) %>%
   select(Pitches, Floodlit, everything())
-write_csv(grass_pitches, "data/grass_pitches.csv")
 
-# HealthandFitnessSuite ---------------------------
-health_and_fitness_suite <- list_facilities[["HealthandFitnessSuite"]] %>% 
+write_csv(grass_pitches, "grass_pitches.csv")
+createGeoJson(grass_pitches, "grass_pitches")
+
+
+# HealthandFitnessGym ---------------------------
+health_and_fitness_gym <- list_facilities[["HealthandFitnessGym"]] %>% 
   group_by(SiteID) %>% 
   summarise(Stations = sum(Stations)) %>% 
   left_join(., sites, by = "SiteID") %>%
   filter(!is.na(SiteName)) %>%
-  select(Stations, everything()) 
-write_csv(health_and_fitness_suite, "data/health_and_fitness_suite.csv")
+  select(Stations, everything())
+
+write_csv(health_and_fitness_gym, "health_and_fitness_gym.csv")
+createGeoJson(health_and_fitness_gym, "health_and_fitness_gym")
+
 
 # IceRinks ---------------------------
 ice_rinks <- list_facilities[["IceRinks"]] %>% 
   left_join(., sites, by = "SiteID") %>%
   filter(!is.na(SiteName)) %>%
-  select(-FacilityID, -Area, -Length, -Width, -`Local Authority Name`) %>% 
-  select(Rinks, everything()) 
-write_csv(ice_rinks, "data/ice_rinks.csv")
+  select(-FacilityID, -Area, -Length, -Width, -`Local Authority Name`, -`Dimensions Estimate`)
+
+write_csv(ice_rinks, "ice_rinks.csv")
+createGeoJson(ice_rinks, "ice_rinks")
+
 
 # IndoorBowls ---------------------------
 list_facilities[["IndoorBowls"]] # no facilities in Trafford
+
 
 # IndoorTennisCentre ---------------------------
 indoor_tennis_centre <- list_facilities[["IndoorTennisCentre"]] %>% 
@@ -173,7 +218,23 @@ indoor_tennis_centre <- list_facilities[["IndoorTennisCentre"]] %>%
   filter(!is.na(SiteName)) %>%
   select(-FacilityID, -`Surface Type`, -`Local Authority Name`) %>% 
   select(Courts, everything())
-write_csv(indoor_tennis_centre, "data/indoor_tennis_centre.csv")
+
+write_csv(indoor_tennis_centre, "indoor_tennis_centre.csv")
+createGeoJson(indoor_tennis_centre, "indoor_tennis_centre")
+
+
+# OutdoorTennisCourts ---------------------------
+outdoor_tennis_courts <- list_facilities[["OutdoorTennisCourts"]] %>% 
+    group_by(SiteID) %>% 
+    summarise(Courts = sum(Courts),
+              Floodlit = sum(Floodlit)) %>% 
+    left_join(., sites, by = "SiteID") %>%
+    filter(!is.na(SiteName)) %>% 
+    select(Courts, Floodlit, everything()) 
+
+write_csv(outdoor_tennis_courts, "outdoor_tennis_courts.csv")
+createGeoJson(outdoor_tennis_courts, "outdoor_tennis_courts")
+
 
 # SkiSlopes ---------------------------
 ski_slopes <- list_facilities[["SkiSlopes"]] %>% 
@@ -183,7 +244,10 @@ ski_slopes <- list_facilities[["SkiSlopes"]] %>%
   left_join(., sites, by = "SiteID") %>%
   filter(!is.na(SiteName)) %>%
   select(Tow, Floodlit, everything())
-write_csv(ski_slopes, "data/ski_slopes.csv")
+
+write_csv(ski_slopes, "ski_slopes.csv")
+createGeoJson(ski_slopes, "ski_slopes")
+
 
 # SportsHall ---------------------------
 sports_hall <- list_facilities[["SportsHall"]] %>%
@@ -191,13 +255,28 @@ sports_hall <- list_facilities[["SportsHall"]] %>%
   summarise(`Badminton Courts` = sum(`Badminton Courts`),
             `Basketball Courts` = sum(`Basketball Courts`),
             `Cricket Nets` = sum(`Cricket Nets`),
+            `Floor Matting` = sum(`Floor Matting`),
+            `Gymnastics/Trampoline Use` = sum(`Gymnastics/Trampoline Use`),
+            `Moveable Balance Apparatus` = sum(`Moveable Balance Apparatus`),
+            `Moveable Large Apparatus` = sum(`Moveable Large Apparatus`),
+            `Moveable Rebound Apparatus` = sum(`Moveable Rebound Apparatus`),
+            `Moveable Trampolines` = sum(`Moveable Trampolines`),
             `Netball Courts` = sum(`Netball Courts`),
-            `Volleyball Courts` = sum(`Volleyball Courts`)) %>% 
+            `Swinging And Hanging Apparatus` = sum(`Swinging And Hanging Apparatus`),
+            `Volleyball Courts` = sum(`Volleyball Courts`),
+            `Five-A-Side Pitches` = sum(`Five-A-Side Pitches`),
+            `Futsal Courts` = sum(`Futsal Courts`)) %>% 
   left_join(., sites, by = "SiteID") %>%
   filter(!is.na(SiteName)) %>% 
-  select(`Badminton Courts`, `Basketball Courts`, `Cricket Nets`, `Netball Courts`, `Volleyball Courts`,
+  select(`Badminton Courts`, `Basketball Courts`, `Cricket Nets`, `Floor Matting`, 
+         `Gymnastics/Trampoline Use`, `Moveable Balance Apparatus`, `Moveable Large Apparatus`,
+         `Moveable Rebound Apparatus`, `Moveable Trampolines`, `Netball Courts`,
+         `Swinging And Hanging Apparatus`, `Volleyball Courts`, `Five-A-Side Pitches`, `Futsal Courts`,
          everything())
-write_csv(sports_hall, "data/sports_hall.csv")
+  
+write_csv(sports_hall, "sports_hall.csv")
+createGeoJson(sports_hall, "sports_hall")
+
   
 # SquashCourts ---------------------------
 squash_courts <- list_facilities[["SquashCourts"]] %>% 
@@ -208,16 +287,33 @@ squash_courts <- list_facilities[["SquashCourts"]] %>%
   left_join(., sites, by = "SiteID") %>%
   filter(!is.na(SiteName)) %>% 
   select(Courts, Doubles, `Movable Wall`, everything())
-write_csv(squash_courts, "data/squash_courts.csv")
+
+write_csv(squash_courts, "squash_courts.csv")
+createGeoJson(squash_courts, "squash_courts")
+
 
 # Studio ---------------------------
-studio <- list_facilities[["Studio"]] %>% 
+studio <- list_facilities[["Studio"]] %>%
   group_by(SiteID) %>% 
-  summarise(Studios = sum(Studios)) %>% 
+  summarise(`Bike Stations` = sum(`Bike Stations`),
+            `Floor Matting` = sum(`Floor Matting`),
+            `Gymnastics/Trampoline Use` = sum(`Gymnastics/Trampoline Use`),
+            `Moveable Balance Apparatus` = sum(`Moveable Balance Apparatus`),
+            `Moveable Large Apparatus` = sum(`Moveable Large Apparatus`),
+            `Moveable Rebound Apparatus` = sum(`Moveable Rebound Apparatus`),
+            `Moveable Trampolines` = sum(`Moveable Trampolines`),
+            `Partitionable Spaces` = sum(`Partitionable Spaces`),
+            `Small Apparatus` = sum(`Small Apparatus`),
+            `Swinging And Hanging Apparatus` = sum(`Swinging And Hanging Apparatus`)) %>% 
   left_join(., sites, by = "SiteID") %>%
   filter(!is.na(SiteName)) %>% 
-  select(Studios, everything())
-write_csv(studio, "data/studio.csv")
+  select(`Bike Stations`, `Floor Matting`, `Gymnastics/Trampoline Use`, `Moveable Balance Apparatus`,
+         `Moveable Large Apparatus`, `Moveable Rebound Apparatus`, `Moveable Trampolines`,
+         `Partitionable Spaces`, `Small Apparatus`, `Swinging And Hanging Apparatus`, everything())  
+
+write_csv(studio, "studio.csv")
+createGeoJson(studio, "studio")
+
 
 # SwimmingPool ---------------------------
 swimming_pools <- list_facilities[["SwimmingPool"]] %>%
@@ -226,25 +322,7 @@ swimming_pools <- list_facilities[["SwimmingPool"]] %>%
   left_join(., sites, by = "SiteID") %>%
   filter(!is.na(SiteName)) %>% 
   select(Pools, everything())
-write_csv(swimming_pools, "data/swimming_pools.csv")
 
-# TennisCourts ---------------------------
-tennis_courts <- list_facilities[["TennisCourts"]] %>% 
-  group_by(SiteID) %>% 
-  summarise(Courts = sum(Courts),
-            Floodlit = sum(Floodlit)) %>% 
-  left_join(., sites, by = "SiteID") %>%
-  filter(!is.na(SiteName)) %>% 
-  select(Courts, Floodlit, everything()) 
-write_csv(tennis_courts, "data/tennis_courts.csv")
+write_csv(swimming_pools, "swimming_pools.csv")
+createGeoJson(swimming_pools, "swimming_pools")
 
-# style and export as GeoJSON ---------------------------
-tennis_courts %>% 
-  rename(`Site ID` = SiteID, `Site name` = SiteName, Street = ThoroughfareName, Town = PostTown,
-         Postcode = PostCode, `Telephone number` = TelNumber, `Car park` = CarParkExist,
-         `Car park capacity` = NumCarPark, `Cycle park` = CyclePark, Nursery = NurseryFlag,
-         `First aid room` = FirstAid, `Disabled access` = DisabilityExist, `Disability notes` = DisabilityNotes,
-         `Last updated` = RecLastChkdDate) %>% 
-  mutate(`marker-color` = "#fc6721", `marker-size` = "medium") %>% 
-  st_as_sf(crs = 4326, coords = c("Longitude", "Latitude")) %>% 
-  st_write(., "data/tennis_courts.geojson")
