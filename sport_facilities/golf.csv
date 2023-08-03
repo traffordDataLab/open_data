@@ -1,11 +1,11 @@
 Holes,Bays,Floodlit,SiteID,SiteName,ThoroughfareName,PostTown,PostCode,Latitude,Longitude,TelNumber,Email,Website,CarParkExist,NumCarPark,CyclePark,NurseryFlag,FirstAid,DisabilityExist,DisabilityNotes,RecLastChkdDate
-18,NA,NA,1101376,Altrincham Golf Course,Stockport Road,Altrincham,WA15 7LP,53.389891,-2.337358,0161 928 0761,paul.murray@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,100,No,No,No,Yes,NA,20-04-2018
-9,NA,NA,1101377,Ashton-On-Mersey Golf Club Ltd,Church Lane,Sale,M33 5QQ,53.434122,-2.344287,0161 976 4390,golf.aomgc@btconnect.com,http://www.ashtononmerseygolfclub.co.uk,Yes,50,No,No,No,Yes,NA,19-04-2018
-18,NA,NA,1101378,Davyhulme Park Golf Club,Gleneagles Road,Manchester,M41 8SA,53.455593,-2.383359,0161 748 2260,info@davyhulmeparkgolfclub.co.uk,http://www.davyhulmeparkgolfclub.co.uk,Yes,100,Yes,No,No,Yes,NA,21-05-2018
-18,NA,NA,1101379,Dunham Forest Golf And Country Club,Oldfield Lane,Altrincham,WA14 4TY,53.387348,-2.378896,0161 928 2605,club@dunhamforrest.com,http://www.dunhamforest.com,Yes,100,No,No,No,Yes,"Portable Ramp, Parking: 2 Bays",23-07-2018
-9,NA,NA,1101380,Flixton Golf Club,Church Road,Manchester,M41 6EP,53.441331,-2.376757,0161 748 2116,flixtongolfclub@mail.com,http://www.flixtongolfclub.co.uk,Yes,70,No,No,No,Yes,NA,04-07-2018
-9,NA,NA,1101381,Hale Golf Club,Rappax Road,Altrincham,WA15 0NU,53.365577,-2.331968,0161 980 4225,secretary@halegolfclub.com,http://www.halegolfclub.com,Yes,100,No,No,No,Yes,NA,29-03-2018
-NA,57,1,1101382,Trafford Golf Centre,Old Park Lane,Manchester,M17 8PG,53.466151,-2.358314,0161 749 7000,info@traffordgolfcentre.co.uk,http://www.traffordgolfcentre.co.uk,Yes,200,No,No,No,Yes,NA,07-09-2018
-18,NA,NA,1101383,Ringway Golf Club Ltd,Hale Road,Altrincham,WA15 8SW,53.370536,-2.315202,0161 980 2630,admin@ringwaygolfclub.co.uk,http://www.ringwaygolfclub.co.uk,Yes,100,Yes,No,Yes,Yes,Lift,25-05-2018
-18,NA,NA,1101385,Sale Golf Club,Golf Road,Sale,M33 2XU,53.424618,-2.291224,0161 973 1638,mail@salegolfclub.com,http://www.salegolfclub.com,Yes,150,No,No,No,Yes,NA,23-04-2018
-NA,27,1,1101376,Altrincham Golf Course,Stockport Road,Altrincham,WA15 7LP,53.389891,-2.337358,0161 928 0761,paul.murray@traffordleisure.co.uk,http://www.traffordleisure.co.uk,Yes,100,No,No,No,Yes,NA,20-04-2018
+18,NA,NA,1101376,Altrincham Golf Course,Stockport Road,Altrincham,WA15 7LP,53.389891,-2.337358,0161 749 2570,paul.murray@traffordleisure.co.uk,https://altrinchamgolfcourse.co.uk/,Yes,100,No,No,No,Yes,NA,21-07-2022
+9,NA,NA,1101377,Ashton-On-Mersey Golf Club Ltd,Church Lane,Sale,M33 5QQ,53.434122,-2.344287,0161 976 4390,golf.aomgc@btconnect.com,http://www.ashtononmerseygolfclub.co.uk,Yes,50,No,No,No,Yes,NA,18-07-2022
+18,NA,NA,1101378,Davyhulme Park Golf Club,Gleneagles Road,Manchester,M41 8SA,53.455593,-2.383359,0161 748 2260,info@davyhulmeparkgolfclub.co.uk,http://www.davyhulmeparkgolfclub.co.uk,Yes,100,Yes,No,No,Yes,NA,10-10-2022
+18,NA,NA,1101379,Dunham Forest Golf And Country Club,Oldfield Lane,Altrincham,WA14 4TY,53.387348,-2.378896,0161 928 2605,club@dunhamforest.com,http://www.dunhamforest.com,Yes,100,No,No,No,Yes,"Portable Ramp, Parking: 2 Bays, Lift",10-10-2022
+9,NA,NA,1101380,Flixton Golf Club,Church Road,Manchester,M41 6EP,53.441331,-2.376757,0161 748 2116,flixtongolfclub@mail.com,http://www.flixtongolfclub.co.uk,Yes,70,No,No,No,Yes,NA,10-11-2022
+9,NA,NA,1101381,Hale Golf Club,Rappax Road,Altrincham,WA15 0NU,53.365573,-2.331967,0161 980 4225,secretary@halegolfclub.com,http://www.halegolfclub.com,Yes,100,No,No,No,Yes,NA,23-02-2022
+NA,57,1,1101382,Trafford Golf Centre,Old Park Lane,Manchester,M17 8PG,53.466151,-2.358314,0161 749 7000,info@traffordgolfcentre.co.uk,http://www.traffordgolfcentre.co.uk,Yes,200,No,No,No,Yes,NA,07-02-2023
+18,NA,NA,1101383,Ringway Golf Club Ltd,Hale Road,Altrincham,WA15 8SW,53.370536,-2.315202,0161 980 2630,admin@ringwaygolfclub.co.uk,http://www.ringwaygolfclub.co.uk,Yes,100,Yes,No,Yes,Yes,Lift,08-09-2022
+18,NA,NA,1101385,Sale Golf Club,Golf Road,Sale,M33 2XU,53.424618,-2.291224,0161 973 1638,office@salegolfclub.com,http://www.salegolfclub.com,Yes,150,Yes,No,No,Yes,NA,04-07-2022
+NA,27,1,1101376,Altrincham Golf Course,Stockport Road,Altrincham,WA15 7LP,53.389891,-2.337358,0161 749 2570,paul.murray@traffordleisure.co.uk,https://altrinchamgolfcourse.co.uk/,Yes,100,No,No,No,Yes,NA,21-07-2022

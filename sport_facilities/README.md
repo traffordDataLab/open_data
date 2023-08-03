@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>Correct as of September 2018</td>
+	<td>Correct as of July 2023</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>September 2018</td>
+	<td>August 2023</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -61,6 +61,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td></td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/#dataset=defibrillators">Explore application</a>.</td>
 </tr>
 </table>
