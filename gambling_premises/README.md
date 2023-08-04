@@ -18,7 +18,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://secure.gamblingcommission.gov.uk/PublicRegister">https://secure.gamblingcommission.gov.uk/PublicRegister</a></td>
+	<td><a href="https://www.gamblingcommission.gov.uk/public-register/premises/download">https://www.gamblingcommission.gov.uk/public-register/premises/download</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -54,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>September 2018</td>
+	<td>August 2023</td>
 </tr>
 <tr>
 	<td>Notes</td>
