@@ -1,7 +1,7 @@
 # Green spaces #
 
 # Source: OS Open Greenspace, Ordnance Survey
-# Publisher URL: https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-greenspace.html
+# Publisher URL: https://osdatahub.os.uk/downloads/open/OpenGreenspace
 # Licence: Open Government Licence (OGL)
 
 # load necessary packages ---------------------------
@@ -24,7 +24,7 @@ access <- read_sf("OS Open Greenspace (ESRI Shape File) GB/data/GB_AccessPoint.s
   select(id, access_type = accessType)
 
 # Greater Manchester local authority boundaries
-gm <- st_read("https://www.trafforddatalab.io/spatial_data/local_authority/2016/gm_local_authority_full_resolution.geojson") %>% 
+gm <- st_read("https://www.trafforddatalab.io/spatial_data/local_authority/2021/gm_local_authority_full_resolution.geojson") %>% 
   select(-lon, -lat)
 
 # intersect data ---------------------------

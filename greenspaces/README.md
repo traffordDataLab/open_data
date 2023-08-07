@@ -33,11 +33,11 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>6 monthly</td>
+	<td>2023-04</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td></td>
+	<td>6 monthly</td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -45,7 +45,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains Ordnance Survey data © Crown copyright and database right 2019</td>
+	<td>Contains Ordnance Survey data © Crown copyright and database right 2023</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -57,7 +57,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>October 2018</td>
+	<td>August 2023</td>
 </tr>
 <tr>
 	<td>Notes</td>
