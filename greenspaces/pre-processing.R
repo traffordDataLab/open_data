@@ -28,13 +28,7 @@ gm <- st_read("https://www.trafforddatalab.io/spatial_data/local_authority/2021/
   select(-lon, -lat)
 
 # intersect data ---------------------------
-sites_gm <- st_intersection(sites, gm)  %>% 
-  mutate(site_type = fct_recode(site_type,
-                    "Sports" = "Bowling Green",
-                    "Sports" = "Other Sports Facility",
-                    "Sports" = "Tennis Court",
-                    "Religious Ground and Cemetries" = "Religious Grounds",
-                    "Religious Ground and Cemetries" = "Cemetery")) %>% 
+sites_gm <- st_intersection(sites, gm)  %>%
   select(site_type, site_name, area_code, area_name)
 
 access_gm <- st_intersection(access, gm)  %>% 
@@ -48,6 +42,8 @@ st_write(access_gm, "gm_greenspace_access_points.geojson", driver = "GeoJSON")
 st_write(filter(access_gm, area_name == "Trafford"), "trafford_greenspace_access_points.geojson", driver = "GeoJSON")
 
 # style data ---------------------------
+# NOTE: original palette choice was "# set2" from https://vega.github.io/vega/docs/schemes/#categorical
+# New palette is created by Paul Tol (https://personal.sron.nl/~pault/) and obtained via: https://davidmathlogic.com/colorblind/#%23332288-%23117733-%2344AA99-%2388CCEE-%23DDCC77-%23CC6677-%23AA4499-%23882255-%233dd707-%23ca825f
 filter(sites_gm, area_name == "Trafford") %>% 
   select(`Site type` = site_type, 
          `Site name` = site_name,
@@ -55,13 +51,16 @@ filter(sites_gm, area_name == "Trafford") %>%
          `Area name` = area_name) %>% 
   mutate(stroke = 
            case_when(
-             `Site type` == "Allotments Or Community Growing Spaces" ~ "#66c2a5",
-             `Site type` == "Golf Course" ~ "#fc8d62",
-             `Site type` == "Play Space" ~ "#8da0cb",
-             `Site type` == "Playing Field" ~ "#e78ac3",
-             `Site type` == "Public Park Or Garden" ~ "#a6d854",
-             `Site type` == "Religious Ground and Cemeteries" ~ "#ffd92f",
-             `Site type` == "Sports" ~ "#e5c494"),
+             `Site type` == "Allotments Or Community Growing Spaces" ~ "#44AA99",
+             `Site type` == "Bowling Green" ~ "#3DD707",
+             `Site type` == "Cemetery" ~ "#332288",
+             `Site type` == "Golf Course" ~ "#CA825F",
+             `Site type` == "Other Sports Facility" ~ "#DDCC77",
+             `Site type` == "Play Space" ~ "#88CCEE",
+             `Site type` == "Playing Field" ~ "#AA4499",
+             `Site type` == "Public Park Or Garden" ~ "#117733",
+             `Site type` == "Religious Grounds" ~ "#882255",
+             `Site type` == "Tennis Court" ~ "#CC6677"),
          `stroke-width` = 3,
          `stroke-opacity` = 1,
          fill = stroke,
