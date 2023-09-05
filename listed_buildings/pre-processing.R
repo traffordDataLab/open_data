@@ -8,11 +8,11 @@
 library(tidyverse) ; library(sf)
 
 # load data ---------------------------
-sites <- st_read("ListedBuildings_09March2018.shp") %>% 
-  st_as_sf(crs = 27700, coords = c("Easting", "Northing")) %>% 
-  st_transform(4326)
+sites <- st_read("National_Heritage_List_for_England_(NHLE).geojson") %>% 
+  st_set_crs(4326) %>% 
+  st_cast("POINT")
 
-trafford <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/local_authority/2016/trafford_local_authority_full_resolution.geojson") %>% 
+trafford <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/local_authority/2021/trafford_local_authority_full_resolution.geojson") %>% 
   st_set_crs(4326) %>% 
   select(-lat, -lon)
 
