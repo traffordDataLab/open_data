@@ -8,11 +8,11 @@
 library(tidyverse) ; library(sf)
 
 # load data ---------------------------
-plaques <- read_csv("https://s3.eu-west-2.amazonaws.com/openplaques/open-plaques-United-Kingdom-2017-11-08.csv") %>% 
+plaques <- read_csv("https://s3.eu-west-2.amazonaws.com/openplaques/open-plaques-gb-2021-05-14.csv") %>% 
   filter(!is.na(latitude)) %>% 
   st_as_sf(crs = 4326, coords = c("longitude", "latitude"))
 
-trafford <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/local_authority/2016/trafford_local_authority_full_resolution.geojson") %>% 
+trafford <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/local_authority/2021/trafford_local_authority_full_resolution.geojson") %>% 
   select(area_code, area_name)
 
 # intersect data ---------------------------

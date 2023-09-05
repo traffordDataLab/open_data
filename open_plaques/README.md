@@ -32,7 +32,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>8 November 2017</td>
+	<td>May 2021</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -56,7 +56,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>March 2018</td>
+	<td>September 2023</td>
 </tr>
 <tr>
 	<td>Notes</td>
