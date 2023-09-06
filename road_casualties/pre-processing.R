@@ -57,7 +57,7 @@ casualties <- left_join(casualty, accident, by = "Accident Index") %>%
 
 # rename variables ---------------------------
 casualties <- select(casualties, AREFNO = `Accident Index`, date, year, month, day, 
-                     hour, mode, output_time = OutputTime, collision_severity, casualty_severity, sex, ageband, 
+                     hour, mode, output_time = OutputTime, collision_severity, casualty_severity, number_vehicles = NumberVehicles, number_casualties = NumberCasualties, sex, ageband, 
                      light_conditions, speed_limit = SpeedLimit, area_name, Easting, Northing)
 
 # extract coordinates ---------------------------
