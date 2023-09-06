@@ -12,7 +12,7 @@ accident <- read_csv("https://odata.tfgm.com/opendata/downloads/STATS19AccDataJa
 casualty <- read_csv("https://odata.tfgm.com/opendata/downloads/STATS19CasDataJan2010Dec2021forGMServers.csv")
 
 # merge and recode data  ---------------------------
-casualties <- left_join(casualty, accident, by = "Accident Index") %>% 
+casualties <- left_join(casualty, accident, by = "Accident Index") %>%
   # date and time
   mutate(date = dmy(OutputDate),
          year = year(date),
@@ -57,7 +57,7 @@ casualties <- left_join(casualty, accident, by = "Accident Index") %>%
 
 # rename variables ---------------------------
 casualties <- select(casualties, AREFNO = `Accident Index`, date, year, month, day, 
-                     hour, mode, collision_severity, casualty_severity, sex, ageband, 
+                     hour, mode, output_time = OutputTime, collision_severity, casualty_severity, sex, ageband, 
                      light_conditions, speed_limit = SpeedLimit, area_name, Easting, Northing)
 
 # extract coordinates ---------------------------
