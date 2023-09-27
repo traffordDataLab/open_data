@@ -1,15 +1,16 @@
 {
 "type": "FeatureCollection",
+"name": "trafford_train_stops_styled",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "name": "Altrincham Interchange", "area_code": "E05000819", "area_name": "Altrincham", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.347158856240235, 53.387651253781314 ] } },
-{ "type": "Feature", "properties": { "name": "Chassen Road", "area_code": "E05000838", "area_name": "Urmston", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.368172753839174, 53.446175855326388 ] } },
-{ "type": "Feature", "properties": { "name": "Flixton", "area_code": "E05000828", "area_name": "Flixton", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.383508366742162, 53.443772578726694 ] } },
-{ "type": "Feature", "properties": { "name": "Hale", "area_code": "E05000831", "area_name": "Hale Central", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.347490240675866, 53.378499863566454 ] } },
-{ "type": "Feature", "properties": { "name": "Humphrey Park", "area_code": "E05000836", "area_name": "Stretford", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.327718559466691, 53.452253153278647 ] } },
-{ "type": "Feature", "properties": { "name": "Manchester United Football Ground", "area_code": "E05000829", "area_name": "Gorse Hill", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.290728034092572, 53.462182391734707 ] } },
-{ "type": "Feature", "properties": { "name": "Navigation Road", "area_code": "E05000819", "area_name": "Altrincham", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.343329535875281, 53.39570714621604 ] } },
-{ "type": "Feature", "properties": { "name": "Trafford Park", "area_code": "E05000829", "area_name": "Gorse Hill", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.311699926924355, 53.454767893165162 ] } },
-{ "type": "Feature", "properties": { "name": "Urmston", "area_code": "E05000838", "area_name": "Urmston", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.353796483949151, 53.44826871078196 ] } }
+{ "type": "Feature", "properties": { "name": "Altrincham Interchange", "area_code": "E05015239", "area_name": "Altrincham", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.347158856214275, 53.387651247316583 ] } },
+{ "type": "Feature", "properties": { "name": "Chassen Road", "area_code": "E05015246", "area_name": "Flixton", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.368172753811607, 53.446175848866332 ] } },
+{ "type": "Feature", "properties": { "name": "Flixton", "area_code": "E05015246", "area_name": "Flixton", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.383508366713449, 53.443772572266489 ] } },
+{ "type": "Feature", "properties": { "name": "Hale", "area_code": "E05015248", "area_name": "Hale", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.347490240649887, 53.378499857100998 ] } },
+{ "type": "Feature", "properties": { "name": "Humphrey Park", "area_code": "E05015251", "area_name": "Lostock & Barton", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.327718559442145, 53.452253146819075 ] } },
+{ "type": "Feature", "properties": { "name": "Manchester United Football Ground", "area_code": "E05015247", "area_name": "Gorse Hill & Cornbrook", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.290728034070792, 53.462182385275945 ] } },
+{ "type": "Feature", "properties": { "name": "Navigation Road", "area_code": "E05015239", "area_name": "Altrincham", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.343329535849601, 53.395707139751963 ] } },
+{ "type": "Feature", "properties": { "name": "Trafford Park", "area_code": "E05015247", "area_name": "Gorse Hill & Cornbrook", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.311699926901007, 53.454767886705795 ] } },
+{ "type": "Feature", "properties": { "name": "Urmston", "area_code": "E05015259", "area_name": "Urmston", "marker-color": "#fc6721", "marker-size": "medium" }, "geometry": { "type": "Point", "coordinates": [ -2.353796483922658, 53.448268704322082 ] } }
 ]
 }
