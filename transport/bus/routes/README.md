@@ -62,6 +62,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td><a href=""></a></td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/index.html?dataset=bus_routes">Explore application</a>.</td>
 </tr>
 </table>
