@@ -18,7 +18,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td>https://data.gov.uk/dataset/136be10f-1667-474f-b52c-92bb24486739/gm-bus-routes-1-25-000-scale-map-data<a href=""></a></td>
+	<td><a href="https://www.data.gov.uk/dataset/136be10f-1667-474f-b52c-92bb24486739/gm-bus-routes-1-25-000-scale-map-data">https://www.data.gov.uk/dataset/136be10f-1667-474f-b52c-92bb24486739/gm-bus-routes-1-25-000-scale-map-data</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -30,7 +30,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>NA</td>
+	<td>2023-05-25</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -42,7 +42,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains Transport for Greater Manchester data. Contains OS data © Crown copyright and database right 2018.</td>
+	<td>Contains Transport for Greater Manchester data. Contains OS data © Crown copyright and database right 2023.</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -54,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>14 August 2018</td>
+	<td>2023-09-27</td>
 </tr>
 <tr>
 	<td>Notes</td>

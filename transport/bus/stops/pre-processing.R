@@ -1,22 +1,24 @@
 ## Bus stops in Trafford ##
 
-# Source: NaPTAN, Department for Transport
-# Publisher URL: http://naptan.app.dft.gov.uk/datarequest/help
+# Source: Transport for Greater Manchester
+# Publisher URL: https://www.data.gov.uk/dataset/05252e3a-acdf-428b-9314-80ac7b17ab76/gm-bus-stopping-points
 # Licence: Open Government Licence 3.0
+
+# Data: 2022-11-11
+# Last Updated: 2023-09-27
+
 
 # load libraries---------------------------
 library(tidyverse) ; library(sf)
 
 # load data ---------------------------
-# source: "http://naptan.app.dft.gov.uk/DataRequest/Naptan.ashx?format=csv&LA=180"
-unzip("NaPTAN180csv.zip", exdir = ".")
-file.remove("NaPTAN180csv.zip")
+raw <- read_csv("https://odata.tfgm.com/opendata/downloads/TfGMStoppingPoints.csv")
 
-bdy <- st_read("https://www.traffordDataLab.io/spatial_data/local_authority/2016/trafford_local_authority_full_resolution.geojson")
+bdy <- st_read("https://www.traffordDataLab.io/spatial_data/local_authority/2021/trafford_local_authority_full_resolution.geojson")
 
 # tidy data ---------------------------
-sf <- read_csv("Stops.csv") %>% 
-  select(atco_code = ATCOCode, 
+sf <- raw %>% 
+  select(atco_code = AtcoCode, 
          common_name = CommonName, 
          street = Street, 
          BusStopType, Status, Longitude, Latitude) %>% 

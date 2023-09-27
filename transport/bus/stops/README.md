@@ -10,15 +10,15 @@
 </tr>
 <tr>
 	<td>Source</td>
-	<td>NaPTAN, Department of Transport</td>
+	<td>Transport for Greater Manchester</td>
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td>NaPTAN, Department of Transport</td>
+	<td>Transport for Greater Manchester</td>
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td>http://naptan.app.dft.gov.uk/datarequest/help<a href=""></a></td>
+	<td><a href="https://www.data.gov.uk/dataset/05252e3a-acdf-428b-9314-80ac7b17ab76/gm-bus-stopping-points">https://www.data.gov.uk/dataset/05252e3a-acdf-428b-9314-80ac7b17ab76/gm-bus-stopping-points</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -30,7 +30,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>NA</td>
+	<td>2022-11-11</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -42,7 +42,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td></td>
+	<td>Contains Transport for Greater Manchester data. Contains OS data © Crown copyright and database right 2023.</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -54,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>03 November 2019</td>
+	<td>2023-09-27</td>
 </tr>
 <tr>
 	<td>Notes</td>
