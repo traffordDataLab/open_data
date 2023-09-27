@@ -1,18 +1,25 @@
 {
 "type": "FeatureCollection",
+"name": "trafford_metrolink_stops",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "name": "Altrincham", "area_code": "E05000819", "area_name": "Altrincham" }, "geometry": { "type": "Point", "coordinates": [ -2.34727738030008, 53.387435181882331 ] } },
-{ "type": "Feature", "properties": { "name": "Brooklands", "area_code": "E05000823", "area_name": "Brooklands" }, "geometry": { "type": "Point", "coordinates": [ -2.326108825334381, 53.417085378646988 ] } },
-{ "type": "Feature", "properties": { "name": "Dane Road", "area_code": "E05000833", "area_name": "Priory" }, "geometry": { "type": "Point", "coordinates": [ -2.311325036389838, 53.430293101656368 ] } },
-{ "type": "Feature", "properties": { "name": "Firswood", "area_code": "E05000832", "area_name": "Longford" }, "geometry": { "type": "Point", "coordinates": [ -2.277718725143894, 53.451274357493034 ] } },
-{ "type": "Feature", "properties": { "name": "Navigation Road", "area_code": "E05000819", "area_name": "Altrincham" }, "geometry": { "type": "Point", "coordinates": [ -2.343329535875281, 53.39570714621604 ] } },
-{ "type": "Feature", "properties": { "name": "Old Trafford", "area_code": "E05000832", "area_name": "Longford" }, "geometry": { "type": "Point", "coordinates": [ -2.284559311545858, 53.4564176496119 ] } },
-{ "type": "Feature", "properties": { "name": "Pomona", "area_code": "E05000825", "area_name": "Clifford" }, "geometry": { "type": "Point", "coordinates": [ -2.277960240006187, 53.465187992416652 ] } },
-{ "type": "Feature", "properties": { "name": "Stretford", "area_code": "E05000832", "area_name": "Longford" }, "geometry": { "type": "Point", "coordinates": [ -2.303791977799002, 53.446069416895085 ] } },
-{ "type": "Feature", "properties": { "name": "Sale", "area_code": "E05000833", "area_name": "Priory" }, "geometry": { "type": "Point", "coordinates": [ -2.31885146754072, 53.424421682253552 ] } },
-{ "type": "Feature", "properties": { "name": "Sale Water Park", "area_code": "E05000835", "area_name": "Sale Moor" }, "geometry": { "type": "Point", "coordinates": [ -2.29082710134188, 53.42821452578761 ] } },
-{ "type": "Feature", "properties": { "name": "Timperley", "area_code": "E05000822", "area_name": "Broadheath" }, "geometry": { "type": "Point", "coordinates": [ -2.338256238005921, 53.404503500769678 ] } },
-{ "type": "Feature", "properties": { "name": "Trafford Bar", "area_code": "E05000832", "area_name": "Longford" }, "geometry": { "type": "Point", "coordinates": [ -2.277049638743866, 53.461828413364891 ] } }
+{ "type": "Feature", "properties": { "name": "Altrincham", "area_code": "E05015239", "area_name": "Altrincham" }, "geometry": { "type": "Point", "coordinates": [ -2.34727738027411, 53.387435175417593 ] } },
+{ "type": "Feature", "properties": { "name": "Brooklands", "area_code": "E05015243", "area_name": "Brooklands" }, "geometry": { "type": "Point", "coordinates": [ -2.326108825309977, 53.417085372184602 ] } },
+{ "type": "Feature", "properties": { "name": "Dane Road", "area_code": "E05015254", "area_name": "Sale Central" }, "geometry": { "type": "Point", "coordinates": [ -2.311325036366532, 53.430293095195033 ] } },
+{ "type": "Feature", "properties": { "name": "Barton Dock Road", "area_code": "E05015251", "area_name": "Lostock & Barton" }, "geometry": { "type": "Point", "coordinates": [ -2.341996628550036, 53.465713847529678 ] } },
+{ "type": "Feature", "properties": { "name": "Firswood", "area_code": "E05015250", "area_name": "Longford" }, "geometry": { "type": "Point", "coordinates": [ -2.277718725123091, 53.451274351033369 ] } },
+{ "type": "Feature", "properties": { "name": "Imperial War Museum", "area_code": "E05015247", "area_name": "Gorse Hill & Cornbrook" }, "geometry": { "type": "Point", "coordinates": [ -2.296782314001699, 53.468576283913599 ] } },
+{ "type": "Feature", "properties": { "name": "Navigation Road", "area_code": "E05015239", "area_name": "Altrincham" }, "geometry": { "type": "Point", "coordinates": [ -2.343329535849601, 53.395707139751963 ] } },
+{ "type": "Feature", "properties": { "name": "Old Trafford", "area_code": "E05015250", "area_name": "Longford" }, "geometry": { "type": "Point", "coordinates": [ -2.284559311524542, 53.456417643152648 ] } },
+{ "type": "Feature", "properties": { "name": "Parkway", "area_code": "E05015247", "area_name": "Gorse Hill & Cornbrook" }, "geometry": { "type": "Point", "coordinates": [ -2.324392172775479, 53.468243797963993 ] } },
+{ "type": "Feature", "properties": { "name": "Pomona", "area_code": "E05015247", "area_name": "Gorse Hill & Cornbrook" }, "geometry": { "type": "Point", "coordinates": [ -2.277960239985361, 53.465187985958103 ] } },
+{ "type": "Feature", "properties": { "name": "Stretford", "area_code": "E05015250", "area_name": "Longford" }, "geometry": { "type": "Point", "coordinates": [ -2.303791977776251, 53.446069410435008 ] } },
+{ "type": "Feature", "properties": { "name": "Sale", "area_code": "E05015254", "area_name": "Sale Central" }, "geometry": { "type": "Point", "coordinates": [ -2.318851467516855, 53.424421675791748 ] } },
+{ "type": "Feature", "properties": { "name": "Sale Water Park", "area_code": "E05015255", "area_name": "Sale Moor" }, "geometry": { "type": "Point", "coordinates": [ -2.290827101320108, 53.428214519326104 ] } },
+{ "type": "Feature", "properties": { "name": "Timperley", "area_code": "E05015242", "area_name": "Broadheath" }, "geometry": { "type": "Point", "coordinates": [ -2.338256237980616, 53.404503494306283 ] } },
+{ "type": "Feature", "properties": { "name": "Trafford Bar", "area_code": "E05015250", "area_name": "Longford" }, "geometry": { "type": "Point", "coordinates": [ -2.277049638723108, 53.461828406906072 ] } },
+{ "type": "Feature", "properties": { "name": "Intu Trafford Centre", "area_code": "E05015251", "area_name": "Lostock & Barton" }, "geometry": { "type": "Point", "coordinates": [ -2.347798715552635, 53.467899272005837 ] } },
+{ "type": "Feature", "properties": { "name": "Village", "area_code": "E05015247", "area_name": "Gorse Hill & Cornbrook" }, "geometry": { "type": "Point", "coordinates": [ -2.309080979442526, 53.467385564704422 ] } },
+{ "type": "Feature", "properties": { "name": "Wharfside", "area_code": "E05015247", "area_name": "Gorse Hill & Cornbrook" }, "geometry": { "type": "Point", "coordinates": [ -2.287517036825778, 53.466217006235574 ] } }
 ]
 }

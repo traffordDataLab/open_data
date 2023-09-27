@@ -4,6 +4,9 @@
 # Publisher URL: https://data.gov.uk/dataset/8faea7ee-eb7d-43dd-b1d4-f01aac4c44d3/metrolink-stops-and-rail-stations
 # Licence: Open Government Licence 3.0
 
+# Data: 2022-11-11
+# Last Updated: 2023-09-27
+
 # load libraries---------------------------
 library(tidyverse) ; library(sf)
 
@@ -23,7 +26,7 @@ sf <- df %>%
   st_transform(4326)
 
 # load boundary layer ---------------------------
-bdy <- st_read("https://github.com/traffordDataLab/spatial_data/raw/master/ward/2017/trafford_ward_full_resolution.geojson") %>% 
+bdy <- st_read("https://www.trafforddatalab.io/spatial_data/ward/2023/trafford_ward_full_resolution.geojson") %>% 
   st_as_sf(crs = 4326, coords = c("long", "lat")) %>% 
   select(area_code, area_name)
 
