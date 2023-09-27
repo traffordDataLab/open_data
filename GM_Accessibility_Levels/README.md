@@ -30,7 +30,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2016-03-30</td>
+	<td>2023-08-30</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -54,11 +54,11 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2018-09-26</td>
+	<td>2023-09-27</td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td></td>
+	<td>The data fields were calculated using public transport timetables from these dates: Bus: 2023-08-21, Metrolink: 2023-08-21, Rail: 2023-08-22, Local Link: 2022-04-25, Journey Times: 2011-10-06 (TBC).</td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>

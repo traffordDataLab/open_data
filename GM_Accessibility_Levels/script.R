@@ -4,6 +4,9 @@
 # Publisher URL: https://data.gov.uk/dataset/d9dfbf0a-3cd7-4b12-a39f-0ec717423ee4/gm-accessibility-levels-gmal
 # Licence: Open Government Licence
 
+# Data: 2023-08-30
+# Last updated: 2023-09-27
+
 # load libraries ---------------------------
 library(tidyverse) ; library(sf)
 
@@ -14,7 +17,7 @@ unzip("GMAL_TfGMOpenData.zip")
 file.remove("GMAL_TfGMOpenData.zip")
 
 raw <- st_read("SHP-format/GMAL_grid_open.shp") %>% st_transform(crs = 4326)
-bdy <- st_read("https://www.traffordDataLab.io/spatial_data/local_authority/2016/gm_local_authority_full_resolution.geojson")
+bdy <- st_read("https://www.traffordDataLab.io/spatial_data/local_authority/2021/gm_local_authority_full_resolution.geojson")
 
 # tidy data ---------------------------
 sf <- st_intersection(raw, bdy) %>% 
