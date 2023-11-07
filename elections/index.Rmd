@@ -45,7 +45,7 @@ df <- read_csv("trafford_council_election_results.csv")
     <td>Electoral Ward, Parliamentary Constituency</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2023-05-22">2023-05-22</time></td>
+    <td><time datetime="2023-11-07">2023-11-07</time></td>
   </tr>
 </table>
 
