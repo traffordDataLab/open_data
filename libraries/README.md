@@ -33,7 +33,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>Trafford data correct at 6th December 2022, Rest of Greater Manchester correct at 19th October 2018</td>
+	<td>Trafford data correct at 21 November 2023, Rest of Greater Manchester correct at 19 October 2018</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -57,7 +57,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>December 2022</td>
+	<td>21 November 2023</td>
 </tr>
 <tr>
 	<td>Notes</td>
