@@ -84,7 +84,7 @@ datatable(df,
 
 |File name |Format |
 |---|---|
-|[mid-year_2022_population_estimates_local_authority.csv](mid-year_population_estimates_local_authority.csv) |CSV |
+|[mid-year_2022_population_estimates_local_authority.csv](mid-year_2022_population_estimates_local_authority.csv) |CSV |
 
 <h2>Pre-processing</h2>
 [The R script used to process the data](pre-processing.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
