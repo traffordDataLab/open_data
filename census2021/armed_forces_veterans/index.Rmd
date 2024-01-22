@@ -96,7 +96,7 @@ datatable(df,
 |File name |Geography |
 |---|---|
 |[2021_armed_forces_veterans_residence_la_gm.csv](2021_armed_forces_veterans_residence_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
-|[2021_armed_forces_veterans_residence_msoa_trafford.csv.csv](2021_armed_forces_veterans_residence_msoa_trafford.csv.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_armed_forces_veterans_residence_msoa_trafford.csv](2021_armed_forces_veterans_residence_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
 |[2021_armed_forces_veterans_residence_ward_trafford.csv](2021_armed_forces_veterans_residence_ward_trafford.csv) |<abbr title="Electoral ward">Ward</abbr> |
 
 <h3>Household Reference Person indicator of previous service in UK armed forces (Households)</h3>
