@@ -14,7 +14,7 @@ api_key = ''
 
 # Retrieve the local authority boundary
 # Source: ONS Open Geography Portal
-la <- st_read(paste0("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_May_2023_UK_BGC/FeatureServer/0/query?where=LAD23NM%20%3D%20'", URLencode(toupper(id), reserved = TRUE), "'&outFields=LAD23CD,LAD23NM&outSR=4326&f=geojson"), quiet = TRUE) %>% 
+la <- st_read(paste0("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_May_2023_UK_BGC_V2/FeatureServer/0/query?where=LAD23NM%20%3D%20'", URLencode(toupper(id), reserved = TRUE), "'&outFields=LAD23CD,LAD23NM&outSR=4326&f=geojson"), quiet = TRUE) %>% 
   select(area_code = LAD23CD, area_name = LAD23NM) 
 
 # Submit request to API
@@ -65,4 +65,3 @@ sf <- response %>%
 # Write results
 st_write(sf, "trafford_electric_vehicle_charging_locations.geojson")
 write_csv(st_set_geometry(sf, value = NULL), "trafford_electric_vehicle_charging_locations.csv")
-
