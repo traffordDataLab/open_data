@@ -1,19 +1,19 @@
-## Styling features ##
+## Styling flood risk features ##
 
 # load packages ---------------------------
 library(tidyverse); library(sf)
 
-# read data ---------------------------
-geojson <- st_read("https://www.traffordDataLab.io/open_data/flood_risk/trafford_flood_risk.geojson")
+# read un-styled, cleaned data ---------------------------
+geojson <- st_read("trafford_flood_risk.geojson")
 
 # apply styles ---------------------------
 geojson_styles <- geojson %>% 
   mutate(stroke = 
            case_when(
-             PROB_4BAND == "Very Low" ~ "#eff3ff",
-             PROB_4BAND == "Low" ~ "#bdd7e7",
-             PROB_4BAND == "Medium" ~ "#6baed6",
-             PROB_4BAND == "High" ~ "#2171b5"),
+             flood_risk == "Very Low" ~ "#bdd7e7",
+             flood_risk == "Low" ~ "#6baed6",
+             flood_risk == "Medium" ~ "#2171b5",
+             flood_risk == "High" ~ "#3E4388"),
          `stroke-width` = 3,
          `stroke-opacity` = 1,
          fill = stroke,

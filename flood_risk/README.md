@@ -1,6 +1,3 @@
-[<img src="thumbnail.png">](trafford_flood_risk_styled.geojson)
-</br>
-
 <table>
 <tr>
 	<td>Dataset name</td>
@@ -8,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>The dataset shows the chance of flooding from rivers and/or the sea, based on 50m cells in Traffordf. Each cell is allocated to one of four flood risk categories, taking into account flood defences and their condition.
+	<td>The dataset, taken from the national assessment of flood risk for England produced using local expertise, shows the chance of flooding from rivers and/or the sea, based on cells of 50m within Trafford. Each cell is allocated one of four flood risk categories, taking into account flood defences and their condition.
 </td>
 </tr>
 <tr>
@@ -21,7 +18,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://data.gov.uk/dataset/risk-of-flooding-from-rivers-and-sea1"></a>https://data.gov.uk/dataset/risk-of-flooding-from-rivers-and-sea1</td>
+	<td><a href="https://www.data.gov.uk/dataset/bad20199-6d39-4aad-8564-26a46778fd94/risk-of-flooding-from-rivers-and-sea">https://www.data.gov.uk/dataset/bad20199-6d39-4aad-8564-26a46778fd94/risk-of-flooding-from-rivers-and-sea</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -33,7 +30,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>April 2017</td>
+	<td>2018-03-28 - 2019-12-18</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -45,7 +42,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>© Environment Agency copyright and/or database right 2017. All rights reserved. Some features of this map are based on digital spatial data from the Centre for Ecology & Hydrology, © NERC (CEH)© Crown copyright and database rights 2017 Ordnance Survey 100024198.</td>
+	<td>© Environment Agency copyright and/or database right 2023. All rights reserved.</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -57,7 +54,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>March 2018</td>
+	<td>2024-02-09</td>
 </tr>
 <tr>
 	<td>Notes</td>
