@@ -21,7 +21,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-greenspace.html"></a>https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-greenspace.html</td>
+	<td><a href="https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-greenspace.html">https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-greenspace.html</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -33,7 +33,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2023-04</td>
+	<td>October 2023</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -57,7 +57,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>August 2023</td>
+	<td>2024-02-26</td>
 </tr>
 <tr>
 	<td>Notes</td>
