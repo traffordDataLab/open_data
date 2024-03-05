@@ -38,7 +38,7 @@ monitoring_stations <- monitoring_stations_raw %>%
     
 
 # Historic data from the chosen monitoring stations ---------------------------
-# Call the API again based on all the monitoring station IDs we've obtained and retrieve the historic highs, lows and range
+# Call the API again based on all the monitoring station IDs we've obtained and retrieve the record highs, lows and typical range
 
 # Function to use within purrr:map_df() to iterate through the monitoring station IDs
 getHistoricData <- function(.station_ref) {
@@ -55,10 +55,10 @@ getHistoricData <- function(.station_ref) {
         # Typical range low and high values
         df_tmp <- historic_levels_raw %>%
             as_tibble() %>% # turn list into a tibble so we can work with the data like a dataframe
-            rename(typical_low_value = typicalRangeLow,
-                   typical_high_value = typicalRangeHigh) %>%
+            rename(typical_range_low = typicalRangeLow,
+                   typical_range_high = typicalRangeHigh) %>%
             mutate(station_reference = .station_ref) %>%
-            select(station_reference, typical_low_value, typical_high_value) %>%
+            select(station_reference, typical_range_low, typical_range_high) %>%
             head(1) # due to the "items" list containing 3 sub lists (recentHigh, highOnRecord, minOnRecord), the dataframe/tibble contains 3 identical rows, so here we just pick the first row
         
         # Lowest level on record
@@ -67,11 +67,11 @@ getHistoricData <- function(.station_ref) {
                 historic_levels_raw %>%
                     pluck("minOnRecord") %>%
                     as_tibble() %>% # turn list into a tibble so we can work with the data like a dataframe
-                    rename(historic_low_date = dateTime,
-                           historic_low_value = value) %>%
+                    rename(record_low_date = dateTime,
+                           record_low = value) %>%
                     mutate(station_reference = .station_ref,
-                           historic_low_date = as.character(date(historic_low_date))) %>%
-                    select(station_reference, historic_low_value, historic_low_date)
+                           record_low_date = as.character(date(record_low_date))) %>%
+                    select(station_reference, record_low, record_low_date)
             )
         
         # Highest level on record
@@ -80,11 +80,11 @@ getHistoricData <- function(.station_ref) {
                 historic_levels_raw %>%
                     pluck("maxOnRecord") %>%
                     as_tibble() %>% # turn list into a tibble so we can work with the data like a dataframe
-                    rename(historic_high_date = dateTime,
-                           historic_high_value = value) %>%
+                    rename(record_high_date = dateTime,
+                           record_high = value) %>%
                     mutate(station_reference = .station_ref,
-                           historic_high_date = as.character(date(historic_high_date))) %>%
-                    select(station_reference, historic_high_value, historic_high_date)
+                           record_high_date = as.character(date(record_high_date))) %>%
+                    select(station_reference, record_high, record_high_date)
             )
     }
     else {
@@ -99,13 +99,19 @@ monitoring_stations <- monitoring_stations %>%
     left_join(map_df(monitoring_stations$station_reference, getHistoricData)) %>%
     mutate(measure = "Water level",
            unit = "Metres",
-           across(ends_with("_value"), round, 2)) # Convert all water levels to 2 decimal places
+           across(ends_with(c("_low", "_high")), round, 2)) %>% # Convert all water levels to 2 decimal places
+    select(station_label, station_reference, lon, lat, river_name, catchment_name, town, measure, unit, typical_range_low, typical_range_high, record_low, record_high, record_low_date, record_high_date)
 
 
 # write data  ---------------------------
 monitoring_stations %>%
-    write_csv("monitoring_stations_covering_trafford.csv") %>%
+    write_csv("monitoring_stations_covering_trafford.csv") %>% # write out the CSV as-is from above, then make changes for the GeoJSON output below
+    mutate(typical_range = if_else(is.na(typical_range_low), "Not available", paste0(typical_range_low, "m - ", typical_range_high, "m")),
+           record_low = if_else(is.na(record_low), "Not available", paste0(record_low, "m")),
+           record_high = if_else(is.na(record_high), "Not available", paste0(record_high, "m"))) %>%
+    mutate(across(c(record_low, record_high, record_low_date, record_high_date, river_name, catchment_name, town), ~replace_na(., "Not available"))) %>%
     st_as_sf(coords = c("lon", "lat")) %>% 
     st_set_crs(4326) %>%
+    select(station_label, station_reference, river_name, catchment_name, town, measure, unit, typical_range, record_low, record_high, record_low_date, record_high_date) %>%
     st_write("monitoring_stations_covering_trafford.geojson", driver = "GeoJSON")
     
