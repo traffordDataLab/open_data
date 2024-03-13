@@ -1,13 +1,13 @@
 name,points,connection_type,kW,cost,address,postcode,operator,website,email,updated,lon,lat
-Tesco Extra - Altrincham,NA,Type 2 (Socket Only),7,NA,"Manor Road, Altrincham",WA15 9QT,POD Point (UK),http://www.pod-point.com/,enquiries@pod-point.com,2024-01-18T06:41:00Z,-2.346797,53.385039
-Tesco Extra - Altrincham,NA,Type 2 (Socket Only),7,NA,"Manor Road, Altrincham",WA15 9QT,POD Point (UK),http://www.pod-point.com/,enquiries@pod-point.com,2024-01-18T06:41:00Z,-2.346797,53.385039
+Tesco Extra - Altrincham,NA,Type 2 (Socket Only),7,NA,"Manor Road, Altrincham",WA15 9QT,POD Point (UK),http://www.pod-point.com/,enquiries@pod-point.com,2024-03-13T06:42:00Z,-2.346797,53.385039
+Tesco Extra - Altrincham,NA,Type 2 (Socket Only),7,NA,"Manor Road, Altrincham",WA15 9QT,POD Point (UK),http://www.pod-point.com/,enquiries@pod-point.com,2024-03-13T06:42:00Z,-2.346797,53.385039
+Tesco Extra-Stretford,4,Type 2 (Socket Only),7,£0.62/kWh,"Chester Road, Gorse Hill, Trafford",M32 0QW,POD Point (UK),http://www.pod-point.com/,enquiries@pod-point.com,2024-02-19T06:19:00Z,-2.289581,53.459078
+Tesco Extra-Stretford,4,Type 2 (Socket Only),22,£0.62/kWh,"Chester Road, Gorse Hill, Trafford",M32 0QW,POD Point (UK),http://www.pod-point.com/,enquiries@pod-point.com,2024-02-19T06:19:00Z,-2.289581,53.459078
+Tesco Extra-Stretford,4,CCS (Type 2),50,£0.62/kWh,"Chester Road, Gorse Hill, Trafford",M32 0QW,POD Point (UK),http://www.pod-point.com/,enquiries@pod-point.com,2024-02-19T06:19:00Z,-2.289581,53.459078
+Tesco Extra-Stretford,4,CHAdeMO,50,£0.62/kWh,"Chester Road, Gorse Hill, Trafford",M32 0QW,POD Point (UK),http://www.pod-point.com/,enquiries@pod-point.com,2024-02-19T06:19:00Z,-2.289581,53.459078
+EVC Empress Business Centre,4,Type 2 (Socket Only),22,NA,"Chester Road, Old Trafford, Stretford, Manchester",M16 9EB,EVC,https://www.ev-chargersuk.co.uk/,info@evc.co.uk,2024-02-14T14:24:00Z,-2.2678329780000004,53.46659601000001
 Trafford Centre Parking East,NA,Type 2 (Socket Only),7,NA,"Trafford Centre Parking East, Manchester",M17 8BH,BP Pulse (UK),https://www.bppulse.co.uk/,NA,2023-12-07T08:14:00Z,-2.344624,53.465014999999994
 Trafford Centre Parking East,NA,Type 2 (Socket Only),22,NA,"Trafford Centre Parking East, Manchester",M17 8BH,BP Pulse (UK),https://www.bppulse.co.uk/,NA,2023-12-07T08:14:00Z,-2.344624,53.465014999999994
-EVC Empress Business Centre,4,Type 2 (Socket Only),22,NA,"Chester Road, Old Trafford, Stretford, Manchester",M16 9EB,EVC,https://www.ev-chargersuk.co.uk/,info@evc.co.uk,2023-10-16T13:49:00Z,-2.2678329780000004,53.46659601000001
-Tesco Extra-Stretford,4,Type 2 (Socket Only),7,"£0.62/kWh,£0.49/kWh","Chester Road, Gorse Hill, Trafford",M32 0QW,POD Point (UK),http://www.pod-point.com/,enquiries@pod-point.com,2023-06-10T05:22:00Z,-2.289581,53.459078
-Tesco Extra-Stretford,4,Type 2 (Socket Only),22,"£0.62/kWh,£0.49/kWh","Chester Road, Gorse Hill, Trafford",M32 0QW,POD Point (UK),http://www.pod-point.com/,enquiries@pod-point.com,2023-06-10T05:22:00Z,-2.289581,53.459078
-Tesco Extra-Stretford,4,CCS (Type 2),50,"£0.62/kWh,£0.49/kWh","Chester Road, Gorse Hill, Trafford",M32 0QW,POD Point (UK),http://www.pod-point.com/,enquiries@pod-point.com,2023-06-10T05:22:00Z,-2.289581,53.459078
-Tesco Extra-Stretford,4,CHAdeMO,50,"£0.62/kWh,£0.49/kWh","Chester Road, Gorse Hill, Trafford",M32 0QW,POD Point (UK),http://www.pod-point.com/,enquiries@pod-point.com,2023-06-10T05:22:00Z,-2.289581,53.459078
 Brown Street Car Park,NA,Type 2 (Socket Only),22,NA,"Brown Street Car Park, Altrincham",WA14 2ET,Be.EV,https://be-ev.co.uk/,support@be-ev.co.uk,2023-05-05T04:01:00Z,-2.347697,53.37946
 Brown Street Car Park,NA,Type 2 (Socket Only),22,NA,"Brown Street Car Park, Altrincham",WA14 2ET,Be.EV,https://be-ev.co.uk/,support@be-ev.co.uk,2023-05-05T04:01:00Z,-2.347697,53.37946
 Regent Road Car Park,NA,Type 2 (Socket Only),7,NA,"Regent Road, Altrincham",WA14 1RY,BP Pulse (UK),https://www.bppulse.co.uk/,NA,2023-05-04T09:50:00Z,-2.3541040000000004,53.386784000000006
