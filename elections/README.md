@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2016-2023</td>
+	<td>2016-2024</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2023-11-07</td>
+	<td>2024-05-10</td>
 </tr>
 <tr>
 	<td>Notes</td>
