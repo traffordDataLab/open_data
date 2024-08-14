@@ -54,8 +54,8 @@ df_sssi <- df_sssi %>%
     rename(site_name = SSSI_NAME,
            site_area_hectares = SSSI_AREA,
            site_area_square_metres = Shape__Area,
-           natural_england_site_information_system_id = ENSISID,
-           british_national_grid_reference = REFERENCE) %>%
+           natural_england_site_id = ENSISID,
+           british_map_grid_reference = REFERENCE) %>%
     # Calculate and store the coordinates of each locality's centroid as a "lat" and "lon" property
     mutate(lon = map_dbl(geometry, ~st_centroid(.x)[[1]]),
            lat = map_dbl(geometry, ~st_centroid(.x)[[2]]),
@@ -64,8 +64,8 @@ df_sssi <- df_sssi %>%
     select(site_name,
            site_area_hectares,
            site_area_square_metres,
-           natural_england_site_information_system_id,
-           british_national_grid_reference,
+           natural_england_site_id,
+           british_map_grid_reference,
            lon,
            lat)
 
