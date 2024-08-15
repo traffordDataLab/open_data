@@ -1,11 +1,11 @@
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Sites of Special Scientific Interest (SSSI) in Trafford</td>
+	<td>Local Nature Reserves in Trafford</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>A Site of Special Scientific Interest (SSSI) is the land notified as an SSSI under the Wildlife and Countryside Act (1981), as amended. Sites notified under the 1949 Act only are not included in the Data set. SSSI are the finest sites for wildlife and natural features in England, supporting many characteristic, rare and endangered species, habitats and natural features. The data do not include "proposed" sites. Boundaries are generally mapped against Ordnance Survey MasterMap.</td>
+	<td>Local Nature Reserves (LNRs) are a statutory designation made under Section 21 of the National Parks and Access to the Countryside Act 1949 by principal local authorities. LNRs are for people and wildlife. They are places with wildlife or geological features that are of special interest locally. They offer people opportunities to study or learn about nature or simply to enjoy it. They are an impressive natural resource which makes an important contribution to England's biodiversity.</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -17,7 +17,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://www.data.gov.uk/dataset/5b632bd7-9838-4ef2-9101-ea9384421b0d/sites-of-special-scientific-interest-england">https://www.data.gov.uk/dataset/5b632bd7-9838-4ef2-9101-ea9384421b0d/sites-of-special-scientific-interest-england</a></td>
+	<td><a href="https://www.data.gov.uk/dataset/acdf4a9e-a115-41fb-bbe9-603c819aa7f7/local-nature-reserves-england">https://www.data.gov.uk/dataset/acdf4a9e-a115-41fb-bbe9-603c819aa7f7/local-nature-reserves-england</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2024-07-23</td>
+	<td>2024-06-18</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -61,6 +61,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/#dataset=sssi">Explore application</a>.</td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/#dataset=nature_reserves">Explore application</a>.</td>
 </tr>
 </table>
