@@ -17,7 +17,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://opendata-historicengland.hub.arcgis.com/maps/767f279327a24845bf47dfe5eae9862b/about">https://opendata-historicengland.hub.arcgis.com/maps/767f279327a24845bf47dfe5eae9862b/about</a></td>
+	<td><a href="https://opendata-historicengland.hub.arcgis.com/datasets/historicengland::national-heritage-list-for-england-nhle/about?layer=6">https://opendata-historicengland.hub.arcgis.com/datasets/historicengland::national-heritage-list-for-england-nhle/about?layer=6</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -41,7 +41,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>&copy; Historic England 2024. Contains Ordnance Survey data &copy; Crown copyright and database right 2024.</td>
+	<td>&copy; Historic England 2024. Contains Ordnance Survey data &copy; Crown copyright and database right 2024. The Historic England Data contained in this material was obtained on 16-08-2024. The most publicly available up to date Historic England Data can be obtained from <a href='https://historicengland.org.uk' target='_blank'>HistoricEngland.org.uk</a></td>
 </tr>
 <tr>
 	<td>Format</td>

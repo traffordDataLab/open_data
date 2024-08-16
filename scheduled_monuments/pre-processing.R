@@ -1,7 +1,7 @@
 # Scheduled Monuments in Trafford
 # Created 2024-08-16
 # Data updated: 2024-08-16
-# Data: https://opendata-historicengland.hub.arcgis.com/maps/767f279327a24845bf47dfe5eae9862b/about
+# Data: https://opendata-historicengland.hub.arcgis.com/datasets/historicengland::national-heritage-list-for-england-nhle/about?layer=6
 # Metadata: https://historicengland.org.uk/listing/the-list/data-downloads
 # Licence: Open Government Licence v3 (https://historicengland.org.uk/terms/website-terms-conditions/open-data-hub/)
 
