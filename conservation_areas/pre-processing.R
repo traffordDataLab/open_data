@@ -1,7 +1,7 @@
-# Scheduled Monuments in Trafford
+# Conservation Areas in Trafford where Trafford Council is the Local Planning Authority (LPA) responsible for the area.
 # Created 2024-08-16
-# Data updated: 2024-08-16
-# Data: https://opendata-historicengland.hub.arcgis.com/datasets/historicengland::national-heritage-list-for-england-nhle/about?layer=6
+# Data updated: 2024-07-24
+# Data: https://opendata-historicengland.hub.arcgis.com/datasets/historicengland::conservation-areas/about
 # Metadata: https://historicengland.org.uk/listing/the-list/data-downloads
 # Licence: Open Government Licence v3 (https://historicengland.org.uk/terms/website-terms-conditions/open-data-hub/)
 
@@ -11,7 +11,7 @@
 
 
 # Required packages ---------
-library(tidyverse) ; library(sf)
+library(tidyverse) ; library(sf) ; library(lubridate)
 
 # =========
 # VERY IMPORTANT NOTE REGARDING SF PACKAGE AND COORDINATE WINDING ORDER 2023-12-21:
@@ -47,32 +47,36 @@ la <- st_read("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/service
 
 
 # Get the information for items within Trafford -------------------------
-df_monuments <- st_read(paste0("https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/6/query?outFields=*&where=1%3D1&f=geojson", api_geommetry_envelope)) %>% 
-  st_intersection(la)
+df_conservation_areas <- st_read(paste0("https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/Conservation_Areas/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson", api_geommetry_envelope)) %>% 
+  st_intersection(la) %>%
+  filter(LPA == "Trafford") %>% # This is required as there are 4 conservation areas touching the Trafford boundary which are the responsibility of neighbouring LAs
+  st_cast('POLYGON', warn=F) # The Ashton upon Mersey area is a multipolygon which causes issues in Explore and Plotter. Checking on the source data map shows no requirement for this to be a multipolygon, so converting to a simple polygon instead.
 
 # Process the dataset, renaming and creating required variables
-df_monuments <- df_monuments %>%
-    rename(site_name = Name,
-           site_area_hectares = area_ha,
-           list_entry_number = ListEntry,
-           list_entry_url = hyperlink,
-           british_map_grid_reference = NGR) %>%
+df_conservation_areas <- df_conservation_areas %>%
+    rename(site_name = NAME,
+           site_area_square_metres = Shape__Area,
+           risk_survey_reference = UID) %>%
     mutate(lon = map_dbl(geometry, ~st_centroid(.x)[[1]]), # Calculate the coordinates of the area's centroid as a "lat" and "lon" property
            lat = map_dbl(geometry, ~st_centroid(.x)[[2]]),
-           site_area_hectares = as.numeric(str_trim(format(site_area_hectares, nsmall = 2))),
-           site_area_square_metres = site_area_hectares * 10000) %>%
+           site_area_square_metres = as.numeric(str_trim(format(site_area_square_metres, nsmall = 2))),
+           site_area_hectares = format(site_area_square_metres / 10000, nsmall = 2),
+           designation_date = if_else(DATE_OF_DE == "02/1976", dmy("01/02/1976"), dmy(DATE_OF_DE))) %>%
     select(site_name,
            site_area_hectares,
            site_area_square_metres,
-           list_entry,
-           list_url,
-           british_map_grid_reference,
+           designation_date,
+           risk_survey_reference,
            lon,
            lat)
 
 
-# Create the Scheduled Monuments file for Trafford -------------------------
-st_write(df_monuments, "trafford_scheduled_monuments.geojson")
+# Create the Conservation Areas files for Trafford -------------------------
+st_write(df_conservation_areas, "trafford_conservation_areas.geojson")
+
+df_conservation_areas %>%
+    st_drop_geometry() %>%
+    write_csv("trafford_conservation_areas.csv")
 
 
 # Ensure sf_use_s2() is reset to the state it was in before running the code above, i.e. whether to use the S2 library (for S^2 spherical coordinates) or GEOS (for R^2 flat space coordinates). Only if using v1 or above of the sf package
