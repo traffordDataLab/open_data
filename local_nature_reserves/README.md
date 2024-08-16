@@ -41,7 +41,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>&copy; Natural England copyright. Contains Ordnance Survey data &copy; Crown copyright and database right [year].</td>
+	<td>&copy; Natural England copyright. Contains Ordnance Survey data &copy; Crown copyright and database right 2024.</td>
 </tr>
 <tr>
 	<td>Format</td>

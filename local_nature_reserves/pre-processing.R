@@ -57,8 +57,7 @@ df_lnr <- df_lnr %>%
            site_area_square_metres = Shape__Area,
            natural_england_gid = GID,
            british_map_grid_reference = REFERENCE) %>%
-    # Calculate and store the coordinates of each locality's centroid as a "lat" and "lon" property
-    mutate(lon = map_dbl(geometry, ~st_centroid(.x)[[1]]),
+    mutate(lon = map_dbl(geometry, ~st_centroid(.x)[[1]]), # Calculate the coordinates of the area's centroid as a "lat" and "lon" property
            lat = map_dbl(geometry, ~st_centroid(.x)[[2]]),
            site_area_hectares = as.numeric(str_trim(format(site_area_hectares, nsmall = 2))),
            site_area_square_metres = as.numeric(str_trim(format(site_area_square_metres, nsmall = 2)))) %>%

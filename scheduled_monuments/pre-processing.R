@@ -1,9 +1,9 @@
-# Sites of Special Scientific Interest (SSSI) in Trafford
-# Created 2024-08-13
-# Data updated: 2024-07-23
-# Data: https://naturalengland-defra.opendata.arcgis.com/datasets/Defra::sites-of-special-scientific-interest-england/about
-# Metadata: https://www.data.gov.uk/dataset/5b632bd7-9838-4ef2-9101-ea9384421b0d/sites-of-special-scientific-interest-england
-# Licence: Open Government Licence v3 (https://www.data.gov.uk/dataset/5b632bd7-9838-4ef2-9101-ea9384421b0d/sites-of-special-scientific-interest-england#licence-info)
+# Scheduled Monuments in Trafford
+# Created 2024-08-16
+# Data updated: 2024-08-16
+# Data: https://opendata-historicengland.hub.arcgis.com/maps/767f279327a24845bf47dfe5eae9862b/about
+# Metadata: https://historicengland.org.uk/listing/the-list/data-downloads
+# Licence: Open Government Licence v3 (https://historicengland.org.uk/terms/website-terms-conditions/open-data-hub/)
 
 # NOTES:
 # These features are obtained from an ArcGIS API service, similar to that of the ONS Geography Portal.
@@ -43,35 +43,36 @@ api_geommetry_envelope <- "&geometryType=esriGeometryEnvelope&geometry=%7B%22spa
 # NOTE: we need the LA boundary stored as an sf object for use in st_intersection() calculations for other boundaries/features
 #       we use the full resolution version as this ensures any features near the border are included/not included correctly
 la <- st_read("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_May_2023_UK_BFC_V2/FeatureServer/0/query?outFields=*&where=UPPER(lad23cd)%20like%20%27%25E08000009%25%27&f=geojson") %>%
-    select(area_code = LAD23CD, area_name = LAD23NM)
+  select(area_code = LAD23CD, area_name = LAD23NM)
 
 
-# Get the SSSI information for areas within Trafford -------------------------
-df_sssi <- st_read(paste0("https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/SSSI_England/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson", api_geommetry_envelope)) %>% 
+# Get the information for items within Trafford -------------------------
+df_monuments <- st_read(paste0("https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/6/query?outFields=*&where=1%3D1&f=geojson", api_geommetry_envelope)) %>% 
   st_intersection(la)
 
 # Process the dataset, renaming and creating required variables
-df_sssi <- df_sssi %>%
-    rename(site_name = SSSI_NAME,
-           site_area_hectares = SSSI_AREA,
-           site_area_square_metres = Shape__Area,
-           natural_england_site_id = ENSISID,
-           british_map_grid_reference = REFERENCE) %>%
+df_monuments <- df_monuments %>%
+    rename(site_name = Name,
+           site_area_hectares = area_ha,
+           list_entry_number = ListEntry,
+           list_entry_url = hyperlink,
+           british_map_grid_reference = NGR) %>%
     mutate(lon = map_dbl(geometry, ~st_centroid(.x)[[1]]), # Calculate the coordinates of the area's centroid as a "lat" and "lon" property
            lat = map_dbl(geometry, ~st_centroid(.x)[[2]]),
            site_area_hectares = as.numeric(str_trim(format(site_area_hectares, nsmall = 2))),
-           site_area_square_metres = as.numeric(str_trim(format(site_area_square_metres, nsmall = 2)))) %>%
+           site_area_square_metres = site_area_hectares * 10000) %>%
     select(site_name,
            site_area_hectares,
            site_area_square_metres,
-           natural_england_site_id,
+           list_entry,
+           list_url,
            british_map_grid_reference,
            lon,
            lat)
 
 
-# Create the SSSI file for Trafford -------------------------
-st_write(df_sssi, "trafford_sites_of_special_scientific_interest.geojson")
+# Create the Local Nature Reserves file for Trafford -------------------------
+st_write(df_monuments, "trafford_scheduled_monuments.geojson")
 
 
 # Ensure sf_use_s2() is reset to the state it was in before running the code above, i.e. whether to use the S2 library (for S^2 spherical coordinates) or GEOS (for R^2 flat space coordinates). Only if using v1 or above of the sf package
