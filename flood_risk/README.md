@@ -1,12 +1,11 @@
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Risk of Flooding from Rivers and Sea</td>
+	<td>Risk of Flooding from Rivers and Sea (RoFRS)</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>The dataset, taken from the national assessment of flood risk for England produced using local expertise, shows the chance of flooding from rivers and/or the sea, based on cells of 50m within Trafford. Each cell is allocated one of four flood risk categories, taking into account flood defences and their condition.
-</td>
+	<td>Flood risk in Trafford. Taken from the <a href="https://environment.data.gov.uk/dataset/96ab4342-82c1-4095-87f1-0082e8d84ef1">Risk of Flooding from Rivers and Sea</a> (RoFRS) dataset, showing the chance of flooding taking into account the presence and condition of flood defences, represented on a 2m resolution grid. RoFRS is a probabilistic product, meaning that it shows the overall risk, rather than the risk associated with a specific event or scenario. This risk is displayed as one of four likelihood bandings.<br /><br />Please refer to the <a href="https://environment.data.gov.uk/api/file/download?fileDataSetId=cf7e9513-2004-4ab7-befa-12294eedde0f&fileName=RoFRS%20Product%20Description.pdf">RoFRS Product Description PDF</a> for more information.</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -18,7 +17,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://www.data.gov.uk/dataset/bad20199-6d39-4aad-8564-26a46778fd94/risk-of-flooding-from-rivers-and-sea">https://www.data.gov.uk/dataset/bad20199-6d39-4aad-8564-26a46778fd94/risk-of-flooding-from-rivers-and-sea</a></td>
+	<td><a href="https://environment.data.gov.uk/dataset/96ab4342-82c1-4095-87f1-0082e8d84ef1">https://environment.data.gov.uk/dataset/96ab4342-82c1-4095-87f1-0082e8d84ef1</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -30,11 +29,11 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2018-03-28 - 2019-12-18</td>
+	<td>2024-10-30</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Unknown</td>
+	<td>Quarterly</td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -42,7 +41,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>© Environment Agency copyright and/or database right 2023. All rights reserved.</td>
+	<td>© Environment Agency copyright and/or database right 2025. All rights reserved.</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -54,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2024-02-09</td>
+	<td>2025-01-28</td>
 </tr>
 <tr>
 	<td>Notes</td>

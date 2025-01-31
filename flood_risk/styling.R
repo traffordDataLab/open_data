@@ -4,20 +4,21 @@
 library(tidyverse); library(sf)
 
 # read un-styled, cleaned data ---------------------------
-geojson <- st_read("trafford_flood_risk.geojson")
+trafford_flood_risk <- read_sf("trafford_flood_risk.geojson")
 
 # apply styles ---------------------------
-geojson_styles <- geojson %>% 
-  mutate(stroke = 
-           case_when(
-             flood_risk == "Very Low" ~ "#bdd7e7",
-             flood_risk == "Low" ~ "#6baed6",
-             flood_risk == "Medium" ~ "#2171b5",
-             flood_risk == "High" ~ "#3E4388"),
-         `stroke-width` = 3,
-         `stroke-opacity` = 1,
-         fill = stroke,
-         `fill-opacity` = 0.8)
+trafford_flood_risk_styled <- trafford_flood_risk %>% 
+    mutate(stroke = case_when(
+                        flood_risk == "Very low" ~ "#C4E1FF",
+                        flood_risk == "Low" ~ "#A2CFFF",
+                        flood_risk == "Medium" ~ "#6699CD",
+                        flood_risk == "High" ~ "#3D4489",
+                        TRUE ~ "#ff0000"), # To visually indicate that something has gone wrong),
+           `stroke-width` = 3,
+           `stroke-opacity` = 1,
+           fill = stroke,
+           `fill-opacity` = 0.8)
 
-# write data ---------------------------
-st_write(geojson_styles, "trafford_flood_risk_styled.geojson")
+# delete the old and then create the new data ---------------------------
+file.remove("trafford_flood_risk_styled.geojson")
+write_sf(trafford_flood_risk_styled, "trafford_flood_risk_styled.geojson")
