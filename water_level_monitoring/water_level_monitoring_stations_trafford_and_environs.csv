@@ -1,0 +1,20 @@
+station_name,station_reference,lon,lat,river_name,catchment_name,town,measure,unit,typical_range_low,typical_range_high,record_low,record_high,record_low_date,record_high_date
+Northern Moor,693115,-2.294665,53.407591,Baguley Brook,Upper Mersey,Northern Moor,Water level,Metres,0.1,1.22,0.06,1.45,2010-07-10,2019-07-31
+Bollington Mill,693515,-2.406589,53.380045,River Bollin,Upper Mersey,Little Bollington,Water level,Metres,0.26,1,0.2,1.49,2010-07-05,2019-08-01
+Ashton Weir,692726,-2.344072,53.438308,River Mersey,Upper Mersey,Urmston,Water level,Metres,0.29,4.15,0.2,3.91,1984-08-26,2021-01-21
+Flixton Bridge,692727,-2.388645,53.439969,River Mersey,Upper Mersey,Flixton,Water level,Metres,0.23,4.3,0.17,4.92,2010-07-12,2002-02-20
+Chestnut Road,690350,-2.375559,53.494067,Worsley Brook,Northern Manchester,Alder Forest,Water level,Metres,0.07,1.79,0.06,1.96,2011-01-27,2019-07-31
+Stanneylands,693333,-2.232417,53.343712,Dean,Upper Mersey,Styal,Water level,Metres,0.07,0.51,0.02,1.72,1996-07-21,2019-07-31
+Northenden,692710,-2.252674,53.408784,River Mersey,Upper Mersey,Northenden,Water level,Metres,0.27,1.8,0.15,3.32,2005-09-05,2022-02-21
+Little Woolden Hall,693032,-2.475817,53.440813,Glaze Brook,Lower Mersey,Glazebrook,Water level,Metres,0.38,1.9,0.24,3.58,1996-05-12,2021-01-21
+Adelphi Weir,690511,-2.26639,53.485246,River Irwell,Northern Manchester,Salford,Water level,Metres,0.18,2,0.12,3.86,1976-09-08,2015-12-26
+Partington,693132,-2.413046,53.410314,Sinderland Brook,Upper Mersey,Partington,Water level,Metres,0.12,0.8,0.06,1.42,1982-06-17,1981-08-06
+Athol Road,692810,-2.246761,53.439852,NA,NA,NA,Water level,Metres,NA,NA,NA,NA,NA,NA
+Sale Ees,692717,-2.288164,53.429377,NA,NA,NA,Water level,Metres,NA,NA,NA,NA,NA,NA
+Mauldeth Road,692800,-2.255783,53.438035,NA,NA,NA,Water level,Metres,NA,NA,NA,NA,NA,NA
+Bedford FW,693023,-2.501157,53.496087,NA,NA,NA,Water level,Metres,NA,NA,NA,NA,NA,NA
+Didsbury River,692706,-2.235618,53.40126,River Mersey,Upper Mersey,Didsbury,Water level,Metres,3.2,6.2,2.52,7.23,2020-05-20,2022-02-20
+Sale Waterpark,692722,-2.297206,53.431153,NA,NA,NA,Water level,Metres,NA,NA,NA,NA,NA,NA
+Didsbury Basin Stenner Lane,692707,-2.233923,53.410225,NA,NA,NA,Water level,Metres,NA,NA,NA,NA,NA,NA
+Jennets Lane PS,693015,-2.49657,53.478947,NA,NA,NA,Water level,Metres,NA,NA,NA,NA,NA,NA
+Didsbury,692705,-2.23534,53.402528,NA,NA,NA,Water level,Metres,NA,NA,NA,NA,NA,NA
