@@ -44,22 +44,46 @@ file.remove(shp_files)
 # 5. Change the "File format" drow-down to "GeoJSON"
 # 6. Select the "Download file" button
 # 7. Copy the downloaded file "rofs_4band.json" from your "Downloads" folder to the "flood_risk" folder containing this script
+# 8. Repeat steps 4 - 7 for each of the other flood risk layers based on depths from 0.2m - 1.2m
 
 
-# Load raw flood risk data and tidy up the variables ---------------------------
-trafford_flood_risk <- read_sf("rofrs_4band.json") %>%
+# Function to load raw flood risk data and tidy up the variables ---------------------------
+get_flood_risk <- function(raw_data_filename) {
+    read_sf(raw_data_filename) %>%
     rename(flood_risk = risk_band) %>%
     filter(st_geometry_type(geometry) != "POINT") %>% # Just in case there is any point data, remove it as this will show up as a marker pin on the map which will be confusing. The previous version of this dataset had 6 within Trafford.
     select(object_id = objectid, flood_risk, geometry)
+}
 
 
-# write data  ---------------------------
-file.remove("trafford_flood_risk.geojson") # first remove the previous file
-write_sf(trafford_flood_risk, "trafford_flood_risk.geojson", driver = "GeoJSON")
+# Write data  ---------------------------
+# First remove the previous files
+file.remove(c("trafford_flood_risk.geojson",
+              "trafford_flood_risk_0_2m_depth.geojson",
+              "trafford_flood_risk_0_3m_depth.geojson",
+              "trafford_flood_risk_0_6m_depth.geojson",
+              "trafford_flood_risk_0_9m_depth.geojson",
+              "trafford_flood_risk_1_2m_depth.geojson"))
+
+# Now create the files again based on the new data
+write_sf(get_flood_risk("rofrs_4band.json"), "trafford_flood_risk.geojson", driver = "GeoJSON")
+write_sf(get_flood_risk("rofrs_4band_0_2m_depth.json"), "trafford_flood_risk_0_2m_depth.geojson", driver = "GeoJSON")
+write_sf(get_flood_risk("rofrs_4band_0_3m_depth.json"), "trafford_flood_risk_0_3m_depth.geojson", driver = "GeoJSON")
+write_sf(get_flood_risk("rofrs_4band_0_6m_depth.json"), "trafford_flood_risk_0_6m_depth.geojson", driver = "GeoJSON")
+write_sf(get_flood_risk("rofrs_4band_0_9m_depth.json"), "trafford_flood_risk_0_9m_depth.geojson", driver = "GeoJSON")
+write_sf(get_flood_risk("rofrs_4band_1_2m_depth.json"), "trafford_flood_risk_1_2m_depth.geojson", driver = "GeoJSON")
 
 
-# Clean up the filesystem removing the downloaded flood risk JSON file and the shapefile ZIP ---------------------------
-file.remove(c("rofrs_4band.json", "trafford_and_environs_boundary.zip"))
+# Clean up the filesystem ---------------------------
+# Removing the downloaded flood risk JSON files and the shapefile ZIP
+file.remove(c("rofrs_4band.json",
+              "rofrs_4band_0_2m_depth.json",
+              "rofrs_4band_0_3m_depth.json",
+              "rofrs_4band_0_6m_depth.json",
+              "rofrs_4band_0_9m_depth.json",
+              "rofrs_4band_1_2m_depth.json",
+              "trafford_and_environs_boundary.zip"))
 
-# reset R's spherical geometry if required ---------------------------
+
+# Reset R's spherical geometry if required ---------------------------
 #sf_use_s2(is_sf_using_s2) # Reset whether sf is using S2 or R2 geometry calculations
