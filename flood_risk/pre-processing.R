@@ -5,7 +5,7 @@
 #                NOTE: previous dataset now retired: https://www.data.gov.uk/dataset/bad20199-6d39-4aad-8564-26a46778fd94/risk-of-flooding-from-rivers-and-sea
 # Licence: Open Government Licence 3.0
 # Attribution: (C) Environment Agency copyright and/or database right 2025. All rights reserved.
-# Last Updated: 2025-01-28
+# Last Updated: 2025-02-20
 # Update frequency: Quarterly
 # The dataset is downloaded from https://environment.data.gov.uk/explore/96ab4342-82c1-4095-87f1-0082e8d84ef1?download=true by uploading a bounding polygon around Trafford. This file is large ~40MB.
 
@@ -21,8 +21,9 @@ library(tidyverse) ; library(sf)
 #sf_use_s2(FALSE)              # Set sf to use R2 calculations as we get errors using S2
 
 
-# Convert the boundary of Trafford and its immediate environs (created in Plotter) from GeoJSON into a ShapeFile ---------------------------
-read_sf("trafford_and_environs_boundary.geojson") %>%
+# Convert the boundary of Trafford with a 1km buffer from GeoJSON into a ShapeFile ---------------------------
+read_sf("http://trafforddatalab.io/spatial_data/local_authority/2021/trafford_local_authority_full_resolution.geojson") %>%
+    st_buffer(1000) %>%
     # This creates 4 files with the extensions .dbf, .prj, .shp and .shx
     write_sf("trafford_and_environs_boundary.shp", driver = "ESRI Shapefile")
 
