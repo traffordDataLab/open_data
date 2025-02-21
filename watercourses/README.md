@@ -8,7 +8,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Rivers and other waterways constrained by the boundaries of Trafford borough and the Greater Manchester Combined Authority.</td>
+	<td>Rivers and other waterways constrained by the boundaries of Trafford borough and the Greater Manchester Combined Authority, and within a 10km buffer of Trafford.</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -20,7 +20,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-rivers.html"></a>https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-rivers.html</td>
+	<td><a href="https://www.ordnancesurvey.co.uk/products/os-open-rivers">https://www.ordnancesurvey.co.uk/products/os-open-rivers</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -28,11 +28,11 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Trafford</td>
+	<td>Trafford, Trafford plus 10km buffer and Greater Manchester</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>December 2017</td>
+	<td>October 2024</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -44,7 +44,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains Ordnance Survey data © Crown copyright and database right 2018</td>
+	<td>Contains Ordnance Survey data © Crown copyright and database right 2025</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -56,7 +56,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>March 2018</td>
+	<td>2025-02-21</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -64,6 +64,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=watercourses">Explore application</a>.</td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/index.html?dataset=watercourses">Explore application</a>.</td>
 </tr>
 </table>
