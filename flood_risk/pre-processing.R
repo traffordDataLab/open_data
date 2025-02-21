@@ -39,10 +39,10 @@ file.remove(shp_files)
 
 # Manually download the flood risk data from the Environment Agency ---------------------------
 # 1. Visit https://environment.data.gov.uk/explore/96ab4342-82c1-4095-87f1-0082e8d84ef1?download=true
-# 2. Change the "Area of interest" drop-down to "Upload sharefile"
+# 2. Change the "Area of interest" drop-down to "Upload shapefile"
 # 3. Use the "Browse..." button to select the "trafford_and_environs_boundary.zip" file created above
 # 4. Change the "Layers" drop-down to "rofs_4band" (NOTE: data is also available for risk of flooding to a depth of 0.2m, 0.3m, 0.6m, 0.9m and 1.2m)
-# 5. Change the "File format" drow-down to "GeoJSON"
+# 5. Change the "File format" drop-down to "GeoJSON"
 # 6. Select the "Download file" button
 # 7. Copy the downloaded file "rofs_4band.json" from your "Downloads" folder to the "flood_risk" folder containing this script
 # 8. Repeat steps 4 - 7 for each of the other flood risk layers based on depths from 0.2m - 1.2m
