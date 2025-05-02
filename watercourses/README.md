@@ -32,11 +32,11 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>October 2024</td>
+	<td>April 2025</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Unknown</td>
+	<td>Every 6 months</td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -56,7 +56,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2025-02-21</td>
+	<td>2025-05-02</td>
 </tr>
 <tr>
 	<td>Notes</td>
