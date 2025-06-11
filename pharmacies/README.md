@@ -1,26 +1,23 @@
-[<img src="thumbnail.png">](trafford_pharmacies_styled.geojson)
-</br>
-
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Trafford pharmacies</td>
+	<td>Pharmacies</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Dataset containing the location of pharmacies in Trafford.</td>
+	<td>Location of pharmacies Trafford and Greater Manchester.</td>
 </tr>
 <tr>
 	<td>Source</td>
-	<td>Trafford Council</td>
+	<td>NHS England</td>
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td>Trafford Council</td>
+	<td>NHS Business Services Authority (NHSBSA) Master Data Replacement (MDR)</td>
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="http://www.trafford.gov.uk/about-your-council/children-families-and-wellbeing/children-families-and-wellbeing.aspx"></a>http://www.trafford.gov.uk/about-your-council/children-families-and-wellbeing/children-families-and-wellbeing.aspx</td>
+	<td><a href="https://opendata.nhsbsa.net/dataset/consolidated-pharmaceutical-list">https://opendata.nhsbsa.net/dataset/consolidated-pharmaceutical-list</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -28,15 +25,15 @@
 </tr>
 <tr>
 	<td>Geographic coverage</td>
-	<td>Trafford</td>
+	<td>Trafford, Greater Manchester</td>
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>May 2018</td>
+	<td>2024-25 Q4 (2025-03-31)</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Unknown</td>
+	<td>Quarterly</td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -52,7 +49,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>May 2018</td>
+	<td>2025-06-11</td>
 </tr>
 <tr>
 	<td>Notes</td>
