@@ -5,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Location of pharmacies Trafford and Greater Manchester.</td>
+	<td>Locations of pharmacies in Trafford and Greater Manchester.</td>
 </tr>
 <tr>
 	<td>Source</td>
