@@ -47,14 +47,24 @@ sf <- df_with_coords %>%
   st_as_sf(coords = c("lon", "lat")) %>% 
   st_set_crs(4326)
 
+# Create Trafford-specific version containing localities
+sf_trafford <- sf %>%
+    filter(health_and_wellbeing_board == "Trafford") %>% # NOTE: There are a few pharmacies where the value of health_and_wellbeing_board differs from la_name, therefore I'm using the former as the filter.
+    mutate(locality = case_when(
+        ward_name %in% c("Ashton upon Mersey", "Brooklands", "Manor", "Sale Central", "Sale Moor") ~ "Central",
+        ward_name %in% c("Gorse Hill & Cornbrook", "Longford", "Lostock & Barton", "Old Trafford", "Stretford & Humphrey Park") ~ "North",
+        ward_name %in% c("Altrincham", "Bowdon", "Broadheath", "Hale", "Hale Barns & Timperley South", "Timperley Central", "Timperley North") ~ "South",
+        ward_name %in% c("Bucklow-St Martins", "Davyhulme", "Flixton", "Urmston") ~ "West")) %>%
+    relocate(locality, .after = ward_name)
+
 
 # Write data   ---------------------------
+# First remove the old GeoJSON files
 file.remove(c("gm_pharmacies.geojson",
               "trafford_pharmacies.geojson"))
 
-# NOTE: There are a few pharmacies where the value of health_and_wellbeing_board differs from la_name, therefore I'm using the former as the filter.
 write_sf(sf, "gm_pharmacies.geojson", driver = "GeoJSON")
-write_sf(sf %>% filter(health_and_wellbeing_board == "Trafford"), "trafford_pharmacies.geojson", driver = "GeoJSON")
-
 write_csv(st_set_geometry(sf, value = NULL), "gm_pharmacies.csv")
-write_csv(st_set_geometry(sf, value = NULL) %>% filter(health_and_wellbeing_board == "Trafford"), "trafford_pharmacies.csv")
+
+write_sf(sf_trafford, "trafford_pharmacies.geojson", driver = "GeoJSON")
+write_csv(st_set_geometry(sf_trafford, value = NULL), "trafford_pharmacies.csv")
