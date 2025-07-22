@@ -43,11 +43,11 @@ df <- read_csv("trafford_care_homes.csv") %>%
   <tr>
     <td>Care Quality Commission</td>
     <td><a href="http://www.cqc.org.uk/about-us/transparency/using-cqc-data" target="_blank">Care Quality Commission</a></td>
-    <td><time datetime="2022-06-15">2022-06-15</time></td>
+    <td><time datetime="2025-07-16">2025-07-16</time></td>
     <td>Point data</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2022-06-22">2022-06-22</time></td>
+    <td><time datetime="2025-07-22">2025-07-22</time></td>
   </tr>
 </table>
 
