@@ -17,11 +17,11 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://www.activeplacespower.com/OpenData/download">https://www.activeplacespower.com/OpenData/download/</a></td>
+	<td><a href="https://www.activeplacespower.com/pages/downloads#download">https://www.activeplacespower.com/pages/downloads#download</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>Local Authority</td>
+	<td>Electoral Ward (Ward), Middle-layer Super Output Area (MSOA), Lower-layer Super Output Area (LSOA), Output Area (OA)</td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
@@ -29,11 +29,11 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>Correct as of July 2023</td>
+	<td>Correct as of 2025-09-30</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Regularly</td>
+	<td>Unknown</td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>August 2023</td>
+	<td>2025-10-01</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -61,6 +61,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/#dataset=defibrillators">Explore application</a>.</td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/#dataset=sports_facilities">Explore application</a>.</td>
 </tr>
 </table>

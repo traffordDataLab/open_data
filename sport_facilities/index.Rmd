@@ -1,0 +1,133 @@
+---
+pagetitle: "Sports facilities in Trafford"
+lang: "en-GB"
+output:
+  html_document:
+    css: ../guidance/template/styles.css
+    self_contained: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse) ; library(htmltools) ; library(DT) 
+
+df <- read_csv("sports_facilities.csv") %>% 
+  rename_all(. %>% str_to_title() %>% str_replace_all("_", " "))
+```
+<header>
+<span id="a11yNav"><a href="#downloads" class="themeBlockDark">Skip to downloads</a></span>
+<a href="https://www.trafforddatalab.io/data.html"><img src="https://www.trafforddatalab.io/assets/logo/trafforddatalab_logo.svg" alt="Trafford Data Lab" aria-label="Return to Trafford Data Lab data page" width="100" class="traffordDataLabLogo"/></a>
+
+<h1>Sports facilities in Trafford</h1>
+*Datasets containing information and locations of different types of sports facilities in Trafford.*
+</header>
+
+<main>
+<h2>Metadata</h2>
+
+<table id="metadata" class="table table-condensed">
+  <thead>
+    <tr class="header">
+      <th>Source</th>
+      <th>Publisher</th>
+      <th>Time period</th>
+      <th>Geography</th>
+      <th>Licence</th>
+      <th>Attribution</th>
+      <th>Last updated</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Sport England</td>
+    <td><a href="https://www.activeplacespower.com/pages/downloads#download" target="_blank">Active Places Power</a></td>
+    <td><time datetime="2025-09-30">2025-09-30</time></td>
+    <td>Electoral Ward (Ward), Middle-layer Super Output Area (MSOA), Lower-layer Super Output Area (LSOA), Output Area (OA)</td>
+    <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
+    <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
+    <td><time datetime="2025-10-01">2025-10-01</time></td>
+  </tr>
+</table>
+
+<h2>Preview</h2>
+Sort, filter and export a selection of the data using the table.
+
+```{r preview}
+datatable(df, 
+          class = 'cell-border stripe',
+          rownames = FALSE, 
+          extensions = c('Scroller', 'Buttons', 'KeyTable'),
+          options = list(
+            keys = TRUE,
+            search = list(regex = TRUE),
+            searchHighlight = TRUE,
+            dom = 'ftB',
+            buttons = list(
+              list(extend = "csv", 
+                   text = "Download selection")),
+            deferRender = TRUE,
+            scrollX = TRUE,
+            scrollY = 300,
+            scroller = TRUE,
+            columnDefs = list(
+              list(className = 'dt-left', targets = "_all")
+              )))
+```
+<div id="tableFooterTitle">Sports facilities within Trafford.</div>
+
+<h2>Data</h2>
+<span id ="downloads">Download the datasets using the following links. NOTE: the "sports_facilities" files are combined datasets for all facility types. However, the separate files for each specific type of sports facility contain more detailed information.</span>
+
+|File name |Format |
+|---|---|
+|[sports_facilities.csv](sports_facilities.csv) |CSV |
+|[sports_facilities.geojson](sports_facilities.geojson) |GeoJSON |
+|[artificial_grass_pitch.csv](artificial_grass_pitch.csv) |CSV |
+|[artificial_grass_pitch.geojson](artificial_grass_pitch.geojson) |GeoJSON |
+|[athletics.csv](athletics.csv) |CSV |
+|[athletics.geojson](athletics.geojson) |GeoJSON |
+|[golf.csv](golf.csv) |CSV |
+|[golf.geojson](golf.geojson) |GeoJSON |
+|[grass_pitches.csv](grass_pitches.csv) |CSV |
+|[grass_pitches.geojson](grass_pitches.geojson) |GeoJSON |
+|[health_and_fitness_gym.csv](health_and_fitness_gym.csv) |CSV |
+|[health_and_fitness_gym.geojson](health_and_fitness_gym.geojson) |GeoJSON |
+|[ice_rinks.csv](ice_rinks.csv) |CSV |
+|[ice_rinks.geojson](ice_rinks.geojson) |GeoJSON |
+|[indoor_tennis_centre.csv](indoor_tennis_centre.csv) |CSV |
+|[indoor_tennis_centre.geojson](indoor_tennis_centre.geojson) |GeoJSON |
+|[outdoor_tennis_courts.csv](outdoor_tennis_courts.csv) |CSV |
+|[outdoor_tennis_courts.geojson](outdoor_tennis_courts.geojson) |GeoJSON |
+|[ski_slopes.csv](ski_slopes.csv) |CSV |
+|[ski_slopes.geojson](ski_slopes.geojson) |GeoJSON |
+|[sports_hall.csv](sports_hall.csv) |CSV |
+|[sports_hall.geojson](sports_hall.geojson) |GeoJSON |
+|[squash_courts.csv](squash_courts.csv) |CSV |
+|[squash_courts.geojson](squash_courts.geojson) |GeoJSON |
+|[studio.csv](studio.csv) |CSV |
+|[studio.geojson](studio.geojson) |GeoJSON |
+|[swimming_pools.csv](swimming_pools.csv) |CSV |
+|[swimming_pools.geojson](swimming_pools.geojson) |GeoJSON |
+
+<h2>Pre-processing</h2>
+[The R script used to process the data](pre-processing.R) can be adapted to other areas. For information about R visit the <a href="https://cran.r-project.org" target="_blank">CRAN website</a>.
+
+</main>
+
+<script>
+  // Fixes to dynamic elements created by DataTables to improve accessibility
+  var removeElFn = setInterval(removeElement, 1000);
+  
+  function removeElement() {
+    try {
+      var el = document.getElementsByClassName("dataTables_scrollBody")[0].childNodes[0];
+      el.removeChild(el.childNodes[0]); // Remove unwanted hidden text element from table - causing accessibility alert as it has no label
+      
+      el.parentNode.setAttribute('tabindex', '0');  // add attribute allowing keyboard users to access scrollable area
+      
+      clearInterval(removeElFn);  // cancel any further calls to this function as we have completed all actions
+    }
+    catch(e) {
+      // form element 'el' doesn't exist yet so setInterval will call the function again until it does
+    }
+  }
+</script>
