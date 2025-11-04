@@ -29,11 +29,11 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2019, 2015</td>
+	<td>2025, 2019, 2015</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Four years</td>
+	<td>4-6 years</td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -53,14 +53,10 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>26 September 2019</td>
+	<td>30 October 2025</td>
 </tr>
 <tr>
 	<td>Notes</td>
 	<td></td>
-</tr>
-<tr>
-	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=dataset_name">Explore application</a></td>
 </tr>
 </table>
