@@ -22,7 +22,7 @@ df <- read_csv("https://assets.publishing.service.gov.uk/media/68ff5daabcb10f6bf
                                   str_detect(variable, "living") ~ "Living Environment Deprivation",
                                   str_detect(variable, "idaci") ~ "Income Deprivation Affecting Children",
                                   str_detect(variable, "idaopi") ~ "Income Deprivation Affecting Older People",
-                                  TRUE ~ "Income")) %>%
+                                  TRUE ~ "Income Deprivation")) %>%
   select(area_code, area_name, la_code, la_name, measure, value, index_domain) %>%
   spread(measure, value) %>%
   mutate(area_type = "Lower-layer Super Output Area (2021)",
