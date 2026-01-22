@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2023-05-01</td>
+	<td>2026-01-01</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -53,13 +53,12 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2023-06-13</td>
+	<td>2026-01-22</td>
 </tr>
 <tr>
 	<td>Notes</td>
 	<td>
-        <p>Please read the <a href="https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice/may-2023">Publication Summary</a> for important information regarding the publication from which this dataset is derived, noting in particular the following:</p>
-        <p style="font-style: italic;">&quot;The outbreak of Coronavirus (COVID-19) has led to changes in the work of General Practices and subsequently the data within this publication. Until activity in this healthcare setting stabilises, we urge caution in drawing any conclusions from these data without consideration of the country's circumstances and would recommend that any uses of these data are accompanied by an appropriate caveat.&quot;</p>
+        <p>There is ongoing work by NHS Digital to address patient list inflation.</p>
     </td>
 </tr>
 </table>

@@ -1,28 +1,27 @@
 practice_code,practice_name,practice_postcode,registered_patients,ward_code,ward_name,msoa_code,msoa_hcl_name,locality
-P91003,PARK MEDICAL PRACTICE,WA15 7XR,6140,E05015257,Timperley Central,E02001280,Timperley East,South
-P91004,ALTRINCHAM MEDICAL PRACTICE,WA14 2DD,8278,E05015239,Altrincham,E02001283,"Altrincham West, Dunham & Warburton",South
-P91006,URMSTON GROUP PRACTICE,M41 8AA,13303,E05015245,Davyhulme,E02001265,Flixton & Moorside,West
-P91007,TIMPERLEY HEALTH CENTRE (WESTWOOD),WA15 6PH,4771,E05015257,Timperley Central,E02001279,Timperley North,South
-P91008,SHAY LANE MEDICAL CENTRE (KELMAN),WA15 8NZ,6009,E05015249,Hale Barns & Timperley South,E02001286,Hale Barns,South
-P91009,DAVYHULME MEDICAL CENTRE,M41 7WJ,11249,E05015245,Davyhulme,E02001263,Davyhulme,West
-P91011,SHAY LANE MEDICAL CENTRE (PATEL),WA15 8NZ,5803,E05015249,Hale Barns & Timperley South,E02001286,Hale Barns,South
-P91012,PRIMROSE SURGERY,M41 7AB,7323,E05015259,Urmston,E02001260,Trafford Park West & Kingsway Park,West
-P91013,BOUNDARY HOUSE MEDICAL CENTRE,M33 2RH,11526,E05015255,Sale Moor,E02001276,Sale Moor,Central
-P91014,WASHWAY ROAD MEDICAL CENTRE,M33 7SS,16301,E05015254,Sale Central,E02001273,Sale Central,Central
-P91016,WEST TIMPERLEY MEDICAL CENTRE,WA14 5PF,9565,E05015242,Broadheath,E02001282,Altrincham East,South
-P91017,BODMIN ROAD HEALTH CENTRE,M33 5JH,8950,E05015244,Bucklow-St Martins,E02001271,Ashton upon Mersey North,West
-P91018,DELAMERE MEDICAL PRACTICE,M32 0DF,14695,E05015256,Stretford & Humphrey Park,E02001269,Stretford East,North
-P91019,PARTINGTON CENTRAL SURGERY,M31 4FY,3668,E05015244,Bucklow-St Martins,E02001275,Partington,West
-P91020,LIMELIGHT HEALTH AND WELLBEING HUB,M16 9NW,9756,E05015253,Old Trafford,E02001259,Old Trafford,North
-P91021,FIRSWAY HEALTH CENTRE,M33 4BR,15139,E05015252,Manor,E02001271,Ashton upon Mersey North,Central
-P91026,PARTINGTON FAMILY PRACTICE,M31 4FL,5781,E05015244,Bucklow-St Martins,E02001275,Partington,West
-P91029,FLIXTON ROAD MEDICAL CENTRE,M41 5BG,11604,E05015259,Urmston,E02001268,Urmston West,West
-P91035,CONWAY ROAD MEDICAL PRACTICE,M33 2TB,12947,E05015243,Brooklands,E02001272,Sale East,Central
-P91603,BARRINGTON MEDICAL CENTRE,WA14 1PF,6838,E05015239,Altrincham,E02001283,"Altrincham West, Dunham & Warburton",South
-P91604,ST JOHNS MEDICAL CENTRE,WA14 1PF,17296,E05015239,Altrincham,E02001283,"Altrincham West, Dunham & Warburton",South
-P91617,FAMILY SURGERY,WA14 1LL,2683,E05015239,Altrincham,E02001282,Altrincham East,South
-P91623,VILLAGE SURGERY,WA15 6PH,5369,E05015257,Timperley Central,E02001279,Timperley North,South
-P91627,LOSTOCK MEDICAL CENTRE,M32 9PA,8643,E05015251,Lostock & Barton,E02001264,Trafford Park East & Sevenways,North
-P91629,NORTH TRAFFORD GROUP PRACTICE,M32 0PA,15214,E05015247,Gorse Hill & Cornbrook,E02001261,Gorse Hill,North
-P91631,RIDDINGS FAMILY HEALTH CENTRE,WA15 6BP,3320,E05015258,Timperley North,E02001279,Timperley North,South
-P91633,GROVE MEDICAL PRACTICE,WA15 6PH,5637,E05015257,Timperley Central,E02001279,Timperley North,South
+P91003,Park Medical Practice,WA15 7XR,7855,E05015257,Timperley Central,E02001280,Timperley East,South
+P91004,Altrincham Medical Practice,WA14 2DD,8597,E05015239,Altrincham,E02001283,"Altrincham West, Dunham & Warburton",South
+P91006,Urmston Group Practice,M41 8AA,13247,E05015245,Davyhulme,E02001265,Flixton & Moorside,West
+P91007,Timperley Health Centre (Westwood),WA15 6PH,6329,E05015257,Timperley Central,E02001279,Timperley North,South
+P91008,Shay Lane Medical Centre (Kelman),WA15 8NZ,6233,E05015249,Hale Barns & Timperley South,E02001286,Hale Barns,South
+P91009,Davyhulme Medical Centre,M41 7WJ,10804,E05015245,Davyhulme,E02001263,Davyhulme,West
+P91011,Shay Lane Medical Centre (Patel),WA15 8NZ,5386,E05015249,Hale Barns & Timperley South,E02001286,Hale Barns,South
+P91012,Primrose Surgery,M41 7AB,7573,E05015259,Urmston,E02001260,Trafford Park West & Kingsway Park,West
+P91013,Boundary House Medical Centre,M33 2RH,11271,E05015255,Sale Moor,E02001276,Sale Moor,Central
+P91014,Washway Road Medical Centre,M33 7SS,16215,E05015254,Sale Central,E02001273,Sale Central,Central
+P91016,West Timperley Medical Centre,WA14 5PF,9377,E05015242,Broadheath,E02001282,Altrincham East,South
+P91017,Bodmin Road Health Centre,M33 5JH,8842,E05015244,Bucklow-St Martins,E02001271,Ashton upon Mersey North,West
+P91018,Delamere Medical Practice,M32 0DF,14696,E05015256,Stretford & Humphrey Park,E02001269,Stretford East,North
+P91019,Partington Central Surgery,M31 4FL,3835,E05015244,Bucklow-St Martins,E02001275,Partington,West
+P91020,Limelight Health And Wellbeing Hub,M16 9NW,9229,E05015253,Old Trafford,E02001259,Old Trafford,North
+P91021,Firsway Health Centre,M33 4BR,15247,E05015252,Manor,E02001271,Ashton upon Mersey North,Central
+P91026,Partington Family Practice,M31 4FL,6683,E05015244,Bucklow-St Martins,E02001275,Partington,West
+P91029,Flixton Road Medical Centre,M41 5BG,11851,E05015259,Urmston,E02001268,Urmston West,West
+P91035,Conway Road Medical Practice,M33 2TB,13755,E05015243,Brooklands,E02001272,Sale East,Central
+P91603,Barrington Medical Centre,WA14 1PF,7694,E05015239,Altrincham,E02001283,"Altrincham West, Dunham & Warburton",South
+P91604,St Johns Medical Centre,WA14 1PF,16407,E05015239,Altrincham,E02001283,"Altrincham West, Dunham & Warburton",South
+P91617,Family Surgery,WA14 1LL,2307,E05015239,Altrincham,E02001282,Altrincham East,South
+P91623,Village Surgery,WA15 6PH,7810,E05015257,Timperley Central,E02001279,Timperley North,South
+P91627,Lostock Medical Centre,M32 9PA,8739,E05015251,Lostock & Barton,E02001264,Trafford Park East & Sevenways,North
+P91629,North Trafford Group Practice,M32 0PA,15211,E05015247,Gorse Hill & Cornbrook,E02001261,Gorse Hill,North
+P91631,Riddings Family Health Centre,WA15 6BP,3718,E05015258,Timperley North,E02001279,Timperley North,South

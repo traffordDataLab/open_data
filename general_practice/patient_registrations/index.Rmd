@@ -40,11 +40,11 @@ df <- read_csv("trafford_gp_patient_registrations.csv") %>%
   <tr>
     <td>NHS Digital</td>
     <td><a href="https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice" target="_blank">NHS Digital</a></td>
-    <td><time datetime="2023-05-01">2023-05-01</time></td>
+    <td><time datetime="2026-01-01">2026-01-01</time></td>
     <td>Electoral ward, MSOA, Trafford Locality</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2023-06-13">2023-06-13</time></td>
+    <td><time datetime="2026-01-22">2026-01-22</time></td>
   </tr>
 </table>
 
