@@ -17,7 +17,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://digital.nhs.uk/services/organisation-data-service/data-downloads/gp-and-gp-practice-related-data"></a>https://digital.nhs.uk/services/organisation-data-service/data-downloads/gp-and-gp-practice-related-data</td>
+	<td><a href="https://digital.nhs.uk/services/organisation-data-service/data-search-and-export/csv-downloads/gp-and-gp-practice-related-data">https://digital.nhs.uk/services/organisation-data-service/data-search-and-export/csv-downloads/gp-and-gp-practice-related-data</a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -29,11 +29,11 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>NA</td>
+	<td>Latest data correct at 2026-01-23</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
-	<td>Quarterly</td>
+	<td>Daily</td>
 </tr>
 <tr>
 	<td>Licence</td>
@@ -53,11 +53,11 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2023-06-14</td>
+	<td>2026-01-23</td>
 </tr>
 <tr>
 	<td>Notes</td>
-	<td>The postcodes for GP Practices are matched with centroids derived from the May 2023 release of the <a href="https://geoportal.statistics.gov.uk/datasets/ons-postcode-directory-may-2023/about">ONS Postcode Directory</a></td>
+	<td>The postcodes for GP Practices are matched with centroids derived from the November 2025 release of the <a href="https://geoportal.statistics.gov.uk/datasets/ons::ons-postcode-directory-november-2025-for-the-uk/about">ONS Postcode Directory</a></td>
 </tr>
 <tr>
 	<td>Lab visualisation</td>
