@@ -4,11 +4,11 @@
 <table>
 <tr>
 	<td>Dataset name</td>
-	<td>Built-Up Areas, 2011</td>
+	<td>Built-Up Areas, December 2024</td>
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Built-up areas in Greater Manchester as at 27 March 2011</td>
+	<td>Built-up areas in Greater Manchester as at December 2024</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -20,11 +20,11 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="http://geoportal.statistics.gov.uk/datasets/f6684981be23404e83321077306fa837_0"></a>http://geoportal.statistics.gov.uk/datasets/f6684981be23404e83321077306fa837_0</td>
+	<td><a href="https://geoportal.statistics.gov.uk/datasets/ons::built-up-areas-december-2024-boundaries-ew-bgg-v2/about</td>
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>50m grid squares</td>
+	<td>25m grid squares</td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
@@ -32,7 +32,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>March 2011</td>
+	<td>December 2024</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -44,7 +44,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains National Statistics data © Crown copyright and database right 2018</td>
+	<td>Contains National Statistics data © Crown copyright and database right 2026</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -56,7 +56,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>June 2017</td>
+	<td>Feb 2026</td>
 </tr>
 <tr>
 	<td>Notes</td>
