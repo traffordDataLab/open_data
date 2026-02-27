@@ -25,7 +25,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>As of 2025-07-16</td>
+	<td>As of 2026-02-25</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -49,6 +49,6 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2025-07-22</td>
+	<td>2026-02-27</td>
 </tr>
 </table>
