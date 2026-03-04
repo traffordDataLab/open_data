@@ -5,7 +5,7 @@
 </tr>
 <tr>
 	<td>Dataset description</td>
-	<td>Estimates of the usual resident population in Trafford during mid-2020</td>
+	<td>Estimates of the usual resident population in Trafford during mid-2024</td>
 </tr>
 <tr>
 	<td>Source</td>
@@ -13,7 +13,7 @@
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualmidyearpopulationestimates/mid2020">Office for National Statistics</a></a></td>
+	<td><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/censusoutputareapopulationestimatessupportinginformation">Office for National Statistics</a></a></td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -25,7 +25,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>Mid-2020</td>
+	<td>Mid-2024</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -49,6 +49,6 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2021-09-17</td>
+	<td>2026-03-04</td>
 </tr>
 </table>
