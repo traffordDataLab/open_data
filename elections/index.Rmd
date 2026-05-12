@@ -84,7 +84,7 @@ datatable(df,
 |[trafford_council_election_results.csv](trafford_council_election_results.csv) |CSV |
 
 <h2>Notes</h2>
-Conforms to the specification described in the <a href="http://e-sd.org/vgTJ3" target="_blank">local transparency guidance - publishing elections results data</a> document by the Local Government Association.
+Conforms to the specification described in the <a href="https://files.esd.org.uk/vgTJ3" target="_blank">local transparency guidance - publishing elections results data</a> document by the Local Government Association.
 
 </main>
 
