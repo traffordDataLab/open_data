@@ -13,11 +13,11 @@
 </tr>
 <tr>
 	<td>Publisher</td>
-	<td>Transport for Greater Manchester</td>
+	<td>Transport for Greater Manchester/DFT</td>
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data"></a>https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data</td>
+	<td><a href="https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data"></a>https://data.gov.uk/dataset/25170a92-0736-4090-baea-bf6add82d118/gm-road-casualty-accidents-full-stats19-data, <a href="https://www.gov.uk/government/statistical-data-sets/road-safety-open-data"></a>https://www.gov.uk/government/statistical-data-sets/road-safety-open-data</td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2010-2021</td>
+	<td>2010-2025</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -41,7 +41,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains OSdata © Crown copyright and database rights 2023</td>
+	<td>Contains OSdata © Crown copyright and database rights 2025</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>August 2023</td>
+	<td>Jun 2026</td>
 </tr>
 <tr>
 	<td>Notes</td>

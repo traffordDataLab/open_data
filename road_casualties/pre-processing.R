@@ -9,16 +9,24 @@ library(tidyverse) ; library(lubridate) ; library(sf)
 
 # download data ---------------------------
 
-accident <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-provisional-mid-year-unvalidated-2024.csv")
+ #accident2 <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-provisional-mid-year-unvalidated-2024.csv")
+# 
+# casualty <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-casualty-provisional-mid-year-unvalidated-2024.csv")
+# 
+# accident5y <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-last-5-years.csv") %>%
+#   rename(collision_index = accident_index, legacy_collision_severity = accident_severity) %>%
+#   mutate(location_easting_osgr = as.numeric(location_easting_osgr), location_northing_osgr = as.numeric(location_northing_osgr))
+# 
+# casualty5y <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-casualty-last-5-years.csv") %>%
+#   rename(collision_index = accident_index)
 
-casualty <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-casualty-provisional-mid-year-unvalidated-2024.csv")
+accident <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-provisional-2025.csv")
 
-accident5y <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-last-5-years.csv") %>%
-  rename(collision_index = accident_index, legacy_collision_severity = accident_severity) %>%
-  mutate(location_easting_osgr = as.numeric(location_easting_osgr), location_northing_osgr = as.numeric(location_northing_osgr))
+casualty <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-casualty-provisional-2025.csv")
 
-casualty5y <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-casualty-last-5-years.csv") %>%
-  rename(collision_index = accident_index)
+accident5y <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-last-5-years.csv") 
+
+casualty5y <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-casualty-last-5-years.csv") 
 
 
 # merge and recode data  --------------------------
@@ -49,7 +57,7 @@ casualty5y <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-r
            TRUE ~ "Other Vehicle"),
          mode = factor(mode),
          # collision severity
-         collision_severity = fct_recode(as.factor(legacy_collision_severity), 
+         collision_severity = fct_recode(as.factor(collision_severity), 
                                          "Fatal" = "1", "Serious" = "2", "Slight" = "3"),
          # casualty severity
          casualty_severity = fct_recode(as.factor(casualty_severity), 
@@ -89,8 +97,8 @@ casualties <- select(casualties, AREFNO = collision_index, date, year, month, da
   
 
 # write data ---------------------------
-write_csv(casualties, "STATS19_road_casualties_2019-Jun2024.csv")
+write_csv(casualties, "STATS19_road_casualties_2020-Jun2025.csv")
 st_as_sf(casualties, coords = c("lon", "lat")) %>% 
   st_set_crs(4326) %>% 
-  st_write("STATS19_road_casualties_2019-Jun2024.geojson", driver = "GeoJSON")
+  st_write("STATS19_road_casualties_2020-Jun2025.geojson", driver = "GeoJSON")
 
