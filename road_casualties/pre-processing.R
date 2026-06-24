@@ -9,17 +9,6 @@ library(tidyverse) ; library(lubridate) ; library(sf)
 
 # download data ---------------------------
 
- #accident2 <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-provisional-mid-year-unvalidated-2024.csv")
-# 
-# casualty <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-casualty-provisional-mid-year-unvalidated-2024.csv")
-# 
-# accident5y <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-last-5-years.csv") %>%
-#   rename(collision_index = accident_index, legacy_collision_severity = accident_severity) %>%
-#   mutate(location_easting_osgr = as.numeric(location_easting_osgr), location_northing_osgr = as.numeric(location_northing_osgr))
-# 
-# casualty5y <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-casualty-last-5-years.csv") %>%
-#   rename(collision_index = accident_index)
-
 accident <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-provisional-2025.csv")
 
 casualty <- read_csv("https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-casualty-provisional-2025.csv")
