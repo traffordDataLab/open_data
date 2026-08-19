@@ -20,7 +20,7 @@
 </tr>
 <tr>
 	<td>Publisher URL</td>
-	<td><a href="https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-roads.html"></a>https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-roads.html</td>
+	<td><a href="https://osdatahub.os.uk/data/downloads/open/OpenRoads"></a>https://osdatahub.os.uk/data/downloads/open/OpenRoads</td>
 </tr>
 <tr>
 	<td>Geography</td>
@@ -32,7 +32,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>November 2017</td>
+	<td>April 2026</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -44,7 +44,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>Contains Ordnance Survey data © Crown copyright and database right 2018</td>
+	<td>Contains Ordnance Survey data © Crown copyright and database right 2026</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -56,7 +56,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>March 2018</td>
+	<td>August 2026</td>
 </tr>
 <tr>
 	<td>Notes</td>

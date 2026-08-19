@@ -1,7 +1,7 @@
 ## OS Open Roads ##
 
 # Source: Ordnance Survey
-# Publisher URL: https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-roads.html
+# Publisher URL: https://osdatahub.os.uk/data/downloads/open/OpenRoads
 # Licence: Open Government Licence 3.0
 
 # load necessary packages ---------------------------
@@ -9,13 +9,18 @@ library(sf) ; library(tidyverse) ; library(rmapshaper)
 
 # load geospatial data ---------------------------
 
-# Trafford local authority boundary
-trafford <- st_read("https://opendata.arcgis.com/datasets/ae90afc385c04d869bc8cf8890bd1bcd_1.geojson") %>% 
-  filter(lad17nm == "Trafford") %>% 
-  select(area_code = lad17cd, area_name = lad17nm)
-trafford <- st_transform(trafford, 4326)
+# Create a string object with the name of your local authority
+id <- "Trafford"
+
+# Retrieve the local authority boundary
+# Source: ONS Open Geography Portal
+la <- st_read(paste0("https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_DEC_2025_Boundaries_UK_BFC/FeatureServer/0/query?where=UPPER(LAD25NM)%20like%20'%25", URLencode(toupper(id), reserved = TRUE), "%25'&outFields=*&outSR=4326&f=geojson"), quiet = TRUE) %>% 
+  select(area_code = LAD25CD, area_name = LAD25NM)
 
 # OS Open Road
+  
+url <- "https://api.os.uk/downloads/v1/products/OpenRoads/downloads?area=GB&format=ESRI%C2%AE+Shapefile&redirect"
+download.file(url = url, destfile = "oproad_essh_gb.zip", mode = "wb")
 unzip("oproad_essh_gb.zip")
 file.remove("oproad_essh_gb.zip")
 
@@ -29,14 +34,17 @@ motorwayJunction <- st_read("data/SJ_MotorwayJunction.shp")
 motorwayJunction <- st_transform(motorwayJunction, 4326)
 
 # intersect data ---------------------------
-trafford_roadLink <- st_intersection(roadLink, trafford) 
-plot(st_geometry(trafford_roadLink))
+trafford_roadLink <- st_intersection(roadLink, la) 
 
-trafford_roadNode <- st_intersection(roadNode, trafford) 
-plot(st_geometry(trafford_roadNode))
+ggplot(data = trafford_roadLink) + geom_sf()
+  
+trafford_roadNode <- st_intersection(roadNode, la)
 
-trafford_motorwayJunction <- st_intersection(motorwayJunction, trafford) 
-plot(st_geometry(trafford_motorwayJunction))
+ggplot(data = trafford_roadNode) + geom_sf()
+
+trafford_motorwayJunction <- st_intersection(motorwayJunction, la)
+
+ggplot(data = trafford_motorwayJunction) + geom_sf()
 
 # write data  ---------------------------
 st_write(trafford_roadLink, "trafford_roadLink.geojson", driver = "GeoJSON")
@@ -45,4 +53,5 @@ st_write(trafford_motorwayJunction, "trafford_motorwayJunction.geojson", driver 
 
 # simplify data  ---------------------------
 trafford_roadLink_simplified <- ms_simplify(trafford_roadLink, keep = 0.01, keep_shapes = T) # keep 1% of the points
+ggplot(data = trafford_roadLink_simplified) + geom_sf()
 st_write(trafford_roadLink_simplified, "trafford_roadLink_simplified.geojson")
