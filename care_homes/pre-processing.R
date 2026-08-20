@@ -12,7 +12,7 @@ postcodes <- read_csv("https://github.com/traffordDataLab/spatial_data/raw/maste
   select(postcode, lon, lat)
 
 # load and tidy data ---------------------------
-df <- read_csv("https://www.cqc.org.uk/sites/default/files/2026-02/25_February_2026_CQC_directory.csv", skip = 4) %>% 
+df <- read_csv("https://www.cqc.org.uk/system/files/2026-08/19_August_2026_CQC_directory.csv", skip = 4) %>% 
   filter(str_detect(`Service types`, "Nursing homes|Residential homes") & 
          `Local authority` == "Trafford") %>%
   select(name = Name, cqc_id = `CQC Location ID (for office use only)`, type = `Service types`, 
