@@ -17,7 +17,7 @@
 </tr>
 <tr>
 	<td>Geography</td>
-	<td>Local Authority, MSOA, LSOA, OA, Electoral Ward</td>
+	<td>Local Authority, MSOA, LSOA, OA, Electoral Ward, Postcode</td>
 </tr>
 <tr>
 	<td>Geographic coverage</td>
@@ -49,6 +49,6 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2023-06-02</td>
+	<td>2026-09-04</td>
 </tr>
 </table>

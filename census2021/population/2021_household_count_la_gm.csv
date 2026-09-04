@@ -1,0 +1,11 @@
+area_code,area_name,geography,period,indicator,measure,unit,value
+E08000001,Bolton,Local authority,2021-03-21,Number of households,Count,Households,118790
+E08000002,Bury,Local authority,2021-03-21,Number of households,Count,Households,80696
+E08000003,Manchester,Local authority,2021-03-21,Number of households,Count,Households,214732
+E08000004,Oldham,Local authority,2021-03-21,Number of households,Count,Households,93140
+E08000005,Rochdale,Local authority,2021-03-21,Number of households,Count,Households,90223
+E08000006,Salford,Local authority,2021-03-21,Number of households,Count,Households,115116
+E08000007,Stockport,Local authority,2021-03-21,Number of households,Count,Households,126648
+E08000008,Tameside,Local authority,2021-03-21,Number of households,Count,Households,99527
+E08000009,Trafford,Local authority,2021-03-21,Number of households,Count,Households,96269
+E08000010,Wigan,Local authority,2021-03-21,Number of households,Count,Households,143105

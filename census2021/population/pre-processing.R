@@ -1,5 +1,5 @@
 # Population and household data from Census 2021 data
-# Initially created: 2022-11-02, modified: 2023-06-02 James Austin.
+# Initially created: 2022-11-02, modified: 2026-09-04 James Austin.
 # Source: Office for National Statistics https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/populationandhouseholdestimatesenglandandwales/census2021unroundeddata
 
 # NOTE: Data can be downloaded locally via the URL above or via NOMIS API as shown in code below
@@ -511,3 +511,157 @@ df_household_size_ward <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/N
            unit = "Households") %>%
     select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
     write_csv("2021_household_size_ward_trafford.csv")
+
+
+# TS041 - Household count (households) ---------------------------
+
+# LA (GM)
+df_household_count_la <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2059_1.data.csv?date=latest&geography=1778385124...1778385133&c2021_hh_1=0&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HH_1_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Local authority",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_count_la_gm.csv")
+
+
+# MSOA (Trafford)
+df_household_count_msoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2059_1.data.csv?date=latest&geography=637535406...637535433&c2021_hh_1=0&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HH_1_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Middle-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_count_msoa_trafford.csv")
+
+
+# LSOA (Trafford)
+df_household_count_lsoa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2059_1.data.csv?date=latest&geography=633345696...633345699,633345774,633371946,633371947,633345703...633345706,633345708,633345728,633345772,633345773,633345775,633345700...633345702,633345732,633345733,633345709...633345711,633345715,633345718,633345742,633345744,633345746,633345769,633345770,633345712...633345714,633345717,633345719,633345743,633345745,633345766,633345771,633345784...633345788,633345707,633345716,633345720,633345783,633345789,633345729...633345731,633345767,633345768,633345734,633345736,633345737,633345741,633345752,633345753,633345756...633345758,633345685,633345686,633345751,633345761,633345765,633345684,633345747...633345750,633345735,633345738...633345740,633345759,633345691...633345695,633345689,633345760,633345762...633345764,633345678,633345679,633345682,633345754,633345755,633345677,633345681,633345683,633345687,633345690,633345688,633345776,633345781,633345782,633345796,633345790,633345792...633345794,633345797,633345680,633345777,633345778,633345791,633345795,633345665,633345667,633345676,633345779,633345780,633345661...633345663,633345666,633345674,633345670,633345671,633345675,633345726,633345727,633345664,633345668,633345669,633345672,633345673,633345721...633345725&c2021_hh_1=0&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HH_1_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Lower-layer Super Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_count_lsoa_trafford.csv")
+
+
+# OA (Trafford)
+df_household_count_oa <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2059_1.data.csv?date=latest&geography=629174437...629175131,629304895...629304912,629315184...629315186,629315192...629315198,629315220,629315233,629315244,629315249,629315255,629315263,629315265,629315274,629315275,629315278,629315281,629315290,629315295,629315317,629315327&c2021_hh_1=0&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HH_1_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Output Area",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_count_oa_trafford.csv")
+
+
+# Ward (Trafford)
+df_household_count_ward <- read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2059_1.data.csv?date=latest&geography=641728593...641728607,641728609,641728608,641728610...641728613&c2021_hh_1=0&measures=20100") %>%
+    rename(area_code = GEOGRAPHY_CODE,
+           area_name = GEOGRAPHY_NAME,
+           indicator = C2021_HH_1_NAME,
+           value = OBS_VALUE
+    ) %>%
+    mutate(geography = "Electoral ward",
+           area_name = str_replace(area_name, " \\(Trafford\\)", ""), # Some wards which share the same name with other LAs are suffixed with the LA name in brackets)
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Households") %>%
+    select(area_code, area_name, geography, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_count_ward_trafford.csv")
+
+
+# Population and households by postcode ---------------------------
+# Postcodes in Greater Manchester (GM) - to join to population and household data
+df_postcodes_gm <- read_csv("https://www.trafforddatalab.io/spatial_data/postcodes/gm_postcodes.csv") %>%
+    select(postcode, la_code, la_name)
+
+
+# Population by postcode 
+df_pop_by_sex_postcode_raw <- read_csv("https://www.nomisweb.co.uk/output/census/2021/pcd_p001.csv")
+
+# Tidy up the raw data first, renaming the variables and choosing only what we need
+df_pop_by_sex_postcode <- df_pop_by_sex_postcode_raw %>%
+    clean_names() %>%
+    rename(indicator = sex_2_categories_label,
+           value = count) %>%
+    select(postcode, indicator, value)
+
+# Calculate the total population figures, adding the Female and Male counts together
+df_pop_by_postcode <- df_pop_by_sex_postcode %>%
+    group_by(postcode) %>%
+    summarise(indicator = "All persons",
+              value = sum(value))
+
+# Bind both datasets together into one, so we have population by All persons, Female, Male
+df_pop_by_sex_postcode <- bind_rows(df_pop_by_sex_postcode, df_pop_by_postcode)
+
+# Join the population and GM postcodes datasets together to filter out just population by postcode for GM, and put into the same schema as the other datasets
+# NOTE: specifically using the lossy inner join here as we don't need postcodes outside of GM and we don't need any new GM postcodes which don't match to the population data
+df_pop_by_sex_postcode_gm <- inner_join(df_pop_by_sex_postcode, df_postcodes_gm, by = "postcode") %>%
+    rename(area_code = postcode,
+           local_authority_code = la_code,
+           local_authority_name = la_name) %>%
+    mutate(area_name = area_code, # with postcodes, both area_code and area_name are the same
+           geography = "Postcode",
+           period = "2021-03-21",
+           measure = "Count",
+           unit = "Persons") %>%
+    arrange(area_code, indicator) %>%
+    select(area_code, area_name, geography, local_authority_code, local_authority_name, period, indicator, measure, unit, value) %>%
+    write_csv("2021_population_by_sex_postcode_gm.csv")
+
+# Filter to just the Trafford postcodes
+df_pop_by_sex_postcode_trafford <- df_pop_by_sex_postcode_gm %>%
+    filter(local_authority_name == "Trafford") %>%
+    select(-local_authority_code, -local_authority_name) %>%
+    write_csv("2021_population_by_sex_postcode_trafford.csv")
+
+
+# Households by postcode - only minor variable renaming needed
+df_household_size_postcode <- read_csv("https://www.nomisweb.co.uk/output/census/2021/pcd_p002.csv") %>%
+    rename(postcode = Postcode,
+           value = Count)
+
+# Join the household size and GM postcodes datasets together to filter out just households by postcode for GM, and put into the same schema as the other datasets
+# NOTE: specifically using the lossy inner join here as we don't need postcodes outside of GM and we don't need any new GM postcodes which don't match to the household data
+df_household_size_postcode_gm <- inner_join(df_household_size_postcode, df_postcodes_gm, by = "postcode") %>%
+    rename(area_code = postcode,
+           local_authority_code = la_code,
+           local_authority_name = la_name) %>%
+    mutate(area_name = area_code, # with postcodes, both area_code and area_name are the same
+           geography = "Postcode",
+           period = "2021-03-21",
+           indicator = "Number of households",
+           measure = "Count",
+           unit = "Households") %>%
+    arrange(area_code) %>%
+    select(area_code, area_name, geography, local_authority_code, local_authority_name, period, indicator, measure, unit, value) %>%
+    write_csv("2021_household_count_postcode_gm.csv")
+
+# Filter to just the Trafford postcodes
+df_household_size_postcode_trafford <- df_household_size_postcode_gm %>%
+    filter(local_authority_name == "Trafford") %>%
+    select(-local_authority_code, -local_authority_name) %>%
+    write_csv("2021_household_count_postcode_trafford.csv")
+

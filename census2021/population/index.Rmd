@@ -45,10 +45,10 @@ df <- read_csv("2021_population_by_sex_and_age_group_wide_la_gm.csv") %>%
     <td>Office for National Statistics</td>
     <td><a href="https://www.ons.gov.uk/census" target="_blank">Office for National Statistics</a></td>
     <td><time datetime="2021-03-21">2021-03-21</time></td>
-    <td>Local authority (<abbr>LA<abbr>), Middle-layer Super Output Area (<abbr>MSOA</abbr>), Lower-layer Super Output Area (<abbr>LSOA</abbr>), Output Area (<abbr>OA</abbr>), Electoral Ward (<abbr>Ward</abbr>)</td>
+    <td>Local authority (<abbr>LA<abbr>), Middle-layer Super Output Area (<abbr>MSOA</abbr>), Lower-layer Super Output Area (<abbr>LSOA</abbr>), Output Area (<abbr>OA</abbr>), Electoral Ward (<abbr>Ward</abbr>), Postcode</td>
     <td><a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">OGL v3.0</a></td>
     <td>Contains public sector information licensed under the Open Government Licence v3.0</td>
-    <td><time datetime="2023-06-02">2023-06-02</time></td>
+    <td><time datetime="2026-09-04">2026-09-04</time></td>
   </tr>
 </table>
 
@@ -112,6 +112,7 @@ datatable(df,
 |[2021_population_by_sex_lsoa_trafford.csv](2021_population_by_sex_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
 |[2021_population_by_sex_oa_trafford.csv](2021_population_by_sex_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
 |[2021_population_by_sex_ward_trafford.csv](2021_population_by_sex_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
+|[2021_population_by_sex_postcode_trafford.csv](2021_population_by_sex_postcode_trafford.csv) |Postcode |
 
 <h3>Population density (Persons)</h3>
 |File name |Geography |
@@ -126,6 +127,16 @@ datatable(df,
 |File name |Geography |
 |---|---|
 |[1981-2021_population_density_la_gm.csv](1981-2021_population_density_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+
+<h3>Household count (Households)</h3>
+|File name |Geography |
+|---|---|
+|[2021_household_count_la_gm.csv](2021_household_count_la_gm.csv) |<abbr title="Local Authority">LA</abbr> |
+|[2021_household_count_msoa_trafford.csv](2021_household_count_msoa_trafford.csv) |<abbr title="Middle-layer Super Output Area">MSOA</abbr> |
+|[2021_household_count_lsoa_trafford.csv](2021_household_count_lsoa_trafford.csv) |<abbr title="Lower-layer Super Output Area">LSOA</abbr> |
+|[2021_household_count_oa_trafford.csv](2021_household_count_oa_trafford.csv) |<abbr title="Output Area">OA</abbr> |
+|[2021_household_count_ward_trafford.csv](2021_household_count_ward_trafford.csv) |<abbr title="Electoral Ward">Ward</abbr> |
+|[2021_household_count_postcode_trafford.csv](2021_household_count_postcode_trafford.csv) |Postcode |
 
 <h3>Household composition (Households)</h3>
 |File name |Geography |
