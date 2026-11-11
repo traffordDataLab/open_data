@@ -29,7 +29,7 @@
 </tr>
 <tr>
 	<td>Temporal coverage</td>
-	<td>2024-10-30</td>
+	<td>2026-11-03</td>
 </tr>
 <tr>
 	<td>Update frequency</td>
@@ -41,7 +41,7 @@
 </tr>
 <tr>
 	<td>Attribution</td>
-	<td>© Environment Agency copyright and/or database right 2025. All rights reserved.</td>
+	<td>© Environment Agency copyright and/or database right 2026. All rights reserved.</td>
 </tr>
 <tr>
 	<td>Format</td>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
 	<td>Last updated</td>
-	<td>2025-02-21</td>
+	<td>2026-11-11</td>
 </tr>
 <tr>
 	<td>Notes</td>
@@ -61,6 +61,6 @@
 </tr>
 <tr>
 	<td>Lab visualisation</td>
-	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/maps/explore/index.html?dataset=flood_risk">Explore application</a>.</td>
+	<td>View data within the Lab's <a href="https://www.trafforddatalab.io/explore/#dataset=flood_risk">Explore application</a>.</td>
 </tr>
 </table>

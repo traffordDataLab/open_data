@@ -5,7 +5,7 @@
 #                NOTE: previous dataset now retired: https://www.data.gov.uk/dataset/bad20199-6d39-4aad-8564-26a46778fd94/risk-of-flooding-from-rivers-and-sea
 # Licence: Open Government Licence 3.0
 # Attribution: (C) Environment Agency copyright and/or database right 2025. All rights reserved.
-# Last Updated: 2025-02-20
+# Last Updated: 2026-11-11
 # Update frequency: Quarterly
 # The dataset is downloaded from https://environment.data.gov.uk/explore/96ab4342-82c1-4095-87f1-0082e8d84ef1?download=true by uploading a bounding polygon around Trafford. This file is large ~40MB.
 
@@ -53,7 +53,7 @@ get_flood_risk <- function(raw_data_filename) {
     read_sf(raw_data_filename) %>%
     rename(flood_risk = risk_band) %>%
     filter(st_geometry_type(geometry) != "POINT") %>% # Just in case there is any point data, remove it as this will show up as a marker pin on the map which will be confusing. The previous version of this dataset had 6 within Trafford.
-    select(object_id = objectid, flood_risk, geometry)
+    select(object_id = id, flood_risk, geometry)
 }
 
 
